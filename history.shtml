@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Project History</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta content="Project History for the Pale Moon Project" name="description"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"></th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>History of the Pale Moon project<br>
+      </h1>
+This project started off as merely fiddling with the build process on
+Windows, seeing first off if I could manage to make my own Windows
+build of the Firefox browser and then seeing how my own builds compared
+to
+official ones. Finding the difference significant, the resulting
+browsers (simply "my own Firefox builds") were given to a number of
+friends to use, with very positive results.<br>
+This was back in the time when Firefox was still in its 1.5.x stage.<br>
+      <br>
+I have since built Firefox, Thunderbird and Seamonkey specifically for
+different systems, gaining experience, learning the quirks and
+following code development. Eventually, with Firefox 3.5.2, I settled
+on what
+I found was an optimal compromise between speed, features and
+useability of the browser. At that point in time, the Pale Moon project
+was given shape, releasing the highly optimized browser to the public
+from Oct 4th, 2009.<br>
+      <br>
+Since its release, it has become rather popular, with no less than
+15,000 visits to the home page just in the first month of release. With
+many downloads from a wide range of locations, not all of them
+monitored or counted, it is anyone's guess how many people are actually
+using it, but it has surpassed anything that was initially expected.
+      <br>
+      <br>
+Feedback has been positive, and as a result of several requests from
+people, a second build version was created of Pale Moon, to cater
+specifically to the capabilities of Athlon XP and Athlon MP processors,
+still extremely popular processors for systems used at the time. Later
+on, a portable version was also created to allow people to take Pale
+Moon with them on USB stick or removable drives.<br>
+      <br>As
+the source code developed, so did Pale Moon, and a few major changes
+have been made with the transition from 3.5 to 3.6 versions, and later
+on to separate Pale Moon installations from Firefox ones. Always
+attempting to strike a balance, some minor features were removed, and
+later added again; feedback from the users has always been taken into
+account, and the development of Pale Moon has therefore been given
+shape, in part, by its users.<br>
+      <br>
+When version 4.0 of the Firefox code arrived, after extensive betas,
+Pale Moon deviated further from its sibling by also making changes to
+the standard UI (User Interface) layout. UI design choices made to
+"innovate" the user interface, removing quite essential user feedback
+and changing the layout of navigation controls were considered to be
+poor choices, and have been altered to provide a more familiar, and
+also more intuitive, interface to the browser.<br>
+At this point it was also decided to keep developing the 3.6.x branch
+separately, while version 4 and later became the "next generation"
+branch.<br>
+      <br>
+An accelerated major version release scheme was started on in early
+2011, with ambitious plans by Mozilla to make faster changes to
+Firefox. When version 5.0 arrived, though, it turned out to be a
+release that could just as well have been numbered 4.1 or similar, as
+there was surprisingly little that had changed, apart from correcting
+some mistakes made in the implementation of 4.0. 5.0 can therefore best
+be considered a "bugfix release" of 4.0, and not really a new product.<br>
+Version 6.0 saw a similarly small amount of changes and both 5.0 and
+6.0 have been considered to be a continuation of the "next generation"
+branch of the Firefox product started with version 4.0. As such, 4.0
+and 5.0 were discontinued for Pale Moon. This trend was continued for later versions.<br>
+      <br>
+In Oct 2011 a new milestone was reached with Pale Moon 7: better
+resource use, faster code, and maturation of the code base to a level
+where 3.x now became depreciated in favor of this version - still,
+the old branch continued to be supported and developed because there
+was still a clear need for it, and remained the browser of choice for "special needs" environments.<br>
+      <br>
+From this point on, development on the Next Generation (versions 4 and
+up) branch continued, following Mozilla Firefox for most major
+releases, while the 3.6.x (Legacy) branch continued to see patches for
+bugfixes, security issues and some performance improvements, including
+continued support beyond Mozilla's EOL (End Of Life) date for the 3.x
+branch.
+Inevitably, though, the older engine stopped falling short of its
+intended purpose, and as more and more sites became problematic, the
+legacy branch was discontinued in the summer of 2012.<br>
+      <br>
+April 2012 saw another milestone with the release of version 12, at
+which point the release schedule stopped following Mozilla's rapid
+release
+schedule of Firefox. From this point on, development of Pale Moon
+became fully
+independent and more specifically aimed at refining the engine and
+features and implementing additional, Pale Moon specific features. From
+this point forward, Pale Moon diverged from its sibling with each
+release into a separate, independent browser not longer necessarily
+tied to Firefox code development, although a close parallel was
+maintained for extension compatibility.<br>
+      <br>
+With the release of Firefox 24 (and Pale Moon of the same version),
+Pale Moon's already divergent development direction started to more
+clearly separate from Firefox than it had already done before, by
+focusing much more strongly on individual development of interface,
+features and back-end, while adopting continued security updates
+through Firefox's ESR channel. After a year of this development (and
+turbulent times for Firefox with the growing dislike for the decisions
+made about the browser by their development and management teams), the
+decision was made for Pale Moon to completely and decisively break the
+existing direct ties with Firefox (in the form of how it identifies
+itself) and be a completely independent force on the browser market.<br>
+      <br>
+<h3>Future directions</h3>The
+outline Mozilla has sketched seems to be to make Firefox more
+than a browser, and to spread thin across different disciplines and
+platforms in an
+attempt to make a web-OS or swiss army knife out of it, as well as
+increasing ties with on-line commercial ventures like Google. These
+plans may look nice on paper, but would most likely see a vast
+amount of practical issues when trying to implement them.<br>
+In addition, Mozilla touting minor bugfix releases of Firefox as
+"major" releases (for the inherent buzz as many review sites feel
+compelled to write an article with each major version release) and
+constant changes in the browser (best left to beta channels) being
+forced upon everyone has clearly led to "user fatigue" and even more so
+"developer fatigue" where both users and extension developers get tired
+of constantly having to change their way of working and coding, respectively.<br>
+      <h3>Australis</h3>
+Pale Moon will continue to use the well-known, fully customizable user interface, and will
+not be following Mozilla's (and alternative rebuilds) move to the "Australis" user interface (by a
+number of people dubbed "FireChrome" because of its likeness with
+Google's Chrome browser interface) introduced in Firefox 29.<br>
+Instead, the current plan for Pale Moon is to stick to a stable,
+solid, and easily maintainable base code that started off as Firefox 24 ESR (with a
+number of reverted changes to keep maximum configurability as well as
+important updates ported back from later Firefox versions) and to
+maintain this code base for as long as it is feasible. If a later
+version of the code base will eventually be switched to, it will <span style="font-weight: bold;">only</span>
+be done on the premise that current configurability and customization
+capability is retained.<br>
+      <h3>Bottom line</h3>
+
+      <span style="font-weight: bold;">Pale Moon aims to remain what it is at its heart: a fully customizable web browser.</span><br>
+"Added tools" are nice, but may not be adopted in Pale Moon if they go
+beyond what should normally be part of a web browser for general use.<br><br>
+      <!--#include virtual="nav/footer.html" -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>

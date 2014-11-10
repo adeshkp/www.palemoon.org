@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+<tr align="left">
+<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+<br>
+</td>
+</tr>
+    <tr>
+<td style="vertical-align: top;">
+      <h1>Contributed builds of Pale Moon</h1>The
+following list is a list of endorsed third party builds of Pale Moon.
+If the browser is not in this list, it is not an authorized
+redistribution/build. <span style="font-weight: bold;">Please note that these third-party builds may lag behind the main-line releases of Pale Moon.</span><br>
+      <br>
+Alternate operating systems/configurations:<br>
+      <ul>
+        <li><a href="http://pm4linux.sourceforge.net/">PM4Linux</a>: Pale Moon
+builds for Linux by access2godzilla/cyansmoker and the rest of the PM4Linux team.<br>
+For support, you can use the dedicated <a href="http://forum.palemoon.org/viewforum.php?f=37" target="_blank">Linux board on the forum</a>.</li>
+        
+        <li><a href="http://binaryoutcast.com/software/projects/sumozi/">Pale Moon "Sumozi"</a> by Matt A. Tobin. (discontinued)<br>
+A rebuild of Pale Moon from official source re-enabling features disabled by default.</li>
+        <li><a href="http://binaryoutcast.com/software/projects/pm4xp/">Pale Moon for Windows XP</a> by Matt A. Tobin.<br>
+A rebuild of Pale Moon from official source specifically for Windows XP users.<br>
+        </li>
+</ul>Processor-specific rebuilds:<br>
+      <ul>
+        <li><a href="ftp://AVX:get@ftp.palemoon.org/">AVX build (x86/x64)</a> by Accel.<br>
+
+Note: this requires an AVX-capable CPU (latest generations Intel or AMD)</li>
+        <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman &#352;tefko<br>
+A rebuild of Pale Moon from official source catering to particularly old processors that don't support SSE2.<br>
+        </li>
+
+
+
+      </ul>
+<br>
+To be listed here, you have to contact me and get permission. <span style="font-weight: bold;">It
+is the only way to be authorized to redistribute a modified binary
+version of Pale Moon with the <span style="text-decoration: underline;">official name and logo</span> in any way, shape
+or form.</span> Binaries are subject to the proprietary Pale Moon <a href="redist.shtml">redistribution license</a>. Please read this license thoroughly if you want to redistribute Pale Moon in any way.<br style="color: black;">
+      <span style="color: black;">You will have to supply me with a copy of the browser as-intended for distribution for me to check.<br>
+      <br>
+Contributed builds must:</span><br>
+      <ul>
+        <li>Only include neutral content, i.e. not be loaded with vendor/advertiser specific extensions</li>
+        <li>Not contain malware of any kind!</li>
+        <li>Not be altered significantly after approval has been given without sending it in again for a re-check.<br>
+        </li>
+      </ul>
+      <span style="color: rgb(204, 0, 0);">Want to add your build as an endorsed one? </span><a href="contact/">Contact me!</a><br>
+
+        
+
+      <br>
+<a href="/">[&lt;- Back]</a><br>
+
+</td></tr>
+
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+      <!--#include virtual="nav/footer.html" -->
+      <br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>

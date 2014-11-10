@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+  
+  <meta content="Pale Moon's currently known issues" name="description"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"></th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Known issues in the current version</h1>
+      <h3>Development notes<br>
+      </h3>
+The Pale Moon browser, at any point in time, may have a number of known
+issues. These known issues will usually be addressed in the next
+release of the browser, or it may be something that people have noticed
+and are mentioned here because they are <span style="color: rgb(102, 102, 204);">"by design"</span>, i.e.: issues
+people have asked about, are known, and are this way on purpose.<br>
+For each issue, check the status for intended action to be taken in
+development (if any) and intended timeline (if applicable).<br>
+      <br>
+      <span style="font-weight: bold;"></span><span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><br>
+      <span style="font-weight: bold;">Known issues in 25.0.1:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
+Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font
+rendering. This is caused
+by a deep-rooted issue in the graphics rendering back-end that requires
+time to research.<br>
+Effects are only aesthetic in nature and non-breaking.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 51, 204);">[Research]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> disable
+hardware acceleration</li>
+        
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">A number of Firefox extensions are missing browser interface elements</span><br>
+This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the extension.<br>
+More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 0, 0);">Caused by extension restrictions</span><br>
+          <span style="font-weight: bold;">Fix: </span>Contact the extension author and have them update their extension to include support for Pale Moon<br>
+          <span style="font-weight: bold;">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated version for Pale Moon 25+<br>
+          <span style="font-weight: bold;">Workaround (advanced):</span> manually edit chrome.manifest inside the extension archive (<a href="https://forum.palemoon.org/viewtopic.php?f=44&amp;t=5883" target="_blank">see forum</a>)<br>
+          <br>
+        </li>
+
+
+
+      </ol>
+      <span style="font-weight: bold;"> </span>
+      <!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
+at this time</span><span style="font-weight: bold;"></span><br> -->
+<span style="font-weight: bold;"><br>
+Known issues in all versions:</span><br>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The
+browser creates directories under %APPDATA%\Mozilla, specifically
+Mozilla\Extensions</span><br>
+These directories are related to the underlying Mozilla extension code (<span style="font-weight: bold;">Pale Moon is a Mozilla-based browser</span>)
+and stores extension IDs there. This issue is completely harmless and
+non-breaking; in fact, having (all) Mozilla-based applications use this
+one central location for extension IDs is desired.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(102, 102, 204);">[By Design]</span></li>
+      </ol>
+      <hr style="width: 100%; height: 2px;">
+      <h2>Known issues in previous versions</h2>
+Because issues in previous versions may still apply to what people are
+running, here is a recap of previous, still recent versions that <span style="font-weight: bold;">have been fixed</span>, and potential <span style="font-weight: bold;">workarounds</span>:<br>
+      <br>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><span style="font-weight: bold;">25.0.1:<br>
+</span>
+      <ul>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Add-on update checks don't work</span><br>
+This is caused by a hidden, undocumented feature in the Mozilla code
+that requires a very strict check on the certificate presented by the
+add-ons server.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> Create a new boolean preference called extensions.update.requireBuiltInCerts and set it to false<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.0.2</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some parts of Devtools don't work</span><br>
+This is caused by the rather unexpected in-app useragent sniffing that the devtools do (yes, seriously!)<br>
+Without Firefox/* in the UserAgent string, the JavaScript debugger and
+Style Editor (and possibly a few other functions) don't work properly
+or at all.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+
+          <span style="font-weight: bold;">Workaround:</span> Set general.useragent.compatMode.firefox to true<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.0.2</li>
+      </ul>
+      <span style="font-weight: bold;">25.0.0:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some jetpack add-ons that should work refuse to work properly</span><br>
+
+This is caused by some add-on SDK files missing the new Pale Moon ID in them.<br>
+
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.0.1</li>
+      </ol>
+      <span style="font-weight: bold;">24.7.0:</span><br>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Rendered
+text color may become the wrong color or white when scrolling</span><br>
+In some situations, colored fonts may become the wrong color or white
+when scrolling and hardware acceleration is enabled in the browser.<br>
+          <span style="font-weight: bold;">Workaround:</span> set <span style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">layers.force-active</span>
+to <span style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">true</span>
+in about:config<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.7.1</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Google
+Maps on Google.com displays a non-functional preview of the "new" maps.</span><br>
+This is caused by interpretation of the custom user agent in Pale Moon
+for the google.com domain.<br>
+          <span style="font-weight: bold;">Workaround:</span> see <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637</a><br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.7.1</li>
+      </ol>
+      <span style="font-weight: bold;">24.6.2:</span><br>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Domain
+highlighting sometimes works and sometimes doesn't</span><br>
+This is caused by a conflict with domain highlighting and the code to
+have status indicators in the address bar.<br>
+          <span style="font-weight: bold;">Workaround:</span> Disable
+domain highlighting in the status bar options<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]<br>
+          </span><span style="font-weight: bold;">Timeline:</span>
+Fixed in 24.7.0<br>
+        </li>
+      </ol>
+      <span style="font-weight: bold;">24.6.0/24.6.1:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading from 24.5 or before, the browser may crash on startup</span><br>
+On systems where people have previously changed the advanced preference
+"gfx.content.azure.enabled" or "gfx.content.azure.backends",
+24.6.0/24.6.1 may crash or immediately close upon startup.<br>
+This is caused by a multi-tiered problem in graphics engine selection,
+which sometimes causes an invalid or incompatible choice to be made by
+the browser.<br>
+          <span style="font-weight: bold;">Workaround:</span> Start the
+browser with SHIFT held down, and in the safe mode dialog box, click
+"Reset all user preferences to Pale Moon defaults" and then click "Make
+changes and restart"<br>
+          <span style="font-weight: bold;">Workaround 2:</span> Start
+the browser in safe mode (Start with SHIFT, then click "Continue in
+Safe Mode"), and manually reset all gfx.* preferences in about:config<br>
+          <span style="font-weight: bold;">Workaround 3:</span> Start
+the browser in safe mode, and set "gfx.direct2d.disabled" to "true" in
+about:config<br>
+          <span style="font-weight: bold;">Workaround 4:</span> Start
+the browser in safe mode and perform a browser reset from the <span style="font-style: italic;">Help -&gt; Troubleshooting information</span>
+page.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 128, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.6.2</li>
+      </ol>
+      <span style="font-weight: bold;">24.5.0:</span><br>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On
+          <span style="font-style: italic;">certain</span> systems,
+rendering of text and graphics may become "pixelated"</span><br>
+If you are using Windows 7 SP1 with the (Feb 28<sup>th</sup>
+2013) Windows Platform Update (<a href="http://support.microsoft.com/kb/2670838">KB 2670838</a>), or
+potentially also if you are using Windows 8/8.1, and your system is
+equipped with a certain legacy ATI/AMD Radeon (specifically an HD3000
+or HD4000 series) graphics
+processor, you may encounter issues with rendering text and graphics in
+page content, similar to:<br>
+          <img style="width: 560px; height: 172px;" alt="" src="images/bug812695.png"><br>
+This
+is caused by the combination of OS, the Platform Update which
+makes changes to DirectX, and the graphics
+hardware/drivers in your system. Unfortunately, it's not clear who
+exactly is to blame, as people keep pointing fingers to others
+(Microsoft, AMD, Mozilla). Note that the update may also have been
+installed as
+a prerequisite for using MSIE
+10/11.<br>
+Of note: Later versions of Pale Moon are less likely to display this
+error than Firefox, but it <span style="font-style: italic;">may</span>
+still occur.<span style="font-weight: bold;"><br>
+Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228</a>
+- TL;DR: <span style="font-weight: bold;">uninstall KB2670838 </span>or<span style="font-weight: bold;"> disable azure for content.<br>
+Status:</span> <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span><br>
+Timeline:</span> Fixed in 24.6.0.</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On
+some Windows 8/8.1 systems, the browser regularly crashes</span><br>
+This is caused by a problem in the Gecko rendering engine on the newer
+version of Direct2D (introduced in Windows 8, 8.1 and through the
+Platform Update of Windows 7) when hardware acceleration is used.<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.6.0.</li>
+      </ol>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;">24.4.2<br>
+      </span></span></span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On
+some sites, the plugin notification icon may incorrectly show or
+provide a blank doorhanger</span><br>
+This is caused by page content removing document nodes and confusing
+the plugin indicator code. As a result, you will see the following when
+clicking the plugin indicator:<br>
+          <img style="width: 343px; height: 188px;" alt="Screenshot" src="images/bug916542.png"><br>
+          <span style="font-weight: bold;">Workaround:</span> None<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.5.</li>
+      </ol>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;">24.4.1<br>
+      </span></span></span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The
+download manager panel may pop up in the far bottom-left</span><br>
+On some installations, the download manager panel may possibly pop up
+on the bottom left of the browser instead of where the download manager
+button is. This is caused by a small issue in the default set of
+controls in the v24.4.0 updated status bar code, confusing the panel by
+having 2 places to "hang" the panel from.<br>
+I will be fixing this by removing the status bar download control from
+the "default" set of controls (like in previous versions).<br>
+          <span style="font-weight: bold;">Workaround:</span> Open the
+customization window (right-click a toolbar button and select
+Customize... from the menu) and remove the download manager control you
+don't intend to use (either the button in the main navigation bar or
+the control in the status bar) by dragging it from the browser window
+to the customization window.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.4.2.</li>
+      </ol>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;">24.4.0<br>
+      </span></span></span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Trying
+to open up the download manager from the download status control
+doesn't work</span><br>
+Trying to open up the download manager (either panel or classic window)
+by clicking on the status bar control for downloads does nothing. This
+is caused by a small issue in the newly updated status bar code in
+24.4.0.<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.4.1</li>
+      </ol>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;">24.2.2<br>
+      </span></span></span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When
+using the classic downloads window, downloads in private windows are
+not shown</span><br>
+If you use the classic downloads window and open a Private Browsing
+(PB) window, there is no easy way to see which downloads are done in
+the PB window. When checking the downloads, it will open up the
+(non-PB) classic downloads window which does not have downloads listed
+from the PB session.<br>
+This is caused by PB windows being implemented after Mozilla moved to
+the panel-based downloads manager, and there is no check in the classic
+downloads window if it is called from a PB window or regular window.<br>
+          <span style="font-weight: bold;">Workaround:</span> In the PB
+window, open a new tab and type <span style="color: rgb(0, 0, 153); font-weight: bold; font-style: italic;">about:downloads</span>
+in the address bar<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(102, 102, 0);"></span></span><span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.3.0</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Geolocation
+doesn't work in Pale Moon</span><br>
+This is caused by the Firefox standard geolocation provider (Google
+Inc.) now requiring an API key to request geolocation coordinates. Only
+official Mozilla Firefox builds of the code will work.<br>
+Pale Moon will be switching provider to address this issue.<br>
+          <span style="font-weight: bold;">Workaround:</span> <span style="color: rgb(204, 0, 0);">none.</span><br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+24.3.0</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The
+"More information" link for blocked add-ons doesn't work</span><br>
+          <span style="font-weight: bold;">Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750">http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750</a><br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Timeline</span>: Fixed in
+24.3.0</li>
+      </ol>
+      <a href="/">[&lt;-back]</a><br>
+<!--#include virtual="nav/footer.html" --><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

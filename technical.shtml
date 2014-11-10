@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"><style type="text/css">
+table.resulttable > tbody > tr > td {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+</style></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+<tr align="left">
+<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+<br>
+</td>
+</tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon: Technical Details</h1>
+So, you want more details about the browser? I'll be more than happy to
+explain:<br>
+      <br>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#CPUsupport">Supported Processors</a></li>
+        <li><a href="#speed">Speed Comparison</a></li>
+        <li><a href="#Firefox_Differences">Differences with Firefox</a></li>
+        <li><a href="#Naming_of_the_browser">Why a different name?</a><br>
+        </li>
+
+        <li><a href="#Palemoon_tested">How Pale Moon is tested</a></li>
+        <li><a href="#GeekCorner">The Geek Corner</a><br>
+        </li>
+      </ul>
+      <br>
+      <h3><a name="features"></a>Features/disabled features</h3>
+This browser aims to strike a balance between features and speed. As
+such, a choice has been made to consciously disable a few features
+found in other browsers that
+are not commonly used by the largest group of users. If you require any
+of the disabled features, then the main-line build of Pale Moon is not
+for you! You may find a suitable version on the third party <a href="contributed-builds.shtml">contributed builds</a> page instead.<br>
+      <br>
+The Pale Moon browser has the following features:<br>
+      <ul>
+        <li>Specifically optimized for current processors. It makes
+use of the enhanced instruction sets of newer CPUs - as a result,
+this browser will not run on particularly old systems.</li>
+        <li>Increased stability: experience fewer crashes<br>
+        </li>
+
+        <li>Support for Scalable Vector Graphics (SVG) and Canvas.</li>
+        <li>Support for almost all Firefox Extensions (add-ons) and Complete Themes.</li>
+        <li>Support for Personas ("light-weight" themes).<br>
+        </li>
+        <li>CSS Downloadable Font support (including WOFF).</li>
+        <li>Extended HTML5, CSS3 and advanced DOM support.<br>
+        </li>
+        <li><span style="text-decoration: underline;">Firefox-based!</span> This means you get the reliability
+and security of the Mozilla community browser core code, and a wide array of options and features.</li>
+        <li>Speedy scripting and page
+rendering.</li>
+        <li>Optimized networking.<br>
+        </li>
+
+        <li>Uses a little less memory than the official builds because
+of the disabled features (listed below)</li>
+        <li>Graphical tab switching with quick-search</li>
+        <li>More customization options for navigation controls and the tab strip</li>
+        <li>Enhanced security indicators (padlock/styling)</li>
+        <li>More options for recovery (safe mode dialog)<br>
+        </li>
+
+      </ul>
+The following features have been <span style="font-weight: bold;">disabled</span>
+by design:<br>
+<ul>
+        
+        <li><span style="font-weight: bold;">Accessibility features</span>.
+Most people don't have a need for specialized accessibility features
+for custom input or display devices. This cuts down on the input
+complexity, and increases speed, but will, obviously,
+not be suitable for people who need these features.</li>
+        <li><span style="font-weight: bold;">Parental controls</span>.
+Pale Moon aims to be a fast browser for general use, not a "secured
+family browser". The design impact of operating system integrated parental controls as introduced
+in Firefox is significant, and has had serious
+implications for building the browser. As such, parental controls have
+been disabled. Extensions-based parental controls are, of course, a viable alternative.<br>
+</li>
+        <li><span style="font-weight: bold;">WebRTC</span>.
+Apart from
+opening up a whole can of worms security-wise, "Web Real Time Chat"
+(comparable with Skype video calls and the likes) is not considered
+useful or desired functionality for Pale Moon (both according to the
+developers and the users of the browser at large). This is best left to
+dedicated programs or at most a browser plug-in.<br>
+        </li>
+
+        <li><span style="font-weight: bold;">Maintenance service</span>. Pale Moon does not use the Windows maintenance service and does not update silently in the background.</li>
+        <li><span style="font-weight: bold;">Integrated PDF reader</span>.
+The code for this is still included for emergencies (i.e. when you need
+to read a PDF but don't have access to a reader) but disabled by
+default - you are always recommended to use a separate, up-to-date
+document reader for PDF files (as an external program, not as a browser plugin) for your own security, and to have
+documents displayed in their fully intended format instead of a
+stripped-down display in an in-browser reader.</li>
+        <li><span style="font-weight: bold;">Social API</span>. The code for this is still included for people who choose to use it, but completely disabled by default.<br>
+        </li>
+
+        <li><span style="font-weight: bold;">Tab Groups</span>. The Tab
+Group (aka Panorama) feature has never properly matured and has not
+seen many people using it. In addition, the feature is generally slow
+to use, not intuitive, and puts a rather hefty load on the browser when
+included. For people who still prefer to use this feature even though
+it has been completely removed from the browser, an <a href="tabgroups.shtml">add-on is available</a> to replace
+the removed code.<br>
+        </li>
+
+        
+
+
+        <li>A
+few miscellaneous things like the crashreporter and telemetry data
+gathering since they require server-side components that are
+not in place at palemoon.org, as well as the latter impacting user
+privacy.<br>
+        </li>
+      </ul>
+      <br>
+      <h3><a name="CPUsupport"></a>Supported processors</h3>
+The Pale Moon browser is specifically optimized for current processors
+and uses instructions exclusively available in more modern (or rather: not museum-grade) processors.
+This means it will not run on PCs that are particularly old by today's
+standards, and is likely to display errors or refuse to start on
+systems with unsupported or poorly supported CPUs.<br>
+Requirements for the regular Pale Moon browser are, in short: <span style="font-weight: bold;">a 7th or later generation CPU with SSE2
+support</span>.<br>
+Since many people will not know off-hand what their CPU is capable of
+or what generation it is, here is a run-down of a number of popular
+CPUs and if they are supported. In case of doubt if your CPU is
+supported or not, please find a CPU information tool like CPU-z or
+Crystal CPU-ID to check your CPU's capacities. <br>
+      <br>
+      <span style="font-weight: bold; font-style: italic;">
+The web installer will attempt to automatically
+detect your processor and inform you if your system can't run Pale Moon.</span><br>
+      <br>
+This table might be
+incomplete:<br>
+      <br>
+      <table style="text-align: left; width: 90%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr bgcolor="#ccccff">
+            <th colspan="1" rowspan="1" style="width: 330px; text-align: center;">Processor<br>
+            </th>
+            <th colspan="1" rowspan="1" style="width: 320px; text-align: center;">Supported?<br>
+
+</th>
+          </tr>
+          <tr>
+            
+            
+          </tr>
+<tr>
+            <td style="vertical-align: top; width: 112px;">386 / 486 / Pentium /
+Pentium II<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 0, 0);">NO</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">Pentium III<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 0, 0);">NO</span></td>
+
+          </tr>
+<tr>
+            <td style="vertical-align: top; width: 112px;">Pentium IV<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">Pentium-M / Celeron-M<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">Pentium-D / Celeron-D<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">Celeron<br>
+            </td>
+            <td style="vertical-align: top;">Maybe: <br>
+
+&lt; 1.7 GHz not likely, <br>
+
+&gt;= 1.7 GHz likely.<br>
+
+Use a CPU info tool!</td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">AMD Athlon (1st generation) / Thunderbird<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 0, 0);">NO</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">AMD Athlon XP/MP<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 0, 0);">NO</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">AMD Opteron / Athlon64 / Turion64<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;">AMD Sempron<br>
+            </td>
+            <td style="vertical-align: top;">Maybe:<br>
+
+Socket 462: <span style="color: rgb(204, 0, 0);">NO</span><br>
+
+Socket 754/939: <span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 112px;"><span style="font-weight: bold;">All</span> multi-core processors:<br>
+Intel Core/C2D/C2Q/i3/i5/i7/etc.<br>
+AMD Athlon II X2/X3/X4/etc.<br>
+AMD Phenom/II etc.<br>
+            </td>
+            <td style="vertical-align: top;"><span style="color: rgb(0, 153, 0);">YES</span></td>
+
+          </tr>
+        </tbody>
+      </table>
+      <br><span style="font-weight: bold; font-style: italic;"></span><br>
+      <h3><a name="speed"></a>Speed comparison</h3>I have compared scripting speeds with some well-known speed tests to get
+some detailed specifications of Pale Moon versus Firefox.<br>
+      <br>
+      <div style="border: 1px solid rgb(153, 153, 255); padding: 2px 5px; background-color: rgb(228, 229, 255);"><span style="font-weight: bold;">Please note</span>: <br>
+Pale Moon is <span style="font-style: italic;">globally</span>
+optimized, and any benchmarking tests performed on it only cover and compare <span style="font-style: italic;">part</span> of the browser
+functionality. Marginal gains by other browsers seen in such benchmarks should not be considered conclusive.<br>
+      </div>
+
+      <br>
+Version 3.5 and 3.6 showed an overall performance increase of about 25% over Mozilla builds.<br>
+      <br>New
+tests were performed for version 12.0 by an independent tester, results
+used with permission, wherein Pale Moon scored no less than 33% higher
+in Dromaeo's "recommended" tests, and 9% higher in Futuremark's
+Peacekeeper browser benchmark.<br>
+      <br>
+With Pale Moon 15 and later, the focus of building the browser has shifted from a
+purely low-level Javascript focused build to one that is <span style="font-weight: bold;">focused on
+overall browser smoothness and user experience</span>, since that is what
+      <span style="font-style: italic;">really</span> matters for Pale Moon users. Stability is given more priority,
+and although this means some concessions are made towards benchmarking
+scores and Javascript performance, it should also be clear that <span style="font-weight: bold;">with the current generation of browsers, Javascript speed really isn't the bottleneck anymore</span>, unlike in the past. Unfortunately this is what just about every browser benchmark will test.<br>
+      <br>
+A more detailed description about how to look at benchmarking results can be found <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=650">on the forum</a>.<br>
+      <br>
+
+ <h3><a name="Firefox_Differences"></a>How different is this
+browser from Firefox?</h3><span style="font-weight: bold; font-style: italic;">The
+differences are increasingly significant as time passes. Pale Moon will remain close to
+Firefox in many parts of the code to ensure compatibility with the many
+thousands of add-ons wherever possible, but should be considered a "fork" and a totally independent product.</span><span style="text-decoration: underline;"><br>
+      <br></span>
+      <ol>
+        <li>Pale
+Moon, like Firefox (and several other browsers) is based on the Gecko
+rendering engine. This means that the core rendering functions for Pale
+Moon and Firefox will be a very close match and that whatever functionality there is in
+the Gecko core code, will also exist in Pale Moon.
+Where specific core functions have been changed, it has been done carefully
+and with due consideration to provide better performance and efficiency
+while not endangering the security of the browser.</li>
+        <li><span style="text-decoration: underline;"></span>Some functions have been completely disabled to cut
+down on input
+complexity (accessibility, for one), unnecessary/unused code (multiple
+additional modules) and to remove non-essential tools that would be
+better left to the free choice of the user. This improves stability and
+speed, and reduces resource use.</li>
+        <li>Pale
+Moon comes with a number of different default configuration
+settings than Firefox. These basic "tweaks" (I'd prefer to call them "more sane defaults") are done to provide you
+with the smoothest browsing experience as well as to be considerate
+towards website/service providers and residential gateways (e.g. by reducing the number of concurrent http
+and total dns requests needed when browsing). Note that "internet speed boosters" can actually <span style="text-decoration: underline;">harm</span>
+Pale Moon's speed as the configuration defaults are made with in-depth
+knowledge of the browser back-end and "a higher number" or "bigger
+buffer" isn't always better. <span style="text-decoration: underline;">You are strongly advised to always use defaults as supplied in Pale Moon.</span><span style="text-decoration: underline;"></span></li>
+        <li>Changes were
+made to the user interface and feature set, to incorporate functionality and visual
+elements
+in <a href="layout-differences.shtml">different locations</a>
+than what was chosen by the Mozilla
+team, as well as <span style="font-weight: bold;">retaining useful elements that were removed in Firefox</span>, and
+either removing or disabling (by default) components that would not
+be used by the average user. <span style="text-decoration: underline;"></span>In addition, some other user interface changes were made to provide an
+as consistent and intuitive interface as possible while still staying
+close to what Firefox's goals have always been. <span style="font-weight: bold;">This means the "Australis" interface will never be used in Pale Moon.</span> For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
+</li>
+        <li>Pale Moon offers more configurability for features, like
+additional tab preferences, preferences for image loading or tab positions, and full control over smooth scrolling.</li>
+        <li>Pale Moon uses a different "Sync" client and its own server
+to synchronize data between different instances of the browser. This is
+not compatible with Firefox Sync as used in Firefox 29 or later.
+Mozilla's change to "Firefox Accounts" is a different and less secure
+approach to synchronizing data and focuses more on future commercial
+endeavours of the Mozilla Corporation and, after careful consideration,
+has been rejected for use in Pale Moon (for quite the list of reasons,
+to be fair).<br>
+        </li>
+
+        <li>A stock Firefox executable is built to run
+on, by today's standards, <span style="font-style: italic;">ancient</span>
+hardware (are you still running a first generation Pentium processor? I
+wouldn't think so). The build environment used for Pale Moon allows
+for specific optimizations in the building process that actually <span style="font-style: italic;">uses</span>
+the capabilities of the computer hardware it runs on (specifically:
+advanced processing instructions) and gears the machine code at the
+assembly level specifically towards certain generations of processors,
+as opposed to trying to compromise for different ways of working of old
+(read: museum-grade) hardware. This is the biggest contributor to
+the speed increase seen in Pale Moon, as it impacts <span style="font-style: italic;">every</span> aspect
+of the
+browser, from loading pages to drawing graphics and running scripts.</li>
+      </ol><br>
+
+<span style="text-decoration: underline;">
+</span><span style="text-decoration: underline;"></span> 
+      <h3><a name="Naming_of_the_browser"></a>Naming of the browser</h3>
+
+So why not just call it "Optimized Firefox" or a similar closely-related name (something-Fox), you might think?<br>
+      <br>
+Firefox is the name for the complete package <span style="font-style: italic;">as supplied and
+intended by the Mozilla Corporation</span>,
+which this browser deviates from
+(in ever-increasing ways) by developing own code, excluding certain
+features, having a different user interface, having a different feature
+set, and
+configuring the program differently. With the later versions, Pale Moon
+has diverged so much from Firefox <span style="font-weight: bold;">making it clearly a
+different product</span> that it should not carry the name of its sibling. In addition, <span style="font-weight: bold;">Pale Moon is in no way affiliated with the Mozilla Corporation</span>, and therefore should not carry a brand name that is Mozilla's property.<br><br>
+Using
+the freedom of the MPL, I have
+therefore
+branded the browser Pale Moon, to clearly identify this browser as an
+individual product, not related to the Mozilla Corporation or official Firefox
+installations. <span style="font-style: italic;">Like the Mozilla Corporation</span>,
+I rely on all of the contributors to this
+Open Source Mozilla project for the supplied program code and development of
+new versions. The Mozilla Corporation didn't program Firefox, the <span style="font-style: italic;">community</span>
+did. This also means
+that, similar to Mozilla owning Firefox and the Firefox logo, I retain the rights
+to the Pale Moon project name, graphics and logo; they may not be used
+elsewhere without prior permission, and only in relation to this
+browser, and redistribution of the <span style="font-weight: bold;">binary</span> executable code is <a href="redist.shtml">limited by a redstribution license</a>.<br>
+      <br>
+ <h3><a name="Palemoon_tested"></a>How Pale Moon has been tested</h3>
+Pale Moon builds are tested for stability before being released by
+having it used for day-to-day browsing. This includes but is not
+limited to:<br>
+ <ul> <li>Graphics heavy art sites</li> <li>Static HTML sites with many elements</li> <li>DHTML/CSS sites</li> <li>SSL/heavy authentication sites</li> <li>Flash-heavy sites</li>
+        <li>Social media sites</li>
+ </ul>
+In addition, more rigorous testing is sometimes done by having the browser used
+in an autosurf setting, visiting a very wide range of pages from all
+over the world with greatly varying content. This is the kind of test
+where some other browsers tend to fall behind quickly in
+stability and robustness, and it is very much a real-world kind of
+test.
+Synthetic tests are OK to get some basic metrics, but in the end,
+people will use this browser to <span style="font-style: italic;">browse</span> a wide variety of sites, and
+would prefer it not crashing, hogging all resources or slowing down to
+a speed similar to wading through a tarpit. Unorthodox way of testing,
+maybe, but
+certainly effective.<br><br>
+ <h3><a name="GeekCorner"></a>The Geek Corner</h3>
+TMI (Too Much Information) for the average joe:<br>
+ <ul><li>Build environment: <br>
+</li> <ul> <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
+ </li> <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK</li> <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)</li>
+</ul> <li>Optimizations:
+SSE2 architecture, global speed-preference flags, intrinsic functions where
+possible, auto-vectorization, auto-parallelization. Some small
+variations of these could be possible depending on specific release builds.
+Whole Program Optimization is used to provide the most
+efficiently linked binaries. Many of the builds (and all recent ones)
+use identical COMDAT folding to further increase speed and reduce size of the program at the expense of compile time.
+  </li>  <li>Profile Guided Optimization was used between 3.6.0.1 and 15.4.1 - even though this relies very
+heavily on the machine
+the browser is <span style="font-style: italic;">compiled</span> on -
+which would generally <span style="font-style: italic;">not</span>
+be
+a good
+measure for a browser that is used over a wide array of different
+systems - the overall performance increase when using a manually,
+carefully selected set of operations for application profiling resulted
+in a
+significant increase in performance in those versions. With the change
+to Visual Studio 2012, PGO became less significant and starting with
+Pale Moon 19.0, a more general code optimization was used to make the
+resulting program perform equally well regardless of O.S. and PC used
+on, and more importantly, improve stability of the browser by avoiding compiler/linker bugs related to PGO.<br><br>
+ </li> </ul><br>
+ </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><br>
+</td>
+    </tr>
+  </tbody>
+</table><br>
+
+</body></html>

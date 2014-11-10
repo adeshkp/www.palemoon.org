@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en"><head>
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - 20111108/FPBug</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pm-bannerheader.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+<h1>FP bug 20111108<br>
+      </h1>In rare circumstances, images don't decode properly. A refresh fixes it.<br><br>
+      <span style="font-weight: bold;">Reporters:</span> n/a<br>
+      <span style="font-weight: bold;"><br>
+Affects the following:</span> <br>
+      <span style="font-weight: bold;"></span><span style="font-weight: bold;">Builds:</span> Anything after Feb 2011? At least 6.0+<br>
+      <br>
+      <span style="font-weight: bold;">Cause:</span>
+Failure to clean up MMX registers in libpixman. This <span style="font-style: italic;">may</span> not come to light in non-optimized builds.<br>
+      <br>
+      <span style="font-weight: bold;">Details:</span><br>EMMS
+instructions are required when using MMX to cleanup floating point
+registers and have them accept data types other than _m64 again. <br>
+Microsoft: "Failure to reset the tag word for floating-point instructions after 
+using an MMX instruction can result in unexpected execution or poor 
+performance."<br>
+      <a href="http://msdn.microsoft.com/en-us/library/590b9ks9.aspx">http://msdn.microsoft.com/en-us/library/590b9ks9.aspx</a><br><br>
+      <span style="font-weight: bold;">Solution:</span><br>Re-build, disabling the use of pixman-mmx.c. Performance should not be impacted since SSE/SSE2 is still used.<br><br>
+      <span style="font-weight: bold;">Implementation:</span><br>
+Pale Moon 8.0<br>Makefile edit in gfx/cairo/libpixman/src/makefile.in:<br>
+# Build MMX code either with VC or with gcc-on-x86<br>
+ifdef _MSC_VER<br>
+ifeq (86,$(findstring 86,$(OS_TEST)))<br>
+ifneq (64,$(findstring 64,$(OS_TEST)))<br>
+# Pale Moon: disable MMX library until someone fixes up the code<br>
+# because it needs EMMS instructions to clean up FP registers<br>
+# USE_MMX=1<br>
+endif<br>
+<br>
+<a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

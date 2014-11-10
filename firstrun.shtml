@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Congratulations</title><!-- Keep the http-equiv meta tag for IE -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
+<script type="text/javascript" src="persona/jquery.js"> </script>
+<script type="text/javascript" src="persona/personasfunctions.js"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("img.persona").previewPersona();
+    $("img.persona").click(function(event) {
+                dispatchPersonaEvent('SelectPersona', event.currentTarget);
+                return false;
+            });
+});
+</script>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 200px;" alt="Pale Moon - Your browser, Your way" src="siteheader.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><h1>Congratulations!</h1>
+You have successfully installed or upgraded the Pale Moon web browser.<br>
+      <br>
+      <span style="font-weight: bold;">Note:</span> If you have
+downloaded the browser from a third party site, it is <a href="http://www.palemoon.org/">recommended you visit the product
+homepage</a> before using this software - more details about Pale Moon
+that might be important to you are available there.<br>
+      <br>
+Not an English speaker? Check out these <a href="langpacks.shtml">Language
+Packs</a>.<br>
+      <h2>Attention Firefox users!</h2>
+      <div style="text-align: center;"><a href="migrationtool.shtml"><img style="border-style: none; width: 64px; height: 64px;" alt="" src="images/firefox-icon64.png"><img style="border-style: none; width: 128px; height: 64px;" alt="" src="images/arrow.png"><img style="border-style: none; width: 64px; height: 64px;" alt="" src="images/palemoon-icon64.png"></a><br>
+      </div>
+To migrate your Firefox profile to Pale Moon on Windows, including
+bookmarks, passwords, browsing history, extensions, etc., you may like
+to know you can <a href="http://www.palemoon.org/migrationtool.shtml">USE
+THIS TOOL</a>.
+Pale Moon uses its own profile location and does not automatically
+import Firefox profiles.<br>
+      <span style="font-weight: bold;"></span><br>
+      <h3>Dress up your browser!</h3>
+While you are here, get a matching Theme (persona) for Pale Moon! It's
+simple, click the image below and allow the site to install the theme:<br>
+      <img class="persona" persona="{&quot;id&quot;:&quot;119021&quot;,
+
+ &quot;name&quot;:&quot;Pale Moon&quot;,
+
+ &quot;accentcolor&quot;:&quot;#8bb3e3&quot;,
+
+ &quot;textcolor&quot;:&quot;#092040&quot;,
+
+ &quot;header&quot;:&quot;persona/header.jpg&quot;,
+
+ &quot;footer&quot;:&quot;persona/footer.jpg&quot;,
+
+ &quot;category&quot;:&quot;Websites&quot;,
+
+ &quot;description&quot;:&quot;A pale blue, painted moon of soft light blue background gradients, in the style of the theme used on www.palemoon.org&quot;,
+
+ &quot;author&quot;:&quot;Moonchild&quot;,
+
+ &quot;detailURL&quot;:&quot;http:\/\/www.getpersonas.com\/persona\/119021&quot;,
+
+ &quot;headerURL&quot;:&quot;http:\/\/www.palemoon.org\/persona\/header.jpg&quot;,
+
+ &quot;footerURL&quot;:&quot;http:\/\/www.palemoon.org\/persona\/footer.jpg&quot;,
+
+ &quot;previewURL&quot;:&quot;http:\/\/www.palemoon.org\/persona\/preview.jpg&quot;,
+
+ &quot;iconURL&quot;:&quot;http:\/\/www.palemoon.org\/persona\/preview_small.jpg&quot;}" style="border: 0px solid ; width: 200px; height: 67px;" src="persona/preview.jpg" alt="Pale Moon Theme" align="middle">&nbsp;
+&lt;-- It's cool, promise!<br>
+      <br>
+      <br>
+If you are interested in keeping updated of new releases of the
+optimized Pale
+Moon web browser, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the
+official Pale Moon forum</a> and subscribe to "Announcements", or <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1">subscribe
+to the news feed</a> of the announcements board.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

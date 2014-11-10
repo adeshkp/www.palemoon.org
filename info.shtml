@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - General Information</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta content="General Information and Project History for the Pale Moon Project" name="description"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"></th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Information about the project<br>
+      </h1>
+      <h3>General Information<br>
+      </h3>
+The
+Pale Moon project is a community-driven project owned and led by Mr. M.C. Straver BASc, using contributed
+Open Source code to create a full-featured, optimized browser
+based on the code behind the popular Firefox browser.<br>
+      <br>
+Notable other development/maintainance contributors to the project are:<br>
+      <ul>
+        <li>G. Brown (access2godzilla) and C. Ravenscroft for kicking off and maintaining the Linux builds &amp; installer<br>
+        </li>
+        <li>M. Turnbull (Sparky Bluefang) for supplying the base code for the V4+ status bar</li>
+        <li>K. Engert for supplying the base code for the padlock feature</li>
+        <li>M. Tobin for additional research into the Mozilla code and general support in a number of different areas of development<br>
+        </li>
+
+      </ul>
+
+      Pale Moon aims to provide a Gecko-based browser with more freedom of
+choice than Mozilla Firefox in how people want to browse the web, which
+tools or extensions they wish to use, and which
+feedback users want to see ("Your browser, Your way"); efficiency, after all, should not stop at
+the engine of a browser, but extend to all parts of it, including the
+user interface. Specifically, Firefox has seen a redesign of the
+user
+interface after the visions of the Mozilla Firefox product directors
+and user experience team to provide a more minimalist interface;
+unfortunately also removing essential
+functions and making a few less logical design choices, confusing
+minimalism with cleanliness. Especially in Firefox 29, with "Australis", much more has
+been changed, breaking in many ways with previous versions, standard
+user interface conventions and ergonomics, as well as proper visual
+integration with the operating system.<br><br>Users
+will find
+a tried-and-tested user interface
+in the Pale Moon browser, which, although very close to older versions
+of Firefox in the way it looks and operates, is a
+different product. Pale Moon will always aim to keep a very high degree
+of available user-customization and extensibility, since that has
+always been the main
+strength of Firefox in the past, and to keep a consistent and logical
+look and feel
+to the browser overall. Extension compatibility will remain high with
+extensions specifically written for Firefox prior to Australis,
+although 100% compatibility of extensions written for a different
+product can obviously not be guaranteed. This is also why extensions
+can be written for Pale Moon exclusively and/or adapted to Pale Moon as an individual product (unlike "re-branded Firefox rebuilds").<br>
+      <br><span style="font-weight: bold;">
+Pale Moon is a middle road</span>, cutting away support for particularly old hardware and operating systems to
+achieve a significant speed and efficiency increase, but not trying to
+squeeze the last few percent more out of it by limiting the range of
+systems it will run on even more.&nbsp;<span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon aims to deliver above all a stable and smooth browsing experience</span>,
+and does not intend to or aim for high scoring in synthetic tests, as
+those are invariably not a good representation of typical use of a web
+browser in the real world.<br>
+<br><span style="font-weight: bold;">
+Pale Moon will be released independent of Mozilla Firefox</span>,
+as it uses a different source code and release plan, and is not
+affiliated with or subject to either code releases or publication plans of
+the Mozilla Corporation; <span style="font-weight: bold; color: rgb(204, 0, 0);">the Mozilla rapid release schedule is not followed</span>.
+Pale Moon is an <span style="font-weight: bold;">independently</span> developed product <span style="font-style: italic;">based on</span> Firefox, but will most certainly not follow Firefox to the letter.<br>Pale Moon will
+be updated <span style="font-weight: bold;">only using select and relevant updates</span>
+of the Mozilla base (Gecko) source code and otherwise develop
+completely independently on top of the chosen version of the Gecko engine.<br>
+      This also means that <span style="font-weight: bold;">Pale Moon
+will not be built based on beta, release candidate, milestone, or other development releases</span>
+of the Gecko source code (there will not be any Pale Moon "nightly",
+"aurora" or "beta" builds available to the public). <span style="font-weight: bold; color: rgb(204, 0, 0);">Only relevant
+"Release" source
+code will be used for any architecture, to ensure stability.</span><br>
+      <br><h3>Support</h3>Please look at the <a href="donations.shtml">Donations and Support page</a> to learn about ways to support Pale Moon, and to see who have contributed to the project to make it what it is.<br>
+      <br>
+      <!--#include virtual="nav/footer.html" -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>

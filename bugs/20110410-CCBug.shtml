@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en"><head>
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - 20110410/CCBug</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pm-bannerheader.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+<h1>CC bug 20110410<br>
+      </h1>Crash on startup with Win opt PGO/SSE2. Other crashes/instabilities.<br>
+Reported in Bugzilla as <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=595653">Bug 595653</a>, marked "WORKSFORME" - doesn't work for me, though ;)<br><span style="text-decoration: line-through;">
+Seems to also be the root cause of  </span><a style="text-decoration: line-through;" href="20110406-PRBug.shtml">20110406-PRBug</a><span style="text-decoration: line-through;">.</span> (unrelated, even completely disabling SSE2 fr the entire JS engine didn't fix that)<br>
+      <br>
+      <span style="font-weight: bold;">Reporters:</span> n/a<br>
+      <span style="font-weight: bold;"><br>
+Affects the following:</span> <br>
+      <span style="font-weight: bold;"></span><span style="font-weight: bold;">Builds:</span> All 4.0
+builds except x64.<br>
+      <br>
+      <span style="font-weight: bold;">Cause:</span>
+Compiler issues for the new Jägermonkey engine when using PGO combined with SSE2.<br>
+      <br>
+      <span style="font-weight: bold;">Details:</span><br>The
+linking phase of javascript when combining PGO with SSE2 causes memory
+access errors in certain conditions in the Jägermonkey JS engine. This
+is (yet another) PGO compiler bug in MSVC :/<br>
+As a result, full optimizations created an instantly crashing browser (memory access error).<br>
+      <br>
+      <span style="font-weight: bold;">Solution:</span><br>Re-build, replacing arch:SSE2 by arch:SSE specifically for the JS module RegexCompiler.<br>
+This will cause a small performance hit compared to full SSE2
+optimizations, but is not going to be noticeable in a real-world environment (not even in tests, most likely).<br><br>
+      <span style="font-weight: bold;">Implementation:</span><br>Makefile edit in /js/src/Makefile.in:<br>
+@end:<br>+# Optimizer bug with MSVC PGO (Bug 595653)<br>
++ifeq (WINNT_1,$(OS_ARCH)_$(MOZ_PROFILE_GENERATE)$(MOZ_PROFILE_USE))<br>
++RegexCompiler.$(OBJ_SUFFIX): RegexCompiler.cpp $(GLOBAL_DEPS)<br>
++&nbsp;&nbsp;&nbsp; $(REPORT_BUILD)<br>
++&nbsp;&nbsp;&nbsp; @$(MAKE_DEPS_AUTO_CXX)<br>
++&nbsp;&nbsp;&nbsp; $(ELOG) $(CCC) $(OUTOPTION)$@ -c $(COMPILE_CXXFLAGS:arch:SSE2=arch:SSE) $(_VPATH_SRCS)<br>
++endif <br>
+<br>
+<a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

@@ -1,0 +1,1604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Pale Moon - Testimonials</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+</head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>What other people say about Pale Moon<br>
+      </h1>
+Collected here are a number of testimonials from people who have tried
+Pale
+Moon:<br>
+<!--
+
+<blockquote>"{testimonial}"<br>
+
+<div style="text-align: right; font-weight: bold; height: 1em;">
+
+<pre>{name}<small> ({location}) - Pale Moon {version}</small></pre>
+
+</div>
+
+</blockquote>
+
+-->
+
+<blockquote>"Just started using this on my 64 bit Win 7 PC.&nbsp; I was
+using Chromium vs. Chrome before and it was killing my RAM (8
+GB).&nbsp; Pale Moon is significantly faster and using a lot less
+RAM.&nbsp; Very nice. <br>
+        <br>
+Excellent job on the browser!"<br>
+
+<div style="text-align: right; font-weight: bold; height: 1em;">
+
+<pre>Tom<small> (Winthrop Harbor, IL, USA) - Pale Moon 25.0.1</small></pre>
+
+</div>
+
+</blockquote>
+      <blockquote>"Installed on both laptop (Linux Mint) and PC
+(Windows) where latest version of Firefox was installed already.<br>
+My experience: better speed, better browse experience in comparison to
+Firefox on both laptop and PC.<br>
+Conclusion: <span style="font-weight: bold;">Pale Moon is a very good
+browser, better than Firefox</span> as far as I have experienced.<br>
+        <br>
+P.S.: In the past I have also tested other browsers, but I stayed with
+Firefox.<br>
+Pale Moon made me switch to another browser; Pale Moon!!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Stapelbroek<small> (Beltrum, Netherlands) - Pale Moon 24.7.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"As I am in advising security measures for IT
+operations, I
+know just how vulnerable the web browser is to different attacks.
+Firefox has always been the best, tried chrome but really not a fan.
+Version 29 was the last straw, a new terrible design UI that was
+unnecessary along with increased crashing.<br>
+        <br>
+Palemoon is now the browser I recommend as the default on all client
+machines... Inlcuding my own for probably 9 months now. <br>
+        <br>
+Thank you Palemoon! Keep on developing and I'll keep deploying."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Rick Ross<small> (USA) - Pale Moon 24.7.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I just really feel like I should <span style="font-weight: bold;">thank you for saving me from a heart attack</span>.
+        <br>
+        <br>
+After foolishly updating my Mozilla browser... Everything was messed up
+and nothing was working anymore and I was legit freaking out because
+the sudden dread of potentially losing all my bookmarks, meticulously
+adjusted add-ons and just... Everything. Horror.<br>
+        <br>
+Pale Moon simply adopted everything, popped up and... <span style="font-weight: bold;">Works</span>. Everything is there, nothing
+needs to be recollected, and it all works.<br>
+        <br>
+Thanks for that and... Please stay that way. Many people actually use
+their statusbar and wish to keep their tabs on bottom, clickable and
+closable and simple. I fail to see why other browsers make it more and
+more bothersome to actually use them. <br>
+        <br>
+So... For now, you saved my life. Thanks for that and hopefully you
+stay that awesome~"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Zet<small> (Wolfsburg, Germany) - Pale Moon 24.7.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-weight: bold;">Great browser!</span>
+        <br>
+        <br>
+Been using it about 6 months now and I'm delighted so far! Good work to
+the all the Pale Moon developers and maintenance people. <br>
+        <br>
+You've created a fine browser that has replaced Mozilla Firefox for me."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mike Spottiswood<small> (Canada) - Pale Moon 24.7.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Great job, guys.<br>
+        <br>
+        <span style="font-weight: bold;">I'm significantly more
+productive in Pale Moon</span> than in any browser
+post-Australisocalypse.<br>
+        <br>
+Your time and energy has been well spent. Thanks."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tom<small> (Perkasie, PA, USA) - Pale Moon 24.6.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Being a very happy Netscape to Firefox user from the
+very beginning, <span style="font-weight: bold;">my satisfaction and
+patience with Firefox v29.0 finally died</span>. Why did they killed
+such a product with new awful and dead-end-street interface features? <br>
+Even Classic-Theme-Restorer did not work as expected. <br>
+        <br>
+        <span style="font-weight: bold;">Pale Moon</span> is now like a
+        <span style="font-weight: bold;">miracle</span>. Much faster,
+less RAM, simpler, ... and all my 40 FF-add-ons are working perfectly."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Joseph Eyberg<small> (Stuttgart, Germany) - Pale Moon 24.6.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I am here along with most other people because of
+Firefox 29.<br>
+        <br>
+I did a fresh install of Xubuntu 14.04 and good grief - it came with
+FF29. I did my best to work with it, and installed one addon after
+another trying to get back the functionality that was lost. Some things
+I could restore, some things - like back and refresh buttons - were
+fixed and unchangeable. On top of it, most of my addons had issues with
+Australis.<br>
+        <br>
+These changes were made for NO good reason except to mimic Chrome. Duh
+- if I wanted to use Chrome I would. I wouldn't need a knock-off.<br>
+        <br>
+Reading other people voicing their mutual discontent and recommending
+Pale Moon lead me to look into it. Lo and behold, <span style="font-weight: bold;">there is a Linux version</span>. I
+installed 24.6.0 on my desktop (Xubuntu 14.04), and 24.6.1 just now on
+my laptop (Xubuntu 12.04 LTS).<br>
+        <br>
+So far, both are running nicely. I wasn't able to use the migration
+tool - it is Windoze only, so I wound up using FEBE and so far so good.
+        <span style="font-weight: bold;">All my addons are working.</span>
+I am also <span style="font-weight: bold;">not seeing the constant
+stalling when loading web pages that I was seeing with FF 28 &amp; 29</span>.
+That was driving me freaking nuts.<br>
+        <br>
+Pale Moon is like one of the good old early versions of FF - fast and
+(so far) stable. To the person who maintains this fork of FF and does
+all the work- my hat's off to you. You've made a lot of people happy
+with this browser. <span style="font-weight: bold;">Sanity, common
+sense and regard for the user prevails at PaleMoon.org! Thank you!</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Linux Chick<small> (Stroudsburg, PA, USA) - Pale Moon 24.6.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Like almost everyone who has left a testimonial, I
+found myself growing <span style="font-weight: bold;">increasingly
+frustrated</span> with the laggy and jaggedly loading <span style="font-weight: bold;">Firefox 29</span>. I couldn't rearrange the
+reload/stop buttons to where I wanted them and the new look was just
+bland and unintuitive. <br>
+        <br>
+I discovered Pale Moon in a discussion on a forum and decided to try
+out the 32 bit version. After installing I thought 'ugh great I'm going
+to have to set up this entire browser from scratch, I can't be
+bothered' so I uninstalled.<br>
+        <br>
+The next day, during another of Firefox 29s painfully long stalls, I
+decided to have another go with Pale Moon. This time I tried the 64 bit
+version and used the <span style="font-weight: bold;">Pale Moon
+Migration tool</span>. I <span style="font-weight: bold;">could not
+have been more delighted</span>
+with the result! All my bookmarks, bookmark toolbars, live bookmarks,
+add ons, cookies, passwords were transferred perfectly. There was no
+more setup needed. I felt like such a fool for not using the Migration
+tool in the first place. <span style="font-weight: bold;">So easy!</span><br>
+        <br>
+This is my first day using Pale Moon and I have to say, so far it <span style="font-weight: bold;">beats Firefox in speed and ease of use</span>.
+It's not lightning fast but as other users say, loading websites is a
+matter of split seconds, as opposed to many seconds with FF 29. I
+haven't had one slow down or lock up as yet and <span style="font-weight: bold;">I feel instantly at home with the
+well-known interface</span>.<br>
+        <br>
+All in all, I could not recommend this enough and will be migrating to
+Pale Moon on my backup laptop as well as my families machines. <br>
+        <br>
+Devs behind Pale Moon, I'd like to give a big <span style="font-weight: bold;">thank you!</span> And if possible, buy you
+a beer!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tristan Lancaster<small> (London, UK) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I, like many others here, was a long time user of
+Firefox,
+but the recent update 29 made me lose all hope and patience for
+Firefox. After finding Pale Moon and trying it for just around 10
+minutes, I knew that this was all I was looking for.<br>
+If you're also tired of the direction Firefox is taking, but want to
+use something similar in user experience and UI as earlier versions of
+Firefox, this is the answer. <span style="font-weight: bold;">Pale
+Moon brings back so many features you might have been missing in recent
+version of Firefox, and it does so quite well.</span>
+There have been no problems with Pale Moon yet, used it now for two
+weeks, and I don't need 10+ plugins just to have it look and feel the
+way I want it to.<br>
+        <br>
+I am currently using the 64-bit version, haven't tried 32-bit and
+probably won't. So far, every plugin I've tried has worked with the
+64-bit version, and no other problems have arisen.<br>
+        <br>
+All in all, if Firefox is your browser, but you've grown tired of it
+for whatever reason, then try Pale Moon.<br>
+        <span style="font-weight: bold;">Highly recommended!</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Gurra P.<small> (Stockholm, Sweden) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Things like this don't happen in <span style="font-style: italic; text-decoration: underline;">my</span>
+dreams! Today I was in a state of exasperation with Firefox 29. I had
+finally restored its interface <span style="font-style: italic;">tolerably</span>
+using the Classic Theme Restorer, but the tabs were too tall and I
+could find no way to fix that. That wasn't the end of the world, but in
+the course of my searching for a fix I saw mention of Pale Moon in a
+forum post, and downloaded it just for the hell of it, not really
+expecting anything really worthwhile.<br>
+        <br>
+To my surprise, Pale Moon turns out to be <span style="font-weight: bold;">just what I've been wanting for yonks</span>,
+and to my amazement I've now relegated Firefox to the wings and will
+most likely actually boot it off my computer altogether very soon! <span style="font-weight: bold;">Pale Moon has all the great things of
+Firefox</span>, including all the add-ons that I've found so useful,
+yet <span style="font-weight: bold;">none of the down-sides of all the
+ghastly 'improvements'</span>, and even a promise of nothing like that
+awkward and confusing Firefox Australis theme, thank goodness!<br>
+        <br>
+Also, as a great bonus, I find that Pale Moon loads large or complex
+pages for me much faster than recent versions of Firefox have been
+doing. That isn't Internet performance - I've noticed this with my own
+local copies of my web pages. Some would take about 3 to 5 seconds to
+load in Firefox, but no more than .25 seconds in Pale Moon. Thank you
+really greatly, Pale Moon developer - <span style="font-weight: bold;">a
+brilliant piece of work and expression of user-respecting sanity!</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Philip Goddard<small> (Exeter, UK) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"People have forgotten what a web browser is suppose
+to really do which is to <span style="font-weight: bold;">surf the web
+quickly and without much (if any) fuss.</span>&nbsp;
+Everyone started that way initially.&nbsp; However, as time went by,
+the browser wars heated up and only "fought-back" among themselves with
+mostly "candy" additions that either compromised the functional
+integrity or caused outright system instabilities.<br>
+        <br>
+        <span style="font-weight: bold;">Pale Moon has brought us back
+to where the web browser belongs</span>...a
+fast, reliable and simple means to obtaining everything the Web has to
+offer without the "candy" bloating and adolescent add-on junk most apps
+today have."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Chris Tocci<small> (Halifax, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I am so glad to have found Pale Moon. <br>
+        <br>
+        <span style="font-weight: bold;">I was a long time (20yr+)
+endorser of Firefox</span> and even tolerated their many downgrades <span style="font-weight: bold;">until version 29</span>. I knew there had
+to be something better and this is it. <br>
+        <br>
+I highly recommend only using the 32-bit version of any program as it
+is lighter and faster than 64-bit. This program is no exception. That
+said, <span style="font-weight: bold;">This is our new default browser</span>
+and we would like to thank the authors."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Jerry Mander<small> (Fox lake, IL, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I discovered Pale Moon this afternoon, after finally
+losing my last shred of patience with Firefox. And... <span style="color: rgb(102, 102, 102);">[cue angelic choir and radiant
+beams of light]</span> this is such a thing of beauty I nearly want to
+weep with wonder and gratitude.<br>
+        <br>
+The migration tool migrated <span style="font-style: italic;">everything</span>
+-- the 31 tabs I had open, my saved user names and passwords, and every
+one of my extensions, including two that I'd had to disable because of
+incompatibility with the latest FF.<br>
+        <br>
+        <span style="font-style: italic;">It just WORKS</span>. And it
+does it the way <span style="font-weight: bold;">I</span> want it to!<br>
+        <br>
+Thank you, thank you, thank you for all your work on this! I'm looking
+forward to a long and happy relationship with Pale Moon."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tamara<small> (Seattle, WA, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"After Firefox 29 with their new horrible interface
+(Australis AKA FireChrome), I was forced to look for alternatives. I
+had already tried Waterfox but had some bugs, but then I tried Cyberfox
+but it do not convinced me, I tried Palemoon and I love it!!<br>
+        <br>
+Pale Moon has the interface and customization options just as i like,
+plus is lighter and optimized, but the most important: <span style="font-weight: bold;">not looking to become Chrome</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Arturo Gonzales<small> (Mexico D.F., Mexico) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"After the recent Firefox 29 release, I had to find
+an alternative, and so far Pale Moon looks very promising.<br>
+I can't say too much about the code itself or potential new features as
+I haven't explored them, but the old and loved features are all there,
+and (it might be placebo, but...) it feels like Pale Moon does the same
+job slightly faster. <span style="font-weight: bold;">I've lost
+nothing and gained some. This might very well be the best browser
+available.</span><br>
+        <br>
+        <span style="font-weight: bold;">Kudos for the "Firefox -&gt;
+Pale Moon" migration tool as well</span>,
+it successfully migrated all my bookmarks, settings, cookies, as well
+as 11/12 add-ons, (The last, incompatible one was an easily replaceable
+theme), for reference only 9/12 of my add-ons were compatible with the
+latest release of Firefox."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Blumkrauk<small> (Finland) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"After getting frustrated with each new Firefox
+release
+taking away more options and features, I began looking for an
+alternative browser. After a quick search, I discovered Pale Moon. Not
+only does it look and feel like classic Firefox, it retains many
+options and features removed from previous Firefox versions. It even <span style="font-weight: bold;">lets me customize the browser how I want
+it, which is no longer possible in Firefox thanks to Australis.</span>
+There's even an <span style="font-weight: bold;">x64 version</span>,
+something Mozilla won't provide for Windows users.<br>
+        <br>
+I've been a loyal Firefox user since 2004, but thanks to the new
+direction of Firefox, I had to abandon ship. I used Pale Moon for
+nearly 18 months, and <span style="font-weight: bold;">I'm very
+satisfied with it</span>.
+I've also recommended it to my friends and family. Thank you for making
+an excellent browser, and for not playing "follow-the-leader" with
+Chrome."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Eric Pimm<small> (Phoenix, AZ, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I've used Mozilla browsers from the days of
+K-Meleon,
+switched to Phoenix, renamed Firebird, renamed Firefox. After so many
+years, I became disenchanted, unhappy with the Firefox Rapid Release
+process as well as changes that appear on the surface to be merely for
+the sake of change.<br>
+        <br>
+My thanks to satrow who introduced me to Pale Moon. Based on his
+introduction, myself and others have happily made the switch to Pale
+Moon. Following the release of FF 25, I was very happy to have been
+introduced to Pale Moon. After the "change for the sake of change"
+release of FF 29.0 today, I'm seeing posts at other forums and in
+Facebook about others following our example.<br>
+        <br>
+So, <span style="font-weight: bold;">thank you for all the work you do
+keeping Pale Moon updated and secure.</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Corrine (SecurityGarden)<small> (Upstate NY, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I use Pale Moon now since version 9 and I never
+switch back to Firefox.<br>
+Since Firefox goes slow and overload with unnecessary features, I look
+for a other browser and found Pale Moon, which i love!<br>
+        <br>
+Pale Moon is <span style="font-weight: bold;">faster, more stable,
+more customizable</span> than Firefox and with the power of the firefox
+addons, the best browser.<br>
+        <br>
+So with Pale Moon i have a optimized, 64Bit, in short... perfect brower.<br>
+Thank you, Moonchild!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mirko B.<small> (Müncheberg, Germany) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Switched to The Moon and I've never looked back.<br>
+        <br>
+Unbelievably good browser. So quick and it seems weightless.<br>
+        <br>
+Pale Moon is my default browser and I am not comfortable on anything
+else now! Thank you so much!<br>
+        <br>
+I appreciate all your hard work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Lucy Wain<small> (Birmingham, USA) - Pale Moon 24.5.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Really like Pale Moon.<br>
+        <br>
+I switched over from Fire-Fox and now run Pale Moon as default.&nbsp; <span style="font-weight: bold;">I even run it in Linux Mint under Wine</span>
+and it works just fine after I got Flash to run videos.<br>
+        <br>
+Thanks."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Byron McCarty<small> (Hillsboro, KS, USA) - Pale Moon 24.4.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I actually found this web browser one day with a
+random
+web search. I am glad I found it. This browser is much less laggy and
+pages load so much quicker than my previous browser. <br>
+        <br>
+Thank you for making this browser. I like the Firefox interface but not
+the lag that goes with it. This one is much quicker."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Brandon N.<small> (Grafton, WV, USA) - Pale Moon 24.4.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Congratulations, very satisfied with Pale Moon, it
+is very fast,<br>
+and use low resources, comparing with Firefox or Chrome.<br>
+        <br>
+I use it on i3 Notebook, 2Gb, and Pale Moon go perfect."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Eduardo A. Perez<small> (Buenos Aires, Argentina) - Pale Moon 24.4.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Since the latest beta (29) of Firefox finally
+trashed the <span style="font-weight: bold;">tabs-on-bottom feature</span>
+for good, that Pale Moon still has it has become a killer app for me. <br>
+        <br>
+The fact that it's also <span style="font-weight: bold;">super-fast</span>
+is just gravy!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Greg<small> (Yorktown, VA, USA) - Pale Moon 24.4.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I can't thank you enough for providing this <span style="font-weight: bold;">refuge from Mozilla</span> (Australis
+especially) <span style="font-weight: bold;">and Chrome</span>.<br>
+My biggest (only, actually) complaint is that it took me this long to
+switch to Pale Moon!<br>
+        <br>
+Speed, stability, <span style="font-weight: bold;">a *real*
+customizable UI</span>, add-on compatibility...what's not to love?!<br>
+        <br>
+I am now looking forward to some enjoyable and productive browsing. <span style="font-weight: bold;">Thank you Pale Moon!</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Brian<small> (Chicago, IL, USA) - Pale Moon 24.4.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"This browser is way <span style="font-weight: bold;">faster</span>
+and <span style="font-weight: bold;">more responsive</span> than
+Firefox.<br>
+        <br>
+It's like the best features of Firefox have been chosen and optimized,
+to give this software a <span style="font-weight: bold;">big boost of
+speed and stability</span>.<br>
+        <br>
+Way to go! My thumbs-up. ;)"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Laur Florin<small> (Bucharest, Romania) - Pale Moon 24.4.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"User of Pale Moon on desktop and laptop with both
+Windows and Linux for 3 years.<br>
+        <br>
+        <span style="font-weight: bold;">Thanks so much for your policy
+of retaining the traditional status bar on updates.</span><br>
+        <br>
+Firefox has become so annoying and intrusive with their upgrades
+they've become another Google, so I've removed their new versions from
+my computers and use Pale Moon and Waterfox instead. I'm happy to
+continue supporting this so useful browser."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Claudia Chuba<small> (Yuma, AZ, USA) - Pale Moon 24.3.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have been a regular user of Pale Moon on my
+netbook and
+only recently I heard about an Atom optimized build which I installed
+today. <br>
+        <br>
+To be honest I wasn't expecting much if any improvement as I have tried
+optimized Firefox builds before with little noticeable difference. <br>
+        <br>
+I am so impressed that I had to leave feedback, on image heavy sites I
+usually get a lot of lag and jerky scrolling but with this Atom build
+the difference in performance is incredible, it is like a processor
+upgrade! <br>
+        <br>
+Thank you for the great work."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Brandon<small> (Napier, NZ) - Pale Moon 24.3.1-Atom</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Being a Firefox fan fore many years since version
+3.6, I
+Have always liked the options and many extensions Firefox has. After
+upgrading to the new 26.0 version I was very disappointed: first, the
+start up time was very slow, plus the old download manager box was gone.<br>
+        <br>
+Then I discovered Pale Moon 24.2.2 -- instantly I was very impressed:
+the start up time was a great improvement as well as the old Download
+manager box was still implemented.<br>
+        <br>
+I can honestly say this is the best browser out there at the moment.<br>
+        <br>
+Congratulations"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Jason Hewkins<small> (Liverpool, UK) - Pale Moon 24.2.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have used The Moon for about 5 days now...five
+glorious days of <span style="font-weight: bold;">lovely hassle free
+surfing!</span> <br>
+        <br>
+It's a miracle, I know, but, By Jove, I think you got it!! I love this
+browser and I have been a devout Firefox girl for years. There was
+nothing out there that could tempt or sway me...till you came along and
+I'll never let you go! <br>
+        <br>
+        <span style="font-weight: bold; font-style: italic;">Thank you,
+thank you, thank you!</span><br>
+        <br>
+Everybody gotta love The Moon!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Lucy Wain<small> (Alabaster, USA) - Pale Moon 24.2.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I've been a devout Firefox user ever since version
+3,
+however after that Mozilla seemed to start going in the wrong direction
+with Firefox. The missing progress bar, moved tabs, and the way all of
+the button placements are scattered around really brought the browser
+down. <span style="font-weight: bold;">Pale Moon is everything I would
+want to have in a browser</span>, it's visual UI is slick and easy to
+use, and reminds me a lot of Firefox 3. <br>
+        <br>
+The performance of the browser is great as well, especially considering
+that there is a x64 version of the browser available. I am currently
+using the x64 version of Pale Moon, and I will never switch browsers
+again.<br>
+        <br>
+        <span style="font-weight: bold;">Pale Moon is Firefox done
+right!</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Ryan<small> (Ann Arbor, MI, USA) - Pale Moon 24.1.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-weight: bold;">Pale Moon is
+awesome!</span> <br>
+        <br>
+I don't think I'm going back to Firefox. <span style="font-weight: bold;">Your choices of what to leave out from
+original code couldn't have been better.</span> <br>
+        <br>
+I am a Firefox user originally who had to switch to Chrome due to
+system crashes caused by display driver conflicts. I tried Palemoon
+during my attempt to go back, but it had the same problem, but once I
+found out the solution, (even to my surprise) my choice was Pale Moon
+over Firefox.<br>
+        <br>
+Thank you for developing it."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mr. Rajat<small> (New Delhi, India) - Pale Moon 24.1.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Have used Pale Moon (among many others) since it was
+released. <br>
+No doubt it, is the very best. Use it daily."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Daniel<small> (Placentia, CA, USA) - Pale Moon 24.0.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"As a heavy Firefox user I never felt comfortable
+using another browser, until I met Pale Moon.<br>
+        <br>
+Pale Moon has what I need:<br>
+        <br>
+- A Firefox Based Browser<br>
+- Faster than the normal Firefox<br>
+- Easy to migrate profiles<br>
+- 64-bit<br>
+        <br>
+After 3 days of using Pale Moon I can't see myself going back to the
+standard Firefox.<br>
+        <br>
+The Moon may be Pale but I'm all red full of love with this browser."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Jonathan<small> (Malta) - Pale Moon 24.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>" THANK YOU!&nbsp; <br>
+        <br>
+I now have something like the Firefox that I loved &#8212; before they ruined
+it &#8212; but better!&nbsp; I'm so grateful that I can hide the stupid tab
+thing because, when your eyes are as old as mine are getting, you need
+all the screen area you can <span style="font-weight: bold;">whilst
+retaining the menu and nav bars</span>.&nbsp; Give me an actual window
+any day!&nbsp; <br>
+        <br>
+Also I love that it can import my hundreds of F/fox bookmarks.<br>
+        <br>
+Absolutely loving Pale Moon and I simply wanted to say <span style="font-weight: bold; text-decoration: underline;">thank you!</span>&nbsp;
+Great job!&nbsp; :-)"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mr. Sandy Burnett<small> (Saskatchewan, Canada) - Pale Moon 24.0.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I've been a Firefox user ever since FX 2.x, running
+on Win XP with an old Duron CPU ... <br>
+        <br>
+I've switched to a new computer, Windows 7, and curious to find out
+what a browser of the Firefox family could bring to my new
+configuration, I installed Pale Moon 24.0.1 64-bit yesterday
+(2013-09-24). <br>
+        <br>
+        <span style="font-weight: bold; font-style: italic;">Fabulous.</span>
+I've made it my default browser."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Daniel LeBrun<small> (Tours, France) - Pale Moon 24.0.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Thank you, Pale Moon team. <br>
+        <br>
+This browser is WAY ahead of anything mainstream browsers offer, native
+64bit, processor/memory individualized optimization, MACHINE CODE
+programming, and more. <br>
+        <br>
+THIS BROWSER ROCKS HARD, it's like fishing with a grenade."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Taivo Tobreluts<small> (Viljandi, Estonia) - Pale Moon 24.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I was looking for a browser that I wouldn't load up
+with a
+lot of crap (only bookmarks on bar), no tool bars, etc. and had a bit
+of the pedigree of the once fine Firefox before amphetamines were their
+candy of choice and they started putting out a update every other
+day.&nbsp; <br>
+        <br>
+I wanted it for speed and one that didn't crash with each click.&nbsp;
+So I found Pale Moon.&nbsp; Nice but nothing fancy, i.e.: just
+right.&nbsp; Fast and little, if any, crashes.&nbsp; <br>
+        <br>
+So I got curious, scraped a little paint off its simple exterior and
+guess what I found. A Ferrari, red of course.&nbsp; Sweet."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Richard<small> (Cynthiana, KY, USA) - Pale Moon 20.2.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I've been using this browser for a few weeks now,
+and I
+have to say it's quite stable. The difference in memory use from the
+original mozilla builds is quite remarkable, although processor use is
+almost double that of Mozilla.<br>
+I've used every mozilla build possible:<br>
+Aurora, Nightly, Waterfox, Firefox, and even the IceDragon supplied by
+Comodo.<br>
+I used Nightly a lot, because it was 64 bit, but after getting a
+serious crash and not being able to make it work again even after a
+complete uninstall and fresh reinstall, i had to let it go. I wanted to
+come back to it but since Mozilla dropped support for 64-bit i didn't.<br>
+Aurora seemed a bit of the same.<br>
+        <br>
+Firefox got heavier and heavier and IceDragon is just a resource hog
+and it lags a lot. I don't know what security improvements and or
+add-ons are there but it's way too heavy on resources.<br>
+I had waterfox for a few weeks than i started to experience crashes
+more often than firefox so I uninstalled that too.<br>
+        <br>
+        <span style="font-weight: bold;">Pale Moon seems to do the job
+right</span>,
+it has everything Firefox does, it's lighter on resources, it's a
+smaller package, a bit faster and doesn't take so much RAM away from
+me. I didn't get any crash from this so far and I've used it for almost
+everything.<br>
+        <br>
+Although other browsers score higher on reviews, few people actually
+know that even though Firefox is slower it displays the pages a lot
+more accurately than the others, doesn't mess up text or pictures or
+java/ flash and so on. I'm glad to realize that Pale Moon retains that
+from Firefox. <br>
+        <br>
+I like the fact that it's a 64 bit version, i also like the fact that
+it's under development and i can rely on it to grow and be faster and
+even more optimized and I hope to see tests that completely crush the
+competition. Other than processor improvements I'd also like to see
+optimizations for graphics cards. and other visual aids like the
+progress bar from safari while loading a page and so on. <br>
+I'm going to keep using it untill something goes terribly wrong but by
+the looks of things the packages are smaller and the browser is faster
+and memory footprint is kept under control."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Adrian S.<small> (Targoviste, Romania) - Pale Moon 20.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Just wanted to say <span style="font-weight: bold;">a
+big THANK-YOU for all the work you put into building Pale Moon and now
+maintaining it</span>. I've been using it for a couple years since
+discovering it through Lifehacker article (I think) and have been
+satisfied with its speed, RAM usage, and feature list. I especially
+appreciate how you remove some of Firefox's most annoying features that
+people don't want, as well as your comments on UI design and the
+placement of the address and bookmarks bars. <br>
+        <br>
+Please keep up the good work, and thank-you again."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Steven<small> (Scottsdale, AZ, USA) - Pale Moon 20.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"So far so good. No memory leaks, crashes or
+breakages..<br>
+        <br>
+Quite surprised actually. <br>
+        <br>
+        <span style="font-weight: bold;">I have no idea what you did,
+but well done.</span>"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Scott<small> (Düsseldorf, Germany &amp; London, UK) - Pale Moon 20.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I started using Pale Moon two months ago.&nbsp; I
+have several windows open and several tabs per window.&nbsp; <br>
+        <br>
+With a 6X AMD 3.2 chip and 8 Gb of memory.. why not x64 bit. <br>
+        <br>
+I was running Firefox on my home PC (same situation there) but tried
+WaterFox.&nbsp; After a day, the tab pages started to go black. So here
+I am with Pale Moon x64 on my home PC.&nbsp; It's eating 380Mb of
+memory, but I'm only using 24%. So go figure.&nbsp; <br>
+        <br>
+It's quick, works fine on my office PC that is on 24/7 and I only
+reboot Friday afternoons before I go home."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mike Butkus<small> (Hunterdon County, NJ, USA) - Pale Moon 20.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"THANK YOU, THANK YOU, THANK YOU!! <br>
+        <br>
+At long last a browser that is <span style="font-weight: bold;">stable,
+easy to use and intuitive</span>.&nbsp; I love the looks, the clean
+interface, the ease of navigation and everything about it.&nbsp; Pale
+Moon - which, by-the-way, is a very cool name - is everything that
+Internet Explorer is not. As a matter of fact, I like Pale Moon better
+than Chrome, Firefox or Safari and have made it my default browser. <br>
+I look forward to a long and productive relationship with this
+wonderful browser."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>MCRuppe<small> (Bloomington, USA) - Pale Moon 20.0.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have been a long time user (v3.0) of Pale Moon,
+and it never ceases to amaze me the amount of work you folks must put
+into this project. Words alone cannot be enough to express my gratitude
+for making <span style="font-weight: bold;">the best damned browser
+available and better yet, free</span>. My job requires that I spend a
+lot of time on the internet doing research for projects, searching for
+solutions, etc., and I cannot imagine the times before I discovered
+Pale Moon doing all that I have to do on the web. <br>
+        <br>
+I have donated to the project a few times because I feel compelled, in
+some small way, to compensate you wonderful folks who make this thing
+so efficient, fast and enjoyable. I know I sound like a broken record,
+but thanks again for all of your hard work. V20.x.x looks like a winner
+yet again."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>CheezeFlavor<small> (Twin Cities, MN, USA) - Pale Moon 20.0.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"A big thank you for developing the Pale Moon project!<br>
+        <br>
+I'm a retiree, and my PC should have been retired before me! Pale Moon
+enables it with its whoopin 247 MB of RAM to actually speed along at a
+acceptable rate. [...] Pale Moon works in 128 MB of RAM, nearly a third
+of the memory Firefox requires? That's what I don't get: Firefox uses
+more memory, requires 512 MB of RAM, even more than that monster Google
+Chrome?<br>
+        <br>
+Again, Thanks guys."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Dick Cherry<small> (St. George, Utah, USA) - Pale Moon 15.4.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-weight: bold;">Best browser for
+Windows OS</span> <br>
+        <br>
+I was a firefox user for many years and decided to test other browser. <br>
+From all the Firefox custom-build that i have tested, the Pale Moon was
+the best of all no doubt. <br>
+        <br>
+I recommend Pale Moon to all my buddies, friends and classmates. <br>
+Very good Project...
+Take my donation and do a good job guys."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Luiz Alexandre Lima<small> (Rio de Janeiro, Brazil) - Pale Moon 15.3.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-weight: bold;">Amazing.</span> <br>
+I had given up on finding fast browsers."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>E. McDowell<small> (Matthews, NC, USA) - Pale Moon 15.3.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I was trolling around the web out of curiosity
+because
+there aren't just four or five browsers out there, there is a whole
+profusion and CONfusion of browsers, and reading about them only made
+me more confused. <br>
+        <br>
+It was during this random knocking about that I discovered Pale Moon.
+That it is a modification of Firefox was reassuring, so I tried it. It
+isn't perfect; it hangs or is slow occasionally, but compared to other
+browsers -- ESPECIALLY on Vista and 7 -- it is so fast, stable and
+nimble that <span style="font-weight: bold;">using it is a real
+pleasure</span>,
+and that's saying something these days, when using desktop computers is
+becoming way less fun and way more of an ordeal than it used to be. <br>
+        <br>
+I've switched over to PM almost exclusively except when Firefox has
+something that just won't run on PM or when a website requires IE."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>I.J. Davidson<small> (Oklahoma City, OK, USA) - Pale Moon 15.3.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Ever better with each update!&nbsp; <br>
+        <br>
+I now use 11.0.1 on my desktop dual&nbsp; Vista/PCLinuxOS, plus on an
+old HP laptop with either PCLOS Zen Mini or Saline OS (thru Linux's
+WINE).&nbsp; <span style="font-weight: bold;">So light-footed, fast
+and trouble free.</span>&nbsp; <br>
+This developer has taken great pains to do this thing <span style="font-style: italic;">right</span> and I'm pleased to send my
+second contribution this year in gratitude. <br>
+        <br>
+Thanks, Moonchild team!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Claudia Chuba<small> (Yuma, AZ, USA) - Pale Moon 11.0.1</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Over the past few weeks I've been trying different
+browsers and builds, since moving my computing needs over to a
+netbook/tablet. I'm currently running Win 7 HP on a Lenovo S10-3T, with
+a limited N455 1.66GHz Intel Atom processor and 1GB of ram. In addition
+to this, I even have a 4GB SDHC card dedicated only to Readyboost. <br>
+        <br>
+I've
+tried everything from the lighter IE9, builds of Chrome and Chromium
+(including Rockmelt) to Opera and browsers with a lower market share
+such as Avant, in search of something powerful enough, but light enough
+for my computing needs. I needed something that <span style="font-style: italic;">didn't</span> hog both CPU and
+RAM resources, which is why I've stayed away from the Firefox builds.
+After reading many reviews and conducting many searches, I lucked out
+and came across Pale Moon, my blessing in disguise.<br>
+        <br>
+This browser <span style="font-weight: bold;">is definitely in tune
+with Windows</span> and is very light on
+resource usage. I'm currently running v9.2 with at least 10 addons in
+the background (including, but not limited to yoono, 365scores,
+Forecastfox, etc.). Under normal usage on my configuration, resource
+usage for RAM increases to around 100-150MB, CPU load is barely
+noticeable as well. This is running an average of 4-5 tabs open at
+once, since I like to search topics and open multiple tabs before I
+view them. Out of curiosity, I even opened up a youtube tab and hulu
+tab to see if I could 'bog down' my system. To my surprise, it kept
+chugging along, with real usability. <br>
+        <br>
+This browser is definitely awesome and I highly recommend it to anyone
+looking for power and real functionality, but at the same time
+something light enough to be barely noticed in the background. My kudos
+go out to the developer of this browser and his hard work in his free
+time is definitely appreciated by this user!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Matt McCaskey<small> (Atlanta, GA, USA) - Pale Moon 9.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"This has to be the fastest browser I've yet to see.
+I love
+the fact it's Firefox as Firefox has always been my favorite due to
+customization, this however, runs circles around every browser I've
+seen. It actually makes me want to be on windows.<br>
+        <br>
+I LOVE it. <br>
+        <br>
+Thank you. :)"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Anthony Burkett<small> (Aurora, USA) - Pale Moon 9.2</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"After being a long-time user of Firefox, and wishing
+it
+would be more efficient, less resource intensive and generally less
+cantankerous, I have found that exact Mozilla based browser in Pale
+Moon. <br>
+        <br>
+For the last couple of years, it has been my browser of choice. I
+appreciate the efforts of all of the developers on this project and
+everyone that has helped create it.<br>
+        <br>
+Other than an occasional hiccup, not at all unusual for any browser,
+and most brought upon by my own experimentation, it has been a <span style="font-weight: bold;">rock solid performer</span>.<br>
+        <br>
+Thanks!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Steve S.<small> (Minneapolis, MN, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Simply the best browser on Internet!<br>
+Nothing of useless features, JUST what you need. I have tested a lot of
+browsers, lots of hours testing all of them: Chrome, IE, Opera... all
+of them with a LOT of features... most of them useless... <br>
+        <br>
+This Browser is really what I need: Speed &amp; Productivity all of the
+time!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Richard Araya<small> (Zarcero, Costa Rica)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Pale Moon is a lean mean fast machine. I am totally
+happy with the performance of this browser. <br>
+        <br>
+Recently, I had an issue and reported it to Pale Moon and within and
+hour I had a response from Pale Moon with the solution to my problem.
+This browser is not only a great browser but, support is top notch
+also. If you don't find your answer in the troubleshooting guide or on
+the forum then you can report your issue and be assured of a prompt
+response.<br>
+        <br>
+Thanks, Pale Moon, for this great browser."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>John G.<small> (Albuquerque, NM, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-style: italic;">That's the way
+Firefox should be.</span> <br>
+        <br>
+They removed some very annoying UI changes of Fx 4 (for instance, the
+"addon bar" remains the "status bar", without that big X button that
+removes it whenever you accidentally click it, and still aligned to the
+right) and some CPU consuming useless features. <br>
+As far as I tested (SunSpider and Peacekeeper), it's respectively
+around 2.5 and 10% faster than Fx. Startup, which is my major issue
+with Firefox (other speed tests don't really matter for real life use),
+feels quite faster too.<br>
+        <br>
+Long story short: with it I can use all the add-ons that render Firefox
+indispensable to me, but with improved performance."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>David<small> (Paris, France)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have used every browser that I know of for
+windows, but Pale Moon beats them all.&nbsp; <br>
+        <br>
+I love this simple little browser. <br>
+        <br>
+I've not experienced one problem with it.&nbsp; Everything performs
+beautifully.<br>
+        <br>
+I use Pale Moon exclusively for watching programs and movies online and
+it never crashes; unlike Firefox.&nbsp; Firefox has gotten to the point
+that it will freeze, crash, nor will it allow use of pop-outs on DIVX
+players.&nbsp; It's a real headache.<br>
+        <br>
+I have not experienced any of those issues with Pale Moon.<br>
+        <br>
+Thank you for sharing it with the internet community.<br>
+        <br>
+&gt;From an eternally grateful fan."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Debra Normand<small> (Memphis, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Fast, efficient and fully compatible.&nbsp; What
+more can I say?"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>James Carey<small> (Columbus, GA, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Just wanted to let you know that I have made Pale
+Moon my default browser!&nbsp; <br>
+        <br>
+My company uses several ERP applications such as Oracle
+Applications.&nbsp; And everything is so much faster and more efficient
+when working from Pale Moon.&nbsp; I just wanted to say <span style="font-weight: bold;">thank you</span> for all of your efforts
+and forward thinking.&nbsp; <br>
+        <br>
+Perhaps you are already aware, but <span style="font-style: italic;">you
+have really set the standard for what a browser needs to be within a
+corporate environment.</span><br>
+        <br>
+Keep up the good work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Matthew Laptad<small> (Herndon, VA, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Having a very good i7 laptop and 8GB of RAM I didn't
+think there would be a browser which would improve on speed. <span style="font-style: italic;">Boy was I wrong!</span> Lightning quick to
+open, and loads up websites with impressive speed.<br>
+        <br>
+If you love surfing the web then you should download Pale Moon today,
+you won't go back!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Peter-John Radcliffe<small> (Farham, UK)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"It's a cliché but... <span style="font-style: italic;">Palemoon put the fun back in surfing.</span>
+        <br>
+I struggled for the longest time with older versions of Firefox after
+it started getting bloated and unresponsive (Ver 4+) but this is it.<br>
+Perfectly seamless migration from Firefox just added to my appreciation.<br>
+Great stuff!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Göran Ingvarsson<small> (Kristianstad, Sweden)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have been using Firefox for a while now, migrated
+from
+IE. It is a really good browser and highly customizable. However, with
+one drawback: high memory consumption which seriously impacts its
+functionality. <br>
+        <br>
+I came across Pale Moon and have been using it for a few days, have
+customized it and I am impressed with what you have done, it uses less
+system resources than Firefox 5 and is generally snappier in use. In
+particular, whilst still not perfect, it consumes much less system
+memory, I commend the reintroduction of the Status Bar which should
+never have been removed by FF in the first place, and the various other
+tweaks you have made make it more functional in use.<br>
+Please continue your efforts with Pale Moon with emphasis on optimizing
+memory issues in future updates.<br>
+        <br>
+I will be using Pale Moon as my main browser from now on.<br>
+        <br>
+Keep up the good work."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Stephen May<small> (Sevilla, Spain)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have used several browsers over the past
+decade-plus of
+web surfing I have done.&nbsp; I have always preferred Gecko based
+browsers but was growing disenchanted with Firefox, as it was slowing
+down and having other issues which thankfully were mostly resolved in
+version 5.&nbsp; I had heard of Pale Moon but had never given it a try
+until now.<br>
+        <br>
+As another reviewer stated: <span style="font-style: italic;">"a
+browser is a browser or so I thought until I tried Pale Moon"</span>.&nbsp;
+I could not believe the difference in speed, stability, and overall
+performance with Pale Moon.&nbsp; What makes this possible is removing
+the unnecessary code that bloats Firefox's multi-platform model.<br>
+        <br>
+Pale Moon has become my default browser and I look forward to future
+releases - I would be crazy not to use it, since it integrates into
+Windows better than Firefox and has less bloat.&nbsp; It appears the
+memory leak issue that has plagued Firefox for a long time may have
+been addressed with Pale Moon!&nbsp; Kudos!<br>
+        <br>
+Besides, it also has a really cool program icon from my
+perspective!&nbsp; ;)"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Jeff<small> (Stanwood, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I often test new software, browsers, etc.<br>
+        <br>
+I more or less just stumbled onto this "Pale Moon" browser and it
+caught my eye, so thought to myself "<span style="font-style: italic;">Hey,
+I'll give it a whirl round the web.</span>"
+Firefox is my browser of choice anyways, and I have tested loads of
+different builds, so I downloaded and set up this great looking Pale
+moon browser and have now been using it for near to a week.<br>
+        <br>
+Please believe me when i say "<span style="font-style: italic;">Hand on
+heart, this is the most well thought out, fantastically smooth,
+featured packed, fast as hell, brilliant build of any kind I've ever
+used!</span>" :) <br>
+        <br>
+I wont tell you about the awsome tools it has built into it... I'll let
+you discover them for yourself; but I'll just say WOW and Hats off to
+the creator: you have in me a Pale moon convert and I'm 100% impressed
+and am looking forward to more future builds.<br>
+        <br>
+Thankyou very much for this tool."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Markus Moto<small> (Birmingham, U.K.)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I gave Pale Moon a shot when I saw it was on x64
+flavour,
+but now I can't do without it - it's fast, stable, awesome and works
+just out of the box. <br>
+For me, it's a masterpiece of browsing software and I'm already
+spreading the word about it. <br>
+The author has outdone himself with this nice program"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Luis<small> (Granada, Spain)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote><span style="font-style: italic;">They can't touch
+this!</span><br>
+"Just installed the Pale Moon Browser. And, I must say, it's like manna
+from heaven. The migration tool is right on time. Perfect!!! <br>
+I started browsing the web and almost immediately I noticed the very
+impressive speed this little baby has. I mean <span style="font-style: italic;">simply amazing</span>.
+This is an excellent product, worthy of all the adorations any slick
+browser should have.&nbsp; I'm quite sure it'll knock the socks off of
+any other browsers in the wild.&nbsp; It'll smoke 'em. Hands down!!<br>
+        <br>
+Thank you, thank you, and thank you for this most impressive piece of
+work. I'll be sure to spread the news.<br>
+        <br>
+The Pale Moon Browser is the MC Hammer of all browsers. 'They all can't
+touch this!' "<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>John<small> (Philadelphia, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I love palemoon.<br>
+I know this browser from a forum in my country (Indonesia). I tried it
+because I really hate that my Mozilla keeps crashing all the time and
+always ruins my day...<br>
+After I try palemoon, awesome... First, I am impressed with its speed,
+faster than all other browsers out there, and after I used it for a
+long time, I feel satisfied for its stable engine. <br>
+Now, I never use any browser except Pale Moon because I had enough
+trouble before, and Pale Moon can cure my headache... :P"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Aga<small> (Jakarta, Indonesia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I run a website and hence live in my browser even
+more
+than most do nowadays. I often had to deal with slow load times,
+crashes and just sluggish performance. <br>
+Since I have switched to Pale Moon all those problems have gone
+bye-bye. I can now get the news up in seconds of release and can
+confidently set up an upload knowing that my browser wont crash. <br>
+        <br>
+Pale Moon, thanks for removing one of the most common headaches I deal
+with daily."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Conor Hughes<small> (Dublin, Ireland)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote><span style="font-style: italic;">You got a five-star
+hit on your hands</span><br>
+"The moment I stumbled on to the homepage, it seemed too good to be
+true so I decided to prove to myself why this <span style="font-style: italic;">wouldn't</span> be the browser for me. <br>
+        <br>
+I downloaded, installed and browsed with it. It performed well and I
+found myself begrudgingly impressed as I am most browser-jaded. I
+imported my bookmarks from an HTML file before I realized I was
+enjoying myself. So I decided to drive it harder.<br>
+I opened tab after tab, all graphics and/or flash heavy, and it didn't
+even hiccup. So I left them open while I downloaded a few PDF and video
+files. I think there may have been a few seconds pause on tab number
+eleven when I went to view it so, of course, I had to check for updates
+to add-ons as well. That'll crash it, right? <span style="font-style: italic;">Wrong.</span> <br>
+        <br>
+Surely, it was luck, so I did this several times over a period of a few
+days, becoming more and more demanding, until I thought I'd run this
+browser into the ground. I did this while using other resource-heavy
+applications at the same time. I really wanted to see what it would
+take to get it to freeze or crash. <br>
+        <br>
+Well, I got news for you, I have no idea what it will take to down this
+browser. I'm worn from driving this thing at 200 mph down the internet
+highway and the only comment I can give you is that this is how a
+browser should drive with Gecko as the engine powering it.<br>
+        <br>
+Pale Moon is a smart, fast and good-looking lightweight browser that
+uses fewer resources and delivers each time."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Gen<small> (Sonoma, California, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Having dealt with hit and miss web browsing - lots
+of
+session recovery and such - I have to say, Pale Moon feels more stable
+and quicker. It hasn't broken where the other browsers have in the past
+would (Java, Flash and JScript). <br>
+        <br>
+I can run alot of Flash and JScript and I don't get the session
+failures that Chrome, IE &amp; Firefox give me for the same content.
+Sure they would recover, but I don't do that anymore with Pale Moon -
+hell of a great browser! <br>
+        <br>
+I give it five stars!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Keith Neilson<small> (Thatcher, Utah, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"A major thanks to Moonchild for such labor intensive
+work
+in only making better one of the best browsers in my opinion,
+especially when receiving limited help and code assistance from the
+firefox team. <br>
+        <br>
+I know how hard having your own baby project is to keep up with along
+with everything else in a normal life not including fixing all the
+mess-ups mozilla does with all of their new releases. <br>
+It's great to have an optimized and debugged version of software
+released at the same time as the "official" software.<br>
+        <br>
+Many thanks again and you are greatly appreciated and referred to
+everyone I know always."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tophkr<small> (Jacksonville, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Some guy asked me what i think about Pale Moon.<br>
+I was already a Firefox user so i imediatly downloaded.<br>
+I noticed the speed and the page-loading increased and now i am a Pale
+Moon user. <br>
+        <br>
+Excelent work with the migration tool also."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Paun Traian<small> (Focsani, Romania)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Heard about Palemoon in forums et al. Just got
+curious and
+downloaded the appropriate version (AMD Athlon). And boy, it just flew
+right from double clicking the Setup file itself. See, your belief can
+influence your binaries also!<br>
+        <br>
+Terrific job guys! Just keep it up.<br>
+        <br>
+And thanks a ton."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Mumtaz Ansari<small> (India)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I tried and tested many browsers in the last few
+months
+(mostly in portable form) for my ordinary laptop. And this one was
+surprise. Fast, ok. It is. But stability?... I have seen that in first
+15 min. of browsing (my laptop is a slower machine and this browser is
+an ideal partner). <br>
+Overall, I am very, very satisfied and wish you to go on. <br>
+All the best."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre><small>Danko Zivkovic (Belgrade, Serbia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have been a Firefox user for many years, up to and
+including trying out all the FF4 betas, up to beta 6, with each one
+getting slower and having more problems than the previous one to the
+point of utter frustration, and removing them and going back to
+FF3.6.11.<br>
+        <br>
+A month or so ago I happened upon Pale Moon, and thought I'd give it a
+try.&nbsp; Well, there's no looking back now.&nbsp; It is noticeably
+faster than FF3.6.11, doing everything that I use a browser for, with
+fast page opening etc., no freeze ups so far, and if it's possible,
+Pale Moon 3.6.11 seems slightly faster than Pale Moon 3.6.9.<br>
+        <br>
+Excellent job, keep up the good work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre><small>Charlie Anderson (Canada)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Let me just say that I LOVE PALEMOON! <br>
+I dumped Opera and Firefox in favor of your browser. I had been using
+Firefox as my main browser for over 4 years, and naturally I had it
+customized *exactly* how I liked it. I was a bit worried when I first
+switched to Palemoon; what would happen to all my settings, plug-ins,
+bookmarks? What about my Persona (aka 'skin')? Well, importing my
+Firefox profile (bookmarks, preferences, plug-ins, etc) could not have
+been easier. Keep up the good work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre><small>David Buckman (Reno, USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I didn't really believe it would be any good
+- but how wrong could I be? It loads very, very quickly, displays pages
+in an astonishingly short time, does everything I want it to do and
+shuts down and releases memory quickly as well. EVERYBODY should try it
+!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre><small>Gordon (U.K.)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I did believe that nothing could be better than
+FireFox, I've using it
+since old good Mozilla times. What a surprise was to see that even
+FireFox
+can be optimized so much more! Daily, I surf with Ad Block Plus,
+Flashgot,
+Tidy and a ton of plugins that slows my FireFox. But Palemoon helps to
+cut-off the payload in speed and performance when add-ons work, so I
+have
+better response from the browser. For my needs, this is the best of
+both
+worlds in a single bundle."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre><small>Gerardo Rubio (Mexico City, Mexico)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Impressive! The third version I've run on my flakey
+Sempron 3100+, and PaleMoon continues to shine. Unlike other browsers,
+PM has not crashed my system, crashed itself, or failed to load a page."<br>
+        <br>
+All up, a worthy addition to the FF based lineup that has earned PM its
+place as my new default browser. I look forward to even better browsing
+with new PM versions once FF updates its code.
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Colin (Greenbank, Australia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I used Opera for years and only Palemoon could make
+me change my mind.
+It is excellent, safe and very fast.<br>
+        <br>
+These days I use Opera 10.50 and... Palemoon 3.6.0.5 remains somewhat
+faster in the burden
+of most pages, plus other benefits."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Joragoca (Argentina)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I
+must say that I love this browser - I install it to all my clients (I
+repair PCs) and then add an Internet Explorer theme to it (to ease the
+learning curve) and they always ask me, "What did you do? My computer
+is a lot faster! Thank you!"<br>
+I like that part because firefox is already a lot faster than Internet
+Explorer and if you add the optimizations of this project for my
+clients, it is like I installed a faster CPU more RAM and faster hard
+disk."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Guillermo Siliceo (Mexico)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"On benchmarking fully patched to latest version
+browsers in random orders, it's consistantly around five times faster
+than IE8 and its derivatives, and 2-4 times faster than Opera.<br>
+        <br>
+Perhaps not so clear, with my erratic connection, was benchmarking
+against its parent Firefox; but in actual use Pale Moon showed a clean
+pair of
+heels. Startup is faster, and it easily handles pages like my bank
+login that Firefox simply wont touch."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>K (Brisbane, Australia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Possibly the best browser, it's purely awesome :D<br>
+        <br>
+Can have my usual 500+ tabs, no problems. Firefox decided to become a
+CPU intensive app after the 470 tab mark."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Kel Dunningham (Australia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote><span style="font-style: italic;">Firefox Improved</span><br>
+"While I haven't actually run tests on it I would say that appears to
+be
+a
+bit faster than your ordinary Firefox build.<br>
+It also uses slightly less memory.<br>
+I was also surprised to discover that no configuration is necessary.
+All your Firefox plug-ins, Bookmarks, Etc are automatically up and
+running with everything working correctly.<br>
+In short, it is an improvement over the ordinary Firefox build."
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Ian (over at Freewarefiles)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote><span id="intelliTxt"><span style="font-style: italic;">5 stars</span><br>
+"Have been a Firefox addict for years but had been very disappointed
+with the latest version as it would just not integrate with my ISP's
+SlipStream accelerator. Was about to go back to v 3.5 when I found
+Palemoon and decided to give that a go as it might be even better. Sure
+enough, it is without a doubt the very best Firefox I have come across.
+Really noticeable difference in speed, specially with poor quality
+rural dial up connections. It's everything a browser should be."</span>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Linda (over at Softpedia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"This is a truly amazing speed boost and very stable."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Ron Arnone</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Somehow after trialling a parallel install, Palemoon
+actually fixed a long
+standing problem Firefox had suffered from with some Neopets games. Not
+sure
+how it did that, but the 'fix' remained after temporarily removing
+Palemoon
+'just to see'. It even pulls ahead of Chrome when one has to navigate
+through several intensive pages."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>The Black Maned One (Queensland, Australia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I'm satisfied how smooth it works. Better than
+original FFox definitely.<br>
+        <br>
+Keep up the good work, mates!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Sasha Kostic (Serbia)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Its really lightweight and quick responding compared
+to Firefox. Gone are the days when my 512MB laptop used to hang /
+freeze for a minute everytime when I clicked on 'browse' for adding
+attachment to emails! Or even in the downthemall add-on, when you add
+multiple files for download, Firefox will freeze for a few moments.
+Gone are those problems. This Palemoon is really quick responding, no
+lagging, no freezing, no delay in start-up time. And with noscript and
+'adblock plus' addons, this is a killer browser with superfast jet
+speed. I recommend it to everyone!<br>
+        <br>
+And I appreciate &amp; admire the software developers and pray for
+their long and healthy life- so that they can continue making more such
+lovely softwares."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Mrunal Patel (India)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I just wanted to send a sincere thank you for the
+work,
+time and effort you've given the community. I've been teeter tottering
+back and forth between Chrome/Firefox and with the changes in gecko I
+was happy with the real world numbers versus webkit. <br>
+        <br>
+That being said.. after 24hrs of testing.. Pale Moon has swept my feet
+out from under me in love. The functionality of the (imo) superior
+Firefox extension set and the speed of Chrome. I couldn't be happier. <br>
+I will be doing your word of mouth campaign as best I can."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap=""><small>Vincent Marziale (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Tried using Palemoon (3.6.3) with huge extension
+list (about 70) and Russian locale, on two WinXP SP2 systems.<br>
+It seems that all works fine (at least all that I use in everyday
+tasks), and the promised speed gain is for real, I see it.<br>
+Recommended Palemoon to my friends on Livejournal social network.<br>
+There was one problem with Russian chars in extension pop-up
+notification, but that is very minor for me.<br>
+Thanks for your work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Roman ShaRP<small> (Ukraine)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I am a security analyst by trade and have been a die
+hard user of Firefox.......till now! <br>
+        <br>
+Pale Moon browser is a breath of fresh air and exciting software to
+use. Its speed is superior to Firefox which is a plus. Hats off to The
+Pale Moon Project and its developers great job done!&nbsp; <br>
+        <br>
+I'm staying with Pale Moon and not looking back"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Tony Rogers<small> (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Wouldn't use Firefox if some one paid me, but this
+variation of it is sweet. I'm only calling it that right here for
+descriptive purposes, otherwise Palemoon IS NOT Firefox at all.<br>
+        <br>
+None of the phoning home just from the default bookmarks that Firefox
+includes.<br>
+        <br>
+The basic tweaks in about:config are already done, so I don't have to
+do that first thing. Can't believe the people over at Mozilla are too
+braindead to do that to Firefox, by default.<br>
+        <br>
+Firefox has been known since its inception to have memory leaks that
+they still haven't been fixed. None of that in Palemoon.<br>
+        <br>
+Don't have much use for addons like so many people do. Stupid, IMO. I
+do use adblockplus and flashblock is all.<br>
+        <br>
+Like I said, wouldn't touch Firefox with a 10 foot pole, but have
+Palemoon on all 6 systems of mine.<br>
+        <br>
+Keep rockin' people!!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">honorable1nut<small> (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have used all the major internet browsers
+(Internet Explorer, Chrome, Firefox, Opera) and without a doubt,
+Palemoon rises above all of these. Imagine the customization of
+Firefox, powered by speed rivaling Chrome and handling pages with
+extreme ease; Low RAM and low CPU usage as well. This will be a browser
+I will be using for years."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Chris<small> (U.K.)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"Clearly a much better improvement in speed compared
+to
+regular firefox. I have a gaming computer and a really slow netbook and
+can notice a huge speed jump on both of them. At work I'm usually on
+my slow netbook and firefox gets really slow when I have 4 or more tabs
+open. Now with PM I can have 10, even 20 tabs open and PM still works
+flawlessly. PM is now my ONLY browser and its here to stay."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Eric Jakeway<small> (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-style: italic;">I love it. I love
+it. I love it.</span><br>
+        <br>
+I had been in browser limbo for a long while after quitting Firefox the
+first time.&nbsp; I liked Firefox, but it was just too slow and
+bloated.&nbsp; It'd constantly crash and eat up system resources.<br>
+        <br>
+I tried Chrome, Opera, Safari, even &#8211; god help me &#8211; I.E., but none of
+them individually were as customizable, efficient, stable, and speedy
+as Pale Moon. This browser is my lifemate."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">John<small> (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I have been using Firefox since version 1.<br>
+A friend of mine introduced me to Pale Moon and I tried it out.<br>
+I noticed the performance difference immediately. Very fast on Windows
+7 and my dual core. <br>
+Would recommend to anyone with a decent PC."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Joe<small> (U.K.)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I usually don't give feedback. <br>
+After all, you expect a program to do its job. And a browser is a
+browser, right? <br>
+        <br>
+        <span style="font-style: italic;">Wrong.</span> <br>
+        <br>
+I was a Firefox user from when it was called Phoenix. I used it for
+years, custom builds and all. I even made my own builds. <br>
+But then Google Chrome came out, and it beat FF speed-wise hands down.
+I switched, and started playing with Chromium (the open source version
+of Chrome, for those who don't know). <br>
+The other day, I somehow stumbled upon Pale Moon while looking for
+Chromium tweaks and decided to try it out. I was blown away. Not only
+does Pale Moon do everything it promises, <span style="font-style: italic;">it does it exceptionally well</span>. <br>
+All the benefits of Firefox and its addons and themes, plus so much
+more. The difference in speed between Chrome/Chromium and Pale Moon on
+my machine is glaringly noticeable. <br>
+        <br>
+Pale Moon has managed to convert me back to Firefox in 2 days. I
+commend you on this most excellent build. <br>
+        <br>
+Keep up the great work!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Chris<small> (USA)</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"<span style="font-style: italic;">Lovely browser.</span><br>
+Fast to download, easy to install and a perfect migration of my FF
+profile.&nbsp; <br>
+No tests run, but it seems at least 20% faster.&nbsp; Great, thanks!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre wrap="">Kit Thompson<small> (France)</small></pre>
+        </div>
+      </blockquote>
+If you would like to submit a testimonial yourself, please use the <a href="contact/">feedback form</a>
+to let me know your
+experiences with the browser. <span style="font-weight: bold; font-style: italic;">Please make sure to
+mention either your full name or your unique handle to include. Also
+include your city and country.</span> If you don't include these
+details, your testimonial will not be considered for inclusion.<br>
+      <br>
+      <small>* I reserve the right to make editorial changes and
+decisions about publishing your testimonial or not. Please do not be
+offended if your testimonial is not published.</small><br>
+      <br>
+      <a href="http://www.palemoon.org/">[&lt;-- Back]</a></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

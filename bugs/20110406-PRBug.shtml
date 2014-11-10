@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en"><head>
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - 20110406/PRBug</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pm-bannerheader.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+<h1>PR bug 20110406 [reopened-devonly]<br>
+      </h1>Crash condition on certain pages when trying to print or print preview.<br>
+      <br>
+      <span style="font-weight: bold;">Reporters:</span> Kevin Lubick, Guy Simmons, Stephen Cohen<br>
+      <span style="font-weight: bold;"><br>
+Affects the following:</span> <br>
+      <span style="font-weight: bold;">Functions:</span> File -&gt; Print, File -&gt; Print preview.<br>
+      <span style="font-weight: bold;">Builds:</span> All 4.0
+dev builds except x64. Released builds don't have this crash condition (trial&amp;error).<br>
+      <br>
+      <span style="font-weight: bold;">Cause:</span>
+Compiler issue when using PGO combined with SSE2. Also possibly related to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=647792">Bug 647792</a><br>
+      <br>
+      <span style="font-weight: bold;">Details:</span><br>The
+linking phase when combining PGO with SSE2 causes memory
+access errors in certain conditions. This
+is (yet another) compiler bug in MSVC :/ -- and it seems to be rather persistent <span style="font-style: italic;">and</span> random, some builds are successful, hit-and-miss.<br>
+As a result, specific conditions present in collecting the page data to
+prepare for printing results in an invalid memory access (usually in
+protected system memory), crashing the browser or closing it to desktop silently.<br>
+      <br>
+      <span style="font-weight: bold;">Solution:</span><br>Re-build, disabling SSE2 specifically for affected modules.<br>
+The consequence will be a performance hit for the functions with SSE2
+instructions disabled. On the whole, this should not be significant;
+vector calculations are usually not needed for printing.<br>
+      <br>
+      <span style="font-weight: bold;">Implementation:</span><br>1) Find the affected modules.<br>
+Progress: ruled out so far: JS, jemalloc, mozalloc<br>
+Likely candidates: embedding/components/printinggui and /layout/printing/* (next up) <br>
+2) Edit makefile with CXXFLAGS := $(CXXFLAGS:arch:SSE2=arch:SSE) or even filter-out if SSE is a problem as well.<br><br>
+<a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

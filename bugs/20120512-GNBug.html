@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en"><head>
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - 20120512/GNBug</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pm-bannerheader.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+<h1>GN bug 20120512<br>
+      </h1>The browser sets a hard cache limit of 1GB as a user preference, regardless of the browser default.<br><br>
+      <span style="font-weight: bold;">Reporters:</span> Herman Strange<br>
+      <span style="font-weight: bold;"><br>
+Affects the following:</span> <br>
+      <span style="font-weight: bold;"></span><span style="font-weight: bold;">Builds:</span> All Next Gen builds.<br>
+      <br>
+      <span style="font-weight: bold;">Cause:</span>
+Hard-coded setting of the cache limit to the theoretical ceiling if configured not to use automatic cache management.<br>
+      <br>
+      <span style="font-weight: bold;">Details:</span><br>This
+is caused by a UX decision to show the user the MAX cache size after
+unchecking Firefox's default setting for automatic cache management
+(Mozilla Bug 559942 comment 65).<br>
+This "display value" however is the actual value as stored in a user pref for cache limit and not just a display value.<br>
+When automatic cache management is not used (pref to false) in the
+default profile, upon first run, the disk cache value is set to 1GB,
+ignoring the defaults set in firefox.js and potential branding
+preferences.<br><br>
+      <span style="font-weight: bold;">Solution:</span><br>Comment out <br>
+branch-&gt;SetIntPref(DISK_CACHE_CAPACITY_PREF, MAX_CACHE_SIZE); <br>
+in netwerk\cache\nsCacheService.cpp under nsCacheProfilePrefObserver::PermittedToSmartSize<br>
+<br>
+      <span style="font-weight: bold;">Implementation:</span><br>Source edit nsCacheService.cpp and recompile<br><br>
+<a href="javascript:history.back()">[ &lt;-- Back ]</a><br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

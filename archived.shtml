@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en"><head>
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Archived versions</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Archived versions</h1>
+This page provides access to archived versions of Pale Moon. These are
+older versions of
+the browser that are no longer supported, but listed here in case you
+want or need to use an older version. <span style="font-weight: bold;">Please
+be aware that these
+versions may have (serious) bugs that have been fixed in later versions.</span><br>
+      <br>
+      <div style="text-align: center;"><span style="color: rgb(204, 0, 0);">Please only
+grab the version you
+personally need. This is for archival purposes only.</span><br>
+
+      </div>
+<h3>FTP download</h3>You can download archived versions of the browser by pointing your browser or FTP client to <a href="ftp://archive:get@ftp.palemoon.org/">ftp://archive:get@ftp.palemoon.org/</a><br>
+      <br>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">IMPORTANT:</span>
+Please don't use multi-segment download managers. Use a browser or
+single-connection download manager to download files from the FTP
+server since connections per IP are limited and will fail when trying
+to "maximize bandwidth" (= stealing bandwidth from other users). If you
+use a multi-segment download manager you may be permanently banned for
+abuse.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

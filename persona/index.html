@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>persona</title>
+</head>
+
+<body>
+<script type="text/javascript" src="jquery.js"> </script>
+<script type="text/javascript" src="personasfunctions.js"> </script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("img.persona").previewPersona();
+    $("img.persona").click(function(event) {
+                dispatchPersonaEvent('SelectPersona', event.currentTarget);
+                return false;
+            });
+});
+</script>
+<script type="text/javascript">
+</script>
+
+<img class="persona" 
+persona=
+"{&quot;id&quot;:&quot;119021&quot;,
+ &quot;name&quot;:&quot;Pale Moon&quot;,
+ &quot;accentcolor&quot;:&quot;#8bb3e3&quot;,
+ &quot;textcolor&quot;:&quot;#092040&quot;,
+ &quot;header&quot;:&quot;header.jpg&quot;,
+ &quot;footer&quot;:&quot;footer.jpg&quot;,
+ &quot;category&quot;:&quot;Websites&quot;,
+ &quot;description&quot;:&quot;A pale blue, painted moon of soft light blue background gradients, in the style of the theme used on www.palemoon.org&quot;,
+ &quot;author&quot;:&quot;Moonchild&quot;,
+ &quot;detailURL&quot;:&quot;http:\/\/www.getpersonas.com\/persona\/119021&quot;,
+ &quot;headerURL&quot;:&quot;http:\/\/www.palemoon.net\/persona\/header.jpg&quot;,
+ &quot;footerURL&quot;:&quot;http:\/\/www.palemoon.net\/persona\/footer.jpg&quot;,
+ &quot;previewURL&quot;:&quot;http:\/\/www.palemoon.net\/persona\/preview.jpg&quot;,
+ &quot;iconURL&quot;:&quot;http:\/\/www.palemoon.net\/persona\/preview_small.jpg&quot;}"
+ style="border: 0px solid ; width: 200px; height: 67px;" src="preview.jpg" alt="Pale Moon">
+
+<br>
+<br>
+
+</body></html>

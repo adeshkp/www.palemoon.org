@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en"><head>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>End of Windows XP support in Pale Moon</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+<tr align="left">
+<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+<br>
+</td>
+</tr>
+    <tr>
+<td style="vertical-align: top;">
+      <h1>End of Windows XP support in Pale Moon</h1>With
+Pale Moon 25.0, support for the Windows XP operating system has been
+dropped. This page aims to clarify the situation and provide
+alternatives to current Windows XP users who wish to continue using
+Pale Moon as their browser.<br>
+      <br>
+      <h3>Why was Windows XP support discontinued by Pale Moon?</h3>
+Unlike its sibling Firefox, that will continue to offer Windows XP as a
+supported operating system, Pale Moon has discontinued support for this
+OS. Considering the large number of users still on Windows XP, this has
+not been done without some good reasons, outlined below:<br>
+      <ul>
+        <li><span style="font-weight: bold;">OS security considerations:</span>
+Windows XP is no longer supported or maintained by its developer
+(Microsoft) and lacks continued security updates that are needed in
+this day and age of malware. It's considered End of Life since April
+2014, and using it is inherently taking a security risk. Also understand that Windows XP lacks some features in terms of program security and stronger security certificates.<br>
+        </li>
+        <li><span style="font-weight: bold;">OS Life considerations:</span>
+Windows XP has the status "obsolete". It has never been one of Pale
+Moon's goals to support particularly old systems from its very
+inception. That includes obsolete operating systems.<br>
+          <span style="color: rgb(153, 153, 153);">There is an
+alternative version of Windows XP called POSReady2009 that will receive
+continued updates beyond this point in time, but it should be noted
+that this is <span style="font-weight: bold;">not</span> a desktop
+operating system and has been designed specifically around use in cash
+registers and other Points of Sale situations with single-application
+use (and not desktop use) in mind. Using that alternative version is <span style="font-weight: bold;">never recommended for general use</span> and is not considered by Pale Moon as a viable target operating system to run on.</span><br>
+        </li>
+        <li><span style="font-weight: bold;">Stability considerations:</span>
+Forcing NT 5.x kernel compatibility has shown to cause stability
+issues, especially with the optimizations used in Pale Moon's main-line
+builds. Being able to use more modern (Vista and later) windows
+functions improves stability and overall performance of the browser.</li>
+        <li><span style="font-weight: bold;">Compiler support:</span>
+Windows XP support was only added as an afterthought to the compiler in
+use by Pale Moon (Visual Studio 2012). This support for Windows XP has
+never been part of the compiler's design and the resulting binaries in
+this forced compatibility are at least suboptimal and at most prone to
+severe compiler bugs and crashes.<br>
+        </li>
+        <li><span style="font-weight: bold;">Graphics subsystem compatibility:</span>
+Pale Moon's graphics subsystem is really aimed at being able to use
+DirectX 10 or later, something that is not available in Windows XP.
+Apart from having to build in all sorts of workarounds for DirectX 9
+(the highest version supported by Windows XP) and the inherent problems
+with that, it also means that nobody on Windows XP will be able to
+benefit from the acceleration and graphics features available in later
+operating systems. Users on Windows XP are therefore already running on
+"extended backwards compatibility" and this part of the graphics
+subsystem is not really maintained or updated anymore.</li>
+      </ul>
+      <br>
+      <h3>What are my alternatives?</h3>
+There are a few alternatives to consider, and a few (although logical) things that are not recommended:<br>
+      <ul>
+        <li><span style="color: rgb(0, 102, 0);">Recommended:</span> Of course the <span style="font-weight: bold;">top recommendation, if your budget allows for it, is to <a href="http://windows.microsoft.com/en-us/windows7/products/upgrade#T1=tab01" target="_blank">upgrade</a> to a later operating system</span>. Windows 7
+is strongly recommended in this case for current users of Windows XP.
+It will be supported until 2020 and provides the most familiarity and
+customizability that Windows XP users would be looking for. On top, it
+is a very stable and well-rounded operating system. Once you have
+upgraded, running current and future versions of Pale Moon will not be an issue.</li>
+        <li><span style="color: rgb(0, 102, 0);">Recommended:</span> Since the <a href="palemoon-atom.shtml">specialized Atom version</a>
+will continue to support Windows XP indefinitely (because of the large amount of
+netbooks being limited to that operating system) you can switch to that
+version.</li>
+        <li><span style="color: rgb(0, 102, 0);">Recommended:</span> If you are looking for a full main-line build of Pale Moon with Windows XP support, there are also 32-bit and 64-bit <a href="http://binaryoutcast.com/software/projects/pm4xp/">alternative (third-party) builds</a>
+of the browser specifically maintained for Windows XP and Server 2003
+environments. Please do note that these versions will be discontinued
+when the last retail NT 5.x product goes EoL in July 2015.</li>
+        <li>Of course another alternative is to switch browser. We will be sad to see you go.<br>
+        </li>
+        <li><span style="color: rgb(102, 0, 0);">Not recommended:</span>
+stay on Pale Moon 24.7.2. With the release of Pale Moon 25.0, simply
+"not upgrading the browser" is not recommended because the previous
+major version will not receive updates or further support. We simply do
+not have the manpower or resources to continue updating and maintaining
+multiple different versions of the same product. If you stay on Pale
+Moon 24.7.2, you will not receive any security and stability updates
+that the current version receives, and you will put yourself at (even
+greater) risk.</li>
+        <li><span style="color: rgb(102, 0, 0);">Not recommended:</span>
+attempt to build your own from source. Building Pale Moon from source
+is not extremely difficult but it will require some advanced knowledge,
+since you will have to make edits to the source code to enable Windows
+XP compatibility before building. In addition, we will not provide any
+support for your own builds so you are pretty much "on your own" if you
+run into trouble.<br>
+        </li>
+      </ul>
+<br>
+
+</td></tr>
+
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+      <!--#include virtual="nav/footer.html" -->
+      <br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>

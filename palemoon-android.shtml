@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en"><head>
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1><a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
+      <h1>Pale Moon for Android™ </h1>
+This version of Pale Moon is built for the Android operating system on mobile devices (phones, tablets).<br>
+<ul></ul>
+      <table style="border-style: solid; border-width: 1px; text-align: left; width: 90%;" class="sysreq" align="center" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">System Requirements:</span></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;" width="50%">
+            <ul>
+              <li>Android operating system<br>
+Currently, Pale Moon for Android will run on Gingerbread and higher,
+although this will change soon to be able to cater to ART and KitKat
+operating systems properly.<br>
+</li>
+              <li>ARM processor v7 or later (Android-x86 is currently not supported)<br>
+              </li>
+            </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 style="text-align: left;">Current version: 25.0.2</h3>
+Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon release notes</a>.<br>
+      <h3 style="text-align: left;">Download links</h3>
+      <span style="font-weight: bold;"></span>
+      <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr style="background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;">
+            <th>Link (click to download)<br>
+            </th>
+            <th>Description<br>
+            </th>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; text-align: center;"><a href="https://play.google.com/store/apps/details?id=org.palemoon.android"><img style="border: 0px solid ; width: 220px; height: 47px;" alt="" title="Click to download!" src="dl-images/Google_play_logo.png"></a><br>
+            </td>
+            <td style="vertical-align: top;"><span style="font-weight: bold;">Google Play store</span><br><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; text-align: center;"><a href="http://forum.palemoon.org/viewforum.php?f=39"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            </td>
+            <td class="dltable_text"><span style="font-weight: bold;">Pale
+Moon forum</span><br>Check the announcements section for the most recent version of the browser for Android<br>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="vertical-align: top; text-align: center;"><a href="http://www.gamershell.com/download_110829.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" alt="Logo" src="dl-images/gamershellcom.png"></a></td>
+            <td style="vertical-align: top;"><span style="font-weight: bold;">GamersHell</span><br>
+
+Servers in Europe and the US</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <span style="font-weight: bold;"></span><br>
+<h3>Source code</h3>
+Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

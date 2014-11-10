@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync Terms of Service</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Sync terms of service</h1>
+      <div style="text-align: right;">Last Updated: June 7<sup>th</sup>,
+2014.<br>
+      </div>
+      <h3>Terms of Service - Overview</h3>
+      <ul>
+        <li>The Pale Moon Sync Service supplied by Moonchild
+Productions allows you to synchronize information stored in your Pale
+Moon browser such as your bookmarks, saved passwords, browsing history,
+preferences, and open browser tabs, between the various computers on
+which you have installed Pale Moon.</li>
+        <li>These Terms of Service only apply to the synchronizing
+service we provide.<br>
+        </li>
+        <li>The data you sync is your data and remains your data. Your
+data is encrypted and we can&#8217;t see, access or use it.</li>
+        <li>The Pale Moon Sync Service is provided "as-is" and there
+are no guarantees of any kind, including fitness for any particular
+purpose.</li>
+        <li>Pale Moon and Moonchild Productions will accept absolutely
+no liability of any kind for your use of this service.</li>
+      </ul>
+      <h3>Terms of Service</h3>
+      <h4>Acceptance</h4>
+      <p>These Terms of Service ("TOS") govern your use of the Pale
+Moon Sync Service (the "Service"). By registering for and/or using the
+Service you are agreeing to abide by the terms and conditions described
+below. This is an agreement between you, the end user ("you"), and
+Moonchild Productions/Moonchild (Mr. M.C. Straver BASc)/Pale Moon
+administrators/operators ("we", "us", etc.).<br>
+      </p>
+      <h4>Use of the Services</h4>
+      <p>To use the Service you must first register. During
+registration you will need to provide your email address and create a
+username and password (collectively "Account Data"). These will be sent
+to Pale Moon servers using Secure Socket Layers (SSL) technology to
+encrypt them during transit. Your password will be stored on our server
+in an encrypted form. The form of encryption used prevents anyone from
+stealing your actual password, but still allows us to authenticate you
+when you sign into the Service. You will also create a secret phrase.
+The secret phrase is stored on your computer and is not sent to us.</p>
+      <p>You may use the Service only for purposes that are permitted
+by (i) the TOS and (ii) the laws and regulations in your state and
+country and any other laws and regulations that apply to your use of
+the Service (including any laws regarding the export of data or
+software to and from the United States or other relevant countries).</p>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Engage in any activity that interferes with or disrupts the
+Service (or the servers and networks that are connected to the Service);</li>
+        <li>Trade or resell the Service for any purpose;</li>
+        <li>Access (or attempt to access) the Service by any means
+other than the official Pale Moon browser, unless you have been
+specifically allowed to do so in writing by the server operator and/or
+Pale Moon project owner.</li>
+        <li>An exception to the previous point is the personal use of
+Sync on mobile devices (since Pale Moon is not yet available for those
+devices), but only when using official builds of software that are fully Sync 1.1 compatible.<br>
+        </li>
+
+      </ul>
+      <h4>Your Acknowledgments</h4>
+      <p>You acknowledge and agree that:</p>
+      <ul>
+        <li>You will only use the Service to access your own account
+and User Data (defined in Section 2);</li>
+        <li>User Data may be sent outside your country of residence;</li>
+        <li>We have the right to manage the Service in a manner
+designed to protect the rights and property of Moonchild Productions
+and others and to facilitate the proper functioning of the Service,
+including disabling your account if deemed necessary;<br>
+        </li>
+        <li>We may discontinue or change the Service at our discretion
+without liability. If we discontinue or change the Service, we will
+announce it through the usual channels for such announcements such as
+the forum.</li>
+      </ul>
+      <h4>Proprietary Rights</h4>
+      <p>We do not grant to you any intellectual property rights in the
+Service. For example, this TOS does not provide the right to use any of
+our copyrights, trade names, trademarks, service marks, logos, domain
+names, or other distinctive brand features.</p>
+      <p>The Pale Moon browser is distributed under and subject to the
+Mozilla Public License, and in binary form to the Pale Moon
+redistribution license, located at http://www.palemoon.org/redist.shtml.</p>
+      <p>"User Data" is the digital content stored on, manipulated, and
+transmitted to and from Pale Moon Sync servers by means of your use of
+the Service. Examples of User Data include your browsing history, form
+history, bookmarks, saved passwords, preferences, and open tabs. You
+own your User Data but you give us a license to store, transmit,
+reproduce, encrypt, and otherwise manipulate it as necessary to provide
+the Service.</p>
+      <h4>Transmission of User Data</h4>
+      <p>You understand and agree that we, in performing the required
+technical steps to provide the Service, may (i) transmit or distribute
+your User Data over various public networks and in various media; and
+(ii) make such changes to User Data as are necessary to conform and
+adapt that User Data to the technical requirements of connecting
+networks, devices, services or media. Provided you are using the Pale
+Moon browser, during any such transmission, your User Data and Account
+Data will be sent via SSL.</p>
+      <h4>Canceling the Service</h4>
+      <p>You can discontinue use of the Service at any time. In the
+Pale Moon browser go to the "Options", category "Sync", and click
+"Unlink this device" on all synced computers. There is currently no
+automated request procedure to have your encrypted data removed from
+the Sync server, so you should make sure to follow the instructions as
+stated on the Pale Moon website or in the forum to remove your data
+prior to unlinking your last device.<br>
+      </p>
+      <h4>Third Party Client Developers</h4>
+      <p>Use of third party clients to access the Pale Moon Sync
+Service is not permitted.</p>
+      <h4>Updates to the Terms</h4>
+      <p>We may update this TOS from time to time, for example to
+address a new feature of the Service or to clarify a provision. The
+updated TOS will be posted on the Pale Moon website. If the changes are
+substantive, we will announce the update through the usual channels for
+such announcements such as the forum. Your continued use of the Service
+after the effective date of such changes constitutes your acceptance of
+such changes. These terms may not be modified or cancelled without our
+written agreement.</p>
+      <h4>Disclaimer of Warranty</h4>
+      <p>The Service is provided "as-is" with all faults. To the extent
+permitted by law, Moonchild Productions, its distributors,
+contributors, and licensors hereby disclaim ALL warranties, either
+express or implied, including without limitation warranties that the
+Service is free of defects, merchantable, fit for any particular
+purpose and non-infringing. You bear the entire risk as to selecting
+the Service for your purposes and as to the quality and performance of
+the Service, including without limitation the risk that your User Data
+is deleted, lost or corrupted. Some jurisdictions do not allow the
+exclusion or limitation of implied warranties, in which case you should
+not make use of the Service. The service is used solely at your own
+risk, regardless of legal precedent.<br>
+      </p>
+      <h4>Limitation of Liability</h4>
+      <p>Moonchild Productions, its distributors, contributors, and
+licensors, will not be liable for any indirect, special, incidental,
+consequential or exemplary damages arising out of or in any way
+relating to this TOS or the use of or inability to use the Service,
+including without limitation damages for loss of goodwill, work
+stoppage, lost profits, loss of data, and computer failure or
+malfunction, even if advised of the possibility of such damages and
+regardless of the theory (contract, tort or otherwise) upon which such
+claim is based. Some jurisdictions do not allow the exclusion or
+limitation of incidental, consequential or special damages, in which
+case use of the Service is prohibited.</p>
+      <h4>Miscellaneous</h4>
+      <p>This TOS constitutes the entire agreement between you and us
+concerning the Service. These terms are governed by the laws of Sweden.
+If any portion of these terms is held to be invalid or unenforceable,
+the remaining portions will remain in full force and effect. In the
+event of a conflict between a translated version of these terms and the
+English language version, the English language version shall control.</p>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

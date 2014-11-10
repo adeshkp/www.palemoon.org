@@ -1,0 +1,47 @@
+   DirectoryIndex index.php index.shtml index.html index.htm
+   
+   Options +Includes
+   
+   AddType text/html .shtml
+   AddOutputFilter INCLUDES .shtml
+   
+   ErrorDocument 404 /errors/404.shtml
+   
+# Turn on Expires and set default to 0 (let browser decide)
+ExpiresActive On
+ExpiresDefault A0
+ 
+# Set up caching on media files for 1 year (forever?)
+<filesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A29030400
+Header append Cache-Control "public"
+</filesMatch>
+ 
+# Set up caching on media files for 1 week
+<filesMatch "\.(gif|jpg|jpeg|png|swf)$">
+ExpiresDefault A604800
+Header append Cache-Control "public"
+</filesMatch>
+ 
+# Set 0 minutes caching on commonly updated files (let browser decide)
+<filesMatch "\.(xml|txt|shtml|html|js|css)$">
+ExpiresDefault A0
+Header append Cache-Control "proxy-revalidate"
+</filesMatch>
+ 
+# Force no caching for dynamic files
+<filesMatch "\.(php|cgi|pl)$">
+ExpiresActive Off
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+Header set Pragma "no-cache"
+</filesMatch>
+   
+   RewriteEngine On
+   RewriteRule start\.html$ http://start.palemoon.org/ [NC,R]
+   RewriteRule start/$ http://start.palemoon.org/ [NC,R]
+   RewriteRule index\.html$ http://www.palemoon.org/ [NC,R]
+   RewriteRule releasenotes\.html$ http://www.palemoon.org/releasenotes.shtml [NC,R]
+   RewriteRule firstrun\.html$ http://www.palemoon.org/firstrun.shtml [NC,R]
+   RewriteRule releasenotes-v4\.shtml$ http://www.palemoon.org/releasenotes-ng.shtml [NC,R]
+   RewriteRule download-v4\.shtml$ http://www.palemoon.org/download-ng.shtml [NC,R]
+   

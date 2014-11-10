@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Pale Moon Sync</title>
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+</head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Sync service</h1>
+The Pale Moon Sync service is a Sync 1.1 (Weave-based) synchronization
+service for Pale Moon browser users.<br>
+It allows the synchronization of data between Pale Moon browser
+instances using an e-mail and password as account credentials.<br>
+This service is governed by the Pale Moon Sync <a href="terms.shtml">Terms
+of Service</a> and <a href="privacy.shtml">Privacy Policy</a>.<br>
+      <h3>What is Pale Moon Sync for?<br>
+      </h3>
+      <ul>
+        <li>Synchronizing data between different desktop/laptop
+computers</li>
+        <li>Synchronizing data between desktop.laptop computers and
+mobile devices (e.g. tablet, phone)<br>
+        </li>
+        <li>Synchronizing data between Pale Moon on different operating
+systems</li>
+      </ul>
+When talking about "data", this comprises, by your choice:<br>
+      <ul>
+        <li>Bookmarks</li>
+        <li>Open tabs</li>
+        <li>Browsing history</li>
+        <li>Form history<br>
+        </li>
+        <li>Passwords</li>
+        <li>Extensions (add-ons)</li>
+        <li>Preferences (limited subset)</li>
+      </ul>
+      <h3>What is Pale Moon Sync <span style="text-decoration: underline;">not</span> for?</h3>
+Pale Moon Sync is a courtesy service with no guarantees of availability.<br>
+It has not been designed with other use than synchronization in mind,
+therefore:<br>
+      <ul>
+        <li>It's not for backing up your data to the server or
+restoring from it<br>
+        </li>
+        <li>It's not for corporate/high-availability use. There is no
+SLA or up-time guarantee.</li>
+        <li>It's not for synchonizing data between Pale Moon and other
+browsers<br>
+(although it's possible to sync with other Weave 1.1 compatible
+clients, the Pale Moon server is not calculated on the required
+capacity for additional clients. If you are a client developer and want
+to use the Pale Moon server in lieu of setting up your own, you <span style="text-decoration: underline;">must</span> contact me to discuss
+details)</li>
+        <li>It's not for anything that would be in violation of the <a href="terms.shtml">Terms of Service</a>.</li>
+      </ul>
+      <h3>Technical details, encryption of data and security</h3>
+A few points about the technical details of the sync service to note,
+also for the average user:<br>
+      <ul>
+        <li>Pale Moon Sync encrypts all your data <span style="font-weight: bold;">before</span> it is sent to the server.
+This encrypted data can only be recovered with your personal recovery
+key that is stored in your browser. <span style="font-weight: bold;">If
+you lose your recovery key, you lose access to the data</span> on the
+server because it cannot be recovered/decrypted without this key.</li>
+        <li>Pale Moon Sync allows you to recover your sync account in
+case you lose your key, but any data on the server will be removed
+since it cannot be recovered without the key.</li>
+        <li>If your Pale Moon Sync account gets compromised (someone
+learns your login credentials), your data is still inaccessible to
+whomever compromised your account, because the encryption key is never
+stored on the sync server.<br>
+(This is a key (no pun intended) difference with the "new" Firefox sync
+service (Sync 1.5, in effect from Firefox 29 onwards), where a
+compromised account allows the attacker to get your key and access your
+data)</li>
+        <li>If the Pale Moon Sync server were ever to be hacked, your
+data is still safe as well: Your account password is encrypted in the
+database (using bcrypt) and your synced data is unrecoverable without
+the recovery key that is in your possession. The server simply does not
+contain the information needed to decrypt your synced data.<br>
+Of course plenty of steps are taken to prevent this from ever
+happening, but being prepared for the worst case is a good thing.</li>
+        <li>Of course, all connections to the Pale Moon Sync server are
+encrypted using SSL, to prevent your sync account password from being
+stolen over insecure networks.</li>
+        <li>The Pale Moon Sync service uses industry-standard
+technologies to provide an as-robust-as-possible service to you. <!--In
+detail: the service is set up using NginX, PHP-fpm and MySQL. Note: the
+initial service was set up using Mozilla's Python implementation of
+weave which proved to be prone to instability.--><br>
+        </li>
+      </ul>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

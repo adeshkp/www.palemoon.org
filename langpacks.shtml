@@ -1,0 +1,625 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon language packs<br>
+      </h1>
+If
+you prefer to have the Pale Moon user interface in your native language
+(not US-English), then these language packs can help you! They are
+based on the Mozilla Firefox language packs, with additional
+translations done for specific Pale Moon user interface components. <span style="font-weight: bold;">Pale Moon will not be
+released with installers in individual languages</span>, but installing
+these
+language packs on the US-English browser will pretty much have the same
+effect. <br>
+      <br>
+It should be noted that while these language packs convert most
+of the english in the user interface, they are not a complete
+translation as of now. <span style="font-weight: bold;">Some Pale Moon
+specific options and texts are not localized (yet) and will show up as
+English if you use the packs marked as <span style="font-style: italic; color: red;">incomplete</span>.</span> If
+you want to help the Pale Moon project by translating these texts,
+please hop over to <a href="http://forum.palemoon.org/viewforum.php?f=30">this forum board</a>
+and help out!<br>
+      <br>
+      <span style="color: red;">Please note the installation
+instructions, just installing the language pack and letting Pale Moon
+restart is not enough!</span>
+Also keep in mind that these language packs are a convenience and that
+the browser is and remains an English language product at its heart.<br>
+      <br>
+      <div style="border: 2px solid rgb(204, 204, 255); padding: 5px 10px; background-color: rgb(240, 240, 255);">
+      <h3>Installation instructions</h3>
+A few simple steps is all that is needed to install these language
+packs:<br>
+      <ol>
+        <li>Download
+the language pack .xpi from this page (below). You may also choose to
+immediately "install" in the Pale Moon browser (the default when
+left-clicking), skipping the need to
+save it first (go to step 3). <span style="font-weight: bold;">You do
+not have to restart Pale Moon yet.</span><br>
+        </li>
+        <li>If you downloaded the .xpi first, double-click the .xpi in
+explorer/other file manager. Confirm that you want to install the
+.xpi in your browser. This will add the language pack to Pale Moon. <span style="font-weight: bold;">You do not have to restart Pale Moon yet.</span><br>
+        </li>
+        <li>To actually switch to the new language, you also have to
+make a
+configuration change. Go to the advanced configuration editor (type <a href="about:config">about:config</a> in the address bar and press
+enter).</li>
+        <li>Find the setting <span style="font-weight: bold; font-style: italic;">general.useragent.locale</span>
+which is set to "en-US" by default. Double-click it to change.</li>
+        <li>Enter the language code for your locale, including region
+if applicable. E.g.: "fr" if you live in france, "ja" if you live in
+Japan, "es-MX" if you want Mexican Spanish. <span style="text-decoration: underline;">Use the same code as the file name
+of the language pack you downloaded.</span></li>
+        <li style="font-weight: bold;">Close Pale Moon completely and
+restart it.</li>
+      </ol>
+      </div>
+      <br>
+And that's it! You can now use Pale Moon in your native language.<br>
+      <br>
+Note that these language packs only change the interface language. <span style="text-decoration: underline;">They don't change the language
+used for the spellchecker.</span><br>
+To download a spellchecker dictionary of your choice, go to: <a href="https://addons.mozilla.org/en-US/firefox/language-tools/">https://addons.mozilla.org/en-US/firefox/language-tools/<br>
+      </a> Or right-click any normal text input field, and in the
+pop-up menu select Languages -&gt; Add Dictionaries...<br>
+      <br>
+      <h3>Download for v25<br>
+</h3>
+Download links for the language packs<span style="font-weight: bold;"></span>:&nbsp;
+      <span style="color: red;"><br>
+&#9632;</span> = incomplete (no active translator)<br>
+      <span style="color: rgb(204, 153, 51);">&#9632;</span> = in progress
+(incomplete but someone has partially translated it) <br>
+      <span style="color: rgb(51, 204, 0);">&#9632;</span> = complete<br>
+      <br>
+      <span style="font-weight: bold;">These language packs are for the latest major version of the browser</span> (v25). They will not work on older versions. If you are using an older version of the browser, please go to the <a href="archived.shtml">archived versions</a> page and download the approporiate language pack for your browser version.<br>
+      <br>
+      <table style="text-align: left; width: 75%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr>
+            <th style="vertical-align: top; width: 224px; text-align: center;">Language<br>
+            </th>
+            <th style="vertical-align: top; width: 150px; text-align: center;">Download<br>
+            </th>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;</span>
+Acholi (Uganda)<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ach.xpi">ach.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Afrikaans</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/af.xpi">af.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Akan<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ak.xpi">ak.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Arabic</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ar.xpi">ar.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Assamese (India)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/as.xpi">as.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Asturian/Bable<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ast.xpi">ast.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Belarusian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/be.xpi">be.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Bulgarian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/bg.xpi">bg.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Bengali
+(Bangladesh)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/bn-BD.xpi">bn-BD.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Bengali
+(India)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/bn-IN.xpi">bn-IN.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Breton<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/br.xpi">br.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Bosnian<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/bs.xpi">bs.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Catalan</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ca.xpi">ca.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Czech</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/cs.xpi">cs.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Kashubian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/csb.xpi">csb.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Welsh</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/cy.xpi">cy.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"> </span>Danish</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/da.xpi">da.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>German</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/de.xpi">de.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"> </span>Alternative German<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/de-ade.xpi">de-ade.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Greek
+(Modern)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/el.xpi">el.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632; </span>English
+(U.K.)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/en-GB.xpi">en-GB.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>English (South Africa)<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/en-ZA.xpi">en-ZA.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>E<span style="color: red;"></span>speranto</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/eo.xpi">eo.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"> </span>Spanish
+(Argentina)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/es-AR.xpi">es-AR.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Spanish
+(Chile)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/es-CL.xpi">es-CL.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>Spanish
+(Spain)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/es-ES.xpi">es-ES.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>Spanish
+(Mexico) <br>
+            </td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/es-MX.xpi">es-MX.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Estonian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/et.xpi">et.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Basque</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/eu.xpi">eu.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Persian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/fa.xpi">fa.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Pulaar Fulfulde</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ff.xpi">ff.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Finnish</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/fi.xpi">fi.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>French</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/fr.xpi">fr.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Western
+Frisian (Netherlands)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/fy-NL.xpi">fy-NL.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Irish</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ga-IE.xpi">ga-IE.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Gaelic (Scottish)<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/gd.xpi">gd.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>Galician (Spain)<br>
+            </td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/gl-ES.xpi">gl-ES.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Gujarati
+(India)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/gu-IN.xpi">gu-IN.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Hebrew</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/he.xpi">he.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Hindi
+(India)</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/hi-IN.xpi">hi-IN.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Croatian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/hr.xpi">hr.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"> </span>Hungarian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/hu.xpi">hu.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Armenian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/hy-AM.xpi">hy-AM.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Indonesian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/id.xpi">id.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Icelandic</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/is.xpi">is.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;"><span style="color: rgb(51, 204, 0);">&#9632;</span></span><span style="color: red;"> </span>Italian</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/it.xpi">it.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;"><span style="color: rgb(51, 204, 0);">&#9632;</span> </span>Japanese</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ja.xpi">ja.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Kazakh</td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/kk.xpi">kk.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Khmer (Cambodian)<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/km.xpi">km.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: red;"> </span>Kannada (India)<br>
+            </td>
+            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.x/kn.xpi">kn.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"></span><span style="color: red;"> </span>Korean</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ko.xpi">ko.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Kurdish</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ku.xpi">ku.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Ganda<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/lg.xpi">lg.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Ligure</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/lij.xpi">lij.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Lithuanian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/lt.xpi">lt.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Latvian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/lv.xpi">lv.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Maithili<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/mai.xpi">mai.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Macedonian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/mk.xpi">mk.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Malayalam</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ml.xpi">ml.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Mongolian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/mn.xpi">mn.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Marathi</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/mr.xpi">mr.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Norwegian (Bokmål)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/nb-NO.xpi">nb-NO.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632; </span>Dutch</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/nl.xpi">nl.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Norwegian (Nynorsk)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/nn-NO.xpi">nn-NO.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Pedi/Nothern Sotho<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/nso.xpi">nso.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Oriya</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/or.xpi">or.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Panjabi/Punjabi (India)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/pa-IN.xpi">pa-IN.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Polish</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/pl.xpi">pl.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"> </span>Portuguese
+(Brazil)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/pt-BR.xpi">pt-BR.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Portuguese (Portugal)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/pt-PT.xpi">pt-PT.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Romansh</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/rm.xpi">rm.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: red;"> </span>Romanian/Moldavian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ro.xpi">ro.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;"><span style="color: rgb(51, 204, 0);">&#9632;</span></span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Russian<span style="color: rgb(153, 153, 153);"></span><br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ru.xpi">ru.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Sinhala</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/si.xpi">si.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Slovak</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sk.xpi">sk.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Slovenian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sl.xpi">sl.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Songhai<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/son.xpi">son.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Albanian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sq.xpi">sq.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"></span><span style="color: red;"> </span>Serbian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sr.xpi">sr.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632; </span>Swedish</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sv-SE.xpi">sv-SE.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Swahili<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/sw.xpi">sw.xpi</a><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Tamil</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ta.xpi">ta.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Tamil (Sri Lanka)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/ta-LK.xpi">ta-LK.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Telugu</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/te.xpi">te.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Thai</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/th.xpi">th.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: red;"></span><span style="color: red;"> </span>Turkish</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/tr.xpi">tr.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Ukranian</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/uk.xpi">uk.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Vietnamese</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/vi.xpi">vi.xpi</a> </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(204, 153, 51);">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>Chinese (Simplified)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/zh-CN.xpi">zh-CN.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: red;"><span style="color: rgb(51, 204, 0);"></span>&nbsp;</span>Chinese
+(Traditional)</td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/zh-TW.xpi">zh-TW.xpi</a>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><span style="color: red;">&#9632;
+            </span>Zulu<br>
+            </td>
+            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.x/zu.xpi">zu.xpi</a><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <span style="color: red;"></span><br>
+      <br>
+      <span style="font-weight: bold; text-decoration: underline; color: red;">Important
+note:</span> These language packs are provided <span style="font-weight: bold;">AS-IS</span>. I am not the author of these
+language packs, and cannot provide support for the actual contents of
+them.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

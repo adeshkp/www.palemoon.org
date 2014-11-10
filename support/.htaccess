@@ -1,0 +1,20 @@
+   DirectoryIndex index.php index.shtml index.html index.htm
+   RewriteEngine On
+   RewriteRule firefox-help http://www.palemoon.org/faq.shtml [NC,R]
+   RewriteRule firefox-f1 http://www.palemoon.org/faq.shtml [NC,R]
+   RewriteRule ieusers http://support.mozilla.com/en-US/kb/For+Internet+Explorer+Users?style_mode=inproduct [NC,R]
+   RewriteRule private-browsing http://support.mozilla.com/en-US/kb/Private\ Browsing [NC,R]
+   RewriteRule prefs-main http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-main [NC,R]
+   RewriteRule prefs-tabs http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-tabs [NC,R]
+   RewriteRule prefs-content http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-content [NC,R]
+   RewriteRule prefs-applications http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-applications [NC,R]
+   RewriteRule prefs-security http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-security [NC,R]
+   RewriteRule prefs-privacy http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-privacy [NC,R]
+   RewriteRule prefs-advanced-general http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-advanced-general [NC,R]
+   RewriteRule prefs-advanced-network http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-advanced-network [NC,R]
+   RewriteRule prefs-advanced-update http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-advanced-update [NC,R]
+   RewriteRule prefs-advanced-encryption http://support.mozilla.com/1/firefox/0/win32/en-us/prefs-advanced-encryption [NC,R]
+   RewriteRule plugin-crashed http://support.mozilla.com/en-US/kb/Plugin\ crash\ reports?s=plugin+crashed [NC,R]
+   
+   
+   

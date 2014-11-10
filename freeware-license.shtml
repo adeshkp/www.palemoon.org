@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Freeware License</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Freeware License</h1>Note:
+if not otherwise explicitly specified, the Copyright holder and Author
+of software subject to this license is Mr. M.C. Straver, AKA
+"Moonchild".<br>
+      <br>
+
+      <hr style="width: 100%; height: 2px;"> <span style="font-weight: bold;">Last updated:</span> 11 March 2013<br>
+      <p>The software provided under this license is
+provided as Freely Available Copyrighted Software ("Freeware"), which means:</p>
+      
+      <ol>
+        <li>The author of this software retains full rights to all parts of the software provided. No rights are given to copy,
+modify or create derivative works of this software.</li>
+        <li>The software may only be distributed by third parties if such distribution is completely FREE OF CHARGE. No
+redistribution fee or cost reimbursement may be charged, and the software must be supplied UNALTERED and with all 
+copyright statements intact, accompanied by a copy of this license.</li>
+        <li>The software may not be included in whole or in part in other software, either free or commercially, without the
+author's prior permission.</li>
+        <li>If
+the source code to the software is officially made available
+(disclosed), it may be used for educational purposes, but (parts of)
+the software's
+source code may not be copied verbatim to other software without the
+author's prior permission. See (1).</li>
+      </ol>Software
+distributed under the License is distributed on an "AS IS" basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied.<br>
+
+      <hr style="width: 100%; height: 2px;"><br>
+This license may be updated without notice, so please make sure to
+check back on occasion if you use or distribute this software. That
+being
+said, there is no intention of making changes to the core of this
+license and the main premise of free availability behind it.<br>
+      <br>
+If
+you have any questions about this freware license, think anything
+is in error or wish to discuss individual terms for your
+specific scenario or specific property/distribution rights issues, then please <a href="contact/">contact me</a>.<br>
+      <br>
+      <a href="/">[&lt;- Back]</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>

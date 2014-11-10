@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Portable<br>
+      </h1>
+      <h3>You can now take Pale Moon anywhere with you!<br>
+      </h3>You've enjoyed Pale Moon at home, or at the office. You've wondered if
+you could use it elsewhere: in a library, on a public computer, in a
+cybercafé... You need something portable, that is as simple as plugging
+in your USB stick and running your favorite browser, with all your
+bookmarks and passwords at your fingertips? Then here is the answer:
+Pale Moon Portable!<br>
+Following the trend of other browsers, a portable
+installation has been created, which, thanks to <a href="http://www.winpenpack.com/">winPenPack</a>'s
+X-launcher that the portable launcher is based on, is completely
+self-contained. Nothing is stored on the host computer; your bookmarks, passwords, history, downloads, etc.
+stay neatly where
+they belong: on your stick.<br>
+      <br>
+      <big style="color: red;"><span style="font-weight: bold;">Note: portables are not meant to have file/URL associations with the desktop.</span></big> <br>
+If you require <span style="font-weight: bold;">desktop integration of any kind</span> (including pinned taskbar entries, etc.), it is recommended that you do <span style="font-weight: bold;">not</span>
+use Pale Moon Portable, but the normal desktop version instead! <span style="color: rgb(204, 0, 0);">Pale
+Moon portable has been specifically designed to take with you on
+removable media with high wear and slow access, and its default
+settings reflect this.</span> Using it on a stationary computer has a number of drawbacks and is not recommended.<br>
+      <h3>How do I use this?</h3>
+Three simple steps:<br>
+      <ol>
+        <li>Download the Pale Moon Portable file (below)</li>
+        <li>Extract the contents of the file to your USB stick in a
+folder of your choice:<br>Run the .EXE file and tell it where to unpack<br>
+</li>
+        <li>Run <span style="font-weight: bold;">palemoon-portable.exe </span>(not palemoon.exe) in the location you unpacked to<br>
+</li>
+      </ol>
+That's it! Simple enough?<br>
+The first time you run Pale Moon Portable, it may take a fairly long
+time to load, because it creates a new personal profile on your USB
+stick for you. This can take some time, also depending on the speed of
+your stick - up to 30 seconds, usually. After that, it will be much
+faster to start.<br>
+      <br>
+Of course, you don't have to use a USB stick; <span style="font-weight: bold;">any writable
+medium would work</span>: External harddisk, a networked drive, even an
+MP3 player
+if it allows you to access it as a drive in Windows.<br>
+Do note however that Pale Moon Portable <span style="font-weight: bold;">doesn't run from
+read-only media</span> like CD-ROM or DVD-ROM; it needs write access to
+the location it is run from.<br>
+<h2>Download links:</h2>
+<span style="font-weight: bold; color: red;">IMPORTANT:</span> You are <span style="font-weight: bold;">NOT allowed</span> to redistribute the portable if you have made <span style="font-weight: bold;">ANY changes to the archive</span>! You are ONLY allowed to redistribute the binary package if it's completely unaltered! <span style="font-weight: bold;">For any other redistribution</span> of the binaries with the Pale Moon name and logo, e.g. with added extensions, languages, plugins, tools, etc., you <span style="font-weight: bold;">MUST get permission beforehand</span>. Full details in the <a href="redist.shtml">redistribution policy</a>. <br>
+      <br>
+      <div style="border: 2px dashed red; text-align: left; background-color: rgb(255, 255, 204);">Currently
+there are no "multi-language" or foreign language versions of Pale Moon Portable that are
+endorsed<span style="text-decoration: underline;"></span>, and any "multi-language" or foreign language portable versions of Pale Moon are
+therefore illegal redistributions. Please discourage anyone from
+promoting or redistributing or downloading these versions.<br>
+      <div style="text-align: center;"><span style="font-weight: bold;">Please check the <a href="contributed-builds.shtml">list of contributed builds</a> to know if they are officially endorsed.</span><br>
+
+      </div>
+</div>
+
+<br>
+      
+      <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;"><a name="PMP-x86"></a>Download Pale Moon Portable x86 (32-bit):</span><br>
+      </div><br>
+      <span style="color: red;"></span>File size is approximately 22 MB (EXE):<br>
+
+      
+      <ul>
+<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a><br>
+</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.0.2.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.0.2.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+
+        
+
+        
+
+<li><a href="http://www.downloadcrew.com/article/21349-pale_moon_407_portable">Download Crew</a></li>
+        <li><a href="http://www.gamershell.com/download_110819.shtml">GamersHell</a><br>
+        </li>
+
+        <li><a href="http://www.filesriver.com/app/251/pale-moon">FilesRiver</a><br>
+        </li>
+</ul>
+SHA-1: 2f063da8df3f8ba3cb271f87ec23b212f87e0795<br>
+
+PGP Signature: <a href="pgp/Palemoon-Portable-25.0.2.win32.exe.sig">[Sig]</a><br>
+PAD: <a href="http://www.palemoon.org/pad_palemoon-portable.xml">[link]</a><br>
+      <br>
+      <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold; text-decoration: underline;"><a name="PMP-x64"></a></span><span style="font-weight: bold;">Download Pale Moon Portable x64 (64-bit):</span><br>
+      </div>
+<span style="font-weight: bold; text-decoration: underline;"><br>
+</span><span style="font-weight: bold;">64-bit</span> version of the launcher and browser for 64-bit Windows (Vista x64 or later). <span style="font-weight: bold;">Keep
+in mind that the same restrictions apply to this as to the desktop
+64-bit version with regard to availability of media plug-ins, etc.</span> <br>File size is approximately 26 MB (EXE):<br>
+      <ul>
+        <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li>
+        
+
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.0.2.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.0.2.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://www.gamershell.com/download_110821.shtml">GamersHell</a><br>
+        </li>
+
+        <li><a href="http://www.filesriver.com/app/251/pale-moon">FilesRiver</a><br>
+        </li>
+
+
+        
+
+        
+
+        
+
+      </ul>
+SHA-1: 02c22fdf322ab0b6d870f2c88729b1f980f017f0<br>
+PGP Signature: <a href="pgp/Palemoon-Portable-25.0.2.win64.exe.sig">[Sig]</a><br>
+
+PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br><br>
+
+      
+      <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold; text-decoration: underline;"><a name="PMP-x64"></a></span><span style="font-weight: bold;">Download Pale Moon Portable Atom (32-bit):</span><br>
+      </div>
+
+      <span style="font-weight: bold; text-decoration: underline;"><br>
+      </span><span style="font-weight: bold;"></span>Atom-optimized version of the browser designed for portable use on netbooks and similar.<br>
+File size is approximately 21 MB (EXE):<br>
+
+      
+      <ul>
+<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.0.2.atom.win32.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.0.2.atom.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
+        </li>
+
+      </ul>
+
+SHA-1: ada33e3599d21c3974f0476156d5dd4aa2d6d27f<br>
+
+PGP Signature: <a href="pgp/Palemoon-Portable-25.0.2.atom.win32.exe.sig">[Sig]</a><br>
+
+
+PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
+<br>Please go to the <a href="/">main page</a> if you are looking
+for a standard installation (desktop/laptop/netbook) version.<br>
+      <br>
+      <h3>I already have an earlier version of palemoon-portable. How
+do I
+upgrade?</h3>
+Since Pale Moon Portable comes in a "virgin" state, you can simply
+download and overwrite an existing Pale Moon Portable folder with the
+files from a
+newer version. Your user profile will remain untouched as it doesn't
+exist in a freshly extracted Pale Moon Portable. <span style="font-weight: bold;">You can also extract
+the portable to a new folder of your choice and then copy over the
+"user" folder from the old copy of the portable browser.</span><br>
+
+      <span style="font-weight: bold; color: red;">Warning:</span> If you have made changes to palemoon-portable.ini yourself, you will have to make these changes again as the .ini file will be <span style="font-weight: bold;">overwritten</span>.
+The solution is to save this file as "user.ini" which will take
+precedence over palemoon-portable.ini if found by the launcher.<br>
+
+      <br>
+
+      <span style="font-weight: bold;">Note on using Pale Moon's internal updater:</span>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">NOT RECOMMENDED!</span> You can also use "Check for updates" in Pale Moon Portable itself, but
+this will only update the browser, not the portable shell. On occasion
+(infrequently) some changes are made to the shell to provide
+improvements or updates. You will not get these changes if you use the
+internal updater, and this -may- cause problems or inconsistencies with
+documentation. Before you ask for support for an issue, always first
+try to use the full portable package if you have used the internal
+updater of the browser. Also, <span style="color: red;">on occasion, updates are made that are
+specific only to the portable version, which will not be picked up by
+the internal updater</span>. Also note that <span style="color: red;">using the internal updater, you will lose the more compact libraries</span>
+to be replaced with standard libraries and the browser will therefore
+use more space on your stick/medium and likely load slower from
+removable media.<br>
+
+      <br>
+
+      <span style="font-weight: bold;">Optional (advanced):</span>
+If
+you are afraid it may still overwrite something you don't want it
+to, then the alternative is to download the standard Pale Moon ZIP file
+(not the portable one), and replace the Pale Moon folder in \bin\ with
+the one from the ZIP file. You could simply overwrite, but it is recommended that
+you remove the old
+files first before you copy the new ones. The same note here as for
+using the internal updater: you will only update the browser, and not
+the portable shell. Here, too, you will get standard, non-compacted libraries.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+      <!--#include virtual="nav/footer.html" -->
+      <br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

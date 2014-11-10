@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Profile Migration Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+<tr align="left">
+<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+<br>
+</td>
+</tr>
+    <tr>
+<td style="vertical-align: top;">
+      <h1>Pale Moon profile migration tool</h1>
+
+This tool will help you migrate a Mozilla Firefox profile to Pale Moon.<br>
+
+This tool may not work for everyone, since it has a few important
+limitations:<br>
+
+      <ol>
+<li>This tool only works for the default profile locations for
+Firefox and Pale Moon</li><li>This tool does not work for portable versions of either browser</li><li>This tool <span style="font-style: italic;">may</span> not work well on limited accounts on Windows Vista.<br>
+</li>
+        
+
+      </ol>
+
+It was put together mainly for people who have standard installations
+and as a convenient aid for people who do not have enough knowledge of
+the Windows O.S. and filesystem to manually copy the profiles over. It
+is not meant to be very versatile or flexible at this moment, but "gets
+the job done" in most cases.<br>
+      <br>
+Current version: <span style="font-weight: bold;">1.5.0</span> (2014-05-20)<br>
+This version update fixes blocklist issues, addresses incompatibilities
+with migrating from Firefox 29 when classic theme restorer is
+installed, as well as clarification about the Status-4-Evar add-on if
+installed.<br>
+      <br>
+      <span style="font-weight: bold;">Important:</span> this tool is not aware of compatibility issues with Firefox extensions in general, and will copy over <span style="font-weight: bold;">all</span>
+installed extensions. After migration, you will have to examine your
+installed extensions and see which ones need to be updated, removed or
+changed. Not all Firefox extensions are guaranteed to work in Pale
+Moon, and some may even prevent proper browser operation if they are
+incompatible but still installed!<br>
+
+      <br>
+      <br>
+
+      
+      <div style="text-align: center;"><a class="dllink_green" href="http://relmirror.palemoon.org/tools/pm-migrate.exe">Download now (free)</a><br>
+      </div>
+
+      <br>
+      <br>
+      <span style="font-weight: bold; color: red;">Note:</span> <span style="font-weight: bold;">Please close both Firefox and Pale Moon before attempting to migrate your profiles.</span> Not doing so may cause an incomplete transfer or give errors.<br>
+      <br>
+If this tool, for whatever reason, doesn't work for you, please check the <a href="troubleshooting.shtml#The_Pale_Moon_profile_migration_tool">Troubleshooting</a> section on this site for instructions on how to manually copy over a profile.<span style="font-weight: bold;"></span><br>
+      <br>
+      <span style="color: rgb(102, 102, 102);">This tool is provided to
+you as FREEWARE. Unlike the pale Moon browser, this tool is not open
+source and the source will not be made available. © 2009-2014 M.C.
+Straver.</span><br>
+      <span style="font-style: italic;"></span><br>
+
+</td></tr>
+
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+      <!--#include virtual="nav/footer.html" -->
+      <br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>
