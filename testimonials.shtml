@@ -13,8 +13,7 @@
       </th>
     </tr>
     <tr align="left">
-      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-      <br>
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
       </td>
     </tr>
     <tr>
@@ -25,33 +24,37 @@ Collected here are a number of testimonials from people who have tried
 Pale
 Moon:<br>
 <!--
-
 <blockquote>"{testimonial}"<br>
-
 <div style="text-align: right; font-weight: bold; height: 1em;">
-
 <pre>{name}<small> ({location}) - Pale Moon {version}</small></pre>
-
 </div>
-
 </blockquote>
-
 -->
+      <blockquote>"<span style="font-weight: bold;">Thank You!</span><br>
+        <br>
+Just updated Firefox, <span style="font-style: italic;">everything went bad</span>, had to revert to old version.<br>
+        <br>
+Been a Firefox guy since it was Mosaic, I almost forgot what a browser should be like, so glad you didn't!<br>
+Brings me back to the old days when things could be small, fast, and functional.<br>
+10x faster than FF, and <span style="font-weight: bold;">works</span>, w/out forcing any '<span style="font-style: italic;">IE/Chrome/Apple/Trying-to-think-for-you</span>' crap on me. <br>
+        <br>
+I love it, instant convert. Again, thank you!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>grizzman<small> (Milwaukee, WI, USA) - Pale Moon 25.0.2</small></pre>
+        </div>
+      </blockquote>
 
-<blockquote>"Just started using this on my 64 bit Win 7 PC.&nbsp; I was
+      <blockquote>"Just started using this on my 64 bit Win 7 PC.&nbsp;
+I was
 using Chromium vs. Chrome before and it was killing my RAM (8
 GB).&nbsp; Pale Moon is significantly faster and using a lot less
 RAM.&nbsp; Very nice. <br>
         <br>
 Excellent job on the browser!"<br>
-
-<div style="text-align: right; font-weight: bold; height: 1em;">
-
-<pre>Tom<small> (Winthrop Harbor, IL, USA) - Pale Moon 25.0.1</small></pre>
-
-</div>
-
-</blockquote>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tom<small> (Winthrop Harbor, IL, USA) - Pale Moon 25.0.1</small></pre>
+        </div>
+      </blockquote>
       <blockquote>"Installed on both laptop (Linux Mint) and PC
 (Windows) where latest version of Firefox was installed already.<br>
 My experience: better speed, better browse experience in comparison to
