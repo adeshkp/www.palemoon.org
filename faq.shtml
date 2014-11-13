@@ -25,6 +25,7 @@
 
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -52,11 +53,13 @@ F.A.Q. is limited and will not be expanded further because focus of
 support has moved to the Pale Moon forum.<span style="font-weight: bold;"></span><br><br>
 A more comprehensive list of frequently asked questions can be found in the <a href="http://forum.palemoon.org/viewforum.php?f=24" target="_blank">F.A.Q. section of the Pale Moon Forum</a>. Please make sure to also check there if the question you are looking for is not listed here.<br>
 
-      <h4>Specific issues with Pale Moon 25.0:</h4>
+      <h4>Specific issues with Pale Moon 25:</h4>
       <ul>
         <li><a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932">Some of my add-ons stopped working. What's going on?</a></li>
-        <li><a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6004">Some websites look or act differently, or have stopped providing service. What do I do?</a><br>
+        <li><a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6004">Some websites look or act differently, or have stopped providing service. What do I do?</a></li>
+        <li><a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6262">Some secure connections fail in Pale Moon, but not in other browsers. What's wrong?</a><br>
         </li>
+
       </ul>
       <h4>General: </h4>
 

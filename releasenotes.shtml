@@ -18,7 +18,78 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.0.2 (2014-10-24)</h3>This is a small update to address a number of teething problems with the new milestone release.<br>
+      <h3>25.1.0 (2014-11-14)</h3>This
+is an important update after rapid development on the back-end to keep
+pace with the current changes on the web and improve compatibility with
+websites.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>New feature: multi-line flexbox support.<br>
+Pale Moon now supports more advanced multi-line and multi-column flex
+elements. This will allow websites to use these elements for easier
+responsive design of web pages and ordering/layout of multiple
+elements. This has been on Pale Moon's to-do list for a while but was
+rather complex to tackle, hence the delay in implementation. This
+should address layout issues on several recently-updated websites (e.g.
+the MSN home page).</li>
+        <li>New feature: added support for collapsed flex element items.<br>
+        </li>
+        <li>Enhanced feature: Content Security Policy (CSP)<br>
+Pale Moon now fully supports the CSP 1.0 specification allowing
+websites to set restrictions on content to prevent XSS (Cross-site
+scripting) attacks. Previously, the implementation in Pale Moon was
+partial, and did not support a number of features, resulting in some
+websites not rendering properly because Pale Moon was being too strict
+in enforcing the policy. This should address issues on websites
+enforcing CSP (e.g. the Dropbox web interface and FaceBook galleries).</li>
+        <li>New feature: added support for iframes with inline content.<br>
+        </li>
+        <li>Updated the Firefox Compatibility mode version to 31.9.<br>
+With the improvements in rendering and overall feature set, the Firefox
+Compatibility mode (as presented in the UserAgent string) has been
+bumped to prevent websites from complaining about "using a too
+old/unsupported version of Firefox" (e.g. Google websites).</li>
+        <li>Pale Moon no longer builds the so-called "media navigator" by default.<br>
+This module provides access to the user's webcam and microphone.
+Although it can be used for other purposes, in practice this is only
+used for WebRTC and, in fact, its support (GetUserMedia) is often
+mistaken for actually supporting WebRTC in a browser (causing errors
+since Pale Moon does not support WebRTC). No longer including these
+features reduces input complexity and overhead for a feature not
+actively used. This also circumvents privacy concerns/confusion like
+CVE-2014-1586.<br>
+        </li>
+        <li>Improved tab handling on lightweight themes (personas) some
+more to enhance contrast on certain themes and to make the tab hover
+effect slightly more distinct.</li>
+        <li>Fixed oversized/blocky menu arrows on Windows 8.1 in HiDPI mode.</li>
+        <li>Fixed incorrect operating system being passed on to addons.mozilla.org.</li>
+        <li>Fixed an error being thrown in the error console/web console when opening a new window.</li>
+        <li>Removed the NVidia 3D Vision auxiliary utility library.<br>
+This library has been the likely cause for a number of crashes on NVidia cards, and is completely unnecessary for Pale Moon.<br>
+        </li>
+        <li>Made the installer less aggressive for file type associations, to prevent "stealing" of globally associated file types.<br>
+        </li>
+        <li>Android: improved restoring of session tabs.</li>
+        <li>Android: added an option to automatically restore tabs.<br>
+An important thing to note with this new option is the following: with
+the option enabled, Pale Moon will now automatically restore tabs you
+had open previously when the app gets suspended (pushed out of memory
+by other apps, closed by swipe, etc.). The "quit" main menu option,
+however, completely shuts down your session, unloads Pale Moon from
+active memory, and tabs will not be automatically restored when you
+launch Pale Moon again. This is by design. To restore tabs in that situation, use the link from the home screen.<br>
+        </li>
+        <li>Fixed CVE-2014-1581. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Fixed bug 1069584: Bail if a cairo surface is in an invalid state. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Made sure to initialize surfaces for draw targets. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Fixed bug 1074280: Use AsContainerLayer() in order to avoid a bad cast. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Fixed several problems in the HTML parser. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Improved security of XHR by filtering out types of requests that can potentially be abused. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+      </ul>
+      <h3>25.0.2 (2014-10-24)</h3>
+This is a small update to address a number of teething problems with the new milestone release.<br>
       <br>
       <span style="font-weight: bold;">Fixes/changes:</span><br>
       <ul>

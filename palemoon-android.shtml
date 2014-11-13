@@ -6,6 +6,7 @@
 
 
 
+
   
   <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -37,7 +38,7 @@
     </tr>
     <tr>
       <td style="vertical-align: top;">
-      <h1><a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
+      
       <h1>Pale Moon for Android™ </h1>
 This version of Pale Moon is built for the Android operating system on mobile devices (phones, tablets).<br>
 <ul></ul>
@@ -49,19 +50,16 @@ This version of Pale Moon is built for the Android operating system on mobile de
           <tr>
             <td style="vertical-align: top;" width="50%">
             <ul>
-              <li>Android operating system<br>
-Currently, Pale Moon for Android will run on Gingerbread and higher,
-although this will change soon to be able to cater to ART and KitKat
-operating systems properly.<br>
-</li>
+              <li>Android operating system, version 4.0 or higher</li>
               <li>ARM processor v7 or later (Android-x86 is currently not supported)<br>
               </li>
+
             </ul>
             </td>
           </tr>
         </tbody>
       </table>
-      <h3 style="text-align: left;">Current version: 25.0.2</h3>
+      <h3 style="text-align: left;">Current version: 25.1</h3>
 Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon release notes</a>.<br>
       <h3 style="text-align: left;">Download links</h3>
       <span style="font-weight: bold;"></span>

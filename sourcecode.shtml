@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en"><head>
+
   <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -27,7 +28,7 @@ a regular user, you don't need the source code of the browser.</span><br>
 <h2>Downloading the source code</h2>
 The source code (7-zip packed) of the current release version:<br>
       <br>
-      <div style="text-align: center;"><a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.0.2-source.7z">Download current release version source code</a><br>
+      <div style="text-align: center;"><a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.1.0-source.7z">Download current release version source code</a><br>
       </div>
 
 <br>If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
@@ -53,8 +54,8 @@ be found in the live repository on GitHub at the following URL:<br>
       <ul>
         <li>You
 will need Visual Studio 2012. Even though it may possibly build with VS
-2010, there will likely be some snags. It will not properly build on
-older versions of Visual Studio. Whether it builds on VS 2013 is unknown.<br>
+2010, there will likely be some snags. It will not properly build versions of Visual Studio older than VS2010. <br>
+Whether it builds on VS 2013 is unknown, but will likely not work without editing the source because of some <a href="http://msdn.microsoft.com/en-us/library/bb531344.aspx" target="_blank">breaking changes</a> in that version of Visual Studio's C++ compiler.<br>
 </li>
         <li>You will need to get the build prerequisites as outlined on
 the Mozilla Developer Network. Most notably, you need the Mozilla Build

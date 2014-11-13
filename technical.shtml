@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -93,14 +94,16 @@ complexity, and increases speed, but will, obviously,
 not be suitable for people who need these features.</li>
         <li><span style="font-weight: bold;">Parental controls</span>.
 Pale Moon aims to be a fast browser for general use, not a "secured
-family browser". The design impact of operating system integrated parental controls as introduced
+family browser". The design impact of operating system integrated
+parental controls as introduced
 in Firefox is significant, and has had serious
 implications for building the browser. As such, parental controls have
-been disabled. Extensions-based parental controls are, of course, a viable alternative.<br>
+been disabled. Extensions-based parental controls are, of course, a
+just-as viable alternative (and may in many cases work better!).<br>
 </li>
         <li><span style="font-weight: bold;">WebRTC</span>.
 Apart from
-opening up a whole can of worms security-wise, "Web Real Time Chat"
+opening up a whole can of worms security/privacy-wise, "Web Real Time Chat"
 (comparable with Skype video calls and the likes) is not considered
 useful or desired functionality for Pale Moon (both according to the
 developers and the users of the browser at large). This is best left to
@@ -115,7 +118,9 @@ default - you are always recommended to use a separate, up-to-date
 document reader for PDF files (as an external program, not as a browser plugin) for your own security, and to have
 documents displayed in their fully intended format instead of a
 stripped-down display in an in-browser reader.</li>
-        <li><span style="font-weight: bold;">Social API</span>. The code for this is still included for people who choose to use it, but completely disabled by default.<br>
+        <li><span style="font-weight: bold;">Social API</span>.
+The code for this is still included for people who choose to use it,
+but completely disabled by default and not supported by the developer.<br>
         </li>
 
         <li><span style="font-weight: bold;">Tab Groups</span>. The Tab
@@ -139,7 +144,7 @@ privacy.<br>
       </ul>
       <br>
       <h3><a name="CPUsupport"></a>Supported processors</h3>
-The Pale Moon browser is specifically optimized for current processors
+The Pale Moon browser is specifically optimized for current-day processors
 and uses instructions exclusively available in more modern (or rather: not museum-grade) processors.
 This means it will not run on PCs that are particularly old by today's
 standards, and is likely to display errors or refuse to start on
@@ -148,16 +153,11 @@ Requirements for the regular Pale Moon browser are, in short: <span style="font-
 support</span>.<br>
 Since many people will not know off-hand what their CPU is capable of
 or what generation it is, here is a run-down of a number of popular
-CPUs and if they are supported. In case of doubt if your CPU is
+CPUs around the time of includion of this instruction set, and if they are supported. In case of doubt if your CPU is
 supported or not, please find a CPU information tool like CPU-z or
-Crystal CPU-ID to check your CPU's capacities. <br>
+Crystal CPU-ID to check your CPU's capacities.<span style="font-weight: bold; font-style: italic;"></span><br>
       <br>
-      <span style="font-weight: bold; font-style: italic;">
-The web installer will attempt to automatically
-detect your processor and inform you if your system can't run Pale Moon.</span><br>
-      <br>
-This table might be
-incomplete:<br>
+This table is incomplete. but outlines a few popular classes of processor:<br>
       <br>
       <table style="text-align: left; width: 90%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -204,7 +204,7 @@ Pentium II<br>
 
           </tr>
           <tr>
-            <td style="vertical-align: top; width: 112px;">Celeron<br>
+            <td style="vertical-align: top; width: 112px;">Older generation single-core Celeron<br>
             </td>
             <td style="vertical-align: top;">Maybe: <br>
 
@@ -287,7 +287,9 @@ browser from Firefox?</h3><span style="font-weight: bold; font-style: italic;">T
 differences are increasingly significant as time passes. Pale Moon will remain close to
 Firefox in many parts of the code to ensure compatibility with the many
 thousands of add-ons wherever possible, but should be considered a "fork" and a totally independent product.</span><span style="text-decoration: underline;"><br>
-      <br></span>
+      <br>
+</span>For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
+
       <ol>
         <li>Pale
 Moon, like Firefox (and several other browsers) is based on the Gecko
@@ -321,7 +323,7 @@ team, as well as <span style="font-weight: bold;">retaining useful elements that
 either removing or disabling (by default) components that would not
 be used by the average user. <span style="text-decoration: underline;"></span>In addition, some other user interface changes were made to provide an
 as consistent and intuitive interface as possible while still staying
-close to what Firefox's goals have always been. <span style="font-weight: bold;">This means the "Australis" interface will never be used in Pale Moon.</span> For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
+close to what Firefox's goals have always been. <span style="font-weight: bold;">This means the "Australis" interface will never be used in Pale Moon.</span><br>
 </li>
         <li>Pale Moon offers more configurability for features, like
 additional tab preferences, preferences for image loading or tab positions, and full control over smooth scrolling.</li>
@@ -382,7 +384,7 @@ browser, and redistribution of the <span style="font-weight: bold;">binary</span
       <br>
  <h3><a name="Palemoon_tested"></a>How Pale Moon has been tested</h3>
 Pale Moon builds are tested for stability before being released by
-having it used for day-to-day browsing. This includes but is not
+having it used for day-to-day browsing by a group of beta testers. This includes but is not
 limited to:<br>
  <ul> <li>Graphics heavy art sites</li> <li>Static HTML sites with many elements</li> <li>DHTML/CSS sites</li> <li>SSL/heavy authentication sites</li> <li>Flash-heavy sites</li>
         <li>Social media sites</li>
@@ -403,7 +405,9 @@ certainly effective.<br><br>
 TMI (Too Much Information) for the average joe:<br>
  <ul><li>Build environment: <br>
 </li> <ul> <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
- </li> <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK</li> <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)</li>
+ </li> <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
+For other operating systems, virtual machines are used.<br>
+</li> <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)</li>
 </ul> <li>Optimizations:
 SSE2 architecture, global speed-preference flags, intrinsic functions where
 possible, auto-vectorization, auto-parallelization. Some small
@@ -422,7 +426,7 @@ systems - the overall performance increase when using a manually,
 carefully selected set of operations for application profiling resulted
 in a
 significant increase in performance in those versions. With the change
-to Visual Studio 2012, PGO became less significant and starting with
+to Visual Studio 2012, PGO became (a lot) less significant and starting with
 Pale Moon 19.0, a more general code optimization was used to make the
 resulting program perform equally well regardless of O.S. and PC used
 on, and more importantly, improve stability of the browser by avoiding compiler/linker bugs related to PGO.<br><br>

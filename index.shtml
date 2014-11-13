@@ -7,6 +7,7 @@
 
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -88,7 +89,7 @@ processing</li>
         <li>Support for many Firefox extensions (add-ons) and themes</li>
         <li>New: support for Pale Moon exclusive extensions and themes<br>
         </li>
-<li>Extensive support for HTML5, CSS3 and WebGL<br>
+<li>Extensive and growing support for HTML5 and CSS3<br>
         </li>
         <li>Many customization and configuration options<br>
 </li>
@@ -124,12 +125,10 @@ to name a few things.<br>
           <tr>
             <td style="margin: 0px; vertical-align: top; font-size: 10pt;"><span style="font-weight: bold;">Top news:</span><br>
             <br>
-            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.0 has been released</span> which is a major new version of the browser. It includes a large number of changes and improvements which are outlined in the <a href="releasenotes.shtml">release notes</a>.<br>
-            <br>
-Of special note is that Pale Moon 25.0 drops support for Windows XP. More information about this
-change <a target="_blank" href="PM_end_of_WinXP_support.shtml">here</a>.<br>
-            <br>
-Pale Moon 25.0 may also have a number of extensions that no longer function. We are working on solutions for this. Please check <a target="_blank" href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932">here</a> or on the <a href="http://addons.palemoon.org/" target="_blank">new add-ons site</a> for more information. <span style="font-weight: bold;"></span><br>
+            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.1 has been released</span>
+which is a significant update of the browser, adding new features and
+focusing on compatibility with the currently rapidly involving Web.
+More details in the <a href="releasenotes.shtml">release notes</a>.<br>
             <br>
             <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a></td>

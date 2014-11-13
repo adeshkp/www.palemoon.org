@@ -21,6 +21,7 @@
 
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Project History</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -142,16 +143,22 @@ turbulent times for Firefox with the growing dislike for the decisions
 made about the browser by their development and management teams), the
 decision was made for Pale Moon to completely and decisively break the
 existing direct ties with Firefox (in the form of how it identifies
-itself) and be a completely independent force on the browser market.<br>
+itself) and be a completely independent force on the browser market. <br>
       <br>
-<h3>Future directions</h3>The
+This is where we are now, with Pale Moon 25 and later: a fully independent browser product.<br>
+      <br>
+      <h2>Future directions</h2>
+The
 outline Mozilla has sketched seems to be to make Firefox more
 than a browser, and to spread thin across different disciplines and
 platforms in an
-attempt to make a web-OS or swiss army knife out of it, as well as
+attempt to make a web-OS, Skype client alternative, App developer
+environment, mobile phone OS or swiss army knife out of it, as well as
 increasing ties with on-line commercial ventures like Google. These
 plans may look nice on paper, but would most likely see a vast
-amount of practical issues when trying to implement them.<br>
+amount of practical issues when trying to implement them, as has
+already been shown in decreasing stability and usability in the Firefox
+browser in recent times.<br><br>
 In addition, Mozilla touting minor bugfix releases of Firefox as
 "major" releases (for the inherent buzz as many review sites feel
 compelled to write an article with each major version release) and
@@ -159,6 +166,11 @@ constant changes in the browser (best left to beta channels) being
 forced upon everyone has clearly led to "user fatigue" and even more so
 "developer fatigue" where both users and extension developers get tired
 of constantly having to change their way of working and coding, respectively.<br>
+      <br>
+Pale Moon aims, instead, to follow standards developments and adapt to
+the changes on the Web, without losing track of what it is supposed to
+be: a web browser.<br>
+<br>
       <h3>Australis</h3>
 Pale Moon will continue to use the well-known, fully customizable user interface, and will
 not be following Mozilla's (and alternative rebuilds) move to the "Australis" user interface (by a
@@ -168,10 +180,8 @@ Instead, the current plan for Pale Moon is to stick to a stable,
 solid, and easily maintainable base code that started off as Firefox 24 ESR (with a
 number of reverted changes to keep maximum configurability as well as
 important updates ported back from later Firefox versions) and to
-maintain this code base for as long as it is feasible. If a later
-version of the code base will eventually be switched to, it will <span style="font-weight: bold;">only</span>
-be done on the premise that current configurability and customization
-capability is retained.<br>
+maintain and develop this code further.<br>
+<br>
       <h3>Bottom line</h3>
 
       <span style="font-weight: bold;">Pale Moon aims to remain what it is at its heart: a fully customizable web browser.</span><br>
