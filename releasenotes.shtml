@@ -81,6 +81,7 @@ however, completely shuts down your session, unloads Pale Moon from
 active memory, and tabs will not be automatically restored when you
 launch Pale Moon again. This is by design. To restore tabs in that situation, use the link from the home screen.<br>
         </li>
+        <li>Fixed memory security hazards CVE-2014-1574 and CVE-2014-1575 <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Fixed CVE-2014-1581. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Fixed bug 1069584: Bail if a cairo surface is in an invalid state. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Made sure to initialize surfaces for draw targets. <span style="color: rgb(128, 0, 128);">security fix</span></li>
