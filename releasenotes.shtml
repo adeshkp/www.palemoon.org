@@ -85,7 +85,7 @@ launch Pale Moon again. This is by design. To restore tabs in that situation, us
         <li>Fixed CVE-2014-1581. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Fixed bug 1069584: Bail if a cairo surface is in an invalid state. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Made sure to initialize surfaces for draw targets. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fixed bug 1074280: Use AsContainerLayer() in order to avoid a bad cast. <span style="color: rgb(128, 0, 128);">security fix</span></li>
+        <li>Fixed CVE-2014-1594: Use AsContainerLayer() in order to avoid a bad cast. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Fixed several problems in the HTML parser. <span style="color: rgb(128, 0, 128);">security fix</span></li>
         <li>Improved security of XHR by filtering out types of requests that can potentially be abused. <span style="color: rgb(128, 0, 128);">security fix</span></li>
       </ul>
