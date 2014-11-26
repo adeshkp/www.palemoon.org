@@ -30,9 +30,9 @@ monetize upon, which is against Pale Moon's principles of free software.<br>
       <br>
       <hr style="width: 100%; height: 2px;">
       <h3>Redistribution license</h3>
-      <span style="font-weight: bold;">Last updated:</span> 2 November 2014<br>
+      <span style="font-weight: bold;">Last updated:</span> 27 November 2014<br>
       <br>
-If you wish to redistribute the binaries (executable form of the code) of Pale Moon yourself, you are
+If you wish to redistribute the binaries (executable form of the code) of Pale Moon, you are
 free to do so, with the following limitations:<br>
       <ol>
         <li>There is NO CHARGE for the download or distribution of the
@@ -99,9 +99,19 @@ commercial/non-commercial website/web service/on-line venue/etc. ("service"). If
 wish to do this, you must contact me beforehand to obtain permission and discuss terms. Inclusion
 in a service will be subject to an individual agreement (either
 extemporaneous or legalized) which may or may not involve compensation.</li>
-        <li>A notable <span style="font-style: italic;">exception</span> applies to 5. and 6. above for <span style="font-style: italic;">educational</span> purposes if bundled with
+        <li>An <span style="font-style: italic;">exception</span> applies to points 5 and 6 of this license for <span style="font-style: italic;">educational</span> purposes if bundled with
 other open source software or supplied as part of a curriculum or
 in-college resource for students.</li>
+        <li>An <span style="font-style: italic;">exception</span>
+applies to point 5 of this license for inclusion of the officially
+branded binaries in freely available and fully Open Source operating
+systems, including but not limited to non-commercial variants of Linux, variants of BSD
+and ReactOS. This exception only applies to unaltered versions of the
+Pale Moon binaries or officially branded variants specifically built
+for the target operating system from unaltered sources (including
+brand-specific configurations like e.g. home page, default search engine). If any of the essential settings of the browser are altered beyond what is strictly needed for providing a working build on the target operating system, the exception in this point does not apply and the license defaults to point 10, instead.<br>
+        </li>
+
         <li>This redistribution agreement and any Individual Agreements
 for the redistribution of executable code are provided by Moonchild Productions
 ("Moonchild", "M.C. Straver") explicitly for the Pale Moon executable
@@ -109,26 +119,31 @@ code, and not by the Initial Developer or any Contributor. The Initial
 Developer and every Contributor is hereby indemnified for any liability
 incurred by the Initial Developer or such Contributor as a result of
 these terms.</li>
-        <li>The <span style="font-weight: bold;">only</span> exception
-to this redistribution policy is if the repackaged or private build with official branding has
-been approved by Moonchild for redistribution and is listed on this
+        <li>The <span style="font-weight: bold;">only</span>
+exception
+to this redistribution policy not otherwise covered in points 7 or 8 is
+if the repackaged or private build with official branding has
+been pre-approved by Moonchild for redistribution and is listed on this
 website as a contributed build. Contributed builds are subject to a
 screening process, may be accepted or rejected, may be re-screened at a
 later time, and may be at any time removed, in Moonchild's sole
 discretion, either with or without stated reason.</li>
-        <li>If a distribution is authorized as per point 9, it may be redistributed <span style="font-weight: bold;">in unaltered form</span> by others as set out in the points above and under the same conditions.</li>
+        <li>If a distribution is authorized as per point 10, the contributed build may be redistributed <span style="font-weight: bold;">in unaltered form</span> by third parties as set out in the points above and under the same conditions.</li>
         <li>If
 you wish to distribute binaries for other platforms
 built on the Pale Moon source code, you may not use official branding
 unless these builds have also been approved as a contributed build as
-per point 9 of this license. Even so, you obtain no rights to the Pale
+per point 10 of this license or if they are exempt under points 7 or 8
+of this license. Even so, you obtain no rights to the Pale
 Moon name or logo, merely the permission to use it for the 3rd party
-build and only for as long as it is officially endorsed. In all other
-cases you must use different branding files and a different name for
+build and only for as long as it is officially endorsed or satisfies
+the conditions for exemption. In all other
+cases you must use significantly different branding files/graphics and
+a significantly different name for
 the browser.</li>
         <li>Unofficial branding ("New Moon") as supplied in the source code may be used for unendorsed binaries at all times.
 Thusly branded binaries with the New Moon logo and product name are not
-subject to the endorsement rules as set out in previous points of this
+subject to the endorsement and exception rules as set out in previous points of this
 license and may be freely distributed subject to the Mozilla Public
 License as regards source code changes and availability. This
 permission does, however, not include any rights or license to the Pale
