@@ -30,7 +30,7 @@ monetize upon, which is against Pale Moon's principles of free software.<br>
       <br>
       <hr style="width: 100%; height: 2px;">
       <h3>Redistribution license</h3>
-      <span style="font-weight: bold;">Last updated:</span> 27 November 2014<br>
+      <span style="font-weight: bold;">Last updated:</span> 26 November 2014<br>
       <br>
 If you wish to redistribute the binaries (executable form of the code) of Pale Moon, you are
 free to do so, with the following limitations:<br>
@@ -66,14 +66,16 @@ includes addition or removal of any component of the browser.
 Redistribution is therefore <span style="font-weight: bold;">not permitted</span> if, without limitation:</li>
 
         <ol type="a"><li>You have re-packed the browser in a different archive format (either common or proprietary)<br>
+(an exception to this is re-packaging required for specific target operating systems, e.g. rpm, deb, pet)<br>
 </li>
           <li>You have added language packs/add-ons/plugins/etc.</li>
           <li>You have added third-party tools/toolbars/utilities/etc.</li>
           <li>You have changed supplied default preferences of the browser</li>
           <li>You include a pre-set profile</li>
           <li>You have removed any component from the browser package</li>
-          <li>You have edited or removed text files (including license files, readmes, etc.)</li>
-          <li>The binaries have been in any way infected with or include a virus, malware, etc.</li>
+          <li>You have edited or removed text or script files (including license files, readmes, JavaScript modules, etc.)</li>
+          <li>The binaries have been in any way infected with or include a virus, trojan, or other malware<br>
+</li>
           <li>The
 binaries and program structure have been in any way obscured (e.g. by
 using application virtualization) making it difficult or impossible to
@@ -102,14 +104,19 @@ extemporaneous or legalized) which may or may not involve compensation.</li>
         <li>An <span style="font-style: italic;">exception</span> applies to points 5 and 6 of this license for <span style="font-style: italic;">educational</span> purposes if bundled with
 other open source software or supplied as part of a curriculum or
 in-college resource for students.</li>
-        <li>An <span style="font-style: italic;">exception</span>
-applies to point 5 of this license for inclusion of the officially
+        <li>An <span style="font-style: italic;">exception</span> applies
+to point 5 of this license for inclusion of the officially
 branded binaries in freely available and fully Open Source operating
-systems, including but not limited to non-commercial variants of Linux, variants of BSD
+systems, including but not limited to non-commercial variants of Linux,
+variants of BSD
 and ReactOS. This exception only applies to unaltered versions of the
 Pale Moon binaries or officially branded variants specifically built
 for the target operating system from unaltered sources (including
-brand-specific configurations like e.g. home page, default search engine). If any of the essential settings of the browser are altered beyond what is strictly needed for providing a working build on the target operating system, the exception in this point does not apply and the license defaults to point 10, instead.<br>
+brand-specific configurations like e.g. home page, default search
+engine). If any of the essential settings of the browser are altered
+beyond what is strictly needed for providing a working build on the
+target operating system, the exception in this point does not apply and
+the license defaults to point 10, instead.<br>
         </li>
 
         <li>This redistribution agreement and any Individual Agreements
