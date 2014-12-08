@@ -45,7 +45,25 @@ here</a>.<br>
 language</span> <br>
 If you want to use Pale Moon in a different language, you can install a
 Pale Moon language pack. Instructions can be found <a href="langpacks.shtml">here</a>.<br>
-      <br>
+<br>
+      
+      <table class="sysreq" style="text-align: left; width: 90%;" align="center" cellspacing="0">
+
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements:</span></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;" width="50%">
+            <ul><li>Windows Vista/Windows 7<span style="font-weight: bold;"></span>/Windows 8/Server 2008 or later</li><li>A processor with SSE2 support<span style="font-weight: bold;"><br>
+                </span></li><li>256 MB of free RAM (512 MB or more recommended)<br>
+              </li><li>At least 150 MB of free (uncompressed) disk space</li></ul>
+            </td>
+          </tr>
+        </tbody>
+      
+      </table>
+<br>
 <h2>Download locations</h2>
       <span style="color: red;"></span>File size for the installer is
 20.2 MB (21,400,032 Bytes)<br>

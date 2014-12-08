@@ -90,23 +90,28 @@ run into issues because of this; a solution is not always available.<br>
 If you understand what you are getting yourself into, then by all
 means, grab yourself a copy of Pale Moon x64, and enjoy!<br>
       <br>
-      <table style="border-style: solid; border-width: 1px; text-align: left; width: 90%;" align="center" border="1" cellpadding="0" cellspacing="0">
+      <table class="sysreq" style="text-align: left; width: 90%;" align="center" cellspacing="0">
 
         <tbody>
           <tr>
-            <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements:</span></td>
+            <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements (Windows):</span></td>
           </tr>
           <tr>
-            <td style="vertical-align: top;" width="50%"><big style="font-weight: bold;"></big>
-            <ul><li>Windows Vista x64/Windows 7<span style="font-weight: bold;"></span> x64/Windows 8 x64/Server 2008 x64 or later<br>
-</li><li>512 MB or more of free RAM recommended<br>
-</li><li>At least 150 MB of free (uncompressed) disk space</li></ul>
+            <td style="vertical-align: top;" width="50%">
+            <ul>
+              <li>Windows Vista x64/Windows 7<span style="font-weight: bold;"></span> x64/Windows 8 x64/Server 2008 x64 or later<br>
+              </li>
+              <li>512 MB or more of free RAM recommended<br>
+              </li>
+              <li>At least 150 MB of free (uncompressed) disk space</li>
+</ul>
             </td>
           </tr>
         </tbody>
       
       </table>
-      <h3 style="text-align: left;">Download links:</h3>
+      <br>
+<h3 style="text-align: left;">Download links:</h3>
 
 <span style="color: red;"></span><span style="font-weight: bold;">Installer (recommended, 23.6 MB)</span>:<br>SHA-1: 4197e9c89330ca902bdc9f055f95426cdd6a635d<br>
 PGP signature: <a href="pgp/palemoon-25.1.0.win64.installer.exe.sig">[Sig]</a><br>

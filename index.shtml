@@ -147,27 +147,7 @@ news...</a></td>
       </td>
     </tr>
     <tr>
-      <td colspan="2" style="vertical-align: top;"><span style="font-weight: bold;"></span>
-      <table class="sysreq" style="text-align: left; width: 90%;" align="center" cellspacing="0">
-        <tbody>
-          <tr>
-            <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements (Windows):</span></td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top;" width="50%">
-            <ul>
-              <li>Windows Vista/Windows 7<span style="font-weight: bold;"></span>/Windows 8/Server 2008 or later</li><li>A processor with SSE2 support<span style="font-weight: bold;"><br>
-                </span></li>
-              <li>256 MB of free RAM (512 MB or more recommended)<br>
-              </li>
-              <li>At least 150 MB of free (uncompressed) disk space</li>
-            </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p><br>
-Pale Moon is, and will always be, completely FREE to download
+      <td colspan="2" style="vertical-align: top;"><span style="font-weight: bold;"></span><p>Pale Moon is, and will always be, completely FREE to download
 and use!
 (Freeware)<br>
 But, if you feel so inclined and if you enjoy the browser enough to
