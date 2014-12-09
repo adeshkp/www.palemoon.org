@@ -48,11 +48,14 @@ versions may have (serious) bugs that have been fixed in later versions.</span><
       <br>
       <div style="text-align: center;"><span style="color: rgb(204, 0, 0);">Please only
 grab the version you
-personally need. This is for archival purposes only.</span><br>
+personally need and do not hotlink.</span><br>
 
       </div>
 <h3>FTP download</h3>You can download archived versions of the browser by pointing your browser or FTP client to <a href="ftp://archive:get@ftp.palemoon.org/">ftp://archive:get@ftp.palemoon.org/</a><br>
       <br>
+      <span style="font-weight: bold;">Please note</span>: the FTP server does <span style="font-weight: bold;">not</span> accept <span style="font-style: italic;">anonymous</span> FTP logins. You need to use a browser that properly supports <span style="font-weight: bold;">RFC1738</span>, point 3.1, to pass the login credentials as listed in the link above.<br>
+Alternatively, make sure to log in manually with "archive" as username and "get" as password (without the quotes).<br>
+<br>
       <span style="font-weight: bold; color: rgb(204, 0, 0);">IMPORTANT:</span>
 Please don't use multi-segment download managers. Use a browser or
 single-connection download manager to download files from the FTP
