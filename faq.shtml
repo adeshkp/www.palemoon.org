@@ -1,37 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
 <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
   <tbody>
     <tr>
       <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
@@ -147,7 +120,7 @@ official recommendation is therefore: find yourself a different
 antivirus package. There are plenty of free-for-home-use antivirus
 packages available.<br>
       <br>
-      <a href="../faq.html#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="Why_do_some_add-ons_not_work"></a>Why do some
 add-ons not work (properly) with Pale Moon?</h3>
@@ -181,7 +154,7 @@ tries to use components that are specifically excluded from Pale Moon
 (like accessibility features, ActiveX, parental controls) it will fail.</li></ul>
 That being said, most add-ons function without a hitch.<br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="Does_it_come_with_a_preloader"></a>Does it come with
 a preloader?</h3>
@@ -195,14 +168,14 @@ for Pale Moon (adapting a Firefox preloader to work with Pale Moon).
 The following forum thread may be of interest:<br>
       <a href="http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620">http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620</a><br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br><h3>Will there be a version in my (<a name="non-English"></a>non-English) language?</h3>
 Pale Moon is released as a US-English browser. If you prefer a
 different language for the User Interface, you can install a Pale Moon
 language pack and set your browser to use it.<br>
 More information here: <a href="http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
 <br>
       <h3><a name="How_do_I_update_Pale_Moon"></a>How do I update Pale
 Moon?</h3>
@@ -238,7 +211,7 @@ Note: If you are one of the people using a ZIP packed version, it is
 recommended you remove the old browser installation first, and not
 unpack a new version on top of an old one, because the program structure and included files may have changed across versions.<br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br><h3><a name="What_are_the_differences_with_Firefox"></a>What are
 the differences with Firefox?</h3>
 Firefox and Pale Moon have similar roots in the Mozilla Community code,
@@ -265,7 +238,7 @@ You may be interested in the overview table of <a href="https://docs.google.com/
       <br>
 Note that Pale Moon will <span style="text-decoration: underline;">never</span> adopt the Australis (Firefox 29 and later) interface. <br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="How_does_it_compare_to_other_browsers"></a>How does
 it compare to other browsers?</h3>
@@ -284,13 +257,13 @@ obtain unbiased comparisons between different browsers through them, and a highe
 benchmark score doesn't necessarily mean that a browser would perform
 better in a real-world browsing situation.<br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br><h3><a name="Can_I_run_Pale_Moon_and_Firefox_at_the"></a>Can I
 run Pale Moon and Firefox at the same time?</h3>
 Yes, you will be able to start Firefox and Pale
 Moon at the same time.<br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="How_do_I_copy_my_existing_Firefox"></a>How do I copy my
 existing Firefox profile to Pale Moon?<br>
@@ -302,7 +275,7 @@ If for whatever reason, the tool doesn't work, you will have to copy
 things manually. See the <a href="troubleshooting.shtml">Troubleshooting</a>
 section for help.<br>
 <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
 <br>
       
       <h3><a name="Will_Firefox_and_Pale_Moon_work_together"></a>Will Firefox and Pale Moon work together in the future?</h3>Since
@@ -354,7 +327,7 @@ to see it finding
 good use among
 its users.<br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="Will_Pale_Moon_bundle_the_extension"></a>Will Pale Moon bundle the extension/add-on {xxxx}?</h3>
 Pale Moon releases come without any pre-defined and pre-installed add-ons/extensions.<br>
@@ -390,7 +363,7 @@ that forms an essential part of the browser itself. In later versions,
 this add-on is no longer bundled as the functionality has been
 re-integrated into the browser.</span><br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="Can_I_see_your_mozconfig"></a>Can I see your mozconfig/build environment/configuration files?</h3>
 A few people have asked about getting a detailed run-down of my
@@ -405,7 +378,7 @@ downloadable source code released under the Mozilla Public License
 v2.0, and with a Github repository available at <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
       In addition, I've created basic <a href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=4166">build instructions</a> on the forum that will allow you to build the browser from source.<br>
 <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
 <br>
       <h3><a name="Restore_Tab_Groups"></a>How do I restore Tab Groups/Panorama in Pale Moon 24?</h3>Pale Moon 24 and later <span style="font-weight: bold;">do not</span> include Tab Groups (formerly known as Panorama or Tab Candy) in the <span style="font-weight: bold;">core</span> of the browser anymore.<br>
       <span style="font-weight: bold;">To restore this functionality, you have to download the palemoon-tabgroups add-on</span>, which you can download from this website (Tools menu).<br>
@@ -416,7 +389,7 @@ To get the Tab Groups button back after installing the add-on:<br>
 Right-click a toolbar area, and select "<span style="font-style: italic;">Customize</span>". In the customization window that pops up, you will find the <span style="font-style: italic;">Tab Groups icon</span>, which you can drag to any preferred location in your browser interface.<br>
       <br>
 
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
 <br>
       <h2 class="faq">The following FAQ entries relate to feature preferences:</h2>
       <h3><a name="Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference:
@@ -428,7 +401,7 @@ press enter. This opens the advanced configuration editor.<br>
 Find the parameter <span style="font-style: italic;">browser.ctrlTab.previews</span>
 and set it to <span style="font-style: italic;">false</span><br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3><a name="Preference:_Insert_Tabs_after_current"></a>Preference:
 I prefer new Tabs to be inserted next to the current Tab</h3>
@@ -443,7 +416,7 @@ press enter. This opens the advanced configuration editor.<br>
 Find the parameter <span style="font-style: italic;">browser.tabs.insertRelatedAfterCurrent</span>
 and set it to <span style="font-style: italic;">true</span><br>
       <br>
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
 <br>
       <h3><a name="Preference_4.x:_Restore_menu_bar"></a>Preference: I prefer to use the old style menu bar.</h3>
 On Windows versions that support it, Pale Moon 4 and later will, by default,
@@ -455,7 +428,7 @@ arrowhead), then click "Menu Bar":<br>
       <div style="text-align: center;"><img alt="Version 4: how to restore the menu bar." src="images/v4-restoremenu.png"><br>
       </div>
 
-      <a href="faq.shtml#top">[^ Top ^]</a><br>
+      <a href="#top">[^ Top ^]</a><br>
       <a href="http://www.palemoon.org/"></a><br>
 </td></tr>
 
