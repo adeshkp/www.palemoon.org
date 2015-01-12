@@ -19,7 +19,82 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.1.1 (2014-11-28) Android only!</h3>This
+      <h3>25.2.0 (2015-01-15)</h3>This
+is an important update after rapid development on the back-end to
+extend browser capabilities and implement some ES6 draft functions for
+web programmers, as well as provide some important crashfixes, bugfixes
+and security updates.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>ES6: Added the following functions:</li>
+        <ul>
+          <li>Array.prototype.find and Array.prototype.findIndex</li>
+          <li>IsConstructor(arg)</li>
+          <li>Array.of(items...)</li>
+          <li>Number.parseInt and Number.parseFloat</li>
+          <li>Advanced math functions: hyperbolic sin/cos/tan/asin/acos/atan, hypotenuse, cube root, expm1, log1p, log10, log2, sign and trunc</li>
+          <li>Map.prototype.forEach and Set.prototype.forEach</li>
+        </ul>
+        <li>ES6: Added the following number constants: EPSILON, MIN_SAFE_INTEGER and MAX_SAFE_INTEGER</li>
+        <li>ES6: Added the use of binary and octal numeric literals (&amp;b... and &amp;o...)<br>
+        </li>
+        <li>ES6: Updated behavior of accessing indexed values in accordance with the spec.</li>
+        <li>CSS: Added <span style="color: rgb(0, 64, 128);">overflow-clip-box:content-box|padding-box</span></li>
+        <li>DOM: Added <span style="color: rgb(0, 64, 128);">table.createTBody()</span> function<br>
+        </li>
+        <li>Added a clearer alltabs button for dark personas.</li>
+        <li>Added a devtools toggle hotkey (F12)<br>
+        </li>
+        <li>IonMonkey on Android: fixed the implementation of AbsI.<br>
+        </li>
+        <li>IonMonkey: fixed a bug where actively used objects were discarded.</li>
+        <li>Fixed register initialization to prevent incorrect detection of SIMD instructions on some CPUs.<br>
+        </li>
+        <li>Optimized some loops in the spell checker to increase performance.</li>
+        <li>Simplified cache handling, updated cache parameters to
+better reflect current web use, and enabled automatic cache sizing by
+default.</li>
+        <li>Adjusted memory cache sizing to better reflect capacities of current hardware.<br>
+        </li>
+        <li>Updated UserAgent override workarounds for Netflix and FaceBook to fix some site issues.<br>
+        </li>
+        <li>Aligned programmatic access to geolocation with the spec.<br>
+        </li>
+        <li>Fixed a crash when being fed a data file (XML) with excessively deeply nested tags.</li>
+        <li>Fixed a crash in HTML5/WebAudio that affected some games.</li>
+        <li>Fixed a crash when programmatically collapsing elements.<br>
+        </li>
+        <li>Fixed a few non-breaking bugs related to e10s code.</li>
+        <li>Fixed text input/padding issues.</li>
+        <li>Updated surround downmixing code for Vorbis.</li>
+        <li>Improved tolerance in WebAudio for loading multichannel audio files.<br>
+        </li>
+        <li>Android: Fixed an issue with Flash, it should now run on more devices.</li>
+        <li>Updated the DDG search plugin to make the actual query be
+the last parameter in the address bar for easy editing after a search
+has been performed.<br>
+        </li>
+        <li>Removed some unused update channel code.</li>
+        <li>Updated branding to more clearly indicate Pale Moon's trademark.<br>
+        </li>
+        <li>Updated some licensing texts in-browser to properly reflect used code and rights.</li>
+      </ul>
+      <span style="font-weight: bold;">Security/privacy fixes:</span><br>
+      <ul>
+        <li>Made the use of HSTS configurable by way of the hidden preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span> for people who prefer privacy over automatic strict https usage.<br>
+        </li>
+        <li>Fixed CVE-2014-1589 by whitelisting XBL bindings that may be applied to untrusted content. <br>
+Important: extension developers should read <a href="http://forum.palemoon.org/viewtopic.php?f=46&amp;t=7005">this related thread</a>.</li>
+        <li>Fixed CVE-2014-1593.</li>
+        <li>Mac: fixed CVE-2014-1595.</li>
+        <li>Fixed CVE-2014-8639 by adjusting cookie handling through proxies.</li>
+        <li>Fixed CVE-2014-8636.<br>
+        </li>
+        <li>Fixed several memory safety hazards that do not have CVE numbers.</li>
+      </ul>
+      <h3>25.1.1 (2014-11-28) Android only!</h3>
+This
 point release for Android only addresses critical browser issues (crash
 on startup) when trying to run Pale Moon on Android 5.0 (AKA Android-L
 or Lollipop). No other changes involved in this release.<br>
