@@ -23,6 +23,7 @@
 
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -88,7 +89,7 @@ Do note however that Pale Moon Portable <span style="font-weight: bold;">doesn't
 read-only media</span> like CD-ROM or DVD-ROM; it needs write access to
 the location it is run from.<br>
 <h2>Download links:</h2>
-<span style="font-weight: bold; color: red;">IMPORTANT:</span> You are <span style="font-weight: bold;">NOT allowed</span> to redistribute the portable if you have made <span style="font-weight: bold;">ANY changes to the archive</span>! You are ONLY allowed to redistribute the binary package if it's completely unaltered! <span style="font-weight: bold;">For any other redistribution</span> of the binaries with the Pale Moon name and logo, e.g. with added extensions, languages, plugins, tools, etc., you <span style="font-weight: bold;">MUST get permission beforehand</span>. Full details in the <a href="redist.shtml">redistribution policy</a>. <br>
+<span style="font-weight: bold; color: red;">IMPORTANT:</span> You are <span style="font-weight: bold;">NOT allowed</span> to redistribute the portable if you have made <span style="font-weight: bold;">ANY changes to the archive</span>! You are ONLY allowed to redistribute the binary package if it's completely unaltered! <span style="font-weight: bold;">For any other redistribution</span> of the binaries with the Pale Moon name and logo, e.g. with added extensions, languages, plugins, tools, etc., you <span style="font-weight: bold;">MUST get permission beforehand</span>. Full details in the <a href="redist.shtml">redistribution license</a>. <br>
       <br>
       <div style="border: 2px dashed red; text-align: left; background-color: rgb(255, 255, 204);">Currently
 there are no "multi-language" or foreign language versions of Pale Moon Portable that are
@@ -110,8 +111,8 @@ promoting or redistributing or downloading these versions.<br>
       <ul>
 <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a><br>
 </li>
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.1.0.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.1.0.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.0.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.0.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
 
         
 
@@ -124,9 +125,9 @@ promoting or redistributing or downloading these versions.<br>
         <li><a href="http://www.filesriver.com/app/251/pale-moon">FilesRiver</a><br>
         </li>
 </ul>
-SHA-1: 7c2b58d93941259144ef415a22f7f8d5c06c6a8c<br>
+SHA-1: 6dcc96e10d062ce7ea4be7ac209218ecb7879821<br>
 
-PGP Signature: <a href="pgp/Palemoon-Portable-25.1.0.win32.exe.sig">[Sig]</a><br>
+PGP Signature: <a href="pgp/Palemoon-Portable-25.2.0.win32.exe.sig">[Sig]</a><br>
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable.xml">[link]</a><br>
       <br>
       <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold; text-decoration: underline;"><a name="PMP-x64"></a></span><span style="font-weight: bold;">Download Pale Moon Portable x64 (64-bit):</span><br>
@@ -139,8 +140,8 @@ in mind that the same restrictions apply to this as to the desktop
         <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li>
         
 
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.1.0.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.1.0.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.0.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.0.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110821.shtml">GamersHell</a><br>
         </li>
 
@@ -155,8 +156,8 @@ in mind that the same restrictions apply to this as to the desktop
         
 
       </ul>
-SHA-1: f9c5bfe03b0fc431292432f944bb9d7194a9a255<br>
-PGP Signature: <a href="pgp/Palemoon-Portable-25.1.0.win64.exe.sig">[Sig]</a><br>
+SHA-1: 7e086ce6929ad7c782e223852e8a529e9909f694<br>
+PGP Signature: <a href="pgp/Palemoon-Portable-25.2.0.win64.exe.sig">[Sig]</a><br>
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br><br>
 
@@ -170,15 +171,15 @@ File size is approximately 21 MB (EXE):<br>
 
       
       <ul>
-<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.1.0.atom.win32.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.1.0.atom.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.0.Atom.WinXP.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.0.Atom.WinXP.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
         </li>
 
       </ul>
 
-SHA-1: 59260b4ea190cd5d79b11bba97fc80a2c89cb251<br>
+SHA-1: f8167c7658ef6d5598f3db07029780b8a2a8a6d1<br>
 
-PGP Signature: <a href="pgp/Palemoon-Portable-25.1.0.atom.win32.exe.sig">[Sig]</a><br>
+PGP Signature: <a href="pgp/Palemoon-Portable-25.2.0.Atom.WinXP.exe.sig">[Sig]</a><br>
 
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
