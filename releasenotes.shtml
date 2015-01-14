@@ -44,7 +44,7 @@ and security updates.<br>
         <li>DOM: Added <span style="color: rgb(0, 64, 128);">table.createTBody()</span> function<br>
         </li>
         <li>Added a clearer alltabs button for dark personas.</li>
-        <li>Added a devtools toggle hotkey (F12)<br>
+        <li>Added a development tools toggle hotkey (F12)<br>
         </li>
         <li>IonMonkey on Android: fixed the implementation of AbsI.<br>
         </li>
@@ -61,7 +61,7 @@ default.</li>
         </li>
         <li>Aligned programmatic access to geolocation with the spec.<br>
         </li>
-        <li>Fixed a crash when being fed a data file (XML) with excessively deeply nested tags.</li>
+        <li>Fixed a crash when being fed a data file (XML) with too deeply nested tags.</li>
         <li>Fixed a crash in HTML5/WebAudio that affected some games.</li>
         <li>Fixed a crash when programmatically collapsing elements.<br>
         </li>
