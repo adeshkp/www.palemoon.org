@@ -34,7 +34,7 @@ explain:<br>
       <ul>
         <li><a href="#features">Features</a></li>
         <li><a href="#CPUsupport">Supported Processors</a></li>
-        <li><a href="#speed">Speed Comparison</a></li>
+        
         <li><a href="#Firefox_Differences">Differences with Firefox</a></li>
         <li><a href="#Naming_of_the_browser">Why a different name?</a><br>
         </li>
@@ -61,22 +61,22 @@ this browser will not run on particularly old systems.</li>
         </li>
 
         <li>Support for Scalable Vector Graphics (SVG) and Canvas.</li>
-        <li>Support for almost all Firefox Extensions (add-ons) and Complete Themes.</li>
+        <li>Support for most Firefox Extensions (add-ons) and Complete Themes.</li>
         <li>Support for Personas ("light-weight" themes).<br>
         </li>
         <li>CSS Downloadable Font support (including WOFF).</li>
         <li>Extended HTML5, CSS3 and advanced DOM support.<br>
         </li>
-        <li><span style="text-decoration: underline;">Firefox-based!</span> This means you get the reliability
+        <li><span style="text-decoration: underline;">Mozilla-based!</span> This means you get the reliability
 and security of the Mozilla community browser core code, and a wide array of options and features.</li>
         <li>Speedy scripting and page
 rendering.</li>
         <li>Optimized networking.<br>
         </li>
 
-        <li>Uses a little less memory than the official builds because
-of the disabled features (listed below)</li>
-        <li>Graphical tab switching with quick-search</li>
+        
+        <li>Graphical tab switching with quick-search (user-selectable)<br>
+</li>
         <li>More customization options for navigation controls and the tab strip</li>
         <li>Enhanced security indicators (padlock/styling)</li>
         <li>More options for recovery (safe mode dialog)<br>
@@ -120,7 +120,7 @@ documents displayed in their fully intended format instead of a
 stripped-down display in an in-browser reader.</li>
         <li><span style="font-weight: bold;">Social API</span>.
 The code for this is still included for people who choose to use it,
-but completely disabled by default and not supported by the developer.<br>
+but completely disabled by default and not supported by the Pale Moon developers.<br>
         </li>
 
         <li><span style="font-weight: bold;">Tab Groups</span>. The Tab
@@ -157,7 +157,7 @@ CPUs around the time of includion of this instruction set, and if they are suppo
 supported or not, please find a CPU information tool like CPU-z or
 Crystal CPU-ID to check your CPU's capacities.<span style="font-weight: bold; font-style: italic;"></span><br>
       <br>
-This table is incomplete. but outlines a few popular classes of processor:<br>
+This table is incomplete, but outlines a few popular classes of processor:<br>
       <br>
       <table style="text-align: left; width: 90%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -254,33 +254,7 @@ AMD Phenom/II etc.<br>
           </tr>
         </tbody>
       </table>
-      <br><span style="font-weight: bold; font-style: italic;"></span><br>
-      <h3><a name="speed"></a>Speed comparison</h3>I have compared scripting speeds with some well-known speed tests to get
-some detailed specifications of Pale Moon versus Firefox.<br>
-      <br>
-      <div style="border: 1px solid rgb(153, 153, 255); padding: 2px 5px; background-color: rgb(228, 229, 255);"><span style="font-weight: bold;">Please note</span>: <br>
-Pale Moon is <span style="font-style: italic;">globally</span>
-optimized, and any benchmarking tests performed on it only cover and compare <span style="font-style: italic;">part</span> of the browser
-functionality. Marginal gains by other browsers seen in such benchmarks should not be considered conclusive.<br>
-      </div>
-
-      <br>
-Version 3.5 and 3.6 showed an overall performance increase of about 25% over Mozilla builds.<br>
-      <br>New
-tests were performed for version 12.0 by an independent tester, results
-used with permission, wherein Pale Moon scored no less than 33% higher
-in Dromaeo's "recommended" tests, and 9% higher in Futuremark's
-Peacekeeper browser benchmark.<br>
-      <br>
-With Pale Moon 15 and later, the focus of building the browser has shifted from a
-purely low-level Javascript focused build to one that is <span style="font-weight: bold;">focused on
-overall browser smoothness and user experience</span>, since that is what
-      <span style="font-style: italic;">really</span> matters for Pale Moon users. Stability is given more priority,
-and although this means some concessions are made towards benchmarking
-scores and Javascript performance, it should also be clear that <span style="font-weight: bold;">with the current generation of browsers, Javascript speed really isn't the bottleneck anymore</span>, unlike in the past. Unfortunately this is what just about every browser benchmark will test.<br>
-      <br>
-A more detailed description about how to look at benchmarking results can be found <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=650">on the forum</a>.<br>
-      <br>
+      <br><br>
 
  <h3><a name="Firefox_Differences"></a>How different is this
 browser from Firefox?</h3><span style="font-weight: bold; font-style: italic;">The
@@ -295,7 +269,7 @@ thousands of add-ons wherever possible, but should be considered a "fork" and a 
 Moon, like Firefox (and several other browsers) is based on the Gecko
 rendering engine. This means that the core rendering functions for Pale
 Moon and Firefox will be a very close match and that whatever functionality there is in
-the Gecko core code, will also exist in Pale Moon.
+the Gecko core code, will, as a ballpark estimate, also exist in Pale Moon.
 Where specific core functions have been changed, it has been done carefully
 and with due consideration to provide better performance and efficiency
 while not endangering the security of the browser.</li>
@@ -307,10 +281,13 @@ better left to the free choice of the user. This improves stability and
 speed, and reduces resource use.</li>
         <li>Pale
 Moon comes with a number of different default configuration
-settings than Firefox. These basic "tweaks" (I'd prefer to call them "more sane defaults") are done to provide you
+settings than Firefox. These basic "tweaks" (I'd prefer to call them
+"more sane defaults") are done to provide you
 with the smoothest browsing experience as well as to be considerate
-towards website/service providers and residential gateways (e.g. by reducing the number of concurrent http
-and total dns requests needed when browsing). Note that "internet speed boosters" can actually <span style="text-decoration: underline;">harm</span>
+towards website/service providers and residential gateways (e.g. by
+reducing the number of concurrent http
+and total dns requests needed when browsing). Note that "internet speed
+boosters" and general "tweak guides" for Firefox can actually <span style="text-decoration: underline;">harm</span>
 Pale Moon's speed as the configuration defaults are made with in-depth
 knowledge of the browser back-end and "a higher number" or "bigger
 buffer" isn't always better. <span style="text-decoration: underline;">You are strongly advised to always use defaults as supplied in Pale Moon.</span><span style="text-decoration: underline;"></span></li>
@@ -366,7 +343,7 @@ features, having a different user interface, having a different feature
 set, and
 configuring the program differently. With the later versions, Pale Moon
 has diverged so much from Firefox <span style="font-weight: bold;">making it clearly a
-different product</span> that it should not carry the name of its sibling. In addition, <span style="font-weight: bold;">Pale Moon is in no way affiliated with the Mozilla Corporation</span>, and therefore should not carry a brand name that is Mozilla's property.<br><br>
+different product</span> that it should not carry the name or any other identification of its sibling. In addition, <span style="font-weight: bold;">Pale Moon is in no way affiliated with the Mozilla Corporation</span>, and therefore should not carry a brand name that is Mozilla's property.<br><br>
 Using
 the freedom of the MPL, I have
 therefore
@@ -376,7 +353,7 @@ installations. <span style="font-style: italic;">Like the Mozilla Corporation</s
 I rely on all of the contributors to this
 Open Source Mozilla project for the supplied program code and development of
 new versions. The Mozilla Corporation didn't program Firefox, the <span style="font-style: italic;">community</span>
-did. This also means
+did, drawing on code as far back as Netscape. This also means
 that, similar to Mozilla owning Firefox and the Firefox logo, I retain the rights
 to the Pale Moon project name, graphics and logo; they may not be used
 elsewhere without prior permission, and only in relation to this

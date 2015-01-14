@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en"><head>
 
+
   <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -26,9 +27,9 @@ and people needing to audit the browser code for security purposes. <span style=
 a regular user, you don't need the source code of the browser.</span><br>
       <br>
 <h2>Downloading the source code</h2>
-The source code (7-zip packed) of the current release version:<br>
+The source code of the current (main-line) release version:<br>
       <br>
-      <div style="text-align: center;"><a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.1.0-source.7z">Download current release version source code</a><br>
+      <div style="text-align: center;"><a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.2.0-source.7z">Download current release version source code</a><br>
       </div>
 
 <br>If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
@@ -59,7 +60,7 @@ Whether it builds on VS 2013 is unknown, but will likely not work without editin
 </li>
         <li>You will need to get the build prerequisites as outlined on
 the Mozilla Developer Network. Most notably, you need the Mozilla Build
-Tools package and DirectX SDK.</li>
+Tools package and DirectX SDK if building on Windows.</li>
         
         <li>Pale Moon <span style="font-weight: bold;">should not</span>
 be built with PGO (Profile-Guided Optimization). Doing so will likely
@@ -70,7 +71,7 @@ theme changes were made to the Windows theme only. If you want to build
 for other platforms (e.g. Mac) then be aware that the browser will
 look different and may need some serious tweaking to be usable or look similar to the Windows version. Linux
 builds benefit from the work done by access2godzilla on the <a href="http://pm4linux.sourceforge.net">PM4Linux
-project</a> and the theme should work properly.<br>
+project</a> and the theme should work/look properly.<br>
         </li>
       </ul>
 
