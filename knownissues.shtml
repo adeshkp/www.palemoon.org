@@ -8,6 +8,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -52,7 +53,7 @@ For each issue, check the status for intended action to be taken in
 development (if any) and intended timeline (if applicable).<br>
       <br>
       <span style="font-weight: bold;"></span><span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><br>
-      <span style="font-weight: bold;">Known issues in 25.1:<br>
+      <span style="font-weight: bold;">Known issues in 25.2:<br>
       </span>
       <ol>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>

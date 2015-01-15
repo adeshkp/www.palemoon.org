@@ -1,22 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html dir="ltr" lang="en">
-  <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title>Pale Moon Atom/WinXP builds</title>
-    <!-- Keep the http-equiv meta tag for IE8 -->
+<html dir="ltr" lang="en"><head>
+
+
+
+  
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-  </head>
-  <body>
-    <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0"
-      cellspacing="0">
+    <meta content="Moonchild" name="author"></head><body>
+    <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
-          <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;"
-              alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top"
-              hspace="0" vspace="0"><br>
+          <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -25,11 +23,10 @@
         </tr>
         <tr>
           <td style="vertical-align: top;">
-            <h1><a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img style="border: 0px solid ; width: 80px; height: 31px;"
-                  alt="" src="padbutton.gif" align="right"></a></h1>
-            <h1>Intel Atom&trade; and Windows XP build </h1>
+            <h1><a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
+            <h1>Intel Atom™ and Windows XP build </h1>
             This version of Pale Moon is optimized specifically for use on Intel
-            Atom&trade; processors and compatible with the Windows XP and Server
+            Atom™ processors and compatible with the Windows XP and Server
             2003 operating systems.<br>
             Many low-powered netbooks and laptops are equipped with this
             processor,
@@ -40,7 +37,7 @@
             <span style="font-weight: bold;">Please note the following:</span><br>
             <ul>
               <li>These
-                builds are specifically optimized for Intel Atom&trade;
+                builds are specifically optimized for Intel Atom™
                 processors, and are
                 not recommended for regular Intel or AMD processors on current
                 operating systems (Vista or higher). The extra
@@ -73,7 +70,7 @@
                 ask for a 64-bit version as it's simply not possible.</li>
               <li>Atom/XP builds exclude the Web Developer tools to further
                 reduce resource use on lower-powered computers.
-                Web Developer tools are not in comon use on the intended systems
+                Web Developer tools are not in common use on the intended systems
                 and
                 they do take a decent amount of memory and processing power when
                 included. If you still need these types of tools, please install
@@ -82,12 +79,10 @@
                 build.<br>
               </li>
             </ul>
-            <table style="border-style: solid; border-width: 1px; text-align: left; width: 90%;"
-              class="sysreq" align="center" border="0" cellpadding="0" cellspacing="0">
+            <table style="border-style: solid; border-width: 1px; text-align: left; width: 90%;" class="sysreq" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody>
                 <tr>
-                  <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span
-                      style="font-weight: bold;">Minimum system Requirements:</span></td>
+                  <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements:</span></td>
                 </tr>
                 <tr>
                   <td style="vertical-align: top;" width="50%">
@@ -105,18 +100,17 @@
                 </tr>
               </tbody>
             </table>
-            <h3 style="text-align: left;">Current version: 25.1.0</h3>
+            <h3 style="text-align: left;">Current version: 25.2.0</h3>
             Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale
               Moon release notes</a>.<br>
             <h3 style="text-align: left;">Download links</h3>
             <span style="color: red;"></span><span style="font-weight: bold;">Installer
 (recommended,
               19.0 MB)</span>:<br>
-            SHA-1: 1b3a5c8e7858b0d013240a487d0879f70e0ebf0a<br>
-            PGP signature: <a href="pgp/palemoon-25.1.0.atom.win32.installer.exe.sig">[Sig]</a><br>
+            SHA-1: 32376c6d9f726a2a830ae30d1f263ba57f552ff0<br>
+            PGP signature: <a href="pgp/palemoon-25.2.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
-            <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;"
-              border="1" cellpadding="2" cellspacing="0">
+            <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
               <tbody>
                 <tr style="background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;">
                   <th>Link (click to download)<br>
@@ -125,9 +119,7 @@
                   </th>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.fosshub.com/Pale-Moon.html"><img
-                        style="border: 0px solid ; width: 220px; height: 60px;"
-                        alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://www.fosshub.com/Pale-Moon.html"><img style="border: 0px solid ; width: 220px; height: 60px;" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
                   </td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">FossHub</span>
                     (official mirror,
@@ -137,9 +129,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.1,0.atom.win32.installer.exe"><img
-                        style="border: 0px solid ; width: 227px; height: 44px;"
-                        alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text"><span style="font-weight: bold;">Pale
                       Moon mirror</span> #1<br>
@@ -147,25 +137,19 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.1.0.atom.win32.installer.exe"><img
-                        style="border: 0px solid ; width: 227px; height: 44px;"
-                        alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
 Moon
                       mirror</span> #2<br>
                     Direct download link</td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.gamershell.com/download_110825.shtml"><img
-                        style="border: 0px solid ; width: 230px; height: 43px;"
-                        alt="Logo" src="dl-images/gamershellcom.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://www.gamershell.com/download_110825.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" alt="Logo" src="dl-images/gamershellcom.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">GamersHell</span><br>
                     Servers in Europe and the US</td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.filesriver.com/app/249/pale-moon"><img
-                        style="border: 0px solid ; width: 230px; height: 75px;"
-                        alt="FilesRiver logo" title="Click to download!" src="dl-images/logo-filesriver.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://www.filesriver.com/app/249/pale-moon"><img style="border: 0px solid ; width: 230px; height: 75px;" alt="FilesRiver logo" title="Click to download!" src="dl-images/logo-filesriver.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">FilesRiver</span><br>
                     Multiple versions, description and review available</td>
                 </tr>
@@ -173,14 +157,14 @@ Moon
             </table>
             <span style="font-weight: bold;"><br>
               ZIP packed (approx. 25 MB)</span>:<br>
-            SHA-1: 46488adb58fabe342ad35d3d9a89f52f8fb50e6c<br>
-            PGP signature: <a href="pgp/palemoon-25.1.0.atom.win32.zip.sig">[Sig]</a><br>
+            SHA-1: 6522f38b9611a54a948da464a2bc4d193f7f3cf8<br>
+            PGP signature: <a href="pgp/palemoon-25.2.0.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.1.0.atom.win32.zip">Pale
+              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.zip">Pale
 Moon
                   mirror #1</a><br>
               </li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.1.0.atom.win32.zip">Pale
+              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.zip">Pale
 Moon
                   mirror #2</a></li>
               <li><a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>
@@ -202,5 +186,4 @@ Moon
     </table>
     <br>
     <br>
-  </body>
-</html>
+  </body></html>
