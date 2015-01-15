@@ -2,6 +2,7 @@
 <html dir="ltr" lang="en"><head>
 
 
+
   
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -128,7 +129,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.1,0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text"><span style="font-weight: bold;">Pale
                       Moon mirror</span> #1<br>
@@ -136,7 +137,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.1.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.2.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
 Moon
                       mirror</span> #2<br>
