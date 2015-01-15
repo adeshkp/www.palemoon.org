@@ -47,10 +47,7 @@ and security updates.<br>
         <li>Added a clearer alltabs button for dark personas.</li>
         <li>Added a development tools toggle hotkey (F12)</li>
         <li>Added a preference <span style="color: rgb(0, 64, 128);">prompts.tab_modal.focusSwitch</span> to enable or disable tab switching when a modal dialog (e.g. javascript confirmation) is presented in a page.</li>
-        <li>Added a preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span>
-to enable or disable the use of HSTS (HTTP Strict Transport Security),
-allowing users to choose between privacy and security in this matter. <span style="font-style: italic; color: rgb(153, 153, 153);">(hidden pref)</span><br>
-        </li>
+        
 
         <li>IonMonkey on Android: fixed the implementation of AbsI.<br>
         </li>
@@ -88,10 +85,13 @@ has been performed.<br>
       </ul>
       <span style="font-weight: bold;">Security/privacy fixes:</span><br>
       <ul>
-        <li>Made the use of HSTS configurable by way of the hidden preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span> for people who prefer privacy over automatic strict https usage.<br>
-        </li>
+        <li>Added a preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span>
+to enable or disable the use of HSTS (HTTP Strict Transport Security),
+allowing users to choose between privacy and security in this matter. <span style="font-style: italic; color: rgb(153, 153, 153);">(hidden pref)<br>
+          </span></li>
         <li>Fixed CVE-2014-1589 by whitelisting XBL bindings that may be applied to untrusted content. <br>
 Important: extension developers should read <a href="http://forum.palemoon.org/viewtopic.php?f=46&amp;t=7005">this related thread</a>.</li>
+
         <li>Fixed CVE-2014-1593.</li>
         <li>Mac: fixed CVE-2014-1595.</li>
         <li>Fixed CVE-2014-8639 by adjusting cookie handling through proxies.</li>
