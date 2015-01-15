@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -44,8 +45,13 @@ and security updates.<br>
         <li>DOM: Added <span style="color: rgb(0, 64, 128);">table.createTBody()</span> function<br>
         </li>
         <li>Added a clearer alltabs button for dark personas.</li>
-        <li>Added a development tools toggle hotkey (F12)<br>
+        <li>Added a development tools toggle hotkey (F12)</li>
+        <li>Added a preference <span style="color: rgb(0, 64, 128);">prompts.tab_modal.focusSwitch</span> to enable or disable tab switching when a modal dialog (e.g. javascript confirmation) is presented in a page.</li>
+        <li>Added a preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span>
+to enable or disable the use of HSTS (HTTP Strict Transport Security),
+allowing users to choose between privacy and security in this matter. <span style="font-style: italic; color: rgb(153, 153, 153);">(hidden pref)</span><br>
         </li>
+
         <li>IonMonkey on Android: fixed the implementation of AbsI.<br>
         </li>
         <li>IonMonkey: fixed a bug where actively used objects were discarded.</li>
