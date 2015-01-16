@@ -56,6 +56,15 @@ development (if any) and intended timeline (if applicable).<br>
       <span style="font-weight: bold;">Known issues in 25.2:<br>
       </span>
       <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some Single-Sign-On (SSO) setups don't work</span><br>
+Because of a security vulnerability with authentication redirection (cookie injection) through proxies (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>),
+Pale Moon currently does not allow auth cookies to pass through or be
+modified by proxies. This may make some SSO setups fail to authenticate
+to individual services (usually on corporate intranetworks that employ
+proxies) and as a result the user is asked to provide login details.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 0, 0);">[Triage]</span>, following the relevant Mozilla bugs.<br>
+          <span style="font-weight: bold;">Workaround:</span> Avoid using proxies for SSO.<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font
 rendering. This is caused
@@ -65,6 +74,7 @@ Effects are only aesthetic in nature and non-breaking.<br>
           <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 51, 204);">[Research]</span><br>
           <span style="font-weight: bold;">Workaround:</span> disable
 hardware acceleration</li>
+
         
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">A number of Firefox extensions are missing browser interface elements</span><br>
 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the extension.<br>
