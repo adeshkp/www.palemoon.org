@@ -34,8 +34,8 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: June 7<sup>th</sup>,
-2014.<br>
+      <div style="text-align: right;">Last Updated: January 17<sup>th</sup>,
+2015.<br>
       </div>
       <h3>Terms of Service - Overview</h3>
       <ul>
@@ -89,8 +89,7 @@ other than the official Pale Moon browser, unless you have been
 specifically allowed to do so in writing by the server operator and/or
 Pale Moon project owner.</li>
         <li>An exception to the previous point is the personal use of
-Sync on mobile devices (since Pale Moon is not yet available for those
-devices), but only when using official builds of software that are fully Sync 1.1 compatible.<br>
+Sync on mobile devices, but only when using official builds of software that is fully Sync 1.1 compatible.<br>
         </li>
 
       </ul>
@@ -110,7 +109,17 @@ without liability. If we discontinue or change the Service, we will
 announce it through the usual channels for such announcements such as
 the forum.</li>
       </ul>
+      <h4>Limited storage</h4>This
+Service will retain User Data only for a limited time. If the Service
+is not actively used by a user, the User Data stored on the server may
+be removed at our discretion to free up server resources for other
+users who actively use the Service.<br>
+As a general guideline, User Data older than 2 months (not modified on
+the server for 2 months) may be removed from the server database in any
+scheduled or ad hoc maintenance window (either announced or not). This
+does not affect user accounts, only User Data.<br>
       <h4>Proprietary Rights</h4>
+
       <p>We do not grant to you any intellectual property rights in the
 Service. For example, this TOS does not provide the right to use any of
 our copyrights, trade names, trademarks, service marks, logos, domain
