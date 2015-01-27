@@ -46,8 +46,7 @@
             This is a preliminary document with forward-looking statements.
             Development of a complex piece of software like the Pale Moon
             browser depends on many factors, so this roadmap should be seen as an
-            indication - and a dynamic document to be updated as the need for it
-            arises to change plans around.<br>
+            indication or general direction - and a dynamic document to be updated as the need arises to change plans around.<br>
             <br>
             <h3>Core Work</h3>
             Pale Moon's core is in flux, just like the web is. With the current
@@ -60,7 +59,7 @@
             or decided against altogether.<br>
             <br>
             It is beyond the scope of this document to list planned HTML/content
-            improvements in Pale Moon since many of those are small, individual
+            improvements in Pale Moon in detail, since many of those are small, individual
             changes and additions (even though some require a lot of work to
             implement by re-writing parts of the parser and renderer in Pale
             Moon's core).<br>
@@ -94,7 +93,7 @@
               <li>In-browser DRM, either through dynamically downloaded
                 closed-source components or data-mangling in JS</li>
             </ul>
-            Current media support will be extended where needed for regular data
+            Current media support will be only extended where needed for regular data
             formats, and <span style="font-weight: bold;">already includes</span>:<br>
             <ul>
               <li>MPEG support</li>
@@ -119,8 +118,10 @@
               <li>Mac OS X -- Currently in its early stages (alpha) </li>
               <li>Android ARM -- Completed and actively maintained
                 (Fennec-based) </li>
-              <li>Android-x86 -- Experimental (Fennec-based)</li>
-              <li>ReactOS -- A specific version is planned for this platform in the future</li>
+              <li>Android-x86 -- Experimental (Fennec-based), no public releases yet<br>
+</li>
+              <li>ReactOS -- A specific version is planned for this platform in the future<br>
+</li>
             </ul>
             <br>
             <h3>Front-end</h3>
