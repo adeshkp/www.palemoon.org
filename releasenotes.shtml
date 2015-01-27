@@ -20,7 +20,11 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.2.0 (2015-01-15)</h3>This
+      <h3>25.2.1 (2015-01-27)</h3>This
+is a small update to address cookie handling through proxies causing
+issues for some authenticating proxies in corporate environments.<br>
+      <h3>25.2.0 (2015-01-15)</h3>
+This
 is an important update after rapid development on the back-end to
 extend browser capabilities and implement some ES6 draft functions for
 web programmers, as well as provide some important crashfixes, bugfixes

@@ -53,7 +53,7 @@ based on the code behind the popular Firefox browser.<br>
       <br>
 Notable other development/maintainance contributors to the project are:<br>
       <ul>
-        <li>G. Brown (access2godzilla) and C. Ravenscroft for kicking off and maintaining the Linux builds &amp; installer<br>
+        <li>G. Brown (access2godzilla), C. Ravenscroft and T. Wine for kicking off and maintaining the Linux builds &amp; installer<br>
         </li>
         <li>M. Turnbull (Sparky Bluefang) for supplying the base code for the V4+ status bar</li>
         <li>K. Engert for supplying the base code for the padlock feature</li>
@@ -90,7 +90,8 @@ to the browser overall. Extension compatibility will remain high with
 extensions specifically written for Firefox prior to Australis,
 although 100% compatibility of extensions written for a different
 product can obviously not be guaranteed. This is also why extensions
-can be written for Pale Moon exclusively and/or adapted to Pale Moon as an individual product (unlike "re-branded Firefox rebuilds").<br>
+can be written for Pale Moon exclusively and/or adapted to Pale Moon as
+an individual product (unlike "re-branded Firefox rebuilds").<br>
       <br><span style="font-weight: bold;">
 Pale Moon is a middle road</span>, cutting away support for particularly old hardware and operating systems to
 achieve a significant speed and efficiency increase, but not trying to

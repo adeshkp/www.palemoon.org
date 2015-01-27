@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>Pale Moon - Testimonials</title>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Testimonials</title>
+  
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-</head><body>
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
 <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
@@ -22,7 +22,16 @@
       </h1>
 Collected here are a number of testimonials from people who have tried
 Pale
-Moon:<br>
+Moon. If you wish to leave a testimonial of your own, please send an e-mail to <a href="mailto:testimonials@palemoon.org">testimonials@palemoon.org</a> with the following details:<br>
+      <ul>
+        <li>Your name or alias</li>
+        <li>Your location (City + State (if applicable) + Country)</li>
+        <li>The version of Pale Moon your testimonial applies to<br>
+        </li>
+        <li>and, of course, your praise :)</li>
+      </ul>
+      <span style="font-weight: bold;">All of this information is mandatory!</span> Please <span style="font-weight: bold;">only</span> send <span style="font-weight: bold;">testimonials</span> to the above address, direct any other feedback to the <a href="http://forum.palemoon.org/" target="_blank">forum</a>. You will not receive any e-mail replies from this address.<br>
+
 <!--
 <blockquote>"{testimonial}"<br>
 <div style="text-align: right; font-weight: bold; height: 1em;">

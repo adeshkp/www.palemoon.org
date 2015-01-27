@@ -53,18 +53,9 @@ For each issue, check the status for intended action to be taken in
 development (if any) and intended timeline (if applicable).<br>
       <br>
       <span style="font-weight: bold;"></span><span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><br>
-      <span style="font-weight: bold;">Known issues in 25.2:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some Single-Sign-On (SSO) setups don't work</span><br>
-Because of a security vulnerability with authentication redirection (cookie injection) through proxies (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>),
-Pale Moon currently does not allow auth cookies to pass through or be
-modified by proxies. This may make some SSO setups fail to authenticate
-to individual services (usually on corporate intranetworks that employ
-proxies) and as a result the user is asked to provide login details.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 0, 0);">[Triage]</span>, following the relevant Mozilla bugs.<br>
-          <span style="font-weight: bold;">Workaround:</span> Avoid using proxies for SSO.<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+      <span style="font-weight: bold;">Known issues in 25.2.1:</span><br>
+<ol>
+        
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font
 rendering. This is caused
@@ -109,8 +100,31 @@ one central location for extension IDs is desired.<br>
 Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span style="font-weight: bold;">have been fixed</span>, and potential <span style="font-weight: bold;">workarounds</span>:<br>
       <br>
-      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><span style="font-weight: bold;">25.0.1:<br>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><span style="font-weight: bold;">25.2.0:<br>
 </span>
+      <ul>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some Single-Sign-On (SSO) setups don't work</span><br>
+
+Because of a security vulnerability with authentication redirection (cookie injection) through proxies (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>),
+Pale Moon currently does not allow auth cookies to pass through or be
+modified by proxies. This may make some SSO setups fail to authenticate
+to individual services (usually on corporate intranetworks that employ
+proxies) and as a result the user is asked to provide login details.<br>
+
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><span style="font-weight: bold; color: rgb(204, 0, 0);"></span>, following the relevant Mozilla bugs.<br>
+The vulnerability patch was adapted to allow for cookies to be stored
+by authenticating proxies, but not on proxy connection failures,
+greatly reducing the available scenarios for this already difficult to
+practically exploit session fixation vulnerability. It should be
+sufficiently mitigated this way while not being in the way of
+legitimate cookie injection requests. In environments where this is a
+concern, the session policies should be revised or implemented in a
+different way.<br>
+
+          <span style="font-weight: bold;">Workaround:</span> Avoid using proxies for SSO.</li>
+      </ul>
+      <span style="font-weight: bold;">25.0.1:<br>
+      </span>
       <ul>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Add-on update checks don't work</span><br>
 This is caused by a hidden, undocumented feature in the Mozilla code
