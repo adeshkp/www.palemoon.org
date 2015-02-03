@@ -2,7 +2,7 @@
 
 <updates>
   <update type="minor" displayVersion="25.2.1 (x86)" appVersion="25.2.1"  extensionVersion="25.2.1" 
-          detailsURL="http://www.palemoon.org/releasenotes.shtml">
+          detailsURL="http://www.palemoon.org/releasenotes.shtml" showNeverForVersion="true">
     <patch type="partial" URL="http://aus.palemoon.org/mar/palemoon-25.2.1.win32.partial.25.2.0-25.2.1.mar"
            hashFunction="SHA1" hashValue="d5c1a166a095963a4d7f4461ad6e263bbe533d86" size="157200"/>
     <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-25.2.1.win32.complete.mar"
