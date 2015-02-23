@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox-based browser for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Live Chat</h1>Pale
+Moon has an IRC channel that is operated on the Freenode IRC network (a
+chat network mainly focusing on Free and Open Source Software). If you
+have an IRC-capable chat client (e.g. FossaMail) then you can point
+your client to the following address:<br>
+      <br>
+      <div style="text-align: center;"><a href="irc://irc.freenode.net:6667/%23palemoon">irc://irc.freenode.net:6667/#palemoon</a><br>
+      </div>
+<br>Alternatively, you can enter our IRC channel directly from the browser below and have a live chat!<br>
+      Please be patient if you have a question, and if you don't get an answer, it's recommended that you post
+      on the forum instead. Please follow <a href="chat-etiquette.shtml">expected etiquette</a> when joining this chat room. Thanks in advance! :)<br><br>
+<iframe src="http://webchat.freenode.net?channels=%23palemoon&amp;uio=Mj10cnVlJjk9dHJ1ZSYxMT0yMjY59" class="chatframe"></iframe>
+<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
