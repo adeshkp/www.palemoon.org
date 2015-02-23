@@ -1,12 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Pale Moon - Testimonials</title>
 
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Testimonials</title>
+  
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+</head><body>
 <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
   <tbody>
     <tr>
       <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
@@ -22,7 +32,9 @@
       </h1>
 Collected here are a number of testimonials from people who have tried
 Pale
-Moon. If you wish to leave a testimonial of your own, please send an e-mail to <a href="mailto:testimonials@palemoon.org">testimonials@palemoon.org</a> with the following details:<br>
+Moon. If you wish to leave a testimonial of your own, please send an
+e-mail to <a href="mailto:testimonials@palemoon.org">testimonials@palemoon.org</a>
+with the following details:<br>
       <ul>
         <li>Your name or alias</li>
         <li>Your location (City + State (if applicable) + Country)</li>
@@ -30,8 +42,11 @@ Moon. If you wish to leave a testimonial of your own, please send an e-mail to <
         </li>
         <li>and, of course, your praise :)</li>
       </ul>
-      <span style="font-weight: bold;">All of this information is mandatory!</span> Please <span style="font-weight: bold;">only</span> send <span style="font-weight: bold;">testimonials</span> to the above address, direct any other feedback to the <a href="http://forum.palemoon.org/" target="_blank">forum</a>. You will not receive any e-mail replies from this address.<br>
-
+      <span style="font-weight: bold;">All of this information is
+mandatory!</span> Please <span style="font-weight: bold;">only</span>
+send <span style="font-weight: bold;">testimonials</span> to the above
+address, direct any other feedback to the <a href="http://forum.palemoon.org/" target="_blank">forum</a>. You will
+not receive any e-mail replies from this address.<br>
 <!--
 <blockquote>"{testimonial}"<br>
 <div style="text-align: right; font-weight: bold; height: 1em;">
@@ -40,30 +55,59 @@ Moon. If you wish to leave a testimonial of your own, please send an e-mail to <
 </blockquote>
 -->
 
-<blockquote>"I noticed the beginning of the end of Firefox for me at
+<blockquote>"I just installed Pale Moon (x64) and it is awesome!<br>
+        <br>
+Really, I never had a faster and comfortable internet experience since
+several years. All this big and heavy browsers, it took so long so find
+this small and fast one. I was about to buy a new notebook, just
+because internet experience got so bad, so slow! But everything else on
+my computer was quick and very up to date. Now I don&#8217;t even need to buy
+a new notebook!<br>
+        <br>
+        <span style="font-weight: bold;">Thank you so much for this browser!</span> I spent so much time searching for a small and fast <span style="font-style: italic;">and</span> functional Browser like this!!!<br>
+        <br>
+Even the Pale Moon Start Page I really like, it is so useful, it is like a very clean nice workdesk in the browser itself!!<br>
+        <br>
+You really deserved my respect for this work and I hope this project
+will stay like its now. And I hope there are enough thankful people
+like me, that spend some money for your work."<br>
+<div style="text-align: right; font-weight: bold; height: 1em;">
+<pre>Tobi<small> (Bochum, Germany) - Pale Moon 25.2.1</small></pre>
+</div>
+</blockquote>
+
+      <blockquote>"I noticed the beginning of the end of Firefox for me
+at
 around the v4 version, struggled on with it for a while trying to fix,
 undo and remove each and every "feature" they added.<br>
         <br>
-One day, <span style="font-style: italic;">enough was enough</span> - searched for alternatives, found a few contenders and tried them all.<br>
+One day, <span style="font-style: italic;">enough was enough</span> -
+searched for alternatives, found a few contenders and tried them all.<br>
         <br>
-Some didn`t make it beyond 30 minutes of testing, then I tried Pale Moon.<br>
+Some didn`t make it beyond 30 minutes of testing, then I tried Pale
+Moon.<br>
         <br>
-        <span style="font-weight: bold;">Almost three years later as I type this, I am still using Pale Moon *exclusively*</span> - that says something in itself.<br>
+        <span style="font-weight: bold;">Almost three years later as I
+type this, I am still using Pale Moon *exclusively*</span> - that says
+something in itself.<br>
         <br>
-        <span style="font-weight: bold;">PaleMoon is what Firefox should have been.</span><br>
+        <span style="font-weight: bold;">PaleMoon is what Firefox
+should have been.</span><br>
         <ul>
-          <li>Not pandering to the whims of UI designers who appear to make change for the sake of change alone, </li>
-          <li>Not adding uneccessary features while removing useful ones, </li>
+          <li>Not pandering to the whims of UI designers who appear to
+make change for the sake of change alone, </li>
+          <li>Not adding uneccessary features while removing useful
+ones, </li>
           <li>Not blindly following trends and mimicking other browsers.</li>
         </ul>
 PaleMoon is on it`s own path and continues to excel.<br>
         <br>
-It`s highly unlikely that I will be changing to any other browser, any time soon."<br>
-<div style="text-align: right; font-weight: bold; height: 1em;">
-<pre>Joe<small> (United Kingdom) - Pale Moon 25.1.0</small></pre>
-</div>
-</blockquote>
-
+It`s highly unlikely that I will be changing to any other browser, any
+time soon."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Joe<small> (United Kingdom) - Pale Moon 25.1.0</small></pre>
+        </div>
+      </blockquote>
       <blockquote>"<span style="font-weight: bold;">Thank You!</span><br>
         <br>
 Just updated Firefox, <span style="font-style: italic;">everything
