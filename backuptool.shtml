@@ -5,6 +5,8 @@
 
 
 
+
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Profile Backup Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -63,10 +65,7 @@ Screenshot:<br>
       <div style="text-align: center;"><img style="width: 642px; height: 452px;" alt="" src="images/pmbackup-ss.png"><br>
       </div>
 <br>
-      <span style="color: rgb(102, 102, 102);">This tool is provided to you
-as FREEWARE. Unlike the Pale Moon browser, this tool is not open source
-and the source is not made available. © 2012-2015 M.C. Straver.</span><br>
-      <span style="font-style: italic;"></span><br>
+      <small><span style="color: rgb(102, 102, 102);"></span></small><span style="font-style: italic;"></span><br>
 
 </td></tr>
 

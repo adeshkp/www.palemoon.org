@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<updates>
+  <update type="minor" displayVersion="25.3.1 (Atom/WinXP)" appVersion="25.3.1"  extensionVersion="25.3.1" 
+          detailsURL="http://www.palemoon.org/releasenotes.shtml">
+    <patch type="partial" URL="http://aus.palemoon.org/mar/palemoon-25.3.1.atom.win32.partial.25.3.0-25.3.1.mar"
+           hashFunction="SHA1" hashValue="b546e01bd8cbff93179f39f8cadf43ac32f54dcf" size="1157404"/>
+    <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-25.3.1.atom.win32.complete.mar"
+           hashFunction="SHA1" hashValue="72c3093ad416f786b49028b7bdeabdd919187c93" size="24200411"/>
+  </update>
+</updates>

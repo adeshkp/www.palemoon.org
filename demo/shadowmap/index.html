@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HTML5 ShadowMap Release</title>
+    <style>
+      .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+      canvas.emscripten { border: 0px solid black; }
+      body { margin: 0px; padding: 0px; }
+      textarea.emscripten { font-family: monospace; width: 80%; }
+      div.emscripten { text-align: center; }
+    </style>  
+  </head>
+  <body>
+    <div class="emscripten" id="status"></div>
+    <div class="emscripten">
+      <progress value="0" max="0" id="progress" hidden=""></progress>  
+    </div>
+    <canvas style="background-color: black;" height="600" width="800" class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <hr>
+    <div class="emscripten"><input value="fullscreen" onclick="Module.requestFullScreen()" type="button">
+      <input value="Pause" onclick="Module['pauseMainLoop']();" type="button">
+      <input value="Resume" onclick="Module['resumeMainLoop']();" type="button">
+      <input value="Quit" onclick="__exit(0)" type="button">
+  </div>
+    <hr>
+    <textarea class="emscripten" id="output" rows="8">Emscripten main().
+Calling application main().
+Initialized a GLES2 context via EGL.
+Warning: Shadow map samplers (Hardware PCF filtering) is not available 
+on the current platform, PCF shadows not enabled.
+glGenTextures+glTexImage2D for texture format 
+TextureFormat_R8G8B8A8_UNORM as render target: format: (GLenum 0x1908), 
+internalformat: (GLenum 0x1908), type: (GLenum 0x1401), width: 512, 
+height: 512
+Starting main loop with refresh rate of 0.
+</textarea>
+    <hr>
+    <script type="text/javascript">
+function emrun_register_handlers() {
+  function post(msg) {
+    var http = new XMLHttpRequest();
+    http.open("POST", "stdio.html", true);
+    http.send(msg);
+  }
+  // If the address contains localhost, we can assume we're running the test runner and should post stdout logs.
+  if (document.URL.search("localhost") != -1 || document.URL.search(":6931/") != -1) {
+    var emrun_http_sequence_number = 1;
+    var prevExit = Module['exit'];
+    var prevPrint = Module['print'];
+    var prevErr = Module['printErr'];
+    Module['exit'] = function emrun_exit(returncode) { post('^exit^'+returncode); prevExit(returncode); }
+    Module['print'] = function emrun_print(text) { post('^out^'+(emrun_http_sequence_number++)+'^'+text); prevPrint(text); }
+    Module['printErr'] = function emrun_printErr(text) { post('^err^'+(emrun_http_sequence_number++)+'^'+text); prevErr(text); }
+  }
+}
+      // connect to canvas
+      var Module = {
+        preRun: [emrun_register_handlers],
+        postRun: [],
+        noImageDecoding: true, // Don't use browser image decoding in gfxapi, all images are loaded synchronously, so this is unused.
+        noAudioDecoding: true, // Also skip audio decoder step.
+        print: (function() {
+          var element = document.getElementById('output');
+          element.value = ''; // clear browser cache
+          return function(text) {
+            // These replacements are necessary if you render to raw HTML
+            //text = text.replace(/&/g, "&amp;");
+            //text = text.replace(/</g, "&lt;");
+            //text = text.replace(/>/g, "&gt;");
+            //text = text.replace('\n', '<br>', 'g');
+            element.value += text + "\n";
+            element.scrollTop = 99999; // focus on bottom
+          };
+        })(),
+        printErr: function(text) {
+          if (0) { // XXX disabled for safety typeof dump == 'function') {
+            dump(text + '\n'); // fast, straight to the real console
+          } else {
+            console.log(text);
+          }
+
+        },
+        canvas: document.getElementById('canvas'),
+        setStatus: function(text) {
+          if (Module.setStatus.interval) clearInterval(Module.setStatus.interval);
+          var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
+          var statusElement = document.getElementById('status');
+          var progressElement = document.getElementById('progress');
+          if (m) {
+            text = m[1];
+            progressElement.value = parseInt(m[2])*100;
+            progressElement.max = parseInt(m[4])*100;
+            progressElement.hidden = false;
+          } else {
+            progressElement.value = null;
+            progressElement.max = null;
+            progressElement.hidden = true;
+          }
+          statusElement.innerHTML = text;
+        },
+        totalDependencies: 0,
+        monitorRunDependencies: function(left) {
+          this.totalDependencies = Math.max(this.totalDependencies, left);
+          Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+        }
+      };
+      Module.setStatus('Downloading...');
+    </script>
+    <script async="" type="text/javascript" src="ShadowMap.js"></script>
+  
+
+</body></html>

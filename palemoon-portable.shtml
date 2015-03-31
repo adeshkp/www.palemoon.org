@@ -26,6 +26,8 @@
 
 
 
+
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -113,8 +115,8 @@ promoting or redistributing or downloading these versions.<br>
       <ul>
 <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a><br>
 </li>
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.1.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.1.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
 
         
 
@@ -127,8 +129,8 @@ promoting or redistributing or downloading these versions.<br>
         <li><a href="http://www.filesriver.com/app/251/pale-moon">FilesRiver</a><br>
         </li>
 </ul>
-SHA-1: 7dd86e82ea9dd56a3d63518232b36378bc6ccc6c<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.2.1.win32.exe.sig">[Sig]</a><br>
-PAD: <a href="http://www.palemoon.org/pad_palemoon-portable.xml">[link]</a><br>
+SHA-1: 7cc9bef92021ae47eb8632aa6b90f5cf317b05fd<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.win32.exe.sig">[Sig]</a><br>
+PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
       <br>
       <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold; text-decoration: underline;"><a name="PMP-x64"></a></span><span style="font-weight: bold;">Download Pale Moon Portable x64 (64-bit):</span><br>
       </div>
@@ -140,8 +142,8 @@ in mind that the same restrictions apply to this as to the desktop
         <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li>
         
 
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.1.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.1.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110821.shtml">GamersHell</a><br>
         </li>
 
@@ -156,7 +158,7 @@ in mind that the same restrictions apply to this as to the desktop
         
 
       </ul>
-SHA-1: 67ef15e23147e7ea8941944d2bf79deeb74b6141<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.2.1.win64.exe.sig">[Sig]</a><br>
+SHA-1: 7090dcaa057710f793ee0a20a1d0adae3ec80c0b<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.win64.exe.sig">[Sig]</a><br>
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br><br>
 
@@ -170,13 +172,13 @@ File size is approximately 21 MB (EXE):<br>
 
       
       <ul>
-<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.2.1.Atom.WinXP.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.2.1.Atom.WinXP.exe">Pale Moon mirror #2</a> (direct link)</li>
+<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.Atom.WinXP.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.Atom.WinXP.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
         </li>
 
       </ul>
 
-SHA-1: fe9690a6f77aa753851f7c711a281d0ef0528a66<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.2.1.Atom.WinXP.exe.sig">[Sig]</a><br>
+SHA-1: 2fdf772863c8d4ffbdbb530442d572576af779bc<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.Atom.WinXP.exe.sig">[Sig]</a><br>
 
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>

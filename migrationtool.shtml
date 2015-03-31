@@ -6,6 +6,8 @@
 
 
 
+
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Profile Migration Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -71,11 +73,7 @@ incompatible but still installed!<br>
       <br>
 If this tool, for whatever reason, doesn't work for you, please check the <a href="troubleshooting.shtml#The_Pale_Moon_profile_migration_tool">Troubleshooting</a> section on this site for instructions on how to manually copy over a profile.<span style="font-weight: bold;"></span><br>
       <br>
-      <span style="color: rgb(102, 102, 102);">This tool is provided to
-you as FREEWARE. Unlike the pale Moon browser, this tool is not open
-source and the source will not be made available. © 2009-2014 M.C.
-Straver.</span><br>
-      <span style="font-style: italic;"></span><br>
+      <small><span style="color: rgb(102, 102, 102);"></span></small><span style="font-style: italic;"></span><br>
 
 </td></tr>
 

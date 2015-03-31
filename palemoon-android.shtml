@@ -9,6 +9,8 @@
 
 
 
+
+
   
   <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -53,15 +55,17 @@ This version of Pale Moon is built for the Android operating system on mobile de
             <td style="vertical-align: top;" width="50%">
             <ul>
               <li>Android operating system, version 4.0 or higher</li>
-              <li>ARM processor v7 or later (Android-x86 is currently not supported)<br>
+              <li>ARM processor v7 or later</li>
+              <li>Android-x86 is currently experimental and not supported yet. See below.<br>
               </li>
+
 
             </ul>
             </td>
           </tr>
         </tbody>
       </table>
-      <h3 style="text-align: left;">Current version: 25.2.1</h3>
+      <h3 style="text-align: left;">Current version: 25.3.1</h3>
 Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon release notes</a>.<br>
       <h3 style="text-align: left;">Download links</h3>
       <span style="font-weight: bold;"></span>
@@ -97,7 +101,12 @@ Servers in Europe and the US</td>
         </tbody>
       </table>
       <span style="font-weight: bold;"></span><br>
-<h3>Source code</h3>
+<h3>Pale Moon for Android-x86</h3>Pale Moon for Android-x86 is
+currently in its experimental build stages. If you wish to give it a
+try, then please check the Pale Moon link above and look for the
+relevant posts for Android-x86 on the forum.<br>
+      <h3>Source code</h3>
+
 Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
       <br>
       </td>

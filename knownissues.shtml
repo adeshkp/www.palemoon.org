@@ -53,13 +53,23 @@ For each issue, check the status for intended action to be taken in
 development (if any) and intended timeline (if applicable).<br>
       <br>
       <span style="font-weight: bold;"></span><span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><br>
-      <span style="font-weight: bold;">Known issues in 25.2.1:</span><br>
+      <span style="font-weight: bold;">Known issues in the current version:</span><br>
 <ol>
         
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Android: using VPN connections may not work</span><br>
+If you are using a VPN connection on Android 5 (Lollipop), Pale Moon
+may not be able to resolve host names, leading to connectivity
+failures. This is caused by a known problem in the underlying Fennec
+code that caters to much older versions of Android and relies on
+functions that have been removed in Android 5.*<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workarounds:</span> Use local (on-device) DNS resolution with a DNS resolver, use a different browser for VPN use, or downgrade to Android 4.*<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.4<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font
 rendering. This is caused
-by a deep-rooted issue in the graphics rendering back-end that requires
+by a deep-rooted issue in the gecko graphics rendering back-end affecting all gecko-based browsers, that requires
 time to research.<br>
 Effects are only aesthetic in nature and non-breaking.<br>
           <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 51, 204);">[Research]</span><br>

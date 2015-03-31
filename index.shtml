@@ -9,6 +9,8 @@
 
 
 
+
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -29,14 +31,9 @@
       <br>
       </td>
     </tr>
+    
     <tr>
-      <td colspan="2">
-      <h1 style="text-align: center;">Welcome to the Pale Moon project
-homepage</h1>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">Pale
+      <td style="vertical-align: top; padding-top: 1em;">Pale
 Moon is an Open Source, Firefox-based web browser available for
 Microsoft Windows, Android and Linux (with other operating systems in
 development),
@@ -47,7 +44,7 @@ browser!<br>
       <br>
 Pale
 Moon offers you a browsing experience in a browser completely built
-from its own source with carefully selected features
+from its own, independently developed source with carefully selected features
 and optimizations to maximize the browser's speed<small>*</small>,
 stability and user
 experience, while maintaining compatibility with thousands of Firefox
@@ -120,17 +117,17 @@ and <span style="font-weight: bold;">more freedom in customization</span>,
 to name a few things.<br>
       <br>
       <span style="font-weight: bold;"></span></td>
-      <td style="padding-top: 2px; padding-bottom: 2px; vertical-align: top;" width="185">
+      <td style="padding-bottom: 1em; vertical-align: top; padding-top: 1em;" width="185">
       <table class="topnews" border="0" cellpadding="2" cellspacing="0" width="100%">
         <tbody>
           <tr>
             <td style="margin: 0px; vertical-align: top; font-size: 10pt;"><span style="font-weight: bold;">Top news:</span><br>
             <br>
-            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon has been updated to 25.2.1 </span>to fix a potential issue with authentication via proxies.<br>
+            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.3.1 has been released</span> to address a critical security issue.<br>
             <br>
-            <span style="font-weight: bold;">Pale Moon 25.2 has been released</span>
-which is a significant update of the browser, adding new features, fixing bugs, and
-focusing on increased compatibility with a number of websites.
+            <span style="font-weight: bold;">Pale Moon 25.3 has been released</span>
+which is a significant update of the browser, improving performance, adding new features, fixing bugs, and
+focusing on known security issues.
 More details in the <a href="releasenotes.shtml">release notes</a>.<br>
             <br>
             <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><a href="http://forum.palemoon.org/viewforum.php?f=1">more

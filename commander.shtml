@@ -1,31 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en"><head>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -110,9 +85,11 @@ I've done my best to make sure it works as-intended.</p>
 
 
       <h2>Download and install</h2>
-The current version is 1.5.0 - this is an update adding OCSP-stapling
-settings and a setting for the new tab URL, as well as a new Pale Moon
-feature to not apply accessibility theme colors to page content.<br>You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum thread</a> for this add-on to provide feedback.<br>
+The current version is <span style="font-weight: bold;">1.6.1</span> - this is an update adding settings for sessions, HSTS and tab focus control for javascript popups.<br>
+In addition, it will not automatically disable controls for features
+that are not applicable to your OS (e.g. Linux) or browser used (if
+installed in Firefox). The Swedish language has been updated and re-enabled in this point release.<br>
+<br>You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum thread</a> for this add-on to provide feedback.<br>
       <br>
 You can go to the Mozilla Add-ons library where the add-on is listed
 (please check the version! If it's not the latest, go to "version
@@ -122,7 +99,7 @@ has not been reviewed yet by the editors):<br>
       <br>
       <div style="text-align: center; font-weight: bold;"><span class="userContent"></span><a href="https://addons.mozilla.org/en-US/firefox/addon/pale-moon-commander/" target="_blank" rel="nofollow nofollow" onmouseover='LinkshimAsyncLink.swap(this, "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/pale-moon-commander\/");' onclick='LinkshimAsyncLink.swap(this, "\/l.php?u=https\u00253A\u00252F\u00252Faddons.mozilla.org\u00252Fen-US\u00252Ffirefox\u00252Faddon\u00252Fpale-moon-commander\u00252F&h=AAQFkFycT&s=1");'>https://addons.mozilla.org/en-US/firefox/addon/pale-moon-commander/</a></div>
       <br>
-Or you can download and install the add-on right from this page:<br>Version compatible with Firefox base code v24 and later (intended for Pale Moon 25.0 and later) <a href="support/pmcommander-1.5.0.xpi">Add to Pale Moon</a><br>
+Or you can download and install the add-on right from this page:<br>Version compatible with Firefox base code v24 and later (intended for Pale Moon 25.3 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.6.1.xpi">Add to Pale Moon</a><br>
       <br>
 Alternatives:<br>
 <br>
@@ -130,9 +107,8 @@ Alternatives:<br>
       <br>This add-on is supplied as FREEWARE with disclosed source. Please see the <a href="freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
       <br>
       <h2>Documentation</h2>
-The add-on currently has a basic manual in PDF format, which is mostly
-complete but needs to be updated for later version changes.<br>
-You can get the manual by <a href="support/Pale%20Moon%20Commander_v1.3.2.pdf">clicking here</a>.<br>
+The add-on currently has a basic manual in PDF format, applicable to the current version 1.6.<br>
+You can get the manual by <a href="http://relmirror.palemoon.org/tools/Pale%20Moon%20Commander_v1.6.0.pdf">clicking here</a>.<br>
 
 <br>
 <a href="/">[&lt;- Back]</a><br>

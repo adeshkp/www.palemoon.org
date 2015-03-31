@@ -2,6 +2,9 @@
 <html><head>
 
 
+
+
+
  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -20,7 +23,96 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.2.1 (2015-01-27)</h3>This
+      <h3>25.3.1 (2015-03-25)</h3>This
+is a security update to the browser to address a critical vulnerability
+found in the pwn2own contest. Only one vulnerability found in this
+contest applies to Pale Moon, which has been addressed in this update.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>Fixed security vulnerability <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>.
+This vulnerability would allow remote attackers to bypass the Same
+Origin Policy and execute arbitrary JavaScript code with chrome
+privileges via vectors involving SVG hash navigation.</li>
+        <li>Fixed IPv6 DNS resolution regression in some less common cases.</li>
+      </ul>
+      <h3>25.3.0 (2015-03-13)</h3>
+This is an important update to improve features and performance, as well as address important security issues.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>Overhauled WebGL. It now properly supports depth textures, <a href="demo/shadowmap/" target="_blank">shadow mapping</a> and glow shaders.<br>
+Note that older operating systems or older/embedded video processors may be limited in their support of these features.<br>
+        </li>
+        <li>Updated the ANGLE library to a much more current version.<br>
+        </li>
+        <li>Removed the crash reporter code completely to improve overall browser responsiveness and operation.<br>
+Please note that a necessary victim of this has been the in-browser
+(devtools) SPS profiler because of its reliance on crash reporter
+data-gathering tools.<br>
+        </li>
+        <li>Removed the Mozilla Plugin Finder Service (no longer in use @Mozilla).</li>
+        <li>Android: removed the Mozilla "product announcements" service.<br>
+        </li>
+        <li>Re-added control of the number of concurrent tabs to be restored from a session with <span style="color: rgb(0, 64, 128);">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
+        </li>
+        <li>Significantly improved performance and accuracy of date/time/timer handling.<br>
+        </li>
+        <li>Significantly improved performance of the creation of DOM elements with plain text content.</li>
+        <li>Added several significant performance optimizations for arrays and strings in javascript.<br>
+        </li>
+        <li>Added several code performance optimizations and bugfixes
+in SVG, the presentation shell, SCTP, style gradients and CSS parsing
+routines. (Thanks, Axiomatic!)</li>
+        <li>Added an "Open link in current tab" context menu entry on links for UI consistency.</li>
+        <li>Updated styling of the browser with personas (lightweight themes)
+once more to improve display in tabs-on-top mode, improve overall
+legibility of tab text, and display of inverted close buttons on some controls on dark personas.<br>
+        </li>
+        <li>Added a special case check for the Flash plugin version
+check on Linux failing due to commas instead of periods in the version
+string.</li>
+        <li>Added Windows 10 compatibility in executable manifests.<br>
+        </li>
+        <li>Android: Fixed a crash on GL canvas surfaces.</li>
+        <li>Fixed incorrect Sync "howto" instruction links from the Sync dialogs.</li>
+        <li>Fixed the color of selected tabs in Linux when personas
+(lightweight themes) are in use that do not match the overall tone of
+the OS system theme.<br>
+        </li>
+        <li>Fixed a bug where a variable in parentheses would abort Javascript parsing.<br>
+        </li>
+        <li>Fixed a bug where the address bar would incorrectly be cleared.<br>
+        </li>
+        <li>Fixed padding issues for dropdown lists.</li>
+        <li>Fixed DNS lookups so proper record types are requested for IPv4 and IPv6.<br>
+        </li>
+
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Disabled all RC4-based encryption ciphers by default. <a href="https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
+        </li>
+        <li>Fixed several miscellaneous memory safety hazards.<br>
+(applicable bugs related to <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)</li>
+        <li>Fixed loading of locally stored DLL files through the internal updater. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)</li>
+        <li>Fixed a potential crash point in IndexedDB. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span style="color: rgb(102, 102, 0);">DiD</span></li>
+        <li>Fixed a double-free situation when using non-default memory allocators and a 0-length XHR. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0828">CVE-2015-0828</a>)<br>
+Note: production builds of Pale Moon were never vulnerable.</li>
+        <li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)</li>
+        <li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)</li>
+        <li>Fixed a potential PNG heap-overflow crash. <span style="color: rgb(102, 102, 0);">DiD</span></li>
+        <li>Followed up on research regarding CVE-2014-8639 (see 25.2) and made cookie handling through proxies more restrictive again.<br>
+        </li>
+      </ul>
+      <span style="color: rgb(102, 102, 0);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to an
+actively exploitable vulnerability in Pale Moon, but prevents future
+vulnerabilities caused by the same code when surrounding code changes,
+exposing the problem.<br>
+      <br>
+      <h3>25.2.1 (2015-01-27)</h3>
+This
 is a small update to address cookie handling through proxies causing
 issues for some authenticating proxies in corporate environments.<br>
       <h3>25.2.0 (2015-01-15)</h3>

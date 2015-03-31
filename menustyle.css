@@ -11,7 +11,10 @@ body {
 	float: left;
 	width: 100%;
 	padding: 0;
+	position: relative;
+	z-index: 100;
 }
+
 .mainmenu ul {
 	float: left;
 	width: 100%;
@@ -47,7 +50,6 @@ body {
 .mainmenu ul a{
 	width:1%;
 }
-
 
 .mainmenu li  {
 	float: left;
