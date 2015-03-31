@@ -3,6 +3,8 @@
 
 
 
+
+
   
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Download the Pale Moon browser</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -23,10 +25,10 @@
         </tr>
         <tr>
           <td style="vertical-align: top;">
-            <h1><a href="http://www.palemoon.org/pad_palemoon-ng.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a>Download Pale
-              Moon 25.2.1<br>
+            <h1><a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a>Download Pale
+              Moon 25.3.1<br>
             </h1>
-            <span style="font-weight: bold;">New this release:</span> This is a small bugfix update to address authentication issues via proxy. Details
+            <span style="font-weight: bold;">New this release:</span> This is a significant update focusing on performance, WebGL improvements, bugfixes and security. Details
             about this update can be found in the
             <a href="releasenotes-ng.shtml">Release
               notes.</a><br>
@@ -70,10 +72,10 @@
             <br>
             <h2>Download locations</h2>
             <span style="color: red;"></span>File size for the installer is
-            20.4 MB (21,420,048 Bytes)<br>
+            20.3 MB<br>
             <br>
-            SHA-1 checksum: 306a907ae98a753d565f93cd78a89db1d8e9557e<br>
-            (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>GPG/PGP signature: <a href="pgp/palemoon-25.2.1.win32.installer.exe.sig">[Sig]</a><br>
+            SHA-1 checksum: 54eb6ceb63ea2f11d06a6511054f77b5177717ce<br>
+            (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>GPG/PGP signature: <a href="pgp/palemoon-25.3.1.win32.installer.exe.sig">[Sig]</a><br>
             <br>
             <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -96,7 +98,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.3.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text"><span style="font-weight: bold;">Pale
                       Moon mirror</span> #1<br>
@@ -104,7 +106,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
 Moon
                       mirror</span> #2<br>
@@ -153,28 +155,25 @@ Moon
             a portable browser, it stores its data in the normal user folders on
             the system (documents/settings or users folder).<br>
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.2.1.win32.zip">Download
+              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.3.1.win32.zip">Download
                   <span style="font-weight: bold;">ZIP</span> from Pale Moon
                   mirror #1 (direct download)</a><a href="http://storage.sity.nl/palemoon/palemoon-24.5.0.win32.zip">
                 </a></li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.2.1.win32.zip">Download
+              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.1.win32.zip">Download
                   <span style="font-weight: bold;">ZIP</span> from Pale Moon
                   mirror #2 (direct download)</a></li>
               <li><a href="http://www.gamershell.com/download_110813.shtml">Download
                   <span style="font-weight: bold;">ZIP</span> from GamersHell</a><br>
               </li>
             </ul>
-            SHA-1: a416ea9a6bd9e9be65790def21ad3c5cf735327b<br>
-            GPG/PGP Signature: <a href="pgp/palemoon-25.2.1.win32.zip.sig">[Sig]</a><br>
+            SHA-1: e2adefdb70537f3dadbec398c491086fe1c9002d<br>
+            GPG/PGP Signature: <a href="pgp/palemoon-25.3.1.win32.zip.sig">[Sig]</a><br>
             <br>
-            <h3>Portable version:</h3>
-            See <a href="palemoon-portable.shtml">Pale Moon Portable</a><br>
-            <br>
-            <h3>Source code</h3>
-            Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
-            <br>
-            <hr style="border-style: solid; border-color: rgb(82, 114, 161); width: 100%; height: 3px; background-color: rgb(82, 114, 161);" noshade="noshade"><br>
-            You can find older versions of Pale Moon <a href="archived.shtml">here</a>.<span style="font-weight: bold;"></span><br>
+            
+      <h2>Other downloads<br>
+      </h2>
+Portable version: see <a href="palemoon-portable.shtml">Pale Moon Portable</a><br>
+            Source code: see the source code page <a href="sourcecode.shtml">here</a>.<br>Older versions: <a href="archived.shtml">here</a>.<span style="font-weight: bold;"></span><br>
             <br>
           </td>
         </tr>
