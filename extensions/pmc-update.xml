@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <RDF:Description about="urn:mozilla:extension:commander@palemoon.org">
+    <em:updates>
+      <RDF:Seq>
+        <RDF:li>
+          <RDF:Description>
+            <em:version>1.6.0</em:version>
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+                <em:minVersion>24.0</em:minVersion>
+                <em:maxVersion>30.*</em:maxVersion>
+                <em:updateLink>http://relmirror.palemoon.org/tools/pmcommander-1.6.0.xpi</em:updateLink>
+                <em:updateInfoURL></em:updateInfoURL>
+                <em:updateHash>sha256:2e0306f1ba7b479efa687e5774177bf5e46c1414da8082a7b15a7a323505313e</em:updateHash>
+              </RDF:Description>
+            </em:targetApplication>
+          </RDF:Description>
+        </RDF:li>
+      </RDF:Seq>
+    </em:updates>
+  </RDF:Description>
+</RDF:RDF>
