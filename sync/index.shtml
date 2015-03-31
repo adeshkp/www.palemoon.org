@@ -1,8 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
+
   
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>Pale Moon Sync</title>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync</title>
+  
 
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
@@ -14,9 +15,7 @@
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
 
   
-  <meta content="Moonchild" name="author">
-
-</head><body>
+  <meta content="Moonchild" name="author"></head><body>
 <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -38,6 +37,8 @@ It allows the synchronization of data between Pale Moon browser
 instances using an e-mail and password as account credentials.<br>
 This service is governed by the Pale Moon Sync <a href="terms.shtml">Terms
 of Service</a> and <a href="privacy.shtml">Privacy Policy</a>.<br>
+      <br>
+To check on the server status, please go here: <a href="https://pmsync.palemoon.net/status/">https://pmsync.palemoon.net/status/</a><br>
       <h3>What is Pale Moon Sync for?<br>
       </h3>
       <ul>
@@ -60,8 +61,8 @@ When talking about "data", this comprises, by your choice:<br>
         <li>Extensions (add-ons)</li>
         <li>Preferences (limited subset)</li>
       </ul>
-      <h3>What is Pale Moon Sync <span style="text-decoration: underline;">not</span> for?</h3>
-Pale Moon Sync is a courtesy service with no guarantees of availability.<br>
+      <h3>What is Pale Moon Sync <span style="text-decoration: underline;">not</span> for?</h3><span style="color: rgb(153, 0, 0);">
+Pale Moon Sync is a free courtesy service with no guarantees of availability.</span><br>
 It has not been designed with other use than synchronization in mind,
 therefore:<br>
       <ul>
@@ -101,7 +102,7 @@ compromised account allows the attacker to get your key and access your
 data)</li>
         <li>If the Pale Moon Sync server were ever to be hacked, your
 data is still safe as well: Your account password is encrypted in the
-database (using bcrypt) and your synced data is unrecoverable without
+database (using bcrypt), and your synced data is unrecoverable without
 the recovery key that is in your possession. The server simply does not
 contain the information needed to decrypt your synced data.<br>
 Of course plenty of steps are taken to prevent this from ever
