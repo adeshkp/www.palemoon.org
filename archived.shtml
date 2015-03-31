@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en"><head>
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Archived versions</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -36,7 +37,9 @@ personally need and do not hotlink.</span><br>
       <h2><a href="http://www.oldfoss.com/Pale-Moon.html">http://www.oldfoss.com/Pale-Moon.html</a></h2>
       </div>
 
-      Note: FTP server access for archived versions has been discontinued.<br><br>
+      Note: FTP server access for archived versions of the browser has been discontinued. <br>
+If you need <span style="font-weight: bold;">language packs</span> for older versions, please use the following temporary ftp link:<br>
+      <a href="ftp://pmlocales:get@ftp.palemoon.org/">ftp://pmlocales:get@ftp.palemoon.org/</a><br><br>
       </td>
     </tr>
     <tr>
