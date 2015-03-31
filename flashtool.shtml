@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+
+
+
+
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Flash protected Mode Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta content="A simple tool to switch Flash protected Mode on or off." name="description"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+<tr align="left">
+<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
+<br>
+</td>
+</tr>
+    <tr>
+<td style="vertical-align: top;">
+      <h1>Flash Protected Mode tool</h1>
+This simple tool was written as a quick way to switch Protected Mode in the Flash player off and on.<br>
+If you are experiencing lots of crashes of Flash in Pale Moon,
+disabling protected mode in the flash player may help. Because Pale
+Moon itself already provides process isolation for plugins as a
+security measure, adding a second layer by Flash itself may make the
+plugin unstable on some systems.<br>
+      <br>
+It was put together mainly for people who have
+limited knowledge of accessing the Windows file system and manually editing a configuration file in a system folder. <br>
+      <br><br>
+
+      
+      <div style="text-align: center;"><a class="dllink_green" href="http://relmirror.palemoon.org/tools/FlashProtectedMode.exe">Download now (free)</a><br>
+      </div>
+
+      <br><span style="font-weight: bold; color: red;"><br></span>Screenshot:<br>
+      <div style="text-align: center;"><img style="width: 364px; height: 194px;" alt="" src="images/FlashPM-ss.png"><br>
+      </div>
+<br>
+      <small><span style="color: rgb(102, 102, 102);"></span></small><span style="font-style: italic;"></span><br>
+
+</td></tr>
+
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+      <!--#include virtual="nav/footer.html" -->
+      <br>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+
+</body></html>
