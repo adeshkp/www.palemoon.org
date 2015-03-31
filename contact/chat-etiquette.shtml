@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
   <meta content="Moonchild" name="author">
-  <meta content="Basic etiquette rules for #palemoon" name="description">
-</head><body>
+  <meta content="Basic etiquette rules for #palemoon" name="description"></head><body>
 <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -28,7 +28,7 @@
 Pale Moon has an IRC channel that is operated on the Freenode IRC
 network (a chat network mainly focusing on Free and Open Source
 Software). While on the chat network and in the chat room, you are
-requested the following etiquette rules. Not following these rules can
+requested to adhere to the following etiquette rules. Not following these rules can
 get you removed from the chatroom (temporarily or permanently,
 depending on behavior):<br>
 
@@ -43,15 +43,26 @@ offending people with excessive use of course language is frowned upon.
 Although everyone is assumed to be of adult age (see previous point),
 and you may be upset about something, you're kindly requested to keep
 your use of language under control.</li>
-        <li>Please keep in mind that the chatroom will be used by
+        <li>Please
+keep in mind that the chatroom will be used by
 people from all walks of life, and all levels of computer skill. It is
 meant to be a place to offer help, and if you cannot do so, or a
 problem is too complex, or you find that it is too difficult to
 translate a solution into something that can be easily understood in
 chat and/or by the person asking the question, then please forward them
-in a kind manner to the Pale Moon forum. Talking down on people because they are not "power users" will be grounds for immediate removal from the channel.<br>
+in a kind manner to the Pale Moon forum. Talking down on people because
+they are not "power users" will be grounds for immediate removal from
+the channel.<br>
         </li>
-        <li>Please do not use ALL CAPS when chatting.</li>
+        <li>Please
+do not use ALL CAPS when chatting. Please try to use understandable
+spelling and please use punctuation. Making yourself clearly understood
+is in everyone's interest :)</li>
+        <li>Please use English at all times. Languages other than
+English should be taken to private chat or other channels specifically
+catering to the non-English language spoken.<br>
+        </li>
+
         <li>Please do not try to unnecessarily mask your identity. We are all people there, with personalities and identities.
 It is much easier to relate to and assist someone that actually tries
 to approach others with a personal identity than someone who goes at
@@ -60,14 +71,17 @@ personally or ideologically sensitive if we can help it, so there will
 be no need to hide/cloak/mask yourself.<br>
         </li>
         <li>Please do not start flame wars or personal attacks against other users visiting the channel.</li>
+        <li>Please do not <a href="https://en.wikipedia.org/wiki/Troll_%28Internet%29" target="_blank">troll</a> or be disruptive to the chat. <br>
+</li>
         <li>Please do not start discussions about politics, religion,
 or other touchy subjects that are not necessarily related to the
 browser (off-topic) and can easily lead to an very unwelcome
 atmosphere. Although enforcing of this point will be done leniently,
 you are asked to apply common sense and stop a particular line of
 conversation if it gets too heated or opinionated for the channel's
-overall atmosphere.<br>
+overall atmosphere. If you want to continue an off-topic or in-depth discussion with someone, please take it to private chat!<br>
         </li>
+
       </ul>
 
       <br>

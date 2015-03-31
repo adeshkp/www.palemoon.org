@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon feedback</title>
   
@@ -51,8 +52,10 @@ Please post in the <span style="font-weight: bold;">public</span> boards for any
 contacting the Pale Moon developer directly are requested to register
 on the forum and initiate contact via Private Messages. If this is
 problematic, you may contact the developer via e-mail at
-<span style="white-space: nowrap;">business-inquiries@palemoon.org</span>. Please understand that any
+      <a href="mailto:business-inquiries@palemoon.org"><span style="white-space: nowrap;">business-inquiries@palemoon.org</span></a>. Please understand that any
 non-business inquiries at that address will be discarded.<br>
+      <br>
+If you are a member of the <span style="font-weight: bold;">press</span>, please feel free to use <a href="mailto:press@palemoon.org">press@palemoon.org</a> as a point of contact.<br>
 <br>
       </td>
     </tr>
