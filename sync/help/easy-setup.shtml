@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../../menustyle.css"> 
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../../pagestyle.css">
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project" src="../../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon Sync service</h1>
+      <h2 id="w_how-do-i-add-a-device">How do I Add a New Device to my Sync account?</h2>
+
+      <p><em>Perform these steps in Pale Moon on a computer that already has your Sync account set up.</em>
+      </p>
+
+      <ol>
+<li>Click the <span class="button">Pale Moon</span> button (or go to the Tools menu<strong></strong>) and click Options.
+</li><li>In the Options window, go to Sync, then click the <strong>Pair a device</strong> link and the Sync Setup window will open.<br>
+          <div style="text-align: center;"><img style="width: 534px; height: 551px;" alt="Screenshot" src="adddevice1.png"><br>
+          </div>
+</li><li>Get your new device, and do the following:<br>
+</li>
+        <ol type="a">
+          <li>If your other device is another computer (desktop or laptop):<br>
+Go to "Set Up Sync..." in the program's menu, then click "I already have an account".<br>
+Sync setup will now give you a 12-character code.</li>
+          <li>If your other device is a mobil (Android phone or tablet):<br>
+Tap the Set up Pale Moon Sync button on the Start page. (<strong>Note:</strong> You can also access Sync through the main menu <span class="button">More</span> &gt; <span class="button">Settings</span> &gt; <span class="button">Sync</span>)<br>
+Sync setup will now give you a 12-character code.<br>
+          </li>
+        </ol>
+        <li>Enter this twelve character code generated on your new device and click <span class="for" data-for="win,linux"><span class="button">Next</span></span>.<br>
+
+        </li>
+<li>When the code is accepted you will see a <strong>Device Connected</strong> message and your device will immediately begin syncing. Click <span class="for" data-for="win,linux"><span class="button">Finish</span></span> to close the setup window.
+</li>
+      </ol>
+
+
+
+      <h2 id="w_how-do-i-add-a-device-when-im-not-near-my-computer">How do I Add a Device when I'm not near my computer?</h2>
+
+      <p><em>Perform these steps on the device you are trying to add to Pale Moon Sync.</em><br><br>
+If you are trying to add a device to Pale Moon Sync and you are not near 
+your computer so that you can enter the code, you can still get it done 
+by entering your account information.
+      </p>
+
+      <h3 id="w_add-an-android-or-maemo-device">Add an Android device</h3>
+
+      <p><em>Perform these steps in Pale Moon on your Android device.</em>
+      </p>
+
+      <ol>
+<li>Tap the Set up Pale Moon Sync button on the Start page. <br>
+          <strong>Note:</strong> You can also access Sync through the main menu <span class="button">More</span> &gt; <span class="button">Settings</span> &gt; <span class="button">Sync</span></li><li>Tap the "<strong>Advanced setup...</strong>" link.
+
+</li><li>Next, enter your Account Name (email address), Password, <a href="recoverykey.shtml">Recovery Key</a> and tap <span class="button">Connect</span>.
+
+</li>
+      </ol>
+
+
+
+      <h3 id="w_add-another-computer">Add another computer</h3>
+
+      <p><em>Perform these steps on the computer you are trying to add to Pale Moon Sync.</em>
+      </p>
+      <span class="for" data-for="fx10">
+      <ol>
+<li>At the top of the Pale Moon window, <span class="for" data-for="win7,win8">click the Pale Moon<span class="button"></span> button</span> and select <span class="menu">Set Up Sync</span>.<br>
+ The Pale Moon Sync Setup window will open.
+</li><li>Click <span class="button">I Have an Account</span>.
+</li><li>Since you're not near the device with Sync already set up, click the <strong>I don't have the device with me</strong> link.
+</li><li>Sign in to your Sync account:
+<ul><li>Enter your account email address
+</li><li>Enter your password
+</li><li>Enter your <a href="recoverykey.shtml">Recovery Key</a>
+</li><li>Then click <span class="button">Next</span>
+</li></ul>
+</li><li>You will see a <strong>Setup Complete</strong> screen. Click <span class="button">Finish</span> to complete adding this device to your Sync account.
+</li>
+      </ol>
+
+      </span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
