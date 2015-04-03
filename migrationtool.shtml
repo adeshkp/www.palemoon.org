@@ -53,12 +53,15 @@ with migrating from Firefox 29 when classic theme restorer is
 installed, as well as clarification about the Status-4-Evar add-on if
 installed.<br>
       <br>
-      <span style="font-weight: bold;">Important:</span> this tool is not aware of compatibility issues with Firefox extensions in general, and will copy over <span style="font-weight: bold;">all</span>
+      
+      <div style="border: 1px dotted rgb(153, 0, 0); padding: 2px 5px; text-align: left; color: rgb(153, 0, 0);"><span style="font-weight: bold;">Important:</span> this tool is not aware of compatibility issues with Firefox extensions in general, and will copy over <span style="font-weight: bold;">all</span>
 installed extensions. After migration, you will have to examine your
-installed extensions and see which ones need to be updated, removed or
-changed. Not all Firefox extensions are guaranteed to work in Pale
-Moon, and some may even prevent proper browser operation if they are
+installed extensions and see which ones need to be updated, reverted to an earlier compatible version, removed or
+changed out for an alternative. <span style="font-weight: bold;">Not all Firefox extensions are guaranteed to work in Pale
+Moon</span>, and some may even prevent proper browser operation if they are
 incompatible but still installed!<br>
+      </div>
+
 
       <br>
       <br>
@@ -71,7 +74,7 @@ incompatible but still installed!<br>
       <br>
       <span style="font-weight: bold; color: red;">Note:</span> <span style="font-weight: bold;">Please close both Firefox and Pale Moon before attempting to migrate your profiles.</span> Not doing so may cause an incomplete transfer or give errors.<br>
       <br>
-If this tool, for whatever reason, doesn't work for you, please check the <a href="troubleshooting.shtml#The_Pale_Moon_profile_migration_tool">Troubleshooting</a> section on this site for instructions on how to manually copy over a profile.<span style="font-weight: bold;"></span><br>
+If this tool, for whatever reason, doesn't work for you, please check the <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=144">FAQ</a> section on the forum for instructions on how to manually copy over a profile.<span style="font-weight: bold;"></span><br>
       <br>
       <small><span style="color: rgb(102, 102, 102);"></span></small><span style="font-style: italic;"></span><br>
 
