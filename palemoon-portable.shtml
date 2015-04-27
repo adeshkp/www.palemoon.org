@@ -28,6 +28,7 @@
 
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -115,8 +116,8 @@ promoting or redistributing or downloading these versions.<br>
       <ul>
 <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a><br>
 </li>
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.2.win32.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.2.win32.exe">Pale Moon mirror #2</a> (direct link)</li>
 
         
 
@@ -129,7 +130,7 @@ promoting or redistributing or downloading these versions.<br>
         <li><a href="http://www.filesriver.com/app/251/pale-moon">FilesRiver</a><br>
         </li>
 </ul>
-SHA-1: 7cc9bef92021ae47eb8632aa6b90f5cf317b05fd<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.win32.exe.sig">[Sig]</a><br>
+SHA-1: 0936f19b7bf8e788ebf58c3b3d974245b3c9afed<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.2.win32.exe.sig">[Sig]</a><br>
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
       <br>
       <div style="text-align: left; background-color: rgb(204, 204, 255);"><span style="font-weight: bold; text-decoration: underline;"><a name="PMP-x64"></a></span><span style="font-weight: bold;">Download Pale Moon Portable x64 (64-bit):</span><br>
@@ -142,8 +143,8 @@ in mind that the same restrictions apply to this as to the desktop
         <li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li>
         
 
-        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
-        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
+        <li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.2.win64.exe">Pale Moon mirror #1</a> (direct link)</li>
+        <li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.2.win64.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110821.shtml">GamersHell</a><br>
         </li>
 
@@ -158,7 +159,7 @@ in mind that the same restrictions apply to this as to the desktop
         
 
       </ul>
-SHA-1: 7090dcaa057710f793ee0a20a1d0adae3ec80c0b<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.win64.exe.sig">[Sig]</a><br>
+SHA-1: 4c38788b8cb5dff73f2a85aea64c1736a8b748c6<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.2.win64.exe.sig">[Sig]</a><br>
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br><br>
 
@@ -172,13 +173,13 @@ File size is approximately 21 MB (EXE):<br>
 
       
       <ul>
-<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.1.Atom.WinXP.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.1.Atom.WinXP.exe">Pale Moon mirror #2</a> (direct link)</li>
+<li><a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a></li><li><a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.3.2.Atom.WinXP.exe">Pale Moon mirror #1</a> (direct link)</li><li><a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.3.2.Atom.WinXP.exe">Pale Moon mirror #2</a> (direct link)</li>
         <li><a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
         </li>
 
       </ul>
 
-SHA-1: 2fdf772863c8d4ffbdbb530442d572576af779bc<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.1.Atom.WinXP.exe.sig">[Sig]</a><br>
+SHA-1: b00ea5af89504a8aa01d9643c84f3ac42ad68417<br>GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.3.2.Atom.WinXP.exe.sig">[Sig]</a><br>
 
 
 PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
@@ -196,7 +197,7 @@ exist in a freshly extracted Pale Moon Portable. <span style="font-weight: bold;
 the portable to a new folder of your choice and then copy over the
 "user" folder from the old copy of the portable browser.</span><br>
 
-      <span style="font-weight: bold; color: red;">Warning:</span> If you have made changes to palemoon-portable.ini yourself, you will have to make these changes again as the .ini file will be <span style="font-weight: bold;">overwritten</span>.
+      <span style="font-weight: bold; color: red;">Important:</span> If you have made changes to palemoon-portable.ini yourself, you will have to make these changes again as the .ini file will be <span style="font-weight: bold;">overwritten</span>.
 The solution is to save this file as "user.ini" which will take
 precedence over palemoon-portable.ini if found by the launcher.<br>
 

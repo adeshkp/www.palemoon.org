@@ -35,7 +35,9 @@ not been done without some good reasons, outlined below:<br>
 Windows XP is no longer supported or maintained by its developer
 (Microsoft) and lacks continued security updates that are needed in
 this day and age of malware. It's considered End of Life since April
-2014, and using it is inherently taking a security risk. Also understand that Windows XP lacks some features in terms of program security and stronger security certificates.<br>
+2014, and using it is inherently taking a security risk. Also
+understand that Windows XP lacks some features in terms of program
+security and stronger security certificates.<br>
         </li>
         <li><span style="font-weight: bold;">OS Life considerations:</span>
 Windows XP has the status "obsolete". It has never been one of Pale
@@ -88,8 +90,8 @@ netbooks being limited to that operating system) you can switch to that
 version.</li>
         <li><span style="color: rgb(0, 102, 0);">Recommended:</span> If you are looking for a full main-line build of Pale Moon with Windows XP support, there are also 32-bit and 64-bit <a href="http://binaryoutcast.com/software/projects/pm4xp/">alternative (third-party) builds</a>
 of the browser specifically maintained for Windows XP and Server 2003
-environments. Please do note that these versions will be discontinued
-when the last retail NT 5.x product goes EoL in July 2015.</li>
+environments. <span style="font-weight: bold;">Please do note that these versions will be discontinued
+when the last retail NT 5.x product goes EoL in July 2015.</span></li>
         <li>Of course another alternative is to switch browser. We will be sad to see you go.<br>
         </li>
         <li><span style="color: rgb(102, 0, 0);">Not recommended:</span>
