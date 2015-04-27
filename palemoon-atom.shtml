@@ -7,6 +7,7 @@
 
 
 
+
   
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -104,14 +105,14 @@
                 </tr>
               </tbody>
             </table>
-            <h3 style="text-align: left;">Current version: 25.3.1</h3>
+            <h3 style="text-align: left;">Current version: 25.3.2</h3>
             Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale
               Moon release notes</a>.<br>
             <h3 style="text-align: left;">Download links</h3>
             <span style="color: red;"></span><span style="font-weight: bold;">Installer
 (recommended,
               19.0 MB)</span>:<br>
-            SHA-1: e80ba698dfa420626c80ea95fb1c07e4d4fae4e7<br>GPG/PGP signature: <a href="pgp/palemoon-25.3.1.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
+            SHA-1: 3441351f06393b96651fe076d6e899202ea7576a<br>GPG/PGP signature: <a href="pgp/palemoon-25.3.2.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
             <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -132,7 +133,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.3.1.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.3.2.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text"><span style="font-weight: bold;">Pale
                       Moon mirror</span> #1<br>
@@ -140,7 +141,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.1.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.2.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
 Moon
                       mirror</span> #2<br>
@@ -160,13 +161,13 @@ Moon
             </table>
             <span style="font-weight: bold;"><br>
               ZIP packed (approx. 25 MB)</span>:<br>
-            SHA-1: 23ac1f72e2360837b3b82e40b093fb70248aa81e<br>GPG/PGP signature: <a href="pgp/palemoon-25.3.1.Atom.WinXP.zip.sig">[Sig]</a><br>
+            SHA-1: 6b7e9b48527f650db685e681452785d1f23ec39d<br>GPG/PGP signature: <a href="pgp/palemoon-25.3.2.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.3.1.Atom.WinXP.zip">Pale
+              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.3.2.Atom.WinXP.zip">Pale
 Moon
                   mirror #1</a><br>
               </li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.1.Atom.WinXP.zip">Pale
+              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.3.2.Atom.WinXP.zip">Pale
 Moon
                   mirror #2</a></li>
               <li><a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>
