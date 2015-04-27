@@ -5,6 +5,7 @@
 
 
 
+
  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -23,7 +24,17 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.3.1 (2015-03-25)</h3>This
+      <h3>25.3.2 (2015-04-25)</h3>This
+release is an emergency update to fix crashes that started occurring
+because of Mozilla improperly signing the extensions and extension
+updates as offered through the Firefox Add-ons site addons.mozilla.org.
+Any improperly signed extension would not be able to be installed, and
+would immediately crash the browser.<span style="font-weight: bold;"><br>
+      <br>
+No other changes were made in this release - this is a bugfix for this particular issue only.<br>
+      </span>
+      <h3>25.3.1 (2015-03-25)</h3>
+This
 is a security update to the browser to address a critical vulnerability
 found in the pwn2own contest. Only one vulnerability found in this
 contest applies to Pale Moon, which has been addressed in this update.<br>
