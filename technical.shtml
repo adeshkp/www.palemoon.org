@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -52,7 +53,7 @@ are not commonly used by the largest group of users. If you require any
 of the disabled features, then the main-line build of Pale Moon is not
 for you! You may find a suitable version on the third party <a href="contributed-builds.shtml">contributed builds</a> page instead.<br>
       <br>
-The Pale Moon browser has the following features:<br>
+The Pale Moon browser has, among other things, the following features:<br>
       <ul>
         <li>Specifically optimized for current processors. It makes
 use of the enhanced instruction sets of newer CPUs - as a result,
@@ -61,14 +62,13 @@ this browser will not run on particularly old systems.</li>
         </li>
 
         <li>Support for Scalable Vector Graphics (SVG) and Canvas.</li>
-        <li>Support for most Firefox Extensions (add-ons) and Complete Themes.</li>
+        <li>Support for many Firefox Extensions (add-ons) and Themes.</li>
         <li>Support for Personas ("light-weight" themes).<br>
         </li>
         <li>CSS Downloadable Font support (including WOFF).</li>
         <li>Extended HTML5, CSS3 and advanced DOM support.<br>
         </li>
-        <li><span style="text-decoration: underline;">Mozilla-based!</span> This means you get the reliability
-and security of the Mozilla community browser core code, and a wide array of options and features.</li>
+        
         <li>Speedy scripting and page
 rendering.</li>
         <li>Optimized networking.<br>
@@ -137,8 +137,8 @@ the removed code.<br>
 
         <li>A
 few miscellaneous things like the crashreporter and telemetry data
-gathering since they require server-side components that are
-not in place at palemoon.org, as well as the latter impacting user
+gathering have been completely removed since they require server-side components that are
+not in place at palemoon.org, as well as the latter severely impacting user
 privacy.<br>
         </li>
       </ul>
@@ -258,9 +258,11 @@ AMD Phenom/II etc.<br>
 
  <h3><a name="Firefox_Differences"></a>How different is this
 browser from Firefox?</h3><span style="font-weight: bold; font-style: italic;">The
-differences are increasingly significant as time passes. Pale Moon will remain close to
-Firefox in many parts of the code to ensure compatibility with the many
-thousands of add-ons wherever possible, but should be considered a "fork" and a totally independent product.</span><span style="text-decoration: underline;"><br>
+differences are increasingly significant as time passes. Pale Moon will
+remain close to
+Firefox in many parts of the code to ensure compatibility with the as
+many add-ons as possible, but should be considered a "fork" and a
+totally independent product.</span><span style="text-decoration: underline;"><br>
       <br>
 </span>For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
 
@@ -284,7 +286,7 @@ Moon comes with a number of different default configuration
 settings than Firefox. These basic "tweaks" (I'd prefer to call them
 "more sane defaults") are done to provide you
 with the smoothest browsing experience as well as to be considerate
-towards website/service providers and residential gateways (e.g. by
+towards the Internet ecosystem, website/service providers and residential gateways (e.g. by
 reducing the number of concurrent http
 and total dns requests needed when browsing). Note that "internet speed
 boosters" and general "tweak guides" for Firefox can actually <span style="text-decoration: underline;">harm</span>
@@ -296,7 +298,7 @@ made to the user interface and feature set, to incorporate functionality and vis
 elements
 in <a href="layout-differences.shtml">different locations</a>
 than what was chosen by the Mozilla
-team, as well as <span style="font-weight: bold;">retaining useful elements that were removed in Firefox</span>, and
+team, as well as <span style="font-weight: bold;">retaining or re-introducing useful elements that were removed in Firefox</span>, and
 either removing or disabling (by default) components that would not
 be used by the average user. <span style="text-decoration: underline;"></span>In addition, some other user interface changes were made to provide an
 as consistent and intuitive interface as possible while still staying
@@ -323,8 +325,7 @@ the capabilities of the computer hardware it runs on (specifically:
 advanced processing instructions) and gears the machine code at the
 assembly level specifically towards certain generations of processors,
 as opposed to trying to compromise for different ways of working of old
-(read: museum-grade) hardware. This is the biggest contributor to
-the speed increase seen in Pale Moon, as it impacts <span style="font-style: italic;">every</span> aspect
+(read: museum-grade) hardware. This impacts <span style="font-style: italic;">every</span> aspect
 of the
 browser, from loading pages to drawing graphics and running scripts.</li>
       </ol><br>
@@ -380,7 +381,7 @@ maybe, but
 certainly effective.<br><br>
  <h3><a name="GeekCorner"></a>The Geek Corner</h3>
 TMI (Too Much Information) for the average joe:<br>
- <ul><li>Build environment: <br>
+ <ul><li>Build environment (Windows): <br>
 </li> <ul> <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
  </li> <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
 For other operating systems, virtual machines are used.<br>

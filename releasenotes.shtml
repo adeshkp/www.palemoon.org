@@ -6,6 +6,13 @@
 
 
 
+
+
+
+
+
+
+
  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -24,7 +31,100 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.3.2 (2015-04-25)</h3>This
+      <h3>25.4.1 (2015-05-10)</h3>This is a small but important update to the previous major release to address some critical issues:<br>
+      <ul>
+        <li>Fixed loss of the browser's disk cache on startup due to incorrect corruption detection logic<br>
+        </li>
+        <li>Fixed a browser crash on some HTML5 games<br>
+        </li>
+      </ul>
+      <h3>25.4.0 (2015-05-08)</h3>
+<span style="font-weight: bold; color: rgb(153, 0, 0);">IMPORTANT: If you use a language pack, make sure to update it to the latest version!</span>
+We do have automatic updates enabled for language packs but please
+double-check that the version matches. If you are using an older
+language pack with this version of the browser, some dialog boxes may
+come up blank.<br>
+      <br>
+This
+is a major update - too much has changed for this little blurb to do it
+justice so please see below for the most important changes/fixes in
+this release:<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+<li>Updated SQLite from 3.7.17 to v3.8.8.3, improving history/bookmark/etc. performance by up to 50% depending on operation<br>
+</li><li>Added a new "mixed-mode" 
+state for HTTPS connections. Clarified mixed-mode connections with a mixed-mode 
+padlock and better tooltips.</li><li>Added
+a conditional partial shading to the URL bar and made it default
+(shading only on secure sites, no red shading at all by default).<br>
+</li><li>Dev: Fixed file system mode flags for *nix systems, to make executable files like scripts actually flagged as executable</li><li>Added native IPv6 lookups to NSPR to solve IPv6-only and dual-stack setups in some situations<br>
+</li><li>Added a pref to control the unloading of idle plugins from
+memory and lowered the default "idle" time to 60 seconds before plugins
+are unloaded<br>
+</li><li>Fixed
+ version strings for e.g. flash on Linux being displayed with commas 
+instead of periods - this should also fix the incorrect "your plugin is 
+vulnerable" message while being on the latest version</li><li>Windows: Set the double-click/Ctrl+arrow word selection to <span style="text-decoration: underline;">not</span> eat the space (only select the actual word)</li><li>Android:
+DNS fix for VPN connections, preventing the "server not found" issues
+people have been reporting for certain VPN providers on mobile<br>
+</li><li>Updated a number of trusted root certificates, and distrusted the CNNIC root certificate by popular demand<br>
+</li><li>Linux: Worked around the slice memory allocator not being properly disabled on later GLib versions</li><li>Android: updated the random number generator handling on later versions of Android</li><li>Added fix to prevent spurious re-paints with plugins (performance/UX improvement)</li><li>Removed
+the plugin check link from the Addons Manager, since it's no longer
+reliable and not officially available for browsers except Mozilla
+Firefox. (Bonus: no user profiling/tracking through optimizely!)</li><li>Optimized the NSS callback for secure connections</li><li>Updated
+the domains that are whitelisted for installation of
+extensions/themes/personas, streamlining the use of addons.palemoon.org<br>
+</li><li>Added personas support to titlebar text (adopt the lightweight
+theme's coloring/shading) in custom titlebar mode (Pale Moon
+appmenu/button)</li><li>Added display of HTTPS protocol (SSL/TLS) to the page info window (thanks Travis!)</li>
+        <li>Improved certificate display: Removed MD5 and added SHA256 fingerprint, and made them selectable/copyable</li>
+        <li>Updated
+classification of secure connections: Classify any encryption with less
+than 128 bits or including RC4 (if manually enabled, see previous
+version notes) as weak.</li>
+        <li>Dev: Added availability of
+the full ciphersuite string for use in extensions to the nsISSLStatus
+interface (nsISSLStatus.cipherSuite)</li>
+<li>Added MAKE_UNLINKABLE to the about: page redirector and added that as default for the reader mode on Android</li><li>Removed
+the compilation and inclusion of a one-time-use pre-compiled startup
+cache in omni.ja, reducing overall application size significantly and
+avoiding a number of quirks of both the build process and the operation
+of the browser</li>
+        <li>Fixed an NVIDIA specific GLX server vendor bug for pixmap depth and fbConfig depth</li>
+        <li>Removed most telemetry code, reducing code complexity and wasted CPU<br>
+        </li>
+        <li>Linux: Added OSS support (mutually exclusive with ALSA): configure with --enable-oss</li>
+        <li>Made DNS caching a lot less aggressive to align the browser's behavior with the dynamic nature of the modern web.</li>
+        <li>Removed Mozilla-specific parameters for searches. 
+Search suggestions should now work again for Google searches</li>
+        <li>Added the option to allow users to use a fixed (JSON) file-based geolocation response in favor of a GeoIP service.<br>
+        </li>
+        <li>Dev:
+Improvements to Clang builds (thanks Axiomatic/BitVapor!). Clang is not
+currently producing stable builds on Linux, so please use GCC for that
+operating system.<br>
+        </li>
+        <li>Linux: removed GnomeVFS that's no longer in use</li>
+        <li>Fixed the "double padlock while loading a secure site" niggle in the UI</li>
+        <li>Dev: added allowance of using -moz-appearance:none on
+drop-down lists to hide the arrow button (catering to custom styling of
+the control)<br>
+        </li>
+        <li>Added some more ES6 math/number functions:<br><ul><li>Implemented Math.fround(x)</li><li>Implemented Number.isSafeInteger(x)</li><li>Implemented Math.clz32(x)</li></ul></li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Fixed several memory safety hazards (UAF/DF/UU); applicable bugs covered by CVE-2015-0814 and CVE-2015-0815</li>
+        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0811</span> 
+      <span id="short_desc_nonedit_display">[qcms] heap info leak</span></span></li>
+        <li><span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed </span></span><span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810 </span></span>clickjacking attacks via a Flash object in conjunction with DIV elements</li>
+        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0801 a variant of </span></span> CVE-2015-0818</li>
+        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0800 improve randomness of DNS resolver queries on Android</span></span></li>
+        <li><span id="summary_alias_container"><span id="alias_nonedit_display">Fixed </span></span><span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs through about: redirector</span></span></li>
+      </ul>
+      <h3>25.3.2 (2015-04-25)</h3>
+This
 release is an emergency update to fix crashes that started occurring
 because of Mozilla improperly signing the extensions and extension
 updates as offered through the Firefox Add-ons site addons.mozilla.org.
@@ -120,309 +220,7 @@ Note: production builds of Pale Moon were never vulnerable.</li>
 the fix is "Defense-in-Depth": It is a fix that does not apply to an
 actively exploitable vulnerability in Pale Moon, but prevents future
 vulnerabilities caused by the same code when surrounding code changes,
-exposing the problem.<br>
-      <br>
-      <h3>25.2.1 (2015-01-27)</h3>
-This
-is a small update to address cookie handling through proxies causing
-issues for some authenticating proxies in corporate environments.<br>
-      <h3>25.2.0 (2015-01-15)</h3>
-This
-is an important update after rapid development on the back-end to
-extend browser capabilities and implement some ES6 draft functions for
-web programmers, as well as provide some important crashfixes, bugfixes
-and security updates.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>ES6: Added the following functions:</li>
-        <ul>
-          <li>Array.prototype.find and Array.prototype.findIndex</li>
-          <li>IsConstructor(arg)</li>
-          <li>Array.of(items...)</li>
-          <li>Number.parseInt and Number.parseFloat</li>
-          <li>Advanced math functions: hyperbolic sin/cos/tan/asin/acos/atan, hypotenuse, cube root, expm1, log1p, log10, log2, sign and trunc</li>
-          <li>Map.prototype.forEach and Set.prototype.forEach</li>
-        </ul>
-        <li>ES6: Added the following number constants: EPSILON, MIN_SAFE_INTEGER and MAX_SAFE_INTEGER</li>
-        <li>ES6: Added the use of binary and octal numeric literals (&amp;b... and &amp;o...)<br>
-        </li>
-        <li>ES6: Updated behavior of accessing indexed values in accordance with the spec.</li>
-        <li>CSS: Added <span style="color: rgb(0, 64, 128);">overflow-clip-box:content-box|padding-box</span></li>
-        <li>DOM: Added <span style="color: rgb(0, 64, 128);">table.createTBody()</span> function<br>
-        </li>
-        <li>Added a clearer alltabs button for dark personas.</li>
-        <li>Added a development tools toggle hotkey (F12)</li>
-        <li>Added a preference <span style="color: rgb(0, 64, 128);">prompts.tab_modal.focusSwitch</span> to enable or disable tab switching when a modal dialog (e.g. javascript confirmation) is presented in a page.</li>
-        
-
-        <li>IonMonkey on Android: fixed the implementation of AbsI.<br>
-        </li>
-        <li>IonMonkey: fixed a bug where actively used objects were discarded.</li>
-        <li>Fixed register initialization to prevent incorrect detection of SIMD instructions on some CPUs.<br>
-        </li>
-        <li>Optimized some loops in the spell checker to increase performance.</li>
-        <li>Simplified cache handling, updated cache parameters to
-better reflect current web use, and enabled automatic cache sizing by
-default.</li>
-        <li>Adjusted memory cache sizing to better reflect capacities of current hardware.<br>
-        </li>
-        <li>Updated UserAgent override workarounds for Netflix and FaceBook to fix some site issues.<br>
-        </li>
-        <li>Aligned programmatic access to geolocation with the spec.<br>
-        </li>
-        <li>Fixed a crash when being fed a data file (XML) with too deeply nested tags.</li>
-        <li>Fixed a crash in HTML5/WebAudio that affected some games.</li>
-        <li>Fixed a crash when programmatically collapsing elements.<br>
-        </li>
-        <li>Fixed a few non-breaking bugs related to e10s code.</li>
-        <li>Fixed text input/padding issues.</li>
-        <li>Updated surround downmixing code for Vorbis.</li>
-        <li>Improved tolerance in WebAudio for loading multichannel audio files.<br>
-        </li>
-        <li>Android: Fixed an issue with Flash, it should now run on more devices.</li>
-        <li>Updated the DDG search plugin to make the actual query be
-the last parameter in the address bar for easy editing after a search
-has been performed.<br>
-        </li>
-        <li>Removed some unused update channel code.</li>
-        <li>Updated branding to more clearly indicate Pale Moon's trademark.<br>
-        </li>
-        <li>Updated some licensing texts in-browser to properly reflect used code and rights.</li>
-      </ul>
-      <span style="font-weight: bold;">Security/privacy fixes:</span><br>
-      <ul>
-        <li>Added a preference <span style="color: rgb(0, 64, 128);">network.stricttransportsecurity.enabled</span>
-to enable or disable the use of HSTS (HTTP Strict Transport Security),
-allowing users to choose between privacy and security in this matter. <span style="font-style: italic; color: rgb(153, 153, 153);">(hidden pref)<br>
-          </span></li>
-        <li>Fixed CVE-2014-1589 by whitelisting XBL bindings that may be applied to untrusted content. <br>
-Important: extension developers should read <a href="http://forum.palemoon.org/viewtopic.php?f=46&amp;t=7005">this related thread</a>.</li>
-
-        <li>Fixed CVE-2014-1593.</li>
-        <li>Mac: fixed CVE-2014-1595.</li>
-        <li>Fixed CVE-2014-8639 by adjusting cookie handling through proxies.</li>
-        <li>Fixed CVE-2014-8636.<br>
-        </li>
-        <li>Fixed several memory safety hazards that do not have CVE numbers.</li>
-      </ul>
-      <h3>25.1.1 (2014-11-28) Android only!</h3>
-This
-point release for Android only addresses critical browser issues (crash
-on startup) when trying to run Pale Moon on Android 5.0 (AKA Android-L
-or Lollipop). No other changes involved in this release.<br>
-      <h3>25.1.0 (2014-11-14)</h3>
-This
-is an important update after rapid development on the back-end to keep
-pace with the current changes on the web and improve compatibility with
-websites.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>New feature: multi-line flexbox support.<br>
-Pale Moon now supports more advanced multi-line and multi-column flex
-elements. This will allow websites to use these elements for easier
-responsive design of web pages and ordering/layout of multiple
-elements. This has been on Pale Moon's to-do list for a while but was
-rather complex to tackle, hence the delay in implementation. This
-should address layout issues on several recently-updated websites (e.g.
-the MSN home page).</li>
-        <li>New feature: added support for collapsed flex element items.<br>
-        </li>
-        <li>Enhanced feature: Content Security Policy (CSP)<br>
-Pale Moon now fully supports the CSP 1.0 specification allowing
-websites to set restrictions on content to prevent XSS (Cross-site
-scripting) attacks. Previously, the implementation in Pale Moon was
-partial, and did not support a number of features, resulting in some
-websites not rendering properly because Pale Moon was being too strict
-in enforcing the policy. This should address issues on websites
-enforcing CSP (e.g. the Dropbox web interface and FaceBook galleries).</li>
-        <li>New feature: added support for iframes with inline content.<br>
-        </li>
-        <li>Updated the Firefox Compatibility mode version to 31.9.<br>
-With the improvements in rendering and overall feature set, the Firefox
-Compatibility mode (as presented in the UserAgent string) has been
-bumped to prevent websites from complaining about "using a too
-old/unsupported version of Firefox" (e.g. Google websites).</li>
-        <li>Pale Moon no longer builds the so-called "media navigator" by default.<br>
-This module provides access to the user's webcam and microphone.
-Although it can be used for other purposes, in practice this is only
-used for WebRTC and, in fact, its support (GetUserMedia) is often
-mistaken for actually supporting WebRTC in a browser (causing errors
-since Pale Moon does not support WebRTC). No longer including these
-features reduces input complexity and overhead for a feature not
-actively used. This also circumvents privacy concerns/confusion like
-CVE-2014-1586.<br>
-        </li>
-        <li>Improved tab handling on lightweight themes (personas) some
-more to enhance contrast on certain themes and to make the tab hover
-effect slightly more distinct.</li>
-        <li>Fixed oversized/blocky menu arrows on Windows 8.1 in HiDPI mode.</li>
-        <li>Fixed incorrect operating system being passed on to addons.mozilla.org.</li>
-        <li>Fixed an error being thrown in the error console/web console when opening a new window.</li>
-        <li>Removed the NVidia 3D Vision auxiliary utility library.<br>
-This library has been the likely cause for a number of crashes on NVidia cards, and is completely unnecessary for Pale Moon.<br>
-        </li>
-        <li>Made the installer less aggressive for file type associations, to prevent "stealing" of globally associated file types.<br>
-        </li>
-        <li>Android: improved restoring of session tabs.</li>
-        <li>Android: added an option to automatically restore tabs.<br>
-An important thing to note with this new option is the following: with
-the option enabled, Pale Moon will now automatically restore tabs you
-had open previously when the app gets suspended (pushed out of memory
-by other apps, closed by swipe, etc.). The "quit" main menu option,
-however, completely shuts down your session, unloads Pale Moon from
-active memory, and tabs will not be automatically restored when you
-launch Pale Moon again. This is by design. To restore tabs in that situation, use the link from the home screen.<br>
-        </li>
-        <li>Fixed memory security hazards CVE-2014-1574 and CVE-2014-1575 <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fixed CVE-2014-1581. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fixed bug 1069584: Bail if a cairo surface is in an invalid state. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Made sure to initialize surfaces for draw targets. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fixed CVE-2014-1594: Use AsContainerLayer() in order to avoid a bad cast. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fixed several problems in the HTML parser. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Improved security of XHR by filtering out types of requests that can potentially be abused. <span style="color: rgb(128, 0, 128);">security fix</span></li>
-      </ul>
-      <h3>25.0.2 (2014-10-24)</h3>
-This is a small update to address a number of teething problems with the new milestone release.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>Added a "Firefox compatibility mode" selection in Options -&gt; Advanced.<br>
-This mode is enabled by default (reluctantly so), because too many
-websites (including some very big players who, themselves, promote an
-Open Web...) still use very poor browser detection methods based on
-arbitrary User Agent string comparisons, not catering to alternative
-browsers, and the resulting user experience being poor (being presented
-with mobile site layouts, broken pages, or even being flat-out refused
-service because someone exercises freedom of choice for web browser
-used). This should alleviate most, if not all, issues with browser-discriminating websites.</li>
-        <li>Improved active tab display on particularly dark personas.<br>
-People using "black" personas/lightweight themes should now have a lot less difficulty distinguishing the active tab.<br>
-        </li>
-        <li>Disabled SSL 3.0 by default (to put a muzzle on the <a href="https://en.wikipedia.org/wiki/POODLE">POODLE</a>).<br>
-Please note that this may cause issues with some poorly configured web
-servers (usually ones with a hopelessly broken security setup that do
-not support TLS 1.2 or secure (re)negotiation of the protocol).<br>
-        </li>
-        <li>Fixed add-on update issue (that was preventing update checking through addons.palemoon.org).<br>
-        </li>
-        <li>Fixed the redundant redundancy in asking redundantly if the
-browser would be allowed to ask to install an extension when not on
-addons.mozilla.org.<br>
-        </li>
-        <li>Fixed the internal UA-sniffing insanity that broke devtools in a few different and colorful ways.<br>
-        </li>
-      </ul>
-      <h3>25.0.1 (2014-10-15)</h3>
-This is a small update to address an important Jetpack extension compatibility issue and includes a number of security fixes.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>Update of the add-on SDK to add missing "Pale Moon" engine entries to 
-lists. This should fix extension compatibility issues for jetpack extensions that otherwise already work with the new GUID.</li>
-        <li>About box release notes link corrected</li>
-        <li>Fix for VP9 decoder vulnerability <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fix for direct access to raw connection sockets in http <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Fix for unsafe conversion to JSON of data through the alarm dom element <span style="color: rgb(128, 0, 128);">security fix</span></li>
-        <li>Update of NSS to 3.16.2.2-RTM <span style="color: rgb(128, 0, 128);">security fix</span></li>
-      </ul>
-      <h3>25.0.0 (2014-10-10)</h3>
-Pale
-Moon 25.0 is a new major release with a large number of changes. A
-summary of the most important changes can be found here; for more
-details about this release, please check the <a href="http://forum.palemoon.org/">forum</a>.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        
-        <li>Change of the browser's GUID (Globally Unique Identifier) to properly differentiate from Firefox.<br>The new GUID is <span style="font-weight: bold;">{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</span>.</li>
-        <li>Allow extensions with both Pale Moon GUID and Firefox GUID to be installed natively (dual-ID system).<br>Pale Moon GUID blocks will have preference over Firefox (compatibility) blocks.</li>
-        <li>Disconnect
- of Pale Moon's "Firefox compatibility" version from Pale Moon's 
-application version to maintain Firefox 24.* extension compatibility 
-regardless of Pale Moon version.</li>
-        <li>Disable Firefox Compatibility mode by default.<br>This means Pale Moon will no longer have a Firefox/xx.xx indicator in its UserAgent string.<br>This
- may impact some websites that check browsers by UserAgent and possibly 
-warn, complain or block you. You should contact the site's owners and 
-request support for Pale Moon. Pale Moon will allow you to override the 
-UserAgent on a per-site basis if you absolutely <span style="font-style: italic;">must</span> visit the site and 
-they absolutely <span style="font-style: italic;">won't</span> cater to your freedom of browser choice.</li>
-        <li>Use the alternative sync implementation on a new server.<br>Current Pale Moon sync accounts cannot be ported over, so you will have to create a new account when updating to v25.<br>The
-previous server implementation has already been shut down due to
-continued issues, and will be retired on the very short term to free up
-infrastructure and reduce expenses. The alternative sync implementation is Sync 1.1 compatible, like before.<br>
-</li>
-        <li>Stop building the WebApp runtime by default.<br>The
- use of "Web Applications" started from the command-line is such a niche
- feature that it has no business being in Pale Moon's main-line builds.<br>If
- you need the WebApp runtime for your specific organization and want to 
-use Pale Moon, you can build Pale Moon from source with the feature 
-enabled.</li>
-        <li><span style="font-weight: bold;">Stop supporting Windows XP.</span>
-As mentioned a few times before, Pale Moon's support for Windows XP
-(and any other NT 5.x based operating system) has now ended. An exception to
-this is the specialized Atom build because of limited operating system
-availability on netbooks and the like. More details on the <a href="PM_end_of_WinXP_support.shtml">dedicated page for this change</a>.<br>
-        </li>
-        <li>By default, do not sync add-ons.<br>Syncing
- between different devices will likely not want you to sync the add-ons 
-in use. There's a reason you're using different devices, after all.</li>
-        <li>Un-prefix CSS box-sizing.<br>
-You can now use <span style="color: rgb(0, 64, 128);">box-sizing:border-box</span>,
-  <span style="color: rgb(0, 64, 128);">box-sizing:padding-box</span>
-and <span style="color: rgb(0, 64, 128);">box-sizing:content-box</span>
-to switch box-sizing mode on elements using CSS.</li>
-        <li>Implement image-orientation in CSS.<br>You can now use <span style="color: rgb(0, 64, 128);">image-orientation: {angle} [flip]</span> in CSS to rotate images in 90 degree steps and optionally flip them.</li>
-        <li>Improve bookmark menu item-dragging.<br>Dragging
- bookmarks in the bookmarks menu is now more convenient (allow diagonal 
-dragging, prevent tooltips from interfering, etc.).<br>(Fixes bugs 225434, 419911 and 555474)</li>
-        <li>Move the option to "use the classic downloads window" from status bar preferences to the main options window.<br>This
- way, it's easier for people to find and it's in a much more logical 
-place. The classic downloads window will not go away any time soon in 
-Pale Moon.</li>
-        <li>Update branding images for official/unofficial logo, and some about: pages.</li>
-        <li>Add a new type of "blank new tab" page with logo-styling.<br>This logo page will be the default setting (instead of about:blank).</li>
-        <li>Add Opus audio to WebM.</li>
-        <li><span style="font-weight: bold;">Add VP9</span> codec to WebM on both desktop and Android/ARM.</li>
-        <li>Allow absolute-in-relative positioning in table and CSS table-cell elements.</li>
-        <li>Allow the user to override the use of accessibility colors in the browser with <span style="font-weight: bold;"><span style="font-style: italic;"><span style="color: rgb(0, 128, 128);">browser.display.ignore_accessibility_theme</span></span></span></li>
-        <li>Improve the display of tabs when lightweight themes (personas) are in use for both light and dark themes.</li>
-        <li>Enable cache compression by default to more efficiently use disk cache.</li>
-        <li>When shutting down the browser while you still have
-downloads in progress, Pale Moon will now by default warn you that the
-downloads will be cancelled.<br>
-        </li>
-
-        <li>Added language packs for Acholi, Assamese, Kashubian, Pulaar Fulfulde, Armenian, Khmer, Ligure, Mongolian, and Swahili.<br>
-        </li>
-
-</ul><span style="font-weight: bold;">Bug/regression fixes:</span><br>
-      <ul>
-        <li>Prevent error in removeobserver() for the padlock code when closing a window</li>
-        <li>Hang fix: Release XPCOM timer immediately after firing to prevent a race condition. (CVE-2014-1553)</li>
-        <li>Android &amp; any ARM processor: Always use integers for audio instead of floats.</li>
-        <li>Properly apply the use of high contrast themes on Windows 8/8.1</li>
-        <li>Prevent the accumulation of hidden about:blank windows in some situations.</li>
-        <li>Android: prevent deadlocks due to invalidations when using plugins (Flash)</li>
-        <li>Re-enable
- high-quality downscaling of particularly large images (selective HQ 
-downscaling) and improve fast image scaling method (use Lanczos instead 
-of Hamming)</li>
-        <li>Hang/DoS fix: Avoid uninterruptable infinite loops in IonMonkey in some situations. (CVE-2014-1548)</li>
-        <li>Android: improve the handling of zooming to input fields</li>
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Properly derive/insert the host of a URL</li>
-        <li>Avoid negative audio ratios (can lead to crashes) (CVE-2014-1565)</li>
-        <li>Avoid some root hazards in the style parser</li>
-        <li>Add is-object check to IonBuilder::makeCallHelper (CVE-2014-1562)</li>
-        <li>Clear the jumplist icon cache when history is cleared (privacy fix)</li>
-        <li>Crash fix on Windows (JS JIT) (CVE-2014-1554)</li>
-        <li>Prevent buffer overrun in text directionality component (CVE-2014-1567)</li>
-        <li>Update NSS to 3.16.2.1-RTM (CVE-2014-1568)</li>
-      </ul>
+exposing the problem.<br><br>
 <h1>Release notes for previous versions (unsupported)</h1>
       <span style="font-weight: bold;"></span>You can find the release
 notes for previous releases of Pale Moon on the <a href="releasenotes-archived.shtml">Archived Versions Release Notes</a>

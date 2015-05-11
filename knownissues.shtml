@@ -9,6 +9,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -56,16 +57,7 @@ development (if any) and intended timeline (if applicable).<br>
       <span style="font-weight: bold;">Known issues in the current version:</span><br>
 <ol>
         
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Android: using VPN connections may not work</span><br>
-If you are using a VPN connection on Android 5 (Lollipop), Pale Moon
-may not be able to resolve host names, leading to connectivity
-failures. This is caused by a known problem in the underlying Fennec
-code that caters to much older versions of Android and relies on
-functions that have been removed in Android 5.*<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
-          <span style="font-weight: bold;">Workarounds:</span> Use local (on-device) DNS resolution with a DNS resolver, use a different browser for VPN use, or downgrade to Android 4.*<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.4<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font
 rendering. This is caused
@@ -82,7 +74,7 @@ This is caused by Pale Moon's GUID change and the presence of targeted code or o
 More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
           <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 0, 0);">Caused by extension restrictions</span><br>
           <span style="font-weight: bold;">Fix: </span>Contact the extension author and have them update their extension to include support for Pale Moon<br>
-          <span style="font-weight: bold;">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated version for Pale Moon 25+<br>
+          <span style="font-weight: bold;">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated or forked version for Pale Moon 25+<br>
           <span style="font-weight: bold;">Workaround (advanced):</span> manually edit chrome.manifest inside the extension archive (<a href="https://forum.palemoon.org/viewtopic.php?f=44&amp;t=5883" target="_blank">see forum</a>)<br>
           <br>
         </li>
@@ -110,8 +102,25 @@ one central location for extension IDs is desired.<br>
 Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span style="font-weight: bold;">have been fixed</span>, and potential <span style="font-weight: bold;">workarounds</span>:<br>
       <br>
-      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><span style="font-weight: bold;">25.2.0:<br>
+      <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);"><span style="color: black;"></span></span></span><span style="font-weight: bold;">25.3:<br>
 </span>
+      <ul>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Android: using VPN connections may not work</span><br>
+
+If you are using a VPN connection on Android 5 (Lollipop), Pale Moon
+may not be able to resolve host names, leading to connectivity
+failures. This is caused by a known problem in the underlying Fennec
+code that caters to much older versions of Android and relies on
+functions that have been removed in Android 5.*<br>
+
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+
+          <span style="font-weight: bold;">Workarounds:</span> Use local (on-device) DNS resolution with a DNS resolver, use a different browser for VPN use, or downgrade to Android 4.*<br>
+
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 25.4</li>
+      </ul>
+      <span style="font-weight: bold;">25.2.0:<br>
+      </span>
       <ul>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some Single-Sign-On (SSO) setups don't work</span><br>
 

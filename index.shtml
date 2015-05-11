@@ -12,6 +12,8 @@
 
 
 
+
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -86,7 +88,7 @@ processing</li>
         <li>Increased stability: experience fewer browser crashes<br>
         </li>
         <li>Support for many Firefox extensions (add-ons) and themes</li>
-        <li>New: support for Pale Moon exclusive extensions and themes<br>
+        <li>Support for a growing number of Pale Moon exclusive extensions and themes<br>
         </li>
 <li>Extensive and growing support for HTML5 and CSS3<br>
         </li>
@@ -96,7 +98,7 @@ processing</li>
 tool</a></li>
       </ul>
       <br>
-This browser, even though close to its sibling Mozilla Firefox in the way
+This browser, even though fairly close to its sibling Mozilla Firefox in the way
 it works, offers a different set of features. For
 example, if you need <span style="font-weight: bold;">specialized accessibility
 features</span> or <span style="font-weight: bold;">integration of
@@ -124,13 +126,9 @@ to name a few things.<br>
           <tr>
             <td style="margin: 0px; vertical-align: top; font-size: 10pt;"><span style="font-weight: bold;">Top news:</span><br>
             <br>
-            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.3.2 has been released</span> to address a crash when installing or updating improperly signed extensions.<br>
+            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.4.1 has been released</span> to address critical bugs in the new 25.4 update.<br>
             <br>
-            <span style="font-weight: bold;">Pale Moon 25.3.1 has been released</span> to address a critical security issue.<br>
-            <br>
-            <span style="font-weight: bold;">Pale Moon 25.3 has been released</span>
-which is a significant update of the browser, improving performance, adding new features, fixing bugs, and
-focusing on known security issues.
+            <span style="font-weight: bold;">Pale Moon 25.4 has been released</span> which is a major update to the browser with many changes and fixes.
 More details in the <a href="releasenotes.shtml">release notes</a>.<br>
             <br>
             <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><a href="http://forum.palemoon.org/viewforum.php?f=1">more
