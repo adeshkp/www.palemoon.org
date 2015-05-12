@@ -33,15 +33,16 @@ body {
 }
 
 .mainmenu a, .mainmenu a:visited {
-	display: block;
+   display: block;
    font-family: "Museo500Regular","Times New Roman",Times, serif;
    font-size:11.5pt;
-   font-weight:500;
    font-style:normal;
    text-decoration:none;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 7px 1em;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 7px 1em;
+   letter-spacing: 0.4px;
+   opacity: 0.99;
 }
 .mainmenu ul ul a{
 	width:100%;
