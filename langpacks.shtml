@@ -125,10 +125,7 @@ language pack page (see below)<br>
             <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632; </span>Arabic</td>
             <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.4/ar.xpi">ar.xpi</a> </td>
           </tr>
-          <tr>
-            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632;</span><span style="color: red;"> </span>Bulgarian</td>
-            <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.4/bg.xpi">bg.xpi</a> </td>
-          </tr>
+          
           <tr>
             <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632;</span><span style="color: red;"> </span>Czech</td>
             <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.4/cs.xpi">cs.xpi</a> </td>
@@ -177,7 +174,7 @@ Not yet available<br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; width: 224px;"><span style="color: red;">&#9632;</span> Finnish</td>
+            <td style="vertical-align: top; width: 224px;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span> Finnish</td>
             <td style="vertical-align: top; width: 150px;"><a href="http://relmirror.palemoon.org/langpacks/25.4/fi.xpi">fi.xpi</a> </td>
           </tr>
           <tr>
@@ -220,7 +217,7 @@ Not yet available<br>
             <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.4/ko.xpi">ko.xpi</a> </td>
           </tr>
           <tr>
-            <td style="vertical-align: top;"><span style="color: red;">&#9632;</span><span style="color: rgb(51, 204, 0);"> </span>Dutch</td>
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span><span style="color: rgb(51, 204, 0);"> </span>Dutch</td>
             <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.4/nl.xpi">nl.xpi</a> </td>
           </tr>
           <tr>
@@ -228,8 +225,7 @@ Not yet available<br>
             <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.4/pl.xpi">pl.xpi</a> </td>
           </tr>
           <tr>
-            <td style="vertical-align: top;"><span style="color: red;">&#9632;</span>
-Portuguese
+            <td style="vertical-align: top;"><span style="color: rgb(51, 204, 0);">&#9632;</span><span style="color: red;"></span> Portuguese
 (Brazil)</td>
             <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/25.4/pt-BR.xpi">pt-BR.xpi</a>
             </td>
