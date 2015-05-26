@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -46,8 +47,7 @@ not work (properly) with Pale Moon?</a></li><li><a href="#non-English">Will ther
 Moon?</a><br>
         </li><li><a href="#Are_there_going_to_be_builds_based_on">Are there
 going to be builds based on beta code?</a></li><li><a href="#What_are_the_differences_with_Firefox">What are
-the differences with Firefox?</a></li><li><a href="#Why_dont_I_see_any_difference_in_speed">Why don't I see any speed difference between Firefox and Pale Moon?</a><br>
-        </li>
+the differences with Firefox?</a></li>
 <li><a href="#How_does_it_compare_to_other_browsers">How does
 it compare to other browsers?</a></li><li><a href="#Can_I_run_Pale_Moon_and_Firefox_at_the">Can I run
 Pale Moon and Firefox at the same time?</a></li><li><a href="#How_do_I_copy_my_existing_Firefox">How do I copy
@@ -219,8 +219,7 @@ and Pale Moon has been based on Firefox code, but as a product, Pale
 Moon has diverted significantly from its sibling. Firefox is created
 with maximum compatibility and one-size-fits-all in mind, Pale Moon is
 created with efficiency and user choice in mind. <span style="font-style: italic;">These two approaches are mutually exclusive</span>,
-and result in some functions being
-enabled/disabled in one browser but not the other, as well as different
+and result in some functions being present/absent in one browser but not the other, as well as different
 system requirements for either browser. Pale Moon also has a
 different set of goals as to what should be included in the browser and
 intended audience. For extensive detail
@@ -261,7 +260,7 @@ better in a real-world browsing situation.<br>
       <br><h3><a name="Can_I_run_Pale_Moon_and_Firefox_at_the"></a>Can I
 run Pale Moon and Firefox at the same time?</h3>
 Yes, you will be able to start Firefox and Pale
-Moon at the same time.<br>
+Moon at the same time since they are completely different products that only share a common ancestor.<br>
       <br>
       <a href="#top">[^ Top ^]</a><br>
       <br>
@@ -320,9 +319,7 @@ Some have even claimed that the Pale Moon project as such
 was given shape to gain fame -- they should consider that the
 popularity was unexpected. <span style="text-decoration: underline;">Pale Moon is, and has always been, released
 in the hope that it might be useful to its users</span>,
-nothing more. It is a full-time commitment (between
-developing/building several different versions, releasing them,
-performing website maintenance, and running the forum), and I'm happy
+nothing more. It is a full-time commitment of our small but dedicated team of developers, and I'm happy
 to see it finding
 good use among
 its users.<br>
