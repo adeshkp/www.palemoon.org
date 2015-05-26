@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en"><head>
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -97,9 +98,9 @@ information" at the bottom of the page, the click "view complete
 version history", and from there you can select the latest version that
 has not been reviewed yet by the editors):<br>
       <br>
-      <div style="text-align: center; font-weight: bold;"><span class="userContent"></span><a href="https://addons.mozilla.org/en-US/firefox/addon/pale-moon-commander/" target="_blank" rel="nofollow nofollow" onmouseover='LinkshimAsyncLink.swap(this, "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/pale-moon-commander\/");' onclick='LinkshimAsyncLink.swap(this, "\/l.php?u=https\u00253A\u00252F\u00252Faddons.mozilla.org\u00252Fen-US\u00252Ffirefox\u00252Faddon\u00252Fpale-moon-commander\u00252F&h=AAQFkFycT&s=1");'>https://addons.mozilla.org/en-US/firefox/addon/pale-moon-commander/</a></div>
+      <div style="text-align: center; font-weight: bold;"><span class="userContent"></span><a href="https://addons.palemoon.org/extensions/other/pm-commander/" target="_blank" rel="nofollow nofollow" onmouseover='LinkshimAsyncLink.swap(this, "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/pale-moon-commander\/");' onclick='LinkshimAsyncLink.swap(this, "\/l.php?u=https\u00253A\u00252F\u00252Faddons.mozilla.org\u00252Fen-US\u00252Ffirefox\u00252Faddon\u00252Fpale-moon-commander\u00252F&h=AAQFkFycT&s=1");'>https://addons.palemoon.org/extensions/other/pm-commander/</a></div>
       <br>
-Or you can download and install the add-on right from this page:<br>Version compatible with Firefox base code v24 and later (intended for Pale Moon 25.3 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.6.1.xpi">Add to Pale Moon</a><br>
+Or you can download and install the add-on right from this page:<br>Version compatible with Firefox base code v24 and later (intended for Pale Moon 25.4 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.6.1.xpi">Add to Pale Moon</a><br>
       <br>
 Alternatives:<br>
 <br>
