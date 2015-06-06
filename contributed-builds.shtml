@@ -38,6 +38,7 @@ A rebuild of Pale Moon from official source specifically for Windows XP users.</
 A special build of Pale Moon for the OpenPandora OS on Pandora boxes.</li>
         <li><a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon PPA</a> for Debian/Ubuntu and compatible by Marián Kada&#328;ka<br>
 A build specifically for this OS. Source with necessary modifications available from the same page.<br>
+          <span style="text-decoration: underline;">Note:</span> currently outdated; use with caution or use the official tarballs.<br>
         </li>
 
 
