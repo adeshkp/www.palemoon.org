@@ -83,12 +83,17 @@ this page!<br>
         </li>
         <li>Familiar, efficient, fully customizable interface (no
 Australis!)</li>
+        <li>Support for full themes: total freedom of any element's design</li>
+        <li>Support for easily-created lightweight themes (skins)<br>
+        </li>
+
         <li>Smooth and speedy page drawing and script
 processing</li>
         <li>Increased stability: experience fewer browser crashes<br>
         </li>
-        <li>Support for many Firefox extensions (add-ons) and themes</li>
-        <li>Support for a growing number of Pale Moon exclusive extensions and themes<br>
+        <li>Support for many Firefox extensions (add-ons)<br>
+</li>
+        <li>Support for a growing number of Pale Moon exclusive extensions<br>
         </li>
 <li>Extensive and growing support for HTML5 and CSS3<br>
         </li>
@@ -106,7 +111,7 @@ Windows' parental controls</span>,
 then Pale Moon may not be a good browser choice for you.<br>
       <br>
 With
-the current generation of Gecko-based browsers, there are other
+the current generation of Mozilla-based browsers, there are other
 differences between Pale Moon and Firefox that are
 more obvious and not just "under the hood": contrary to what Mozilla
 has done with their redesign of the user interface, <span style="font-weight: bold;">Pale Moon will
