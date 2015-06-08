@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Redistribution</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -30,7 +31,7 @@ monetize upon, which is against Pale Moon's principles of free software.<br>
       <br>
       <hr style="width: 100%; height: 2px;">
       <h3>Redistribution license</h3>
-      <span style="font-weight: bold;">Last updated:</span> 26 November 2014<br>
+      <span style="font-weight: bold;">Last updated:</span> 08 June 2015<br>
       <br>
 If you wish to redistribute the binaries (executable form of the code) of Pale Moon, you are
 free to do so, with the following limitations:<br>
@@ -47,7 +48,7 @@ paid hosting service, pay-per-download, subscription, etc.) or access to them (p
             <li>You charge for redistribution rights of the browser binaries,
 yourself (you have no rights to it)<br>
             </li>
-            <li>You charge for a physical medium like a CD or DVD. If
+            <li>You charge for a physical medium like a CD or DVD. Example: If
 you provide a "cover disk" with a <span style="font-style: italic;">printed</span>
 magazine, that is considered a "no charge" item (free bonus item with
 the magazine) and is therefore allowed. If you provide a <span style="font-style: italic;">disk-based magazine</span> (digital) that
@@ -83,8 +84,8 @@ check for the previously listed alterations<br>
           </li>
 </ol>
         <li>The binaries can be obtained without the
-use of third party software not officially endorsed, including but not
-limited to: download managers,stub installers, wrappers, proprietary clients or proprietary protocols. This
+use of third-party software not officially endorsed, including but not
+limited to: download managers, stub installers, wrappers, proprietary clients or proprietary protocols. This
 includes any offering of such unendorsed downloading software or
 methods, regardless of offering "direct" downloads or allowed methods
 alongside the unendorsed ones.<br>
@@ -111,7 +112,7 @@ systems, including but not limited to non-commercial variants of Linux,
 variants of BSD
 and ReactOS. This exception only applies to unaltered versions of the
 Pale Moon binaries or officially branded variants specifically built
-for the target operating system from unaltered sources (including
+for the target operating system from source that have not been materially changed (including
 brand-specific configurations like e.g. home page, default search
 engine). If any of the essential settings of the browser are altered
 beyond what is strictly needed for providing a working build on the
@@ -137,13 +138,13 @@ later time, and may be at any time removed, in Moonchild's sole
 discretion, either with or without stated reason.</li>
         <li>If a distribution is authorized as per point 10, the contributed build may be redistributed <span style="font-weight: bold;">in unaltered form</span> by third parties as set out in the points above and under the same conditions.</li>
         <li>If
-you wish to distribute binaries for other platforms
-built on the Pale Moon source code, you may not use official branding
+you wish to distribute binaries for other platforms,
+building from Pale Moon source code, you may not use official branding
 unless these builds have also been approved as a contributed build as
 per point 10 of this license or if they are exempt under points 7 or 8
 of this license. Even so, you obtain no rights to the Pale
 Moon name or logo, merely the permission to use it for the 3rd party
-build and only for as long as it is officially endorsed or satisfies
+build, and only for as long as it is officially endorsed or satisfies
 the conditions for exemption. In all other
 cases you must use significantly different branding files/graphics and
 a significantly different name for
@@ -151,11 +152,11 @@ the browser.</li>
         <li>Unofficial branding ("New Moon") as supplied in the source code may be used for unendorsed binaries at all times.
 Thusly branded binaries with the New Moon logo and product name are not
 subject to the endorsement and exception rules as set out in previous points of this
-license and may be freely distributed subject to the Mozilla Public
+license and may be freely distributed in altered or unaltered form, subject to the Mozilla Public
 License as regards source code changes and availability. This
 permission does, however, not include any rights or license to the Pale
 Moon name and logo that may still be present in the resulting
-unofficially branded binaries. <br>
+unofficially branded binaries.<br>
         </li>
 
 
