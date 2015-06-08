@@ -31,7 +31,100 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon: Release notes</h1>
-      <h3>25.4.1 (2015-05-10)</h3>This is a small but important update to the previous major release to address some critical issues:<br>
+      <h3>25.5.0 (2015-06-10)</h3>This is an important maintenance update with mostly under-the-hood changes.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li><span style="font-weight: bold;">Logjam fix</span>: Refuse DHE keys less than 1024 key bits</li>
+        <li>Search plugin updates to re-enable Google suggestions and reduce tracking (Squarefractal)<br>
+        </li>
+        <li>Allow plugin-specific (.dll based) OOPP overrides also for
+npswf. This will not be used for the "master switch" for OOPP and Flash
+will still be in the plugin container, unless a specific
+dom.ipc.plugins.enabled.npswf*.dll boolean is set to override.<br>
+        </li>
+        <li>Fixed a crash during WebGL Conformance Tests for undefined indices (Toady)<br>
+        </li>
+        <li>HSTS preload list updates (Squarefractal)<br>
+        </li>
+        <li>Status bar locale addition: cs<br>
+        </li>
+        <li>Implemented a fix for the toolkit update service so that
+the same version as the current application will not be offered as a
+valid update (Tobin)<br>
+        </li>
+        <li>Reorganized the AppMenu (give equal ease for windowed and tabbed browsing, deprioritize Sync)<br>
+        </li>
+        <li>Disabled the Sync promo box in doorhangers.<br>
+        </li>
+        <li>Updated libpng to version 1.5.22 <br>
+        </li>
+        <li>Fixed support for builds using newer freetype on Linux. (Axiomatic)<br>
+        </li>
+        <li>Fixed --with-system-pixman builds. (Isaac Dunham)<br>
+        </li>
+        <li>Updated SQLite to version 3.8.10.1<br>
+        </li>
+        <li>Changed the after-upgrade page loaded to the release notes instead of the home page.<br>
+(and hoping people actually do take a moment to read them, preventing unnecessary support requests)<br>
+        </li>
+        <li>Fixed navigator.geolocation - should never be null, to properly adhere to the specification (Travis)<br>
+        </li>
+        <li>Moved paintlock event delay to greprefs, and adjusted it for 2015's heavier sites<br>
+        </li>
+        <li>Fixed the about dialog scripting for pre-release builds (includes build date now as-intended and no longer errors the script)<br>
+        </li>
+        <li>Reorganized how pushed floats are handled in layout flow<br>
+        </li>
+        <li>Implemented a change to run the updater from the install directory instead of copying it.<br>
+        </li>
+        <li>Fixed transparency of the Pale Moon document icon for 256x256<br>
+        </li>
+        <li>Updated padlock code:<br>
+- Added mixed-mode shading, and reorganized shading pref values more logically<br>
+(0=off, 1=secure only, 2=secure+mixed, 3=all)<br>
+- Cleaned up CSS<br>
+- Cleaned up padlock logic a little<br>
+        </li>
+        <li>Hard-coded internal UA sniffing values for the extension legacy of devtools<br>
+        </li>
+        <li>Updated NSPR to 4.10.8</li>
+        <li>Updated the NSS security lib to 3.19-RTM + re-worked Pale Moon changes<br>
+        </li>
+        <li>Bumped the built-in site-specific UA compat mode overrides to v38<br>
+        </li>
+        <li>Fixed a compressed-cache crash due to losing our cache entry while finishing up compression.</li>
+        <li>Updated and patched libcubeb, the main media sound library,
+to fix a number of audio issues (e.g. when switching output device) and
+audio-related crashes<br>
+        </li>
+        <li>Added the option to load modules into a named scope (see Issue #88)<br>
+        </li>
+        <li>Removed quick access keys for buttons on the updater window
+(since it may pop up unannounced when people are typing, causing them
+to make unintended choices)<br>
+        </li>
+        <li>Updated jemalloc and mozjemalloc memory allocator libraries to improve performance<br>
+        </li>
+        <li>Removed implicit access to a whole range of internally-used
+interfaces and classes that page content has no business calling anyway
+(See issue #89)</li>
+      </ul>
+More information about changes in this version that would be important
+for extension developers and web programmers can be found here.<br>
+      <br>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Fixes for miscellanious memory safety hazards (relevant and applicable fixes from CVE-2015-2708 and CVE-2015-2709)</li>
+        <li>DiD fix to prevent potential overflows in CSS restyling</li>
+        <li>Fix for updater hijacking (CVE-2015-2720)</li>
+        <li>Fix to prevent potential disclosure of sensitive information in Android logs (CVE-2015-2714)</li>
+        <li>Fix for a buffer overflow in the XML parser (CVE-2015-2716)</li>
+        <li>Fix for a potentially exploitable crash in DNS handling<br>
+        </li>
+      </ul>
+      <h3>25.4.1 (2015-05-10)</h3>
+This is a small but important update to the previous major release to address some critical issues:<br>
       <ul>
         <li>Fixed loss of the browser's disk cache on startup due to incorrect corruption detection logic<br>
         </li>
