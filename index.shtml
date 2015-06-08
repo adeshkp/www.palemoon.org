@@ -50,8 +50,8 @@ Moon offers you a browsing experience in a browser completely built
 from its own, independently developed source with carefully selected features
 and optimizations to maximize the browser's speed<small>*</small>,
 stability and user
-experience, while maintaining compatibility with thousands of Firefox
-extensions many have come to love and rely on.<br>
+experience, while offering a rich collection of extensions and themes (including compatibility with many Firefox
+extensions many users have come to love and rely on).<br>
       <br>
 &nbsp;<br>
       <div style="text-align: center;"><a id="dllink-windows" class="dllink_green" href="http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img style="width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;" alt="" src="images/down.png" border="0">Download (Windows web
@@ -131,10 +131,7 @@ to name a few things.<br>
           <tr>
             <td style="margin: 0px; vertical-align: top; font-size: 10pt;"><span style="font-weight: bold;">Top news:</span><br>
             <br>
-            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.4.1 has been released</span> to address critical bugs in the new 25.4 update.<br>
-            <br>
-            <span style="font-weight: bold;">Pale Moon 25.4 has been released</span> which is a major update to the browser with many changes and fixes.
-More details in the <a href="releasenotes.shtml">release notes</a>.<br>
+            <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span class="userContent"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;">Pale Moon 25.5 has been released</span> which is an important maintenance release with a good number of changes. Please take a moment to read the <a href="releasenotes.shtml">release notes</a>!<br>
             <br>
             <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a></td>
@@ -155,7 +152,7 @@ news...</a></td>
     <tr>
       <td colspan="2" style="vertical-align: top;"><span style="font-weight: bold;"></span><p>Pale Moon is, and will always be, completely FREE to download
 and use!
-(Freeware)<br>
+(Open Source and Freeware)<br>
 But, if you feel so inclined and if you enjoy the browser enough to
 help
 pay for bills for hosting and further development of the
