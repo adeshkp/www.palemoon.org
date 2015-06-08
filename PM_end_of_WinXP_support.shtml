@@ -88,7 +88,7 @@ upgraded, running current and future versions of Pale Moon will not be an issue.
 will continue to support Windows XP indefinitely (because of the large amount of
 netbooks being limited to that operating system) you can switch to that
 version.</li>
-        <li><span style="color: rgb(0, 102, 0);">Recommended:</span> If you are looking for a full main-line build of Pale Moon with Windows XP support, there are also 32-bit and 64-bit <a href="http://binaryoutcast.com/software/projects/pm4xp/">alternative (third-party) builds</a>
+        <li><span style="color: rgb(0, 102, 0);"></span>If you are looking for a full main-line build of Pale Moon with Windows XP support, there are also 32-bit and 64-bit <a href="http://binaryoutcast.com/software/projects/pm4xp/">alternative (third-party) builds</a>
 of the browser specifically maintained for Windows XP and Server 2003
 environments. <span style="font-weight: bold;">Please do note that these versions will be discontinued
 when the last retail NT 5.x product goes EoL in July 2015.</span></li>
