@@ -35,7 +35,7 @@
       <br>
       <span style="font-weight: bold;">Fixes/changes:</span><br>
       <ul>
-        <li><span style="font-weight: bold;">Logjam fix</span>: Refuse DHE keys less than 1024 key bits</li>
+        <li><span style="font-weight: bold;">Logjam fix</span>: Refuse DHE keys with less than 1024 key bits</li>
         <li>Search plugin updates to re-enable Google suggestions and reduce tracking (Squarefractal)<br>
         </li>
         <li>Allow plugin-specific (.dll based) OOPP overrides also for
@@ -115,8 +115,8 @@ for extension developers and web programmers can be found here.<br>
       <br>
       <span style="font-weight: bold;">Security fixes:</span><br>
       <ul>
-        <li>Fixes for miscellanious memory safety hazards (relevant and applicable fixes from CVE-2015-2708 and CVE-2015-2709)</li>
-        <li>DiD fix to prevent potential overflows in CSS restyling</li>
+        <li>Fixes for miscellaneous memory safety hazards (relevant and applicable fixes from CVE-2015-2708 and CVE-2015-2709)</li>
+        <li>DiD (defense-in-depth) fix to prevent potential overflows in CSS restyling</li>
         <li>Fix for updater hijacking (CVE-2015-2720)</li>
         <li>Fix to prevent potential disclosure of sensitive information in Android logs (CVE-2015-2714)</li>
         <li>Fix for a buffer overflow in the XML parser (CVE-2015-2716)</li>
