@@ -109,6 +109,10 @@ to make unintended choices)<br>
         <li>Removed implicit access to a whole range of internally-used
 interfaces and classes that page content has no business calling anyway
 (See issue #89)</li>
+        <li>Added a preference for always preferring a certain dictionary language.<br>
+To use this, create a new preference <span style="color: rgb(51, 102, 102); font-weight: bold;">spellchecker.dictionary.override</span> (string) and set it to your language code.<br>
+        </li>
+
       </ul>
 More information about changes in this version that would be important
 for extension developers and web programmers can be found here.<br>
