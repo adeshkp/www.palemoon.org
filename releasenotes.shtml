@@ -98,7 +98,7 @@ valid update (Tobin)<br>
 to fix a number of audio issues (e.g. when switching output device) and
 audio-related crashes<br>
         </li>
-        <li>Added the option to load modules into a named scope (see Issue #88)<br>
+        <li>Added the option to load modules into a named scope (see <a href="https://github.com/MoonchildProductions/Pale-Moon/issues/88">issue #88</a>)<br>
         </li>
         <li>Removed quick access keys for buttons on the updater window
 (since it may pop up unannounced when people are typing, causing them
@@ -107,15 +107,14 @@ to make unintended choices)<br>
         <li>Updated jemalloc and mozjemalloc memory allocator libraries to improve performance<br>
         </li>
         <li>Removed implicit access to a whole range of internally-used
-interfaces and classes that page content has no business calling anyway
-(See issue #89)</li>
+interfaces and classes that page content has no business calling anyway</li>
         <li>Added a preference for always preferring a certain dictionary language.<br>
 To use this, create a new preference <span style="color: rgb(51, 102, 102); font-weight: bold;">spellchecker.dictionary.override</span> (string) and set it to your language code.<br>
         </li>
 
       </ul>
 More information about changes in this version that would be important
-for extension developers and web programmers can be found here.<br>
+for extension developers and web programmers can be found <a href="https://forum.palemoon.org/viewtopic.php?f=5&amp;t=8474">here</a>.<br>
       <br>
       <span style="font-weight: bold;">Security fixes:</span><br>
       <ul>
