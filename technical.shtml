@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -58,13 +59,18 @@ The Pale Moon browser has, among other things, the following features:<br>
         <li>Specifically optimized for current processors. It makes
 use of the enhanced instruction sets of newer CPUs - as a result,
 this browser will not run on particularly old systems.</li>
-        <li>Increased stability: experience fewer crashes<br>
+        <li>Increased stability: experience fewer crashes.<br>
         </li>
 
         <li>Support for Scalable Vector Graphics (SVG) and Canvas.</li>
-        <li>Support for many Firefox Extensions (add-ons) and Themes.</li>
-        <li>Support for Personas ("light-weight" themes).<br>
+        <li>Support for many Firefox Extensions (add-ons).</li>
+        <li>Support for Pale Moon specific Extensions.<br>
         </li>
+
+        <li>Support for Personas ("light-weight" themes).</li>
+        <li>Support for Complete Themes.<br>
+        </li>
+
         <li>CSS Downloadable Font support (including WOFF).</li>
         <li>Extended HTML5, CSS3 and advanced DOM support.<br>
         </li>
@@ -75,11 +81,11 @@ rendering.</li>
         </li>
 
         
-        <li>Graphical tab switching with quick-search (user-selectable)<br>
+        <li>Graphical tab switching with quick-search (user-selectable).<br>
 </li>
-        <li>More customization options for navigation controls and the tab strip</li>
-        <li>Enhanced security indicators (padlock/styling)</li>
-        <li>More options for recovery (safe mode dialog)<br>
+        <li>More customization options for navigation controls and the tab strip.</li>
+        <li>Enhanced security indicators (padlock/styling).</li>
+        <li>More options for recovery (safe mode dialog).<br>
         </li>
 
       </ul>
@@ -260,7 +266,7 @@ AMD Phenom/II etc.<br>
 browser from Firefox?</h3><span style="font-weight: bold; font-style: italic;">The
 differences are increasingly significant as time passes. Pale Moon will
 remain close to
-Firefox in many parts of the code to ensure compatibility with the as
+Firefox in many parts of the code to ensure compatibility with as
 many add-ons as possible, but should be considered a "fork" and a
 totally independent product.</span><span style="text-decoration: underline;"><br>
       <br>
@@ -269,7 +275,7 @@ totally independent product.</span><span style="text-decoration: underline;"><br
       <ol>
         <li>Pale
 Moon, like Firefox (and several other browsers) is based on the Gecko
-rendering engine. This means that the core rendering functions for Pale
+rendering engine (or rather, a modified version thereof). This means that the core rendering functions for Pale
 Moon and Firefox will be a very close match and that whatever functionality there is in
 the Gecko core code, will, as a ballpark estimate, also exist in Pale Moon.
 Where specific core functions have been changed, it has been done carefully
@@ -384,7 +390,6 @@ TMI (Too Much Information) for the average joe:<br>
  <ul><li>Build environment (Windows): <br>
 </li> <ul> <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
  </li> <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
-For other operating systems, virtual machines are used.<br>
 </li> <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)</li>
 </ul> <li>Optimizations:
 SSE2 architecture, global speed-preference flags, intrinsic functions where
