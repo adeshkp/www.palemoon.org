@@ -60,7 +60,26 @@ the browser is and remains an English language product at its heart.<br>
       <div style="border: 2px solid rgb(204, 204, 255); padding: 5px 10px; background-color: rgb(240, 240, 255);">
       <h3>Installation instructions</h3>
 A few simple steps is all that is needed to install these language
-packs:<br>
+packs. You have the choice of 2 different methods, either by installing
+the Zing extension or by using the instructions to perform a one-time
+preference change:<br>
+      <br>
+      <span style="font-weight: bold;">Extension method:</span><br>
+      <ol>
+        <li>Download
+the language pack .xpi from this page (below). Choose to
+immediately "install" in the Pale Moon browser (the default when
+left-clicking), skipping the need to
+save it first.<br>
+        </li>
+        <li>Install Zing from here:<br>
+ <a href="https://addons.palemoon.org/extensions/other/zing-locale-switcher/">https://addons.palemoon.org/extensions/other/zing-locale-switcher/</a><br>
+        </li>
+        <li>Click the Z! flag in your toolbar, and select the language you prefer from the drop-down.</li>
+        <li>Let the browser restart when asked.<br>
+        </li>
+      </ol>
+      <span style="font-weight: bold;">Preference method:</span><br>
       <ol>
         <li>Download
 the language pack .xpi from this page (below). You may also choose to
