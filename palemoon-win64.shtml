@@ -9,6 +9,7 @@
 
 
 
+
   
     <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - x64 builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -30,7 +31,7 @@
         <tr>
           <td style="vertical-align: top;">
             <h1><a href="http://www.palemoon.org/pad_palemoon-x64.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
-            <h1>Download Pale Moon x64 - 25.4.1<br>
+            <h1>Download Pale Moon x64 - 25.5.0<br>
             </h1>
             If you
             run a 64-bit operating system, you can choose to download and
@@ -122,8 +123,8 @@ available.<br>
             <br>
             <h3 style="text-align: left;">Download links:</h3>
             <span style="color: red;"></span><span style="font-weight: bold;">Installer
-              (recommended, 20.8 MB)</span>:<br>
-            SHA-1: 5f365cd222a9901cbe68156bcc5df4e0418fb21a<br>GPG/PGP signature: <a href="pgp/palemoon-25.4.1.win64.installer.exe.sig">[Sig]</a><br>
+              (recommended, 20.9 MB)</span>:<br>
+            SHA-1: 19a8e88003f50486384eb65caee4dc89603073e5<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.installer.exe.sig">[Sig]</a><br>
             <br>
             <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -144,7 +145,7 @@ available.<br>
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.4.1.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text"><span style="font-weight: bold;">Pale
                       Moon mirror</span> #1<br>
@@ -152,7 +153,7 @@ available.<br>
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.4.1.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
                   <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
 Moon
                       mirror</span> #2<br>
@@ -176,11 +177,11 @@ Moon
             </table>
             <span style="font-weight: bold;"><br>
               ZIP packed (approx. 28 MB)</span>:<br>
-            SHA-1: b865162a6efc18d6df061d4d2b5d0775823fa8e3<br>GPG/PGP signature: <a href="pgp/palemoon-25.4.1.win64.zip.sig">[Sig]</a><br>
+            SHA-1: 3e8cb69c4e53e6397c6d504a5c813137c82439cd<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.zip.sig">[Sig]</a><br>
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.4.1.win64.zip">Pale
+              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
                   Moon mirror #1</a></li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.4.1.win64.zip">Pale
+              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
                   Moon mirror #2</a></li>
               <li><a href="http://www.gamershell.com/download_110817.shtml">GamersHell</a><br>
               </li>
