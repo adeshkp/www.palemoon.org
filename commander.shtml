@@ -1,125 +1,136 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en"><head>
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-<tr align="left">
-<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-<br>
-</td>
-</tr>
-    <tr>
-<td style="vertical-align: top;">
-      <h1>Pale Moon Commander</h1>
-
-      <p class="MsoNormal">Pale Moon Commander is a Mozilla Firefox compatible
-extension designed for the <a href="http://www.palemoon.org/">Pale Moon web browser</a>.
-It is a configurator, meaning it will provide a user-friendly interface to
-advanced preferences that would otherwise require manual editing of parameters,
-which can be cumbersome and time-consuming to do.</p>
-
-
-      <h2>How to access the add-on's settings</h2>
-
-
-      <p class="MsoNormal">The add-on, when installed, adds a menu item "Advanced
-Options..." in two locations:</p>
-
-
-      <ul style="margin-top: 0cm;" type="disc">
-<li class="MsoNormal" style="">In
-     the Application Menu (Pale Moon/Firefox button) under Options -&gt;
-     Advanced Options...</li><li class="MsoNormal" style="">In
-     the classic menu under Tools -&gt; Advanced Options...</li>
-      </ul>
-
-
-      <p class="MsoNormal">Clicking this menu item will open the preferences window
-that has been added by installing the add-on.</p>
-
-
-      <h2>There be dragons here!</h2>
-
-
-      <p class="MsoNormal">Using Pale Moon Commander to change advanced preferences is
-potentially dangerous and can leave your browser profile in a potentially
-unusable state. <span style="color: rgb(204, 0, 0);">If you don't know what a setting is for, don't touch it.</span> A
-number of the preferences made accessible through the add-on can prevent proper
-operation of the browser.</p>
-
-
-      <p class="MsoNormal">Because
-all the add-on does is change preferences, you can,
-at all times, reset the preferences by starting Pale Moon with the
-SHIFT key
-depressed, and selecting "Reset preferences to Pale Moon defaults".
-Of course this will also reset any other modified preferences you may
-have. Using the Reset feature in the add-on itself will have a similar
-result.<br>
-</p>
-
-
-      <p class="MsoNormal">Use of this add-on is at all times at your own risk. I do
-not give warranty or guarantees, and it is provided "as-is" although
-I've done my best to make sure it works as-intended.</p>
-
-
-      <h2>Download and install</h2>
-The current version is <span style="font-weight: bold;">1.6.2</span> - this is an update adding the German locale.<br><br>You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum thread</a> for this add-on to provide feedback.<br>
-      <br>
-You can go to the Pale Moon Add-ons site where the add-on is listed:<br>
-      <br>
-      <div style="text-align: center; font-weight: bold;"><span class="userContent"></span><a href="https://addons.palemoon.org/extensions/other/pm-commander/" target="_blank" rel="nofollow nofollow" onmouseover='LinkshimAsyncLink.swap(this, "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/pale-moon-commander\/");' onclick='LinkshimAsyncLink.swap(this, "\/l.php?u=https\u00253A\u00252F\u00252Faddons.mozilla.org\u00252Fen-US\u00252Ffirefox\u00252Faddon\u00252Fpale-moon-commander\u00252F&h=AAQFkFycT&s=1");'>https://addons.palemoon.org/extensions/other/pm-commander/</a></div>
-      <br>
-Or you can download and install the add-on right from this page:<br>Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.4 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.6.2.xpi">Add to Pale Moon</a><br>
-      <br>
-Alternatives:<br>
-<br>
-      <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html"><img style="border: 0px solid ; width: 110px; height: 38px;" alt="" title="Click to download" src="dl-images/softpedia_download_small.gif" align="middle" hspace="5"></a>Download the add-on from <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html">SoftPedia</a><br>
-      <br>This add-on is supplied as FREEWARE with disclosed source. Please see the <a href="freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
-      <br>
-      <h2>Documentation</h2>
-The add-on currently has a basic manual in PDF format, applicable to the current version 1.6.<br>
-You can get the manual by <a href="http://relmirror.palemoon.org/tools/Pale%20Moon%20Commander_v1.6.0.pdf">clicking here</a>.<br>
-
-<br>
-<a href="/">[&lt;- Back]</a><br>
-
-</td></tr>
-
-    <tr>
-      <td style="vertical-align: top; text-align: center;">
-      <!--#include virtual="nav/footer.html" -->
-      <br>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon Commander add-on
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c9 {background-color: #F9F9F9}
+    td.c8 {vertical-align: top; text-align: center;}
+    td.c7 {vertical-align: top;}
+    img.c6 {border: 0px solid ; width: 110px; height: 38px;}
+    div.c5 {text-align: center; font-weight: bold;}
+    span.c4 {font-weight: bold;}
+    span.c3 {color: rgb(204, 0, 0);}
+    ul.c2 {margin-top: 0cm;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c9" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c7">
+            <h1>
+              Pale Moon Commander
+            </h1>
+            <p class="MsoNormal">
+              Pale Moon Commander is a Mozilla Firefox compatible extension designed for the <a href=
+              "http://www.palemoon.org/">Pale Moon web browser</a>. It is a configurator, meaning it will provide a
+              user-friendly interface to advanced preferences that would otherwise require manual editing of
+              parameters, which can be cumbersome and time-consuming to do.
+            </p>
+            <h2>
+              How to access the add-on's settings
+            </h2>
+            <p class="MsoNormal">
+              The add-on, when installed, adds a menu item "Advanced Options..." in two locations:
+            </p>
+            <ul class="c2" type="disc">
+              <li class="MsoNormal">In the Application Menu (Pale Moon/Firefox button) under Options -&gt; Advanced
+              Options...
+              </li>
+              <li class="MsoNormal">In the classic menu under Tools -&gt; Advanced Options...
+              </li>
+            </ul>
+            <p class="MsoNormal">
+              Clicking this menu item will open the preferences window that has been added by installing the add-on.
+            </p>
+            <h2>
+              There be dragons here!
+            </h2>
+            <p class="MsoNormal">
+              Using Pale Moon Commander to change advanced preferences is potentially dangerous and can leave your
+              browser profile in a potentially unusable state. <span class="c3">If you don't know what a setting is
+              for, don't touch it.</span> A number of the preferences made accessible through the add-on can prevent
+              proper operation of the browser.
+            </p>
+            <p class="MsoNormal">
+              Because all the add-on does is change preferences, you can, at all times, reset the preferences by
+              starting Pale Moon with the SHIFT key depressed, and selecting "Reset preferences to Pale Moon defaults".
+              Of course this will also reset any other modified preferences you may have. Using the Reset feature in
+              the add-on itself will have a similar result.<br>
+            </p>
+            <p class="MsoNormal">
+              Use of this add-on is at all times at your own risk. I do not give warranty or guarantees, and it is
+              provided "as-is" although I've done my best to make sure it works as-intended.
+            </p>
+            <h2>
+              Download and install
+            </h2>The current version is <span class="c4">1.6.2</span> - this is an update adding the German locale.<br>
+            <br>
+            You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum
+            thread</a> for this add-on to provide feedback.<br>
+            <br>
+            You can go to the Pale Moon Add-ons site where the add-on is listed:<br>
+            <br>
+            <div class="c5">
+              <a href="https://addons.palemoon.org/extensions/other/pm-commander/" target="_blank" rel=
+              "nofollow nofollow" onmouseover=
+              'LinkshimAsyncLink.swap(this, "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/pale-moon-commander\/");'
+              onclick=
+              'LinkshimAsyncLink.swap(this, "\/l.php?u=https\u00253A\u00252F\u00252Faddons.mozilla.org\u00252Fen-US\u00252Ffirefox\u00252Faddon\u00252Fpale-moon-commander\u00252F&amp;h=AAQFkFycT&amp;s=1");'>
+              https://addons.palemoon.org/extensions/other/pm-commander/</a>
+            </div><br>
+            Or you can download and install the add-on right from this page:<br>
+            Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.4 and later) <a href=
+            "http://relmirror.palemoon.org/tools/pmcommander-1.6.2.xpi">Add to Pale Moon</a><br>
+            <br>
+            Alternatives:<br>
+            <br>
+            <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html"><img class="c6"
+            alt="" title="Click to download" src="dl-images/softpedia_download_small.gif" align="middle" hspace=
+            "5"></a>Download the add-on from <a href=
+            "http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html">SoftPedia</a><br>
+            <br>
+            This add-on is supplied as FREEWARE with disclosed source. Please see the <a href=
+            "freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
+            <br>
+            <h2>
+              Documentation
+            </h2>The add-on currently has a basic manual in PDF format, applicable to the current version 1.6.<br>
+            You can get the manual by <a href=
+            "http://relmirror.palemoon.org/tools/Pale%20Moon%20Commander_v1.6.0.pdf">clicking here</a>.<br>
+            <br>
+            <a href="/">[&lt;- Back]</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c8">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

@@ -1,437 +1,340 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Donations and support</title><!-- Keep the http-equiv meta tag for IE8 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-    <tr align="left">
-      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <h1>Pale Moon Donations and Support</h1>
-If
-you enjoy this free browser enough to want to give something in return,
-there are several ways you can support development of Pale Moon. <span style="font-weight: bold; color: rgb(153, 0, 0);">If you want your
-donation to remain anonymous, please make sure to let me know!</span><br>
-      <h2>Monetary donations</h2>
-You can transfer money by using one of the following methods:<br>
-      <ul>
-        <li>Paypal - this is a well-known US-based electronic money
-provider. You can use the donation buttons on the <a href="http://www.palemoon.org/">Pale Moon home page</a> or <a href="http://start.palemoon.org/">Pale Moon start page</a> to make a
-donation through PayPal.<br>
-        </li>
-        <li>Skrill (formerly Moneybookers) - this is a European-based
-electronic money provider similar to PayPal, with lower fees and better
-monetary regulation, accepted world-wide with many options for
-payment/funding (no credit card required to use it).<br>
-Simply transfer money as a personal transfer (yellow "send money"
-button) to<br>
-Name: M.C. Straver<br>
-E-mail: moonchild [at] palemoon.org<br>
-Don't have an account? <a href="https://account.skrill.com/signup?rid=8464524">Sign up here.</a></li>
-        <li>Bank (wire) transfer<br>
-For people living in the EU, this is an option as well (sorry, I don't
-accept wire transfers from outside the EU zone due to fees) as long as
-your bank offers SEPA transfers. Contact me to get the bank details.</li>
-        <li>Bitcoin: You can donate any amount you wish to Moonchild
-Productions' wallet:<br>
-          <div style="text-align: center;"><span style="font-weight: bold;">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</span><br>
-          </div>
-Please note that Bitcoin is anonymous by nature and you will not be
-listed by name on this page.<br>
-        </li>
-        <li>Litecoin: A different, popular cryptocurrency. Feel free to
-donate any amount to:<br>
-          <div style="text-align: center;"><span style="font-weight: bold;">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</span><br>
-          </div>
-Please note that Litecoin is anonymous by nature and you will not be listed by name on this page.<br>
-        </li>
-        <li>Other cryptocurrencies are accepted too! See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
-</li>
-        <li>Sending cash (bills only please, no coins)<br>
-If you prefer, you can also send a donation in the form of cash (any
-currency accepted, but Swedish Crowns preferred. Sending money in an envelope is always at your own risk;
-please make sure to not make it obvious as it may get stolen by postal
-workers in that case.<br>
-Send to:<br>
-          <div style="margin-left: 40px;">M.C. Straver<br>Skrivaregatan 2<br>
-58649 Link�ping<br>
-Sweden<br>
-          </div>
-        </li>
-
-      </ul>
-      <h2>Donating development hardware</h2>
-If you wish to donate (surplus) hardware to help development of Pale
-Moon, you should contact me by e-mail at moonchild [at] palemoon.org to
-discuss if what you wish to donate will be useful for me (saves
-unnecessary shipping expenses and saves stuff taking up my floor space
-;) ).<br>
-      <br>
-Currently, I could use, specifically:<br>
-<ul>
-        
-        <li><span style="text-decoration: line-through;">A new large-capacity (4 TB or larger) SATA-drive for backup
-purposes or a large-capacity (&gt;500GB) tape drive+media</span><br>
-Enough was donated for a proper NAS device. Thanks everyone!<br>
-</li>
-        <li>A development class OSX 10.8+ Macintosh computer (to be able to build Pale Moon for Mac)</li>
-        
-
-      </ul>
-      <h2>Donating services</h2>
-If
-you want to supply services to help pale Moon development, there are a
-few possible areas you may be able to help. Please contact me to
-discuss this.<br>
-      <br>
-Potential service areas:<br>
-      <ul>
-        <li>Advertising! Spread the word, launch an ad campaign, tell
-your friends, hand out flyers, etc.<br>
-        </li>
-        <li>File hosting (burst capable, direct-link capable, zero-ads)
-(any location except DE)<br>
-        </li>
-        <li>Cloud computing services/build machines<br>
-</li>
-        
-        
-        <li>Any other service you think may be of benefit to Pale Moon
-development<br>
-        </li>
-      </ul>
-      <br>
-      <h1>Thank you</h1>
-I would like to express my thanks to the following people for their
-support, in no particular order. <span style="font-weight: bold; color: red;">Without your help, support and
-contributions, Pale Moon would not have been possible!</span><br>
-      <br>
-      <span style="font-weight: bold;">Testing and moral support:</span><br>
-Cole Hughes, Colin Moran, Gerardo Rubio, Daryl Sprint, Jason Sullivan,
-and the beta testers on the forum.<br>
-      <br>
-      <span style="font-weight: bold;">Special thanks to the following
-people for chipping in for required development tools:</span><br>
-      <div style="font-size: 11pt;">Jason Sullivan, Bruno Langelaan,
-Anthony Grobe, Maximilian Magana, Travis Anderson, Michael Wakunda,
-Jose Arellano, Roger Taylor, David Wales, Aurimas Grigas, Ezio Aditore,
-John McNamara, R�gvi D. Clementsen, Temple Martin, David Khoo, Floyd
-Drennon, Ryan Clemens, Stephen May, Robert McLean, Michael Larsen, Will
-Rolison, Tracy Romine, Timothy Lamb, Alain McKinnon, Kentaro Uematsu,
-Marc Finerty, Damjan Gerl, Chris Chokan, Jeff Lee, Greg Stone, Ton
-Sonneveldt, Mark Ewald, Rick Lund, &#26149;&#21517; &#20116;&#26376;, Don Hay,
-Mirko Bre�ler and some people who prefer to remain anonymous.<br>
-      </div>
-      <br>
-      <span style="font-weight: bold;">Special thanks to the following
-translators for their efforts in localizing Pale Moon:<br>
-      </span>
-      <div style="font-size: 11pt;">O. Roth (ReinekeFux),
-Archaeopteryx, Endor, KNTRO, Gerardo Rubio "Lobocursor" Perez, Jos� I.
-Plaza, Carlos Mella, Jarpo, Jojaba, Yodli, Morinaga, Bovirus, Hikaru
-Murai, RohithNS, Lee Kangsan, Nui Parishi, &#1044;&#1084;&#1080;&#1090;&#1088;&#1080;&#1081; &#1063;&#1077;&#1088;&#1082;&#1072;&#1089;&#1086;&#1074;, Mikael
-Hiort af Orn�s, Wang H.K., Phil Chan, Leo Lee, Kamil Drozdek, Rog�rio Queiroga.<br>
-      <span style="font-weight: bold;"></span></div>
-      <span style="font-weight: bold;"><br>
-Donations </span><span style="font-weight: bold;">(monetary or
-otherwise) </span><span style="font-weight: bold;">and other support</span><span style="font-weight: bold;"></span><span style="font-weight: bold;">:</span><br>
-      <div style="text-align: justify; font-size: 10.5pt; letter-spacing: normal; line-height: 1em;">Cory
-Westropp, James Bass, Natalia Janeiro Pita, Michael Hunter, George
-W. Skuse Jr., Mirko von Elstermann, Ky Tat, John F. Allen, Adam
-Kirchgassner, Casey Brooks, Vojtech Behuncik, Jerry Hung, Michael Law,
-Lee Brown, Manuel la Fosse, Chris Finlayson, Bas Bleijendaal, Ian
-Scott, S.K. Brown, Solon Zhu, George Tillmon, David E. Wilson, Doris
-DeNudt, Dale Raggatt, Dave Wijnhoven, James Cross, Irving Prais, Denis
-James Prosser, Andrew Bozinoplouos, Edward Whiteaker, Grant Holman,
-Ianp (braveheart_leo), Christopher Thompson, Luc Bell, Alan Bischof,
-Markus Schweizer, LouAnne Stachowski, Steve Cramer, Chris Horace (and
-son), James Camper, Bernard Olij, Robert Tipping, Poggi Paolo, Tom
-Molnar, Rob van den Sigtenhorst, Tsali Peleg, Wolfgang Stanke, Victor
-Saltmeris, Alfredo Heredero Bellot, Isabel Guinder, Jonathan Millet,
-Colin Booth, David Vogl, Jacob M. Ross, Bart van Zoest, Robert Harvan,
-Rufo Moreno Fernandez, Henry Eisenson, Louise M. Head, Thomas D.
-Rouncefield, David Pyke, Faye Reynolds, Paul Carlson, Leon Grekin,
-James Soden, Dean Graham, Norman Hunter, David Tice, Dick Girard,
-Terence Truscott, HL7 Systems &amp; Services, Mike du Pau, John Kruger,
-Donna Logan, Victor Saltmeris, Leopold Akpabio, S.G. Collins, Matthew
-Nitti (Zatzai), Howard Verne, John-Paul Coetzee, Thomas Saunders, Al
-Hughes, Graham Sewell, Robert Wilson, Markus Philipane, Michael Olson,
-Klaus Mahr, David Delmar, Andrew Taub, Don Hay, Rhonda Morales, Garth
-Ponsonby, Kris Bernardic, Mark Orleman, Frank Klett, �ystein A. S�ther,
-Brian Davies, Mike Bennett, Mats Danielsen, Kurt Edwards, Stefan Rasch,
-Stephen D'Orazio, Vyacheslav Sergeev, Richard Schoenfeldt, Jeff Lee,
-Michael Noble, Dave Crowder, Robert Whitney, Michael Carroll, Michael
-Frazier, Mark Dozbaba, Rebecca Sweet, Lars-Ove Landsverk, Johannes den
-Boer, Gail Mahabirsingh, Brian Trudeau, Omar Alomair, Vladimir
-Yemelyanov, Sparkling Carpets Inc., J�rg Juchems, Glenn Bennett, Simon
-E. Parker, Thomas Nelson, Dallas Eschenauer, Jo Singstad, Andrzej Krol,
-Marcos Coelho, Claudia Chuba, C.P. Humphries, De Marco LLC, The Phoenix
-Gate, James Williams, Hayes Anderson Ltd., OtakuBooty, Aleksandr
-Milykh, Lisa Hatt, Fiber Mosaics
-Inc., Michael Veltman, Paul P. Boyd, Pierre Jeunehomme, Bruce Anderson,
-Simon Schofield, Caitlin Richardson, Louise Lee, Ferdinand J. van Dop,
-Daniel Dirr, Eric Hancock, Darko Ostoja/Ratko Vujicic, Adrian Davis,
-James Mingee, EDSI, Richard Hartzell, Robin Gilliver, &#30707;&#20117; &#27491;&#23558;, Larry
-Beattie, Jaime Ossio, Clarence Abbott, Michael Werner, Ragnar L.
-Bj�rnsson, Achille Toro, Robert McLean, Jens Minnack, Bonnie Perkins,
-Bill Ash, Paul Eaton, George Veigue, Yoshiaki Kinukawa, Doommantia,
-Susan Duncan, Amanda Betancourt, Kit L. Lo, Robert Cantalupo, Gregory
-Flewelling, Angelo Morgante, Ernies's Machinery Inc., Janice L.
-Ferdinand, Framton Goodman, Roberto J. Silos III, Michael Abbott, John
-Windisch, Adalberto Hernandez, William Driver, Gregory Atkins, Richard
-Scheurle, Dan H. Todd, Andre Engels, David P. Hughes, Mark Mizhen,
-Kenneth Hultman, Kenneth Roberts, Paul Deeds, Janet
-Rosecan, Aric Dallas, Marco Guglieri, Marc Jackson, Marian Rakusan,
-Michael Ingram, Robert Fricks, Carl Jarrett, G�rald J. Croteau, &#26862; &#21746;,
-Don Hay, Perry Phillips, Lyke Dekens, Nelson L. Renninger, Pranay
-Bansod, &#24029;&#20013; &#33391;&#22826;, John Mambo, Russell Whaley, Amanda V.M. Christie,
-Darshil Shah, David Wignall, Rick Lund, Matt Phelps, Peter Holmes, Al
-Borowski, Janice L. Ferdinand, Artwolf, Brent Fergusson, Gina Parosa,
-Lewis Dawson, D.M. Cope, Dilip Sinha, Jais Larsen, Western Backup
-Solutions, Reed Treible, Tobin Michael, Matthew Friede, Gregor
-Schlabitz, Jos� Luis P�rez Peinado, Paolo Petriccione, Filippo Bottega,
-Stephen Spangle, Richard Sams, Francisco J.S. Azofeifa, Dallas
-Eschenauer, G�rald Croteau, Casper M. Jensen, Andrew Fraser, Fernando
-Sampaio, Abe Clark, Maurice Foulon, Michael Augustson, John Huisman,
-Sebastian Sawa, Jennifer Patullo, Michael Shultz, David Richards, Jeff
-Powell, Christopher Edmondson,Yuko Mattingley, S. Bruce Danyluk,
-Dimitri Casu, Perry Phillips, John Stanish, Elizabeth McDowell, Tom
-Weaver, Konstantin Chertkov, Peter Martin, Hue-Tsi Wu, Willem Missault,
-George Mentzikof, Minasian Garik, Peter DiVergilio,
-Steven Bussinger, Zachary T. Heise, Roger Alwang, Adriaan de Jager,
-Jean Fourquet, Emre Schveighoffer, William Hahn, Ekaterina Simerzin,
-Carlos Carreira, Greg Lefsrud, Herbert Hansen, Joel Barnett, Charles
-Lasitter, Bo Jensen, Gliktch, Robert Taylor, Andres Aule, John
-Littleton, Max Pinner, Dan Norman, Histosoft Corporation, Michael
-Morrison, Jerome Yurow, Craig DeHaan, Arie Hartland, Robert Corfield,
-Gast�n Salgueiro, Perry Phillips, Gordon Griswold, Joseph Neri, Glenn
-Gardner, Frank Cornett, Adriaan van Breugel, John A. Ballou, Robert
-Quintrell, Tim Bazuin, Donald Flanders, Walter Chatelain, Petr Dusek,
-John Burrows, Findlay Niederle, Anthony Rice, Cable &amp; Wireless
-Technologies Inc., Gioia Guerrieri, Abdulrahman Aljefri, Dennis
-Wysocki, Discover The South, Kamil Ka&#378;mierczak, Robert Bradford, Rodney
-Fiddaman, Maha
-Samuel, Norman Goodis, Carol Ruppe, Frederick Barnett, Dima Ruinskiy,
-Sanford Whiteman DBA (HBD), Licinio Branco, Robert Lewis, Daniel
-Spence, Jerome Yurow, Dimitri Alymow, Nicholas Rees, Frank A. Krentz,
-Arturo Altreche, Robs Domain, Ivo Slagers, Klaus Tiedmann, George Daws,
-William Pappan, Zorka Romanovic, Robert Clark, Sergio Mazza, Jan Wade,
-John Yonatta, Robert Whiteley, G.R. Stead, Michael Keel, Heather Brett,
-Omar U.R. Flores, Stephan Daily, Olson C. Rogers, Alexander Drozdov, <span id="result_box" lang="en"><span class="hps">Roger</span> <span class="hps">G�mez del</span> <span class="hps">Casal, </span></span>Lewis
-Footring, Jones Griffith, Paul Derksen, John Jackson, Prasith Kim Aun,
-Charles Mansfield, Michael Carpenter, Sylvian Bourcier, Andy Taylor,
-Daniel Parrish, Stephen Samela, Victor P. Dura, Malcolm
-Johnson, Julien Paquin-Saikali, Maurice Scheepers, Findlay Niederle,
-Hue-Tsi Wu, Michael Park, Aaron Caselle, Gerard Arthus, Amber Kronberg,
-Rico Palallos, Michel Torsin, David Lord, Marian Anca, Alex Rolfe,
-Gabriel Fas Mar�n, Finn E. Christiansen, Joan Korenman, Stephen
-Stanziano, Marc Smith, Rebecca Sweet, MozillaUser233, Harry Dickson,
-Carl Jarrett, Jose R.O.Y. de la Torre, Alexander Taran, Howard White,
-Norbert Freudenberg, FOSShub, Susanne Swolinski, Norman Carey,Susan
-Beaty, Dayle DeLancey, Kenneth Neeser, Ruth Richardson, John
-Kinsworthy, Jess Walczak, John Bufka, David Allewell, Thomas
-MacFarlane, Linda Spindler, Pierre Deloince, Tony Palmiere, Ekaterina
-Simerzin, Alan Stewart, Bitforge Solutions, Oleksandr Tugaienko,
-Elizabeth Wain, David's House, BackFence Network, Braden Flowers,
-Christiaan Knaap, Andrew Pocock, Tom Hartke, Roger Willsher, Paula
-Unkel, Mark Matthewman, Michael Waldeck, Wm Alan Harben, James
-Pietruszka, Gerard Marsaly, Duke Grable, Joseph Phillips, Wendy Harris,
-John Carroll, David Brown, Videotel Security Group, Chakhnovski
-Alexandre, Haakon Ellefsen, Audrey Beck, Brion Phy, Richard Zavala,
-Benjamin Backus, DeLoe Mathatas, Robert Whiteley, A.P. Godwin, Richard
-Christnot, Fabien Ragavan, Michael Hoss, Gary Taylor, Mirta
-Smith-Trevino, Aleksi Volj��, Adam Fathauer, Teo Kos, George Harnett,
-Bradley Huff, Pioneer Spirit Enterprises LLC, Victor P. Dura, Brian K.
-Brands, Tena Williams, Dan Acree, James Pruett, Armin Gruber, Nicolas
-Mohamed, Ivan Heredy, Paul Jimerson, Chris Amley, John Mariette,
-Maurice Head, William Niner, Ed Maner, Jay Manifold, Donna Dover, Dana
-Arnason, Dennis Prager, Sentry9000 Inc., Alfred Harral, David
-Thomasson, Robert Andras, Randi Gifford, William Batdorf, Marc Keralla,
-Gilbert Casey, Steven Belmont, Carol Brown,
-Robert Foster, Kay Bryant, William Dobbs, Joseph Consalvi, David
-Myrick, Mike Fjellanger, Lowell Swank, John Germanier, Peter Perakos,
-Robert Metzger, John Hubbard, James Brown, Joseph Lauterio, John
-Skubick, George Stephanos, Dennis Tostenson, Claudia Trujillo, Jeannie
-Ash, Shannon Wittman, Clark Shaw, Daniel Nolan, Alexander Krol, Earl
-Hayter, James Paty, Michael Kawasaki, Larry Abbott, Charles LeHardy,
-Donald R. Reilly, Jose R. Morales Jr., Mary E.V. Hill, Ian Campbell,
-Carol von der Lin, Bucherstub, Roy Hobbs, Paul Burford, William
-Merryman, Marcel Jansen, Ed Maner, Gary Oriani, Wade Griffin, Bryant
-Tate, Steve Bates, Billy Sykes, James McCloskey, Neil Weicher, Aaron
-Obitz, Banwynn Oakshadow, Eugene Baena, Travis Smith, Bruce Balfour,
-Jonathan Bright, Thomas Sparrow, Michael Carroll, William Copenhaven,
-Stefan Linke, Al Marshall, H. Sanders, David R. Williams, Matt Otter,
-Marc Audier, Frank Carlton, Ray Bucklin, Susan Wendland, Alida
-Hebenstreit, Eric Zepp, Thomas Anger, James Knutson, Nelson Bowers,
-Kimberly Distribution LLC, Earl Hayter, Julie Bishop, Richard Ng,
-Amanda Mefford, Mike Sandy, Bart Furey, Donna Barr, Kurt Verboom,
-Michael Bohmbach, Jacque McNeely, David Q. Conejero, Rogelio J.
-Elizondo, Bernard Drozd, William Whitmore, John M. Smith, G.C. Buck,
-David Casey, Robert Goring, Jason Clark, Bruce Kier, Carol Rogers, Mark
-Barton, Gary Cress, Michael E. Powell, Stefan D�llinger, William
-Copenhaven, Larry Kennard, Larry Clark, Edward propes, Nikos Ioannidis,
-Thomas Arnold, Zdenek Trojanek, Susan Chamberlin, Richard Jones, Alexey
-Korchmar, Kevin Madden, Ivan Dimitrov, Philip Beattie, Judy Kuncher,
-Thomas Jones, Philip Salkie, Thomas Kirwan, Nikki Ryan, Remi Callerisa,
-piroJOKE, Michael Szirtes, Henry Stern, Jack van Nostrand, Mike Morris,
-Maurice Baxter, Gary Andersen, Donald Richardson, Paul
-Kervin,Aliaksandr Dzeshchanka, Jeffrey Adamo, Klaus Tiedmann, Jeffrey
-Pikul, Robert Wright, Randa Bell, Jeffrey Abbishaw, Thomas Jenkins,
-Perry Phillips, Royal Maka, Ove V. Vollan, Robert Kvanbeck, Peter
-Biggs, Patrick Mackey, James Bromley, Joe Vogler, Forrest Whitman,
-Salem Almuhairi, Sid Pool, Janet Skilbeck, Gord Schneider, David Brown,
-Charles Pole, Trevor Williams, Willem Zabel, John Davie-Thornhill,
-Crossroads Computer Consulting, Lindsay McKeon, Keith Soreng, Mick
-Mowchenko, Edward Collet, Christopher Staffa, Bard Mikkelsen, Brion
-Phy, Jais larsen, Rudolf Eyberg, Oldrich Preiss, Jeannie Ash, Audrey
-Beck, Garry Herbert, Manel Ramirez, Adrian Asencio, Addison Fischer,
-Trevor Williams, Brent Woodbridge, Francesca Sutton, Kevin Hobbs,
-Bernard Glass, Peter Chapa, Michael Andrews, Michael Hussinger, Steven
-Jewett, Shannon Wittman, Paul Glaser, Gary Cress, Fehmi Yucer, C.H.
-Loh, Yuriy Khapochkin, Renaissance House, Lew Fleming, Michael Lim,
-Erik Wilson, Basil Irwin, Ian Louden, Patricia Scott, William Tisdale,
-Bard Mikkelsen, Ibrahim Allaf, Lincoln Lashley, Oscar Lee, Joan M.
-Miccolis, Mike Froehlich, J.D. Miller, James Lutter, Cephissus LLC, Ron
-Muzinski, David Johnson, Bob Paoluccio, Dorothy Staley, Jay Geraldi,
-David Allewell, Pranay Bansod, King Tam, Potvorov Dmitriy, Walter
-Schmidt, Stephen Rosello, Grayson Porter, Frances Levitansky, Gerald
-Gagnon, Wanda Glass, Steve lamb, Andrew day, Klaus Tamminen, Everett
-Guerney, Maurizio Vacchi, George Daws, Francisco Espanol, Mark Brown,
-Robert Wilson, Steven Johnson, Neil Stierhoff, James Reeves, Lew
-Fleming, Oiva Kangas, Anthony Miller, Peter Winterflood, Richard
-Jacobs,Michael Flippo, Richard Smith, Robert Foster, John C. Moulder,
-Devra Wiseman, Stephen Mican, Van Grube, Anne Brodie,
-Jessica McGeary, John Watson, Darren K. Smith, Thomas Young, Steven
-Nicholson, Holly L. Hirzel, Darrell Ostrom, Bernd Berger, Shari E.
-Botzet, Fabio Mazzotta, Gerald Main, Benjamin Dudley, Charles Bennett,
-Stephen Forbush, Michael Smith, Matthias Prager, Howard E. Cartee,
-Daniel Jacob, Michael Rogers, Linda Kupsamy, Michael Mina, Gareth
-Thomas, Rev. Jerry Montgomery, Gordon Goody, Travis Wine, Paul
-Jimerson, Myles Olson, Ingemar Lund, John Hinds, Andre Landschulz,
-Richard Merit, Kent Malinowski, David Casey, Robert H. Samia, Dave
-Tremellen, David Baynard, Daniel Nolan, Pascal Fran�ois, Laura Haglund,
-Norman Goodis, David Blumenthal, Margaret M. Buechele, Chris Meissner,
-Daniel Lembke, Travis Wine, Graham White, Russell Alexander, Anthony
-Pitcher, Gis�le Texier, David Thompson, Mark Brown, Douglas Magill,
-Doug
-Thompson, Michael O'Hare, Carl Horrocks, Rolf Imobersteg, Viktor Szepe,
-Peter Perakos, Maurice Head, Charles Mullen, John Mustain, Kathy
-Benson, John Dawkins, Ralph Engelen, John Byrd, Juuso Kaitila, Duncan
-Duvall, Jonathan Bright, Claudia Trujillo, Ren� Hollenweger, Eugene
-Baena, Julian Mast-Ingle, Maurizio Grossi, Noah Wilkinson, Mark
-Mullins, Laurita Hayes, Bernd Leistikow, Boyang Li, Doke Scott, Michael
-Carey, James Spencer, Ruben Varela, Christina Na�, Koll�nyi Tam�s,
-Nisley Micro Engineering, Martin Kissner, Kenneth de Montigny, Mike
-Jesinski, Austin Maier, Michael Coogan, Neil Weicher, Johan
-Uytterhaegen, Frank Hoffmeister, Jonas Lang, Steve Lamb, Simone
-Frotten, Gabriele Tozzi, Ernst Brewer, Kuo-Chang Wang, Emile
-Trienekens, Robert Noble, Stephen Daly, Arthur Chapin, Ronald van
-Wegen, Tracy Pulkrabek, Carl Hoffman, James Freeman, Tony Skourtas,
-Daniel Beschorner, Gary Trus, Mark Betz, Philippe Curtil, Sandy Walker,
-Logic Computers Ltd., Eric Oliver, John Nunn, Randall Spears, Carl
-Barry, Dima Ruinskiy, Robert Bjorkland, Theresa Hensler, Federico
-Bertolini, Trevor Lehmeyer, Daniel Gauthier, Frederick Barnett,
-BitVapor, John Champion, Michael Varhola, Randall Laponuke, Edouard
-Aubin, Gary Cress, Terje K. Nilssen, Mike Kemble, Claudia Layman,
-Angelo Primarolo, Daniel Marino, Marshall Wilson, tx nite, John
-Finlayson, Rudolph Busho, Bernard Carbajal, Charles Barnes, Terry S.
-Cartier, Cheri Lauritsen, Chris Leighton,Paul Kristiansen, William
-Berry, Eric Arnol-Martin, Rutkowski, Terry S., Larry Short, John
-Farnham, Ed Maner, Warren Fountain, Stuart Visser, Dan Carr, Paul
-Douglas, Ian MacDonald, John Amaro, Thomas Gaukel, Duncan Duvall, Bob
-Souer Productions, Shane Karriker, Sergey Bryksin, Ivan White, Peter,
-Perakos, David
-Q. Conejero, Goran Spitzer, Greg Guthrie, Trevor Gillett, Michael
-Castro, Shannon Wittman, Keith Billmore, James Paty, Daniel Nolan,
-Alfred Heer, Denis J.O. Sullivan, Herman Ausprung, Aaron Carlisle,
-Mitch Ames, Michael Lewin, Robert Whiteley, GJM v/d Laar, Nico
-H�nschen, David Slye, Philip Geneste, Thomas Sparrow, Michael Carroll,
-Lynford Burley, Sandra Woodruff, Clemens Wilhelm, Michael Mashburn,
-Alexander Krigsfeld, Robert Corfield, Faramarz Rabii, Salvador
-Trujillo, Jos Polman, T~n~T Designs, Richard Shewchuk, Linda Spindler,
-Nicholas Thyer, Autoimmunity Research Inc., Dex Osborne, Alfred Smith,
-David Surovik, Andreas Simionovici, Martin Bohm, Raymond Hoang, Peter
-Chow, Richard Freas, Leonard Soukup, Robert Wilson, Krish Nayar, Thomas
-Horyczun, Keith Burnell, Sherry Mickelson, Maurice Scheepers, Ale&#353;
-Lal�k, Leslie Richardson, Sunpob Deeprasertwit, Edward Howdershelt,
-Darwin Pope, Allan Rogers, Kim Bagarn�s, John Wasilchick, Chris
-Leighton, Ronny Schuerer, Lew Fleming, Philip L. Manhard, Uwe
-Preussler, Tim Bazuin, Ryan Connon, Jennifer Cohen, Maciej Sumi&#324;ski,
-Bruce Gowans, Nicholas Cultrara, Irving Prais, James Paty, Rapha�l Loy,
-Daniel Nolan, Rudi Eddy, Claude Kintziger, GJM van de Laar, Giles H.
-Matthews, Michael O'Hare, Fred Chapman, Timothy Talley, Andrew Gordon,
-Louise Raheb, Ty Ishibashi, Dan Kerl, Paul Cairns, Zdenek Trojanek,
-Mike Pollock, Brandon Sizemore, Harry Noetzel, Gary Oriani, QCR, Noah
-Wilkinson, John Wasilchick, Paul Rothenberg, Raj Tiwary, Mary Ann
-Dolce, Peter Knazko, Radek Liska, Sreenivas Cherukuri, Alex Slatalla, Vartkes Goetcherian, Luca Burelli, Sharon Hioki, Gary Cress, Anupam Srivastava, Hun Gim, Jacent Tokaz
- </div>
-<br>
-      <div style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;"><span style="font-weight: bold;">Note:</span>
-this list only includes the names of people who have made a notable
-contribution - for monetary donations, this means a donation of at
-least $5, other listings are at the developer's discretion. <span style="text-decoration: underline;">All donations and support are
-greatly appreciated</span>, of course, but there
-are a few tiers to keep in mind. $5 or more will get your name listed
-here. $25 or more will get you a little something in the mail. $100 or
-more and I'll send you an exclusive art print by my hand (please contact me if interested to arrange
-this!)<br>
-      </div>
-      <span style="font-weight: bold;"></span><br>
-      <span style="font-weight: bold;">Wall of shame:</span><br>
-Lenard James (illegitimate chargeback on donation)<br>
-      <br>
-      <a href="/">[&lt;- Back]</a><br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" --> <br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon - Donations and support
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c14 {background-color: #F9F9F9}
+    td.c13 {vertical-align: top; text-align: center;}
+    td.c12 {vertical-align: top;}
+    div.c11 {text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;}
+    span.c10 {text-decoration: underline;}
+    div.c9 {text-align: justify; font-size: 10.5pt; letter-spacing: normal; line-height: 1em;}
+    div.c8 {font-size: 11pt;}
+    span.c7 {font-weight: bold; color: red;}
+    span.c6 {text-decoration: line-through;}
+    div.c5 {margin-left: 40px;}
+    div.c4 {text-align: center;}
+    span.c3 {font-weight: bold;}
+    span.c2 {font-weight: bold; color: rgb(153, 0, 0);}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c12">
+            <h1>
+              Pale Moon Donations and Support
+            </h1>If you enjoy this free browser enough to want to give something in return, there are several ways you
+            can support development of Pale Moon. <span class="c2">If you want your donation to remain anonymous,
+            please make sure to let me know!</span><br>
+            <h2>
+              Monetary donations
+            </h2>You can transfer money by using one of the following methods:<br>
+            <ul>
+              <li>Paypal - this is a well-known US-based electronic money provider. You can use the donation buttons on
+              the <a href="http://www.palemoon.org/">Pale Moon home page</a> or <a href=
+              "http://start.palemoon.org/">Pale Moon start page</a> to make a donation through PayPal.<br>
+              </li>
+              <li>Skrill (formerly Moneybookers) - this is a European-based electronic money provider similar to
+              PayPal, with lower fees and better monetary regulation, accepted world-wide with many options for
+              payment/funding (no credit card required to use it).<br>
+                Simply transfer money as a personal transfer (yellow "send money" button) to<br>
+                Name: M.C. Straver<br>
+                E-mail: moonchild [at] palemoon.org<br>
+                Don't have an account? <a href="https://account.skrill.com/signup?rid=8464524">Sign up here.</a>
+              </li>
+              <li>Bank (wire) transfer<br>
+                For people living in the EU, this is an option as well (sorry, I don't accept wire transfers from
+                outside the EU zone due to fees) as long as your bank offers SEPA transfers. Contact me to get the bank
+                details.
+              </li>
+              <li>Bitcoin: You can donate any amount you wish to Moonchild Productions' wallet:<br>
+                <div class="c4">
+                  <span class="c3">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</span><br>
+                </div>Please note that Bitcoin is anonymous by nature and you will not be listed by name on this
+                page.<br>
+              </li>
+              <li>Litecoin: A different, popular cryptocurrency. Feel free to donate any amount to:<br>
+                <div class="c4">
+                  <span class="c3">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</span><br>
+                </div>Please note that Litecoin is anonymous by nature and you will not be listed by name on this
+                page.<br>
+              </li>
+              <li>Other cryptocurrencies are accepted too! See <a href=
+              "http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
+                </li>
+              <li>Sending cash (bills only please, no coins)<br>
+                If you prefer, you can also send a donation in the form of cash (any currency accepted, but Swedish
+                Crowns preferred. Sending money in an envelope is always at your own risk; please make sure to not make
+                it obvious as it may get stolen by postal workers in that case.<br>
+                Send to:<br>
+                <div class="c5">
+                  M.C. Straver<br>
+                  Skrivaregatan 2<br>
+                  58649 Linköping<br>
+                  Sweden<br>
+                </div>
+              </li>
+            </ul>
+            <h2>
+              Donating development hardware
+            </h2>If you wish to donate (surplus) hardware to help development of Pale Moon, you should contact me by
+            e-mail at moonchild [at] palemoon.org to discuss if what you wish to donate will be useful for me (saves
+            unnecessary shipping expenses and saves stuff taking up my floor space ;) ).<br>
+            <br>
+            Currently, I could use, specifically:<br>
+            <ul>
+              <li>
+                <span class="c6">A new large-capacity (4 TB or larger) SATA-drive for backup purposes or a
+                large-capacity (&gt;500GB) tape drive+media</span><br>
+                Enough was donated for a proper NAS device. Thanks everyone!<br>
+              </li>
+              <li>A development class OSX 10.8+ Macintosh computer (to be able to build Pale Moon for Mac)
+              </li>
+            </ul>
+            <h2>
+              Donating services
+            </h2>If you want to supply services to help pale Moon development, there are a few possible areas you may
+            be able to help. Please contact me to discuss this.<br>
+            <br>
+            Potential service areas:<br>
+            <ul>
+              <li>Advertising! Spread the word, launch an ad campaign, tell your friends, hand out flyers, etc.<br>
+              </li>
+              <li>File hosting (burst capable, direct-link capable, zero-ads) (any location except DE)<br>
+              </li>
+              <li>Cloud computing services/build machines<br>
+              </li>
+              <li>Any other service you think may be of benefit to Pale Moon development<br>
+              </li>
+            </ul><br>
+            <h1>
+              Thank you
+            </h1>I would like to express my thanks to the following people for their support, in no particular order.
+            <span class="c7">Without your help, support and contributions, Pale Moon would not have been
+            possible!</span><br>
+            <br>
+            <span class="c3">Testing and moral support:</span><br>
+            Cole Hughes, Colin Moran, Gerardo Rubio, Daryl Sprint, Jason Sullivan, and the beta testers on the
+            forum.<br>
+            <br>
+            <span class="c3">Special thanks to the following people for chipping in for required development
+            tools:</span><br>
+            <div class="c8">
+              Jason Sullivan, Bruno Langelaan, Anthony Grobe, Maximilian Magana, Travis Anderson, Michael Wakunda, Jose
+              Arellano, Roger Taylor, David Wales, Aurimas Grigas, Ezio Aditore, John McNamara, Rógvi D. Clementsen,
+              Temple Martin, David Khoo, Floyd Drennon, Ryan Clemens, Stephen May, Robert McLean, Michael Larsen, Will
+              Rolison, Tracy Romine, Timothy Lamb, Alain McKinnon, Kentaro Uematsu, Marc Finerty, Damjan Gerl, Chris
+              Chokan, Jeff Lee, Greg Stone, Ton Sonneveldt, Mark Ewald, Rick Lund, 春名 五月, Don Hay, Mirko Breßler and
+              some people who prefer to remain anonymous.<br>
+            </div><br>
+            <span class="c3">Special thanks to the following translators for their efforts in localizing Pale
+            Moon:<br></span>
+            <div class="c8">
+              O. Roth (ReinekeFux), Archaeopteryx, Endor, KNTRO, Gerardo Rubio "Lobocursor" Perez, José I. Plaza,
+              Carlos Mella, Jarpo, Jojaba, Yodli, Morinaga, Bovirus, Hikaru Murai, RohithNS, Lee Kangsan, Nui Parishi,
+              Дмитрий Черкасов, Mikael Hiort af Ornäs, Wang H.K., Phil Chan, Leo Lee, Kamil Drozdek, Rogério
+              Queiroga.<br>
+            </div><span class="c3"><br>
+            Donations</span> <span class="c3">(monetary or otherwise)</span> <span class="c3">and other
+            support</span><span class="c3">:</span><br>
+            <div class="c9">
+              Cory Westropp, James Bass, Natalia Janeiro Pita, Michael Hunter, George W. Skuse Jr., Mirko von
+              Elstermann, Ky Tat, John F. Allen, Adam Kirchgassner, Casey Brooks, Vojtech Behuncik, Jerry Hung, Michael
+              Law, Lee Brown, Manuel la Fosse, Chris Finlayson, Bas Bleijendaal, Ian Scott, S.K. Brown, Solon Zhu,
+              George Tillmon, David E. Wilson, Doris DeNudt, Dale Raggatt, Dave Wijnhoven, James Cross, Irving Prais,
+              Denis James Prosser, Andrew Bozinoplouos, Edward Whiteaker, Grant Holman, Ianp (braveheart_leo),
+              Christopher Thompson, Luc Bell, Alan Bischof, Markus Schweizer, LouAnne Stachowski, Steve Cramer, Chris
+              Horace (and son), James Camper, Bernard Olij, Robert Tipping, Poggi Paolo, Tom Molnar, Rob van den
+              Sigtenhorst, Tsali Peleg, Wolfgang Stanke, Victor Saltmeris, Alfredo Heredero Bellot, Isabel Guinder,
+              Jonathan Millet, Colin Booth, David Vogl, Jacob M. Ross, Bart van Zoest, Robert Harvan, Rufo Moreno
+              Fernandez, Henry Eisenson, Louise M. Head, Thomas D. Rouncefield, David Pyke, Faye Reynolds, Paul
+              Carlson, Leon Grekin, James Soden, Dean Graham, Norman Hunter, David Tice, Dick Girard, Terence Truscott,
+              HL7 Systems &amp; Services, Mike du Pau, John Kruger, Donna Logan, Victor Saltmeris, Leopold Akpabio,
+              S.G. Collins, Matthew Nitti (Zatzai), Howard Verne, John-Paul Coetzee, Thomas Saunders, Al Hughes, Graham
+              Sewell, Robert Wilson, Markus Philipane, Michael Olson, Klaus Mahr, David Delmar, Andrew Taub, Don Hay,
+              Rhonda Morales, Garth Ponsonby, Kris Bernardic, Mark Orleman, Frank Klett, Øystein A. Sæther, Brian
+              Davies, Mike Bennett, Mats Danielsen, Kurt Edwards, Stefan Rasch, Stephen D'Orazio, Vyacheslav Sergeev,
+              Richard Schoenfeldt, Jeff Lee, Michael Noble, Dave Crowder, Robert Whitney, Michael Carroll, Michael
+              Frazier, Mark Dozbaba, Rebecca Sweet, Lars-Ove Landsverk, Johannes den Boer, Gail Mahabirsingh, Brian
+              Trudeau, Omar Alomair, Vladimir Yemelyanov, Sparkling Carpets Inc., Jörg Juchems, Glenn Bennett, Simon E.
+              Parker, Thomas Nelson, Dallas Eschenauer, Jo Singstad, Andrzej Krol, Marcos Coelho, Claudia Chuba, C.P.
+              Humphries, De Marco LLC, The Phoenix Gate, James Williams, Hayes Anderson Ltd., OtakuBooty, Aleksandr
+              Milykh, Lisa Hatt, Fiber Mosaics Inc., Michael Veltman, Paul P. Boyd, Pierre Jeunehomme, Bruce Anderson,
+              Simon Schofield, Caitlin Richardson, Louise Lee, Ferdinand J. van Dop, Daniel Dirr, Eric Hancock, Darko
+              Ostoja/Ratko Vujicic, Adrian Davis, James Mingee, EDSI, Richard Hartzell, Robin Gilliver, 石井 正将, Larry
+              Beattie, Jaime Ossio, Clarence Abbott, Michael Werner, Ragnar L. Björnsson, Achille Toro, Robert McLean,
+              Jens Minnack, Bonnie Perkins, Bill Ash, Paul Eaton, George Veigue, Yoshiaki Kinukawa, Doommantia, Susan
+              Duncan, Amanda Betancourt, Kit L. Lo, Robert Cantalupo, Gregory Flewelling, Angelo Morgante, Ernies's
+              Machinery Inc., Janice L. Ferdinand, Framton Goodman, Roberto J. Silos III, Michael Abbott, John
+              Windisch, Adalberto Hernandez, William Driver, Gregory Atkins, Richard Scheurle, Dan H. Todd, Andre
+              Engels, David P. Hughes, Mark Mizhen, Kenneth Hultman, Kenneth Roberts, Paul Deeds, Janet Rosecan, Aric
+              Dallas, Marco Guglieri, Marc Jackson, Marian Rakusan, Michael Ingram, Robert Fricks, Carl Jarrett, Gérald
+              J. Croteau, 森 哲, Don Hay, Perry Phillips, Lyke Dekens, Nelson L. Renninger, Pranay Bansod, 川中 良太, John
+              Mambo, Russell Whaley, Amanda V.M. Christie, Darshil Shah, David Wignall, Rick Lund, Matt Phelps, Peter
+              Holmes, Al Borowski, Janice L. Ferdinand, Artwolf, Brent Fergusson, Gina Parosa, Lewis Dawson, D.M. Cope,
+              Dilip Sinha, Jais Larsen, Western Backup Solutions, Reed Treible, Tobin Michael, Matthew Friede, Gregor
+              Schlabitz, José Luis Pérez Peinado, Paolo Petriccione, Filippo Bottega, Stephen Spangle, Richard Sams,
+              Francisco J.S. Azofeifa, Dallas Eschenauer, Gérald Croteau, Casper M. Jensen, Andrew Fraser, Fernando
+              Sampaio, Abe Clark, Maurice Foulon, Michael Augustson, John Huisman, Sebastian Sawa, Jennifer Patullo,
+              Michael Shultz, David Richards, Jeff Powell, Christopher Edmondson,Yuko Mattingley, S. Bruce Danyluk,
+              Dimitri Casu, Perry Phillips, John Stanish, Elizabeth McDowell, Tom Weaver, Konstantin Chertkov, Peter
+              Martin, Hue-Tsi Wu, Willem Missault, George Mentzikof, Minasian Garik, Peter DiVergilio, Steven
+              Bussinger, Zachary T. Heise, Roger Alwang, Adriaan de Jager, Jean Fourquet, Emre Schveighoffer, William
+              Hahn, Ekaterina Simerzin, Carlos Carreira, Greg Lefsrud, Herbert Hansen, Joel Barnett, Charles Lasitter,
+              Bo Jensen, Gliktch, Robert Taylor, Andres Aule, John Littleton, Max Pinner, Dan Norman, Histosoft
+              Corporation, Michael Morrison, Jerome Yurow, Craig DeHaan, Arie Hartland, Robert Corfield, Gastón
+              Salgueiro, Perry Phillips, Gordon Griswold, Joseph Neri, Glenn Gardner, Frank Cornett, Adriaan van
+              Breugel, John A. Ballou, Robert Quintrell, Tim Bazuin, Donald Flanders, Walter Chatelain, Petr Dusek,
+              John Burrows, Findlay Niederle, Anthony Rice, Cable &amp; Wireless Technologies Inc., Gioia Guerrieri,
+              Abdulrahman Aljefri, Dennis Wysocki, Discover The South, Kamil Kaźmierczak, Robert Bradford, Rodney
+              Fiddaman, Maha Samuel, Norman Goodis, Carol Ruppe, Frederick Barnett, Dima Ruinskiy, Sanford Whiteman DBA
+              (HBD), Licinio Branco, Robert Lewis, Daniel Spence, Jerome Yurow, Dimitri Alymow, Nicholas Rees, Frank A.
+              Krentz, Arturo Altreche, Robs Domain, Ivo Slagers, Klaus Tiedmann, George Daws, William Pappan, Zorka
+              Romanovic, Robert Clark, Sergio Mazza, Jan Wade, John Yonatta, Robert Whiteley, G.R. Stead, Michael Keel,
+              Heather Brett, Omar U.R. Flores, Stephan Daily, Olson C. Rogers, Alexander Drozdov, <span id="result_box"
+              lang="en"><span class="hps">Roger</span> <span class="hps">Gómez del</span> <span class=
+              "hps">Casal,</span></span> Lewis Footring, Jones Griffith, Paul Derksen, John Jackson, Prasith Kim Aun,
+              Charles Mansfield, Michael Carpenter, Sylvian Bourcier, Andy Taylor, Daniel Parrish, Stephen Samela,
+              Victor P. Dura, Malcolm Johnson, Julien Paquin-Saikali, Maurice Scheepers, Findlay Niederle, Hue-Tsi Wu,
+              Michael Park, Aaron Caselle, Gerard Arthus, Amber Kronberg, Rico Palallos, Michel Torsin, David Lord,
+              Marian Anca, Alex Rolfe, Gabriel Fas Marín, Finn E. Christiansen, Joan Korenman, Stephen Stanziano, Marc
+              Smith, Rebecca Sweet, MozillaUser233, Harry Dickson, Carl Jarrett, Jose R.O.Y. de la Torre, Alexander
+              Taran, Howard White, Norbert Freudenberg, FOSShub, Susanne Swolinski, Norman Carey,Susan Beaty, Dayle
+              DeLancey, Kenneth Neeser, Ruth Richardson, John Kinsworthy, Jess Walczak, John Bufka, David Allewell,
+              Thomas MacFarlane, Linda Spindler, Pierre Deloince, Tony Palmiere, Ekaterina Simerzin, Alan Stewart,
+              Bitforge Solutions, Oleksandr Tugaienko, Elizabeth Wain, David's House, BackFence Network, Braden
+              Flowers, Christiaan Knaap, Andrew Pocock, Tom Hartke, Roger Willsher, Paula Unkel, Mark Matthewman,
+              Michael Waldeck, Wm Alan Harben, James Pietruszka, Gerard Marsaly, Duke Grable, Joseph Phillips, Wendy
+              Harris, John Carroll, David Brown, Videotel Security Group, Chakhnovski Alexandre, Haakon Ellefsen,
+              Audrey Beck, Brion Phy, Richard Zavala, Benjamin Backus, DeLoe Mathatas, Robert Whiteley, A.P. Godwin,
+              Richard Christnot, Fabien Ragavan, Michael Hoss, Gary Taylor, Mirta Smith-Trevino, Aleksi Voljää, Adam
+              Fathauer, Teo Kos, George Harnett, Bradley Huff, Pioneer Spirit Enterprises LLC, Victor P. Dura, Brian K.
+              Brands, Tena Williams, Dan Acree, James Pruett, Armin Gruber, Nicolas Mohamed, Ivan Heredy, Paul
+              Jimerson, Chris Amley, John Mariette, Maurice Head, William Niner, Ed Maner, Jay Manifold, Donna Dover,
+              Dana Arnason, Dennis Prager, Sentry9000 Inc., Alfred Harral, David Thomasson, Robert Andras, Randi
+              Gifford, William Batdorf, Marc Keralla, Gilbert Casey, Steven Belmont, Carol Brown, Robert Foster, Kay
+              Bryant, William Dobbs, Joseph Consalvi, David Myrick, Mike Fjellanger, Lowell Swank, John Germanier,
+              Peter Perakos, Robert Metzger, John Hubbard, James Brown, Joseph Lauterio, John Skubick, George
+              Stephanos, Dennis Tostenson, Claudia Trujillo, Jeannie Ash, Shannon Wittman, Clark Shaw, Daniel Nolan,
+              Alexander Krol, Earl Hayter, James Paty, Michael Kawasaki, Larry Abbott, Charles LeHardy, Donald R.
+              Reilly, Jose R. Morales Jr., Mary E.V. Hill, Ian Campbell, Carol von der Lin, Bucherstub, Roy Hobbs, Paul
+              Burford, William Merryman, Marcel Jansen, Ed Maner, Gary Oriani, Wade Griffin, Bryant Tate, Steve Bates,
+              Billy Sykes, James McCloskey, Neil Weicher, Aaron Obitz, Banwynn Oakshadow, Eugene Baena, Travis Smith,
+              Bruce Balfour, Jonathan Bright, Thomas Sparrow, Michael Carroll, William Copenhaven, Stefan Linke, Al
+              Marshall, H. Sanders, David R. Williams, Matt Otter, Marc Audier, Frank Carlton, Ray Bucklin, Susan
+              Wendland, Alida Hebenstreit, Eric Zepp, Thomas Anger, James Knutson, Nelson Bowers, Kimberly Distribution
+              LLC, Earl Hayter, Julie Bishop, Richard Ng, Amanda Mefford, Mike Sandy, Bart Furey, Donna Barr, Kurt
+              Verboom, Michael Bohmbach, Jacque McNeely, David Q. Conejero, Rogelio J. Elizondo, Bernard Drozd, William
+              Whitmore, John M. Smith, G.C. Buck, David Casey, Robert Goring, Jason Clark, Bruce Kier, Carol Rogers,
+              Mark Barton, Gary Cress, Michael E. Powell, Stefan Döllinger, William Copenhaven, Larry Kennard, Larry
+              Clark, Edward propes, Nikos Ioannidis, Thomas Arnold, Zdenek Trojanek, Susan Chamberlin, Richard Jones,
+              Alexey Korchmar, Kevin Madden, Ivan Dimitrov, Philip Beattie, Judy Kuncher, Thomas Jones, Philip Salkie,
+              Thomas Kirwan, Nikki Ryan, Remi Callerisa, piroJOKE, Michael Szirtes, Henry Stern, Jack van Nostrand,
+              Mike Morris, Maurice Baxter, Gary Andersen, Donald Richardson, Paul Kervin,Aliaksandr Dzeshchanka,
+              Jeffrey Adamo, Klaus Tiedmann, Jeffrey Pikul, Robert Wright, Randa Bell, Jeffrey Abbishaw, Thomas
+              Jenkins, Perry Phillips, Royal Maka, Ove V. Vollan, Robert Kvanbeck, Peter Biggs, Patrick Mackey, James
+              Bromley, Joe Vogler, Forrest Whitman, Salem Almuhairi, Sid Pool, Janet Skilbeck, Gord Schneider, David
+              Brown, Charles Pole, Trevor Williams, Willem Zabel, John Davie-Thornhill, Crossroads Computer Consulting,
+              Lindsay McKeon, Keith Soreng, Mick Mowchenko, Edward Collet, Christopher Staffa, Bard Mikkelsen, Brion
+              Phy, Jais larsen, Rudolf Eyberg, Oldrich Preiss, Jeannie Ash, Audrey Beck, Garry Herbert, Manel Ramirez,
+              Adrian Asencio, Addison Fischer, Trevor Williams, Brent Woodbridge, Francesca Sutton, Kevin Hobbs,
+              Bernard Glass, Peter Chapa, Michael Andrews, Michael Hussinger, Steven Jewett, Shannon Wittman, Paul
+              Glaser, Gary Cress, Fehmi Yucer, C.H. Loh, Yuriy Khapochkin, Renaissance House, Lew Fleming, Michael Lim,
+              Erik Wilson, Basil Irwin, Ian Louden, Patricia Scott, William Tisdale, Bard Mikkelsen, Ibrahim Allaf,
+              Lincoln Lashley, Oscar Lee, Joan M. Miccolis, Mike Froehlich, J.D. Miller, James Lutter, Cephissus LLC,
+              Ron Muzinski, David Johnson, Bob Paoluccio, Dorothy Staley, Jay Geraldi, David Allewell, Pranay Bansod,
+              King Tam, Potvorov Dmitriy, Walter Schmidt, Stephen Rosello, Grayson Porter, Frances Levitansky, Gerald
+              Gagnon, Wanda Glass, Steve lamb, Andrew day, Klaus Tamminen, Everett Guerney, Maurizio Vacchi, George
+              Daws, Francisco Espanol, Mark Brown, Robert Wilson, Steven Johnson, Neil Stierhoff, James Reeves, Lew
+              Fleming, Oiva Kangas, Anthony Miller, Peter Winterflood, Richard Jacobs,Michael Flippo, Richard Smith,
+              Robert Foster, John C. Moulder, Devra Wiseman, Stephen Mican, Van Grube, Anne Brodie, Jessica McGeary,
+              John Watson, Darren K. Smith, Thomas Young, Steven Nicholson, Holly L. Hirzel, Darrell Ostrom, Bernd
+              Berger, Shari E. Botzet, Fabio Mazzotta, Gerald Main, Benjamin Dudley, Charles Bennett, Stephen Forbush,
+              Michael Smith, Matthias Prager, Howard E. Cartee, Daniel Jacob, Michael Rogers, Linda Kupsamy, Michael
+              Mina, Gareth Thomas, Rev. Jerry Montgomery, Gordon Goody, Travis Wine, Paul Jimerson, Myles Olson,
+              Ingemar Lund, John Hinds, Andre Landschulz, Richard Merit, Kent Malinowski, David Casey, Robert H. Samia,
+              Dave Tremellen, David Baynard, Daniel Nolan, Pascal François, Laura Haglund, Norman Goodis, David
+              Blumenthal, Margaret M. Buechele, Chris Meissner, Daniel Lembke, Travis Wine, Graham White, Russell
+              Alexander, Anthony Pitcher, Gisèle Texier, David Thompson, Mark Brown, Douglas Magill, Doug Thompson,
+              Michael O'Hare, Carl Horrocks, Rolf Imobersteg, Viktor Szepe, Peter Perakos, Maurice Head, Charles
+              Mullen, John Mustain, Kathy Benson, John Dawkins, Ralph Engelen, John Byrd, Juuso Kaitila, Duncan Duvall,
+              Jonathan Bright, Claudia Trujillo, René Hollenweger, Eugene Baena, Julian Mast-Ingle, Maurizio Grossi,
+              Noah Wilkinson, Mark Mullins, Laurita Hayes, Bernd Leistikow, Boyang Li, Doke Scott, Michael Carey, James
+              Spencer, Ruben Varela, Christina Naß, Kollányi Tamás, Nisley Micro Engineering, Martin Kissner, Kenneth
+              de Montigny, Mike Jesinski, Austin Maier, Michael Coogan, Neil Weicher, Johan Uytterhaegen, Frank
+              Hoffmeister, Jonas Lang, Steve Lamb, Simone Frotten, Gabriele Tozzi, Ernst Brewer, Kuo-Chang Wang, Emile
+              Trienekens, Robert Noble, Stephen Daly, Arthur Chapin, Ronald van Wegen, Tracy Pulkrabek, Carl Hoffman,
+              James Freeman, Tony Skourtas, Daniel Beschorner, Gary Trus, Mark Betz, Philippe Curtil, Sandy Walker,
+              Logic Computers Ltd., Eric Oliver, John Nunn, Randall Spears, Carl Barry, Dima Ruinskiy, Robert
+              Bjorkland, Theresa Hensler, Federico Bertolini, Trevor Lehmeyer, Daniel Gauthier, Frederick Barnett,
+              BitVapor, John Champion, Michael Varhola, Randall Laponuke, Edouard Aubin, Gary Cress, Terje K. Nilssen,
+              Mike Kemble, Claudia Layman, Angelo Primarolo, Daniel Marino, Marshall Wilson, tx nite, John Finlayson,
+              Rudolph Busho, Bernard Carbajal, Charles Barnes, Terry S. Cartier, Cheri Lauritsen, Chris Leighton,Paul
+              Kristiansen, William Berry, Eric Arnol-Martin, Rutkowski, Terry S., Larry Short, John Farnham, Ed Maner,
+              Warren Fountain, Stuart Visser, Dan Carr, Paul Douglas, Ian MacDonald, John Amaro, Thomas Gaukel, Duncan
+              Duvall, Bob Souer Productions, Shane Karriker, Sergey Bryksin, Ivan White, Peter, Perakos, David Q.
+              Conejero, Goran Spitzer, Greg Guthrie, Trevor Gillett, Michael Castro, Shannon Wittman, Keith Billmore,
+              James Paty, Daniel Nolan, Alfred Heer, Denis J.O. Sullivan, Herman Ausprung, Aaron Carlisle, Mitch Ames,
+              Michael Lewin, Robert Whiteley, GJM v/d Laar, Nico Hänschen, David Slye, Philip Geneste, Thomas Sparrow,
+              Michael Carroll, Lynford Burley, Sandra Woodruff, Clemens Wilhelm, Michael Mashburn, Alexander Krigsfeld,
+              Robert Corfield, Faramarz Rabii, Salvador Trujillo, Jos Polman, T~n~T Designs, Richard Shewchuk, Linda
+              Spindler, Nicholas Thyer, Autoimmunity Research Inc., Dex Osborne, Alfred Smith, David Surovik, Andreas
+              Simionovici, Martin Bohm, Raymond Hoang, Peter Chow, Richard Freas, Leonard Soukup, Robert Wilson, Krish
+              Nayar, Thomas Horyczun, Keith Burnell, Sherry Mickelson, Maurice Scheepers, Aleš Lalík, Leslie
+              Richardson, Sunpob Deeprasertwit, Edward Howdershelt, Darwin Pope, Allan Rogers, Kim Bagarnäs, John
+              Wasilchick, Chris Leighton, Ronny Schuerer, Lew Fleming, Philip L. Manhard, Uwe Preussler, Tim Bazuin,
+              Ryan Connon, Jennifer Cohen, Maciej Sumiński, Bruce Gowans, Nicholas Cultrara, Irving Prais, James Paty,
+              Raphaël Loy, Daniel Nolan, Rudi Eddy, Claude Kintziger, GJM van de Laar, Giles H. Matthews, Michael
+              O'Hare, Fred Chapman, Timothy Talley, Andrew Gordon, Louise Raheb, Ty Ishibashi, Dan Kerl, Paul Cairns,
+              Zdenek Trojanek, Mike Pollock, Brandon Sizemore, Harry Noetzel, Gary Oriani, QCR, Noah Wilkinson, John
+              Wasilchick, Paul Rothenberg, Raj Tiwary, Mary Ann Dolce, Peter Knazko, Radek Liska, Sreenivas Cherukuri,
+              Alex Slatalla, Vartkes Goetcherian, Luca Burelli, Sharon Hioki, Gary Cress, Anupam Srivastava, Hun Gim,
+              Jacent Tokaz
+            </div><br>
+            <div class="c11">
+              <span class="c3">Note:</span> this list only includes the names of people who have made a notable
+              contribution - for monetary donations, this means a donation of at least $5, other listings are at the
+              developer's discretion. <span class="c10">All donations and support are greatly appreciated</span>, of
+              course, but there are a few tiers to keep in mind. $5 or more will get your name listed here. $25 or more
+              will get you a little something in the mail. $100 or more and I'll send you an exclusive art print by my
+              hand (please contact me if interested to arrange this!)<br>
+            </div><br>
+            <span class="c3">Wall of shame:</span><br>
+            Lenard James (illegitimate chargeback on donation)<br>
+            <br>
+            <a href="/">[&lt;- Back]</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c13">
+            <!--#include virtual="nav/footer.html" --><br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

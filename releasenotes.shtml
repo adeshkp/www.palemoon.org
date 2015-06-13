@@ -1,339 +1,437 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
- <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-    <tr align="left">
-      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <h1>Pale Moon: Release notes</h1>
-      <h3>25.5.0 (2015-06-10)</h3>This is an important maintenance update with mostly under-the-hood changes.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li><span style="font-weight: bold;">Logjam fix</span>: Refuse DHE keys with less than 1024 key bits</li>
-        <li>Search plugin updates to re-enable Google suggestions and reduce tracking (Squarefractal)<br>
-        </li>
-        <li>Allow plugin-specific (.dll based) OOPP overrides also for
-npswf. This will not be used for the "master switch" for OOPP and Flash
-will still be in the plugin container, unless a specific
-dom.ipc.plugins.enabled.npswf*.dll boolean is set to override.<br>
-        </li>
-        <li>Fixed a crash during WebGL Conformance Tests for undefined indices (Toady)<br>
-        </li>
-        <li>HSTS preload list updates (Squarefractal)<br>
-        </li>
-        <li>Status bar locale addition: cs<br>
-        </li>
-        <li>Implemented a fix for the toolkit update service so that
-the same version as the current application will not be offered as a
-valid update (Tobin)<br>
-        </li>
-        <li>Reorganized the AppMenu (give equal ease for windowed and tabbed browsing, deprioritize Sync)<br>
-        </li>
-        <li>Disabled the Sync promo box in doorhangers.<br>
-        </li>
-        <li>Updated libpng to version 1.5.22 <br>
-        </li>
-        <li>Fixed support for builds using newer freetype on Linux. (Axiomatic)<br>
-        </li>
-        <li>Fixed --with-system-pixman builds. (Isaac Dunham)<br>
-        </li>
-        <li>Updated SQLite to version 3.8.10.1<br>
-        </li>
-        <li>Changed the after-upgrade page loaded to the release notes instead of the home page.<br>
-(and hoping people actually do take a moment to read them, preventing unnecessary support requests)<br>
-        </li>
-        <li>Fixed navigator.geolocation - should never be null, to properly adhere to the specification (Travis)<br>
-        </li>
-        <li>Moved paintlock event delay to greprefs, and adjusted it for 2015's heavier sites<br>
-        </li>
-        <li>Fixed the about dialog scripting for pre-release builds (includes build date now as-intended and no longer errors the script)<br>
-        </li>
-        <li>Reorganized how pushed floats are handled in layout flow<br>
-        </li>
-        <li>Implemented a change to run the updater from the install directory instead of copying it.<br>
-        </li>
-        <li>Fixed transparency of the Pale Moon document icon for 256x256<br>
-        </li>
-        <li>Updated padlock code:<br>
-- Added mixed-mode shading, and reorganized shading pref values more logically<br>
-(0=off, 1=secure only, 2=secure+mixed, 3=all)<br>
-- Cleaned up CSS<br>
-- Cleaned up padlock logic a little<br>
-        </li>
-        <li>Hard-coded internal UA sniffing values for the extension legacy of devtools<br>
-        </li>
-        <li>Updated NSPR to 4.10.8</li>
-        <li>Updated the NSS security lib to 3.19-RTM + re-worked Pale Moon changes<br>
-        </li>
-        <li>Bumped the built-in site-specific UA compat mode overrides to v38<br>
-        </li>
-        <li>Fixed a compressed-cache crash due to losing our cache entry while finishing up compression.</li>
-        <li>Updated and patched libcubeb, the main media sound library,
-to fix a number of audio issues (e.g. when switching output device) and
-audio-related crashes<br>
-        </li>
-        <li>Added the option to load modules into a named scope (see <a href="https://github.com/MoonchildProductions/Pale-Moon/issues/88">issue #88</a>)<br>
-        </li>
-        <li>Removed quick access keys for buttons on the updater window
-(since it may pop up unannounced when people are typing, causing them
-to make unintended choices)<br>
-        </li>
-        <li>Updated jemalloc and mozjemalloc memory allocator libraries to improve performance<br>
-        </li>
-        <li>Removed implicit access to a whole range of internally-used
-interfaces and classes that page content has no business calling anyway</li>
-        <li>Added a preference for always preferring a certain dictionary language.<br>
-To use this, create a new preference <span style="color: rgb(51, 102, 102); font-weight: bold;">spellchecker.dictionary.override</span> (string) and set it to your language code.<br>
-        </li>
-
-      </ul>
-More information about changes in this version that would be important
-for extension developers and web programmers can be found <a href="https://forum.palemoon.org/viewtopic.php?f=5&amp;t=8474">here</a>.<br>
-      <br>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Fixes for miscellaneous memory safety hazards (relevant and applicable fixes from CVE-2015-2708 and CVE-2015-2709)</li>
-        <li>DiD (defense-in-depth) fix to prevent potential overflows in CSS restyling</li>
-        <li>Fix for updater hijacking (CVE-2015-2720)</li>
-        <li>Fix to prevent potential disclosure of sensitive information in Android logs (CVE-2015-2714)</li>
-        <li>Fix for a buffer overflow in the XML parser (CVE-2015-2716)</li>
-        <li>Fix for a potentially exploitable crash in DNS handling<br>
-        </li>
-      </ul>
-      <h3>25.4.1 (2015-05-10)</h3>
-This is a small but important update to the previous major release to address some critical issues:<br>
-      <ul>
-        <li>Fixed loss of the browser's disk cache on startup due to incorrect corruption detection logic<br>
-        </li>
-        <li>Fixed a browser crash on some HTML5 games<br>
-        </li>
-      </ul>
-      <h3>25.4.0 (2015-05-08)</h3>
-<span style="font-weight: bold; color: rgb(153, 0, 0);">IMPORTANT: If you use a language pack, make sure to update it to the latest version!</span>
-We do have automatic updates enabled for language packs but please
-double-check that the version matches. If you are using an older
-language pack with this version of the browser, some dialog boxes may
-come up blank.<br>
-      <br>
-This
-is a major update - too much has changed for this little blurb to do it
-justice so please see below for the most important changes/fixes in
-this release:<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-<li>Updated SQLite from 3.7.17 to v3.8.8.3, improving history/bookmark/etc. performance by up to 50% depending on operation<br>
-</li><li>Added a new "mixed-mode" 
-state for HTTPS connections. Clarified mixed-mode connections with a mixed-mode 
-padlock and better tooltips.</li><li>Added
-a conditional partial shading to the URL bar and made it default
-(shading only on secure sites, no red shading at all by default).<br>
-</li><li>Dev: Fixed file system mode flags for *nix systems, to make executable files like scripts actually flagged as executable</li><li>Added native IPv6 lookups to NSPR to solve IPv6-only and dual-stack setups in some situations<br>
-</li><li>Added a pref to control the unloading of idle plugins from
-memory and lowered the default "idle" time to 60 seconds before plugins
-are unloaded<br>
-</li><li>Fixed
- version strings for e.g. flash on Linux being displayed with commas 
-instead of periods - this should also fix the incorrect "your plugin is 
-vulnerable" message while being on the latest version</li><li>Windows: Set the double-click/Ctrl+arrow word selection to <span style="text-decoration: underline;">not</span> eat the space (only select the actual word)</li><li>Android:
-DNS fix for VPN connections, preventing the "server not found" issues
-people have been reporting for certain VPN providers on mobile<br>
-</li><li>Updated a number of trusted root certificates, and distrusted the CNNIC root certificate by popular demand<br>
-</li><li>Linux: Worked around the slice memory allocator not being properly disabled on later GLib versions</li><li>Android: updated the random number generator handling on later versions of Android</li><li>Added fix to prevent spurious re-paints with plugins (performance/UX improvement)</li><li>Removed
-the plugin check link from the Addons Manager, since it's no longer
-reliable and not officially available for browsers except Mozilla
-Firefox. (Bonus: no user profiling/tracking through optimizely!)</li><li>Optimized the NSS callback for secure connections</li><li>Updated
-the domains that are whitelisted for installation of
-extensions/themes/personas, streamlining the use of addons.palemoon.org<br>
-</li><li>Added personas support to titlebar text (adopt the lightweight
-theme's coloring/shading) in custom titlebar mode (Pale Moon
-appmenu/button)</li><li>Added display of HTTPS protocol (SSL/TLS) to the page info window (thanks Travis!)</li>
-        <li>Improved certificate display: Removed MD5 and added SHA256 fingerprint, and made them selectable/copyable</li>
-        <li>Updated
-classification of secure connections: Classify any encryption with less
-than 128 bits or including RC4 (if manually enabled, see previous
-version notes) as weak.</li>
-        <li>Dev: Added availability of
-the full ciphersuite string for use in extensions to the nsISSLStatus
-interface (nsISSLStatus.cipherSuite)</li>
-<li>Added MAKE_UNLINKABLE to the about: page redirector and added that as default for the reader mode on Android</li><li>Removed
-the compilation and inclusion of a one-time-use pre-compiled startup
-cache in omni.ja, reducing overall application size significantly and
-avoiding a number of quirks of both the build process and the operation
-of the browser</li>
-        <li>Fixed an NVIDIA specific GLX server vendor bug for pixmap depth and fbConfig depth</li>
-        <li>Removed most telemetry code, reducing code complexity and wasted CPU<br>
-        </li>
-        <li>Linux: Added OSS support (mutually exclusive with ALSA): configure with --enable-oss</li>
-        <li>Made DNS caching a lot less aggressive to align the browser's behavior with the dynamic nature of the modern web.</li>
-        <li>Removed Mozilla-specific parameters for searches. 
-Search suggestions should now work again for Google searches</li>
-        <li>Added the option to allow users to use a fixed (JSON) file-based geolocation response in favor of a GeoIP service.<br>
-        </li>
-        <li>Dev:
-Improvements to Clang builds (thanks Axiomatic/BitVapor!). Clang is not
-currently producing stable builds on Linux, so please use GCC for that
-operating system.<br>
-        </li>
-        <li>Linux: removed GnomeVFS that's no longer in use</li>
-        <li>Fixed the "double padlock while loading a secure site" niggle in the UI</li>
-        <li>Dev: added allowance of using -moz-appearance:none on
-drop-down lists to hide the arrow button (catering to custom styling of
-the control)<br>
-        </li>
-        <li>Added some more ES6 math/number functions:<br><ul><li>Implemented Math.fround(x)</li><li>Implemented Number.isSafeInteger(x)</li><li>Implemented Math.clz32(x)</li></ul></li>
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Fixed several memory safety hazards (UAF/DF/UU); applicable bugs covered by CVE-2015-0814 and CVE-2015-0815</li>
-        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0811</span> 
-      <span id="short_desc_nonedit_display">[qcms] heap info leak</span></span></li>
-        <li><span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed </span></span><span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810 </span></span>clickjacking attacks via a Flash object in conjunction with DIV elements</li>
-        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0801 a variant of </span></span> CVE-2015-0818</li>
-        <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0800 improve randomness of DNS resolver queries on Android</span></span></li>
-        <li><span id="summary_alias_container"><span id="alias_nonedit_display">Fixed </span></span><span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs through about: redirector</span></span></li>
-      </ul>
-      <h3>25.3.2 (2015-04-25)</h3>
-This
-release is an emergency update to fix crashes that started occurring
-because of Mozilla improperly signing the extensions and extension
-updates as offered through the Firefox Add-ons site addons.mozilla.org.
-Any improperly signed extension would not be able to be installed, and
-would immediately crash the browser.<span style="font-weight: bold;"><br>
-      <br>
-No other changes were made in this release - this is a bugfix for this particular issue only.<br>
-      </span>
-      <h3>25.3.1 (2015-03-25)</h3>
-This
-is a security update to the browser to address a critical vulnerability
-found in the pwn2own contest. Only one vulnerability found in this
-contest applies to Pale Moon, which has been addressed in this update.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>Fixed security vulnerability <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>.
-This vulnerability would allow remote attackers to bypass the Same
-Origin Policy and execute arbitrary JavaScript code with chrome
-privileges via vectors involving SVG hash navigation.</li>
-        <li>Fixed IPv6 DNS resolution regression in some less common cases.</li>
-      </ul>
-      <h3>25.3.0 (2015-03-13)</h3>
-This is an important update to improve features and performance, as well as address important security issues.<br>
-      <br>
-      <span style="font-weight: bold;">Fixes/changes:</span><br>
-      <ul>
-        <li>Overhauled WebGL. It now properly supports depth textures, <a href="demo/shadowmap/" target="_blank">shadow mapping</a> and glow shaders.<br>
-Note that older operating systems or older/embedded video processors may be limited in their support of these features.<br>
-        </li>
-        <li>Updated the ANGLE library to a much more current version.<br>
-        </li>
-        <li>Removed the crash reporter code completely to improve overall browser responsiveness and operation.<br>
-Please note that a necessary victim of this has been the in-browser
-(devtools) SPS profiler because of its reliance on crash reporter
-data-gathering tools.<br>
-        </li>
-        <li>Removed the Mozilla Plugin Finder Service (no longer in use @Mozilla).</li>
-        <li>Android: removed the Mozilla "product announcements" service.<br>
-        </li>
-        <li>Re-added control of the number of concurrent tabs to be restored from a session with <span style="color: rgb(0, 64, 128);">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
-        </li>
-        <li>Significantly improved performance and accuracy of date/time/timer handling.<br>
-        </li>
-        <li>Significantly improved performance of the creation of DOM elements with plain text content.</li>
-        <li>Added several significant performance optimizations for arrays and strings in javascript.<br>
-        </li>
-        <li>Added several code performance optimizations and bugfixes
-in SVG, the presentation shell, SCTP, style gradients and CSS parsing
-routines. (Thanks, Axiomatic!)</li>
-        <li>Added an "Open link in current tab" context menu entry on links for UI consistency.</li>
-        <li>Updated styling of the browser with personas (lightweight themes)
-once more to improve display in tabs-on-top mode, improve overall
-legibility of tab text, and display of inverted close buttons on some controls on dark personas.<br>
-        </li>
-        <li>Added a special case check for the Flash plugin version
-check on Linux failing due to commas instead of periods in the version
-string.</li>
-        <li>Added Windows 10 compatibility in executable manifests.<br>
-        </li>
-        <li>Android: Fixed a crash on GL canvas surfaces.</li>
-        <li>Fixed incorrect Sync "howto" instruction links from the Sync dialogs.</li>
-        <li>Fixed the color of selected tabs in Linux when personas
-(lightweight themes) are in use that do not match the overall tone of
-the OS system theme.<br>
-        </li>
-        <li>Fixed a bug where a variable in parentheses would abort Javascript parsing.<br>
-        </li>
-        <li>Fixed a bug where the address bar would incorrectly be cleared.<br>
-        </li>
-        <li>Fixed padding issues for dropdown lists.</li>
-        <li>Fixed DNS lookups so proper record types are requested for IPv4 and IPv6.<br>
-        </li>
-
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Disabled all RC4-based encryption ciphers by default. <a href="https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
-        </li>
-        <li>Fixed several miscellaneous memory safety hazards.<br>
-(applicable bugs related to <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)</li>
-        <li>Fixed loading of locally stored DLL files through the internal updater. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)</li>
-        <li>Fixed a potential crash point in IndexedDB. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span style="color: rgb(102, 102, 0);">DiD</span></li>
-        <li>Fixed a double-free situation when using non-default memory allocators and a 0-length XHR. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0828">CVE-2015-0828</a>)<br>
-Note: production builds of Pale Moon were never vulnerable.</li>
-        <li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)</li>
-        <li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)</li>
-        <li>Fixed a potential PNG heap-overflow crash. <span style="color: rgb(102, 102, 0);">DiD</span></li>
-        <li>Followed up on research regarding CVE-2014-8639 (see 25.2) and made cookie handling through proxies more restrictive again.<br>
-        </li>
-      </ul>
-      <span style="color: rgb(102, 102, 0);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to an
-actively exploitable vulnerability in Pale Moon, but prevents future
-vulnerabilities caused by the same code when surrounding code changes,
-exposing the problem.<br><br>
-<h1>Release notes for previous versions (unsupported)</h1>
-      <span style="font-weight: bold;"></span>You can find the release
-notes for previous releases of Pale Moon on the <a href="releasenotes-archived.shtml">Archived Versions Release Notes</a>
-page.<br>
-      <br>
-      <span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span></td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
-      <br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon - Release Notes
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <style type="text/css">
+table.c10 {background-color: #F9F9F9}
+    td.c9 {vertical-align: top; text-align: center;}
+    td.c8 {vertical-align: top;}
+    span.c7 {color: rgb(102, 102, 0);}
+    span.c6 {color: rgb(0, 64, 128);}
+    span.c5 {text-decoration: underline;}
+    span.c4 {font-weight: bold; color: rgb(153, 0, 0);}
+    span.c3 {color: rgb(51, 102, 102); font-weight: bold;}
+    span.c2 {font-weight: bold;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c8">
+            <h1>
+              Pale Moon: Release notes
+            </h1>
+            <h3>
+              25.5.0 (2015-06-10)
+            </h3>This is an important maintenance update with mostly under-the-hood changes.<br>
+            <br>
+            <span class="c2">Fixes/changes:</span><br>
+            <ul>
+              <li>
+                <span class="c2">Logjam fix</span>: Refuse DHE keys with less than 1024 key bits
+              </li>
+              <li>Search plugin updates to re-enable Google suggestions and reduce tracking (Squarefractal)<br>
+              </li>
+              <li>Allow plugin-specific (.dll based) OOPP overrides also for npswf. This will not be used for the
+              "master switch" for OOPP and Flash will still be in the plugin container, unless a specific
+              dom.ipc.plugins.enabled.npswf*.dll boolean is set to override.<br>
+              </li>
+              <li>Fixed a crash during WebGL Conformance Tests for undefined indices (Toady)<br>
+              </li>
+              <li>HSTS preload list updates (Squarefractal)<br>
+              </li>
+              <li>Status bar locale addition: cs<br>
+              </li>
+              <li>Implemented a fix for the toolkit update service so that the same version as the current application
+              will not be offered as a valid update (Tobin)<br>
+              </li>
+              <li>Reorganized the AppMenu (give equal ease for windowed and tabbed browsing, deprioritize Sync)<br>
+              </li>
+              <li>Disabled the Sync promo box in doorhangers.<br>
+              </li>
+              <li>Updated libpng to version 1.5.22<br>
+              </li>
+              <li>Fixed support for builds using newer freetype on Linux. (Axiomatic)<br>
+              </li>
+              <li>Fixed --with-system-pixman builds. (Isaac Dunham)<br>
+              </li>
+              <li>Updated SQLite to version 3.8.10.1<br>
+              </li>
+              <li>Changed the after-upgrade page loaded to the release notes instead of the home page.<br>
+                (and hoping people actually do take a moment to read them, preventing unnecessary support requests)<br>
+              </li>
+              <li>Fixed navigator.geolocation - should never be null, to properly adhere to the specification
+              (Travis)<br>
+              </li>
+              <li>Moved paintlock event delay to greprefs, and adjusted it for 2015's heavier sites<br>
+              </li>
+              <li>Fixed the about dialog scripting for pre-release builds (includes build date now as-intended and no
+              longer errors the script)<br>
+              </li>
+              <li>Reorganized how pushed floats are handled in layout flow<br>
+              </li>
+              <li>Implemented a change to run the updater from the install directory instead of copying it.<br>
+              </li>
+              <li>Fixed transparency of the Pale Moon document icon for 256x256<br>
+              </li>
+              <li>Updated padlock code:<br>
+                - Added mixed-mode shading, and reorganized shading pref values more logically<br>
+                (0=off, 1=secure only, 2=secure+mixed, 3=all)<br>
+                - Cleaned up CSS<br>
+                - Cleaned up padlock logic a little<br>
+              </li>
+              <li>Hard-coded internal UA sniffing values for the extension legacy of devtools<br>
+              </li>
+              <li>Updated NSPR to 4.10.8
+              </li>
+              <li>Updated the NSS security lib to 3.19-RTM + re-worked Pale Moon changes<br>
+              </li>
+              <li>Bumped the built-in site-specific UA compat mode overrides to v38<br>
+              </li>
+              <li>Fixed a compressed-cache crash due to losing our cache entry while finishing up compression.
+              </li>
+              <li>Updated and patched libcubeb, the main media sound library, to fix a number of audio issues (e.g.
+              when switching output device) and audio-related crashes<br>
+              </li>
+              <li>Added the option to load modules into a named scope (see <a href=
+              "https://github.com/MoonchildProductions/Pale-Moon/issues/88">issue #88</a>)<br>
+              </li>
+              <li>Removed quick access keys for buttons on the updater window (since it may pop up unannounced when
+              people are typing, causing them to make unintended choices)<br>
+              </li>
+              <li>Updated jemalloc and mozjemalloc memory allocator libraries to improve performance<br>
+              </li>
+              <li>Removed implicit access to a whole range of internally-used interfaces and classes that page content
+              has no business calling anyway
+              </li>
+              <li>Added a preference for always preferring a certain dictionary language.<br>
+                To use this, create a new preference <span class="c3">spellchecker.dictionary.override</span> (string)
+                and set it to your language code.<br>
+              </li>
+            </ul>More information about changes in this version that would be important for extension developers and
+            web programmers can be found <a href=
+            "https://forum.palemoon.org/viewtopic.php?f=5&amp;t=8474">here</a>.<br>
+            <br>
+            <span class="c2">Security fixes:</span><br>
+            <ul>
+              <li>Fixes for miscellaneous memory safety hazards (relevant and applicable fixes from CVE-2015-2708 and
+              CVE-2015-2709)
+              </li>
+              <li>DiD (defense-in-depth) fix to prevent potential overflows in CSS restyling
+              </li>
+              <li>Fix for updater hijacking (CVE-2015-2720)
+              </li>
+              <li>Fix to prevent potential disclosure of sensitive information in Android logs (CVE-2015-2714)
+              </li>
+              <li>Fix for a buffer overflow in the XML parser (CVE-2015-2716)
+              </li>
+              <li>Fix for a potentially exploitable crash in DNS handling<br>
+              </li>
+            </ul>
+            <h3>
+              25.4.1 (2015-05-10)
+            </h3>This is a small but important update to the previous major release to address some critical
+            issues:<br>
+            <ul>
+              <li>Fixed loss of the browser's disk cache on startup due to incorrect corruption detection logic<br>
+              </li>
+              <li>Fixed a browser crash on some HTML5 games<br>
+              </li>
+            </ul>
+            <h3>
+              25.4.0 (2015-05-08)
+            </h3><span class="c4">IMPORTANT: If you use a language pack, make sure to update it to the latest
+            version!</span> We do have automatic updates enabled for language packs but please double-check that the
+            version matches. If you are using an older language pack with this version of the browser, some dialog
+            boxes may come up blank.<br>
+            <br>
+            This is a major update - too much has changed for this little blurb to do it justice so please see below
+            for the most important changes/fixes in this release:<br>
+            <br>
+            <span class="c2">Fixes/changes:</span><br>
+            <ul>
+              <li>Updated SQLite from 3.7.17 to v3.8.8.3, improving history/bookmark/etc. performance by up to 50%
+              depending on operation<br>
+              </li>
+              <li>Added a new "mixed-mode" state for HTTPS connections. Clarified mixed-mode connections with a
+              mixed-mode padlock and better tooltips.
+              </li>
+              <li>Added a conditional partial shading to the URL bar and made it default (shading only on secure sites,
+              no red shading at all by default).<br>
+              </li>
+              <li>Dev: Fixed file system mode flags for *nix systems, to make executable files like scripts actually
+              flagged as executable
+              </li>
+              <li>Added native IPv6 lookups to NSPR to solve IPv6-only and dual-stack setups in some situations<br>
+              </li>
+              <li>Added a pref to control the unloading of idle plugins from memory and lowered the default "idle" time
+              to 60 seconds before plugins are unloaded<br>
+              </li>
+              <li>Fixed version strings for e.g. flash on Linux being displayed with commas instead of periods - this
+              should also fix the incorrect "your plugin is vulnerable" message while being on the latest version
+              </li>
+              <li>Windows: Set the double-click/Ctrl+arrow word selection to <span class="c5">not</span> eat the space
+              (only select the actual word)
+              </li>
+              <li>Android: DNS fix for VPN connections, preventing the "server not found" issues people have been
+              reporting for certain VPN providers on mobile<br>
+              </li>
+              <li>Updated a number of trusted root certificates, and distrusted the CNNIC root certificate by popular
+              demand<br>
+              </li>
+              <li>Linux: Worked around the slice memory allocator not being properly disabled on later GLib versions
+              </li>
+              <li>Android: updated the random number generator handling on later versions of Android
+              </li>
+              <li>Added fix to prevent spurious re-paints with plugins (performance/UX improvement)
+              </li>
+              <li>Removed the plugin check link from the Addons Manager, since it's no longer reliable and not
+              officially available for browsers except Mozilla Firefox. (Bonus: no user profiling/tracking through
+              optimizely!)
+              </li>
+              <li>Optimized the NSS callback for secure connections
+              </li>
+              <li>Updated the domains that are whitelisted for installation of extensions/themes/personas, streamlining
+              the use of addons.palemoon.org<br>
+              </li>
+              <li>Added personas support to titlebar text (adopt the lightweight theme's coloring/shading) in custom
+              titlebar mode (Pale Moon appmenu/button)
+              </li>
+              <li>Added display of HTTPS protocol (SSL/TLS) to the page info window (thanks Travis!)
+              </li>
+              <li>Improved certificate display: Removed MD5 and added SHA256 fingerprint, and made them
+              selectable/copyable
+              </li>
+              <li>Updated classification of secure connections: Classify any encryption with less than 128 bits or
+              including RC4 (if manually enabled, see previous version notes) as weak.
+              </li>
+              <li>Dev: Added availability of the full ciphersuite string for use in extensions to the nsISSLStatus
+              interface (nsISSLStatus.cipherSuite)
+              </li>
+              <li>Added MAKE_UNLINKABLE to the about: page redirector and added that as default for the reader mode on
+              Android
+              </li>
+              <li>Removed the compilation and inclusion of a one-time-use pre-compiled startup cache in omni.ja,
+              reducing overall application size significantly and avoiding a number of quirks of both the build process
+              and the operation of the browser
+              </li>
+              <li>Fixed an NVIDIA specific GLX server vendor bug for pixmap depth and fbConfig depth
+              </li>
+              <li>Removed most telemetry code, reducing code complexity and wasted CPU<br>
+              </li>
+              <li>Linux: Added OSS support (mutually exclusive with ALSA): configure with --enable-oss
+              </li>
+              <li>Made DNS caching a lot less aggressive to align the browser's behavior with the dynamic nature of the
+              modern web.
+              </li>
+              <li>Removed Mozilla-specific parameters for searches. Search suggestions should now work again for Google
+              searches
+              </li>
+              <li>Added the option to allow users to use a fixed (JSON) file-based geolocation response in favor of a
+              GeoIP service.<br>
+              </li>
+              <li>Dev: Improvements to Clang builds (thanks Axiomatic/BitVapor!). Clang is not currently producing
+              stable builds on Linux, so please use GCC for that operating system.<br>
+              </li>
+              <li>Linux: removed GnomeVFS that's no longer in use
+              </li>
+              <li>Fixed the "double padlock while loading a secure site" niggle in the UI
+              </li>
+              <li>Dev: added allowance of using -moz-appearance:none on drop-down lists to hide the arrow button
+              (catering to custom styling of the control)<br>
+              </li>
+              <li>Added some more ES6 math/number functions:<br>
+                <ul>
+                  <li>Implemented Math.fround(x)
+                  </li>
+                  <li>Implemented Number.isSafeInteger(x)
+                  </li>
+                  <li>Implemented Math.clz32(x)
+                  </li>
+                </ul>
+              </li>
+            </ul><span class="c2">Security fixes:</span><br>
+            <ul>
+              <li>Fixed several memory safety hazards (UAF/DF/UU); applicable bugs covered by CVE-2015-0814 and
+              CVE-2015-0815
+              </li>
+              <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0811</span>
+              <span id="short_desc_nonedit_display">[qcms] heap info leak</span></span>
+              </li>
+              <li>
+                <span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed</span></span> <span id=
+                "summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810</span></span> clickjacking
+                attacks via a Flash object in conjunction with DIV elements
+              </li>
+              <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0801 a variant
+              of</span></span> CVE-2015-0818
+              </li>
+              <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0800 improve
+              randomness of DNS resolver queries on Android</span></span>
+              </li>
+              <li>
+                <span id="summary_alias_container"><span id="alias_nonedit_display">Fixed</span></span> <span id=
+                "summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs
+                through about: redirector</span></span>
+              </li>
+            </ul>
+            <h3>
+              25.3.2 (2015-04-25)
+            </h3>This release is an emergency update to fix crashes that started occurring because of Mozilla
+            improperly signing the extensions and extension updates as offered through the Firefox Add-ons site
+            addons.mozilla.org. Any improperly signed extension would not be able to be installed, and would
+            immediately crash the browser.<span class="c2"><br>
+            <br>
+            No other changes were made in this release - this is a bugfix for this particular issue only.<br></span>
+            <h3>
+              25.3.1 (2015-03-25)
+            </h3>This is a security update to the browser to address a critical vulnerability found in the pwn2own
+            contest. Only one vulnerability found in this contest applies to Pale Moon, which has been addressed in
+            this update.<br>
+            <br>
+            <span class="c2">Fixes/changes:</span><br>
+            <ul>
+              <li>Fixed security vulnerability <a href=
+              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>. This vulnerability would
+              allow remote attackers to bypass the Same Origin Policy and execute arbitrary JavaScript code with chrome
+              privileges via vectors involving SVG hash navigation.
+              </li>
+              <li>Fixed IPv6 DNS resolution regression in some less common cases.
+              </li>
+            </ul>
+            <h3>
+              25.3.0 (2015-03-13)
+            </h3>This is an important update to improve features and performance, as well as address important security
+            issues.<br>
+            <br>
+            <span class="c2">Fixes/changes:</span><br>
+            <ul>
+              <li>Overhauled WebGL. It now properly supports depth textures, <a href="demo/shadowmap/" target="_blank">
+                shadow mapping</a> and glow shaders.<br>
+                Note that older operating systems or older/embedded video processors may be limited in their support of
+                these features.<br>
+              </li>
+              <li>Updated the ANGLE library to a much more current version.<br>
+              </li>
+              <li>Removed the crash reporter code completely to improve overall browser responsiveness and
+              operation.<br>
+                Please note that a necessary victim of this has been the in-browser (devtools) SPS profiler because of
+                its reliance on crash reporter data-gathering tools.<br>
+              </li>
+              <li>Removed the Mozilla Plugin Finder Service (no longer in use @Mozilla).
+              </li>
+              <li>Android: removed the Mozilla "product announcements" service.<br>
+              </li>
+              <li>Re-added control of the number of concurrent tabs to be restored from a session with <span class=
+              "c6">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
+              </li>
+              <li>Significantly improved performance and accuracy of date/time/timer handling.<br>
+              </li>
+              <li>Significantly improved performance of the creation of DOM elements with plain text content.
+              </li>
+              <li>Added several significant performance optimizations for arrays and strings in javascript.<br>
+              </li>
+              <li>Added several code performance optimizations and bugfixes in SVG, the presentation shell, SCTP, style
+              gradients and CSS parsing routines. (Thanks, Axiomatic!)
+              </li>
+              <li>Added an "Open link in current tab" context menu entry on links for UI consistency.
+              </li>
+              <li>Updated styling of the browser with personas (lightweight themes) once more to improve display in
+              tabs-on-top mode, improve overall legibility of tab text, and display of inverted close buttons on some
+              controls on dark personas.<br>
+              </li>
+              <li>Added a special case check for the Flash plugin version check on Linux failing due to commas instead
+              of periods in the version string.
+              </li>
+              <li>Added Windows 10 compatibility in executable manifests.<br>
+              </li>
+              <li>Android: Fixed a crash on GL canvas surfaces.
+              </li>
+              <li>Fixed incorrect Sync "howto" instruction links from the Sync dialogs.
+              </li>
+              <li>Fixed the color of selected tabs in Linux when personas (lightweight themes) are in use that do not
+              match the overall tone of the OS system theme.<br>
+              </li>
+              <li>Fixed a bug where a variable in parentheses would abort Javascript parsing.<br>
+              </li>
+              <li>Fixed a bug where the address bar would incorrectly be cleared.<br>
+              </li>
+              <li>Fixed padding issues for dropdown lists.
+              </li>
+              <li>Fixed DNS lookups so proper record types are requested for IPv4 and IPv6.<br>
+              </li>
+            </ul><span class="c2">Security fixes:</span><br>
+            <ul>
+              <li>Disabled all RC4-based encryption ciphers by default. <a href=
+              "https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
+              </li>
+              <li>Fixed several miscellaneous memory safety hazards.<br>
+                (applicable bugs related to <a href=
+                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href=
+                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)
+              </li>
+              <li>Fixed loading of locally stored DLL files through the internal updater. (<a href=
+              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)
+              </li>
+              <li>Fixed a potential crash point in IndexedDB. (<a href=
+              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span class=
+              "c7">DiD</span>
+              </li>
+              <li>Fixed a double-free situation when using non-default memory allocators and a 0-length XHR.
+                (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0828">CVE-2015-0828</a>)<br>
+                Note: production builds of Pale Moon were never vulnerable.
+              </li>
+              <li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href=
+              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)
+              </li>
+              <li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href=
+              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)
+              </li>
+              <li>Fixed a potential PNG heap-overflow crash. <span class="c7">DiD</span>
+              </li>
+              <li>Followed up on research regarding CVE-2014-8639 (see 25.2) and made cookie handling through proxies
+              more restrictive again.<br>
+              </li>
+            </ul><span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.<br>
+            <br>
+            <h1>
+              Release notes for previous versions (unsupported)
+            </h1>You can find the release notes for previous releases of Pale Moon on the <a href=
+            "releasenotes-archived.shtml">Archived Versions Release Notes</a> page.<br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c9">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

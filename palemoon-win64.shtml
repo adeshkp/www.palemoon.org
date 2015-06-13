@@ -1,210 +1,211 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-
-
-
-
-
-
-
-
-
+  
+  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
   
-    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - x64 builds</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
-    <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-          </th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align: top;">
-            <h1><a href="http://www.palemoon.org/pad_palemoon-x64.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
-            <h1>Download Pale Moon x64 - 25.5.0<br>
-            </h1>
-            If you
-            run a 64-bit operating system, you can choose to download and
-            install a
-            native 64-bit version of Pale Moon, a so-called "x64 build".<br>
-            Without having to use the 32-bit compatibility layer in 64-bit
-            Windows,
-            native 64-bit browsers in general run faster and more
-            efficient than their 32-bit counterparts, although <span style="font-weight: bold;">synthetic
-              tests will
-              not provide you with conclusive results</span>.
-            Most notably, you may see
-            lower CPU strain running Pale Moon x64 on
-            complex/processor-intensive
-            web sites or sites with large amounts of data like media sites, and
-            it
-            will be especially beneficial if you regularly open a very large
-            number
-            of websites concurrently (since a 64-bit version can address all
-            your
-            PC's memory).<br>
-            <br>
-            Unfortunately, there are also some drawbacks, mainly in the areas of
-            compatibility with third-party 32-bit components to extend browser
-            functionality. Most media-plugins
-            are not available in an x64 version, for example.<br>
-            <br>
-            Therefore, there are some <span style="color: rgb(204, 0, 0);">very
-              important things</span> to note <span style="color: rgb(204, 0, 0);">before</span>
-            you decide if you want to use an x64 build:<br>
-            <ol>
-              <li>You will need an x64 Windows Operating System! Just having a
-                64-bit processor is not enough, you will also have to have a <span style="font-weight: bold;">64-bit version of Windows</span>
-                (i.e. Windows Vista 64-bit, Windows 7 64-bit or Windows 8
-                64-bit).<br>
-              </li>
-              <li><span style="font-weight: bold;">Many plugins</span> are
-                either <span style="font-weight: bold;">not available</span>
-                or not officially released yet for 64-bit browsers. This will
-                mostly
-                hamper things like in-browser document viewers and media/gaming
-                plugins
-                or authentication plugins (e.g. for banking sites). Most <span style="font-weight: bold;">extensions</span> (add-ons),
-                however, <span style="font-weight: bold;">do</span> work, not
-                to be confused with plugins.</li>
-              <li><span style="font-weight: bold;">Adobe Flash</span>, used on
-                many pages, is <span style="font-weight: bold;">only</span>
-                available on the 64-bit browser if you run <span style="font-weight: bold;">Windows
-                  7 or later</span>! Their plugin does <span style="font-weight: bold;">not</span>
-                support Windows Vista 64-bit.</li>
-              <li>Pale Moon x64 will be one of the <span style="font-style: italic;">very</span>
-                few, if not the only, application on your system that will use <span style="font-weight: bold;">natively 64-bit hardware
-                  acceleration</span>.
-Especially with embedded graphics, legacy graphics cards, hybrid
-systems with 2 GPUs, or new operating systems, this may cause
-(sometimes severe) problems that would otherwise not show up. Native
-64-bit graphical hardware acceleration is still in need of development
-by a large number of driver manufacturers, and you may run into
-unexpected problems like memory inflation (excessive memory use by the
-browser), hangs or lockups of your graphics card or operating system
-due to driver bugs. You may have to switch to the 32-bit build of Pale
-Moon if you run into issues because of this; a solution is not always
-available.<br>
-              </li>
-            </ol>
-            If you understand what you are getting yourself into, then by all
-            means, grab yourself a copy of Pale Moon x64, and enjoy!<br>
-            <br>
-            <table class="sysreq" style="text-align: left; width: 90%;" align="center" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements
-                      (Windows):</span></td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top;" width="50%">
-                    <ul>
-                      <li>Windows Vista x64/Windows 7<span style="font-weight: bold;"></span>
-                        x64/Windows 8 x64/Server 2008 x64 or later<br>
-                      </li>
-                      <li>512 MB or more of free RAM recommended<br>
-                      </li>
-                      <li>At least 150 MB of free (uncompressed) disk space</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <br>
-            <h3 style="text-align: left;">Download links:</h3>
-            <span style="color: red;"></span><span style="font-weight: bold;">Installer
-              (recommended, 20.9 MB)</span>:<br>
-            SHA-1: 19a8e88003f50486384eb65caee4dc89603073e5<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.installer.exe.sig">[Sig]</a><br>
-            <br>
-            <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
-              <tbody>
-                <tr style="background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;">
-                  <th>Link (click to download)<br>
-                  </th>
-                  <th>Description<br>
-                  </th>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.fosshub.com/Pale-Moon.html"><img style="border: 0px solid ; width: 220px; height: 60px;" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
-                  </td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">FossHub</span>
-                    (official mirror,
-                    product page)<br>
-                    Supporting free and open source software!<br>
-                    Multiple versions, description and review available<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
-                  </td>
-                  <td class="dltable_text"><span style="font-weight: bold;">Pale
-                      Moon mirror</span> #1<br>
-                    Direct download link<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
-Moon
-                      mirror</span> #2<br>
-                    Direct download link</td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.downloadcrew.com/article/21353-pale_moon_x64"><img style="border: 0px solid ; width: 150px; height: 46px;" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
-                  </td>
-                  <td class="dltable_text"><span style="font-weight: bold;">Download
-                      Crew</span> (official mirror)<br>
-                    Download link at the top of the page (next to the title)<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.gamershell.com/download_110815.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" alt="Logo" src="dl-images/gamershellcom.png"></a></td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">GamersHell</span><br>
-                    Servers in Europe and the US</td>
-                </tr>
-                
-              </tbody>
-            </table>
-            <span style="font-weight: bold;"><br>
-              ZIP packed (approx. 28 MB)</span>:<br>
-            SHA-1: 3e8cb69c4e53e6397c6d504a5c813137c82439cd<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.zip.sig">[Sig]</a><br>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - x64 builds</title>
+
+  
+<!-- Keep the http-equiv meta tag for IE8 -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <style type="text/css">
+table.c17 {background-color: #F9F9F9}
+    table.c16 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
+    img.c15 {border: 0px solid ; width: 230px; height: 43px;}
+    img.c14 {border: 0px solid ; width: 150px; height: 46px;}
+    img.c13 {border: 0px solid ; width: 227px; height: 44px;}
+    td.c12 {vertical-align: top; text-align: center;}
+    img.c11 {border: 0px solid ; width: 220px; height: 60px;}
+    tr.c10 {background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;}
+    h3.c9 {text-align: left;}
+    table.c8 {text-align: left; width: 90%;}
+    td.c7 {vertical-align: top;}
+    td.c6 {vertical-align: top; background-color: rgb(204, 204, 255);}
+    span.c5 {font-style: italic;}
+    span.c4 {color: rgb(204, 0, 0);}
+    span.c3 {font-weight: bold;}
+    img.c2 {border: 0px solid ; width: 80px; height: 31px;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+</head><body>
+<table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c7"> <h1> <a href="http://www.palemoon.org/pad_palemoon-x64.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>
+       Download Pale Moon x64 - 25.5.0<br>
+      </h1>
+If you run a 64-bit operating system, you can choose to download and
+install a native 64-bit version of Pale Moon, a so-called "x64 build".<br>
+Without having to use the 32-bit compatibility layer in 64-bit Windows,
+native 64-bit browsers in general run faster and more efficient than
+their 32-bit counterparts, although <span class="c3">synthetic tests
+will not provide you with conclusive results</span>. Most notably, you
+may see lower CPU strain running Pale Moon x64 on
+complex/processor-intensive web sites or sites with large amounts of
+data like media sites, and it will be especially beneficial if you
+regularly open a very large number of websites concurrently (since a
+64-bit version can address all your PC's memory).<br>
+      <br>
+Unfortunately, there are also some drawbacks, mainly in the areas of
+compatibility with third-party 32-bit components to extend browser
+functionality. Most media-plugins are not available in an x64 version,
+for example.<br>
+      <br>
+Therefore, there are some <span class="c4">very important things</span>
+to note <span class="c4">before</span> you decide if you want to use
+an x64 build:<br>
+      <ol>
+        <li>You will need an x64 Windows Operating System! Just having
+a 64-bit processor is not enough, you will also have to have a <span class="c3">64-bit version of Windows</span> (i.e. Windows Vista
+64-bit, Windows 7 64-bit or Windows 8 64-bit).<br>
+        </li>
+        <li> <span class="c3">Many plugins</span> are either <span class="c3">not available</span> or not officially released yet for
+64-bit browsers. This will mostly hamper things like in-browser
+document viewers and media/gaming plugins or authentication plugins
+(e.g. for banking sites). Most <span class="c3">extensions</span>
+(add-ons), however, <span class="c3">do</span> work, not to be
+confused with plugins. </li>
+        <li> <span class="c3">Adobe Flash</span>, used on many pages,
+is <span class="c3">only</span> available on the 64-bit browser if you
+run <span class="c3">Windows 7 or later</span>! Their plugin does <span class="c3">not</span> support Windows Vista 64-bit. </li>
+        <li>Pale Moon x64 will be one of the <span class="c5">very</span>
+few, if not the only, application on your system that will use <span class="c3">natively 64-bit hardware acceleration</span>. Especially
+with embedded graphics, legacy graphics cards, hybrid systems with 2
+GPUs, or new operating systems, this may cause (sometimes severe)
+problems that would otherwise not show up. Native 64-bit graphical
+hardware acceleration is still in need of development by a large number
+of driver manufacturers, and you may run into unexpected problems like
+memory inflation (excessive memory use by the browser), hangs or
+lockups of your graphics card or operating system due to driver bugs.
+You may have to switch to the 32-bit build of Pale Moon if you run into
+issues because of this; a solution is not always available.<br>
+        </li>
+      </ol>
+If you understand what you are getting yourself into, then by all
+means, grab yourself a copy of Pale Moon x64, and enjoy!<br>
+      <br>
+      <table class="sysreq c8" align="center" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="c6"> <span class="c3">Minimum system
+Requirements (Windows):</span> </td>
+          </tr>
+          <tr>
+            <td class="c7" width="50%">
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
-                  Moon mirror #1</a></li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
-                  Moon mirror #2</a></li>
-              <li><a href="http://www.gamershell.com/download_110817.shtml">GamersHell</a><br>
+              <li>Windows Vista x64/Windows 7 x64/Windows 8 x64/Server
+2008 x64 or later<br>
               </li>
+              <li>512 MB or more of free RAM recommended<br>
+              </li>
+              <li>At least 150 MB of free (uncompressed) disk space </li>
             </ul>
-            <span style="font-weight: bold;"><span style="color: red;"></span></span>
-            <br>
-            <h3>
-              Portable version:</h3>
-            <br>
-            See <a href="palemoon-portable.shtml">Pale Moon Portable</a><br>
-            <br>
-            <h3>Source code</h3>
-            Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align: top; text-align: center;">
-            <!--#include virtual="nav/footer.html" --> <br>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <br>
-  </body></html>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h3 class="c9"> Download links: </h3>
+      <span class="c3">Installer (recommended, 20.9 MB)</span>:<br>
+SHA-1: 19a8e88003f50486384eb65caee4dc89603073e5<br>
+GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.installer.exe.sig">[Sig]</a><br>
+      <br>
+      <table class="c16" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr class="c10">
+            <th> Link (click to download)<br>
+            </th>
+            <th> Description<br>
+            </th>
+          </tr>
+          <tr>
+            <td class="c12"> <a href="http://www.fosshub.com/Pale-Moon.html"><img class="c11" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
+            </td>
+            <td class="c7"> <span class="c3">FossHub</span> (official
+mirror, product page)<br>
+Supporting free and open source software!<br>
+Multiple versions, description and review available<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c12"> <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
+#1<br>
+Direct download link<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c12"> <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.installer.exe"><img class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c7"> <span class="c3">Pale Moon mirror</span> #2<br>
+Direct download link </td>
+          </tr>
+          <tr>
+            <td class="c12"> <a href="http://www.downloadcrew.com/article/21353-pale_moon_x64"><img class="c14" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c3">Download Crew</span>
+(official mirror)<br>
+Download link at the top of the page (next to the title)<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c12"> <a href="http://www.gamershell.com/download_110815.shtml"><img class="c15" alt="Logo" src="dl-images/gamershellcom.png"></a> </td>
+            <td class="c7"> <span class="c3">GamersHell</span><br>
+Servers in Europe and the US </td>
+          </tr>
+        </tbody>
+      </table>
+      <span class="c3"><br>
+ZIP packed (approx. 28 MB)</span>:<br>
+SHA-1: 3e8cb69c4e53e6397c6d504a5c813137c82439cd<br>
+GPG/PGP signature: <a href="pgp/palemoon-25.5.0.win64.zip.sig">[Sig]</a><br>
+      <ul>
+        <li> <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
+Moon mirror #1</a> </li>
+        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.win64.zip">Pale
+Moon mirror #2</a> </li>
+        <li> <a href="http://www.gamershell.com/download_110817.shtml">GamersHell</a><br>
+        </li>
+      </ul>
+      <br>
+      <h3> Portable version: </h3>
+      <br>
+See <a href="palemoon-portable.shtml">Pale Moon Portable</a><br>
+      <br>
+      <h3> Source code </h3>
+Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c12"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

@@ -1,78 +1,107 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en"><head>
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Tab Groups add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-    <tr align="left">
-      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <h1>Pale Moon Tab Groups add-on<br>
-      </h1>
-      <p class="MsoNormal">Pale Moon no longer offers the Tab Groups
-(formerly called Panorama) feature in the browser core, to improve the
-efficiency of the user interface by externalizing underdeveloped code
-in use by only a very small percentage of Pale Moon users.<br>
-      </p>
-      <p class="MsoNormal">To restore the Tab Groups/Panorama feature
-to Pale Moon you need to install the Pale Moon Tab Groups add-on.<br>
-      </p>
-      <center><a style="display: table-cell;" class="dllink_green" href="http://relmirror.palemoon.org/support/palemoon-tabgroups-0.2.xpi">Download
-and install<br>
-Click here</a><br>
-      </center>
-      <h2>How to restore the Tab Groups feature and controls</h2>
-      <p class="MsoNormal">The add-on, when installed, automatically restores the
-standard shortcut keys and menu items associated with Tab Groups.<br>
-To restore the Tab Groups button, use the following steps:</p>
-      <ul style="margin-top: 0cm;" type="disc">
-      </ul>
-      <ol>
-        <li class="MsoNormal" style="">Right-click on a toolbar or
-control and select "Customize..."</li>
-        <li class="MsoNormal" style="">In the customization window that
-opens, there will be a Tab Groups control. Find it.</li>
-        <li class="MsoNormal">Drag the Tab Groups control to
-any toolbar you wish. The default location for this button in previous
-versions of Pale Moon has been on the right side of the Tab bar.<br>
-        </li>
-      </ol>
-      <h2>Limitations of the add-on</h2>
-      <p class="MsoNormal">Using
-the Pale Moon Tab Groups add-on is not guaranteed to work properly with
-other extensions that would interact with Tab Groups in Firefox.<br>
-There should be no other limitations as the code in this add-on is 100% the same Tab Groups code that is present in Firefox.<br>
-</p><h2>Code license</h2>This add-on is supplied as Open Source under the Mozilla Public License 2.0.<br>
-      <h2>Development</h2>
-The code in this add-on has been sourced as an extension by Mozilla
-developer Tim Taubert, and is available on github. If you want to
-contribute to the development of it for Pale Moon, or want to fork it
-yourself, go here (updated repository): <a href="https://github.com/wolfbeast/palemoon-tabgroups">https://github.com/wolfbeast/palemoon-tabgroups</a><br>
-<br>
-      <a href="/">[&lt;- Back]</a><br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" --> <br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon Tab Groups add-on
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c7 {background-color: #F9F9F9}
+    td.c6 {vertical-align: top; text-align: center;}
+    td.c5 {vertical-align: top;}
+    ul.c4 {margin-top: 0cm;}
+    div.c3 {text-align: center}
+    a.c2 {display: table-cell;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c7" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c5">
+            <h1>
+              Pale Moon Tab Groups add-on<br>
+            </h1>
+            <p class="MsoNormal">
+              Pale Moon no longer offers the Tab Groups (formerly called Panorama) feature in the browser core, to
+              improve the efficiency of the user interface by externalizing underdeveloped code in use by only a very
+              small percentage of Pale Moon users.<br>
+            </p>
+            <p class="MsoNormal">
+              To restore the Tab Groups/Panorama feature to Pale Moon you need to install the Pale Moon Tab Groups
+              add-on.<br>
+            </p>
+            <div class="c3">
+              <a class="dllink_green c2" href=
+              "http://relmirror.palemoon.org/support/palemoon-tabgroups-0.2.xpi">Download and install<br>
+              Click here</a><br>
+            </div>
+            <h2>
+              How to restore the Tab Groups feature and controls
+            </h2>
+            <p class="MsoNormal">
+              The add-on, when installed, automatically restores the standard shortcut keys and menu items associated
+              with Tab Groups.<br>
+              To restore the Tab Groups button, use the following steps:
+            </p>
+            <ul class="c4" type="disc"></ul>
+            <ol>
+              <li class="MsoNormal">Right-click on a toolbar or control and select "Customize..."
+              </li>
+              <li class="MsoNormal">In the customization window that opens, there will be a Tab Groups control. Find
+              it.
+              </li>
+              <li class="MsoNormal">Drag the Tab Groups control to any toolbar you wish. The default location for this
+              button in previous versions of Pale Moon has been on the right side of the Tab bar.<br>
+              </li>
+            </ol>
+            <h2>
+              Limitations of the add-on
+            </h2>
+            <p class="MsoNormal">
+              Using the Pale Moon Tab Groups add-on is not guaranteed to work properly with other extensions that would
+              interact with Tab Groups in Firefox.<br>
+              There should be no other limitations as the code in this add-on is 100% the same Tab Groups code that is
+              present in Firefox.<br>
+            </p>
+            <h2>
+              Code license
+            </h2>This add-on is supplied as Open Source under the Mozilla Public License 2.0.<br>
+            <h2>
+              Development
+            </h2>The code in this add-on has been sourced as an extension by Mozilla developer Tim Taubert, and is
+            available on github. If you want to contribute to the development of it for Pale Moon, or want to fork it
+            yourself, go here (updated repository): <a href=
+            "https://github.com/wolfbeast/palemoon-tabgroups">https://github.com/wolfbeast/palemoon-tabgroups</a><br>
+            <br>
+            <a href="/">[&lt;- Back]</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c6">
+            <!--#include virtual="nav/footer.html" --><br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

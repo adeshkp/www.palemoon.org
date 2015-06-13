@@ -1,191 +1,196 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html dir="ltr" lang="en"><head>
 
-
-
-
-
-
-
-
-
-
-
   
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author"></head><body>
-    <table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c14 {background-color: #F9F9F9}
+    table.c13 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
+    img.c12 {border: 0px solid ; width: 230px; height: 43px;}
+    img.c11 {border: 0px solid ; width: 227px; height: 44px;}
+    td.c10 {vertical-align: top; text-align: center;}
+    img.c9 {border: 0px solid ; width: 220px; height: 60px;}
+    tr.c8 {background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;}
+    h3.c7 {text-align: left;}
+    table.c6 {border-style: solid; border-width: 1px; text-align: left; width: 90%;}
+    td.c5 {vertical-align: top;}
+    td.c4 {vertical-align: top; background-color: rgb(204, 204, 255);}
+    span.c3 {font-weight: bold;}
+    img.c2 {border: 0px solid ; width: 80px; height: 31px;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style></head><body>
+    <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
-          <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
-          <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" --><br>
           </td>
         </tr>
         <tr>
-          <td style="vertical-align: top;">
-            <h1><a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img style="border: 0px solid ; width: 80px; height: 31px;" alt="" src="padbutton.gif" align="right"></a></h1>
-            <h1>Intel Atom™ and Windows XP build </h1>
-            This version of Pale Moon is optimized specifically for use on Intel
-            Atom™ processors and compatible with the Windows XP and Server
-            2003 operating systems.<br>
-            Many low-powered netbooks and laptops are equipped with this
-            processor,
-            and using a build of Pale Moon specifically optimized for this
-            processor will reduce power consumption and increase speed of the
-            browser for these systems.<br>
+          <td class="c5">
+            <h1>
+              <a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>
+            </h1>
+            <h1>
+              Intel Atom™ and Windows XP build
+            </h1>This version of Pale Moon is optimized specifically for use on Intel Atom™ processors and compatible
+            with the Windows XP and Server 2003 operating systems.<br>
+            Many low-powered netbooks and laptops are equipped with this processor, and using a build of Pale Moon
+            specifically optimized for this processor will reduce power consumption and increase speed of the browser
+            for these systems.<br>
             <br>
-            <span style="font-weight: bold;">Please note the following:</span><br>
+            <span class="c3">Please note the following:</span><br>
             <ul>
-              <li>These
-                builds are specifically optimized for Intel Atom™
-                processors, and are
-                not recommended for regular Intel or AMD processors on current
-                operating systems (Vista or higher). The extra
-                optimizations <span style="font-weight: bold;">only</span> work
-                on <span style="font-weight: bold;">Atom</span>
-                processors and will execute a little slower than the normal
-                version of
-                Pale Moon on a non-Atom processor (but otherwise run just fine).
-                In general use, you will likely not
-                notice much (if any) difference if run on a non-Atom processor.<br>
+              <li>These builds are specifically optimized for Intel Atom™ processors, and are not recommended for
+              regular Intel or AMD processors on current operating systems (Vista or higher). The extra optimizations
+              <span class="c3">only</span> work on <span class="c3">Atom</span> processors and will execute a little
+              slower than the normal version of Pale Moon on a non-Atom processor (but otherwise run just fine). In
+              general use, you will likely not notice much (if any) difference if run on a non-Atom processor.<br>
               </li>
-              <li>These builds are otherwise exactly the same as the
-                normal
-                desktop version of Pale Moon, built from a branch of the same source code.
-                Apart
-                from Windows XP compatibility and small technical and aesthetic changes, no
-                other
-                changes are made to the browser core.</li>
-              <li>Windows XP compatibility is maintained for these builds
-                since many older, low powered netbooks/laptops do not run a
-                later
-                operating system. Please <span style="font-weight: bold;">be
-                  responsible</span> if you are running this operating system
-                that is no
-                longer supported with security updates by the manufacturer.<br>
+              <li>These builds are otherwise exactly the same as the normal desktop version of Pale Moon, built from a
+              branch of the same source code. Apart from Windows XP compatibility and small technical and aesthetic
+              changes, no other changes are made to the browser core.
               </li>
-              <li>This
-                version of the browser is only available in 32-bit (x86). Please
-                don't
-                ask for a 64-bit version as it's simply not possible.</li>
-              <li>Atom/XP builds exclude the Web Developer tools to further
-                reduce resource use on lower-powered computers with limited memory.
-                Web Developer tools are not in common use on the intended systems
-                and
-                they do take a decent amount of memory and processing power when
-                included. If you still need these types of tools, please install
-                an
-                extension like Firebug to get this kind of functionality on this
-                build.<br>
+              <li>Windows XP compatibility is maintained for these builds since many older, low powered
+              netbooks/laptops do not run a later operating system. Please <span class="c3">be responsible</span> if
+              you are running this operating system that is no longer supported with security updates by the
+              manufacturer.<br>
+              </li>
+              <li>This version of the browser is only available in 32-bit (x86). Please don't ask for a 64-bit version
+              as it's simply not possible.
+              </li>
+              <li>Atom/XP builds exclude the Web Developer tools to further reduce resource use on lower-powered
+              computers with limited memory. Web Developer tools are not in common use on the intended systems and they
+              do take a decent amount of memory and processing power when included. If you still need these types of
+              tools, please install an extension like Firebug to get this kind of functionality on this build.<br>
               </li>
             </ul>
-            <table style="border-style: solid; border-width: 1px; text-align: left; width: 90%;" class="sysreq" align="center" border="0" cellpadding="0" cellspacing="0">
+            <table class="sysreq c6" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody>
                 <tr>
-                  <td style="vertical-align: top; background-color: rgb(204, 204, 255);"><span style="font-weight: bold;">Minimum system Requirements:</span></td>
+                  <td class="c4">
+                    <span class="c3">Minimum system Requirements:</span>
+                  </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top;" width="50%">
+                  <td class="c5" width="50%">
                     <ul>
                       <li>Windows XP SP3/Server 2003<br>
-</li>
+                      </li>
                       <li>A processor with SSE2 capabilities<br>
                       </li>
                       <li>Atom processor recommended but not required<br>
                       </li>
-                      <li>256 MB of free RAM</li>
-                      <li>At least 150 MB of free (uncompressed) disk space</li>
+                      <li>256 MB of free RAM
+                      </li>
+                      <li>At least 150 MB of free (uncompressed) disk space
+                      </li>
                     </ul>
                   </td>
                 </tr>
               </tbody>
             </table>
-            <h3 style="text-align: left;">Current version: 25.5.0</h3>
-            Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale
-              Moon release notes</a>.<br>
-            <h3 style="text-align: left;">Download links</h3>
-            <span style="color: red;"></span><span style="font-weight: bold;">Installer
-(recommended,
-              16.8 MB)</span>:<br>
-            SHA-1: 8a6b1748cd7be68387b22832d895b4351d831c97<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
+            <h3 class="c7">
+              Current version: 25.5.0
+            </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
+            release notes</a>.<br>
+            <h3 class="c7">
+              Download links
+            </h3><span class="c3">Installer (recommended, 16.8 MB)</span>:<br>
+            SHA-1: 8a6b1748cd7be68387b22832d895b4351d831c97<br>
+            GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
-            <table style="border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="0">
+            <table class="c13" border="1" cellpadding="2" cellspacing="0">
               <tbody>
-                <tr style="background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;">
-                  <th>Link (click to download)<br>
+                <tr class="c8">
+                  <th>
+                    Link (click to download)<br>
                   </th>
-                  <th>Description<br>
+                  <th>
+                    Description<br>
                   </th>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.fosshub.com/Pale-Moon.html"><img style="border: 0px solid ; width: 220px; height: 60px;" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
+                  <td class="c10">
+                    <a href="http://www.fosshub.com/Pale-Moon.html"><img class="c9" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
                   </td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">FossHub</span>
-                    (official mirror,
-                    product page)<br>
+                  <td class="c5">
+                    <span class="c3">FossHub</span> (official mirror, product page)<br>
                     Supporting free and open source software!<br>
                     Multiple versions, description and review available<br>
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                  <td class="c10">
+                    <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
-                  <td class="dltable_text"><span style="font-weight: bold;">Pale
-                      Moon mirror</span> #1<br>
+                  <td class="dltable_text">
+                    <span class="c3">Pale Moon mirror</span> #1<br>
                     Direct download link<br>
                   </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">Pale
-Moon
-                      mirror</span> #2<br>
-                    Direct download link</td>
+                  <td class="c10">
+                    <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
+                  </td>
+                  <td class="c5">
+                    <span class="c3">Pale Moon mirror</span> #2<br>
+                    Direct download link
+                  </td>
                 </tr>
                 <tr>
-                  <td style="vertical-align: top; text-align: center;"><a href="http://www.gamershell.com/download_110825.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" alt="Logo" src="dl-images/gamershellcom.png"></a></td>
-                  <td style="vertical-align: top;"><span style="font-weight: bold;">GamersHell</span><br>
-                    Servers in Europe and the US</td>
+                  <td class="c10">
+                    <a href="http://www.gamershell.com/download_110825.shtml"><img class="c12" alt="Logo" src="dl-images/gamershellcom.png"></a>
+                  </td>
+                  <td class="c5">
+                    <span class="c3">GamersHell</span><br>
+                    Servers in Europe and the US
+                  </td>
                 </tr>
-                
               </tbody>
-            </table>
-            <span style="font-weight: bold;"><br>
-              ZIP packed (approx. 22 MB)</span>:<br>
-            SHA-1: 7503b44ff2368d2557c2bdef76ab927334332116<br>GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.zip.sig">[Sig]</a><br>
+            </table><span class="c3"><br>
+            ZIP packed (approx. 22 MB)</span>:<br>
+            SHA-1: 7503b44ff2368d2557c2bdef76ab927334332116<br>
+            GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
-              <li><a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale
-Moon
-                  mirror #1</a><br>
+              <li>
+                <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale Moon mirror
+                #1</a><br>
               </li>
-              <li><a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale
-Moon
-                  mirror #2</a></li>
-              <li><a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>
+              <li>
+                <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale Moon mirror #2</a>
+              </li>
+              <li>
+                <a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>
               </li>
             </ul>
-            <h3>Portable version:</h3>
-            See <a href="palemoon-portable.shtml">Pale Moon Portable</a>
-            <h3>Source code</h3>
-            Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
+            <h3>
+              Portable version:
+            </h3>See <a href="palemoon-portable.shtml">Pale Moon Portable</a>
+            <h3>
+              Source code
+            </h3>Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
             <br>
           </td>
         </tr>
         <tr>
-          <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
+          <td class="c10">
+            <!--#include virtual="nav/footer.html" -->
             <br>
           </td>
         </tr>
       </tbody>
-    </table>
-    <br>
+    </table><br>
     <br>
   </body></html>

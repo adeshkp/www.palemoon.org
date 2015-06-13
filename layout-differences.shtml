@@ -1,269 +1,235 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en-us"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon: A different layout</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-<tr align="left">
-<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-<br>
-</td>
-</tr>
-    <tr>
-<td style="vertical-align: top;">
-      <h1>About the Pale Moon user interface layout<br>
-</h1>Several
-people have asked why Pale Moon has not followed the Firefox GUI
-(Graphical User Interface) layout. This document aims to provide a bit
-of background to the choices made in Pale Moon and to explain the
-reasoning behind the differences with Firefox.<br>
-These layout changes were not done lightly, or without thought. The
-fact that the end result looks more conservative
-is not necessarily because Pale Moon is
-adverse to change, far from it. Rather, the layout is the result of
-working with the existing elements and attempting to keep things
-logical, efficient and intuitive. It is also because the design choices in Firefox were
-considered regression rather than progression, and there being very
-little that is truly "innovative" about the layout (as that implies
-good reason for, and a clear and unmistakable advantage of, the new
-state of things).<br>
-      <br><span style="color: rgb(102, 0, 0);">
-With the advent of Australis, an even clearer choice was made to not
-follow the Mozilla Corporation's direction in their attempts to create
-a "one size fits all" user interface from mobile phone to HD desktop.
-There is no such thing, and to attempt it is folly, in my opinion. For
-Pale Moon, there is also no reason to attempt "brand unity over
-operating system unity" (meaning an attempt to make the browser look
-the same regardless of operating system it is used on), and Pale Moon
-rather aims for "operating system unity over brand unity" (meaning an
-as high level of visual operating system integration as possible to provide a
-familiar, well-intergrated user interface).</span><br>
-      <br>
-      <h2>Some definitions</h2>
-First off, some definitions for common terms/abbreviations:<br>
-      <ul>
-        <li><span style="font-weight: bold;">(G)UI</span>: (Graphical) User Interface - This is what
-constitutes everything in the browser that is not page content, meaning
-all buttons, controls, menus, toolbars, the status bar, etc.</li>
-        <li><span style="font-weight: bold;">UX</span>: User eXperience - the name says it all, really.</li>
-        <li><span style="font-weight: bold;">Standard UI convention</span>: Something that has, either over
-time or by peer agreement, been settled on as being "the standard way
-of doing something in a user interface" and that is shared among a large number of applications.<br>
-        </li>
-        <li><strong>Affordance:</strong> Visually, the UI has clues that indicate 
-what it is going to do. Users don&#8217;t have to experiment or deduce the 
-interaction. The affordance of a UI is based on real-world (past) experiences or 
-standard UI conventions.</li>
-        <li><strong>Expectation</strong>: Functionally, the UI delivers the expected,
- predictable results, without surprises. Users don&#8217;t have to experiment 
-or deduce the result of doing something. The expectations are based on labels, real-world 
-(past) experiences, or standard UI conventions.</li>
-        <li><strong>Efficiency</strong>: The UI enables users to perform an action 
-with a minimum amount of effort. If the intention is clear, the UI 
-delivers the expected results <em>the first time</em>, so that users don&#8217;t have to repeat the action (perhaps with variations) to get what they want.</li>
-        <li><strong>Responsiveness</strong>: The UI gives clear,
-immediate feedback to indicate that the action is happening, and was
-either successful or unsuccessful. Not to be confused with "reacting
-quickly" per se, although the two can be considered close to each other.<br>
-          <br>
-        </li>
-      </ul>
-      <h2>Element grouping</h2>
-The basic premise behind Pale Moon's choices is simple: Element grouping.<br><br>
-Grouping elements together with similar function or similar feedback is
-very important to UI design; people have designated zones in the UI
-where they can find groups of similar elements. This improves
-affordance and efficiency of the UI, as the location of an element is a
-clue to its function, and the intention is therefore clear.<br>
-This scattering about of controls has been a problem for layout for
-several different popular browsers, including later versions of
-Microsoft's Internet Explorer.<br><br>
-Grouping elements together with the objects they control is another
-consideration that will increase the affordance, as the location is a
-clear indication to what it will affect, making the result expected
-when the element is used.<br>
-This will also improve ergonomics of browser use: The number 1 GUI
-operation performed by users of a browser is switching tabs when they
-use tabbed browsing. Grouping the tabs with the content they control
-reduces the distance needed for the pointer to travel (from content to
-tab) and therefore improves ergonomy.<br>
-      <br>
-      <h2>The status bar</h2>One
-of the most important changes in Pale Moon has
-been to retain the status bar in the browser, after the (already
-optional) element was completely removed in the development stages of
-Firefox 4, and complete removal of that area of the browser for add-ons
-(the add-on bar) in Australis.<br>
-A status bar is both a standard element (standard UI convention) for
-applications that have status to report (and a web browser is certainly
-one of those applications) and considered essential by a vast majority
-of users as shown in a survey. Removing the status bar, and even
-removing the option to have it if one wants it, has been a very
-ill-conceived notion by the Mozilla UX team for Firefox. By including
-the status bar, a small, peripheral-view element provides users with
-several different types of feedback about the status of the browser. In
-all respects, including the status bar is beneficial to the user
-interface's level of intuitiveness: it provides affordance by showing
-status text, in an expected location, and improves responsiveness.<br><br>
-Firefox's alternative for status text (the popup method) to display
-network status and link addresses gives a comparable amount of
-feedback, but in a much more intrusive way: by not having it in a
-static element, the popup demands attention from the user, which is not
-a good thing for the kind of information provided. After all: this kind
-of information is secondary to the actual page content, and shouldn't
-draw someone's attention. In addition, popping in and out rapidly while
-browsing, the information can be very distracting or annoying. An
-intuitive interface should not lead to frustration. Plus, the popup
-status can't be configured or disabled, so in fact this has been two
-steps back, not just one.<br><br>
-The status bar also provides more information than what has been
-retained in the UI elsewhere. There is no page load
-progress which is especially important for people on slower
-connections, the status can no longer be set by web pages which is
-important feedback for some web applications, etc.<br><br>
-      <h2>Navigation controls</h2>
-By default, Firefox spreads different navigation controls out
-horizontally over the browser. From a UI design perspective, this is a
-very poor choice. Internet Explorer has suffered from the same poor
-decision, and you can wonder if copycatting has been going on without
-much thinking of the impact. Element grouping is important for these
-controls, as is having the elements be a similar shape (not mixing bordered with borderless) and size,
-resulting in the more classic look of the back/forward/reload-stop/home
-controls being grouped together to the left of the address bar, and of
-about equal size, being the default layout. All these elements control
-browser navigation.<br>
-      <br>
-In Australis, the way these controls are laid out is also no longer
-configurable (as it was before) and everyone is forced into the
-navigation toolbar layout as supplied "out of the box" by Firefox:
-Controls spread out, with some in the URL bar and much smaller, and no
-way to move the back/forward/reload/stop buttons to&nbsp; positions
-suited to people's individual browsing styles. <br>
-      <br>
-      <h2>Tabs on top</h2>
-This has been a hot topic, and one could even call it "trendy" - but is it logical from a UI design perspective? <br>
-      <br>
-In some conditions, it is: when a browser is maximized or used in full
-screen, having the tabs at or close to the edge of the browser means
-they are at the edge of the screen. In this case, it becomes easier to
-use, since the screen edge is a "hard" border and you don't have to be
-as accurate to quickly select a different tab with a traditional pointing device - this follows <a title="Wikipedia entry for Fitts' Law" href="http://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank">Fitts' law</a> concepts.<br>
-      <br>
-In <span style="text-decoration: underline;">all</span>
-other cases, it is not -- including touch devices where screen edge
-considerations don't apply and may even cause problems and annoyance if
-it's a "hot edge" for the operating system. Considering that today's
-computers have
-high resolution screens - in this age, full HD being pretty much
-standard with any desktop (and even laptop) system - most people use
-their operating system with multiple
-applications in regular windows, and not maximized. In this scenario,
-having tabs on top means that, once again, element grouping (this time
-of larger zones of the browser) is not followed. Consider the following
-different layouts:<br>
-      <div style="text-align: center;"><img style="width: 300px; height: 240px;" alt="Layout with Tabs on Top" src="images/layout-tot1.png" hspace="25"><img style="width: 300px; height: 240px;" alt="Layour with Tabs next to Content" src="images/layout-tot2.png" hspace="25"><br>
-      </div>
-
-      The left layout has tabs not grouped with the element they
-control, but has static UI elements that are browser-wide inbetween.
-The right layout has tabs grouped with the content. The tabs don't
-control the way the navigation controls of the browser or the URL bar
-look or behave, nor do they influence other toolbars that may be there;
-they only control the page content. Both tabs and content are dynamic.
-One could argue that the URL address is an exception to this, of
-course, but in that case you would expect the URL field to be a
-separate control in its own zone - which it is not for the sake of using space efficiently.<br>
-If you consider system elements of the window placed around these
-layouts, like the application menu (which is a standard UI convention
-to have), title bar and borders, potential side bar, additional browser
-controls at the left and/or right end of the tab bar, etc., then it
-becomes even clearer that, in the right hand layout, the hierarchy of the
-elements is preserved: the outside being standard system elements
-(OS-static), wrapping around the browser elements specific to the
-program (application-static), which in turn wrap around content and
-content controls, which are dynamic.<br>
-      <br>
-Even just looking at visual representation, this hierarchy should be preserved from a visual design point of view:<br>
-When tabs would be on top, which would be very important visual
-elements if you often switch tabs (and that is what you do if you use
-tabbed browsing), the eye has to cross data which is not immediatley
-relevant, and the elements the view has to cross has a distracting
-effect. Tabs on top puts the second most useful element of the display
-in a very low priority, visually peripheral place - an eye movement
-from page content to the tabs is distracted by the text shown in misc
-toolbars like the bookmarks toolbar, the address bar, the search box
-and navigation icons.<br>
-      <br>
-This is why the default in Pale Moon is to have tabs <span style="font-style: italic;">not</span>
-on top, as it's more logical to have them next to the content.
-Australis completely removes the option to have the user interface laid
-out in this way, and forces everyone to use tabs on top, regardless of use case.<br>
-      <br>
-      <h2>All is not lost: Configurability</h2>
-Providing users with full configurability of the UI layout (as opposed
-to the ever decreasing amount of configurability in Firefox), all of
-these design choices are <span style="font-style: italic;">defaults</span>
-- and can be changed. In some cases it takes only 1 click (like tabs on
-top, or making the status bar hidden), in other cases it takes a few
-more steps, but even those are easy to follow.<br>
-So, if you don't like the way Pale Moon is laid out by default, then
-play with the options and configure it the way you want it. To get
-started, right-click an empty space in the tab bar or a standard
-control (like the home button) and select "Customize...", or
-alternatively click the Pale Moon button, Options, "Toolbar layout..."<br>
-      <br>
-      <div style="text-align: center;"><big><span style="font-weight: bold;">
-Your browser, your way!</span></big><br>
-      </div>
-
-      <br>
-
-</td></tr>
-
-    <tr>
-      <td style="vertical-align: top; text-align: center;">
-      <!--#include virtual="nav/footer.html" -->
-      <br>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-us">
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon: A different layout
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c10 {background-color: #F9F9F9}
+    td.c9 {vertical-align: top; text-align: center;}
+    td.c8 {vertical-align: top;}
+    span.c7 {font-style: italic;}
+    div.c6 {text-align: center;}
+    img.c5 {width: 300px; height: 240px;}
+    span.c4 {text-decoration: underline;}
+    span.c3 {font-weight: bold;}
+    span.c2 {color: rgb(102, 0, 0);}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c8">
+            <h1>
+              About the Pale Moon user interface layout<br>
+            </h1>Several people have asked why Pale Moon has not followed the Firefox GUI (Graphical User Interface)
+            layout. This document aims to provide a bit of background to the choices made in Pale Moon and to explain
+            the reasoning behind the differences with Firefox.<br>
+            These layout changes were not done lightly, or without thought. The fact that the end result looks more
+            conservative is not necessarily because Pale Moon is adverse to change, far from it. Rather, the layout is
+            the result of working with the existing elements and attempting to keep things logical, efficient and
+            intuitive. It is also because the design choices in Firefox were considered regression rather than
+            progression, and there being very little that is truly "innovative" about the layout (as that implies good
+            reason for, and a clear and unmistakable advantage of, the new state of things).<br>
+            <br>
+            <span class="c2">With the advent of Australis, an even clearer choice was made to not follow the Mozilla
+            Corporation's direction in their attempts to create a "one size fits all" user interface from mobile phone
+            to HD desktop. There is no such thing, and to attempt it is folly, in my opinion. For Pale Moon, there is
+            also no reason to attempt "brand unity over operating system unity" (meaning an attempt to make the browser
+            look the same regardless of operating system it is used on), and Pale Moon rather aims for "operating
+            system unity over brand unity" (meaning an as high level of visual operating system integration as possible
+            to provide a familiar, well-intergrated user interface).</span><br>
+            <br>
+            <h2>
+              Some definitions
+            </h2>First off, some definitions for common terms/abbreviations:<br>
+            <ul>
+              <li>
+                <span class="c3">(G)UI</span>: (Graphical) User Interface - This is what constitutes everything in the
+                browser that is not page content, meaning all buttons, controls, menus, toolbars, the status bar, etc.
+              </li>
+              <li>
+                <span class="c3">UX</span>: User eXperience - the name says it all, really.
+              </li>
+              <li>
+                <span class="c3">Standard UI convention</span>: Something that has, either over time or by peer
+                agreement, been settled on as being "the standard way of doing something in a user interface" and that
+                is shared among a large number of applications.<br>
+              </li>
+              <li>
+                <strong>Affordance:</strong> Visually, the UI has clues that indicate what it is going to do. Users
+                don’t have to experiment or deduce the interaction. The affordance of a UI is based on real-world
+                (past) experiences or standard UI conventions.
+              </li>
+              <li>
+                <strong>Expectation</strong>: Functionally, the UI delivers the expected, predictable results, without
+                surprises. Users don’t have to experiment or deduce the result of doing something. The expectations are
+                based on labels, real-world (past) experiences, or standard UI conventions.
+              </li>
+              <li>
+                <strong>Efficiency</strong>: The UI enables users to perform an action with a minimum amount of effort.
+                If the intention is clear, the UI delivers the expected results <em>the first time</em>, so that users
+                don’t have to repeat the action (perhaps with variations) to get what they want.
+              </li>
+              <li>
+                <strong>Responsiveness</strong>: The UI gives clear, immediate feedback to indicate that the action is
+                happening, and was either successful or unsuccessful. Not to be confused with "reacting quickly" per
+                se, although the two can be considered close to each other.<br>
+                <br>
+              </li>
+            </ul>
+            <h2>
+              Element grouping
+            </h2>The basic premise behind Pale Moon's choices is simple: Element grouping.<br>
+            <br>
+            Grouping elements together with similar function or similar feedback is very important to UI design; people
+            have designated zones in the UI where they can find groups of similar elements. This improves affordance
+            and efficiency of the UI, as the location of an element is a clue to its function, and the intention is
+            therefore clear.<br>
+            This scattering about of controls has been a problem for layout for several different popular browsers,
+            including later versions of Microsoft's Internet Explorer.<br>
+            <br>
+            Grouping elements together with the objects they control is another consideration that will increase the
+            affordance, as the location is a clear indication to what it will affect, making the result expected when
+            the element is used.<br>
+            This will also improve ergonomics of browser use: The number 1 GUI operation performed by users of a
+            browser is switching tabs when they use tabbed browsing. Grouping the tabs with the content they control
+            reduces the distance needed for the pointer to travel (from content to tab) and therefore improves
+            ergonomy.<br>
+            <br>
+            <h2>
+              The status bar
+            </h2>One of the most important changes in Pale Moon has been to retain the status bar in the browser, after
+            the (already optional) element was completely removed in the development stages of Firefox 4, and complete
+            removal of that area of the browser for add-ons (the add-on bar) in Australis.<br>
+            A status bar is both a standard element (standard UI convention) for applications that have status to
+            report (and a web browser is certainly one of those applications) and considered essential by a vast
+            majority of users as shown in a survey. Removing the status bar, and even removing the option to have it if
+            one wants it, has been a very ill-conceived notion by the Mozilla UX team for Firefox. By including the
+            status bar, a small, peripheral-view element provides users with several different types of feedback about
+            the status of the browser. In all respects, including the status bar is beneficial to the user interface's
+            level of intuitiveness: it provides affordance by showing status text, in an expected location, and
+            improves responsiveness.<br>
+            <br>
+            Firefox's alternative for status text (the popup method) to display network status and link addresses gives
+            a comparable amount of feedback, but in a much more intrusive way: by not having it in a static element,
+            the popup demands attention from the user, which is not a good thing for the kind of information provided.
+            After all: this kind of information is secondary to the actual page content, and shouldn't draw someone's
+            attention. In addition, popping in and out rapidly while browsing, the information can be very distracting
+            or annoying. An intuitive interface should not lead to frustration. Plus, the popup status can't be
+            configured or disabled, so in fact this has been two steps back, not just one.<br>
+            <br>
+            The status bar also provides more information than what has been retained in the UI elsewhere. There is no
+            page load progress which is especially important for people on slower connections, the status can no longer
+            be set by web pages which is important feedback for some web applications, etc.<br>
+            <br>
+            <h2>
+              Navigation controls
+            </h2>By default, Firefox spreads different navigation controls out horizontally over the browser. From a UI
+            design perspective, this is a very poor choice. Internet Explorer has suffered from the same poor decision,
+            and you can wonder if copycatting has been going on without much thinking of the impact. Element grouping
+            is important for these controls, as is having the elements be a similar shape (not mixing bordered with
+            borderless) and size, resulting in the more classic look of the back/forward/reload-stop/home controls
+            being grouped together to the left of the address bar, and of about equal size, being the default layout.
+            All these elements control browser navigation.<br>
+            <br>
+            In Australis, the way these controls are laid out is also no longer configurable (as it was before) and
+            everyone is forced into the navigation toolbar layout as supplied "out of the box" by Firefox: Controls
+            spread out, with some in the URL bar and much smaller, and no way to move the back/forward/reload/stop
+            buttons to&nbsp; positions suited to people's individual browsing styles.<br>
+            <br>
+            <h2>
+              Tabs on top
+            </h2>This has been a hot topic, and one could even call it "trendy" - but is it logical from a UI design
+            perspective?<br>
+            <br>
+            In some conditions, it is: when a browser is maximized or used in full screen, having the tabs at or close
+            to the edge of the browser means they are at the edge of the screen. In this case, it becomes easier to
+            use, since the screen edge is a "hard" border and you don't have to be as accurate to quickly select a
+            different tab with a traditional pointing device - this follows <a title="Wikipedia entry for Fitts' Law"
+            href="http://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank">Fitts' law</a> concepts.<br>
+            <br>
+            In <span class="c4">all</span> other cases, it is not -- including touch devices where screen edge
+            considerations don't apply and may even cause problems and annoyance if it's a "hot edge" for the operating
+            system. Considering that today's computers have high resolution screens - in this age, full HD being pretty
+            much standard with any desktop (and even laptop) system - most people use their operating system with
+            multiple applications in regular windows, and not maximized. In this scenario, having tabs on top means
+            that, once again, element grouping (this time of larger zones of the browser) is not followed. Consider the
+            following different layouts:<br>
+            <div class="c6">
+              <img class="c5" alt="Layout with Tabs on Top" src="images/layout-tot1.png" hspace="25"><img class="c5"
+              alt="Layour with Tabs next to Content" src="images/layout-tot2.png" hspace="25"><br>
+            </div>The left layout has tabs not grouped with the element they control, but has static UI elements that
+            are browser-wide inbetween. The right layout has tabs grouped with the content. The tabs don't control the
+            way the navigation controls of the browser or the URL bar look or behave, nor do they influence other
+            toolbars that may be there; they only control the page content. Both tabs and content are dynamic. One
+            could argue that the URL address is an exception to this, of course, but in that case you would expect the
+            URL field to be a separate control in its own zone - which it is not for the sake of using space
+            efficiently.<br>
+            If you consider system elements of the window placed around these layouts, like the application menu (which
+            is a standard UI convention to have), title bar and borders, potential side bar, additional browser
+            controls at the left and/or right end of the tab bar, etc., then it becomes even clearer that, in the right
+            hand layout, the hierarchy of the elements is preserved: the outside being standard system elements
+            (OS-static), wrapping around the browser elements specific to the program (application-static), which in
+            turn wrap around content and content controls, which are dynamic.<br>
+            <br>
+            Even just looking at visual representation, this hierarchy should be preserved from a visual design point
+            of view:<br>
+            When tabs would be on top, which would be very important visual elements if you often switch tabs (and that
+            is what you do if you use tabbed browsing), the eye has to cross data which is not immediatley relevant,
+            and the elements the view has to cross has a distracting effect. Tabs on top puts the second most useful
+            element of the display in a very low priority, visually peripheral place - an eye movement from page
+            content to the tabs is distracted by the text shown in misc toolbars like the bookmarks toolbar, the
+            address bar, the search box and navigation icons.<br>
+            <br>
+            This is why the default in Pale Moon is to have tabs <span class="c7">not</span> on top, as it's more
+            logical to have them next to the content. Australis completely removes the option to have the user
+            interface laid out in this way, and forces everyone to use tabs on top, regardless of use case.<br>
+            <br>
+            <h2>
+              All is not lost: Configurability
+            </h2>Providing users with full configurability of the UI layout (as opposed to the ever decreasing amount
+            of configurability in Firefox), all of these design choices are <span class="c7">defaults</span> - and can
+            be changed. In some cases it takes only 1 click (like tabs on top, or making the status bar hidden), in
+            other cases it takes a few more steps, but even those are easy to follow.<br>
+            So, if you don't like the way Pale Moon is laid out by default, then play with the options and configure it
+            the way you want it. To get started, right-click an empty space in the tab bar or a standard control (like
+            the home button) and select "Customize...", or alternatively click the Pale Moon button, Options, "Toolbar
+            layout..."<br>
+            <br>
+            <div class="c6">
+              <big><span class="c3">Your browser, your way!</span></big><br>
+            </div><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c9">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

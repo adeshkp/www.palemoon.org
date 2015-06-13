@@ -1,70 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>Pale Moon screenshots</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <script src="js/jquery-1.10.2.min.js"></script>
-  <script src="js/lightbox-2.6.min.js"></script>
-  <link type="text/css" href="css/lightbox.css" rel="stylesheet">
-  <meta content="Moonchild" name="author">
-</head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-    <tr align="left">
-      <td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <h1>Pale Moon screenshots</h1>
-This page displays a few example screenshots of the browser on different
-operating systems and showing different configurations/features. Pale
-Moon is highly configurable, and you can customize it to your heart's
-content. <span style="font-weight: bold;">These screenshots are very
-basic examples</span> of what the browser looks like.<br>
-      <br>
-      <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr>
-            <td style="vertical-align: top; text-align: center;"><a data-lightbox="screenshots" title="Windows Vista - start page" href="images/screenshots/Vista-startpage.png"><img style="border: 0px solid ; width: 300px; height: 214px;" alt="" title="Windows Vista - start page" src="images/screenshots/Vista-startpage-th.png"></a><br>
-            </td>
-            <td style="vertical-align: top; text-align: center;"><a title="Windows 7 - All tabs panel, showing a few tabs" data-lightbox="screenshots" href="images/screenshots/Win7-alltabs.png"><img style="border: 0px solid ; width: 300px; height: 224px;" alt="" title="Windows 7 - All tabs panel, showing a few tabs" src="images/screenshots/Win7-alltabs-th.png"></a><br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: center;"><a data-lightbox="screenshots" title="Windows 8 - Tabs on Top, private browsing" href="images/screenshots/Win8-tabsontop-pb.png"><img style="border: 0px solid ; width: 300px; height: 223px;" alt="" title="Windows 8 - Tabs on Top, private browsing" src="images/screenshots/Win8-tabsontop-pb-th.png"></a><br>
-            </td>
-            <td style="vertical-align: top; text-align: center;"><a data-lightbox="screenshots" title="Windows 8 - Tabs on bottom, displaying Wikipedia" href="images/screenshots/Win8-wikipedia.png"><img style="border: 0px solid ; width: 300px; height: 223px;" alt="" title="Windows 8 - Tabs on bottom, displaying Wikipedia" src="images/screenshots/Win8-wikipedia-th.png"></a><br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: center;"><a title="Windows XP - displaying about:home" data-lightbox="screenshots" href="images/screenshots/WinXP-home.png"><img style="border: 0px solid ; width: 300px; height: 225px;" alt="" title="Windows XP - displaying about:home" src="images/screenshots/WinXP-home-th.png"></a><br>
-            </td>
-            <td style="vertical-align: top;"><br>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top; text-align: center;"><!--#include virtual="nav/footer.html" -->
-      <br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon screenshots
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript">
+</script>
+    <script src="js/lightbox-2.6.min.js" type="text/javascript">
+</script>
+    <link type="text/css" href="css/lightbox.css" rel="stylesheet">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c10 {background-color: #F9F9F9}
+    table.c9 {text-align: left; width: 100%;}
+    td.c8 {vertical-align: top;}
+    img.c7 {border: 0px solid ; width: 300px; height: 225px;}
+    img.c6 {border: 0px solid ; width: 300px; height: 223px;}
+    img.c5 {border: 0px solid ; width: 300px; height: 224px;}
+    td.c4 {vertical-align: top; text-align: center;}
+    img.c3 {border: 0px solid ; width: 300px; height: 214px;}
+    span.c2 {font-weight: bold;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c8">
+            <h1>
+              Pale Moon screenshots
+            </h1>This page displays a few example screenshots of the browser on different operating systems and showing
+            different configurations/features. Pale Moon is highly configurable, and you can customize it to your
+            heart's content. <span class="c2">These screenshots are very basic examples</span> of what the browser
+            looks like.<br>
+            <br>
+            <table class="c9" border="0" cellpadding="2" cellspacing="2">
+              <tbody>
+                <tr>
+                  <td class="c4">
+                    <a data-lightbox="screenshots" title="Windows Vista - start page" href=
+                    "images/screenshots/Vista-startpage.png"><img class="c3" alt="" title="Windows Vista - start page"
+                    src="images/screenshots/Vista-startpage-th.png"></a><br>
+                  </td>
+                  <td class="c4">
+                    <a title="Windows 7 - All tabs panel, showing a few tabs" data-lightbox="screenshots" href=
+                    "images/screenshots/Win7-alltabs.png"><img class="c5" alt="" title=
+                    "Windows 7 - All tabs panel, showing a few tabs" src=
+                    "images/screenshots/Win7-alltabs-th.png"></a><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c4">
+                    <a data-lightbox="screenshots" title="Windows 8 - Tabs on Top, private browsing" href=
+                    "images/screenshots/Win8-tabsontop-pb.png"><img class="c6" alt="" title=
+                    "Windows 8 - Tabs on Top, private browsing" src=
+                    "images/screenshots/Win8-tabsontop-pb-th.png"></a><br>
+                  </td>
+                  <td class="c4">
+                    <a data-lightbox="screenshots" title="Windows 8 - Tabs on bottom, displaying Wikipedia" href=
+                    "images/screenshots/Win8-wikipedia.png"><img class="c6" alt="" title=
+                    "Windows 8 - Tabs on bottom, displaying Wikipedia" src=
+                    "images/screenshots/Win8-wikipedia-th.png"></a><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="c4">
+                    <a title="Windows XP - displaying about:home" data-lightbox="screenshots" href=
+                    "images/screenshots/WinXP-home.png"><img class="c7" alt="" title=
+                    "Windows XP - displaying about:home" src="images/screenshots/WinXP-home-th.png"></a><br>
+                  </td>
+                  <td class="c8">
+                    <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table><br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c4">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

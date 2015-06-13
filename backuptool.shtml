@@ -1,86 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon Profile Backup Tool
+    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <meta content="Moonchild" name="author">
+    <style type="text/css">
+table.c8 {background-color: #F9F9F9}
+    td.c7 {vertical-align: top; text-align: center;}
+    td.c6 {vertical-align: top;}
+    img.c5 {width: 642px; height: 452px;}
+    span.c4 {font-weight: bold;}
+    span.c3 {font-weight: bold; color: red;}
+    div.c2 {text-align: center;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c8" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr align="left">
+          <td class="pagemenu">
+            <!--#include virtual="nav/menu.html" -->
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c6">
+            <h1>
+              Pale Moon profile backup tool
+            </h1>This tool will help you back up Pale Moon profiles. It is a simple tool and doesn't have much in terms
+            of advanced features, but should give you a quick and easy way to create backups of your Pale Moon data and
+            customizations.<br>
+            This tool may not work for everyone, since it has a few important limitations:<br>
+            <ol>
+              <li>This tool only works for the default profile location for Pale Moon (not for custom profile
+              locations)<br>
+              </li>
+              <li>This tool does not work for portable versions (then again, you can simply copy the folder in its
+              entirety)<br>
+              </li>
+            </ol>It was put together mainly for people who have standard installations and/or who do not have enough
+            knowledge of the Windows O.S. and filesystem to manually backup the profiles. It is not meant to be very
+            versatile or flexible, but "gets the job done" in most cases. The current version has basic options for
+            compression, but does not offer encryption or password protection of any sort, so you will have to make
+            sure yourself to keep your backups in a secure location.<br>
+            <br>
+            Please check the following forum thread for more details about this tool:<br>
+            <a target="_blank" href=
+            "http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758">http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758</a><br>
 
-
-
-
-
-
-
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Profile Backup Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-<tr align="left">
-<td class="pagemenu"><!--#include virtual="nav/menu.html" -->
-<br>
-</td>
-</tr>
-    <tr>
-<td style="vertical-align: top;">
-      <h1>Pale Moon profile backup tool</h1>
-This tool will help you back up Pale Moon profiles. It is a simple tool
-and doesn't have much in terms of advanced features, but should give
-you a quick and easy way to create backups of your Pale Moon data and
-customizations.<br>
-
-This tool may not work for everyone, since it has a few important
-limitations:<br>
-
-      <ol>
-<li>This tool only works for the default profile location for Pale Moon (not for custom profile locations)<br>
-</li><li>This tool does not work for portable versions (then again, you can simply copy the folder in its entirety)<br>
-</li>
-
-      </ol>It was put together mainly for people who have
-standard installations
-and/or who do not have enough knowledge of
-the Windows O.S. and filesystem to manually backup the profiles. It
-is not meant to be very versatile or flexible, but "gets
-the job done" in most cases. The current version has basic options for
-compression, but does not offer encryption or password protection of
-any sort, so you will have to make sure yourself to keep your backups
-in a secure location.<br>
-      <br>
-Please check the following forum thread for more details about this tool:<br>
-      <a target="_blank" href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758">http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758</a><br>
-<br>
-
-      
-      <div style="text-align: center;"><a class="dllink_green" href="http://relmirror.palemoon.org/tools/pmbackup.exe">Download now (free)</a><br>
-      </div>
-
-      <br><span style="font-weight: bold; color: red;"><br>
-Note:</span> <span style="font-weight: bold;">Please close Pale Moon before attempting to backup/restore your profiles.</span> Not doing so may cause an incomplete backup, corrupt data or give errors.<br>
-      <br>
-Screenshot:<br>
-      <div style="text-align: center;"><img style="width: 642px; height: 452px;" alt="" src="images/pmbackup-ss.png"><br>
-      </div>
-<br>
-      <small><span style="color: rgb(102, 102, 102);"></span></small><span style="font-style: italic;"></span><br>
-
-</td></tr>
-
-    <tr>
-      <td style="vertical-align: top; text-align: center;">
-      <!--#include virtual="nav/footer.html" -->
-      <br>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-
-</body></html>
+            <br>
+            <div class="c2">
+              <a class="dllink_green" href="http://relmirror.palemoon.org/tools/pmbackup.exe">Download now
+              (free)</a><br>
+            </div><br>
+            <span class="c3"><br>
+            Note:</span> <span class="c4">Please close Pale Moon before attempting to backup/restore your
+            profiles.</span> Not doing so may cause an incomplete backup, corrupt data or give errors.<br>
+            <br>
+            Screenshot:<br>
+            <div class="c2">
+              <img class="c5" alt="" src="images/pmbackup-ss.png"><br>
+            </div><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c7">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>

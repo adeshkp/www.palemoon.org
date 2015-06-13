@@ -1,74 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Congratulations</title><!-- Keep the http-equiv meta tag for IE -->
-  
-
-  
-
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
-  <tbody>
-    <tr>
-      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 200px;" alt="Pale Moon - Your browser, Your way" src="siteheader.jpg" align="top" hspace="0" vspace="0"><br>
-      </th>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <h1>Congratulations!</h1>
-You have successfully installed or upgraded the Pale Moon web browser.<br>
-      <br>
-      <span style="font-weight: bold;">Note:</span> If you have
-downloaded the browser from a third party site, it is <a href="http://www.palemoon.org/">recommended you visit the product
-homepage</a> before using this software - more details about Pale Moon
-that might be important to you are available there.<br>
-      <br>
-Not an English speaker? Check out these <a href="langpacks.shtml">Language
-Packs</a>.<br>
-      <h2>Attention Firefox users!</h2>
-      <div style="text-align: center;"><a href="migrationtool.shtml"><img style="border-style: none; width: 64px; height: 64px;" alt="" src="images/firefox-icon64.png"><img style="border-style: none; width: 128px; height: 64px;" alt="" src="images/arrow.png"><img style="border-style: none; width: 64px; height: 64px;" alt="" src="images/palemoon-icon64.png"></a><br>
-      </div>
-To migrate your Firefox profile to Pale Moon on Windows, including
-bookmarks, browsing history, extensions, etc., you may like
-to know you can <a href="http://www.palemoon.org/migrationtool.shtml">USE
-THIS TOOL</a>.
-Pale Moon uses its own profile location and does not automatically
-import Firefox profiles.<br>
-      <span style="font-weight: bold;"></span><br>
-      <h3>Customize your browser!</h3>While
-you are here, you may be interested to learn about the growing number
-of themes to customize the way your browser looks. Please have a look
-at the options on the Pale Moon addons site:<br>
-      <div style="text-align: center;"><a href="https://addons.palemoon.org/themes/complete/"><big>https://addons.palemoon.org/themes/complete/<br>
-      </big></a></div>
-
-      <br>
-      If you are interested in keeping updated of new releases of the independent Pale
-Moon web browser, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the
-official Pale Moon forum</a> and subscribe to "Announcements", or <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1">subscribe
-to the news feed</a> of the announcements board.<br>
-      <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;"><!--#include virtual="nav/footer.html" -->
-      <br>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<br>
-
-</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+      Pale Moon - Congratulations
+    </title><!-- Keep the http-equiv meta tag for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+    <style type="text/css">
+table.c7 {background-color: #F9F9F9}
+    td.c6 {vertical-align: top;}
+    div.c5 {text-align: center;}
+    img.c4 {border-style: none; width: 128px; height: 64px;}
+    img.c3 {border-style: none; width: 64px; height: 64px;}
+    span.c2 {font-weight: bold;}
+    img.c1 {border: 0px solid ; width: 800px; height: 200px;}
+    </style>
+  </head>
+  <body>
+    <table class="maintable c7" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <th class="subpageheader">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="siteheader.jpg" align="top" hspace="0"
+            vspace="0"><br>
+          </th>
+        </tr>
+        <tr>
+          <td class="c6">
+            <h1>
+              Congratulations!
+            </h1>You have successfully installed or upgraded the Pale Moon web browser.<br>
+            <br>
+            <span class="c2">Note:</span> If you have downloaded the browser from a third party site, it is <a href=
+            "http://www.palemoon.org/">recommended you visit the product homepage</a> before using this software - more
+            details about Pale Moon that might be important to you are available there.<br>
+            <br>
+            Not an English speaker? Check out these <a href="langpacks.shtml">Language Packs</a>.<br>
+            <h2>
+              Attention Firefox users!
+            </h2>
+            <div class="c5">
+              <a href="migrationtool.shtml"><img class="c3" alt="" src="images/firefox-icon64.png"><img class="c4" alt=
+              "" src="images/arrow.png"><img class="c3" alt="" src="images/palemoon-icon64.png"></a><br>
+            </div>To migrate your Firefox profile to Pale Moon on Windows, including bookmarks, browsing history,
+            extensions, etc., you may like to know you can <a href="http://www.palemoon.org/migrationtool.shtml">USE
+            THIS TOOL</a>. Pale Moon uses its own profile location and does not automatically import Firefox
+            profiles.<br>
+            <br>
+            <h3>
+              Customize your browser!
+            </h3>While you are here, you may be interested to learn about the growing number of themes to customize the
+            way your browser looks. Please have a look at the options on the Pale Moon addons site:<br>
+            <div class="c5">
+              <a href=
+              "https://addons.palemoon.org/themes/complete/"><big>https://addons.palemoon.org/themes/complete/<br></big></a>
+            </div><br>
+            If you are interested in keeping updated of new releases of the independent Pale Moon web browser, please
+            <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the official Pale Moon forum</a> and
+            subscribe to "Announcements", or <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1">subscribe
+            to the news feed</a> of the announcements board.<br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="c6">
+            <!--#include virtual="nav/footer.html" -->
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table><br>
+    <br>
+  </body>
+</html>
