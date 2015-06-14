@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon - Donations and support
@@ -11,28 +10,17 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
-table.c14 {background-color: #F9F9F9}
-    td.c13 {vertical-align: top; text-align: center;}
-    td.c12 {vertical-align: top;}
-    div.c11 {text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;}
-    span.c10 {text-decoration: underline;}
-    div.c9 {text-align: justify; font-size: 10.5pt; letter-spacing: normal; line-height: 1em;}
-    div.c8 {font-size: 11pt;}
-    span.c7 {font-weight: bold; color: red;}
-    span.c6 {text-decoration: line-through;}
-    div.c5 {margin-left: 40px;}
-    div.c4 {text-align: center;}
-    span.c3 {font-weight: bold;}
-    span.c2 {font-weight: bold; color: rgb(153, 0, 0);}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    div.donator {text-align: justify; font-size: 10.5pt; letter-spacing: normal; line-height: 1em;}
+    div.supporter {font-size: 11pt;}
+    div.address {margin-left: 40px;}
     </style>
   </head>
   <body>
-    <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -43,11 +31,11 @@ table.c14 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c12">
+          <td>
             <h1>
               Pale Moon Donations and Support
             </h1>If you enjoy this free browser enough to want to give something in return, there are several ways you
-            can support development of Pale Moon. <span class="c2">If you want your donation to remain anonymous,
+            can support development of Pale Moon. <span class="red bold">If you want your donation to remain anonymous,
             please make sure to let me know!</span><br>
             <h2>
               Monetary donations
@@ -71,14 +59,14 @@ table.c14 {background-color: #F9F9F9}
                 details.
               </li>
               <li>Bitcoin: You can donate any amount you wish to Moonchild Productions' wallet:<br>
-                <div class="c4">
-                  <span class="c3">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</span><br>
+                <div class="center">
+                  <span class="bold">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</span><br>
                 </div>Please note that Bitcoin is anonymous by nature and you will not be listed by name on this
                 page.<br>
               </li>
               <li>Litecoin: A different, popular cryptocurrency. Feel free to donate any amount to:<br>
-                <div class="c4">
-                  <span class="c3">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</span><br>
+                <div class="center">
+                  <span class="bold">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</span><br>
                 </div>Please note that Litecoin is anonymous by nature and you will not be listed by name on this
                 page.<br>
               </li>
@@ -90,7 +78,7 @@ table.c14 {background-color: #F9F9F9}
                 Crowns preferred. Sending money in an envelope is always at your own risk; please make sure to not make
                 it obvious as it may get stolen by postal workers in that case.<br>
                 Send to:<br>
-                <div class="c5">
+                <div class="address">
                   M.C. Straver<br>
                   Skrivaregatan 2<br>
                   58649 Linköping<br>
@@ -106,11 +94,6 @@ table.c14 {background-color: #F9F9F9}
             <br>
             Currently, I could use, specifically:<br>
             <ul>
-              <li>
-                <span class="c6">A new large-capacity (4 TB or larger) SATA-drive for backup purposes or a
-                large-capacity (&gt;500GB) tape drive+media</span><br>
-                Enough was donated for a proper NAS device. Thanks everyone!<br>
-              </li>
               <li>A development class OSX 10.8+ Macintosh computer (to be able to build Pale Moon for Mac)
               </li>
             </ul>
@@ -133,16 +116,16 @@ table.c14 {background-color: #F9F9F9}
             <h1>
               Thank you
             </h1>I would like to express my thanks to the following people for their support, in no particular order.
-            <span class="c7">Without your help, support and contributions, Pale Moon would not have been
+            <span class="bold red">Without your help, support and contributions, Pale Moon would not have been
             possible!</span><br>
             <br>
-            <span class="c3">Testing and moral support:</span><br>
+            <span class="bold">Testing and moral support:</span><br>
             Cole Hughes, Colin Moran, Gerardo Rubio, Daryl Sprint, Jason Sullivan, and the beta testers on the
             forum.<br>
             <br>
-            <span class="c3">Special thanks to the following people for chipping in for required development
+            <span class="bold">Special thanks to the following people for chipping in for required development
             tools:</span><br>
-            <div class="c8">
+            <div class="supporter">
               Jason Sullivan, Bruno Langelaan, Anthony Grobe, Maximilian Magana, Travis Anderson, Michael Wakunda, Jose
               Arellano, Roger Taylor, David Wales, Aurimas Grigas, Ezio Aditore, John McNamara, Rógvi D. Clementsen,
               Temple Martin, David Khoo, Floyd Drennon, Ryan Clemens, Stephen May, Robert McLean, Michael Larsen, Will
@@ -150,17 +133,16 @@ table.c14 {background-color: #F9F9F9}
               Chokan, Jeff Lee, Greg Stone, Ton Sonneveldt, Mark Ewald, Rick Lund, 春名 五月, Don Hay, Mirko Breßler and
               some people who prefer to remain anonymous.<br>
             </div><br>
-            <span class="c3">Special thanks to the following translators for their efforts in localizing Pale
+            <span class="bold">Special thanks to the following translators for their efforts in localizing Pale
             Moon:<br></span>
-            <div class="c8">
+            <div class="supporter">
               O. Roth (ReinekeFux), Archaeopteryx, Endor, KNTRO, Gerardo Rubio "Lobocursor" Perez, José I. Plaza,
               Carlos Mella, Jarpo, Jojaba, Yodli, Morinaga, Bovirus, Hikaru Murai, RohithNS, Lee Kangsan, Nui Parishi,
               Дмитрий Черкасов, Mikael Hiort af Ornäs, Wang H.K., Phil Chan, Leo Lee, Kamil Drozdek, Rogério
               Queiroga.<br>
-            </div><span class="c3"><br>
-            Donations</span> <span class="c3">(monetary or otherwise)</span> <span class="c3">and other
-            support</span><span class="c3">:</span><br>
-            <div class="c9">
+            </div><br>
+            <span class="bold">Donations (monetary or otherwise) and other support:</span><br>
+            <div class="donator">
               Cory Westropp, James Bass, Natalia Janeiro Pita, Michael Hunter, George W. Skuse Jr., Mirko von
               Elstermann, Ky Tat, John F. Allen, Adam Kirchgassner, Casey Brooks, Vojtech Behuncik, Jerry Hung, Michael
               Law, Lee Brown, Manuel la Fosse, Chris Finlayson, Bas Bleijendaal, Ian Scott, S.K. Brown, Solon Zhu,
@@ -314,22 +296,20 @@ table.c14 {background-color: #F9F9F9}
               Alex Slatalla, Vartkes Goetcherian, Luca Burelli, Sharon Hioki, Gary Cress, Anupam Srivastava, Hun Gim,
               Jacent Tokaz
             </div><br>
-            <div class="c11">
-              <span class="c3">Note:</span> this list only includes the names of people who have made a notable
+            <div style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;">
+              <span class="bold">Note:</span> this list only includes the names of people who have made a notable
               contribution - for monetary donations, this means a donation of at least $5, other listings are at the
-              developer's discretion. <span class="c10">All donations and support are greatly appreciated</span>, of
+              developer's discretion. <span class="underline">All donations and support are greatly appreciated</span>, of
               course, but there are a few tiers to keep in mind. $5 or more will get your name listed here. $25 or more
               will get you a little something in the mail. $100 or more and I'll send you an exclusive art print by my
               hand (please contact me if interested to arrange this!)<br>
             </div><br>
-            <span class="c3">Wall of shame:</span><br>
+            <span class="bold">Wall of shame:</span><br>
             Lenard James (illegitimate chargeback on donation)<br>
-            <br>
-            <a href="/">[&lt;- Back]</a><br>
           </td>
         </tr>
         <tr>
-          <td class="c13">
+          <td class="center">
             <!--#include virtual="nav/footer.html" --><br>
           </td>
         </tr>

@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon branding information
@@ -12,24 +11,17 @@
     <meta content="Moonchild" name="author">
     <meta content="Branding information and promotional material" name="description">
     <style type="text/css">
-table.c10 {background-color: #F9F9F9}
-    td.c9 {vertical-align: top;}
     img.c8 {width: 300px; height: 256px;}
     img.c7 {width: 673px; height: 128px;}
     img.c6 {width: 128px; height: 128px;}
-    span.c5 {color: rgb(102, 0, 0);}
-    span.c4 {font-weight: bold;}
-    span.c3 {color: rgb(0, 102, 0);}
-    span.c2 {font-style: italic;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
   </head>
   <body>
-    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0">
           </th>
         </tr>
@@ -39,7 +31,7 @@ table.c10 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c9">
+          <td>
             <h1>
               Pale Moon branding and promotional material<br>
             </h1>
@@ -60,18 +52,18 @@ table.c10 {background-color: #F9F9F9}
             </h3>Perhaps the simplest way to set the general usage guidelines for the branding and logo is by listing a
             few things you can do and a few things you cannot do. These are examples and by no means definitive or
             all-inclusive. If you have any doubts about the use of the logo or branding/name in a certain context,
-            please do get in touch to discuss potential usage <span class="c2">before</span> it is published,
+            please do get in touch to discuss potential usage <span class="italic">before</span> it is published,
             thanks.<br>
             <br>
-            <span class="c4">DOs: You <span class="c3">are allowed</span> to:</span><br>
+            <span class="bold">DOs: You <span class="darkgreen">are allowed</span> to:</span><br>
             <ul>
               <li>Use the Pale Moon name and logo on your own website if it refers directly to the browser. This
               includes use on software portals, etc.
               </li>
               <li>Use the Pale Moon name and logo to promote the browser on your own web properties, as long as
               you:<br>
-                - Make clear you are not an official agent of Pale Moon, <span class="c4">or</span><br>
-                - Only promote Pale Moon when following the guidelines below, <span class="c4">or</span><br>
+                - Make clear you are not an official agent of Pale Moon, <span class="bold">or</span><br>
+                - Only promote Pale Moon when following the guidelines below, <span class="bold">or</span><br>
                 - Discuss the promotion with me and are given permission to promote in a different way.
               </li>
               <li>Redistribute the officially-branded browser as long as you adhere to the <a href=
@@ -80,7 +72,7 @@ table.c10 {background-color: #F9F9F9}
               <li>Redistribute your own build of the browser that does not carry the official name and logo (unofficial
               branding is included in the source for you to use freely).
               </li>
-            </ul><span class="c4">DON'Ts: You <span class="c5">are not allowed</span> to:</span><br>
+            </ul><span class="bold">DON'Ts: You <span class="darkred">are not allowed</span> to:</span><br>
             <ul>
               <li>Use the Pale Moon name or logo on your own website when it does not directly refer to the browser or
               the project.
@@ -91,7 +83,7 @@ table.c10 {background-color: #F9F9F9}
               <li>Change the style or colors of the logo or wordmark, or make derivative works.
               </li>
               <li>Overlay the logo with other words, icons or logos, including but not limited to site names or URLs,
-              watermarks, copyright statements or third-party logos.<br>
+              watermarks, copyright statements or third-party logos.
               </li>
               <li>Use the Pale Moon name, logo, or web presence for direct commercial purposes (e.g. don't try to sell
               Pale Moon branded merchandise).
@@ -130,7 +122,7 @@ table.c10 {background-color: #F9F9F9}
               <li>In general, it is not customary or required to include the Trademark ™ symbol when mentioning Pale
               Moon. For official documents it is, however, encouraged.<br>
               </li>
-            </ul><span class="c4">Promotional media:</span><br>
+            </ul><span class="bold">Promotional media:</span><br>
             <br>
             Logo<br>
             <img class="c6" alt="" src="images/branding/logo128.png"><br>

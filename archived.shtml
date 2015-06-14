@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Archived versions
@@ -10,22 +9,13 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
-    <style type="text/css">
-table.c7 {background-color: #F9F9F9}
-    td.c6 {vertical-align: top; text-align: center;}
-    td.c5 {vertical-align: top;}
-    div.c4 {text-align: center;}
-    span.c3 {color: rgb(204, 0, 0);}
-    span.c2 {font-weight: bold;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
   </head>
   <body>
-    <table class="maintable c7" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -36,33 +26,33 @@ table.c7 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c5">
+          <td>
             <h1>
               Archived versions
             </h1>This page provides access to archived versions of Pale Moon. These are older versions of the browser
             that are no longer supported, but listed here in case you want or need to use an older version.
-            <span class="c2">Please be aware that these versions may have (serious) bugs that have been fixed in later
+            <span class="bold">Please be aware that these versions may have (serious) bugs that have been fixed in later
             versions.</span><br>
             <br>
-            <div class="c4">
-              <span class="c3">Please only grab the version you personally need and do not hotlink.</span><br>
+            <div class="center">
+              <span class="red">Please only grab the version you personally need and do not hotlink.</span><br>
             </div>
             <h3>
               Download
             </h3>You can download archived versions of the browser from the Pale Moon archival FTP<br>
-            <div class="c4">
+            <div class="center">
               <h2>
                 <a target="_blank" href=
                 "ftp://archive:get@ftp.palemoon.org/Pale%20Moon/">ftp://archive:get@ftp.palemoon.org/Pale Moon/<br></a>
               </h2>
-            </div>If you need <span class="c2">language packs</span> for older versions, please use the following ftp
+            </div>If you need <span class="bold">language packs</span> for older versions, please use the following ftp
             link:<br>
             <a href="ftp://pmlocales:get@ftp.palemoon.org/">ftp://pmlocales:get@ftp.palemoon.org/</a><br>
             <br>
           </td>
         </tr>
         <tr>
-          <td class="c6">
+          <td class="center">
             <!--#include virtual="nav/footer.html" -->
             <br>
           </td>

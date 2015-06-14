@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Contributed builds
@@ -10,25 +9,13 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
-    <style type="text/css">
-table.c10 {background-color: #F9F9F9}
-    td.c9 {vertical-align: top; text-align: center;}
-    td.c8 {vertical-align: top;}
-    span.c7 {color: rgb(204, 0, 0);}
-    span.c6 {color: black;}
-    br.c5 {color: black;}
-    span.c4 {color: rgb(102, 102, 102);}
-    span.c3 {text-decoration: underline;}
-    span.c2 {font-weight: bold;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
   </head>
   <body>
-    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -39,11 +26,11 @@ table.c10 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c8">
+          <td>
             <h1>
               Contributed builds of Pale Moon
             </h1>The following list is a list of endorsed third party builds of Pale Moon. If the browser is not in
-            this list, it is not an authorized redistribution/build. <span class="c2">Please note that these
+            this list, it is not an authorized redistribution/build. <span class="bold">Please note that these
             third-party builds may lag behind the main-line releases of Pale Moon.</span><br>
             <br>
             Alternate operating systems/configurations:<br>
@@ -62,13 +49,13 @@ table.c10 {background-color: #F9F9F9}
                 <a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon
                 PPA</a> for Debian/Ubuntu and compatible by Marián Kadaňka<br>
                 A build specifically for this OS. Source with necessary modifications available from the same page.<br>
-                <span class="c3">Note:</span> currently outdated; use with caution or use the official tarballs.<br>
+                <span class="underline">Note:</span> currently outdated; use with caution or use the official tarballs.<br>
               </li>
             </ul>Processor-specific rebuilds:<br>
             <ul>
               <li>
                 <a href="ftp://AVX:binaryget@ftp.palemoon.org/">AVX build (x86/x64)</a> by Accel. <span class=
-                "c4">(Inactive, use with caution)</span><br>
+                "grey">(Inactive development, outdated, use with caution!)</span><br>
                 Note: this requires an AVX-capable CPU (latest generations Intel or AMD)
               </li>
               <li>
@@ -78,15 +65,15 @@ table.c10 {background-color: #F9F9F9}
                 SSE2.<br>
               </li>
             </ul><br>
-            To be listed here, you have to contact me and get permission. <span class="c2">It is the only way to be
-            authorized to redistribute a modified binary version of Pale Moon with the <span class="c3">official name
+            To be listed here, you have to contact me and get permission. <span class="bold">It is the only way to be
+            authorized to redistribute a modified binary version of Pale Moon with the <span class="underline">official name
             and logo</span> in any way, shape or form.</span> Binaries are subject to the proprietary Pale Moon
             <a href="redist.shtml">redistribution license</a>. Please read this license thoroughly if you want to
-            redistribute Pale Moon in any way.<br class="c5">
-            <span class="c6">You will have to supply me with a copy of the browser as-intended for distribution for me
+            redistribute Pale Moon in any way.<br>
+            You will have to supply me with a copy of the browser as-intended for distribution for me
             to check.<br>
             <br>
-            Contributed builds must:</span><br>
+            Contributed builds must:<br>
             <ul>
               <li>Only include neutral content, i.e. not be loaded with vendor/advertiser specific extensions
               </li>
@@ -95,14 +82,12 @@ table.c10 {background-color: #F9F9F9}
               <li>Not be altered significantly after approval has been given without sending it in again for a
               re-check.<br>
               </li>
-            </ul><span class="c7">Want to add your build as an endorsed one?</span> <a href="contact/">Contact
-            me!</a><br>
-            <br>
-            <a href="/">[&lt;- Back]</a><br>
+            </ul><span class="red">Want to add your build as an endorsed one?</span> <a href="contact/">Contact
+            me!</a><br>            
           </td>
         </tr>
         <tr>
-          <td class="c9">
+          <td class="center">
             <!--#include virtual="nav/footer.html" -->
             <br>
           </td>

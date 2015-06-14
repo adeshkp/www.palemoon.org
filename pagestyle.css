@@ -57,6 +57,12 @@ a:visited {
   overflow: hidden;
 }
 
+img.subpageheader {
+  border: 0px solid;
+  width: 800px;
+  height: 82px;
+}
+
 .pagemenu {
   padding: 0pt;
   vertical-align: top;
@@ -64,8 +70,8 @@ a:visited {
 }
 
 .dltable_text {
-font-size: 12pt;
-vertical-align: top;
+  font-size: 12pt;
+  vertical-align: top;
 }
 
 .topnews {
@@ -126,3 +132,17 @@ pre {
   width:100%;
   height:450px;
 }
+
+// text classes
+td.center {text-align: center;}
+div.center {text-align: center;}
+div.bold {font-weight: bold;}
+
+span.darkgreen {color: rgb(0, 102, 0);}
+span.darkred {color: rgb(102, 0, 0);}
+span.red {color: rgb(204, 0, 0);}
+span.grey {color: rgb(102, 102, 102);}
+
+span.bold {font-weight: bold;}
+span.italic {font-style: italic;}
+span.underline {text-decoration: underline;}
