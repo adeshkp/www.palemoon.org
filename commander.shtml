@@ -34,8 +34,7 @@
               Pale Moon Commander
             </h1>
             <p>
-              Pale Moon Commander is a Mozilla Firefox compatible extension designed for the <a href=
-              "http://www.palemoon.org/">Pale Moon web browser</a>. It is a configurator, meaning it will provide a
+              Pale Moon Commander is a Mozilla Firefox compatible extension designed for the <a href="http://www.palemoon.org/">Pale Moon web browser</a>. It is a configurator, meaning it will provide a
               user-friendly interface to advanced preferences that would otherwise require manual editing of
               parameters, which can be cumbersome and time-consuming to do.
             </p>
@@ -76,7 +75,7 @@
             </p>
             <h2>
               Download and install
-            </h2>The current version is <span class="bold">1.6.2</span> - this is an update adding the German locale.<br>
+            </h2>The current version is <span class="bold">1.7.0</span> - this is an update adding Pale Moon 25.5 address bar shading options.<br>
             <br>
             You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum
             thread</a> for this add-on to provide feedback.<br>
@@ -88,24 +87,18 @@
               https://addons.palemoon.org/extensions/other/pm-commander/</a>
             </div><br>
             Or you can download and install the add-on right from this page:<br>
-            Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.4 and later) <a href=
-            "http://relmirror.palemoon.org/tools/pmcommander-1.6.2.xpi">Add to Pale Moon</a><br>
+            Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.4 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.7.0.xpi">Add to Pale Moon</a><br>
             <br>
             Alternatives:<br>
             <br>
-            <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html"><img class="c6"
-            alt="" title="Click to download" src="dl-images/softpedia_download_small.gif" align="middle" hspace=
-            "5"></a>Download the add-on from <a href=
-            "http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html">SoftPedia</a><br>
+            <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html"><img class="c6" alt="" title="Click to download" src="dl-images/softpedia_download_small.gif" align="middle" hspace="5"></a>Download the add-on from <a href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html">SoftPedia</a><br>
             <br>
-            This add-on is supplied as FREEWARE with disclosed source. Please see the <a href=
-            "freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
+            This add-on is supplied as FREEWARE with disclosed source. Please see the <a href="freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
             <br>
             <h2>
               Documentation
-            </h2>The add-on currently has a basic manual in PDF format, applicable to the current version 1.6.<br>
-            You can get the manual by <a href=
-            "http://relmirror.palemoon.org/tools/Pale%20Moon%20Commander_v1.6.0.pdf">clicking here</a>.<br>
+            </h2>The add-on currently has a basic manual in PDF format, applicable to the current version 1.7.<br>
+            You can get the manual by <a href="http://relmirror.palemoon.org/tools/Pale%20Moon%20Commander_v1.7.0.pdf">clicking here</a>.<br>
           </td>
         </tr>
         <tr>
