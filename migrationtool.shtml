@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon - Profile Migration Tool
@@ -11,23 +10,15 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
-table.c9 {background-color: #F9F9F9}
-    td.c8 {vertical-align: top; text-align: center;}
-    td.c7 {vertical-align: top;}
-    span.c6 {font-weight: bold; color: red;}
-    div.c5 {text-align: center;}
     div.c4 {border: 1px dotted rgb(153, 0, 0); padding: 2px 5px; text-align: left; color: rgb(153, 0, 0);}
-    span.c3 {font-weight: bold;}
-    span.c2 {font-style: italic;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
   </head>
   <body>
-    <table class="maintable c9" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -38,7 +29,7 @@ table.c9 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c7">
+          <td>
             <h1>
               Pale Moon profile migration tool
             </h1>This tool will help you migrate a Mozilla Firefox profile to Pale Moon.<br>
@@ -48,33 +39,33 @@ table.c9 {background-color: #F9F9F9}
               </li>
               <li>This tool does not work for portable versions of either browser
               </li>
-              <li>This tool <span class="c2">may</span> not work well on limited accounts on Windows Vista.<br>
+              <li>This tool <span class="italic">may</span> not work well on limited accounts on Windows Vista.<br>
               </li>
             </ol>It was put together mainly for people who have standard installations and as a convenient aid for
             people who do not have enough knowledge of the Windows O.S. and filesystem to manually copy the profiles
             over. It is not meant to be very versatile or flexible at this moment, but "gets the job done" in most
             cases.<br>
             <br>
-            Current version: <span class="c3">1.5.0</span> (2014-05-20)<br>
+            Current version: <span class="bold">1.5.0</span> (2014-05-20)<br>
             This version update fixes blocklist issues, addresses incompatibilities with migrating from Firefox 29 when
             classic theme restorer is installed, as well as clarification about the Status-4-Evar add-on if
             installed.<br>
             <br>
             <div class="c4">
-              <span class="c3">Important:</span> this tool is not aware of compatibility issues with Firefox extensions
-              in general, and will copy over <span class="c3">all</span> installed extensions. After migration, you
+              <span class="bold">Important:</span> this tool is not aware of compatibility issues with Firefox extensions
+              in general, and will copy over <span class="bold">all</span> installed extensions. After migration, you
               will have to examine your installed extensions and see which ones need to be updated, reverted to an
-              earlier compatible version, removed or changed out for an alternative. <span class="c3">Not all Firefox
+              earlier compatible version, removed or changed out for an alternative. <span class="bold">Not all Firefox
               extensions are guaranteed to work in Pale Moon</span>, and some may even prevent proper browser operation
               if they are incompatible but still installed!<br>
             </div><br>
             <br>
-            <div class="c5">
+            <div class="center">
               <a class="dllink_green" href="http://relmirror.palemoon.org/tools/pm-migrate.exe">Download now
               (free)</a><br>
             </div><br>
             <br>
-            <span class="c6">Note:</span> <span class="c3">Please close both Firefox and Pale Moon before attempting to
+            <span class="red bold">Note:</span> <span class="bold">Please close both Firefox and Pale Moon before attempting to
             migrate your profiles.</span> Not doing so may cause an incomplete transfer or give errors.<br>
             <br>
             If this tool, for whatever reason, doesn't work for you, please check the <a href=
@@ -85,7 +76,7 @@ table.c9 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c8">
+          <td class="center">
             <!--#include virtual="nav/footer.html" -->
             <br>
           </td>

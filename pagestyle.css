@@ -83,6 +83,11 @@ img.subpageheader {
   color: black; 
   background-color: rgb(244, 244, 255);
 }
+td.topnewstext {
+  margin: 0px; 
+  vertical-align: top; 
+  font-size: 10pt;
+}
 
 .sysreq {
   border: 1px solid rgb(51, 82, 155);
@@ -138,11 +143,22 @@ td.center {text-align: center;}
 div.center {text-align: center;}
 div.bold {font-weight: bold;}
 
-span.darkgreen {color: rgb(0, 102, 0);}
 span.darkred {color: rgb(102, 0, 0);}
+span.darkgreen {color: rgb(0, 102, 0);}
+span.darkblue {color: rgb(0, 0, 102);}
+
+span.mediumred {color: rgb(153, 0, 0);}
+span.mediumgreen {color: rgb(0, 153, 0);}
+span.mediumblue {color: rgb(0, 0, 153);}
+
 span.red {color: rgb(204, 0, 0);}
+span.green {color: rgb(0, 204, 0);}
+span.blue {color: rgb(0, 0, 204);}
+
 span.grey {color: rgb(102, 102, 102);}
 
 span.bold {font-weight: bold;}
 span.italic {font-style: italic;}
 span.underline {text-decoration: underline;}
+
+span.pref {font-weight: bold; font-style: italic; color: rgb(51, 102, 102);}

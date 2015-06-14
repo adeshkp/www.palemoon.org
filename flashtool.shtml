@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Flash protected Mode Tool
@@ -12,21 +11,15 @@
     <meta content="Moonchild" name="author">
     <meta content="A simple tool to switch Flash protected Mode on or off." name="description">
     <style type="text/css">
-table.c7 {background-color: #F9F9F9}
-    td.c6 {vertical-align: top; text-align: center;}
-    td.c5 {vertical-align: top;}
     img.c4 {width: 364px; height: 194px;}
-    span.c3 {font-weight: bold; color: red;}
-    div.c2 {text-align: center;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
   </head>
   <body>
-    <table class="maintable c7" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -37,7 +30,7 @@ table.c7 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c5">
+          <td>
             <h1>
               Flash Protected Mode tool
             </h1>This simple tool was written as a quick way to switch Protected Mode in the Flash player off and
@@ -50,19 +43,19 @@ table.c7 {background-color: #F9F9F9}
             manually editing a configuration file in a system folder.<br>
             <br>
             <br>
-            <div class="c2">
+            <div class="center">
               <a class="dllink_green" href="http://relmirror.palemoon.org/tools/FlashProtectedMode.exe">Download now
               (free)</a><br>
             </div><br>
-            <span class="c3"><br></span>Screenshot:<br>
-            <div class="c2">
+            <br>Screenshot:<br>
+            <div class="center">
               <img class="c4" alt="" src="images/FlashPM-ss.png"><br>
             </div><br>
             <br>
           </td>
         </tr>
         <tr>
-          <td class="c6">
+          <td class="center">
             <!--#include virtual="nav/footer.html" -->
             <br>
           </td>

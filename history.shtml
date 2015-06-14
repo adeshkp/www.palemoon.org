@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon - Project History
@@ -11,19 +10,13 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <meta content="Project History for the Pale Moon Project" name="description">
-    <style type="text/css">
-table.c4 {background-color: #F9F9F9}
-    td.c3 {vertical-align: top;}
-    span.c2 {font-weight: bold;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
   </head>
   <body>
-    <table class="maintable c4" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0">
           </th>
         </tr>
@@ -33,7 +26,7 @@ table.c4 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c3">
+          <td>
             <h1>
               History of the Pale Moon project<br>
             </h1>This project started off as merely fiddling with the build process on Windows, seeing first off if I
@@ -144,7 +137,7 @@ table.c4 {background-color: #F9F9F9}
             <br>
             <h3>
               Bottom line
-            </h3><span class="c2">Pale Moon aims to remain what it is at its heart: a fully customizable web
+            </h3><span class="bold">Pale Moon aims to remain what it is at its heart: a fully customizable web
             browser.</span><br>
             "Added tools" are nice, but may not be adopted in Pale Moon if they go beyond what should normally be part
             of a web browser for general use.<br>

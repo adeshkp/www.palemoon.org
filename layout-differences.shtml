@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en-us">
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon: A different layout
@@ -11,24 +10,15 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
-table.c10 {background-color: #F9F9F9}
-    td.c9 {vertical-align: top; text-align: center;}
-    td.c8 {vertical-align: top;}
-    span.c7 {font-style: italic;}
-    div.c6 {text-align: center;}
     img.c5 {width: 300px; height: 240px;}
-    span.c4 {text-decoration: underline;}
-    span.c3 {font-weight: bold;}
-    span.c2 {color: rgb(102, 0, 0);}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
   </head>
   <body>
-    <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0"><br>
           </th>
         </tr>
@@ -39,7 +29,7 @@ table.c10 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c8">
+          <td>
             <h1>
               About the Pale Moon user interface layout<br>
             </h1>Several people have asked why Pale Moon has not followed the Firefox GUI (Graphical User Interface)
@@ -52,7 +42,7 @@ table.c10 {background-color: #F9F9F9}
             progression, and there being very little that is truly "innovative" about the layout (as that implies good
             reason for, and a clear and unmistakable advantage of, the new state of things).<br>
             <br>
-            <span class="c2">With the advent of Australis, an even clearer choice was made to not follow the Mozilla
+            <span class="darkred">With the advent of Australis, an even clearer choice was made to not follow the Mozilla
             Corporation's direction in their attempts to create a "one size fits all" user interface from mobile phone
             to HD desktop. There is no such thing, and to attempt it is folly, in my opinion. For Pale Moon, there is
             also no reason to attempt "brand unity over operating system unity" (meaning an attempt to make the browser
@@ -65,14 +55,14 @@ table.c10 {background-color: #F9F9F9}
             </h2>First off, some definitions for common terms/abbreviations:<br>
             <ul>
               <li>
-                <span class="c3">(G)UI</span>: (Graphical) User Interface - This is what constitutes everything in the
+                <span class="bold">(G)UI</span>: (Graphical) User Interface - This is what constitutes everything in the
                 browser that is not page content, meaning all buttons, controls, menus, toolbars, the status bar, etc.
               </li>
               <li>
-                <span class="c3">UX</span>: User eXperience - the name says it all, really.
+                <span class="bold">UX</span>: User eXperience - the name says it all, really.
               </li>
               <li>
-                <span class="c3">Standard UI convention</span>: Something that has, either over time or by peer
+                <span class="bold">Standard UI convention</span>: Something that has, either over time or by peer
                 agreement, been settled on as being "the standard way of doing something in a user interface" and that
                 is shared among a large number of applications.<br>
               </li>
@@ -169,14 +159,14 @@ table.c10 {background-color: #F9F9F9}
             different tab with a traditional pointing device - this follows <a title="Wikipedia entry for Fitts' Law"
             href="http://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank">Fitts' law</a> concepts.<br>
             <br>
-            In <span class="c4">all</span> other cases, it is not -- including touch devices where screen edge
+            In <span class="underline">all</span> other cases, it is not -- including touch devices where screen edge
             considerations don't apply and may even cause problems and annoyance if it's a "hot edge" for the operating
             system. Considering that today's computers have high resolution screens - in this age, full HD being pretty
             much standard with any desktop (and even laptop) system - most people use their operating system with
             multiple applications in regular windows, and not maximized. In this scenario, having tabs on top means
             that, once again, element grouping (this time of larger zones of the browser) is not followed. Consider the
             following different layouts:<br>
-            <div class="c6">
+            <div class="center">
               <img class="c5" alt="Layout with Tabs on Top" src="images/layout-tot1.png" hspace="25"><img class="c5"
               alt="Layour with Tabs next to Content" src="images/layout-tot2.png" hspace="25"><br>
             </div>The left layout has tabs not grouped with the element they control, but has static UI elements that
@@ -202,14 +192,14 @@ table.c10 {background-color: #F9F9F9}
             content to the tabs is distracted by the text shown in misc toolbars like the bookmarks toolbar, the
             address bar, the search box and navigation icons.<br>
             <br>
-            This is why the default in Pale Moon is to have tabs <span class="c7">not</span> on top, as it's more
+            This is why the default in Pale Moon is to have tabs <span class="italic">not</span> on top, as it's more
             logical to have them next to the content. Australis completely removes the option to have the user
             interface laid out in this way, and forces everyone to use tabs on top, regardless of use case.<br>
             <br>
             <h2>
               All is not lost: Configurability
             </h2>Providing users with full configurability of the UI layout (as opposed to the ever decreasing amount
-            of configurability in Firefox), all of these design choices are <span class="c7">defaults</span> - and can
+            of configurability in Firefox), all of these design choices are <span class="italic">defaults</span> - and can
             be changed. In some cases it takes only 1 click (like tabs on top, or making the status bar hidden), in
             other cases it takes a few more steps, but even those are easy to follow.<br>
             So, if you don't like the way Pale Moon is laid out by default, then play with the options and configure it
@@ -217,13 +207,13 @@ table.c10 {background-color: #F9F9F9}
             the home button) and select "Customize...", or alternatively click the Pale Moon button, Options, "Toolbar
             layout..."<br>
             <br>
-            <div class="c6">
-              <big><span class="c3">Your browser, your way!</span></big><br>
+            <div class="center">
+              <big><span class="bold">Your browser, your way!</span></big><br>
             </div><br>
           </td>
         </tr>
         <tr>
-          <td class="c9">
+          <td class="center">
             <!--#include virtual="nav/footer.html" -->
             <br>
           </td>

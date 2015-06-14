@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>
       Pale Moon - General Information
@@ -11,21 +10,13 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <meta content="General Information and Project History for the Pale Moon Project" name="description">
-    <style type="text/css">
-table.c6 {background-color: #F9F9F9}
-    td.c5 {vertical-align: top;}
-    span.c4 {font-style: italic;}
-    span.c3 {font-weight: bold; color: rgb(204, 0, 0);}
-    span.c2 {font-weight: bold;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
   </head>
   <body>
-    <table class="maintable c6" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
             vspace="0">
           </th>
         </tr>
@@ -35,7 +26,7 @@ table.c6 {background-color: #F9F9F9}
           </td>
         </tr>
         <tr>
-          <td class="c5">
+          <td>
             <h1>
               Information about the project<br>
             </h1>
@@ -55,7 +46,8 @@ table.c6 {background-color: #F9F9F9}
               <li>K. Engert for supplying the base code for the padlock feature
               </li>
               <li>M. Tobin for additional research into the Mozilla code and general support in a number of different
-              areas of development<br>
+              areas of development
+              <li>R. Crellin for adapting and maintaining many of the complete themes for Pale Moon
               </li>
             </ul>Pale Moon aims to provide a Gecko-based browser with more freedom of choice than Mozilla Firefox in
             how people want to browse the web, which tools or extensions they wish to use, and which feedback users
@@ -76,24 +68,24 @@ table.c6 {background-color: #F9F9F9}
             not be guaranteed. This is also why extensions can be written for Pale Moon exclusively and/or adapted to
             Pale Moon as an individual product (unlike "re-branded Firefox rebuilds").<br>
             <br>
-            <span class="c2">Pale Moon is a middle road</span>, cutting away support for particularly old hardware and
+            <span class="bold">Pale Moon is a middle road</span>, cutting away support for particularly old hardware and
             operating systems to achieve a significant speed and efficiency increase, but not trying to squeeze the
             last few percent more out of it by limiting the range of systems it will run on even
-            more.&nbsp;<span class="c2">Pale Moon aims to deliver above all a stable and smooth browsing
+            more.&nbsp;<span class="bold">Pale Moon aims to deliver above all a stable and smooth browsing
             experience</span>, and does not intend to or aim for high scoring in synthetic tests, as those are
             invariably not a good representation of typical use of a web browser in the real world.<br>
             <br>
-            <span class="c2">Pale Moon will be released independent of Mozilla Firefox</span>, as it uses a different
+            <span class="bold">Pale Moon will be released independent of Mozilla Firefox</span>, as it uses a different
             source code and release plan, and is not affiliated with or subject to either code releases or publication
-            plans of the Mozilla Corporation; <span class="c3">the Mozilla rapid release schedule is not
-            followed</span>. Pale Moon is an <span class="c2">independently</span> developed product <span class=
-            "c4">based on</span> Firefox, but will most certainly not follow Firefox to the letter.<br>
-            Pale Moon will be updated <span class="c2">only using select and relevant updates</span> of the Mozilla
+            plans of the Mozilla Corporation; <span class="bold red">the Mozilla rapid release schedule is not
+            followed</span>. Pale Moon is an <span class="bold">independently</span> developed product <span class=
+            "italic">based on</span> Firefox, but will most certainly not follow Firefox to the letter.<br>
+            Pale Moon will be updated <span class="bold">only using select and relevant updates</span> of the Mozilla
             base (Gecko) source code and otherwise develop completely independently on top of the chosen version of the
             Gecko engine.<br>
-            This also means that <span class="c2">Pale Moon will not be built based on beta, release candidate,
+            This also means that <span class="bold">Pale Moon will not be built based on beta, release candidate,
             milestone, or other development releases</span> of the Gecko source code (there will not be any Pale Moon
-            "nightly", "aurora" or "beta" builds available to the public). <span class="c3">Only relevant "Release"
+            "nightly", "aurora" or "beta" builds available to the public). <span class="bold red">Only relevant "Release"
             source code will be used for any architecture, to ensure stability.</span><br>
             <br>
             <h3>
