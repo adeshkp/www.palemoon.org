@@ -138,7 +138,7 @@ pre {
   height:450px;
 }
 
-// text classes
+/* text classes */
 td.center {text-align: center;}
 div.center {text-align: center;}
 div.bold {font-weight: bold;}
