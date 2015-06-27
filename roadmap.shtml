@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="[en]">
-  <head>
+<html lang="[en]"><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon future roadmap
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -19,15 +18,12 @@ table.c7 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     span.c2 {font-weight: bold; text-decoration: underline;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c7" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0">
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0">
           </th>
         </tr>
         <tr align="left">
@@ -38,8 +34,8 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap
-            </h1>
+              Pale Moon future roadmap</h1><small>Last update: 2015-06-24</small><br>
+
             <h3>
               General Information
             </h3>The Pale Moon project is a community-driven project, and as such the future roadmap of the browser is
@@ -99,8 +95,7 @@ table.c7 {background-color: #F9F9F9}
               </li>
               <li>In-browser DRM, either through dynamically downloaded closed-source components or data-mangling in JS
               </li>
-            </ul>Current media support will be only extended where needed for regular data formats, and <span class=
-            "c3">already includes</span>:<br>
+            </ul>Current media support will be only extended where needed for regular data formats, and <span class="c3">already includes</span>:<br>
             <ul>
               <li>MPEG support
               </li>
@@ -128,13 +123,16 @@ table.c7 {background-color: #F9F9F9}
             <ul>
               <li>Linux (x86 and x64) -- Completed and actively maintained
               </li>
-              <li>Mac OS X -- Currently in its early stages (alpha)
+              <li>Mac OS X -- Currently in its early stages
               </li>
-              <li>Android ARM -- Completed and actively maintained (Fennec-based)
+              <li>Android ARM -- Completed, but not actively maintained due to lack of manpower.<br>
+We can use your help on this one (Fennec-based)
               </li>
-              <li>Android-x86 -- Experimental (Fennec-based), no public releases yet<br>
+              <li>Android-x86 -- Experimental (Fennec-based), no public releases<br>
               </li>
-              <li>ReactOS -- A specific version is planned for this platform in the future<br>
+              <li>ReactOS
+-- A specific version is planned for this platform in the future, if
+the platform matures enough to warrant the investment.<br>
               </li>
             </ul><br>
             <h3>
@@ -158,7 +156,7 @@ table.c7 {background-color: #F9F9F9}
             <h3>
               Extensions and extension API
             </h3>Pale Moon would not be complete without its support for Mozilla code extensions, of course, and the
-            extension compatibility maintained in Pale Moon is purposefully kept at the v24 front-end level. It
+            extension compatibility maintained in Pale Moon is purposefully kept (mostly) at the Firefox v24 front-end level. It
             provides compatibility with most of the browser extensions originally written for Mozilla Firefox (by
             accepting installations for Firefox application IDs) even though Pale Moon, from v25 onwards, is a
             different application altogether from an extension point of view.<br>
@@ -230,14 +228,14 @@ table.c7 {background-color: #F9F9F9}
             </ul>
             <h4>
               Pale Moon start page
-            </h4>We are currently working with a start portal provider to improve the user experience on the Pale Moon
-            Start page with customizability of shortcuts and localized content. This is planned to go live in the first
-            quarter of 2015.<br>
+            </h4>We are partnered up with a start portal provider to improve the user experience on the Pale Moon
+            Start page with customizability of shortcuts and localized content. This went live in the first
+            quarter of 2015 and will likely remain the offered start page solution of choice.<br>
             <h4>
               Pale Moon add-on site services
             </h4>
             <p>
-              The <a href="http://addons.palemoon.org/" target="_blank">Pale Moon add-on site</a> is a very new service
+              The <a href="http://addons.palemoon.org/" target="_blank">Pale Moon add-on site</a> is a new service
               of the Pale Moon project. It came about when the decision was made to clearly separate ourselves from
               Mozilla, although the possibility of an independent add-ons site was already being considered before that
               point in time.
@@ -329,9 +327,7 @@ table.c7 {background-color: #F9F9F9}
               </li>
             </ul>
             <p>
-              The add-ons site is in a state of constant refinement and development as such we have set up a <a href=
-              "http://forum.palemoon.org/viewtopic.php?f=44&amp;t=6144" target="_blank">forum thread</a> and <a href=
-              "https://addons.palemoon.org/announcements/" target="_blank">page</a> for announcements and updates
+              The add-ons site is in a state of constant refinement and development as such we have set up a <a href="http://forum.palemoon.org/viewtopic.php?f=44&amp;t=6144" target="_blank">forum thread</a> and <a href="https://addons.palemoon.org/announcements/" target="_blank">page</a> for announcements and updates
               pertaining to the add-ons site.
             </p><br>
             <!--#include virtual="nav/footer.html" -->
@@ -339,5 +335,4 @@ table.c7 {background-color: #F9F9F9}
         </tr>
       </tbody>
     </table><br>
-  </body>
-</html>
+  </body></html>
