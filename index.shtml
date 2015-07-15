@@ -1,22 +1,33 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <title>
-      The Pale Moon Project homepage
-    </title>
-    <meta content=
-    "Pale Moon is an Open Source, Firefox-based web browser available for Microsoft Windows and Linux, focusing on efficiency and ease of use."
-    name="description">
-    <meta content=
-    "Pale, Moon, Pale Moon, palemoon, firefox, browser, optimized, optimised, speed, fast, browser, web, webbrowser, web browser, internet, windows 7, windows 8, windows 10, Gecko, Mozilla"
-    name="keywords">
-    <meta content="Moonchild" name="author">
-    <meta content="http://www.palemoon.org/images/pale_moon_logo_256.png" name="og:image">
-    <style type="text/css">
+<html><head>
+  
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <title>The Pale Moon Project homepage</title>
+
+  
+  
+  <meta content="Pale Moon is an Open Source, Firefox-based web browser available for Microsoft Windows and Linux, focusing on efficiency and ease of use." name="description">
+
+  
+  <meta content="Pale, Moon, Pale Moon, palemoon, firefox, browser, optimized, optimised, speed, fast, browser, web, webbrowser, web browser, internet, windows 7, windows 8, windows 10, Gecko, Mozilla" name="keywords">
+
+  
+  <meta content="Moonchild" name="author">
+
+  
+  <meta content="http://www.palemoon.org/images/pale_moon_logo_256.png" name="og:image">
+
+  
+  <style type="text/css">
     #socialbar img {border:0px;}
     #socialbar li img {width:48px; height:48px;}
     #socialbar li a:hover {position:relative;right:5px;}
@@ -24,200 +35,193 @@
     #main #content-1,#pageframe,.IE #sidebar {overflow:visible;}
     .IE #bottom_decor,.IE #main #sidebar {position:static;}
     </style>
-    <style type="text/css">
+  
+  <style type="text/css">
     img.icon {border: 0px solid ; width: 48px; height: 48px;}
     div.right {text-align: right;}
-    img.c12 {border: 0px solid ; width: 119px; height: 30px;}
+    img.c11 {border: 0px solid ; width: 200px; height: 67px;}
+    img.c12 {border: 0px solid ; width: 119px; height: 30px; padding-bottom: 17px;}
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
     </style>
-  </head>
-  <body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="maintableheader" colspan="2">
-            <img class="c1" alt="The Pale Moon browser - Your browser, Your way!" src="siteheader.jpg" align="top"
-            hspace="0" vspace="0">
-          </th>
-        </tr>
-        <tr align="left">
-          <td colspan="2" class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-top: 1em;">
-            Pale Moon is an Open Source, Firefox-based web browser available for Microsoft Windows, Android and Linux
-            (with other operating systems in development), focusing on efficiency and ease of use. Make sure to get the
-            most out of your browser!<br>
-            <br>
-            Pale Moon offers you a browsing experience in a browser completely built from its own, independently
-            developed source with carefully selected features and optimizations to maximize the browser's
-            speed<small>*</small>, stability and user experience, while offering a rich collection of extensions and
-            themes (including compatibility with many Firefox extensions many users have come to love and rely on).<br>
-            <br>
-            &nbsp;<br>
-            <div class="center">
-              <a id="dllink-windows" class="dllink_green" href=
-              "http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src=
-              "images/down.png" border="0">Download (Windows web installer)</a> <a id="dllink-linux" class=
-              "dllink_green" style="display: none;" href="http://pm4linux.sourceforge.net/"><img class="c2" alt="" src="images/down.png"
-              border="0">Download (Linux desktop)</a><br>
-            </div><!-- display OS-related downloads -->
-            <script type="text/javascript">
+</head><body>
+<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="maintableheader" colspan="2"> <img class="c1" alt="The Pale Moon browser - Your browser, Your way!" src="siteheader.jpg" align="top" hspace="0" vspace="0"> </th>
+    </tr>
+    <tr align="left">
+      <td colspan="2" class="pagemenu"><!--#include virtual="nav/menu.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-top: 1em;"> Pale Moon is an Open Source,
+Firefox-based web browser available for Microsoft Windows, Android and
+Linux (with other operating systems in development), focusing on
+efficiency and ease of use. Make sure to get the most out of your
+browser!<br>
+      <br>
+Pale Moon offers you a browsing experience in a browser completely
+built from its own, independently developed source with carefully
+selected features and optimizations to maximize the browser's speed<small>*</small>,
+stability and user experience, while offering a rich collection of
+extensions and themes (including compatibility with many Firefox
+extensions many users have come to love and rely on).<br>
+      <br>
+&nbsp;<br>
+      <div class="center"> <a id="dllink-windows" class="dllink_green" href="http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src="images/down.png" border="0">Download (Windows
+web installer)</a> <a id="dllink-linux" class="dllink_green" style="display: none;" href="http://pm4linux.sourceforge.net/"><img class="c2" alt="" src="images/down.png" border="0">Download (Linux
+desktop)</a><br>
+      </div>
+<!-- display OS-related downloads -->
+      <script type="text/javascript">
 if ((navigator.userAgent.indexOf("Linux") != -1) && (navigator.userAgent.indexOf("X11") != -1)) {
             document.getElementById('dllink-windows').style.display = "none";
             document.getElementById('dllink-linux').style.display = "inline";
             }
             </script><br>
-            <span class="bold"><br></span> Having trouble with the web installer or looking for other download options
-            like an off-line installer, a package for a different operating system, Atom builds or portable version?
-            Check the download menu at the top of this page!<br>
+      <span class="bold"><br>
+      </span> Having trouble with the web installer or looking for
+other download options like an off-line installer, a package for a
+different operating system, Atom builds or portable version? Check the
+download menu at the top of this page!<br>
+      <br>
+      <span class="bold">Main features</span>:<br>
+      <ul>
+        <li>Optimized for modern processors<br>
+        </li>
+        <li>Safe: forked from Firefox and regularly updated.<br>
+        </li>
+        <li>Supported by a friendly, active community of users<br>
+        </li>
+        <li>Familiar, efficient, fully customizable interface (no
+Australis!) </li>
+        <li>Support for full themes: total freedom of any element's
+design </li>
+        <li>Support for easily-created lightweight themes (skins)<br>
+        </li>
+        <li>Smooth and speedy page drawing and script processing </li>
+        <li>Increased stability: experience fewer browser crashes<br>
+        </li>
+        <li>Support for many Firefox extensions (add-ons)<br>
+        </li>
+        <li>Support for a growing number of Pale Moon exclusive
+extensions<br>
+        </li>
+        <li>Extensive and growing support for HTML5 and CSS3<br>
+        </li>
+        <li>Many customization and configuration options<br>
+        </li>
+        <li>Able to import existing Firefox profiles with the <a href="migrationtool.shtml">migration tool</a> </li>
+      </ul>
+      <br>
+This browser, even though fairly close to its sibling Mozilla Firefox
+in the way it works, offers a different set of features. For example,
+if you need <span class="bold">specialized accessibility features</span>
+or <span class="bold">integration of Windows' parental controls</span>,
+then Pale Moon may not be a good browser choice for you.<br>
+      <br>
+With the current generation of Mozilla-based browsers, there are other
+differences between Pale Moon and Firefox that are more obvious and not
+just "under the hood": contrary to what Mozilla has done with their
+redesign of the user interface, <span class="bold">Pale Moon will
+continue to provide a familiar set of controls</span> and visual
+feedback similar to previous versions, including <span class="bold">grouped
+navigation</span> buttons of a decent size, a bookmarks toolbar that is
+enabled by default, tabs next to page content by default (easily
+switchable) and not in the least a <span class="bold">functional
+status bar</span> and <span class="bold">more freedom in customization</span>,
+to name a few things.<br>
+      <br>
+      </td>
+      <td class="sidebar" width="185">
+      <table class="topnews" border="0" cellpadding="2" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold">Main features</span>:<br>
-            <ul>
-              <li>Optimized for modern processors<br>
-              </li>
-              <li>Safe: forked from Firefox and regularly updated.<br>
-              </li>
-              <li>Supported by a friendly, active community of users<br>
-              </li>
-              <li>Familiar, efficient, fully customizable interface (no Australis!)
-              </li>
-              <li>Support for full themes: total freedom of any element's design
-              </li>
-              <li>Support for easily-created lightweight themes (skins)<br>
-              </li>
-              <li>Smooth and speedy page drawing and script processing
-              </li>
-              <li>Increased stability: experience fewer browser crashes<br>
-              </li>
-              <li>Support for many Firefox extensions (add-ons)<br>
-              </li>
-              <li>Support for a growing number of Pale Moon exclusive extensions<br>
-              </li>
-              <li>Extensive and growing support for HTML5 and CSS3<br>
-              </li>
-              <li>Many customization and configuration options<br>
-              </li>
-              <li>Able to import existing Firefox profiles with the <a href="migrationtool.shtml">migration tool</a>
-              </li>
-            </ul><br>
-            This browser, even though fairly close to its sibling Mozilla Firefox in the way it works, offers a
-            different set of features. For example, if you need <span class="bold">specialized accessibility
-            features</span> or <span class="bold">integration of Windows' parental controls</span>, then Pale Moon may
-            not be a good browser choice for you.<br>
+            <span class="bold">Pale Moon 25.5 has been released</span>
+which is an important maintenance release with a good number of
+changes. Please take a moment to read the <a href="releasenotes.shtml">release
+notes</a>!<br>
             <br>
-            With the current generation of Mozilla-based browsers, there are other differences between Pale Moon and
-            Firefox that are more obvious and not just "under the hood": contrary to what Mozilla has done with their
-            redesign of the user interface, <span class="bold">Pale Moon will continue to provide a familiar set of
-            controls</span> and visual feedback similar to previous versions, including <span class="bold">grouped
-            navigation</span> buttons of a decent size, a bookmarks toolbar that is enabled by default, tabs next to
-            page content by default (easily switchable) and not in the least a <span class="bold">functional status
-            bar</span> and <span class="bold">more freedom in customization</span>, to name a few things.<br>
-            <br>
-          </td>
-          <td class="sidebar" width="185">
-            <table class="topnews" border="0" cellpadding="2" cellspacing="0" width="100%">
-              <tbody>
-                <tr>
-                  <td class="topnewstext">
-                    <span class="bold">Top news:</span><br>
-                    <br>
-                    <span class="bold">Pale Moon 25.5 has been released</span> which is an important maintenance release
-                    with a good number of changes. Please take a moment to read the <a href=
-                    "releasenotes.shtml">release notes</a>!<br>
-                    <br>
-                    <a href="http://forum.palemoon.org/viewforum.php?f=1">more news...</a>
-                  </td>
-                </tr>
-              </tbody>
-            </table><br>
-            <div style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">
-              Advertisement:
-              <!-- sponsor link space -->
-              <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/javascript">
-              </script>
-              <!-- PM vertical -->
-              <ins class="adsbygoogle" data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458"
-              style="width: 160px; height: 600px;"></ins>
-              <script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <p>
-              Pale Moon is, and will always be, completely FREE to download and use! (Open Source and Freeware)<br>
-              But, if you feel so inclined and if you enjoy the browser enough to help pay for bills for hosting and
-              further development of the browser:<br>
-            </p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <div class="center">
-                <input name="cmd" value="_s-xclick" type="hidden"><input name="encrypted" value=
-                "-----BEGIN PKCS7-----MIIHVwYJKoZIhvcNAQcEoIIHSDCCB0QCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCyAwoAd2M5Ugrqj4taYuab7qzcktvZjwljZRMvLVzgHEZ8F0e1DMbQq3v/jlKIG8JcpqfIx+rUiT54kFq+BDBv7keM39+pPHUAqK6T3RYMAVu1bVXXiMWiwDW3vLa/+uIibehpAlUe5ySfCKcdiaQIpspoexLugfAVTD0PCWjqyzELMAkGBSsOAwIaBQAwgdQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIIqE+kMTBvDiAgbCXvQZUrwX+M4DvFYz8ycj2fbsYu2RDyONvwWGo6Z0hzfWvI0h/EwUQWvFZJKqjE6+9MJJDnKTAj0xmCNrTf0DGpHoX8mBMgSZ8rUgd4ayQFFv+y5LU4cZtRIIEXGTBXKFu/DTliMFC0YmzJMJNTFEkaJmsTdMWJLUfV3FGcmcGLzEoKvGCWYsXD/0Dwg6FqraRLtQfLYLdI47XTTdQwV4aaSe47NxVyq97ZQCJzIdLCKCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTEyMDIwNDEwMDQzNVowIwYJKoZIhvcNAQkEMRYEFCmbw6isANOq8ce423CovN8EO9+kMA0GCSqGSIb3DQEBAQUABIGAdR8NNBngVZqXDBN1knKBPRd0E9aHjkLWqcIU6EKD8feeBj0D95xlfkZESPkHiDnTFe9513Uc01WU92RBW+xq8JjvzK3ndQ5GbtLzpGJsf01Q33kEkyOIsKAcW+VyrkX8c/GFYWZ0hvfTSS2xsyzQUwZ9ChSmW9rJhFNjpbCMcZc=-----END PKCS7-----"
-                type="hidden"> <input src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit"
-                alt="PayPal - The safer, easier way to pay online!" border="0" type="image"><img alt="" src=
-                "https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1"><br>
-              </div>
-              <div class="center">
-                <small><small>(suggested minimum of $2 due to fees)</small></small><br>
-              </div>
-            </form>
-            <div class="center">
-              Bitcoin (BTC): <a href=
-              "bitcoin:1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE?label=Moonchild%20Productions">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</a><br>
+            <a href="http://forum.palemoon.org/viewforum.php?f=1">more
+news...</a> </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <div style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:<!-- sponsor link space -->
+      <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/javascript">
+              </script><!-- PM vertical --> <ins class="adsbygoogle" data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458" style="width: 160px; height: 600px;"></ins>
+      <script type="text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <p> Pale Moon is, and will always be, completely FREE to download
+and use! (Open Source and Freeware)<br>
+But, if you feel so inclined and if you enjoy the browser enough to
+help pay for bills for hosting and further development of the browser:<br>
+      </p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <div class="center"> <input name="cmd" value="_s-xclick" type="hidden"><input name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" type="hidden"> <input src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image"><img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1"><br>
+        </div>
+        <div class="center"> <small><small>(suggested minimum of $2
+due to fees)</small></small><br>
+        </div>
+      </form>
+      <div class="center"> Bitcoin (BTC): <a href="bitcoin:1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE?label=Moonchild%20Productions">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</a><br>
+Litecoin (LTC): <a href="litecoin:LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go?label=Moonchild%20Productions">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</a><br>
+      <a href="donations.shtml">Other options</a> for supporting Pale
+Moon are available too! </div>
+      <br>
+If you are interested in keeping updated of new releases of the
+optimized Pale Moon web browser for windows, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the
+official Pale Moon forum</a> and subscribe to "Announcements", or <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1">subscribe
+to the news feed</a> of the announcements board.<br>
+      <br>
+You may also be kept up to date by following the Twitter feed or liking
+the Facebook page by clicking the social media icons top-right of this
+page.<br>
+      <small><span class="grey"><br>
+* Please note that current, popular "benchmarks" are extremely limited
+in what they test and the way they test "browser speed". Pale Moon does
+not aim to have an "as high as possible benchmark score", but instead
+focuses heavily on overall browser smoothness, CPU usage, efficient
+networking and program-wide optimizations not related to a certain
+(limited) subset of functions. Benchmarks, by definition, do not
+provide a real world browsing scenario, and should not be relied on to
+determine "which browser is faster or better".<br>
+      <br>
+      <br>
+      </span></small>
+      <div class="right"><small><span class="grey">Sponsors and technologies:<br>
+<a href="http://www.chameleonjohn.com/" target="_blank">
+      </a></span></small><a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a>
+      <a href="http://www.mozilla.org/poweredby" target="_blank"><img src="powered-by-mozilla-30.png" class="c12" alt="Powered by Mozilla"></a><br>
+      </div>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-              Litecoin (LTC): <a href=
-              "litecoin:LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go?label=Moonchild%20Productions">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</a><br>
+<!-- START SOCIAL MEDIA WIDGET -->
+<ul id="socialbar">
 
-              <a href="donations.shtml">Other options</a> for supporting Pale Moon are available too!
-            </div><br>
-            If you are interested in keeping updated of new releases of the optimized Pale Moon web browser for
-            windows, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the official Pale
-            Moon forum</a> and subscribe to "Announcements", or <a target="_blank" href=
-            "http://forum.palemoon.org/feed.php?f=1">subscribe to the news feed</a> of the announcements board.<br>
-            <br>
-            You may also be kept up to date by following the Twitter feed or liking the Facebook page by clicking the
-            social media icons top-right of this page.<br>
-            <small><span class="grey"><br>
-            * Please note that current, popular "benchmarks" are extremely limited in what they test and the way they
-            test "browser speed". Pale Moon does not aim to have an "as high as possible benchmark score", but instead
-            focuses heavily on overall browser smoothness, CPU usage, efficient networking and program-wide
-            optimizations not related to a certain (limited) subset of functions. Benchmarks, by definition, do not
-            provide a real world browsing scenario, and should not be relied on to determine "which browser is faster
-            or better".<br>
-            <br></span></small>
-            <div class="right">
-              <a href="http://www.mozilla.org/poweredby" target="_blank"><img src="powered-by-mozilla-30.png" class=
-              "c12" alt="Powered by Mozilla"></a><br>
-            </div><br>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><!-- START SOCIAL MEDIA WIDGET -->
-    <ul id="socialbar">
-      <li id="facebook">
-        <a target="_blank" href="http://www.facebook.com/PaleMoonBrowser"><img class="icon" alt="FB" src=
-        "social/facebook.png"></a>
-      </li>
-      <li id="twitter">
-        <a target="_blank" href="https://twitter.com/palemoonbrowser"><img class="icon" alt="Tw" src=
-        "social/twitter.png"></a>
-      </li>
-      <li id="feed">
-        <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1"><img class="icon" alt="RSS" src=
-        "social/feed.png"></a>
-      </li>
-    </ul><!-- END SOCIAL MEDIA WIDGET -->
-  </body>
-</html>
+  <li id="facebook"> <a target="_blank" href="http://www.facebook.com/PaleMoonBrowser"><img class="icon" alt="FB" src="social/facebook.png"></a> </li>
+  <li id="twitter"> <a target="_blank" href="https://twitter.com/palemoonbrowser"><img class="icon" alt="Tw" src="social/twitter.png"></a> </li>
+  <li id="feed"> <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1"><img class="icon" alt="RSS" src="social/feed.png"></a> </li>
+</ul>
+
+<!-- END SOCIAL MEDIA WIDGET -->
+</body></html>
