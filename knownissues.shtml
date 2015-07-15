@@ -1,10 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Known Issues
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html><head>
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -17,15 +16,12 @@
     span.bydesign {color: rgb(102, 102, 204);}
     span.research {font-weight: bold; color: rgb(204, 51, 204);}
     span.c4 {font-weight: bold; color: rgb(51, 51, 153);}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0">
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0">
           </th>
         </tr>
         <tr align="left">
@@ -50,26 +46,33 @@
             <br>
             <span class="bold">Known issues in the current version:</span><br>
             <ol>
-              <li>
-                <span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
+              <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The internal updater won't show proper text in the default language</span><br>
+Because of a localization error, the text in the internal updater
+window will not show properly when an update is offered to the browser.
+You can still update normally by pressing the "Next" button.<br>
+          <span style="font-weight: bold;">Status:</span>  <span class="mediumgreen bold">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> none<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in the 25.6 updater.<br>
+
+                <span class="c4"></span></li>
+        <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
-                This is caused by a deep-rooted issue in the gecko graphics rendering back-end affecting all
-                gecko-based browsers, that requires time to research.<br>
+                This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
+                browsers based on this code, that requires time to research.<br>
                 Effects are only aesthetic in nature and non-breaking.<br>
                 <span class="bold">Status:</span> <span class="research">[Research]</span><br>
                 <span class="bold">Workaround:</span> disable hardware acceleration
               </li>
+
               <li>
                 <span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
                 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
                 extension.<br>
-                More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target=
-                "_blank">FAQ</a><br>
+                More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
                 <span class="bold">Status:</span> <span class="mediumred">Caused by extension restrictions</span><br>
                 <span class="bold">Fix:</span> Contact the extension author and have them update their extension to
                 include support for Pale Moon<br>
-                <span class="bold">Workaround/Fix:</span> Check <a target="_blank" href=
-                "http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated or forked version for Pale
+                <span class="bold">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated or forked version for Pale
                 Moon 25+<br>
                 <span class="bold">Workaround (advanced):</span> manually edit chrome.manifest inside the extension
                 archive (<a href="https://forum.palemoon.org/viewtopic.php?f=44&amp;t=5883" target="_blank">see
@@ -95,8 +98,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             <h2>
               Known issues in previous versions
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
-            previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class=
-            "bold">workarounds</span>:<br>
+            previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
             <span class="bold">25.3:<br></span>
             <ul>
@@ -116,8 +118,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
               <li>
                 <span class="c4">Some Single-Sign-On (SSO) setups don't work</span><br>
                 Because of a security vulnerability with authentication redirection (cookie injection) through proxies
-                (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href=
-                "https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>), Pale Moon currently
+                (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>), Pale Moon currently
                 does not allow auth cookies to pass through or be modified by proxies. This may make some SSO setups
                 fail to authenticate to individual services (usually on corporate intranetworks that employ proxies)
                 and as a result the user is asked to provide login details.<br>
@@ -175,8 +176,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
                 <span class="c4">Google Maps on Google.com displays a non-functional preview of the "new"
                 maps.</span><br>
                 This is caused by interpretation of the custom user agent in Pale Moon for the google.com domain.<br>
-                <span class="bold">Workaround:</span> see <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637</a><br>
+                <span class="bold">Workaround:</span> see <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637</a><br>
 
                 <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
                 <span class="bold">Timeline:</span> Fixed in 24.7.1
@@ -216,8 +216,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
               <li>
                 <span class="c4">On <span class="italic">certain</span> systems, rendering of text and graphics may become
                 "pixelated"</span><br>
-                If you are using Windows 7 SP1 with the (Feb 28<sup>th</sup> 2013) Windows Platform Update (<a href=
-                "http://support.microsoft.com/kb/2670838">KB 2670838</a>), or potentially also if you are using Windows
+                If you are using Windows 7 SP1 with the (Feb 28<sup>th</sup> 2013) Windows Platform Update (<a href="http://support.microsoft.com/kb/2670838">KB 2670838</a>), or potentially also if you are using Windows
                 8/8.1, and your system is equipped with a certain legacy ATI/AMD Radeon (specifically an HD3000 or
                 HD4000 series) graphics processor, you may encounter issues with rendering text and graphics in page
                 content, similar to:<br>
@@ -228,8 +227,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
                 been installed as a prerequisite for using MSIE 10/11.<br>
                 Of note: Later versions of Pale Moon are less likely to display this error than Firefox, but it
                 <span class="italic">may</span> still occur.<span class="bold"><br>
-                Workaround:</span> See <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228</a>
+                Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228</a>
                 - TL;DR: <span class="bold">uninstall KB2670838</span> or <span class="bold">disable azure for content.<br>
                 Status:</span> <span class="bold"><span class="mediumgreen bold">[Fixed]</span><br>
                 Timeline:</span> Fixed in 24.6.0.
@@ -292,8 +290,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
                 This is caused by PB windows being implemented after Mozilla moved to the panel-based downloads
                 manager, and there is no check in the classic downloads window if it is called from a PB window or
                 regular window.<br>
-                <span class="bold">Workaround:</span> In the PB window, open a new tab and type <span class=
-                "mediumblue bold italic">about:downloads</span> in the address bar<br>
+                <span class="bold">Workaround:</span> In the PB window, open a new tab and type <span class="mediumblue bold italic">about:downloads</span> in the address bar<br>
                 <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
                 <span class="bold">Timeline:</span> Fixed in 24.3.0
               </li>
@@ -308,8 +305,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
               </li>
               <li>
                 <span class="c4">The "More information" link for blocked add-ons doesn't work</span><br>
-                <span class="bold">Workaround:</span> See <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750">http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750</a><br>
+                <span class="bold">Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750">http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750</a><br>
 
                 <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
                 <span class="bold">Timeline</span>: Fixed in 24.3.0
@@ -321,5 +317,4 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
