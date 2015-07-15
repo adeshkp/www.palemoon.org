@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
+<html><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - portable!
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -24,15 +23,12 @@ table.c14 {background-color: #F9F9F9}
     big.c3 {color: red;}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -52,8 +48,7 @@ table.c14 {background-color: #F9F9F9}
             a library, on a public computer, in a cybercafé... You need something portable, that is as simple as
             plugging in your USB stick and running your favorite browser, with all your bookmarks and passwords at your
             fingertips? Then here is the answer: Pale Moon Portable!<br>
-            Following the trend of other browsers, a portable installation has been created, which, thanks to <a href=
-            "http://www.winpenpack.com/">winPenPack</a>'s X-launcher that the portable launcher is based on, is
+            Following the trend of other browsers, a portable installation has been created, which, thanks to <a href="http://www.winpenpack.com/">winPenPack</a>'s X-launcher that the portable launcher is based on, is
             completely self-contained. Nothing is stored on the host computer; your bookmarks, passwords, history,
             downloads, etc. stay neatly where they belong: on your stick.<br>
             <br>
@@ -178,7 +173,7 @@ table.c14 {background-color: #F9F9F9}
               <li>
                 <a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-1: 56bf6660f937e8b619b04ee298c827999c52ec8f<br>
+            </ul>SHA-1: d5b6da98ec11c7cad93f5c1084280f43c1330d2d<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.5.0.Atom.WinXP.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
             <br>
@@ -226,5 +221,4 @@ table.c14 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>

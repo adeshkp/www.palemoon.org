@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html dir="ltr" lang="en"><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -108,7 +109,7 @@ table.c14 {background-color: #F9F9F9}
             <h3 class="c7">
               Download links
             </h3><span class="c3">Installer (recommended, 16.8 MB)</span>:<br>
-            SHA-1: 8a6b1748cd7be68387b22832d895b4351d831c97<br>
+            SHA-1: 0ffcd55faeb24b4d1f24c3cb0f6213b52076546f<br>
             GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
             <table class="c13" border="1" cellpadding="2" cellspacing="0">
@@ -161,7 +162,7 @@ table.c14 {background-color: #F9F9F9}
               </tbody>
             </table><span class="c3"><br>
             ZIP packed (approx. 22 MB)</span>:<br>
-            SHA-1: 7503b44ff2368d2557c2bdef76ab927334332116<br>
+            SHA-1: ce3e724f1ec29003ebe7b945487ba37f4ed858c3<br>
             GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
               <li>
