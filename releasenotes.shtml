@@ -42,9 +42,96 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>
+            <h3>25.6.0 (2015-07-27)</h3>This release addresses some security issues and a range of usability improvements to the browser.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>Canvas anti-fingerprinting option: Pale Moon now includes
+the option to make canvas fingerprinting much more difficult. By
+setting the about:config preference <span style="font-weight: bold; color: rgb(51, 102, 102);">canvas.poisondata</span>
+to true, any data read back from canvas surfaces will be "poisoned"
+with humanly-imperceptible data changes. By default this is off,
+because it has a large performance impact on the routines reading this
+data.</li>
+        <li>Added a feature to allow icon fonts to be used even when
+users disallow the use of document-specified fonts. This should retain
+full navigation for icon-font heavy websites (no more dreaded "boxes"
+with hex codes) when custom text fonts are disabled.<br>
+        </li>
+        <li>Added a feature to prevent screen savers from kicking in
+when playing full-screen HTML5 video. This is currently not yet
+operational on Linux because of stability issues we've run into on that
+OS, but Windows should properly benefit from this change.</li>
+        <li>The "autocomplete=off" parameter for signon forms is now
+completely ignored by default, to keep the user in control of their
+browser's behavior and allowing credentials to be saved if wished. If
+you prefer the previous behavior, allowing a website to determine
+whether autocomplete should be allowed or not, then change the
+about:config preference <span style="font-weight: bold; color: rgb(51, 102, 102);">signon.ignoreAutocomplete</span> to false.</li>
+        <li>Reinstated the packaging of pre-compiled scripts in the
+browser. Hopefully this will fix the reports by some users who found
+that initial start-up after installation/upgrade of the browser was
+unacceptably slow. Unfortunately this means a slightly larger
+download/install size as a trade-off.</li>
+        <li>Added the option to use Chrome://../skin/ overrides, in
+effect allowing the use of "Icon themes"; toolbar icon replacements to
+customize your browser icons without the need for any CSS or full-blown
+theming.<br>
+        </li>
+        <li>Added a count for the number of matches in the find bar. it
+will now list the total number of matches found, and which match is the
+currently highlighted one.</li>
+        <li>Fixed the issue where highlighted words after finding and
+highlighting them all in a page would remain highlighted when closing
+the find bar.<br>
+        </li>
+        <li>Added support for CSP 'nonce' keywords (CSP 1.1/2.0).
+Please note that this is still experimental and may not work 100%
+as-expected. Please report any bugs you may find.</li>
+        <li>Aligned CSP more with the spec in terms of reporting and case-sensitivity of matches, and made it more app-friendly.</li>
+        <li>Added -moz-os-version selectors for @media CSS queries to simplify theming on different operating systems (esp. Windows).</li>
+        <li>Updated and improved several languages for the Status Bar code, and added Slovenian.</li>
+        <li>Fixed an issue in the internal updater window not showing proper language strings.</li>
+        <li>Fixed an issue where the unexpected use of
+"backface-visibility" on non-3D transformed elements (like the body)
+would break positioned elements on web pages.<br>
+        </li>
+        <li>Fixed text positioning in the combobox display area when a non-default height is set for the combobox.<br>
+        </li>
+        <li>Fixed a crash caused by bad Opus audio encoding in media files.</li>
+        <li>Fixed a crash when trying to measure memory in about:memory while playing video.</li>
+        <li>Fixed a rare crash in sLayersAccelerationPrefsInitialized<br>
+        </li>
+        <li>Fixed miscellaneous other crashes.<br>
+        </li>
+        <li>Fixed a DNS prefetching issue for the people using this feature.</li>
+        <li>Fixed an issue with single-word searches from the address bar when a proxy is in use.</li>
+        <li>Fixed a number of build issues on Linux when using system libs.</li>
+        <li>Added support for link-time optimization on newer Linux compilers.<br>
+        </li>
+        <li>Removed more telemetry code (ongoing project!).<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Fixed a memory safety bug due to a bad test in nsZipArchive.cpp (CVE-2015-2735).</li>
+        <li>Fixed a memory safety bug in nsZipArchive::BuildFileList (CVE-2015-2736).<br>
+        </li>
+        <li>Fixed a memory safety bug caused by an overflow in nsXMLHttpRequest::AppendToResponseText (CVE-2015-2740).<br>
+        </li>
+        <li>Fixed a Use After Free in CanonicalizeXPCOMParticipant (CVE-2015-2722).<br>
+        </li>
+        <li>Fixed off-main-thread nsIPrincipal use of various consumers in the tree (only grab the principal when needed).<br>
+        </li>
+        <li>Fixed an issue where an IPDL message was sent off the main thread.<br>
+        </li>
+        <li>Fixed a potentially exploitable TCPSocket crash due to a race condition.<br>
+        </li>
+      </ul>
+      <h3>
               25.5.0 (2015-06-10)
-            </h3>This is an important maintenance update with mostly under-the-hood changes.<br>
+            </h3>
+This is an important maintenance update with mostly under-the-hood changes.<br>
             <br>
             <span class="c2">Fixes/changes:</span><br>
             <ul>
@@ -114,8 +201,7 @@ table.c10 {background-color: #F9F9F9}
               <li>Updated and patched libcubeb, the main media sound library, to fix a number of audio issues (e.g.
               when switching output device) and audio-related crashes<br>
               </li>
-              <li>Added the option to load modules into a named scope (see <a href=
-              "https://github.com/MoonchildProductions/Pale-Moon/issues/88">issue #88</a>)<br>
+              <li>Added the option to load modules into a named scope (see <a href="https://github.com/MoonchildProductions/Pale-Moon/issues/88">issue #88</a>)<br>
               </li>
               <li>Removed quick access keys for buttons on the updater window (since it may pop up unannounced when
               people are typing, causing them to make unintended choices)<br>
@@ -130,8 +216,7 @@ table.c10 {background-color: #F9F9F9}
                 and set it to your language code.<br>
               </li>
             </ul>More information about changes in this version that would be important for extension developers and
-            web programmers can be found <a href=
-            "https://forum.palemoon.org/viewtopic.php?f=5&amp;t=8474">here</a>.<br>
+            web programmers can be found <a href="https://forum.palemoon.org/viewtopic.php?f=5&amp;t=8474">here</a>.<br>
             <br>
             <span class="c2">Security fixes:</span><br>
             <ul>
@@ -280,8 +365,7 @@ table.c10 {background-color: #F9F9F9}
               <span id="short_desc_nonedit_display">[qcms] heap info leak</span></span>
               </li>
               <li>
-                <span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed</span></span> <span id=
-                "summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810</span></span> clickjacking
+                <span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed</span></span> <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810</span></span> clickjacking
                 attacks via a Flash object in conjunction with DIV elements
               </li>
               <li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0801 a variant
@@ -291,8 +375,7 @@ table.c10 {background-color: #F9F9F9}
               randomness of DNS resolver queries on Android</span></span>
               </li>
               <li>
-                <span id="summary_alias_container"><span id="alias_nonedit_display">Fixed</span></span> <span id=
-                "summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs
+                <span id="summary_alias_container"><span id="alias_nonedit_display">Fixed</span></span> <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs
                 through about: redirector</span></span>
               </li>
             </ul>
@@ -312,8 +395,7 @@ table.c10 {background-color: #F9F9F9}
             <br>
             <span class="c2">Fixes/changes:</span><br>
             <ul>
-              <li>Fixed security vulnerability <a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>. This vulnerability would
+              <li>Fixed security vulnerability <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>. This vulnerability would
               allow remote attackers to bypass the Same Origin Policy and execute arbitrary JavaScript code with chrome
               privileges via vectors involving SVG hash navigation.
               </li>
@@ -343,8 +425,7 @@ table.c10 {background-color: #F9F9F9}
               </li>
               <li>Android: removed the Mozilla "product announcements" service.<br>
               </li>
-              <li>Re-added control of the number of concurrent tabs to be restored from a session with <span class=
-              "c6">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
+              <li>Re-added control of the number of concurrent tabs to be restored from a session with <span class="c6">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
               </li>
               <li>Significantly improved performance and accuracy of date/time/timer handling.<br>
               </li>
@@ -383,30 +464,22 @@ table.c10 {background-color: #F9F9F9}
               </li>
             </ul><span class="c2">Security fixes:</span><br>
             <ul>
-              <li>Disabled all RC4-based encryption ciphers by default. <a href=
-              "https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
+              <li>Disabled all RC4-based encryption ciphers by default. <a href="https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
               </li>
               <li>Fixed several miscellaneous memory safety hazards.<br>
-                (applicable bugs related to <a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)
+                (applicable bugs related to <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)
               </li>
-              <li>Fixed loading of locally stored DLL files through the internal updater. (<a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)
+              <li>Fixed loading of locally stored DLL files through the internal updater. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)
               </li>
-              <li>Fixed a potential crash point in IndexedDB. (<a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span class=
-              "c7">DiD</span>
+              <li>Fixed a potential crash point in IndexedDB. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span class="c7">DiD</span>
               </li>
               <li>Fixed a double-free situation when using non-default memory allocators and a 0-length XHR.
                 (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0828">CVE-2015-0828</a>)<br>
                 Note: production builds of Pale Moon were never vulnerable.
               </li>
-              <li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)
+              <li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)
               </li>
-              <li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)
+              <li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)
               </li>
               <li>Fixed a potential PNG heap-overflow crash. <span class="c7">DiD</span>
               </li>
@@ -419,8 +492,7 @@ table.c10 {background-color: #F9F9F9}
             <br>
             <h1>
               Release notes for previous versions (unsupported)
-            </h1>You can find the release notes for previous releases of Pale Moon on the <a href=
-            "releasenotes-archived.shtml">Archived Versions Release Notes</a> page.<br>
+            </h1>You can find the release notes for previous releases of Pale Moon on the <a href="releasenotes-archived.shtml">Archived Versions Release Notes</a> page.<br>
             <br>
           </td>
         </tr>
@@ -433,5 +505,4 @@ table.c10 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
