@@ -45,7 +45,16 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style></head><body>
+    </style>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to store some required information for proper operation.","dismiss":"OK!","learnMore":"More info","link":"http://www.palemoon.org/cookies.shtml","theme":"dark-top"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+    
+    </head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
