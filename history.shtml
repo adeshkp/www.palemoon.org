@@ -1,23 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Project History
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html><head>
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Project History</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
-    <meta content="Project History for the Pale Moon Project" name="description">
-  </head>
-  <body>
+    <meta content="Project History for the Pale Moon Project" name="description"></head><body>
     <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0">
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0">
           </th>
         </tr>
         <tr align="left">
@@ -29,13 +25,16 @@
           <td>
             <h1>
               History of the Pale Moon project<br>
-            </h1>This project started off as merely fiddling with the build process on Windows, seeing first off if I
+            </h1>
+      <h3>1.5/2.0 era</h3>
+This project started off as merely fiddling with the build process on Windows, seeing first off if I
             could manage to make my own Windows build of the Firefox browser and then seeing how my own builds compared
             to official ones. Finding the difference significant, the resulting browsers (simply "my own Firefox
             builds") were given to a number of friends to use, with very positive results.<br>
             This was back in the time when Firefox was still in its 1.5.x stage.<br>
             <br>
-            I have since built Firefox, Thunderbird and Seamonkey specifically for different systems, gaining
+      <h3>3.x era</h3>
+I have since built Firefox, Thunderbird and Seamonkey specifically for different systems, gaining
             experience, learning the quirks and following code development. Eventually, with Firefox 3.5.2, I settled
             on what I found was an optimal compromise between speed, features and useability of the browser. At that
             point in time, the Pale Moon project was given shape, releasing the highly optimized browser to the public
@@ -46,7 +45,7 @@
             or counted, it is anyone's guess how many people are actually using it, but it has surpassed anything that
             was initially expected.<br>
             <br>
-            Feedback has been positive, and as a result of several requests from people, a second build version was
+            Feedback had been positive, and as a result of several requests from people, a second build version was
             created of Pale Moon, to cater specifically to the capabilities of Athlon XP and Athlon MP processors,
             still extremely popular processors for systems used at the time. Later on, a portable version was also
             created to allow people to take Pale Moon with them on USB stick or removable drives.<br>
@@ -57,7 +56,8 @@
             users has always been taken into account, and the development of Pale Moon has therefore been given shape,
             in part, by its users.<br>
             <br>
-            When version 4.0 of the Firefox code arrived, after extensive betas, Pale Moon deviated further from its
+      <h3>4-20 era</h3>
+When version 4.0 of the Firefox code arrived, after extensive betas, Pale Moon deviated further from its
             sibling by also making changes to the standard UI (User Interface) layout. UI design choices made to
             "innovate" the user interface, removing quite essential user feedback and changing the layout of navigation
             controls were considered to be poor choices, and have been altered to provide a more familiar, and also
@@ -94,7 +94,8 @@
             although a close parallel was maintained for extension compatibility by rebasing Pale Moon code on top of
             later Firefox versions.<br>
             <br>
-            With the release of Firefox 24 (and Pale Moon of the same version), Pale Moon's already divergent
+      <h3>24.* era</h3>
+With the release of Firefox 24 (and Pale Moon of the same version), Pale Moon's already divergent
             development direction started to more clearly separate from Firefox than it had already done before, by
             focusing much more strongly on individual development of interface, features and back-end, while adopting
             continued security updates through Firefox's ESR channel. After a year of this development (and turbulent
@@ -107,13 +108,20 @@
             <br>
             <h2>
               Future directions
-            </h2>The outline Mozilla has sketched seems to be to make Firefox more than a browser, and to spread thin
-            across different disciplines and platforms in an attempt to make a web-OS, Skype client alternative, App
-            developer environment, mobile phone OS or swiss army knife out of it, as well as increasing ties with
-            on-line commercial ventures like Google, Yahoo, social media sites, and whomever wishes to pay to be
-            advertised in the browser. These plans may look nice on paper, but would most likely see a vast amount of
-            practical issues when trying to implement them, as has already been shown in decreasing stability and
-            usability in the Firefox browser in recent times.<br>
+            </h2>The
+outline Mozilla has sketched seems to be to make Firefox more than a
+browser, and to spread thin across many different disciplines and
+platforms in an attempt to make a web-OS, Skype client alternative, App
+developer environment, mobile phone OS and/or swiss army knife out of
+it, as well as increasing ties with on-line commercial ventures like
+Google, Yahoo, social media sites, Hello, Pocket, and whomever wishes
+to pay to be advertised in the browser. These plans may look nice on
+paper, but would most likely see a vast amount of practical issues when
+trying to implement them, as has already been shown in decreasing
+stability and usability in the Firefox browser in recent times. Not to
+mention: users have voiced that they are very regularly not looking for
+whatever mozilla decides would be good changes or additions, but this
+has been ignored.<br>
             <br>
             In addition, Mozilla touting minor bugfix releases of Firefox as "major" releases (for the inherent buzz as
             many review sites feel compelled to write an article with each major version release) and constant changes
@@ -133,7 +141,7 @@
             Instead, the current plan for Pale Moon is to stick to a stable, solid, and easily maintainable base code
             that started off initially as Firefox 24 ESR (with a number of reverted changes to keep maximum
             configurability as well as important updates ported back from later Firefox versions) and to maintain and
-            develop this code further.<br>
+            develop this code further as an independent fork.<br>
             <br>
             <h3>
               Bottom line
@@ -148,5 +156,4 @@
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
