@@ -2,6 +2,7 @@
 <html dir="ltr" lang="en"><head>
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -55,9 +56,11 @@ table.c14 {background-color: #F9F9F9}
             <ul>
               <li>These builds are specifically optimized for Intel Atom™ processors, and are not recommended for
               regular Intel or AMD processors on current operating systems (Vista or higher). The extra optimizations
-              <span class="c3">only</span> work on <span class="c3">Atom</span> processors and will execute a little
-              slower than the normal version of Pale Moon on a non-Atom processor (but otherwise run just fine). In
-              general use, you will likely not notice much (if any) difference if run on a non-Atom processor.<br>
+              <span class="c3">only</span> work on <span class="c3">Atom</span>
+processors and will execute a little slower than the normal version of
+Pale Moon on a non-Atom processor (but otherwise run just fine). In
+general use, you will likely not notice much (if any) difference if run
+on a non-Atom processor that is likely more powerful, anyway.<br>
               </li>
               <li>These builds are otherwise exactly the same as the normal desktop version of Pale Moon, built from a
               branch of the same source code. Apart from Windows XP compatibility and small technical and aesthetic
@@ -103,14 +106,14 @@ table.c14 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c7">
-              Current version: 25.5.0
+              Current version: 25.6.0
             </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
             release notes</a>.<br>
             <h3 class="c7">
               Download links
-            </h3><span class="c3">Installer (recommended, 16.8 MB)</span>:<br>
-            SHA-1: 0ffcd55faeb24b4d1f24c3cb0f6213b52076546f<br>
-            GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
+            </h3><span class="c3">Installer (recommended, 19.0 MB)</span>:<br>
+            SHA-1: 7e500336cf085dc272837cda0885795213be00d3<br>
+            GPG/PGP signature: <a href="pgp/palemoon-25.6.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
             <table class="c13" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -134,7 +137,7 @@ table.c14 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                    <a href="http://relmirror.palemoon.org/release/palemoon-25.6.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text">
                     <span class="c3">Pale Moon mirror</span> #1<br>
@@ -143,7 +146,7 @@ table.c14 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.installer.exe"><img class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
+                    <a href="http://relmirror2.palemoon.org/release/palemoon-25.6.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
                   </td>
                   <td class="c5">
                     <span class="c3">Pale Moon mirror</span> #2<br>
@@ -161,16 +164,16 @@ table.c14 {background-color: #F9F9F9}
                 </tr>
               </tbody>
             </table><span class="c3"><br>
-            ZIP packed (approx. 22 MB)</span>:<br>
-            SHA-1: ce3e724f1ec29003ebe7b945487ba37f4ed858c3<br>
-            GPG/PGP signature: <a href="pgp/palemoon-25.5.0.Atom.WinXP.zip.sig">[Sig]</a><br>
+            ZIP packed (approx. 25 MB)</span>:<br>
+            SHA-1: 93b4efebba446c0617d564b34dc4d9b488eb41f9<br>
+            GPG/PGP signature: <a href="pgp/palemoon-25.6.0.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
               <li>
-                <a href="http://relmirror.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/palemoon-25.6.0.Atom.WinXP.zip">Pale Moon mirror
                 #1</a><br>
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/palemoon-25.5.0.Atom.WinXP.zip">Pale Moon mirror #2</a>
+                <a href="http://relmirror2.palemoon.org/release/palemoon-25.6.0.Atom.WinXP.zip">Pale Moon mirror #2</a>
               </li>
               <li>
                 <a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>

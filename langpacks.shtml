@@ -1,10 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Language Packs
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html><head>
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -15,15 +14,12 @@
     th.c11 {vertical-align: top; width: 150px; text-align: center;}
     th.c10 {vertical-align: top; width: 224px; text-align: center;}
     div.c8 {border: 2px solid rgb(204, 204, 255); padding: 5px 10px; background-color: rgb(240, 240, 255);}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c19" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -43,8 +39,7 @@
             <br>
             It should be noted that while these language packs convert most of the english in the user interface, they
             are not a complete translation as of now. <span class="bold">Some Pale Moon specific options and texts are
-            not localized (yet) and will show up as English if you use the packs marked as <span class=
-            "red italic">incomplete</span>.</span> If you want to help the Pale Moon project by translating these texts, please
+            not localized (yet) and will show up as English if you use the packs marked as <span class="red italic">incomplete</span>.</span> If you want to help the Pale Moon project by translating these texts, please
             hop over to <a href="http://forum.palemoon.org/viewforum.php?f=30">this forum board</a> and help out!<br>
             <br>
             <span class="red">Please note the installation instructions, just installing the language pack and letting
@@ -64,8 +59,7 @@
                 Moon browser (the default when left-clicking), skipping the need to save it first.<br>
                 </li>
                 <li>Install Zing from here:<br>
-                  <a href=
-                  "https://addons.palemoon.org/extensions/other/zing-locale-switcher/">https://addons.palemoon.org/extensions/other/zing-locale-switcher/</a><br>
+                  <a href="https://addons.palemoon.org/extensions/other/zing-locale-switcher/">https://addons.palemoon.org/extensions/other/zing-locale-switcher/</a><br>
                   </li>
                 <li>Click the Z! flag in your toolbar, and select the language you prefer from the drop-down.
                 </li>
@@ -100,20 +94,18 @@
             <br>
             Note that these language packs only change the interface language. <span class="underline">They don't change the
             language used for the spellchecker.</span><br>
-            To download a spellchecker dictionary of your choice, go to: <a href=
-            "https://addons.mozilla.org/en-US/firefox/language-tools/">https://addons.mozilla.org/en-US/firefox/language-tools/<br>
+            To download a spellchecker dictionary of your choice, go to: <a href="https://addons.mozilla.org/en-US/firefox/language-tools/">https://addons.mozilla.org/en-US/firefox/language-tools/<br>
             </a> Or right-click any normal text input field, and in the pop-up menu select Languages -&gt; Add
             Dictionaries...<br>
             <br>
             <h3>
-              Download for v25.4<br>
+              Download for v25.6<br>
             </h3>Download links for the language packs:&nbsp; <span class="red"><br></span> <span class="red">■</span> =
             incomplete (someone has partially translated it)<br>
             <span class="green">■</span> = complete<br>
             <br>
-            <span class="bold">These language packs are for the latest version of the browser</span> (v25.4). They will
-            not work on older versions. If you are using an older version of the browser, please go to the <a href=
-            "archived.shtml">archived versions</a> page and download the approporiate language pack for your browser
+            <span class="bold">These language packs are for the latest version of the browser</span> (v25.6). They will
+            not work on older versions. If you are using an older version of the browser, please go to the <a href="archived.shtml">archived versions</a> page and download the approporiate language pack for your browser
             version. Also note that only partially completed (in progress) and completed language packs are listed here
             that have an active translator. Language packs that do not have an active translator are moved to the
             inactive language pack page (see below)<br>
@@ -133,49 +125,40 @@
                     <span class="red">■</span> Arabic
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/ar.xpi">ar.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/ar.xpi">ar.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> Czech
+                    <span class="red">■</span> Czech
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/cs.xpi">cs.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/cs.xpi">cs.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> Danish
+                    <span class="red">■</span> Danish
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/da.xpi">da.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/da.xpi">da.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> German
+                    <span class="red">■</span> German
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/de.xpi">de.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/de.xpi">de.xpi</a>
                   </td>
                 </tr>
-                <tr>
-                  <td class="c14">
-                    <span class="red">■</span> Alternative German<br>
-                  </td>
-                  <td class="c14">
-                    <!--<a
- href="http://relmirror.palemoon.org/langpacks/25.4/de-ade.xpi">de-ade.xpi</a>-->
-                    Not yet available<br>
-                  </td>
-                </tr>
+                
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> English (U.K.)
+                    <span class="red">■</span> English (U.K.)
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/en-GB.xpi">en-GB.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/en-GB.xpi">en-GB.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -183,7 +166,7 @@
                     <span class="green">■</span> Spanish (Argentina)
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/es-AR.xpi">es-AR.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/es-AR.xpi">es-AR.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -191,23 +174,23 @@
                     <span class="red">■</span> Spanish (Spain)
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/es-ES.xpi">es-ES.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/es-ES.xpi">es-ES.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> Spanish (Mexico)<br>
+                    <span class="red">■</span> Spanish (Mexico)<br>
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/es-MX.xpi">es-MX.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/es-MX.xpi">es-MX.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> Finnish
+                    <span class="red">■</span> Finnish
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/fi.xpi">fi.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/fi.xpi">fi.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -215,7 +198,7 @@
                     <span class="red">■</span> French
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/fr.xpi">fr.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/fr.xpi">fr.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -223,7 +206,7 @@
                     <span class="red">■</span> Galician (Spain)<br>
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/gl-ES.xpi">gl-ES.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/gl-ES.xpi">gl-ES.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -231,15 +214,15 @@
                     <span class="red">■</span> Croatian
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/hr.xpi">hr.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/hr.xpi">hr.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="green">■</span> Hungarian
+                    <span class="red">■</span> Hungarian
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/hu.xpi">hu.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/hu.xpi">hu.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -247,7 +230,7 @@
                     <span class="red">■</span> Icelandic
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/is.xpi">is.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/is.xpi">is.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -255,7 +238,7 @@
                     <span class="green">■</span> Italian
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/it.xpi">it.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/it.xpi">it.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -263,7 +246,7 @@
                     <span class="red">■</span> Japanese
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/ja.xpi">ja.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/ja.xpi">ja.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -271,15 +254,15 @@
                     <span class="green">■</span> Kannada (India)<br>
                   </td>
                   <td class="c13">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/kn.xpi">kn.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/kn.xpi">kn.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c14">
-                    <span class="green">■</span> Korean
+                    <span class="red">■</span> Korean
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/ko.xpi">ko.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/ko.xpi">ko.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -287,7 +270,7 @@
                     <span class="green">■</span> Dutch
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/nl.xpi">nl.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/nl.xpi">nl.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -295,15 +278,15 @@
                     <span class="red">■</span> Polish
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/pl.xpi">pl.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/pl.xpi">pl.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c14">
-                    <span class="green">■</span> Portuguese (Brazil)
+                    <span class="red">■</span> Portuguese (Brazil)
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/pt-BR.xpi">pt-BR.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/pt-BR.xpi">pt-BR.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -311,7 +294,7 @@
                     <span class="green">■</span> Portuguese (Portugal)
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/pt-PT.xpi">pt-PT.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/pt-PT.xpi">pt-PT.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -319,7 +302,7 @@
                     <span class="green">■</span> Romanian/Moldavian
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/ro.xpi">ro.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/ro.xpi">ro.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -327,23 +310,23 @@
                     <span class="green">■</span> Russian<br>
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/ru.xpi">ru.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/ru.xpi">ru.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c14">
-                    <span class="green">■</span> Slovenian
+                    <span class="red">■</span> Slovenian
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/sl.xpi">sl.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/sl.xpi">sl.xpi</a>
                   </td>
                 </tr>
                 <tr>
                   <td class="c14">
-                    <span class="green">■</span> Serbian
+                    <span class="red">■</span> Serbian
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/sr.xpi">sr.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/sr.xpi">sr.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -351,7 +334,7 @@
                     <span class="red">■</span> Swedish
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/sv-SE.xpi">sv-SE.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/sv-SE.xpi">sv-SE.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -359,7 +342,7 @@
                     <span class="green">■</span> Turkish
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/tr.xpi">tr.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/tr.xpi">tr.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -367,7 +350,7 @@
                     <span class="red">■</span> Chinese (Simplified)
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/zh-CN.xpi">zh-CN.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/zh-CN.xpi">zh-CN.xpi</a>
                   </td>
                 </tr>
                 <tr>
@@ -375,7 +358,7 @@
                     <span class="red">■</span> Chinese (Traditional)
                   </td>
                   <td class="c14">
-                    <a href="http://relmirror.palemoon.org/langpacks/25.4/zh-TW.xpi">zh-TW.xpi</a>
+                    <a href="http://relmirror.palemoon.org/langpacks/25.6/zh-TW.xpi">zh-TW.xpi</a>
                   </td>
                 </tr>
               </tbody>
@@ -400,5 +383,4 @@
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>

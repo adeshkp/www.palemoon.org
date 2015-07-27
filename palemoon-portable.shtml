@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -54,7 +55,7 @@ table.c14 {background-color: #F9F9F9}
             <br>
             <big class="c3"><span class="c2">Note: portables are not meant to have file/URL associations with the
             desktop.</span></big><br>
-            If you require <span class="c2">desktop integration of any kind</span> (including pinned taskbar entries,
+            If you require <span class="c2">desktop integration of any kind</span> (including pinned taskbar entries, launching a mail application from mailto: links,
             etc.), it is recommended that you do <span class="c2">not</span> use Pale Moon Portable, but the normal
             desktop version instead! <span class="c4">Pale Moon portable has been specifically designed to take with
             you on removable media with high wear and slow access, and its default settings reflect this.</span> Using
@@ -109,11 +110,11 @@ table.c14 {background-color: #F9F9F9}
                 <a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a><br>
               </li>
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.5.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.6.0.win32.exe">Pale Moon mirror
                 #1</a> (direct link)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.5.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.6.0.win32.exe">Pale Moon mirror
                 #2</a> (direct link)
               </li>
               <li>
@@ -122,8 +123,8 @@ table.c14 {background-color: #F9F9F9}
               <li>
                 <a href="http://www.gamershell.com/download_110819.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-1: 236bbed1a17295f162a9c98605817352ba073fbd<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.5.0.win32.exe.sig">[Sig]</a><br>
+            </ul>SHA-1: 4f22ecef2c2132fc4356810182ad42bd4686b1c6<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.6.0.win32.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
             <br>
             <div class="c8">
@@ -138,18 +139,18 @@ table.c14 {background-color: #F9F9F9}
                 <a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a>
               </li>
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.5.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.6.0.win64.exe">Pale Moon mirror
                 #1</a> (direct link)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.5.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.6.0.win64.exe">Pale Moon mirror
                 #2</a> (direct link)
               </li>
               <li>
                 <a href="http://www.gamershell.com/download_110821.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-1: 9de6f1a477f171029ad544f1700c8b977efb4fd8<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.5.0.win64.exe.sig">[Sig]</a><br>
+            </ul>SHA-1: 5040dd97be48e3c96b360f2fe17454add0e8633b<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.6.0.win64.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br>
             <br>
             <div class="c8">
@@ -163,18 +164,18 @@ table.c14 {background-color: #F9F9F9}
                 <a href="http://www.fosshub.com/Pale-Moon.html">Foss Hub</a>
               </li>
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.5.0.Atom.WinXP.exe">Pale Moon
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-25.6.0.Atom.WinXP.exe">Pale Moon
                 mirror #1</a> (direct link)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.5.0.Atom.WinXP.exe">Pale Moon
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-25.6.0.Atom.WinXP.exe">Pale Moon
                 mirror #2</a> (direct link)
               </li>
               <li>
                 <a href="http://www.gamershell.com/download_110823.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-1: d5b6da98ec11c7cad93f5c1084280f43c1330d2d<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.5.0.Atom.WinXP.exe.sig">[Sig]</a><br>
+            </ul>SHA-1: d6c212ef4bd0ae4133f35c37442082a8b8dbea17<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-25.6.0.Atom.WinXP.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
             <br>
             Please go to the <a href="/">main page</a> if you are looking for a standard installation
@@ -182,11 +183,22 @@ table.c14 {background-color: #F9F9F9}
             <br>
             <h3>
               I already have an earlier version of palemoon-portable. How do I upgrade?
-            </h3>Since Pale Moon Portable comes in a "virgin" state, you can simply download and overwrite an existing
+            </h3>Recommended method:<br>
+      <ol>
+        <li>Download and extract the portable version of your choice to an empty folder.</li>
+        <li>Copy the "user" folder from your old installation over to your new one.<br>
+        </li>
+        <li>Optionally, if you have created a user.ini file for the
+portable (see below), also copy this file to the new folder, or
+duplicate any changes you have made to the old .ini file.<br>
+        </li>
+        <li>Test if everything is OK, and if so, delete the old installation folder.<br>
+        </li>
+      </ol>
+Since Pale Moon Portable comes in a "virgin" state, you can also simply download and overwrite an existing
             Pale Moon Portable folder with the files from a newer version. Your user profile will remain untouched as
-            it doesn't exist in a freshly extracted Pale Moon Portable. <span class="c2">You can also extract the
-            portable to a new folder of your choice and then copy over the "user" folder from the old copy of the
-            portable browser.</span><br>
+            it doesn't exist in a freshly extracted Pale Moon Portable.<br>
+<span class="c2"></span><br>
             <span class="c5">Important:</span> If you have made changes to palemoon-portable.ini yourself, you will
             have to make these changes again as the .ini file will be <span class="c2">overwritten</span>. The solution
             is to save this file as "user.ini" which will take precedence over palemoon-portable.ini if found by the

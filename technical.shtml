@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
+<html><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Technical Details
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -35,15 +34,12 @@ table.c16 {background-color: #F9F9F9}
     th.c3 {width: 330px; text-align: center;}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c16" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -129,7 +125,7 @@ table.c16 {background-color: #F9F9F9}
               <li>
                 <span class="c2">Parental controls</span>. Pale Moon aims to be a fast browser for general use, not a
                 "secured family browser". The design impact of operating system integrated parental controls as
-                introduced in Firefox is significant, and has had serious implications for building the browser. As
+                introduced in Mozilla code is significant, and has had serious implications for building the browser. As
                 such, parental controls have been disabled. Extensions-based parental controls are, of course, a
                 just-as viable alternative (and may in many cases work better!).<br>
               </li>
@@ -140,7 +136,7 @@ table.c16 {background-color: #F9F9F9}
                 This is best left to dedicated programs or at most a browser plug-in.<br>
               </li>
               <li>
-                <span class="c2">Maintenance service</span>. Pale Moon does not use the Windows maintenance service and
+                <span class="c2">Maintenance service</span>. Pale Moon does not use a Windows maintenance service and
                 does not update silently in the background.
               </li>
               <li>
@@ -158,8 +154,7 @@ table.c16 {background-color: #F9F9F9}
                 <span class="c2">Tab Groups</span>. The Tab Group (aka Panorama) feature has never properly matured and
                 has not seen many people using it. In addition, the feature is generally slow to use, not intuitive,
                 and puts a rather hefty load on the browser when included. For people who still prefer to use this
-                feature even though it has been completely removed from the browser, an <a href=
-                "tabgroups.shtml">add-on is available</a> to replace the removed code.<br>
+                feature even though it has been completely removed from the browser, an <a href="tabgroups.shtml">add-on is available</a> to replace the removed code.<br>
               </li>
               <li>A few miscellaneous things like the crashreporter and telemetry data gathering have been completely
               removed since they require server-side components that are not in place at palemoon.org, as well as the
@@ -190,11 +185,7 @@ table.c16 {background-color: #F9F9F9}
                   <th colspan="1" rowspan="1" class="c4">
                     Supported?<br>
                   </th>
-                </tr>
-                <tr>
-                  <td></td>
-                </tr>
-                <tr>
+                </tr><tr>
                   <td class="c6">
                     386 / 486 / Pentium / Pentium II<br>
                   </td>
@@ -298,9 +289,7 @@ table.c16 {background-color: #F9F9F9}
             </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
             close to Firefox in many parts of the code to ensure compatibility with as many add-ons as possible, but
             should be considered a "fork" and a totally independent product.</span><span class="c12"><br>
-            <br></span> For a feature set comparison with Firefox, please have a look at the <a href=
-            "https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target=
-            "_blank">following table</a>.<br>
+            <br></span> For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
             <ol>
               <li>Pale Moon, like Firefox (and several other browsers) is based on the Gecko rendering engine (or
               rather, a modified version thereof). This means that the core rendering functions for Pale Moon and
@@ -314,12 +303,15 @@ table.c16 {background-color: #F9F9F9}
               be better left to the free choice of the user. This improves stability and speed, and reduces resource
               use.
               </li>
-              <li>Pale Moon comes with a number of different default configuration settings than Firefox. These basic
-              "tweaks" (I'd prefer to call them "more sane defaults") are done to provide you with the smoothest
-              browsing experience as well as to be considerate towards the Internet ecosystem, website/service
-              providers and residential gateways (e.g. by reducing the number of concurrent http and total dns requests
-              needed when browsing). Note that "internet speed boosters" and general "tweak guides" for Firefox can
-              actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
+              <li>Pale
+Moon comes with a number of different default configuration settings
+than Firefox. These basic "tweaks" (I'd prefer to call them "more sane
+defaults") are done with in-depth knowledge of the modified engine, to
+provide you with the smoothest browsing experience as well as to be
+considerate towards the Internet ecosystem, website/service providers
+and residential gateways (e.g. by reducing the number of concurrent
+http and total dns requests needed when browsing). Note that "internet
+speed boosters" and general "tweak guides" for Firefox can actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
               in-depth knowledge of the browser back-end and "a higher number" or "bigger buffer" isn't always better.
               <span class="c12">You are strongly advised to always use defaults as supplied in Pale Moon.</span>
               </li>
@@ -406,12 +398,18 @@ table.c16 {background-color: #F9F9F9}
               </li>
               <li class="c14">
                 <ul>
-                  <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
+                  
+            <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
                   </li>
-                  <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
+
+                  
+            <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
                   </li>
-                  <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)
+
+                  
+            <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)
                   </li>
+
                 </ul>
               </li>
               <li>Optimizations: SSE2 architecture, global speed-preference flags, intrinsic functions where possible,
@@ -441,5 +439,4 @@ table.c16 {background-color: #F9F9F9}
         </tr>
       </tbody>
     </table><br>
-  </body>
-</html>
+  </body></html>

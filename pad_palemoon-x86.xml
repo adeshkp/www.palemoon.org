@@ -34,9 +34,9 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Pale Moon</Program_Name>
-		<Program_Version>25.5.0</Program_Version>
-		<Program_Release_Month>06</Program_Release_Month>
-		<Program_Release_Day>10</Program_Release_Day>
+		<Program_Version>25.6.0</Program_Version>
+		<Program_Release_Month>07</Program_Release_Month>
+		<Program_Release_Day>27</Program_Release_Day>
 		<Program_Release_Year>2015</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
@@ -51,9 +51,9 @@
 		<Program_Category_Class>Network &amp; Internet::Browsers</Program_Category_Class>
 		<Program_System_Requirements>P4 or A64 or later CPU, 256MB RAM, 150 MB HDD space</Program_System_Requirements>
 		<File_Info>
-			<File_Size_Bytes>18557832</File_Size_Bytes>
-			<File_Size_K>18122</File_Size_K>
-			<File_Size_MB>17.70</File_Size_MB>
+			<File_Size_Bytes>21346584</File_Size_Bytes>
+			<File_Size_K>20846</File_Size_K>
+			<File_Size_MB>20.36</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -68,11 +68,11 @@
 	<Program_Descriptions>
 		<English>
 			<Keywords>browser, fast, custom, optimized, web, internet, mozilla, pale, moon, palemoon, firefox, windows</Keywords>
-			<Char_Desc_45>Optimized Firefox-based web browser.</Char_Desc_45>
-			<Char_Desc_80>Custom-built and optimized Firefox-based web browser.</Char_Desc_80>
-			<Char_Desc_250>Pale Moon is an Open Source, Firefox-based browser focusing on efficiency an ease of use.</Char_Desc_250>
-			<Char_Desc_450>Pale Moon is an Open Source, Firefox-based browser focusing on efficiency an ease of use. Pale Moon offers you a browsing experience in a browser completely built from its own source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with thousands of Firefox extensions you have come to love and rely on.</Char_Desc_450>
-			<Char_Desc_2000>Pale Moon is an Open Source, Firefox-based web browser focusing on efficiency and ease of use. Make sure to get the most out of your browser!
+			<Char_Desc_45>Open Source web browser.</Char_Desc_45>
+			<Char_Desc_80>Custom-built and optimized Open Source web browser.</Char_Desc_80>
+			<Char_Desc_250>Pale Moon is an Open Source, Firefox-forked browser focusing on efficiency an ease of use.</Char_Desc_250>
+			<Char_Desc_450>Pale Moon is an Open Source, Firefox-forked web browser focusing on efficiency an ease of use. Pale Moon offers you a browsing experience in a browser completely built from its own source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with thousands of Firefox extensions you have come to love and rely on.</Char_Desc_450>
+			<Char_Desc_2000>Pale Moon is an Open Source, Firefox-forked web browser focusing on efficiency and ease of use. Make sure to get the most out of your browser!
 
 Pale Moon offers you a browsing experience in a browser completely built from its own source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with thousands of Firefox extensions you have come to love and rely on.
 
@@ -88,8 +88,8 @@ Pale Moon is a middle road, cutting away support for (by current standards) anci
 			<Application_XML_File_URL>http://www.palemoon.org/pad_palemoon-x86.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://relmirror.palemoon.org/release/palemoon-25.5.0.win32.installer.exe</Primary_Download_URL>
-			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/palemoon-25.5.0.win32.installer.exe</Secondary_Download_URL>
+			<Primary_Download_URL>http://relmirror.palemoon.org/release/palemoon-25.6.0.win32.installer.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/palemoon-25.6.0.win32.installer.exe</Secondary_Download_URL>
 			<Additional_Download_URL_1>http://www.fosshub.com/Pale-Moon.html</Additional_Download_URL_1>
 			<Additional_Download_URL_2>http://www.palemoon.org/download-win32.shtml</Additional_Download_URL_2>
 		</Download_URLs>

@@ -1,5 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -10,8 +11,8 @@
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
 
   
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <title>The Pale Moon Project homepage</title>
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"><title>The Pale Moon Project homepage</title>
+  
 
   
   
@@ -44,8 +45,7 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -58,18 +58,17 @@
       </td>
     </tr>
     <tr>
-      <td style="padding-top: 1em;"> Pale Moon is an Open Source,
-Firefox-based web browser available for Microsoft Windows, Android and
+      <td style="padding-top: 1em;"> Pale Moon is an Open Source web browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
 efficiency and ease of use. Make sure to get the most out of your
 browser!<br>
       <br>
 Pale Moon offers you a browsing experience in a browser completely
-built from its own, independently developed source with carefully
+built from its own, independently developed source that has been forked off from Firefox/Mozilla code, with carefully
 selected features and optimizations to maximize the browser's speed<small>*</small>,
 stability and user experience, while offering a rich collection of
 extensions and themes (including compatibility with many Firefox
-extensions many users have come to love and rely on).<br>
+extensions users have come to love and rely on).<br>
       <br>
 &nbsp;<br>
       <div class="center"> <a id="dllink-windows" class="dllink_green" href="http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src="images/down.png" border="0">Download (Windows
@@ -143,9 +142,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold">Pale Moon 25.5 has been released</span>
-which is an important maintenance release with a good number of
-changes. Please take a moment to read the <a href="releasenotes.shtml">release
+            <span class="bold">Pale Moon 25.6 has been released</span>
+which is an important maintenance release with some new functionality, a good number of
+usability changes and crash/security fixes. Please take a moment to read the <a href="releasenotes.shtml">release
 notes</a>!<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more

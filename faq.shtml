@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
+<html><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Frequently Asked Questions
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -21,15 +20,12 @@ table.c11 {background-color: #F9F9F9}
     span.c3 {font-style: italic;}
     span.c2 {color: red;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c11" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -47,8 +43,7 @@ table.c11 {background-color: #F9F9F9}
             included here. This F.A.Q. is limited and will not be expanded further because focus of support has moved
             to the Pale Moon forum.<br>
             <br>
-            A more comprehensive list of frequently asked questions can be found in the <a href=
-            "http://forum.palemoon.org/viewforum.php?f=24" target="_blank">F.A.Q. section of the Pale Moon Forum</a>.
+            A more comprehensive list of frequently asked questions can be found in the <a href="http://forum.palemoon.org/viewforum.php?f=24" target="_blank">F.A.Q. section of the Pale Moon Forum</a>.
             Please make sure to also check there if the question you are looking for is not listed here.<br>
             <h4>
               Specific issues with Pale Moon 25:
@@ -212,8 +207,7 @@ table.c11 {background-color: #F9F9F9}
             some add-ons may not work.<br>
             That being said, someone is working on creating a preloader application for Pale Moon (adapting a Firefox
             preloader to work with Pale Moon). The following forum thread may be of interest:<br>
-            <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620">http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620</a><br>
+            <a href="http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620">http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620</a><br>
 
             <br>
             <a href="#top">[^ Top ^]</a><br>
@@ -222,8 +216,7 @@ table.c11 {background-color: #F9F9F9}
               Will there be a version in my (<a name="non-English" id="non-English"></a>non-English) language?
             </h3>Pale Moon is released as a US-English browser. If you prefer a different language for the User
             Interface, you can install a Pale Moon language pack and set your browser to use it.<br>
-            More information here: <a href=
-            "http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
+            More information here: <a href="http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -262,26 +255,28 @@ table.c11 {background-color: #F9F9F9}
             <h3>
               <a name="What_are_the_differences_with_Firefox" id="What_are_the_differences_with_Firefox"></a>What are
               the differences with Firefox?
-            </h3>Firefox and Pale Moon have similar roots in the Mozilla Community code, and Pale Moon has been based
-            on Firefox code, but as a product, Pale Moon has diverted significantly from its sibling. Firefox is
-            created with maximum compatibility and one-size-fits-all in mind, Pale Moon is created with efficiency and
-            user choice in mind. <span class="c3">These two approaches are mutually exclusive</span>, and result in
+            </h3>Firefox
+and Pale Moon have similar roots in the Mozilla Community code, and
+Pale Moon has been originally based on Firefox code, but as a product,
+Pale Moon has diverted significantly from its sibling, and has its own
+code, development path and future, independent of what the Mozilla
+Corporation does with Firefox. Firefox is created with maximum
+compatibility and one-size-fits-all in mind, Pale Moon is created with
+efficiency and user choice in mind. <span class="c3">These two approaches are mutually exclusive</span>, and result in
             some functions being present/absent in one browser but not the other, as well as different system
             requirements for either browser. Pale Moon also has a different set of goals as to what should be included
-            in the browser and intended audience. For extensive detail on the actual differences under the hood, please
-            check the <a href="technical.shtml#Firefox_Differences">technical details</a> page.<br>
+            in the browser and intended audience.<br>
             <br>
             Pale Moon has a number of changes to the user interface and feature set, to provide an as intuitive,
             predictable, logical and usable user interface as possible for the best user experience. Additional and
             removed features are, of course, specific to Pale Moon, meaning you may find some different way of working
             Pale Moon than what you are used to from other browsers, and some features or options not found in other
             browsers at all.<br>
-            You may be interested in the overview table of <a href=
-            "https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml">features
-            compared to several versions of Firefox</a> for a quick overview of the most important differences.<br>
+            You may be interested in the overview table of <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml">features
+            compared to several versions of Firefox</a> for a quick overview of the most important user-exposed differences.<br>
             <br>
             Note that Pale Moon will <span class="c4">never</span> adopt the Australis (Firefox 29 and later)
-            interface.<br>
+            interface and aims to remain a fully XUL-driven browser.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -291,12 +286,15 @@ table.c11 {background-color: #F9F9F9}
             </h3>This is very much a subjective question, and there is no single answer to it. Short answer: YMMV (Your
             Mileage May Vary) -- it all depends on what you are looking for in a browser to choose which one would work
             best for you. In general, Pale Moon aims to be full-featured, but without compromise to efficient
-            resource/hardware use. <span class="c5">It doesn't necessarily aim to be a lightweight browser</span>, but
-            seems to achieve that goal in some circumstances as a side effect. Overall, comparison between browsers
-            would put Pale Moon in a similar position to its sibling Firefox since it is based on the same rendering
-            engine (Gecko). Synthetic benchmarks aren't the end-all of things, so it's difficult to obtain unbiased
-            comparisons between different browsers through them, and a higher benchmark score doesn't necessarily mean
-            that a browser would perform better in a real-world browsing situation.<br>
+            resource/hardware use. <span class="c5">It doesn't necessarily aim to be a lightweight browser</span>,
+but seems to achieve that goal in some circumstances as a side effect.
+Overall, comparison between browsers would put Pale Moon in a similar
+position to its sibling Firefox since it is based on the same rendering
+engine (Gecko). Synthetic benchmarks aren't the end-all of things, so
+it's difficult to obtain unbiased comparisons between different
+browsers through them, and a higher benchmark score doesn't necessarily
+mean that a browser would perform better in a real-world browsing
+situation. Quite the opposite is the case in some situations.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -311,10 +309,11 @@ table.c11 {background-color: #F9F9F9}
             <h3>
               <a name="How_do_I_copy_my_existing_Firefox" id="How_do_I_copy_my_existing_Firefox"></a>How do I copy my
               existing Firefox profile to Pale Moon?<br>
-            </h3>To migrate a Firefox profile (bookmarks, passwords, add-ons, etc.) to Pale Moon, <a href=
-            "migrationtool.shtml">USE THIS TOOL</a>. This tool will copy the profile(s) from Firefox to Pale Moon.<br>
-            If for whatever reason, the tool doesn't work, you will have to copy things manually. See the <a href=
-            "troubleshooting.shtml">Troubleshooting</a> section for help.<br>
+            </h3>To migrate a Firefox profile (bookmarks, history, add-ons, etc.) to Pale Moon, <a href="migrationtool.shtml">USE THIS TOOL</a>.
+This tool will copy the profile(s) from Firefox to Pale Moon. Please
+note that this tool is limited because of the increasing differences
+between Firefox and Pale Moon.<br>
+            If, for whatever reason, the tool doesn't work, you will have to copy things manually.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -334,22 +333,28 @@ table.c11 {background-color: #F9F9F9}
             content area - in this day and age of full HD monitors and laptops that seems to be very counter-intuitive.
             <span class="c5">Australis is considered unacceptable</span>, and will not be used.<br>
             <br>
-            On the flipside, some developers seem to complain that Pale Moon "is no different than other optimized
-            builds out there", meaning other people who have built Firefox from source on Windows machines, which might
-            be true to some very limited extent (since they are both Gecko-based browsers). Following the step-by-step
-            instructions in the Mozilla Developer Center, and probably with some trial and error, anyone with a decent
-            level of computer knowledge <span class="c3">could</span> build Firefox on Windows (if you have the right
-            hardware and software), but that doesn't necessarily mean it's going to be stable or efficient, or that the
-            result would be more than just a differently configured rebuild of Firefox. Pale Moon is most certainly not
-            "just a rebuild" of existing Firefox code, unlike other "alternative" Firefox browsers out there. As Pale
-            Moon has developed, so has the amount of individual code for the browser, steadily diverging Pale Moon from
-            its sibling in the direction aimed for in this browser - having transformed it from an optimized build into
-            a true "fork" of Firefox.<br>
+On the flipside, some developers seem to complain that Pale Moon "is no
+different than other optimized (re)builds out there", meaning other
+people who have built Firefox from source with minimal tweaks or
+changes, which might be true to some very limited extent (since they
+are both rooted in the same ancestral code). Following the step-by-step
+instructions in the Mozilla Developer Center, and probably with some
+trial and error, anyone with a decent level of computer knowledge <span class="c3">could</span>
+build Firefox on Windows (if you have the right hardware and software),
+but that doesn't necessarily mean it's going to be stable or efficient,
+or that the result would be more than just a differently configured
+rebuild of Firefox. Pale Moon is most certainly not "just a rebuild" of
+existing Firefox code, unlike other "alternative" Firefox browsers out
+there. As Pale Moon has developed, so has the amount of individual code
+for the browser, steadily diverging Pale Moon from its sibling in the
+direction aimed for in this browser - having transformed it from an
+optimized build (which it was when it first started out in 2009) into a
+true "fork" of Firefox.<br>
             <br>
             Some have even claimed that the Pale Moon project as such was given shape to gain fame -- they should
             consider that the popularity was unexpected. <span class="c4">Pale Moon is, and has always been, released
             in the hope that it might be useful to its users</span>, nothing more. It is a full-time commitment of our
-            small but dedicated team of developers, and I'm happy to see it finding good use among its users.<br>
+            small but dedicated team of developers, and I'm happy to see it finding good use among its growing number of users.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -366,8 +371,7 @@ table.c11 {background-color: #F9F9F9}
             <span class="c5">freedom of choice</span> to install or not install any extensions/add-ons that are
             available for it. I would of course strongly recommend to look through the add-ons site for Pale Moon and
             Firefox and pick some that you think work well for you, or use the add-ons window in the browser to search
-            for extensions on specific keywords, as there are some real gems out there, but by policy, <span class=
-            "c5">Pale Moon will not bundle any add-ons with the browser</span>.<br>
+            for extensions on specific keywords, as there are some real gems out there, but by policy, <span class="c5">Pale Moon will not bundle any add-ons with the browser</span>.<br>
             <br>
             If you see Pale Moon offered bundled with extensions or "extra functionality" or whatever people would like
             to call it, it will be an unofficial download and is not recommended (and potentially dangerous or unstable
@@ -375,12 +379,15 @@ table.c11 {background-color: #F9F9F9}
             unofficial downloads or releases offered with add-ons/extensions already in it.</span> Go the official
             route if you need extra functionality and install Pale Moon, then add your extensions to it.<br>
             <br>
-            <span class="c6">Historical note: The</span> <span class="c7">one</span><span class="c6">notable exception
-            was the Pale Moon status bar add-on that came with versions 4 to 9; this was chosen as a solution over
-            editing the core layout of the browser to prevent incompatibilities and unnecessary bugs, as well as being
-            a result of getting direct feedback from Pale Moon users. It was therefore considered a "core functionality
-            add-on" that forms an essential part of the browser itself. In later versions, this add-on is no longer
-            bundled as the functionality has been re-integrated into the browser.</span><br>
+            <span class="c6">Historical note: The</span> <span class="c7">one</span><span class="c6">
+notable exception was the Pale Moon status bar add-on that came with
+versions 4 to 9; this was chosen as a solution over editing the core
+layout of the browser to prevent incompatibilities and unnecessary
+bugs, as well as being a result of getting direct feedback from Pale
+Moon users. It was therefore considered a "core functionality add-on"
+that forms an essential part of the browser itself. In later versions,
+this add-on is no longer included as an add-on, since the functionality
+has been re-integrated into the browser.</span><br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -395,8 +402,7 @@ table.c11 {background-color: #F9F9F9}
             info</span>.<br>
             <br>
             That being said, Pale Moon is released fully as Open Source, with downloadable source code released under
-            the Mozilla Public License v2.0, and with a Github repository available at <a href=
-            "https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
+            the Mozilla Public License v2.0, and with a Github repository available at <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
 
             In addition, I've created basic <a href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=4166">build
             instructions</a> on the forum that will allow you to build the browser from source.<br>
@@ -405,7 +411,7 @@ table.c11 {background-color: #F9F9F9}
             <br>
             <h3>
               <a name="Restore_Tab_Groups" id="Restore_Tab_Groups"></a>How do I restore Tab Groups/Panorama in Pale
-              Moon 24?
+              Moon 24+?
             </h3>Pale Moon 24 and later <span class="c5">do not</span> include Tab Groups (formerly known as Panorama
             or Tab Candy) in the <span class="c5">core</span> of the browser anymore.<br>
             <span class="c5">To restore this functionality, you have to download the palemoon-tabgroups add-on</span>,
@@ -424,30 +430,20 @@ table.c11 {background-color: #F9F9F9}
               The following FAQ entries relate to feature preferences:
             </h2>
             <h3>
-              <a name="Preference:_I_prefer_the_old_Ctrl-Tab" id=
-              "Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference: I prefer the old Ctrl-Tab behavior
+              <a name="Preference:_I_prefer_the_old_Ctrl-Tab" id="Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference: I prefer the Firefox Ctrl-Tab behavior
             </h3>If you don't like the graphical preview pane for switching between browser tabs, you can restore the
-            old method:<br>
+            old method as also found in Firefox:<br>
             In the address bar, type <a href="about:config">about:config</a> and press enter. This opens the advanced
             configuration editor.<br>
-            Find the parameter <span class="c3">browser.ctrlTab.previews</span> and set it to <span class=
-            "c3">false</span><br>
+            Find the parameter <span class="c3">browser.ctrlTab.previews</span> and set it to <span class="c3">false</span><br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
             <h3>
-              <a name="Preference:_Insert_Tabs_after_current" id=
-              "Preference:_Insert_Tabs_after_current"></a>Preference: I prefer new Tabs to be inserted next to the
+              <a name="Preference:_Insert_Tabs_after_current" id="Preference:_Insert_Tabs_after_current"></a>Preference: I prefer related Tabs to be inserted next to the
               current Tab
-            </h3>If you prefer new browser tabs to be inserted immediately to the right of your currently active tab,
-            Pale Moon does offer this feature (like some other recent browsers).<br>
-            In 12.1 and later, you can find this feature under Options, category Tabs.<br>
-            <br>
-            In 12.0 or older, it can be set as follows:<br>
-            In the address bar, type <a href="about:config">about:config</a> and press enter. This opens the advanced
-            configuration editor.<br>
-            Find the parameter <span class="c3">browser.tabs.insertRelatedAfterCurrent</span> and set it to
-            <span class="c3">true</span><br>
+            </h3>If you prefer related (linked) new browser tabs to be inserted immediately to the right of your currently active tab,
+            Pale Moon does offer this feature (like some other browsers).<br>You can find this feature under Options, category Tabs.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -473,5 +469,4 @@ table.c11 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
