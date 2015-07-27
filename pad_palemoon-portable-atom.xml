@@ -34,9 +34,9 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Pale Moon Portable Atom/WinXP</Program_Name>
-		<Program_Version>25.5.0</Program_Version>
-		<Program_Release_Month>06</Program_Release_Month>
-		<Program_Release_Day>10</Program_Release_Day>
+		<Program_Version>25.6.0</Program_Version>
+		<Program_Release_Month>07</Program_Release_Month>
+		<Program_Release_Day>27</Program_Release_Day>
 		<Program_Release_Year>2015</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
@@ -51,9 +51,9 @@
 		<Program_Category_Class>Network &amp; Internet::Browsers</Program_Category_Class>
 		<Program_System_Requirements>P4 or A64 or later CPU, 256MB RAM, 50 MB HDD space</Program_System_Requirements>
 		<File_Info>
-			<File_Size_Bytes>19581104</File_Size_Bytes>
-			<File_Size_K>19122</File_Size_K>
-			<File_Size_MB>18.67</File_Size_MB>
+			<File_Size_Bytes>21896288</File_Size_Bytes>
+			<File_Size_K>21383</File_Size_K>
+			<File_Size_MB>20.88</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -67,18 +67,18 @@
 	</Program_Info>
 	<Program_Descriptions>
 		<English>
-			<Keywords>browser, fast, custom, optimized, web, internet, firefox, windows, pale, moon, portable</Keywords>
-			<Char_Desc_45>Portable Firefox-based web browser.</Char_Desc_45>
-			<Char_Desc_80>Portable, custom-built and optimized Firefox-based web browser.</Char_Desc_80>
-			<Char_Desc_250>Pale Moon is an Open Source, Firefox-based browser focusing on efficiency an ease of use. This is a portable application version optimized for Atom processors.</Char_Desc_250>
-			<Char_Desc_450>Pale Moon is an Open Source, Firefox-based browser focusing on efficiency an ease of use. Pale Moon offers you a browsing experience in a browser completely built from source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with the thousands of Firefox extensions you have come to love and rely on. This is a portable application version.</Char_Desc_450>
-			<Char_Desc_2000>Pale Moon is an Open Source, Firefox-based web browser focusing on efficiency and ease of use. Make sure to get the most out of your browser!
+			<Keywords>browser, fast, custom, optimized, web, internet, mozilla, pale, moon, firefox, windows, portable</Keywords>
+			<Char_Desc_45>Portable Open Source web browser.</Char_Desc_45>
+			<Char_Desc_80>Portable, Open Source Firefox-forked web browser.</Char_Desc_80>
+			<Char_Desc_250>Pale Moon is an Open Source, Firefox-forked browser focusing on efficiency an ease of use. This is a portable application version.</Char_Desc_250>
+			<Char_Desc_450>Pale Moon is an Open Source, Firefox-forked browser focusing on efficiency an ease of use. Pale Moon offers you a browsing experience in a browser completely built from source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with the thousands of Firefox extensions you have come to love and rely on. This is a portable application version.</Char_Desc_450>
+			<Char_Desc_2000>Pale Moon is an Open Source, Firefox-forked web browser focusing on efficiency and ease of use. Make sure to get the most out of your browser!
 
 Pale Moon offers you a browsing experience in a browser completely built from source with carefully selected features and optimizations to maximize the browser's speed, stability and user experience, while maintaining compatibility with the thousands of Firefox extensions you have come to love and rely on.
 
 Pale Moon is a middle road, cutting away support for (by current standards) ancient systems to give you a browser that not only supports the wide variety of uses the Mozilla Firefox browser offers, but also uses the capabilities of modern hardware to give you a fast, efficient browser. Using Pale Moon, you will not be wasting processor time on inefficient code that is designed to run on hardware that is more than 15 years old. If you have an Athlon 64 or later CPU, or a Pentium IV or later, then this is the browser for you!
 
-This is a portable version of the browser optimized for Atom processors, designed for use on removable media.</Char_Desc_2000>
+This is a portable version of the browser optimized for Atom processors and compatible with Windows XP, designed for use on removable media.</Char_Desc_2000>
 		</English>
 	</Program_Descriptions>
 	<Web_Info>
@@ -90,8 +90,8 @@ This is a portable version of the browser optimized for Atom processors, designe
 			<Application_XML_File_URL>http://www.palemoon.org/pad_palemoon-portable-atom.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://relmirror.palemoon.org/release/Palemoon-Portable-25.5.0.Atom.WinXP.exe</Primary_Download_URL>
-			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/Palemoon-Portable-25.5.0.Atom.WinXP.exe</Secondary_Download_URL>
+			<Primary_Download_URL>http://relmirror.palemoon.org/release/Palemoon-Portable-25.6.0.Atom.WinXP.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/Palemoon-Portable-25.6.0.Atom.WinXP.exe</Secondary_Download_URL>
 			<Additional_Download_URL_1>http://www.fosshub.com/Pale-Moon.html</Additional_Download_URL_1>
 			<Additional_Download_URL_2>http://www.palemoon.org/palemoon-portable.shtml</Additional_Download_URL_2>
 		</Download_URLs>
