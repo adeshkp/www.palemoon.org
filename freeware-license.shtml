@@ -1,25 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Freeware License
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html><head>
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Freeware License</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
     hr.c2 {width: 100%; height: 2px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -67,7 +63,7 @@
             distribute this software. That being said, there is no intention of making changes to the core of this
             license and the main premise of free availability behind it.<br>
             <br>
-            If you have any questions about this freware license, think anything is in error or wish to discuss
+            If you have any questions about this freeware license, think anything is in error or wish to discuss
             individual terms for your specific scenario or specific property/distribution rights issues, then please
             <a href="contact/">contact me</a>.<br>
             <br>
@@ -82,5 +78,4 @@
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
