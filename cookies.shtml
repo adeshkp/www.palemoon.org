@@ -35,18 +35,39 @@ sensitive information and are used for:<br>
       <ol>
         <li>Proper operation of the website. For example, your session
 information when visiting the forum or logging in to the forum or start
-portal are stored in a cookie.</li>
+portal are stored in a cookie. This functionality will break when cookies are disallowed.<br>
+</li>
         <li>Advertising. We use Google AdSense on some of our websites
 to offset the costs involved in providing the website and services
 related to Pale Moon to you. Google AdSense uses cookies as part of its
-advertising framework, and by allowing the advertisements, cookies will
-be stored.</li>
+advertising framework, to keep track of the validity of visits and clicks. By displaying advertisements through this framework, relevant cookies will
+be stored in your browser.</li>
       </ol>
 By using these websites, you consent to the use of cookies.<br>
       <br>
 This policy and information is required by EU laws on the protection of privacy of Internet users.<br>
       <br>
-If you have any questions about this policy license, or think anything is in error, then please
+      <span style="font-weight: bold;">If you do not consent to the use of cookies and still want to use the websites:</span><br>
+      <ol>
+        <li>All modern browsers offer user choice to allow the storage and use of
+cookies, either temporarily or permanently. How exactly these browser
+settings are made depends on the browser in use; please see the help
+file or manual for your software to obtain specific information on how
+to make these browser settings.</li>
+        <li>Some browser extensions may help in blocking third-party
+cookies like those used by the advertisements on our websites, which
+may provide you with finer granularity as to what you choose to allow.<br>
+        </li>
+      </ol>
+
+      <span style="font-weight: bold;">
+Please note</span> that
+disallowing cookies may impact your user experience and the usability
+of our websites. For technical reasons, we cannot offer support to
+visitors who run into issues when cookies are not allowed or
+selectively blocked.<br>
+      <br>
+If you have any questions about this policy, or think anything is in error, then please
             <a href="contact/">contact me</a>.<br>
             <br>
           </td>
