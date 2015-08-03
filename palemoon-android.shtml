@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html dir="ltr" lang="en">
-  <head>
+<html dir="ltr" lang="en"><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon for Android
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -24,15 +23,12 @@ table.c13 {background-color: #F9F9F9}
     td.c3 {vertical-align: top; background-color: rgb(204, 204, 255);}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c13" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -44,7 +40,7 @@ table.c13 {background-color: #F9F9F9}
         <tr>
           <td class="c4">
             <h1>
-              Pale Moon for Androidâ„¢
+              Pale Moon for Android™
             </h1>This version of Pale Moon is built for the Android operating system on mobile devices (phones,
             tablets).<br>
             <table class="sysreq c5" align="center" border="0" cellpadding="0" cellspacing="0">
@@ -76,8 +72,7 @@ table.c13 {background-color: #F9F9F9}
             This is the last public release of Pale Moon for Android published by our current team. We do not have the
             resources or Android-specific expertise to keep pace with the rapid developments of the Android OS to
             provide a usable and suitable browser alternative on that platform. If you think you can help out by
-            picking up development of the Android browser, then please <a href=
-            "https://forum.palemoon.org/viewforum.php?f=39" target="_blank">get in touch with us</a>!<br>
+            picking up development of the Android browser, then please <a href="https://forum.palemoon.org/viewforum.php?f=39" target="_blank">get in touch with us</a>!<br>
             <h3 class="c6">
               Download links
             </h3>
@@ -93,8 +88,7 @@ table.c13 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c9">
-                    <a href="https://play.google.com/store/apps/details?id=org.palemoon.android"><img class="c8" alt=""
-                    title="Click to download!" src="dl-images/Google_play_logo.png"></a><br>
+                    <a href="https://play.google.com/store/apps/details?id=org.palemoon.android"><img class="c8" alt="" title="Click to download!" src="dl-images/Google_play_logo.png"></a><br>
                   </td>
                   <td class="c4">
                     <span class="c2">Google Play store</span><br>
@@ -103,8 +97,7 @@ table.c13 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c9">
-                    <a href="http://forum.palemoon.org/viewforum.php?f=39"><img class="c10" alt="Pale Moon logo" title=
-                    "Click to download!" src="dl-images/mainsite.png"></a><br>
+                    <a href="http://forum.palemoon.org/viewforum.php?f=39"><img class="c10" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text">
                     <span class="c2">Pale Moon forum</span><br>
@@ -113,8 +106,7 @@ table.c13 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c9">
-                    <a href="http://www.gamershell.com/download_110829.shtml"><img class="c11" alt="Logo" src=
-                    "dl-images/gamershellcom.png"></a>
+                    <a href="http://www.gamershell.com/download_110829.shtml"><img class="c11" alt="Logo" src="dl-images/gamershellcom.png"></a>
                   </td>
                   <td class="c4">
                     <span class="c2">GamersHell</span><br>
@@ -142,5 +134,4 @@ table.c13 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
