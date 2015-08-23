@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -130,7 +131,7 @@
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="red">■</span> Czech
+                    <span class="green">■</span> Czech
                   </td>
                   <td class="c13">
                     <a href="http://relmirror.palemoon.org/langpacks/25.6/cs.xpi">cs.xpi</a>
@@ -146,7 +147,7 @@
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="red">■</span> German
+                    <span class="green">■</span> German
                   </td>
                   <td class="c13">
                     <a href="http://relmirror.palemoon.org/langpacks/25.6/de.xpi">de.xpi</a>
