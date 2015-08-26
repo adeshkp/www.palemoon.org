@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -71,7 +72,7 @@
             </p>
             <h2>
               Download and install
-            </h2>The current version is <span class="bold">1.7.1</span> - this is an update adding the Russian locale.<br>
+            </h2>The current version is <span class="bold">1.7.2</span> - this is an update adding the Polish locale.<br>
             <br>
             You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum
             thread</a> for this add-on to provide feedback.<br>
@@ -83,7 +84,7 @@
               https://addons.palemoon.org/extensions/other/pm-commander/</a>
             </div><br>
             Or you can download and install the add-on right from this page:<br>
-            Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.5 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.7.1.xpi">Add to Pale Moon</a><br>
+            Version compatible with Firefox base code v24-40 (intended for Pale Moon 25.5 and later) <a href="http://relmirror.palemoon.org/tools/pmcommander-1.7.2.xpi">Add to Pale Moon</a><br>
             <br>
             Alternatives:<br>
             <br>
