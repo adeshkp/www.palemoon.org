@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
+<html><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Release Notes
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -20,15 +19,12 @@ table.c10 {background-color: #F9F9F9}
     span.c3 {color: rgb(51, 102, 102); font-weight: bold;}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c10" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -42,7 +38,46 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.6.0 (2015-07-27)</h3>This release addresses some security issues and a range of usability improvements to the browser.<br>
+            <h3>25.7.0 (2015-08-26)</h3>This is a bugfix and maintenance release.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>Code cleanup: Removed the (otherwise unused) visual event tracer code.</li>
+        <li>Code cleanup: Removed reflow performance tracing code (telemetry).</li>
+        <li>Fixed a key JavaScript bug where defining properties on an object would wipe the object.<br>
+This seems to be a common issue with "modern" libraries that use
+"define" instead of "change" and expecting the other properties on the
+object to be retained, resulting in "x is undefined" errors all over
+the place if the object is wiped.<br>
+This aligns the behavior with ES6's "Validate and apply property descriptor" pseudo-function.</li>
+        <li>Updated the SQLite library to 3.8.11.1.</li>
+        <li>Added support for the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/matches" target="_blank">element.matches()</a> Web API function.</li>
+        <li>Added support for BASE tag parsing in source view.
+Previously, when viewing the source of a document, clickable links
+would be incorrect if a base path was specified in the document with
+this tag.</li>
+        <li>Fixed an issue with running timers after the computer would have been put to sleep with the browser opened.<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Added protection against potential bugs where our SVG mPositions is out of sync with the characters in the DOM. <span class="c7">DiD</span></li>
+        <li>Fixed use-after-free vulnerability in XMLHttpRequest::Open() (CVE-2015-4492)</li>
+        <li>Fixed use-after-free vulnerability in the StyleAnimationValue class (CVE-2015-4488)</li>
+        <li>Fixed crash or memory corruption in nsTArray (CVE-2015-4489)</li>
+        <li>Fixed crash or memory corruption in nsTSubstring::ReplacePrep (CVE-2015-4487)</li>
+        <li>Fixed potential escalation of privileges or crash (out-of-bounds write) via a crafted name in MARs (x64 only) (CVE-2015-4482)</li>
+        <li>Fixed an issue that would allow man-in-the-middle attackers to
+bypass a mixed-content protection mechanism via a feed: URL in a POST
+request.
+
+(CVE-2015-4483)</li>
+      </ul>
+      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>25.6.0 (2015-07-27)</h3>
+This release addresses some security issues and a range of usability improvements to the browser.<br>
       <br>
       <span style="font-weight: bold;">Fixes/changes:</span><br>
       <ul>
