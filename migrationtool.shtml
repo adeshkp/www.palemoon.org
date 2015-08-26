@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Profile Migration Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -49,10 +50,8 @@ and extensions across to their new browser. It is not meant to be very
 versatile or flexible at this moment, but "gets the job done" in most
 cases.<br>
             <br>
-            Current version: <span class="bold">1.5.0</span> (2014-05-20)<br>
-            This version update fixes blocklist issues, addresses incompatibilities with migrating from Firefox 29 when
-            classic theme restorer is installed, as well as clarification about the Status-4-Evar add-on if
-            installed.<br>
+            Current version: <span class="bold">1.7.0</span> (2015-08-24)<br>
+            This version update fixes some issues with popular add-ons and updates to the latest version of the runtime.<br>
             <br>
             <div class="c4">
               <span class="bold">Important:</span> this tool is not aware of compatibility issues with Firefox extensions
