@@ -45,10 +45,7 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style>
-
-    
-    </head><body>
+    </style></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -145,9 +142,8 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold">Pale Moon 25.6 has been released</span>
-which is an important maintenance release with some new functionality, a good number of
-usability changes and crash/security fixes. Please take a moment to read the <a href="releasenotes.shtml">release
+            <span class="bold">Pale Moon 25.7 has been released</span>
+which is an important maintenance and security release. Please take a moment to read the <a href="releasenotes.shtml">release
 notes</a>!<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
