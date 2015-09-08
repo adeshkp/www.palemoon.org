@@ -5,6 +5,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 
@@ -47,24 +48,20 @@ forum (see below for links to dedicated threads).<br>
       <ul>
         
         <li>
-          <h3><span>Pale Moon 26.0.0 "Goanna", public beta 1<img style="border: 0px solid ; width: 160px; height: 160px; float: right;" alt="Logo" title="Goanna" src="images/g3566.png" hspace="3" vspace="3"><br>
+          <h3><span>Pale Moon 26.0.0 "Goanna", public beta 2<img style="border: 0px solid ; width: 160px; height: 160px; float: right;" alt="Logo" title="Goanna" src="images/g3566.png" hspace="3" vspace="3"><br>
           </span></h3>
-This is the first public beta of the new milestone release. Considering
+This is the second public beta of the new milestone release. Considering
 the large amount of changes involved, there will be some issues with
 websites, although at the moment they seem to be mostly centered around
 useragent sniffing (Especially Google will complain).<br>
           <br>
-This beta adds support for WebP, has faster memory handling on current Windows operating systems (at the
-expense of some increased memory use), and should handle particularly
-poorly-designed and/or image-heavy sites (e.g. Flickr) better, as main (non-inclusive)
-improvements to the browser.<br>
+This beta fixes applicable security vulnerabilities, fixes auto-sizing
+and auto-rotation of JPEG images based on EXIF data, and adds Ruby
+support (set browser.ruby.enabled to true to activate it) and of course
+the other improvements found in 25.7, among other things.<br>
           <br>
-          <span style="color: rgb(204, 0, 0);"><big style="font-weight: bold;">This
-beta's feedback stage has now been closed. A new beta will be released
-soon, implementing this feedback and other improvements.</big><br>
-          <br>
-To provide feedback on
-this browser, please use the <a href="http://forum.palemoon.org/viewtopic.php?f=5&amp;t=9060" target="_blank">dedicated support topic on the forum</a>.
+          <span style="color: rgb(204, 0, 0);">To provide feedback on
+this browser, please use the <a href="http://forum.palemoon.org/viewtopic.php?f=5&amp;t=9360" target="_blank">dedicated support topic on the forum</a>.
 Unfortunately we cannot accept any feedback through other channels
 because it would result in utter chaos for us. So please, do <span style="font-weight: bold;">not</span> use
 e-mail, do <span style="font-weight: bold;">not</span> use social media, do <span style="font-weight: bold;">not</span> use IRC to provide feedback to this beta, and
@@ -79,21 +76,21 @@ features and/or switch to "basic HTML" in some of their services
 (GMail, YouTube, Google Docs, etc.). This seems to be
 caused by useragent sniffing they do (tisk tisk, Google). Feel free to
 let Google know about the browser and ask them to support it.</li>
-          <li>vBulletin-based fora don't seem to like this browser,
+          <li>Some
+vBulletin-based fora don't seem to like this browser,
 resulting in non-functional editing areas and toolbars. We're trying to
 figure out exactly what is causing these issues, but at first glance it
-seems to also be a useragent issue.</li>
-          <li>FaceBook seems to offer limited functionality (unsizeable
-comment boxes, for example) - once more determined to be a useragent
-sniffing issue, and this beta not having a working useragent override
-in place for them. Here, too, feel free to contact FaceBook support,
-and let them know about the browser and ask them to support it.
-Unfortunately their rate of responsiveness so far for Pale Moon support
-has been very low.</li>
-          <li>Some extensions that check appInfo.platformVersion may be
+seems to also be a useragent issue. We've corrected/worked around some
+of the issues in this beta, but some fora still don't like it.<br>
+</li>
+          
+          <li>Some extensions that check the
+platform version may be
 dysfunctional, because it's currently exposed as "1.0" to reflect the
-1.0 version of the Goanna platform. We do plan to work around this but
-it's not implemented in this first beta yet.<br>
+1.0 version of the Goanna platform. Extensions will likely need to be
+updated for proper support, since there are many ways to check for
+platform version and we can't reasonably create "fake" values for all
+of them.<br>
           </li>
 
 
