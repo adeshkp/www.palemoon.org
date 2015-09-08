@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync Terms of Service</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -34,7 +35,7 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: January 17<sup>th</sup>,
+      <div style="text-align: right;">Last Updated: September 6<sup>th</sup>,
 2015.<br>
       </div>
       <h3>Terms of Service - Overview</h3>
@@ -89,10 +90,10 @@ other than the official Pale Moon browser, unless you have been
 specifically allowed to do so in writing by the server operator and/or
 Pale Moon project owner.</li>
         <li>An exception to the previous point is the personal use of
-Sync on mobile devices, but only when using official builds of software that is fully Sync 1.1 compatible.<br>
-        </li>
+Sync on mobile devices, but only when using official builds of software that is fully Sync 1.1 compatible.</li>
 
-      </ul>
+      </ul>If you use the Pale Moon Sync service in any sort of sizable organization (more than a handful of users), then you are <span style="font-style: italic;">strongly</span> encouraged to run your own Sync service instead of making disproportionate use of this free, public instance of Sync.<br>
+
       <h4>Your Acknowledgments</h4>
       <p>You acknowledge and agree that:</p>
       <ul>
@@ -108,6 +109,10 @@ including disabling your account if deemed necessary;<br>
 without liability. If we discontinue or change the Service, we will
 announce it through the usual channels for such announcements such as
 the forum.</li>
+        <li>We reserve the right to deny access to any user, IP, net block, client software or
+territory that, in our opinion, causes interference with, or denial of, service to other
+users, with or without stated reason.</li>
+
       </ul>
       <h4>Limited storage</h4>This
 Service will retain User Data only for a limited time. If the Service
