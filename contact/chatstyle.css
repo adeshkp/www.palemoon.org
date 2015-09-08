@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url("../css/Museo500-stylesheet.css");
+@import url("../css/Museo300-stylesheet.css");
+
+body {
+  font-family: "Museo500Regular","Times New Roman",Times,serif;
+  font-style: normal;
+  font-size: 12pt;
+  letter-spacing: 0.3px;
+  background-color: #d4d9f7;
+  background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
+  background: -moz-linear-gradient(top, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
+}
+
+h1 {
+  font-family: "Museo300Regular","Times New Roman",Times,serif;
+  font-size: 20.5pt;
+  color: #000066;
+}
+
+h2.faq {
+  background-color: #e0e0ff;
+}
+
+td {
+  padding: 8px;
+}
+
+a {
+  color: rgb(22, 54, 101);
+}
+
+a:visited {
+  color: rgb(42, 54, 81);
+}
+
+.maintable {
+  margin: 2%;
+  border: 1px solid;
+  border-color: #888888;
+  text-align: left;
+  width: 96%;
+  box-shadow: 2px 2px 8px #333;
+  border-radius: 9px;
+  padding: 3px;
+  background-color: rgb(249, 249, 249);
+}
+
+.maintableheader {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  overflow: hidden;
+}
+
+.subpageheader {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  overflow: hidden;
+}
+
+img.subpageheader {
+  border: 0px solid;
+  width: 800px;
+  height: 82px;
+}
+
+.pagemenu {
+  padding: 0pt;
+  vertical-align: top;
+  background-color: rgb(82, 114, 161);
+}
+
+.dltable_text {
+  font-size: 12pt;
+  vertical-align: top;
+}
+
+.topnews {
+  border: 1px solid rgb(151, 182, 255);
+  border-radius: 5px; 
+  text-align: left; 
+  font-family: "Museo500regular",Arial,Helvetica,sans-serif; 
+  width: 100%;
+  color: black; 
+  background-color: rgb(244, 244, 255);
+}
+td.topnewstext {
+  margin: 0px; 
+  vertical-align: top; 
+  font-size: 10pt;
+}
+
+.sysreq {
+  border: 1px solid rgb(51, 82, 155);
+  border-radius: 5px;
+  overflow: hidden;
+  }
+
+blockquote {
+  background-color: #ffffcc;
+  font-family: "Museo500Regular","Times New Roman",Times,serif;
+  box-shadow: 1px 1px 2px #000;
+  margin: 16px;
+  padding: 4px;
+}
+
+pre {
+  font-family: "Courier New",Courier,monospace;
+  font-size: 11pt;
+  }
+  
+.dllink_green {
+  border: 1px solid rgb(0, 153, 0); 
+  padding: 14px; 
+  background-color: rgb(153, 255, 153); 
+  font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
+  color: black; 
+  text-decoration: none; 
+  border-radius: 9px; 
+}
+
+.dllink_blue {
+  border: 1px solid rgb(0, 0, 153); 
+  padding: 14px; 
+  background-color: rgb(153, 153, 255); 
+  font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
+  color: black; 
+  text-decoration: none; 
+  border-radius: 9px; 
+}
+
+.chatframe {
+  margin-top:8px;
+  border:1px solid #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 3px black;
+  width:100%;
+  height:600px;
+}
+
+/* text classes */
+td.center {text-align: center;}
+div.center {text-align: center;}
+div.bold {font-weight: bold;}
+
+span.darkred {color: rgb(102, 0, 0);}
+span.darkgreen {color: rgb(0, 102, 0);}
+span.darkblue {color: rgb(0, 0, 102);}
+
+span.mediumred {color: rgb(153, 0, 0);}
+span.mediumgreen {color: rgb(0, 153, 0);}
+span.mediumblue {color: rgb(0, 0, 153);}
+
+span.red {color: rgb(204, 0, 0);}
+span.green {color: rgb(0, 204, 0);}
+span.blue {color: rgb(0, 0, 204);}
+
+span.grey {color: rgb(102, 102, 102);}
+
+span.bold {font-weight: bold;}
+span.italic {font-style: italic;}
+span.underline {text-decoration: underline;}
+
+span.pref {font-weight: bold; font-style: italic; color: rgb(51, 102, 102);}
