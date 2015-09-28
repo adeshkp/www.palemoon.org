@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html dir="ltr" lang="en"><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -57,7 +58,7 @@ table.c13 {background-color: #F9F9F9}
                       </li>
                       <li>ARM processor v7 or later
                       </li>
-                      <li>Android-x86 is currently experimental and not supported yet. See below.<br>
+                      <li>Android-x86 (Intel mobile) is currently not supported.<br>
                       </li>
                     </ul>
                   </td>
@@ -65,11 +66,20 @@ table.c13 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c6">
-              Current version: 25.4.1
+              Current version: 25.7.1
             </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
             release notes</a>.<br>
             <br>
-            This is the last public release of Pale Moon for Android published by our current team. We do not have the
+            This is a security and stability update to keep users of the browser updated and safe.<br>
+Please do note that there are known issues on some mobiles and versions
+of Android that will prevent this browser from working properly or in a
+stable fashion.<br>
+      <br>
+The Android version does not currently have a developer/team assigned
+to it due to lack of resources in the Pale Moon team, and we can, at
+most, provide security updates without further development or bugfixes.<br>
+      <br>
+We do not have the
             resources or Android-specific expertise to keep pace with the rapid developments of the Android OS to
             provide a usable and suitable browser alternative on that platform. If you think you can help out by
             picking up development of the Android browser, then please <a href="https://forum.palemoon.org/viewforum.php?f=39" target="_blank">get in touch with us</a>!<br>

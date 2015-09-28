@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html dir="ltr" lang="en">
-  <head>
+<html dir="ltr" lang="en"><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon - Release Notes for Archived Versions
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes for Archived Versions</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -39,15 +38,12 @@ table.c28 {background-color: #F9F9F9}
     li.c3 {list-style: none; display: inline}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c28" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -61,9 +57,229 @@ table.c28 {background-color: #F9F9F9}
             <h1>
               Release notes for version 25 releases
             </h1>
-            <h3>
+            
+      <h3>
+              25.4.1 (2015-05-10)
+            </h3>
+This is a small but important update to the previous major release to address some critical
+            issues:<br>
+
+            
+      <ul>
+<li>Fixed loss of the browser's disk cache on startup due to incorrect corruption detection logic<br>
+              </li><li>Fixed a browser crash on some HTML5 games<br>
+              </li>
+      </ul>
+
+            
+      <h3>
+              25.4.0 (2015-05-08)
+            </h3>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">IMPORTANT: If you use a language pack, make sure to update it to the latest
+            version!</span> We do have automatic updates enabled for language packs but please double-check that the
+            version matches. If you are using an older language pack with this version of the browser, some dialog
+            boxes may come up blank.<br>
+
+            <br>
+
+            This is a major update - too much has changed for this little blurb to do it justice so please see below
+            for the most important changes/fixes in this release:<br>
+
+            <br>
+
+            <span class="c2">Fixes/changes:</span><br>
+
+            
+      <ul>
+<li>Updated SQLite from 3.7.17 to v3.8.8.3, improving history/bookmark/etc. performance by up to 50%
+              depending on operation<br>
+              </li><li>Added a new "mixed-mode" state for HTTPS connections. Clarified mixed-mode connections with a
+              mixed-mode padlock and better tooltips.
+              </li><li>Added a conditional partial shading to the URL bar and made it default (shading only on secure sites,
+              no red shading at all by default).<br>
+              </li><li>Dev: Fixed file system mode flags for *nix systems, to make executable files like scripts actually
+              flagged as executable
+              </li><li>Added native IPv6 lookups to NSPR to solve IPv6-only and dual-stack setups in some situations<br>
+              </li><li>Added a pref to control the unloading of idle plugins from memory and lowered the default "idle" time
+              to 60 seconds before plugins are unloaded<br>
+              </li><li>Fixed version strings for e.g. flash on Linux being displayed with commas instead of periods - this
+              should also fix the incorrect "your plugin is vulnerable" message while being on the latest version
+              </li><li>Windows: Set the double-click/Ctrl+arrow word selection to <span class="c5">not</span> eat the space
+              (only select the actual word)
+              </li><li>Android: DNS fix for VPN connections, preventing the "server not found" issues people have been
+              reporting for certain VPN providers on mobile<br>
+              </li><li>Updated a number of trusted root certificates, and distrusted the CNNIC root certificate by popular
+              demand<br>
+              </li><li>Linux: Worked around the slice memory allocator not being properly disabled on later GLib versions
+              </li><li>Android: updated the random number generator handling on later versions of Android
+              </li><li>Added fix to prevent spurious re-paints with plugins (performance/UX improvement)
+              </li><li>Removed the plugin check link from the Addons Manager, since it's no longer reliable and not
+              officially available for browsers except Mozilla Firefox. (Bonus: no user profiling/tracking through
+              optimizely!)
+              </li><li>Optimized the NSS callback for secure connections
+              </li><li>Updated the domains that are whitelisted for installation of extensions/themes/personas, streamlining
+              the use of addons.palemoon.org<br>
+              </li><li>Added personas support to titlebar text (adopt the lightweight theme's coloring/shading) in custom
+              titlebar mode (Pale Moon appmenu/button)
+              </li><li>Added display of HTTPS protocol (SSL/TLS) to the page info window (thanks Travis!)
+              </li><li>Improved certificate display: Removed MD5 and added SHA256 fingerprint, and made them
+              selectable/copyable
+              </li><li>Updated classification of secure connections: Classify any encryption with less than 128 bits or
+              including RC4 (if manually enabled, see previous version notes) as weak.
+              </li><li>Dev: Added availability of the full ciphersuite string for use in extensions to the nsISSLStatus
+              interface (nsISSLStatus.cipherSuite)
+              </li><li>Added MAKE_UNLINKABLE to the about: page redirector and added that as default for the reader mode on
+              Android
+              </li><li>Removed the compilation and inclusion of a one-time-use pre-compiled startup cache in omni.ja,
+              reducing overall application size significantly and avoiding a number of quirks of both the build process
+              and the operation of the browser
+              </li><li>Fixed an NVIDIA specific GLX server vendor bug for pixmap depth and fbConfig depth
+              </li><li>Removed most telemetry code, reducing code complexity and wasted CPU<br>
+              </li><li>Linux: Added OSS support (mutually exclusive with ALSA): configure with --enable-oss
+              </li><li>Made DNS caching a lot less aggressive to align the browser's behavior with the dynamic nature of the
+              modern web.
+              </li><li>Removed Mozilla-specific parameters for searches. Search suggestions should now work again for Google
+              searches
+              </li><li>Added the option to allow users to use a fixed (JSON) file-based geolocation response in favor of a
+              GeoIP service.<br>
+              </li><li>Dev: Improvements to Clang builds (thanks Axiomatic/BitVapor!). Clang is not currently producing
+              stable builds on Linux, so please use GCC for that operating system.<br>
+              </li><li>Linux: removed GnomeVFS that's no longer in use
+              </li><li>Fixed the "double padlock while loading a secure site" niggle in the UI
+              </li><li>Dev: added allowance of using -moz-appearance:none on drop-down lists to hide the arrow button
+              (catering to custom styling of the control)<br>
+              </li><li>Added some more ES6 math/number functions:<br>
+                <ul><li>Implemented Math.fround(x)
+                  </li><li>Implemented Number.isSafeInteger(x)
+                  </li><li>Implemented Math.clz32(x)
+                  </li></ul>
+              </li>
+      </ul>
+      <span class="c2">Security fixes:</span><br>
+
+            
+      <ul>
+<li>Fixed several memory safety hazards (UAF/DF/UU); applicable bugs covered by CVE-2015-0814 and
+              CVE-2015-0815
+              </li><li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0811</span>
+              <span id="short_desc_nonedit_display">[qcms] heap info leak</span></span>
+              </li><li>
+                <span id="summary_alias_container"><span id="short_desc_nonedit_display">Fixed</span></span> <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0810</span></span> clickjacking
+                attacks via a Flash object in conjunction with DIV elements
+              </li><li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0801 a variant
+              of</span></span> CVE-2015-0818
+              </li><li>Fixed <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0800 improve
+              randomness of DNS resolver queries on Android</span></span>
+              </li><li>
+                <span id="summary_alias_container"><span id="alias_nonedit_display">Fixed</span></span> <span id="summary_alias_container"><span id="alias_nonedit_display">CVE-2015-0798 access to privileged URLs
+                through about: redirector</span></span>
+              </li>
+      </ul>
+
+            
+      <h3>
+              25.3.2 (2015-04-25)
+            </h3>
+This release is an emergency update to fix crashes that started occurring because of Mozilla
+            improperly signing the extensions and extension updates as offered through the Firefox Add-ons site
+            addons.mozilla.org. Any improperly signed extension would not be able to be installed, and would
+            immediately crash the browser.<span class="c2"><br>
+            <br>
+            No other changes were made in this release - this is a bugfix for this particular issue only.<br></span>
+            
+      <h3>
+              25.3.1 (2015-03-25)
+            </h3>
+This is a security update to the browser to address a critical vulnerability found in the pwn2own
+            contest. Only one vulnerability found in this contest applies to Pale Moon, which has been addressed in
+            this update.<br>
+
+            <br>
+
+            <span class="c2">Fixes/changes:</span><br>
+
+            
+      <ul>
+<li>Fixed security vulnerability <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0818">CVE-2015-0818</a>. This vulnerability would
+              allow remote attackers to bypass the Same Origin Policy and execute arbitrary JavaScript code with chrome
+              privileges via vectors involving SVG hash navigation.
+              </li><li>Fixed IPv6 DNS resolution regression in some less common cases.
+              </li>
+      </ul>
+
+            
+      <h3>
+              25.3.0 (2015-03-13)
+            </h3>
+This is an important update to improve features and performance, as well as address important security
+            issues.<br>
+
+            <br>
+
+            <span class="c2">Fixes/changes:</span><br>
+
+            
+      <ul>
+<li>Overhauled WebGL. It now properly supports depth textures, <a href="demo/shadowmap/" target="_blank">
+                shadow mapping</a> and glow shaders.<br>
+                Note that older operating systems or older/embedded video processors may be limited in their support of
+                these features.<br>
+              </li><li>Updated the ANGLE library to a much more current version.<br>
+              </li><li>Removed the crash reporter code completely to improve overall browser responsiveness and
+              operation.<br>
+                Please note that a necessary victim of this has been the in-browser (devtools) SPS profiler because of
+                its reliance on crash reporter data-gathering tools.<br>
+              </li><li>Removed the Mozilla Plugin Finder Service (no longer in use @Mozilla).
+              </li><li>Android: removed the Mozilla "product announcements" service.<br>
+              </li><li>Re-added control of the number of concurrent tabs to be restored from a session with <span style="color: rgb(51, 102, 102);" class="c6">browser.sessionstore.max_concurrent_tabs</span> (accepted values 1-10)<br>
+              </li><li>Significantly improved performance and accuracy of date/time/timer handling.<br>
+              </li><li>Significantly improved performance of the creation of DOM elements with plain text content.
+              </li><li>Added several significant performance optimizations for arrays and strings in javascript.<br>
+              </li><li>Added several code performance optimizations and bugfixes in SVG, the presentation shell, SCTP, style
+              gradients and CSS parsing routines. (Thanks, Axiomatic!)
+              </li><li>Added an "Open link in current tab" context menu entry on links for UI consistency.
+              </li><li>Updated styling of the browser with personas (lightweight themes) once more to improve display in
+              tabs-on-top mode, improve overall legibility of tab text, and display of inverted close buttons on some
+              controls on dark personas.<br>
+              </li><li>Added a special case check for the Flash plugin version check on Linux failing due to commas instead
+              of periods in the version string.
+              </li><li>Added Windows 10 compatibility in executable manifests.<br>
+              </li><li>Android: Fixed a crash on GL canvas surfaces.
+              </li><li>Fixed incorrect Sync "howto" instruction links from the Sync dialogs.
+              </li><li>Fixed the color of selected tabs in Linux when personas (lightweight themes) are in use that do not
+              match the overall tone of the OS system theme.<br>
+              </li><li>Fixed a bug where a variable in parentheses would abort Javascript parsing.<br>
+              </li><li>Fixed a bug where the address bar would incorrectly be cleared.<br>
+              </li><li>Fixed padding issues for dropdown lists.
+              </li><li>Fixed DNS lookups so proper record types are requested for IPv4 and IPv6.<br>
+              </li>
+      </ul>
+      <span class="c2">Security fixes:</span><br>
+
+            
+      <ul>
+<li>Disabled all RC4-based encryption ciphers by default. <a href="https://forum.palemoon.org/viewtopic.php?f=1&amp;t=7466" target="_blank">[More info]</a><br>
+              </li><li>Fixed several miscellaneous memory safety hazards.<br>
+                (applicable bugs related to <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0835">CVE-2015-0835</a> and <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0836">CVE-2015-0836</a>)
+              </li><li>Fixed loading of locally stored DLL files through the internal updater. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0833">CVE-2015-0833</a>)
+              </li><li>Fixed a potential crash point in IndexedDB. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0831">CVE-2015-0831</a>) <span style="color: rgb(153, 102, 51);" class="c7">DiD</span>
+              </li><li>Fixed a double-free situation when using non-default memory allocators and a 0-length XHR.
+                (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0828">CVE-2015-0828</a>)<br>
+                Note: production builds of Pale Moon were never vulnerable.
+              </li><li>Fixed a crash using DrawTarget in the Cairo graphics library. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0824" class="ex-ref">CVE-2015-0824</a>)
+              </li><li>Fixed potential reading of local files through manipulation of form autocomplete. (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0822" class="ex-ref">CVE-2015-0822</a>)
+              </li><li>Fixed a potential PNG heap-overflow crash. <span style="color: rgb(153, 102, 51);" class="c7">DiD</span>
+              </li><li>Followed up on research regarding CVE-2014-8639 (see 25.2) and made cookie handling through proxies
+              more restrictive again.<br>
+              </li>
+      </ul>
+      <span style="color: rgb(153, 102, 51);" class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>
               25.2.1 (2015-01-27)
-            </h3>This is a small update to address cookie handling through proxies causing issues for some
+            </h3>
+This is a small update to address cookie handling through proxies causing issues for some
             authenticating proxies in corporate environments.<br>
             <h3>
               25.2.0 (2015-01-15)
@@ -158,8 +374,7 @@ table.c28 {background-color: #F9F9F9}
               security in this matter. <span class="c5">(hidden pref)<br></span>
               </li>
               <li>Fixed CVE-2014-1589 by whitelisting XBL bindings that may be applied to untrusted content.<br>
-                Important: extension developers should read <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=46&amp;t=7005">this related thread</a>.
+                Important: extension developers should read <a href="http://forum.palemoon.org/viewtopic.php?f=46&amp;t=7005">this related thread</a>.
               </li>
               <li>Fixed CVE-2014-1593.
               </li>
@@ -275,8 +490,7 @@ table.c28 {background-color: #F9F9F9}
                 People using "black" personas/lightweight themes should now have a lot less difficulty distinguishing
                 the active tab.<br>
               </li>
-              <li>Disabled SSL 3.0 by default (to put a muzzle on the <a href=
-              "https://en.wikipedia.org/wiki/POODLE">POODLE</a>).<br>
+              <li>Disabled SSL 3.0 by default (to put a muzzle on the <a href="https://en.wikipedia.org/wiki/POODLE">POODLE</a>).<br>
                 Please note that this may cause issues with some poorly configured web servers (usually ones with a
                 hopelessly broken security setup that do not support TLS 1.2 or secure (re)negotiation of the
                 protocol).<br>
@@ -314,8 +528,7 @@ table.c28 {background-color: #F9F9F9}
             <h3>
               25.0.0 (2014-10-10)
             </h3>Pale Moon 25.0 is a new major release with a large number of changes. A summary of the most important
-            changes can be found here; for more details about this release, please check the <a href=
-            "http://forum.palemoon.org/">forum</a>.<br>
+            changes can be found here; for more details about this release, please check the <a href="http://forum.palemoon.org/">forum</a>.<br>
             <br>
             <span class="c2">Fixes/changes:</span><br>
             <ul>
@@ -362,8 +575,7 @@ table.c28 {background-color: #F9F9F9}
                 you're using different devices, after all.
               </li>
               <li>Un-prefix CSS box-sizing.<br>
-                You can now use <span class="c4">box-sizing:border-box</span>, <span class=
-                "c4">box-sizing:padding-box</span> and <span class="c4">box-sizing:content-box</span> to switch
+                You can now use <span class="c4">box-sizing:border-box</span>, <span class="c4">box-sizing:padding-box</span> and <span class="c4">box-sizing:content-box</span> to switch
                 box-sizing mode on elements using CSS.
               </li>
               <li>Implement image-orientation in CSS.<br>
@@ -392,8 +604,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Allow absolute-in-relative positioning in table and CSS table-cell elements.
               </li>
-              <li>Allow the user to override the use of accessibility colors in the browser with <span class=
-              "c8">browser.display.ignore_accessibility_theme</span>
+              <li>Allow the user to override the use of accessibility colors in the browser with <span class="c8">browser.display.ignore_accessibility_theme</span>
               </li>
               <li>Improve the display of tabs when lightweight themes (personas) are in use for both light and dark
               themes.
@@ -621,8 +832,7 @@ table.c28 {background-color: #F9F9F9}
             <h3>
               24.6.0 (2014-06-06)
             </h3>This is a major update including a rendering engine overhaul and a number of very important fixes. For
-            details about the changes, please see the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=4768"
-            target="_blank">detailed changelog on the forum</a>.<br>
+            details about the changes, please see the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=4768" target="_blank">detailed changelog on the forum</a>.<br>
             <br>
             <span class="c2">Fixes/changes:</span><br>
             <ul>
@@ -694,8 +904,7 @@ table.c28 {background-color: #F9F9F9}
                 UpdateWebGLErrorAndClearGLError();<br>
               </li>
             </ul>In addition, Pale Moon also has a public Git repository now:<br>
-            <a href=
-            "https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
+            <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
 
             <br>
             <h3>
@@ -778,8 +987,7 @@ table.c28 {background-color: #F9F9F9}
             </ul>
             <h3>
               24.4.2 (2014-04-02)
-            </h3>A small bugfix release, and implementing <a target="_blank" class="c10" href=
-            "https://en.wikipedia.org/wiki/OCSP_Stapling">OCSP-stapling</a> for SSL connections.<br>
+            </h3>A small bugfix release, and implementing <a target="_blank" class="c10" href="https://en.wikipedia.org/wiki/OCSP_Stapling">OCSP-stapling</a> for SSL connections.<br>
             <br>
             <span class="c2">Fixes/changes:</span><br>
             <ul>
@@ -792,9 +1000,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Reduced the timeout for OCSP requests to 2 seconds unless OCSP is required by the server.<br>
               </li>
-              <li>Added proper handling of fragment loading (Bug #s <a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=895557">895557</a>&amp;<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=987140">987140</a>). <span class="c6">security fix</span>
+              <li>Added proper handling of fragment loading (Bug #s <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=895557">895557</a>&amp;<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=987140">987140</a>). <span class="c6">security fix</span>
               </li>
               <li>Updated status bar localizations: kn-IN and pt-PT.<br>
               </li>
@@ -941,9 +1147,7 @@ table.c28 {background-color: #F9F9F9}
             <span class="c2">Fixes/changes:</span><br>
             <ul>
               <li>
-                <span class="c2">New feature:</span> Implemented the TLS v1.1 (<a href=
-                "http://www.ietf.org/rfc/rfc4346.txt">RFC 4346</a>) and TLS v1.2 (<a href=
-                "http://www.ietf.org/rfc/rfc5246.txt">RFC 5246</a>) protocols for improved https security.
+                <span class="c2">New feature:</span> Implemented the TLS v1.1 (<a href="http://www.ietf.org/rfc/rfc4346.txt">RFC 4346</a>) and TLS v1.2 (<a href="http://www.ietf.org/rfc/rfc5246.txt">RFC 5246</a>) protocols for improved https security.
               </li>
               <li>Changed the list of supported encryption ciphers and order of preference to provide you with secure,
               speedy connections wherever possible.
@@ -963,8 +1167,7 @@ table.c28 {background-color: #F9F9F9}
               <li>Fixed the installer to use the proper class for checking if Pale Moon is already installed/running.
               </li>
               <li>
-                <span class="c2">Security fix:</span> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=966021"
-                target="_blank">bug #966021</a> - Fix load_truetype_table in the cairo dwrite font backend.
+                <span class="c2">Security fix:</span> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=966021" target="_blank">bug #966021</a> - Fix load_truetype_table in the cairo dwrite font backend.
               </li>
             </ul>
             <h3>
@@ -979,9 +1182,7 @@ table.c28 {background-color: #F9F9F9}
               when using the classic download manager.
               </li>
               <li>
-                <span class="patchTitle hover"><span class="author">Security fix:</span> <span class="desc"><a href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=945334" data-bugid="945334" onmouseover=
-                "UserInterface.loadBug(this);">Bug 945334</a> - Fix runnable pointer holding.<br></span></span>
+                <span class="patchTitle hover"><span class="author">Security fix:</span> <span class="desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=945334" data-bugid="945334" onmouseover="UserInterface.loadBug(this);">Bug 945334</a> - Fix runnable pointer holding.<br></span></span>
               </li>
               <li>Merged Linux-specific theme code into the source tree for the pm4linux project.<br>
               </li>
@@ -995,8 +1196,7 @@ table.c28 {background-color: #F9F9F9}
               <li>
                 <span class="c12">New build: Atom-optimized Pale Moon</span><br>
                 After some thorough testing, the Atom/netbook builds are being released as final. These builds are
-                specifically made for PCs with Intel Atom processors. More information can be found on the <a href=
-                "palemoon-atom.shtml">Atom builds</a> page.<br>
+                specifically made for PCs with Intel Atom processors. More information can be found on the <a href="palemoon-atom.shtml">Atom builds</a> page.<br>
               </li>
               <li>
                 <span class="c12">New feature: the title has been brought back to the title bar</span><br>
@@ -1030,8 +1230,7 @@ table.c28 {background-color: #F9F9F9}
                 request geolocation coordinates. Only official Mozilla Firefox builds will have working geolocation
                 from Google.<br>
                 Pale Moon has switched provider to IP-API.com to address this issue, with the required re-write of code
-                for the different type of request. More information <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=24&amp;t=3658" target="_blank">on the forum</a>.<br>
+                for the different type of request. More information <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=3658" target="_blank">on the forum</a>.<br>
               </li>
               <li>
                 <span class="c12">Bugfix: The "More information" link for blocked add-ons didn't work</span>
@@ -1048,51 +1247,35 @@ table.c28 {background-color: #F9F9F9}
             </ul><span class="c2">Bugfixes ported over:<br></span>
             <ul>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - this.updateDisplay is not a function at chrome://browser/content/search/search.xml:79 from every window during tpaint and tspaint"
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=903274" data-bugid="903274">Bug #903274</a> - Have
+                <span class="patchTitle hover desc"><a title="RESOLVED - this.updateDisplay is not a function at chrome://browser/content/search/search.xml:79 from every window during tpaint and tspaint" href="https://bugzilla.mozilla.org/show_bug.cgi?id=903274" data-bugid="903274">Bug #903274</a> - Have
                 the search bar binding's initialization callback bail out if the binding is destroyed.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Intermittent browser_browserDrop.js | uncaught exception - TypeError: this.close is not a function at chrome://global/content/bindings/findbar.xml:1168 | Test timed out"
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=951142" data-bugid="951142">Bug #951142</a> - Check
+                <span class="patchTitle hover desc"><a title="RESOLVED - Intermittent browser_browserDrop.js | uncaught exception - TypeError: this.close is not a function at chrome://global/content/bindings/findbar.xml:1168 | Test timed out" href="https://bugzilla.mozilla.org/show_bug.cgi?id=951142" data-bugid="951142">Bug #951142</a> - Check
                 for a close method to be present on the binding before invoking it.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Crash [@ js::CompartmentChecker::fail] or compartment mismatch" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=908915" data-bugid="908915">Bug #908915</a> - Fix
+                <span class="patchTitle hover desc"><a title="RESOLVED - Crash [@ js::CompartmentChecker::fail] or compartment mismatch" href="https://bugzilla.mozilla.org/show_bug.cgi?id=908915" data-bugid="908915">Bug #908915</a> - Fix
                 compartment mismatch in shell decompileThis and disassemble functions.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Native aggregation is silently dropped when an XPCWrappedJS already exists for the target JSObject"
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=950909" data-bugid="950909">Bug #950909</a> -
+                <span class="patchTitle hover desc"><a title="RESOLVED - Native aggregation is silently dropped when an XPCWrappedJS already exists for the target JSObject" href="https://bugzilla.mozilla.org/show_bug.cgi?id=950909" data-bugid="950909">Bug #950909</a> -
                 Forward native aggregation to the root XPCWrappedJS.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - XPCWrappedJS::mMainThread and mMainThreadOnly are always true" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=937152" data-bugid="937152">Bug #937152</a> - Remove
+                <span class="patchTitle hover desc"><a title="RESOLVED - XPCWrappedJS::mMainThread and mMainThreadOnly are always true" href="https://bugzilla.mozilla.org/show_bug.cgi?id=937152" data-bugid="937152">Bug #937152</a> - Remove
                 XPCWrappedJS::mMainThread and mMainThreadOnly.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Error: &quot;value is not defined&quot; in PlacesDBUtils.jsm" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=948134" data-bugid="948134">Bug #948134</a> - Fix "value
+                <span class="patchTitle hover desc"><a title="RESOLVED - Error: &quot;value is not defined&quot; in PlacesDBUtils.jsm" href="https://bugzilla.mozilla.org/show_bug.cgi?id=948134" data-bugid="948134">Bug #948134</a> - Fix "value
                 is not defined" in PlacesDBUtils.jsm.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Expose assertSameCompartment outside the JS engine" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=822425" data-bugid="822425">Bug #822425</a> - Expose a
+                <span class="patchTitle hover desc"><a title="RESOLVED - Expose assertSameCompartment outside the JS engine" href="https://bugzilla.mozilla.org/show_bug.cgi?id=822425" data-bugid="822425">Bug #822425</a> - Expose a
                 few simple compartment assertions in jsfriendapi.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title=
-                "RESOLVED - Observers no longer called when loading overlay" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=932906" data-bugid="932906">Bug #932906</a> -</span>
+                <span class="patchTitle hover desc"><a title="RESOLVED - Observers no longer called when loading overlay" href="https://bugzilla.mozilla.org/show_bug.cgi?id=932906" data-bugid="932906">Bug #932906</a> -</span>
                 Observer no longer called when using overlay
               </li>
             </ul><span class="c2">Security fixes:</span><br>
@@ -1100,105 +1283,84 @@ table.c28 {background-color: #F9F9F9}
               <li>Update of the NSS library to 3.15.4 RTM
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=936808" data-bugid="936808">Bug #936808</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=936808" data-bugid="936808">Bug #936808</a> -
                 Serialize calls to PK11 routines in SSLServerCertVerification.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=945939" data-bugid="945939">Bug #945939</a> - Use
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=945939" data-bugid="945939">Bug #945939</a> - Use
                 the pre-split value when numbering values.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=911864" data-bugid="911864">Bug #911864</a> - Fix
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=911864" data-bugid="911864">Bug #911864</a> - Fix
                 several XBL issues<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=921470" data-bugid="921470">Bug #921470</a> - Remove
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=921470" data-bugid="921470">Bug #921470</a> - Remove
                 hasFallbackStub_ check in resetMonitorStubChain.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=950590" data-bugid="950590">Bug #950590</a> - Use
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=950590" data-bugid="950590">Bug #950590</a> - Use
                 nsRefPtr for gfxFontGroup's reference to the user font set, and support changing it from canvas
                 context.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=937697" data-bugid="937697">Bug #937697</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=937697" data-bugid="937697">Bug #937697</a> -
                 Simplify some BoundsCheckRange code.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=936056" data-bugid="936056">Bug #936056</a> - Be
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=936056" data-bugid="936056">Bug #936056</a> - Be
                 consistent about the thisobj we pass to getters.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=953114" data-bugid="953114">Bug #953114</a> - Fix
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=953114" data-bugid="953114">Bug #953114</a> - Fix
                 GetElementIC typed array issue.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=937132" data-bugid="937132">Bug #937132</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=937132" data-bugid="937132">Bug #937132</a> -
                 SpiderMonkey: Check for overflows in LifoAlloc.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=932162" data-bugid="932162">Bug #932162</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=932162" data-bugid="932162">Bug #932162</a> -
                 Dispatch IndexedDB FileInfo releases to the main thread.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=951366"
-                data-bugid="951366" onmouseover="UserInterface.loadBug(this);">Bug #951366</a> - Use
+                <span class="patchTitle hover desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=951366" data-bugid="951366" onmouseover="UserInterface.loadBug(this);">Bug #951366</a> - Use
                 AutoDetectInvalidation for disabled GetElement caches.<br></span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=950438" data-bugid="950438">Bug #950438</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=950438" data-bugid="950438">Bug #950438</a> -
                 IonMonkey: The intersection of two ranges that both contain NaN is not empty.</span>
               </li>
               <li>
-                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=950268" data-bugid=
-                "950268" onmouseover="UserInterface.loadBug(this);">Bug #950268</a> - Fix leak in
+                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=950268" data-bugid="950268" onmouseover="UserInterface.loadBug(this);">Bug #950268</a> - Fix leak in
                 nsCertTree::GetDispInfoAtIndex.</span>
               </li>
               <li>
-                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=932906" data-bugid=
-                "932906" onmouseover="UserInterface.loadBug(this);">Bug #932906</a> - Exempt Remote XUL from
+                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=932906" data-bugid="932906" onmouseover="UserInterface.loadBug(this);">Bug #932906</a> - Exempt Remote XUL from
                 CanCreateWrapper checks.</span>
               </li>
               <li>
-                <span class="patchTitle desc"><a title=
-                "RESOLVED - Assertion failure: script-&gt;treatAsRunOnce, at vm/Interpreter.cpp" href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=882933" data-bugid="882933">Bug #882933</a> - Copy
+                <span class="patchTitle desc"><a title="RESOLVED - Assertion failure: script-&gt;treatAsRunOnce, at vm/Interpreter.cpp" href="https://bugzilla.mozilla.org/show_bug.cgi?id=882933" data-bugid="882933">Bug #882933</a> - Copy
                 treatAsRunOnce bit when cloning scripts, don't clone scripts unnecessarily for arrow lambdas.</span>
               </li>
               <li>
-                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=901348" data-bugid=
-                "901348" onmouseover="UserInterface.loadBug(this);">Bug #901348</a> - Duplicate symbol errors building
+                <span class="patchTitle desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=901348" data-bugid="901348" onmouseover="UserInterface.loadBug(this);">Bug #901348</a> - Duplicate symbol errors building
                 --with-intl-api.</span>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=925896" data-bugid="925896">Bug #925896</a> -</span>
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=925896" data-bugid="925896">Bug #925896</a> -</span>
                 Properly reference session data<br>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=943803" data-bugid="943803">Bug #943803</a> -</span>
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=943803" data-bugid="943803">Bug #943803</a> -</span>
                 Use monitor instead of mutex locking for raster images<br>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=942164"
-                data-bugid="942164" onmouseover="UserInterface.loadBug(this);">Bug #942164</a> -</span> Use weak
+                <span class="patchTitle hover desc"><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=942164" data-bugid="942164" onmouseover="UserInterface.loadBug(this);">Bug #942164</a> -</span> Use weak
                 references to imgRequest consumers<br>
               </li>
               <li>
-                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist."
-                href="https://bugzilla.mozilla.org/show_bug.cgi?id=947592" data-bugid="947592">Bug #947592</a> -
+                <span class="patchTitle hover desc"><a title="UNKNOWN - The bug is inaccessible or doesn’t exist." href="https://bugzilla.mozilla.org/show_bug.cgi?id=947592" data-bugid="947592">Bug #947592</a> -
                 Streamline ReportLoadError.</span>
               </li>
             </ul>
@@ -1247,8 +1409,7 @@ table.c28 {background-color: #F9F9F9}
               <li>New advanced feature: Later versions of the Firefox code will automatically place the browser window
               fully on a visible portion of the screen. If you prefer having the browser window positioned partially
               off-screen and want to prevent this automatic resizing and repositioning when starting a new session,
-              create a new boolean preference in about:config called <span class=
-              "c13">browser.sessionstore.exactPos</span> and set it to <span class="c13">true</span>.<br>
+              create a new boolean preference in about:config called <span class="c13">browser.sessionstore.exactPos</span> and set it to <span class="c13">true</span>.<br>
               </li>
               <li>Updated the localization of the status bar code with the following locales: en-GB, es-MX, es-AR, it,
               pl.
@@ -1274,8 +1435,7 @@ table.c28 {background-color: #F9F9F9}
               moving the mouse" and to resize you have to move the mouse out of the tab bar. A good number of
               Firefox/Pale Moon users don't like this behavior, but the fix to make this configurable was in the end
               rejected by the Mozilla UX team, so I opted for my own implementation in Pale Moon. New pref:
-                <span class="c8">browser.tabs.resize_immediately</span> - set this preference to <span class=
-                "c8">true</span> to immediately resize other tabs when closing a tab.<br>
+                <span class="c8">browser.tabs.resize_immediately</span> - set this preference to <span class="c8">true</span> to immediately resize other tabs when closing a tab.<br>
                 <span class="c2">Many thanks to David</span> for doing the required research for this feature!<br>
               </li>
               <li>Rework of the multi-core routine and removal of OpenMP code and the related library (Microsoft's
@@ -1354,22 +1514,17 @@ table.c28 {background-color: #F9F9F9}
               the setting accordingly in your add-on manager.</span>
               </li>
               <li>Two SSL ciphers that are considered weak are disabled by default (RSA-RC4-128-MD5 and
-              RSA-RC4-128-SHA). If you are having trouble reaching certain encrypted sites that <span class=
-              "c7">exclusively</span> use these encryption methods, <span class="c2">you should ask the site owners to
-              update their SSL configuration to allow stronger encryption.</span> As a <span class=
-              "c2">workaround</span>, you can enable the ciphers by installing the <a href=
-              "http://www.palemoon.org/commander.shtml" class="postlink">Pale Moon Commander add-on</a> and changing
+              RSA-RC4-128-SHA). If you are having trouble reaching certain encrypted sites that <span class="c7">exclusively</span> use these encryption methods, <span class="c2">you should ask the site owners to
+              update their SSL configuration to allow stronger encryption.</span> As a <span class="c2">workaround</span>, you can enable the ciphers by installing the <a href="http://www.palemoon.org/commander.shtml" class="postlink">Pale Moon Commander add-on</a> and changing
               the available ciphers there, or by setting <span class="c14">security.ssl3.rsa_rc4_128_md5</span> and
-              <span class="c14">security.ssl3.rsa_rc4_128_sha</span> to <span class="c14">true</span> in <span class=
-              "c15">about:config<br></span> <span class="c16">(Note: this change was reverted in 24.1.1)</span><br>
+              <span class="c14">security.ssl3.rsa_rc4_128_sha</span> to <span class="c14">true</span> in <span class="c15">about:config<br></span> <span class="c16">(Note: this change was reverted in 24.1.1)</span><br>
               </li>
             </ul><span class="c2">New Features:</span><br>
             <ul>
               <li>When there is a <a class="c17" href="http://en.wikipedia.org/wiki/Web_feed">web feed</a> available on
               a website, Pale Moon will now display a feed indicator on the right side of the address bar to indicate
               that feeds are available. You can click this icon to subscribe to feeds.<br>
-                If you don't want this indicator, set <span class="c18">browser.urlbar.rss</span> to <span class=
-                "c18">false</span> in about:config<br>
+                If you don't want this indicator, set <span class="c18">browser.urlbar.rss</span> to <span class="c18">false</span> in about:config<br>
                 Note: more technical information <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=3333">on
                 the forum</a>!<br>
               </li>
@@ -1393,8 +1548,7 @@ table.c28 {background-color: #F9F9F9}
             <ul>
               <li>Fix for unreadable address bar text when visiting a broken or mixed-mode SSL site.
               </li>
-              <li>Fix for an incorrect browser cache size default when first starting the browser. <span class=
-              "c7">(regression)</span><br>
+              <li>Fix for an incorrect browser cache size default when first starting the browser. <span class="c7">(regression)</span><br>
                 Note: If you have used version 24.0, then <span class="c2">please check</span> your Options -&gt;
                 Advanced -&gt; Network tab, and if the cache size is set to "1024", <span class="c2">change it back to
                 its default "250"</span> to prevent unnecessary use of disk space and potential slowing of the browser.
@@ -1415,8 +1569,7 @@ table.c28 {background-color: #F9F9F9}
             <ul>
               <li>Switch to a new Mozilla code base (Gecko 24.0).
               </li>
-              <li>Update of the Pale Moon icon/logo. Special thanks go to <span id="result_box" lang=
-                "en"><span class="hps">Roger</span> <span class="hps">Gómez del</span> <span class="hps">Casal for
+              <li>Update of the Pale Moon icon/logo. Special thanks go to <span id="result_box" lang="en"><span class="hps">Roger</span> <span class="hps">Gómez del</span> <span class="hps">Casal for
                 providing me with an interesting concept design image to use as a base for it!<br></span></span>
               </li>
               <li>Fixes for all relevant <a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">
@@ -1432,8 +1585,7 @@ table.c28 {background-color: #F9F9F9}
               <li>Removal of Tab Groups (Panorama). If you actively used this functionality, I have also made an
               <a href="http://storage.sity.nl/palemoon/support/palemoon-tabgroups-0.2.xpi">add-on</a> (Mozilla dev
               sourced) available to restore this feature to the browser. If you have issues with the supplied add-on or
-              want to give other tab grouping methods a try, you can use alternatives found on <a target="_blank"
-                href="https://addons.mozilla.org/">AMO</a>.<br>
+              want to give other tab grouping methods a try, you can use alternatives found on <a target="_blank" href="https://addons.mozilla.org/">AMO</a>.<br>
               </li>
               <li>Removal of a few additional Accessibility options.<br>
               </li>
@@ -1518,8 +1670,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Fix for newly allocated WebGL array buffers (prevent the use of uninitialized memory)
               </li>
-              <li>Several fixes for the SSL crypto library (<a href=
-              "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1705">CVE-2013-1705</a> and others)
+              <li>Several fixes for the SSL crypto library (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1705">CVE-2013-1705</a> and others)
               </li>
               <li>Fix for do_QueryFrame support
               </li>
@@ -1574,23 +1725,17 @@ table.c28 {background-color: #F9F9F9}
                 attacks via a crafted web site more difficult.
               </li>
               <li>
-                <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1697"><span id=
-                "summary_alias_container">(<span id="alias_nonedit_display">CVE-2013-1697</span>)</span></a> Fix to
+                <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1697"><span id="summary_alias_container">(<span id="alias_nonedit_display">CVE-2013-1697</span>)</span></a> Fix to
                 restrict use of DefaultValue for method calls, which allows remote attackers to execute arbitrary
                 JavaScript code with chrome privileges.
               </li>
               <li>
-                <span id="summary_alias_container"><a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1694">(<span id=
-                "alias_nonedit_display">CVE-2013-1694</span>)</a> Fix to</span> properly handle the lack of a wrapper,
+                <span id="summary_alias_container"><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1694">(<span id="alias_nonedit_display">CVE-2013-1694</span>)</a> Fix to</span> properly handle the lack of a wrapper,
                 which allows remote attackers to cause a denial of service (application crash) or possibly execute
                 arbitrary code.
               </li>
               <li>
-                <span id="summary_alias_container"><a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1690">(<span id=
-                "alias_nonedit_display">CVE-2013-1690</span>)</a> Crash fix (<a href=
-                "http://www.mozilla.org/security/announce/2013/mfsa2013-53.html">MFSA 2013-53</a>) used to crash Tor
+                <span id="summary_alias_container"><a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1690">(<span id="alias_nonedit_display">CVE-2013-1690</span>)</a> Crash fix (<a href="http://www.mozilla.org/security/announce/2013/mfsa2013-53.html">MFSA 2013-53</a>) used to crash Tor
                 users on certain Tor sites.</span>
               </li>
               <li>
@@ -1666,8 +1811,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Fix for FTP use-after-free crash&nbsp; (crash fix)
               </li>
-            </ul>More details can be found in the <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2556">release announcement post</a> on the forum.<br>
+            </ul>More details can be found in the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2556">release announcement post</a> on the forum.<br>
             <h3>
               20.0.1 (2013-04-11)
             </h3>This is mostly a bugfix, security and performance update, but with a number of new features as well,
@@ -1675,8 +1819,7 @@ table.c28 {background-color: #F9F9F9}
             <br>
             <span class="c2">New/updated/changed major features:</span><br>
             <ul>
-              <li>Per-window Private Browsing. <a href=
-              "https://support.mozilla.org/en-US/kb/private-browsing-browse-web-without-saving-info">Learn more</a>.
+              <li>Per-window Private Browsing. <a href="https://support.mozilla.org/en-US/kb/private-browsing-browse-web-without-saving-info">Learn more</a>.
               </li>
               <li>Panel-based download manager. See the detailed changelog for more information.
               </li>
@@ -1688,12 +1831,10 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Pale Moon specific fixes for performance of drawing elements (gradients, etc.).<br>
               </li>
-              <li>HTML5 canvas now supports <a href=
-              "https://hacks.mozilla.org/2012/12/firefox-development-highlights-per-window-private-browsing-canvas-globalcompositeoperation-new-values/">
+              <li>HTML5 canvas now supports <a href="https://hacks.mozilla.org/2012/12/firefox-development-highlights-per-window-private-browsing-canvas-globalcompositeoperation-new-values/">
                 blend modes.</a>
               </li>
-              <li>Various HTML5 audio and video <a href=
-              "http://blog.pearce.org.nz/2012/12/html5-video-playbackrate-and-ogg.html">improvements.</a>
+              <li>Various HTML5 audio and video <a href="http://blog.pearce.org.nz/2012/12/html5-video-playbackrate-and-ogg.html">improvements.</a>
               </li>
               <li>Update of the Status Bar code to work with the new code base.<br>
               </li>
@@ -1725,18 +1866,15 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-31.html" class="high">MFSA 2013-31</a>
-                Out-of-bounds write in Cairo library (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0800" class="ex-ref">CVE-2013-0800</a>)
+                Out-of-bounds write in Cairo library (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0800" class="ex-ref">CVE-2013-0800</a>)
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-34.html" class="high">MFSA 2013-34</a>
-                Privilege escalation through Mozilla Updater (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0797" class="ex-ref">CVE-2013-0797</a>)
+                Privilege escalation through Mozilla Updater (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0797" class="ex-ref">CVE-2013-0797</a>)
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-36.html" class="critical">MFSA
-                2013-36</a> Bypass of SOW protections allows cloning of protected nodes (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0795" class="ex-ref">CVE-2013-0795</a>)
+                2013-36</a> Bypass of SOW protections allows cloning of protected nodes (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0795" class="ex-ref">CVE-2013-0795</a>)
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-37.html" class="moderate">MFSA
@@ -1744,21 +1882,17 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-38.html" class="high">MFSA 2013-38</a>
-                Cross-site scripting (XSS) using timed history navigations (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0793" class="ex-ref">CVE-2013-0793</a>)
+                Cross-site scripting (XSS) using timed history navigations (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0793" class="ex-ref">CVE-2013-0793</a>)
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-39.html" class="moderate">MFSA
-                2013-39</a> Memory corruption while rendering grayscale PNG images (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0792" class="ex-ref">CVE-2013-0792</a>)
+                2013-39</a> Memory corruption while rendering grayscale PNG images (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0792" class="ex-ref">CVE-2013-0792</a>)
               </li>
               <li>
                 <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-40.html" class="moderate">MFSA
-                2013-40</a> Crash fix: Out-of-bounds array read in CERT_DecodeCertPackage (<a href=
-                "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0791" class="ex-ref">CVE-2013-0791</a>)
+                2013-40</a> Crash fix: Out-of-bounds array read in CERT_DecodeCertPackage (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0791" class="ex-ref">CVE-2013-0791</a>)
               </li>
-            </ul>Detailed descriptions for these changes and fixes can be found in the <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2392">detailed changelog/announcement post</a> on the
+            </ul>Detailed descriptions for these changes and fixes can be found in the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2392">detailed changelog/announcement post</a> on the
             forum.<br>
             <br>
             <hr class="c21">
@@ -1772,8 +1906,7 @@ table.c28 {background-color: #F9F9F9}
               19.0.2 (2013-03-09)<br>
             </h3>A minor update prompted by a security update @Mozilla:<br>
             <ul>
-              <li>Fixes a critical security vulnerability in the browser (<a href=
-              "https://www.mozilla.org/security/announce/2013/mfsa2013-29.html" target="_blank">MFSA 2013-29</a>)
+              <li>Fixes a critical security vulnerability in the browser (<a href="https://www.mozilla.org/security/announce/2013/mfsa2013-29.html" target="_blank">MFSA 2013-29</a>)
               </li>
               <li>Slightly improves HTTP pipelining
               </li>
@@ -1828,8 +1961,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>The builds no longer use PGO (Profile Guided Optimization) but are globally speed-optimized.
               </li>
-            </ul>For details about each of these points, see the <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2081" target="_blank">detailed changelog post</a> on the
+            </ul>For details about each of these points, see the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2081" target="_blank">detailed changelog post</a> on the
             forum.
             <h1>
               Release notes for version 15<br>
@@ -1854,11 +1986,9 @@ table.c28 {background-color: #F9F9F9}
               15.4 (2013-01-16)
             </h3>Several security and stability issues have been fixed in this update:<br>
             <ul>
-              <li>Deal with bogus Turktrust certs <a href=
-              "https://www.mozilla.org/security/announce/2013/mfsa2013-20.html" class="postlink">MFSA 2013-20</a>
+              <li>Deal with bogus Turktrust certs <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-20.html" class="postlink">MFSA 2013-20</a>
               </li>
-              <li>Several memory security hazards fixed <a href=
-              "https://www.mozilla.org/security/announce/2013/mfsa2013-01.html" class="postlink">MFSA 2013-01</a>
+              <li>Several memory security hazards fixed <a href="https://www.mozilla.org/security/announce/2013/mfsa2013-01.html" class="postlink">MFSA 2013-01</a>
               </li>
               <li>Updated OTS library to r95 to fix potential font-related exploits
               </li>
@@ -1895,8 +2025,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>
                 <span id="summary_alias_container"><span id="short_desc_nonedit_display">Don't allow
-                alert/confirm/prompt in onbeforeunload, onunload and onpagehide (<a href=
-                "https://bugzilla.mozilla.org/show_bug.cgi?id=391834">bug# 391834</a>)<br></span></span>
+                alert/confirm/prompt in onbeforeunload, onunload and onpagehide (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=391834">bug# 391834</a>)<br></span></span>
               </li>
             </ul><span class="c2">Improvements:</span><br>
             <ul>
@@ -1910,38 +2039,27 @@ table.c28 {background-color: #F9F9F9}
             <ul>
               <li>Security fixes for CVE-2012-5840, CVE-2012-5839, CVE-2012-4210, CVE-2012-4207 and CVE-2012-4214.
               </li>
-              <li>Fix for methodjit assertion issue (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=781859"
-              target="_blank">bug #781859</a>)
+              <li>Fix for methodjit assertion issue (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=781859" target="_blank">bug #781859</a>)
               </li>
-              <li>Fix for potentially exploitable crash in XPConnect (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=809674" target="_blank">bug #809674</a>)
+              <li>Fix for potentially exploitable crash in XPConnect (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=809674" target="_blank">bug #809674</a>)
               </li>
-              <li>Fix for potentially exploitable crash in layout engine (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=791601" target="_blank">bug #791601</a>)
+              <li>Fix for potentially exploitable crash in layout engine (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=791601" target="_blank">bug #791601</a>)
               </li>
-              <li>Fix for potentially exploitable crash in JS string handling (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=778603" target="_blank">bug #778603</a>)
+              <li>Fix for potentially exploitable crash in JS string handling (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=778603" target="_blank">bug #778603</a>)
               </li>
-              <li>Fix for potentially exploitable crash in GIF decoder (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=789046" target="_blank">bug #789046</a>)<br>
+              <li>Fix for potentially exploitable crash in GIF decoder (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=789046" target="_blank">bug #789046</a>)<br>
               </li>
-              <li>Fix for potentially exploitable crash in image decoder (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=802168" target="_blank">bug #802168</a>)
+              <li>Fix for potentially exploitable crash in image decoder (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=802168" target="_blank">bug #802168</a>)
               </li>
-              <li>Fix for use-after-free in editor lib (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795708"
-              target="_blank">bug #795708</a>)<br>
+              <li>Fix for use-after-free in editor lib (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795708" target="_blank">bug #795708</a>)<br>
               </li>
-              <li>Fix for potentially exploitable crash in SVG (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=793848" target="_blank">bug #793848</a>)<br>
+              <li>Fix for potentially exploitable crash in SVG (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=793848" target="_blank">bug #793848</a>)<br>
               </li>
-              <li>Fix for out-of-bounds read when blurring (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=783041" target="_blank">bug #783041</a>)<br>
+              <li>Fix for out-of-bounds read when blurring (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783041" target="_blank">bug #783041</a>)<br>
               </li>
-              <li>Fix for potentially exploitable crash in text editor (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=798677" target="_blank">bug #798677</a>)<br>
+              <li>Fix for potentially exploitable crash in text editor (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=798677" target="_blank">bug #798677</a>)<br>
               </li>
-              <li>Prevent URL spoofing through prompts (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=700080"
-              target="_blank">bug #700080</a>)<br>
+              <li>Prevent URL spoofing through prompts (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=700080" target="_blank">bug #700080</a>)<br>
               </li>
             </ul>
             <h3>
@@ -1963,8 +2081,7 @@ table.c28 {background-color: #F9F9F9}
                   </li>
                   <li>Support for multiple cores.
                   </li>
-                  <li>The 64-bit version of Pale Moon will no longer support Windows XP. More details in <a href=
-                  "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1647" target="_blank">this post</a>.<br>
+                  <li>The 64-bit version of Pale Moon will no longer support Windows XP. More details in <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1647" target="_blank">this post</a>.<br>
                   </li>
                 </ul>
               </li>
@@ -1982,12 +2099,10 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Some fixes for the Windows Aero user interface that popped up with the new compiler.<br>
               </li>
-            </ul>A slightly more detailed description can be found in the <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1658">changelog on the forum</a>.<br>
+            </ul>A slightly more detailed description can be found in the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1658">changelog on the forum</a>.<br>
             <h3>
               15.2.1
-            </h3>This update incorporates critical security fixes back-ported from Firefox 16.0.2 (<a href=
-            "https://www.mozilla.org/security/announce/2012/mfsa2012-90.html">MFSA 2012-90</a>)<br>
+            </h3>This update incorporates critical security fixes back-ported from Firefox 16.0.2 (<a href="https://www.mozilla.org/security/announce/2012/mfsa2012-90.html">MFSA 2012-90</a>)<br>
             <h3>
               15.2
             </h3>This is an update to address a number of performance, stability and security issues, as well as some
@@ -2002,20 +2117,15 @@ table.c28 {background-color: #F9F9F9}
               <li>Fix for the "tabs on top" menu entry not showing when tabs are already set on top, making it very
               difficult to switch them back to bottom.
               </li>
-              <li>Crash: Fix for a browser crash with certain types of invalid gradients. (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=792903" target="_blank">bug #792903</a>)
+              <li>Crash: Fix for a browser crash with certain types of invalid gradients. (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=792903" target="_blank">bug #792903</a>)
               </li>
-              <li>Security: Prevent private browsing data leakage through popup windows (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=795015" target="_blank">bug #795015</a>)
+              <li>Security: Prevent private browsing data leakage through popup windows (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=795015" target="_blank">bug #795015</a>)
               </li>
-              <li>Security: Detect IC purging (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=794025" target=
-              "_blank">bug #794025</a>)
+              <li>Security: Detect IC purging (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=794025" target="_blank">bug #794025</a>)
               </li>
-              <li>Security: Prevent mRules from dying in DoInsertHTMLWithContext (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=788950" target="_blank">bug #788950</a>)
+              <li>Security: Prevent mRules from dying in DoInsertHTMLWithContext (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=788950" target="_blank">bug #788950</a>)
               </li>
-              <li>Security: Drain the parent frame's overflow list before insert/append (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=765621" target="_blank">bug #765621</a>)
+              <li>Security: Drain the parent frame's overflow list before insert/append (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=765621" target="_blank">bug #765621</a>)
               </li>
             </ul><span class="c2">Features:</span><br>
             <ul>
@@ -2034,8 +2144,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Partial implementation of Japanese "status bar" preferences text
               </li>
-            </ul>More details can be found in the <a href=
-            "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1510">detailed changelog</a> on the Pale Moon forum.<br>
+            </ul>More details can be found in the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=1510">detailed changelog</a> on the Pale Moon forum.<br>
             <h3>
               15.1.1
             </h3>This is a minor update to address some important performance (high CPU usage) and stability (browser
@@ -2080,8 +2189,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Restore proper identity panel for domain-verified sites (blue panel)<br>
               </li>
-              <li>Restore support for the <span id="summary_alias_container"><span id=
-              "short_desc_nonedit_display">browser.identity.ssl_domain_display setting</span></span>
+              <li>Restore support for the <span id="summary_alias_container"><span id="short_desc_nonedit_display">browser.identity.ssl_domain_display setting</span></span>
               </li>
               <li>
                 <span id="summary_alias_container"><span id="short_desc_nonedit_display">Restore address bar autofill
@@ -2183,8 +2291,7 @@ table.c28 {background-color: #F9F9F9}
             <ul>
               <li>Fix for Flash 11.3 crashing the plugin container or browser upon shutdown.<br>
                 <span class="c2">Note:</span> Flash 11.3 introduces "protected mode", an internal plugin sandbox, that
-                can still cause other issues, e.g. for full-screen video playback. Please check the <a href=
-                "http://forum.palemoon.org/viewtopic.php?f=1&amp;t=922">forum announcement</a> for more information,
+                can still cause other issues, e.g. for full-screen video playback. Please check the <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=922">forum announcement</a> for more information,
                 workarounds and advice if you experience issues.
               </li>
               <li>Fix for double entries for "recent tags" and "recently bookmarked" in the bookmarks menu on a new
@@ -2276,8 +2383,7 @@ table.c28 {background-color: #F9F9F9}
             <h3>
               12.0
             </h3>A new release built on the Firefox 12 code base. This is mostly a maintenance release.<br>
-            Of special interest is that Pale Moon, unlike Mozilla Firefox in its version 12, does <span class=
-            "c7">not</span> move to a silent install method.<br>
+            Of special interest is that Pale Moon, unlike Mozilla Firefox in its version 12, does <span class="c7">not</span> move to a silent install method.<br>
             <br>
             <span class="c2">Fixes and changes in all versions:</span><br>
             <ul>
@@ -2290,13 +2396,11 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Update to the HTML5 media controls
               </li>
-              <li>Some under-the-hood changes that will further improve performance of Pale Moon on <span class=
-              "c7">some</span> systems
+              <li>Some under-the-hood changes that will further improve performance of Pale Moon on <span class="c7">some</span> systems
               </li>
             </ul><span class="c2">Pale Moon Portable:</span><br>
             <ul>
-              <li>An update to the launcher and script. More information on the <a href="palemoon-portable.shtml"
-              target="_blank">Pale Moon Portable page</a>. It is recommended for everyone using the portable to make a
+              <li>An update to the launcher and script. More information on the <a href="palemoon-portable.shtml" target="_blank">Pale Moon Portable page</a>. It is recommended for everyone using the portable to make a
               fresh install (with a copy over of your profile files if desired) and not use an in-place upgrade.
               </li>
               <li>A fix for backups not being properly created and stored<br>
@@ -2360,8 +2464,7 @@ table.c28 {background-color: #F9F9F9}
             </h4><span class="c2">All versions:</span><br>
             <ul>
               <li>Integration of the Status Bar functionality. You can now access the status bar configuration directly
-              from the Tools or Options menu, and it is no longer a separate add-on<small><sup><a href=
-              "knownissues.shtml#Pale_Moon_status_bar_add-on">[note]</a></sup></small><br>
+              from the Tools or Options menu, and it is no longer a separate add-on<small><sup><a href="knownissues.shtml#Pale_Moon_status_bar_add-on">[note]</a></sup></small><br>
               </li>
               <li>Implementation of the SPDY protocol to improve load times on websites that support it
               </li>
@@ -2377,8 +2480,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>The (limited feature) web developer tools as added to Firefox 11.0 have mostly been disabled since
               they are not intended to be present in future builds of Pale Moon. Web developers are encouraged to make
-              their own choices about which development tools they wish to use at the <a href=
-              "https://addons.mozilla.org/firefox/collections/mozilla/webdeveloper/">Mozilla Add-ons repository (Web
+              their own choices about which development tools they wish to use at the <a href="https://addons.mozilla.org/firefox/collections/mozilla/webdeveloper/">Mozilla Add-ons repository (Web
               development section)</a><br>
               </li>
             </ul><span class="c2">Pale Moon Portable:</span><br>
@@ -2421,8 +2523,7 @@ table.c28 {background-color: #F9F9F9}
               </li>
               <li>Update to a few default settings based on usage metrics
               </li>
-              <li>Removed some commercial search engines (e.g. Amazon) and added <a href=
-              "https://duckduckgo.com/">DuckDuckGo</a>/SSL<br>
+              <li>Removed some commercial search engines (e.g. Amazon) and added <a href="https://duckduckgo.com/">DuckDuckGo</a>/SSL<br>
               </li>
             </ul>
             <h3>
@@ -2475,8 +2576,7 @@ table.c28 {background-color: #F9F9F9}
             not the bottleneck for current versions of the browser. Inherently, this <span class="c7">may</span> result
             in less of a clear difference in benchmark scores when comparing to its vulpine sibling or previous
             versions of Pale Moon because of rebalancing of code priority when building. Maximum benchmark scores are
-            nice, of course, but the main goal of Pale Moon remains to be as efficient as possible <span class=
-            "c7">when taken as a whole</span>, including those parts that <span class="c7">aren't</span> measured in
+            nice, of course, but the main goal of Pale Moon remains to be as efficient as possible <span class="c7">when taken as a whole</span>, including those parts that <span class="c7">aren't</span> measured in
             limited benchmark tests.<br>
             <h1>
               Release notes for version 7<br>
@@ -2490,8 +2590,7 @@ table.c28 {background-color: #F9F9F9}
             There are no other functional or UI changes for this release.<br>
             <h3>
               7.0
-            </h3>A new release building on the Firefox 7.0.1 code base. This version sees a <span class=
-            "c2">large</span> number of performance increases, as well as lower resource use than the previous
+            </h3>A new release building on the Firefox 7.0.1 code base. This version sees a <span class="c2">large</span> number of performance increases, as well as lower resource use than the previous
             version.<br>
             <br>
             Additional changes:<br>
@@ -2511,11 +2610,9 @@ table.c28 {background-color: #F9F9F9}
               6.0.2
             </h3>A security update seeing the following changes:<br>
             <ul class="spaced">
-              <li>Removed trust exceptions for certain certificates (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=683449">bug 683449</a>)
+              <li>Removed trust exceptions for certain certificates (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=683449">bug 683449</a>)
               </li>
-              <li>Resolved an issue with gov.uk websites (<a href=
-              "https://bugzilla.mozilla.org/show_bug.cgi?id=669792">bug 669792</a>)
+              <li>Resolved an issue with gov.uk websites (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=669792">bug 669792</a>)
               </li>
               <li>Revoked permissions for the root certificate for DigiNotar in the built-in certificate store
                 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=682927">bug 682927</a>)
@@ -2582,8 +2679,7 @@ table.c28 {background-color: #F9F9F9}
             </ul>
             <h3>
               4.0.6
-            </h3>Update of the source base to Firefox 4.0.1, fixing a <a href=
-            "https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status2.0%3A.1-fixed" target="_blank">large
+            </h3>Update of the source base to Firefox 4.0.1, fixing a <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status2.0%3A.1-fixed" target="_blank">large
             number of bugs</a>.<br>
             <br>
             Additional updates:<br>
@@ -2601,8 +2697,7 @@ table.c28 {background-color: #F9F9F9}
             <ul>
               <li>Performance fix: Javascript performance improved
               </li>
-              <li>Crash fix: Prevent crashes in optimized builds of JS due to <a href=
-              "bugs/20110410-CCBug.shtml">20110410-CCBug</a><br>
+              <li>Crash fix: Prevent crashes in optimized builds of JS due to <a href="bugs/20110410-CCBug.shtml">20110410-CCBug</a><br>
               </li>
               <li>Updater fix: Internal updater should function again from this version onward
               </li>
@@ -2618,13 +2713,11 @@ table.c28 {background-color: #F9F9F9}
               4.0.3
             </h3>Some stability bugfixes and improvements:<br>
             <ul>
-              <li>Fix for a potential crash of the browser due to <a href=
-              "bugs/20110406-PRBug.shtml">20110406-PRBug</a>
+              <li>Fix for a potential crash of the browser due to <a href="bugs/20110406-PRBug.shtml">20110406-PRBug</a>
               </li>
               <li>Fix for the internal manual updater when a language pack is installed
               </li>
-              <li>DirectWrite now default OFF (<span class=
-              "c7">gfx.font_rendering.directwrite.enabled</span>=<span class="c7">false</span>) to provide better
+              <li>DirectWrite now default OFF (<span class="c7">gfx.font_rendering.directwrite.enabled</span>=<span class="c7">false</span>) to provide better
               compatibility with problematic (integrated) graphics processors. If it worked for you for 4.0, feel free
               to switch it back on (set to <span class="c7">true</span>)<br>
               </li>
@@ -2681,5 +2774,4 @@ table.c28 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>

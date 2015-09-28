@@ -1,11 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en">
-  <head>
+<html lang="en"><head>
+
+  
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      End of Windows XP support in Pale Moon
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>End of Windows XP support in Pale Moon</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -19,15 +18,12 @@ table.c8 {background-color: #F9F9F9}
     span.c3 {color: rgb(153, 153, 153);}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable c8" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -62,8 +58,7 @@ table.c8 {background-color: #F9F9F9}
                 one of Pale Moon's goals to support particularly old systems from its very inception. That includes
                 obsolete operating systems.<br>
                 <span class="c3">There is an alternative version of Windows XP called POSReady2009 that will receive
-                continued updates beyond this point in time, but it should be noted that this is <span class=
-                "c2">not</span> a desktop operating system and has been designed specifically around use in cash
+                continued updates beyond this point in time, but it should be noted that this is <span class="c2">not</span> a desktop operating system and has been designed specifically around use in cash
                 registers and other Points of Sale situations with single-application use (and not desktop use) in
                 mind. Using that alternative version is <span class="c2">never recommended for general use</span> and
                 is not considered by Pale Moon as a viable target operating system to run on.</span><br>
@@ -97,8 +92,7 @@ table.c8 {background-color: #F9F9F9}
             <ul>
               <li>
                 <span class="c4">Recommended:</span> Of course the <span class="c2">top recommendation, if your budget
-                allows for it, is to <a href="http://windows.microsoft.com/en-us/windows7/products/upgrade#T1=tab01"
-                target="_blank">upgrade</a> to a later operating system</span>. Windows 7 is strongly recommended in
+                allows for it, is to <a href="http://windows.microsoft.com/en-us/windows7/products/upgrade#T1=tab01" target="_blank">upgrade</a> to a later operating system</span>. Windows 7 is strongly recommended in
                 this case for current users of Windows XP. It will be supported until 2020 and provides the most
                 familiarity and customizability that Windows XP users would be looking for. On top, it is a very stable
                 and well-rounded operating system. Once you have upgraded, running current and future versions of Pale
@@ -109,12 +103,7 @@ table.c8 {background-color: #F9F9F9}
                 version</a> will continue to support Windows XP indefinitely (because of the large amount of netbooks
                 being limited to that operating system) you can switch to that version.
               </li>
-              <li>If you are looking for a full main-line build of Pale Moon with Windows XP support, there are also
-              32-bit and 64-bit <a href="http://binaryoutcast.com/software/projects/pm4xp/">alternative (third-party)
-              builds</a> of the browser specifically maintained for Windows XP and Server 2003 environments.
-              <span class="c2">Please do note that these versions will be discontinued when the last retail NT 5.x
-              product goes EoL in July 2015.</span>
-              </li>
+              
               <li>Of course another alternative is to switch browser. We will be sad to see you go.<br>
               </li>
               <li>
@@ -144,5 +133,4 @@ table.c8 {background-color: #F9F9F9}
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>

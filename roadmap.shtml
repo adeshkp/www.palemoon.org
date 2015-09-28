@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="[en]"><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -34,7 +35,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2015-06-24</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2015-09-28</small><br>
 
             <h3>
               General Information
@@ -44,7 +45,7 @@ table.c7 {background-color: #F9F9F9}
             inclusion and progress of certain features in the browser.<br>
             <br>
             Pale Moon, with v25 more clearly than before, but over the preceding 5 years as well, has been a diverging
-            product, with increasing differences between it and other Mozilla browser products. This divergent path
+            product, with increasing differences between it and other Mozilla-based browser products. This divergent path
             will remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and will never be again."<br>
             <br>
             Pale Moon will be selective in what is adopted into its core from its Mozilla sibling Firefox, and the
@@ -93,7 +94,7 @@ table.c7 {background-color: #F9F9F9}
               </li>
               <li>DASH support through MSE
               </li>
-              <li>In-browser DRM, either through dynamically downloaded closed-source components or data-mangling in JS
+              <li>In-browser DRM (EME), either through dynamically downloaded closed-source components or data-mangling in JS
               </li>
             </ul>Current media support will be only extended where needed for regular data formats, and <span class="c3">already includes</span>:<br>
             <ul>
@@ -123,7 +124,7 @@ table.c7 {background-color: #F9F9F9}
             <ul>
               <li>Linux (x86 and x64) -- Completed and actively maintained
               </li>
-              <li>Mac OS X -- Currently in its early stages
+              <li>Mac OS X -- Currently in its early stages, not maintained
               </li>
               <li>Android ARM -- Completed, but not actively maintained due to lack of manpower.<br>
 We can use your help on this one (Fennec-based)
@@ -180,6 +181,10 @@ the platform matures enough to warrant the investment.<br>
             overlays, skins and content if they target individual applications, now and in the future. Of course, it
             would be greatly preferred if extension developers, while doing this, actually add full installation
             support for Pale Moon as well, targeting Pale Moon's GUID of {8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}.<br>
+      <br>
+Unlike Firefox, Pale Moon will continue to offer full support for XUL
+and binary-component extensions and there is no plan to discard the
+current extension system for Chrome-like alternatives (WebExtensions).<br>
             <h4>
               JetPack (Add-on SDK) extensions
             </h4>JetPack (add-on SDK) add-ons are discouraged for Pale Moon, because they inherently run into

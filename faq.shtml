@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -159,20 +160,22 @@ table.c11 {background-color: #F9F9F9}
             security software vendor as a false positive. Reporting it to the browser author serves no purpose as it's
             the malware detector's scanning engine that needs fixing.<br>
             <br>
-            A critical note: the popular AVG and Norton scanners seems to be particularly paranoid about Pale Moon and
-            have, in numerous cases, "fixed" what wasn't broken, i.e. deleted parts of the browser resulting in a
-            broken or destroyed browser. This has been reported <span class="c3">many</span> times to the AV developers
-            but has not been addressed, and the official recommendation is therefore: find yourself a different
-            antivirus package. There are plenty of free-for-home-use antivirus packages available.<br>
+A critical note: the popular AVG and Norton scanners seems to be
+particularly paranoid about Pale Moon and have, in numerous cases,
+"fixed" what wasn't broken, i.e. deleted parts of the browser resulting
+in a broken or destroyed browser. It's therefore recommended to never
+let an AV suite "automatically clean" your system. There are plenty of
+free-for-home-use antivirus packages available to verify the detection
+and get a "second opinion" if you don't trust what you downloaded.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
             <h3>
               <a name="Why_do_some_add-ons_not_work" id="Why_do_some_add-ons_not_work"></a>Why do some add-ons not work
               (properly) with Pale Moon?
-            </h3>Pale Moon is based on Firefox, but there are some significant differences between the two browsers. As
+            </h3>Pale Moon is forked from Firefox, and there are some significant differences between the two browsers. As
             such, Pale Moon has its own (exclusive) extensions that were specifically written for it, which should
-            always work. In addition, pale Moon also allows Firefox extensions to be installed, as long as these
+            always work. In addition, Pale Moon also allows Firefox extensions to be installed, as long as these
             extensions are compatible with version 24 of Firefox (since that is the closest matching version from an
             add-on perspective). These Firefox extensions are not guaranteed to work, but in most cases can be made
             compatible with a few small alterations. This incompatibility can be caused by several different things,
@@ -193,9 +196,11 @@ table.c11 {background-color: #F9F9F9}
               </li>
               <li>Use of components not present in Pale Moon: If an add-on tries to use components that are
               specifically excluded from Pale Moon (like accessibility features, ActiveX, parental controls) it will
-              fail.
-              </li>
-            </ul>That being said, most add-ons function without a hitch.<br>
+              fail.</li>
+        <li>The extension was never written for our extension API level (e.g. Australis-only extensions).<br>
+        </li>
+
+            </ul>That being said, most add-ons do function without a hitch. Even so, you are encouraged to check the <a href="https://addons.palemoon.org/">Pale Moon add-ons site</a> for Pale Moon specific add-ons or alternatives to what you are using if you suspect there may be a compatibility issue.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -206,9 +211,6 @@ table.c11 {background-color: #F9F9F9}
             in memory and keeps them resident there. As it is, startup times of Pale Moon are generally sufficiently
             low not to need something like that. External preloaders may not work with Pale Moon for the same reason
             some add-ons may not work.<br>
-            That being said, someone is working on creating a preloader application for Pale Moon (adapting a Firefox
-            preloader to work with Pale Moon). The following forum thread may be of interest:<br>
-            <a href="http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620">http://forum.palemoon.org/viewtopic.php?f=3&amp;t=3620</a><br>
 
             <br>
             <a href="#top">[^ Top ^]</a><br>
@@ -223,8 +225,8 @@ table.c11 {background-color: #F9F9F9}
             <br>
             <h3>
               <a name="How_do_I_update_Pale_Moon" id="How_do_I_update_Pale_Moon"></a>How do I update Pale Moon?
-            </h3>Pale Moon has a built-in update checker, which is enabled by default since 3.6.13. If you let Pale
-            Moon automatically check for updates (which occurs once a week by default), you will be notified and given
+            </h3>Pale Moon has a built-in update checker. If you let Pale
+            Moon automatically check for updates (which occurs every other day by default), you will be notified and given
             the option to download and install the later version from within the browser. You can also manually check
             and start the update from Pale Moon's Help -&gt; About dialog box.<br>
             <br>
@@ -261,8 +263,7 @@ and Pale Moon have similar roots in the Mozilla Community code, and
 Pale Moon has been originally based on Firefox code, but as a product,
 Pale Moon has diverted significantly from its sibling, and has its own
 code, development path and future, independent of what the Mozilla
-Corporation does with Firefox. Firefox is created with maximum
-compatibility and one-size-fits-all in mind, Pale Moon is created with
+Corporation does with Firefox. Firefox is created with one-size-fits-all in mind; Pale Moon is created with
 efficiency and user choice in mind. <span class="c3">These two approaches are mutually exclusive</span>, and result in
             some functions being present/absent in one browser but not the other, as well as different system
             requirements for either browser. Pale Moon also has a different set of goals as to what should be included
@@ -290,8 +291,8 @@ efficiency and user choice in mind. <span class="c3">These two approaches are mu
             resource/hardware use. <span class="c5">It doesn't necessarily aim to be a lightweight browser</span>,
 but seems to achieve that goal in some circumstances as a side effect.
 Overall, comparison between browsers would put Pale Moon in a similar
-position to its sibling Firefox since it is based on the same rendering
-engine (Gecko). Synthetic benchmarks aren't the end-all of things, so
+position to its sibling Firefox since it it has its roots in the same rendering and scripting
+engines (Gecko/SpiderMonkey). Synthetic benchmarks aren't the end-all of things, so
 it's difficult to obtain unbiased comparisons between different
 browsers through them, and a higher benchmark score doesn't necessarily
 mean that a browser would perform better in a real-world browsing
@@ -337,14 +338,15 @@ between Firefox and Pale Moon.<br>
 On the flipside, some developers seem to complain that Pale Moon "is no
 different than other optimized (re)builds out there", meaning other
 people who have built Firefox from source with minimal tweaks or
-changes, which might be true to some very limited extent (since they
-are both rooted in the same ancestral code). Following the step-by-step
+changes. Following the step-by-step
 instructions in the Mozilla Developer Center, and probably with some
 trial and error, anyone with a decent level of computer knowledge <span class="c3">could</span>
-build Firefox on Windows (if you have the right hardware and software),
+build Firefox (if you have the right hardware and software),
 but that doesn't necessarily mean it's going to be stable or efficient,
 or that the result would be more than just a differently configured
-rebuild of Firefox. Pale Moon is most certainly not "just a rebuild" of
+rebuild of Firefox. <br>
+      <br>
+Pale Moon is most certainly not "just a rebuild" of
 existing Firefox code, unlike other "alternative" Firefox browsers out
 there. As Pale Moon has developed, so has the amount of individual code
 for the browser, steadily diverging Pale Moon from its sibling in the
@@ -399,7 +401,7 @@ has been re-integrated into the browser.</span><br>
             configuration, .mozconfig file, path details, release engineering tools, etc.; clearly not always with good
             intentions.<br>
             <br>
-            The answer is: <span class="c5">No, this is <span class="c3">my</span> workstation and you do not need that
+            The answer is: <span class="c5">No, you do not need that
             info</span>.<br>
             <br>
             That being said, Pale Moon is released fully as Open Source, with downloadable source code released under
