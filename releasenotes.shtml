@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -38,7 +39,16 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.7.1 (2015-09-28)</h3>This
+            <h3>25.7.2 (2015-10-02)</h3>This is a stability update, addressing 2 critical hangs:<br>
+      <ul>
+        <li>Fixed a critical hang caused by recursive reloads that might happen in iframes if its hash changed.</li>
+        <li>Fixed a critical hang caused by lazy-loading of stylesheets
+through a specific web programming technique as advocated by Google's
+PageSpeed.<br>
+        </li>
+      </ul>
+      <h3>25.7.1 (2015-09-28)</h3>
+This
 is a security, stability and web-compatibility update. This also marks
 a security update for the Android version of Pale Moon to keep users of
 the otherwise currently unmaintained OS updated regarding known
