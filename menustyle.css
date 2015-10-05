@@ -21,9 +21,9 @@ body {
 	list-style: none;
 	line-height: 1;
 	color:#FFFFFF;
-	background: #5272A1;
+	background: #222;
 	padding: 0;
-	border: solid #A0A0A4;
+	border: solid #343430;
 	border-width: 1px 0;
 	margin: 0 0 0 0;
 
@@ -67,7 +67,7 @@ body {
 	height: auto;
 	width:15em;	
 	
-	background: #5272A1;
+	background: #222;
 	font-weight: normal;
 	border-width: 1px;
 	margin: 0;
@@ -110,7 +110,7 @@ body {
 }
 
 .mainmenu li:hover{
-	background: #004B97;
+	background: #974B00;
 }
 
 .mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
@@ -126,7 +126,7 @@ body {
 .mainmenu li li:hover, .mainmenu li li li:hover, 
 .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
 {
-	background: #004B97;
+	background: #974B00;
 	z-index:9999;
 }
 .mainmenu li li:hover a,.mainmenu li li li:hover a, 
