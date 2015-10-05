@@ -1,20 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
     
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <style type="text/css">
-table.c14 {background-color: #F9F9F9}
     td.c13 {vertical-align: top; text-align: center;}
     td.c12 {vertical-align: top;}
     span.c11 {color: red;}
@@ -29,7 +20,7 @@ table.c14 {background-color: #F9F9F9}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style></head><body>
-    <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
