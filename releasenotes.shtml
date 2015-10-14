@@ -39,7 +39,18 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.7.2 (2015-10-02)</h3>This is a stability update, addressing 2 critical hangs:<br>
+            <h3>25.7.3 (2015-10-14)</h3>This
+is a usability update needed due to the fact that Mozilla has shut down
+they key exchange (J-PAKE) server along with the old Sync servers. This
+was unexpected and required us to set up our own key server (testing
+indicates this works as-expected, but please do report any issues on
+the forum) - which also required reconfiguration of the browser.<br>
+Please note that older versions of the browser will no longer be able
+to link devices to a sync account using the 12-character code since it
+requires a Mozilla server no longer present. If you need this
+functionality, you must update to this version or later.<br>
+      <h3>25.7.2 (2015-10-02)</h3>
+This is a stability update, addressing 2 critical hangs:<br>
       <ul>
         <li>Fixed a critical hang caused by recursive reloads that might happen in iframes if its hash changed.</li>
         <li>Fixed a critical hang caused by lazy-loading of stylesheets
