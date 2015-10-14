@@ -41,7 +41,7 @@ table.c10 {background-color: #F9F9F9}
             </h1>
             <h3>25.7.3 (2015-10-14)</h3>This
 is a usability update needed due to the fact that Mozilla has shut down
-they key exchange (J-PAKE) server along with the old Sync servers. This
+their key exchange (J-PAKE) server along with the old Sync servers. This
 was unexpected and required us to set up our own key server (testing
 indicates this works as-expected, but please do report any issues on
 the forum) - which also required reconfiguration of the browser.<br>
