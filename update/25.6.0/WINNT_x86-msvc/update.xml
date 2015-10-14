@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 
 <updates>
-  <update type="major" displayVersion="25.7.2 (x86)" appVersion="25.7.2"  extensionVersion="25.7.2" 
+  <update type="major" displayVersion="25.7.3 (x86)" appVersion="25.7.3"  extensionVersion="25.7.3" 
           detailsURL="http://www.palemoon.org/releasenotes.shtml" showNeverForVersion="true">
-    <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-25.7.2.win32.complete.mar"
-           hashFunction="SHA1" hashValue="aa6e1942941004876ff8abdf9916927838f8adcc" size="25640920"/>
+    <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-25.7.3.win32.complete.mar"
+           hashFunction="SHA1" hashValue="e07d4f232c3e9bb6047bf9e88eb5bb0e3e2b33c1" size="25640137"/>
   </update>
 </updates>
