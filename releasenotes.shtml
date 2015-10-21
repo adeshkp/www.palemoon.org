@@ -34,9 +34,11 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.7.3 (2015-10-14)</h3>This
+            <h3>25.7.3.1 (Android only!) (2015-10-15)</h3>A small update to the Android version only to fix an issue with the Sync setup still not working properly on Android clients.<br>
+      <h3>25.7.3 (2015-10-14)</h3>
+This
 is a usability update needed due to the fact that Mozilla has shut down
-they key exchange (J-PAKE) server along with the old Sync servers. This
+their key exchange (J-PAKE) server along with the old Sync servers. This
 was unexpected and required us to set up our own key server (testing
 indicates this works as-expected, but please do report any issues on
 the forum) - which also required reconfiguration of the browser.<br>
