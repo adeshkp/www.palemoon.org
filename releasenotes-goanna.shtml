@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
+
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
@@ -35,18 +37,23 @@
             <h1>
               Pale Moon: Pre-release notes for Goanna
             </h1>
-            <h3>26.0.0 beta 3 (2015-10-22)</h3>
+            <h3>26.0.0 beta 3 (2015-10-23)</h3>Over 150 changes since beta 2, highlighting the most prominent:<br>
+
       <ul>
         <li>Regular expressions behavior change for capturing groups: in the case of a capturing group with quantifiers preventing its 
 exercise, the matched text for a capturing group is now <code>undefined</code> instead of an empty string.</li>
         <li>Dragging and dropping an image that is served behind a redirect will now properly grab the image instead of the redirect code.</li>
         <li>Autoplay of media will now also be blocked when autoplay is
-set to false and the use hasn't interacted with the element, even if
+set to false and the user hasn't interacted with the element, even if
 this would normally be script-triggered (previously, this media
 playback triggered by JS would not be blocked).</li>
-        <li><code>navigator.product</code> will now return "Gecko"
+        <li><code>navigator.product</code>
+will now return "Gecko"
 instead of "Goanna" since this is a historical requirement (all
-browsers return "Gecko", even IE and Safari).</li>
+browsers return "Gecko", even IE and Safari, and some libraries break
+otherwise). This should make the browser more compatible with
+particular libraries like certain in-page editors.<br>
+</li>
         <li>The Goanna milestone version has been bumped to 2.0 for the
 first release of Pale Moon with it. This to avoid a platform version
 used in legacy checks on the web for Gecko 1.8 and 1.9 (Firefox era
@@ -63,8 +70,9 @@ scrollbars in the frame.</li>
         <li>Improved GC memory shrinking.</li>
         <li>Fixed the handling of media changes in onload= (hang).</li>
         <li>Updated libnestegg.</li>
-        <li>Fixed a Netscape legacy bug where empty locations would hang/crash the browser.</li>
-        <li>Changed the tab close buttons to be red on hover (Windows aero).</li>
+        <li>Fixed a Netscape legacy bug where empty locations would hang the browser or cause rapid and endless reloads.</li>
+        <li>Changed the tab close buttons to be red on hover (Windows aero). Still needs some graphics updates.<br>
+</li>
         <li>Added a control pref for onunload= events as <code>dom.disable_beforeunload</code>.<br>
         </li>
         <li>Prevented (simulated) clicks during onunload to prevent DoS caused by unload looping. (bad pages are bad, mmkay?)</li>
@@ -74,19 +82,48 @@ scrollbars in the frame.</li>
         <li>Permitted spec-breaking Regex classes for ranges.</li>
         <li>Improved pure string matching performance for Regex (fast path).</li>
         <li>Bumped Firefox compat version to 38.*.</li>
-        <li>Re-worked the theme styling for the default theme, including Win10 adjustments.</li>
+        <li>Re-worked
+the theme styling for the default theme, including specific Win10
+adjustments and fixes for the changes in metrics on that OS.<br>
+</li>
         <li>Added app/vendor specific UA override section + first entry for WhatsApp.</li>
         <li>Crash fix: Gracefully handle bogus URIs passed to CSS style filters.</li>
         <li>Pale Moon will now honor margin-left and margin-right on elements in inline layouts that have 0 width and/or height.</li>
-        <li>Added CSS media queries for Linux, MacOS X, BSD in addition to the Windows ones.</li>
+        <li>Added CSS media queries for determining OS: Linux, MacOS X, BSD in addition to the Windows ones.</li>
         <li>Properly fixed the dictionary logic (rewrite).</li>
         <li>Disabled battery API by default to prevent privacy leaks.</li>
         <li>Removed incorrect orange color from the AppMenu button's edge.</li>
         <li>Removed metro browser code.<br>
         </li>
       </ul>
-<h3>26.0.0 beta 2 (2015-08-28)</h3>** to be written **<br>
-<h3>26.0.0 beta 1 (2015-08-04)</h3>** to be written **<br>
+<h3>26.0.0 beta 2 (2015-08-28)</h3>Main changes:<br>
+      <ul>
+        <li>Fixed integration of modules.</li>
+        <li>Improved website compatibility (Gecko compatibility pref, etc.).</li>
+        <li>Implemented Ruby Annotations.</li>
+        <li>Updated GL texture formats.</li>
+        <li>Fixed scaling of JPEG images with EXIF data.</li>
+        <li>Fixed reading of EXIF data for little-endian encoded files.</li>
+        <li>Made sure that a table following left float clears it when it can't fit next to it.</li>
+        <li>Added support for BASE tag parsing in source view.</li>
+        <li>Added a preference to stop focusing the Pale Moon window on opening an external link ('<code>browser.tabs.noWindowActivationOnExternal</code>' pref)</li>
+      </ul>
+
+<h3>26.0.0 beta 1 (2015-08-04)</h3>Main changes:<br>
+      <ul>
+        <li>Switched over the code base to Goanna.</li>
+        <li>Added support for <code>element.matches()</code></li>
+        <li>Added conservative image decoding.</li>
+        <li>Added WebP support.</li>
+        <li>Restored the library scope bar.</li>
+        <li>Removed various invasive telemetry components.</li>
+        <li>Aligned 3D transforms with the spec.</li>
+        <li>Improved performance of TypeOf calls.</li>
+        <li>Changed handling of DNS to be more efficient.</li>
+        <li>Added background-repeat:space and background-repeat:round CSS keywords.<br>
+Note: "space" still has an issue when using hardware acceleration.</li>
+      </ul>
+
             <br>
           </td>
         </tr>
