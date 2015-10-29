@@ -19,7 +19,6 @@
 
   
   <style type="text/css">
-table.c11 {background-color: #F9F9F9}
     td.c10 {vertical-align: top; text-align: center;}
     td.c9 {vertical-align: top;}
     span.c8 {font-weight: bold; text-decoration: underline;}
@@ -32,7 +31,7 @@ table.c11 {background-color: #F9F9F9}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
 </head><body>
-<table class="maintable c11" align="center" border="0" cellpadding="0" cellspacing="0">
+<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
     <tr>
