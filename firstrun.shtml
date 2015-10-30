@@ -29,9 +29,20 @@
             details about Pale Moon that might be important to you are available there.<br>
             <br>
             Not an English speaker? Check out these <a href="langpacks.shtml">Language Packs</a>.<br>
+      <h2>Note about Firefox extensions!</h2>Even
+though many Firefox extensions will work in Pale Moon thanks to its
+Firefox extension compatibility mode, the two browsers are not the
+same, and wou will have to carefully check your extensions if you come
+from Firefox. Some may not be compatible or available, and you should
+get an alternative, compatible different version, or a Pale Moon
+specific extension instead. Please note that this includes some very
+popular extensions whose authors refused to support Pale Moon directly
+(for example: Adblock Plus users need to get <a href="https://addons.palemoon.org/extensions/privacy-and-security/adblock-latitude/">Adblock Latitude</a> instead).<br>
+More information: <a href="https://addons.palemoon.org/resources/incompatible/">https://addons.palemoon.org/resources/incompatible/</a><br>
       <h2>
               Customize your browser!
             </h2>
+
 While you are here, you may be interested to learn about the growing number of themes to customize the
             way your browser looks. Please have a look at the options on the Pale Moon addons site:<br>
             <div class="center">
