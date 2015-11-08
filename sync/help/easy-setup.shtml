@@ -27,7 +27,7 @@
 
       <ol>
 <li>Click the <span class="button">Pale Moon</span> button (or go to the Tools menu<strong></strong>) and click Options.
-</li><li>In the Options window, go to Sync, then click the <strong>Pair a device</strong> link and the Sync Setup window will open.<br>
+</li><li>In the Options window, go to Sync, then click the <strong>Pair a device</strong> link and the Sync Setup window will open, waiting for a 12-character code.<br>
           <div style="text-align: center;"><img style="width: 534px; height: 551px;" alt="Screenshot" src="adddevice1.png"><br>
           </div>
 </li><li>Get your new device, and do the following:<br>
@@ -36,15 +36,15 @@
           <li>If your other device is another computer (desktop or laptop):<br>
 Go to "Set Up Sync..." in the program's menu, then click "I already have an account".<br>
 Sync setup will now give you a 12-character code.</li>
-          <li>If your other device is a mobil (Android phone or tablet):<br>
+          <li>If your other device is a mobile device (Android phone or tablet):<br>
 Tap the Set up Pale Moon Sync button on the Start page. (<strong>Note:</strong> You can also access Sync through the main menu <span class="button">More</span> &gt; <span class="button">Settings</span> &gt; <span class="button">Sync</span>)<br>
 Sync setup will now give you a 12-character code.<br>
           </li>
         </ol>
-        <li>Enter this twelve character code generated on your new device and click <span class="for" data-for="win,linux"><span class="button">Next</span></span>.<br>
+        <li>Enter this 12-character code (that was generated on your new device) in the Sync Setup window from step 2 and click <span class="for" data-for="win,linux"><span class="button">Next</span></span>.<br>
 
         </li>
-<li>When the code is accepted you will see a <strong>Device Connected</strong> message and your device will immediately begin syncing. Click <span class="for" data-for="win,linux"><span class="button">Finish</span></span> to close the setup window.
+<li>When the code is accepted, you will see a <strong>Device Connected</strong> message and your device will immediately begin syncing. Click <span class="for" data-for="win,linux"><span class="button">Finish</span></span> to close the setup window.
 </li>
       </ol>
 
