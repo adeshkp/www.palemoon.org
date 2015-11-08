@@ -1,10 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon branding information
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html><head>
+
+
+
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon branding information</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
@@ -14,15 +16,12 @@
     img.c8 {width: 300px; height: 256px;}
     img.c7 {width: 673px; height: 128px;}
     img.c6 {width: 128px; height: 128px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0">
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0">
           </th>
         </tr>
         <tr align="left">
@@ -37,9 +36,12 @@
             </h1>
             <h3>
               About the brand and copyright<br>
-            </h3>The Pale Moon branding, logo, and project/product names are the Intellectual Property of M.C. Straver,
-            the owner and lead developer of the project. Pale Moon is a Trademark ™ for the web browser and the usage
-            rights of the name and logo are reserved by the owner.<br>
+            </h3>The
+Pale Moon branding, logo, and project/product names are the
+Intellectual Property of M.C. Straver, the owner and lead developer of
+the project. Pale Moon and the phrase "Your browser, Your way" are
+Trademarks ™ for the web browser and the usage rights of the name and
+logo are reserved by the owner.<br>
             All graphics related to it are author-rights protected, meaning as a general rule you are not allowed to
             use it without permission. However, to allow people to promote the browser and brand, these ownership
             rights are usually not enforced when used to refer to Pale Moon on other sites and locations.<br>
@@ -66,8 +68,7 @@
                 - Only promote Pale Moon when following the guidelines below, <span class="bold">or</span><br>
                 - Discuss the promotion with me and are given permission to promote in a different way.
               </li>
-              <li>Redistribute the officially-branded browser as long as you adhere to the <a href=
-              "/redist.shtml">redistribution license.</a>
+              <li>Redistribute the officially-branded browser as long as you adhere to the <a href="/redist.shtml">redistribution license.</a>
               </li>
               <li>Redistribute your own build of the browser that does not carry the official name and logo (unofficial
               branding is included in the source for you to use freely).
@@ -114,15 +115,17 @@
               <li>The name is "Pale Moon", not "Palemoon", "PaleMoon", "Pale-moon", "pale moon" or "palemoon". Please
               use the proper, 2-word, capitalized form.
               </li>
-              <li>Using custom promotional slogans or catch phrases in relation to the browser without clearing those
-              with the owner first is strongly discouraged, to prevent potentially undesired impressions to the public.
-              If you wish to use a custom slogan/catch phrase in relation to the browser, that has not been officially
-              published before, then please get in touch with the owner before publication to discuss.
-              </li>
+              <li>Using
+custom promotional slogans or catch phrases in relation to the browser
+without clearing those with the owner first is strongly discouraged, to
+prevent potentially undesired impressions to the public or conflicts
+with other products. If you wish to use a custom slogan/catch phrase in
+relation to the browser, that has not been officially published before,
+then please get in touch with the owner before publication to discuss. </li>
               <li>In general, it is not customary or required to include the Trademark ™ symbol when mentioning Pale
               Moon. For official documents it is, however, encouraged.<br>
               </li>
-            </ul><span class="bold">Promotional media:</span><br>
+            </ul><span class="bold">Promotional media and examples:</span><br>
             <br>
             Logo<br>
             <img class="c6" alt="" src="images/branding/logo128.png"><br>
@@ -130,6 +133,8 @@
             <br>
             Logo + wordmark (to the right in #17109E)<br>
             <img class="c7" alt="" src="images/branding/pale_moon_logo_wordmark_128.png"><br>
+      <br>1/2 Logo + wordmark + slogan (to the right in #17109E)<br>
+      <img style="width: 728px; height: 152px;" alt="" src="images/branding/header-half-ybyw.png"><br>
             <br>
             Logo + wordmark (below in #244C8A)<br>
             <img class="c8" alt="" src="images/branding/about-logo.png"><br>
@@ -140,5 +145,4 @@
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>
