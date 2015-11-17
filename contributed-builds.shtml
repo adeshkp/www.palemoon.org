@@ -41,8 +41,12 @@
                 <a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon
                 PPA</a> for Debian/Ubuntu and compatible by Marián Kadaňka<br>
                 A build specifically for this OS. Source with necessary modifications available from the same page.<br>
-                <span class="underline">Note:</span> currently outdated; use with caution or use the official tarballs.<br>
-              </li>
+                <span class="underline">Note:</span> currently outdated; use with caution or use the official tarballs.</li>
+        <li><a href="http://raspi.palemoon.org/">Pale Moon for Raspberry Pi boards</a> by dimag0g<br>
+A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
+Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).<br>
+        </li>
+
             </ul>Processor-specific rebuilds:<br>
             <ul>
               <li>
