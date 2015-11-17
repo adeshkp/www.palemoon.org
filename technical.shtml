@@ -275,7 +275,7 @@ table.c16 {background-color: #F9F9F9}
                     <span class="c2">All</span> multi-core processors:<br>
                     Intel Core/C2D/C2Q/i3/i5/i7/etc.<br>
                     AMD Athlon II X2/X3/X4/etc.<br>
-                    AMD Phenom/II etc.<br>
+                    AMD Phenom/II/FX/etc.<br>
                   </td>
                   <td class="c8">
                     <span class="c9">YES</span>
@@ -287,7 +287,7 @@ table.c16 {background-color: #F9F9F9}
             <h3>
               <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Firefox?
             </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
-            close to Firefox in many parts of the code to ensure compatibility with as many add-ons as possible, but
+            close to Firefox in certain parts of the code to ensure compatibility with many add-ons, but
             should be considered a "fork" and a totally independent product.</span><span class="c12"><br>
             <br></span> For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
             <ol>
@@ -407,7 +407,7 @@ speed boosters" and general "tweak guides" for Firefox can actually <span class=
                   </li>
 
                   
-            <li>Compiler: MS Visual Studio 2012 Update 4 (MSVC CL 11)
+            <li>Compiler: MS Visual Studio 2012 Update 5 (MSVC CL 11)
                   </li>
 
                 </ul>

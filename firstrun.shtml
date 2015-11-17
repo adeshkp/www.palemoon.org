@@ -34,7 +34,7 @@ though many Firefox extensions will work in Pale Moon thanks to its
 Firefox extension compatibility mode, the two browsers are not the
 same, and you will have to carefully check your extensions if you come
 from Firefox. Some may not be compatible or available, and you should
-get an alternative, compatible different version, or a Pale Moon
+get an alternative, a compatible different version, or a Pale Moon
 specific extension instead. Please note that this includes some very
 popular extensions whose authors refused to support Pale Moon directly
 (for example: Adblock Plus users need to get <a href="https://addons.palemoon.org/extensions/privacy-and-security/adblock-latitude/">Adblock Latitude</a> instead).<br>
@@ -43,7 +43,7 @@ More information: <a href="https://addons.palemoon.org/resources/incompatible/">
               Customize your browser!
             </h2>
 
-While you are here, you may be interested to learn about the growing number of themes to customize the
+While you are here, you may be interested to learn about the growing number of complete themes to customize the
             way your browser looks. Please have a look at the options on the Pale Moon addons site:<br>
             <div class="center">
               <a href="https://addons.palemoon.org/themes/complete/"><big>https://addons.palemoon.org/themes/complete/<br></big></a>
