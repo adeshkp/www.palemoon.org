@@ -35,7 +35,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2015-09-28</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2015-11-16</small><br>
 
             <h3>
               General Information
@@ -72,10 +72,18 @@ table.c7 {background-color: #F9F9F9}
             implement by re-writing parts of the parser and renderer in Pale Moon's core).<br>
             <h4>
               JavaScript
-            </h4>JavaScript development is currently one of the main focuses of the core work performed on Pale Moon,
-            and the 25.* milestone will see continual added implementation of more of the ECMAScript version 6 (ES6)
-            draft. Pale Moon currently already supports everything in the actual ES5 standard, but is being extended to
-            offer web developers more "bleeding edge" JavaScript features to work with from the ES6 draft.<br>
+            </h4>JavaScript
+development is currently one of the main focuses of the core work
+performed on Pale Moon, and the 25.* milestone will see continual added
+implementation of more of the ECMAScript version 6 (ES6) standard. Pale
+Moon currently already supports everything in the actual ES5 standard,
+but is being extended to offer web developers more "bleeding edge"
+JavaScript features to work with from the ES6 standard. Please
+understand that implementing these changes is slow and meticulous work
+that requires extensive coding and testing to do properly. There is
+very little margin for error, because JavaScript not only runs in
+webpages in Pale Moon, but drives everything in the browser, including
+the program itself.<br>
             <h4>
               Media support
             </h4>Media support is a regularly-discussed topic for Pale Moon users, since part of the user base would
@@ -108,7 +116,7 @@ table.c7 {background-color: #F9F9F9}
               </li>
               <li>VPX (VP8 and VP9) support
               </li>
-              <li>High framerate support
+              <li>High framerate and HD resolution support (subject to hardware limitations)
               </li>
               <li>Full-screen HTML5 video
               </li>
@@ -124,7 +132,9 @@ table.c7 {background-color: #F9F9F9}
             <ul>
               <li>Linux (x86 and x64) -- Completed and actively maintained
               </li>
-              <li>Mac OS X -- Currently in its early stages, not maintained
+              <li>Mac OS X -- Currently in its early stages, not maintained<br>
+We can use your help on this one, since we lack hardware and expertise<br>
+
               </li>
               <li>Android ARM -- Completed, but not actively maintained due to lack of manpower.<br>
 We can use your help on this one (Fennec-based)
@@ -181,10 +191,10 @@ the platform matures enough to warrant the investment.<br>
             overlays, skins and content if they target individual applications, now and in the future. Of course, it
             would be greatly preferred if extension developers, while doing this, actually add full installation
             support for Pale Moon as well, targeting Pale Moon's GUID of {8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}.<br>
-      <br>
+      <br><span style="font-weight: bold;">
 Unlike Firefox, Pale Moon will continue to offer full support for XUL
 and binary-component extensions and there is no plan to discard the
-current extension system for Chrome-like alternatives (WebExtensions).<br>
+current extension system</span> for Chrome-like alternatives (WebExtensions).<br>
             <h4>
               JetPack (Add-on SDK) extensions
             </h4>JetPack (add-on SDK) add-ons are discouraged for Pale Moon, because they inherently run into
