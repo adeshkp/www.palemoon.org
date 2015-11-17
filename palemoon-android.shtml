@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -68,11 +69,11 @@ table.c13 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c6">
-              Current version: 25.7.3.1
+              Current version: 25.8
             </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
             release notes</a>.<br>
             <br>
-            This is a security (.1), stability (.1/.2) and usability (.3) update to keep users of the browser updated and safe.<br>
+            This is a security, stability and usability update to keep users of the browser updated and safe.<br>
 Please do note that there are known issues on some mobiles and versions
 of Android that will prevent this browser from working properly or in a
 stable fashion.<br>
@@ -138,7 +139,7 @@ for Android-x86 on the forum. You may have to build from source,
 yourself, to get a more recent version.<br>
             <h3>
               Source code
-            </h3>Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
+            </h3>Please see the Android branch on the Pale Moon repository <a href="sourcecode.shtml">here</a>.<br>
             <br>
           </td>
         </tr>

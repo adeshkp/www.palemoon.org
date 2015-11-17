@@ -2,6 +2,9 @@
 <html><head>
 
 
+
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -39,7 +42,44 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.7.3.1 (Android only!) (2015-10-15)</h3>A small update to the Android version only to fix an issue with the Sync setup still not working properly on Android clients.<br>
+            <h3>25.8.0 (2015-11-17)</h3>This is a security, stability and usability update.<br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>Updated LibVPX to 1.4.x to be able to play more kinds of VP9-encoded videos.</li>
+        <li>Updated the JPEG decoder library to 1.4.0.<br>
+        </li>
+        <li>Fixed and cleaned up XPCOM timer thread code to avoid intermittent issues with events not firing (especially after stand-by).</li>
+        <li>Updated overrides to work around issues with Facebook and Netflix.</li>
+        <li>Fixed an issue where too-old system-supplied NSPR and/or NSS libraries would be accepted for use.<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Updated the libpng library to 1.5.24 to address critical security issues CVE-2015-7981 and CVE-2015-8126</li>
+        <li>Updated the NSPR library to 4.10.10 to address several security issues.</li>
+
+        <li>Updated the NSS library to 3.19.4 to address several security issues.</li>
+        <li>Fixed a memory safety hazard in SVG path code (CVE-2015-7199).</li>
+        <li>Fixed an issue with IP address parsing potentially allowing an attacker to bypass the Same Origin Policy (CVE-2015-7188).</li>
+        <li>Fixed an Add-on SDK (Jetpack) issue that would allow scripts to be executed despite being forbidden (CVE-2015-7187).</li>
+        <li>Fixed a crash due to a buffer underflow in libjar (CVE-2015-7194).</li>
+        <li>Fixed an issue for Android full screen that would potentially allow address spoofing (CVE-2015-7185).</li>
+        <li>Added size checks in canvas manipulations to avoid potential image encoding vulnerabilities like CVE-2015-7189. <span class="c7">DiD</span></li>
+        <li>Fixed potential information disclosure vulnerabilities
+through the NTLM authentication mechanism. Insecure NTLM v1 is now
+disabled by default, and the workstation name is set to WORKSTATION by
+default (configurable with a preference for environments where
+identification of workstations is done by actual reported machine
+name). This avoids issues like CVE-2015-4515.</li>
+        <li>Fixed a potentially vulnerable crash from a spinning event loop during resize painting. <span class="c7">DiD</span></li>
+        <li>Fixed several Javascript-based memory safety hazards. <span class="c7">DiD</span></li>
+      </ul>
+      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>25.7.3.1 (Android only!) (2015-10-15)</h3>
+A small update to the Android version only to fix an issue with the Sync setup still not working properly on Android clients.<br>
       <h3>25.7.3 (2015-10-14)</h3>
 This
 is a usability update needed due to the fact that Mozilla has shut down
@@ -105,9 +145,8 @@ ANGLE (CVE-2015-7179)</li>
         <li>Fixed a memory safety hazard for callers of nsUnicodeToUTF8::GetMaxLength (CVE-2015-4522)</li>
         <li>Fixed a heap buffer overflow/crash hazard caused by invalid WebM headers (CVE-2015-4511)</li>
       </ul>
-      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
-            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
-            the same code when surrounding code changes, exposing the problem.
+      <span class="c7"><br>
+</span>
       <h3>25.7.0 (2015-08-26)</h3>
 This is a bugfix and maintenance release.<br>
       <br>
