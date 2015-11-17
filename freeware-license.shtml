@@ -29,10 +29,12 @@
             <h1>
               Pale Moon Freeware License
             </h1>Note: if not otherwise explicitly specified, the Copyright holder and Author of software subject to
-            this license is M.C. Straver, AKA "Moonchild".<br>
+            this license is M.C. Straver BASc, AKA "Moonchild". Also note that this license does <span style="text-decoration: underline;">not</span>
+apply to the Pale Moon browser, but to other specific (helper)
+applications released by Moonchild Productions. For licensing of the <span style="font-style: italic;">browser</span>, please see the <a href="https://www.mozilla.org/en-US/MPL/2.0/">MPL</a> (for the source) and <a href="redist.shtml">redistribution license</a> (for binary (re)distribution).<br>
             <br>
             <hr class="c2">
-            <span class="bold">Last updated:</span> 13 November 2014<br>
+            <span class="bold">Last updated:</span> 16 November 2015<br>
             <p>
               The software provided under this license is provided as Freely Available Copyrighted Software
               ("Freeware"), which means:
@@ -43,17 +45,17 @@
               </li>
               <li>The software may only be distributed by third parties if such distribution is completely FREE OF
               CHARGE. No redistribution fee or cost reimbursement may be charged, and the software must be supplied
-              UNALTERED and with all copyright statements intact, accompanied by a copy of this license.
+              UNALTERED and with all Copyright statements intact, accompanied by a copy of this license.
               </li>
               <li>The software may not be included in whole or in part in other software, either free or commercially,
-              without the author's prior permission.
+              without the author's prior express written permission.
               </li>
               <li>If the source code to the software is officially made available (disclosed), it may be used for
               educational purposes, but (parts of) the software's source code may not be copied verbatim to other
-              software without the author's prior permission. See (1).
+              software without the author's prior express written permission. See (1).
               </li>
-              <li>The term "Freeware" should be interpreted as "gratis" (with no attached cost or fee), and should not
-              be interpreted as "libre" (with no restrictions on use).<br>
+              <li>The term "Freeware" in this license should be interpreted as "gratis" (with no attached cost or fee), and should not
+              be interpreted as "libre" (with no restrictions on use/modification).<br>
               </li>
             </ol>Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
             KIND, either express or implied.<br>
