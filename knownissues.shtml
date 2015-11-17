@@ -56,9 +56,9 @@ issues.<br>
 This is caused by the changes Microsoft has made (a lot of them at the
 last second) to the way windows are drawn and handled. This is known
 and work is underway to correct these issues.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 51, 0);">[In Progress]</span><br>
+          <span style="font-weight: bold;">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
           <span style="font-weight: bold;">Workaround:</span> None<br>
-          <span style="font-weight: bold;">Timeline:</span> Slated to be fixed in Pale Moon 26.0<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0<br>
 <span class="c4"></span></li>
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
