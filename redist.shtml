@@ -49,12 +49,23 @@ table.c8 {background-color: #F9F9F9}
       <h1> Redistributing Pale Moon </h1>
 Even though Pale Moon is open source and the source is supplied under
 the Mozilla Public License, <span class="c2">redistribution of the
-Pale Moon binaries is limited by certain conditions under a proprietary
+Pale Moon binaries (executable form) is limited by certain conditions under a proprietary
 license by Moonchild Productions</span>, as permitted under 3.2b of the
 MPL v2.0. This has been required because of, among other things, the
 increasing number of rogue/altered copies and people taking advantage
 of the free availability of the browser to monetize upon, which is
 against Pale Moon's principles of free software.<br>
+      <br>
+Even though Pale Moon is supplied as open source, our branding included
+in the source tree is protected and you are not granted any rights or
+licenses to the Pale Moon name, logo, or other identifying official
+branding marks, names or phrases. To clarify the situation if you build
+from source to redistribute the resulting executable form, please see
+points 8, 10 and 12 below.<br>
+      <br>
+This license covers redistribution of officially supplied binaries and
+some policies regarding binaries built from source with official
+branding, which is allowed in some circumstances.<br>
       <br>
       <hr class="c3">
       <h3> Redistribution license </h3>
@@ -192,7 +203,7 @@ contributed build may be redistributed <span class="c2">in unaltered
 form</span> by third parties as set out in the points above and under
 the same conditions. </li>
         <li>If you wish to distribute binaries for other platforms,
-building from Pale Moon source code, you may not use official branding
+building from Pale Moon source code, you may <span style="font-weight: bold;">not</span> use official branding
 unless these builds have also been approved as a contributed build as
 per point 10 of this license or if they are exempt under points 7 or 8
 of this license. Even so, you obtain no rights to the Pale Moon name or
