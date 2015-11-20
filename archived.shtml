@@ -35,7 +35,7 @@
               <span class="red">Please only grab the version you personally need and do not hotlink.</span><br>
             </div>
             <h3>
-              Download (24.x/25.x)
+              Download (25.x)
             </h3>You can download archived versions of the browser from the Pale Moon archival FTP<br>
             <div class="center">
               <h2>
@@ -46,7 +46,8 @@
             <a href="ftp://pmlocales:get@ftp.palemoon.org/">ftp://pmlocales:get@ftp.palemoon.org/</a><br>
       <br>
       <h3>Download older versions</h3>
-Older versions no longer found on the FTP can be found in the archive at <a href="https://archive.org/download/Pale_Moon_Archive_2015_08/Pale_Moon_Archive_2015_08.zip/">archive.org</a><br>
+Older versions no longer found on the FTP can be found in the web archive at archive.org:<br>
+Snapshot of all files up to and including 25.3.2 <a href="https://archive.org/download/Pale_Moon_Archive_2015_08/Pale_Moon_Archive_2015_08.zip/">archived here</a><br>
             <br>
           </td>
         </tr>
