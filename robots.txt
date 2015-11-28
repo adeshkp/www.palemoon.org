@@ -6,4 +6,6 @@ Disallow: /screens/
 Disallow: /update/
 Disallow: /dl-images/
 Disallow: /websetup/
+Disallow: /sourcecode.shtml
+Disallow: /archived.shtml
 
