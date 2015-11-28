@@ -5,6 +5,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -42,7 +43,16 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.8.0 (2015-11-17)</h3>This is a security, stability and usability update.<br>
+            <h3>25.8.1 (2015-11-28)</h3>A small update to address two important issues:<br>
+      <ul>
+        <li>Fix for a crash that could occur at random since the update to 25.8.0.</li>
+        <li>Fix for CSP (Content Security Policy) to be more lenient
+towards the incorrect passing of full URLs with all sorts of parameters
+in the CSP header, leading to misinterpretation of the header and incorrectly blocking the loading of content.<br>
+        </li>
+      </ul>
+      <h3>25.8.0 (2015-11-17)</h3>
+This is a security, stability and usability update.<br>
       <br>
       <span style="font-weight: bold;">Fixes/changes:</span><br>
       <ul>
