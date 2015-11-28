@@ -45,7 +45,7 @@ table.c6 {background-color: #F9F9F9}
             </h2>The source code of the current (main-line) release version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.8.0-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-25.8.1-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
@@ -65,9 +65,9 @@ table.c6 {background-color: #F9F9F9}
             <ul>
               <li>For Windows, you will need <span style="font-weight: bold;">Visual Studio 2012</span> (either the free Express version or the full commercial
               package). Even though it may possibly build with VS 2010, there will likely be some snags. It will not
-              properly build versions of Visual Studio older than VS2010.<br>
-                In its current state, Pale Moon will not build on VS 2013 Community or Full.
-              </li>
+              properly build on versions of Visual Studio older than VS2010.<br>
+In its current state, Pale Moon will not build on VS 2013 Community or
+Full due to breaking changes in the MSVC compiler. </li>
               <li>For Linux, you will need to use GCC (clang is not currently producing stable builds on Linux), 4.7.*
               recommended but later versions might work too.<br>
               </li>
@@ -81,7 +81,7 @@ table.c6 {background-color: #F9F9F9}
               <li>Pale Moon has been primarily designed for Windows and Linux, and the necessary theme changes were
               made to the relevant themes only. If you want to build for other platforms (e.g. Mac) then be aware that
               the browser will look different and may need some serious tweaking to be usable or look similar to the
-              Windows/Linux version. Mac theming and builds are being worked on.<br>
+              Windows/Linux version.<br>
               </li>
             </ul><br>
             <a href="/">[&lt;- Back]</a><br>
