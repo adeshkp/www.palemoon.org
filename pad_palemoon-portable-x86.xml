@@ -34,25 +34,25 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Pale Moon Portable x86</Program_Name>
-		<Program_Version>25.8.0</Program_Version>
+		<Program_Version>25.8.1</Program_Version>
 		<Program_Release_Month>11</Program_Release_Month>
-		<Program_Release_Day>17</Program_Release_Day>
+		<Program_Release_Day>28</Program_Release_Day>
 		<Program_Release_Year>2015</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
 		<Program_Type>Freeware</Program_Type>
-		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
 		<Program_Install_Support>No Install Support</Program_Install_Support>
 		<Program_OS_Support>Win7 x32,Win7 x64,WinServer,WinVista,WinVista x64</Program_OS_Support>
 		<Program_Language>English</Program_Language>
-		<Program_Change_Info>This is an important security update. Please see the official release notes for more details.</Program_Change_Info>
+		<Program_Change_Info>Please see the official release notes for more details.</Program_Change_Info>
 		<Program_Specific_Category>Internet</Program_Specific_Category>
 		<Program_Category_Class>Network &amp; Internet::Browsers</Program_Category_Class>
 		<Program_System_Requirements>P4 or A64 or later CPU, 256MB RAM, 50 MB HDD space</Program_System_Requirements>
 		<File_Info>
-			<File_Size_Bytes>23251384</File_Size_Bytes>
-			<File_Size_K>22706</File_Size_K>
+			<File_Size_Bytes>23250272</File_Size_Bytes>
+			<File_Size_K>22705</File_Size_K>
 			<File_Size_MB>22.17</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
@@ -90,8 +90,8 @@ This is a portable version of the browser, designed for use on removable media.<
 			<Application_XML_File_URL>http://www.palemoon.org/pad_palemoon-portable-x86.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://relmirror.palemoon.org/release/Palemoon-Portable-25.8.0.win32.exe</Primary_Download_URL>
-			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/Palemoon-Portable-25.8.0.win32.exe</Secondary_Download_URL>
+			<Primary_Download_URL>http://relmirror.palemoon.org/release/Palemoon-Portable-25.8.1.win32.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/Palemoon-Portable-25.8.1.win32.exe</Secondary_Download_URL>
 			<Additional_Download_URL_1>http://www.fosshub.com/Pale-Moon.html</Additional_Download_URL_1>
 			<Additional_Download_URL_2>http://www.palemoon.org/palemoon-portable.shtml</Additional_Download_URL_2>
 		</Download_URLs>
