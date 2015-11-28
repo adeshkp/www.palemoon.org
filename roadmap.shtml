@@ -35,7 +35,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2015-11-16</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2015-11-22</small><br>
 
             <h3>
               General Information
@@ -48,12 +48,16 @@ table.c7 {background-color: #F9F9F9}
             product, with increasing differences between it and other Mozilla-based browser products. This divergent path
             will remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and will never be again."<br>
             <br>
-            Pale Moon will be selective in what is adopted into its core from its Mozilla sibling Firefox, and the
-            current feature set is and will always be different as a result. Pale Moon does not aim to provide 100%
-            parity with other browsers, but rather to offer a sane balance of features and workflow to its users now
-            and in the future. Asking for such parity for specific features may bring the attention to such features
-            and result in an evaluation of desirability based on the many factors involved, but never expect that Pale
-            Moon will implement something "just because such-and-such other browser has it too".<br>
+Pale Moon will be selective in what is adopted into its core from its
+Mozilla sibling Firefox or written to implement features, and the
+current feature set is and will always be different as a result. Pale
+Moon does not aim to provide 100% parity with other browsers, but
+rather to offer a sane balance of features and workflow to its users
+now and in the future. Asking for such parity for specific features may
+bring the attention to such features and result in an evaluation of
+desirability based on the many factors involved, but never expect that
+Pale Moon will implement something "just because such-and-such other
+browser has it too".<br>
             <br>
             This is a preliminary document with forward-looking statements. Development of a complex piece of software
             like the Pale Moon browser depends on many factors, so this roadmap should be seen as an indication or
@@ -83,7 +87,7 @@ understand that implementing these changes is slow and meticulous work
 that requires extensive coding and testing to do properly. There is
 very little margin for error, because JavaScript not only runs in
 webpages in Pale Moon, but drives everything in the browser, including
-the program itself.<br>
+many parts of the program itself.<br>
             <h4>
               Media support
             </h4>Media support is a regularly-discussed topic for Pale Moon users, since part of the user base would
@@ -153,9 +157,13 @@ the platform matures enough to warrant the investment.<br>
             extensible by the user.<br>
             <h4>
               User Interface
-            </h4>The User Interface in Pale Moon is stable, based on the Firefox 4-28 browser era UI and will not be
-            changed in any major way. "Australis", the UI rework done by Mozilla in Firefox 29 and later, will not be
-            adopted.<br>
+            </h4>The
+User Interface in Pale Moon is stable, based on the Firefox 4-28
+browser era UI and will not be changed in any major way as far as how
+the UI operates. "Australis", the UI rework done by Mozilla in Firefox
+29 and later which completely removed many customization features, will
+not be adopted. This also means full support for total restyling (full
+themes).<br>
             <br>
             <span class="c4">As a side note: A number of other Firefox derivatives are published that seem, at first
             glance, to also not adopt Australis, but those are using extra layers on top of the Australis design to
@@ -193,7 +201,7 @@ the platform matures enough to warrant the investment.<br>
             support for Pale Moon as well, targeting Pale Moon's GUID of {8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}.<br>
       <br><span style="font-weight: bold;">
 Unlike Firefox, Pale Moon will continue to offer full support for XUL
-and binary-component extensions and there is no plan to discard the
+and XPCOM binary-component extensions and there is no plan to discard the
 current extension system</span> for Chrome-like alternatives (WebExtensions).<br>
             <h4>
               JetPack (Add-on SDK) extensions
