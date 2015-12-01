@@ -1,8 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-
-
-
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -13,8 +10,8 @@
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
 
   
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"><title>The Pale Moon Project homepage</title>
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <title>The Pale Moon Project homepage</title>
 
   
   
@@ -47,7 +44,8 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style></head><body>
+    </style>
+</head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -148,8 +146,9 @@ to name a few things.<br>
             <br>
             <span class="bold"><small><small>28 Nov 2015</small></small><br>
 Pale Moon 25.8.1 has been released</span>
-which is a small update to address some important stability/usability issues.<br>
-<br>
+which is a small update to address some important stability/usability
+issues.<br>
+            <br>
             <span class="bold"><small><small>17 Nov 2015</small></small><br>
 Pale Moon 25.8.0 has been released</span>
 which is a critical security update to the browser. Everyone is
@@ -212,7 +211,7 @@ determine "which browser is faster or better".<br>
       </span></small>
       <div class="right"><small><span class="grey">Sponsors and
 technologies:<br>
-      <a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a> <a href="http://www.mozilla.org/poweredby" target="_blank"><img src="powered-by-mozilla-30.png" class="c12" alt="Powered by Mozilla"></a><br>
+      <a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a><a href="https://www.conversational.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/conversational-200-67.png" class="c11" alt="Answering service"></a> <a href="http://www.mozilla.org/poweredby" target="_blank"><img src="powered-by-mozilla-30.png" class="c12" alt="Powered by Mozilla"></a><br>
       </div>
       <br>
       </td>
@@ -235,5 +234,6 @@ technologies:<br>
 <!-- END SOCIAL MEDIA WIDGET -->
 <!-- SS data: 
 CJ 16-07-11
+CVSC 16-11-30
 -->
 </body></html>
