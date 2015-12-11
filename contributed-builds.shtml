@@ -44,8 +44,11 @@
                 <span class="underline">Note:</span> currently outdated; use with caution or use the official tarballs.</li>
         <li><a href="http://raspi.palemoon.org/">Pale Moon for Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
-Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).<br>
+Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
+        <li>Pale Moon for Debian MEPIS by Steve Pusser<br>
+Specific build for the <a href="http://main.mepis-deb.org/">MEPIS 12</a> Linux distro/MEPIS community repository.<br>
         </li>
+
 
             </ul>Processor-specific rebuilds:<br>
             <ul>
