@@ -33,7 +33,47 @@
             <h1>
               Pale Moon: Pre-release notes for Goanna
             </h1>
-            <h3>26.0.0 beta 3 (2015-10-27)</h3>Over 150 changes since beta 2, highlighting the most prominent:<br>
+            <h3>26.0.0 beta 4 (2015-12-15)</h3>Note:
+this beta (specifically) enables Firefox Compatibility mode by default,
+to gauge overall website compatibility when this mode is enabled. The
+final version may or may not enable this by default, depending on
+compatibility feedback.<br>
+      <br>
+Over 240 changes since beta 3, highlighting the most prominent:<br>
+      <ul>
+        <li>Implemented JavaScript Promises! Websites that rely on this
+technology for their framework (and don't implement a server-side
+solution for this as they are supposed to) should now render properly.</li>
+        <li>Implemented an XSS filter! Pale Moon will now check for XSS
+(Cross-site scripting) attacks and block XSS content in the resulting
+pages. This is brand-new technology and <span style="font-weight: bold;">feedback on this filter specifically</span> (e.g. bugs, false positives, etc.) <span style="font-weight: bold;">should be posted in the dedicated thread on the forum for this feature.</span> Please also see that thread for details on how to control this filter.</li>
+        <li>Several updates to the default theme, uncluding certificate and network error pages.</li>
+        <li>Added a "containing folder" column to search results (can
+be enabled through "views" -&gt; "show columns") in the
+history/bookmarks library, and an option to open this folder in the
+context menu.</li>
+        <li>Removed support for ancient versions of GCC (Minimum
+supported version is now 4.6) and dehydra, as well as misc. other
+obsolete pieces of code.</li>
+        <li>Added a History drop-down navigation menu button.</li>
+        <li>Improved handling of very large numbers of tabs.</li>
+        <li>Removed the maintenance service code completely. We never use this, it's unmaintained and a security hazard if built.</li>
+        <li>Updated CSP to handle improper full URLs with otherwise unhandled or mis-handled characters.</li>
+        <li>Removed filtering of preferences to display (specifically the capability.* preferences that Mozilla explicitely hid).</li>
+        <li>Removed text reflow text inside combobox frames to avoid
+quirks resulting from text-overflow hacks to hide selection comboboxes
+(e.g. hacks to hide the drop-down arrow needed for older browsers).</li>
+        <li>We now explicitly tell servers we accept WebP image formats in the HTTP header.</li>
+        <li>Updated libpng, libjpeg-turbo, libvpx, and misc other upstream libraries/modules.</li>
+        <li>Applied 25.8.1-comparable security fixes.</li>
+        <li>Implemented a more adaptive style of UserAgent construction
+to present the finalized versions of the UA in native and Firefox
+Compatibility modes.</li>
+        <li>Dev: Added a GetElementById() function to document fragments in addition to actual documents.<br>
+        </li>
+      </ul>
+      <h3>26.0.0 beta 3 (2015-10-27)</h3>
+Over 150 changes since beta 2, highlighting the most prominent:<br>
 
       <ul>
         <li>Regular expressions behavior change for capturing groups: in the case of a capturing group with quantifiers preventing its 
