@@ -57,7 +57,7 @@ content (setting <code>media.autoplay.allowscripted</code> to <code>false</code>
 which would effectively stop all automatic playing (but has a few
 drawbacks for scripted players e.g. on youtube and soundcloud).<br>
 </li>
-        <li>Several updates to the default theme, uncluding certificate and network error pages.</li>
+        <li>Several updates to the default theme, including certificate and network error pages.</li>
 
         <li>Added a "containing folder" column to search results (can
 be enabled through "views" -&gt; "show columns") in the
