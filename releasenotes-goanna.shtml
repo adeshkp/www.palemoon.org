@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
+
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -33,11 +34,11 @@
             <h1>
               Pale Moon: Pre-release notes for Goanna
             </h1>
-            <h3>26.0.0 beta 4 (2015-12-15)</h3>Note:
+            <h3>26.0.0 beta 4 (2015-12-16)</h3>Note:
 this beta (specifically) enables Firefox Compatibility mode by default,
 to gauge overall website compatibility when this mode is enabled. The
 final version may or may not enable this by default, depending on
-compatibility feedback.<br>
+compatibility feedback. Please try both settings and let us know your experiences!<br>
       <br>
 Over 240 changes since beta 3, highlighting the most prominent:<br>
       <ul>
@@ -47,7 +48,16 @@ solution for this as they are supposed to) should now render properly.</li>
         <li>Implemented an XSS filter! Pale Moon will now check for XSS
 (Cross-site scripting) attacks and block XSS content in the resulting
 pages. This is brand-new technology and <span style="font-weight: bold;">feedback on this filter specifically</span> (e.g. bugs, false positives, etc.) <span style="font-weight: bold;">should be posted in the dedicated thread on the forum for this feature.</span> Please also see that thread for details on how to control this filter.</li>
+        <li>Autoplay
+of media now has a separate control preference for scripted content.
+This allows you to have the previous behavior to allow scripted content
+while blocking standard autoplaying media, or to also block scripted
+content (setting <code>media.autoplay.allowscripted</code> to <code>false</code> in addition to <code>media.autoplay.enabled</code>)
+which would effectively stop all automatic playing (but has a few
+drawbacks for scripted players e.g. on youtube and soundcloud).<br>
+</li>
         <li>Several updates to the default theme, uncluding certificate and network error pages.</li>
+
         <li>Added a "containing folder" column to search results (can
 be enabled through "views" -&gt; "show columns") in the
 history/bookmarks library, and an option to open this folder in the
