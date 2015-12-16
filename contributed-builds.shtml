@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -45,9 +46,8 @@
         <li><a href="http://raspi.palemoon.org/">Pale Moon for Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
-        <li>Pale Moon for Debian MEPIS by Steve Pusser<br>
-Specific build for the <a href="http://main.mepis-deb.org/">MEPIS 12</a> Linux distro/MEPIS community repository.<br>
-        </li>
+        <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15 by Mike Purtell<br>
+Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a> Linux distro.</li>
 
 
             </ul>Processor-specific rebuilds:<br>
