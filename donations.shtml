@@ -66,13 +66,12 @@
                 </div>Please note that Bitcoin is anonymous by nature and you will not be listed by name on this
                 page.<br>
               </li>
-              <li>Litecoin: A different, popular cryptocurrency. Feel free to donate any amount to:<br>
-                <div class="center">
-                  <span class="bold">LPRK7FtFKNqrVTHhynHbZw4xJA7QL4w7go</span><br>
-                </div>Please note that Litecoin is anonymous by nature and you will not be listed by name on this
-                page.<br>
-              </li>
-              <li>Other cryptocurrencies are accepted too! See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
+              
+              <li>Other
+cryptocurrencies are no longer accepted at this time. It is too
+cumbersome to deal with the many different types of cryptocurrencies
+for one-time donations that are likely never going to see more
+occurrences in the same coin. See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
                 </li>
               <li>Sending cash (bills only please, no coins)<br>
                 If you prefer, you can also send a donation in the form of cash (any currency accepted, but Swedish
@@ -95,7 +94,7 @@
             <br>
             Currently, I could use, specifically:<br>
             <ul>
-              <li>A development class OSX 10.8+ Macintosh computer (to be able to build Pale Moon for Mac)
+              <li>A development class OSX 10.8+ Macintosh computer (to be able to build and test Pale Moon for Mac)
               </li>
             </ul>
             <h2>
@@ -351,9 +350,11 @@ Maximilian Coutuer, W. Stade, James Waugh, Sandra Hudson, James
 Russell, Jeffrey Korwin, Peter Willingmann, Peter Chow, Stephen Flaig, travel-ticker.com
  </div><br>
             <div style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;">
-              <span class="bold">Note:</span> this list only includes the names of people who have made a notable
-              contribution - for monetary donations, this means a donation of at least $5, other listings are at the
-              developer's discretion. <span class="underline">All donations and support are greatly appreciated</span>, of
+              <span class="bold">Note:</span>
+this list only includes the names of people who have made a notable
+contribution (monetary or otherwise) - for monetary donations, this
+means a donation of at least $5, other listings are at the developer's
+discretion. <span class="underline">All donations and support are greatly appreciated</span>, of
               course, but there are a few tiers to keep in mind. $5 or more will get your name listed here. $25 or more
               will get you a little something in the mail.<br>
             </div><br>
