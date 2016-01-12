@@ -43,7 +43,86 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>25.8.1 (2015-11-28)</h3>A small update to address two important issues:<br>
+            <h3>26.0.0 (2016-01-19)</h3>This
+is a new milestone release! It's been in the works for a good number of
+months, and has many hundreds of notable changes, fixes, and
+improvements that can't possibly all be listed here.<br>
+      <br>
+These release notes for this version are a concise summary, lifting out
+the most prominent and important changes. You may find more detailed
+release notes on the forum.<br>
+      <br>
+      <span style="color: rgb(153, 0, 0);">Pale Moon is now building on
+the new Goanna engine instead of Gecko. Although close siblings in
+terms of web technology, they are not the same under the hood and any
+reports from this point forward of bugs with the layout/rendering
+engine should be as detailed as possible to allow us to fix things
+(just stating "it works in Firefox" <span style="font-style: italic;">really</span> doesn't help us!).</span><br>
+      <br>
+      <span style="font-weight: bold;">Fixes/changes:</span><br>
+      <ul>
+        <li>The layout parser/renderer has received many updates with
+this change over to Goanna, improving web compatibility and standards
+compliance in many areas.<br>
+        </li>
+        <li>The browser user interface has received updates, making it
+more compatible with Windows 10 in many respects and more in line with
+the general styles of the operating system version it is run on in
+terms of the shapes of controls and color setting.</li>
+        <li>Updated graphics/media support: Pale Moon now supports the
+WebP image format, properly scales EXIF rotated JPEGs, has updated
+support for different WebGL texture formats, improved scaling of vector
+images,updated libpng, libjpeg-turbo, libvpx, and misc other upstream libraries/modules, and more! </li>
+        <li>Library changes: <br>
+        </li>
+        <ul>
+          <li>The library now has a scope bar (pops up when searching)
+with the option to select what you want to search in (either bookmarks
+or history) and save your searches.</li>
+          <li>By default, there will be a history menu drop-down in the browser's user interface next to the bookmarks one.</li>
+          <li>Added "Containing folder" and "Containing folder path"
+columns so you can see exactly where a bookmark is located at a glance
+when searching.<br>
+          </li>
+        </ul>
+        <li>Added support for Ruby annotations. If you need this functionality, set the about:config preference <code>browser.ruby.enabled</code> to <code>true</code>, and restart the browser.</li>
+        <li>Added conservative image decoding: it will now only decode
+images that are (almost) in view, greatly improving overall memory use
+and initial loading of graphics-heavy pages.</li>
+        <li>Aligned 3D CSS transforms and perspective with the spec.</li>
+        <li>JavaScript improvements: added basic support for ES6
+Promises, added element.matches(), updated property assignments, added
+Bin/Oct literals in Number(), improved performance of TypeOf calls,
+improved GC memory shrinking, improved memory allocations, improved
+RegEx performance and compatibility, and more!</li>
+        <li>Added CSS media queries to determine the OS the browser is
+running on, allowing theme designers to make specific changes based on
+OS at run-time.</li>
+        <li>Added a control preference for onunload= events as <code>dom.disable_beforeunload</code>. This allows you to completely disable events fired when leaving a page.</li>
+        <li>Changed the memory allocator to the (faster) system allocator on modern operating systems.</li>
+        <li>Improved the handling of very large numbers of tabs.</li>
+        <li>Added Ecosia as a "green" search engine alternative for the environmentally aware surfer.</li>
+        <li>Autoplay
+of media now has a separate control preference for scripted content as <code>media.autoplay.allowscripted</code>, to block script-initiated autoplay of media.</li>
+      </ul>
+      <span style="font-weight: bold;">Security updates:</span><br>
+      <ul>
+        <li>Added support for 128-bit Camellia-GCM ciphers in addition to the existing CBC ciphers.</li>
+        <li>Added an advanced, active XSS (cross-site scripting) filter. Pale Moon will now check for XSS attacks and block XSS content in the resulting
+pages. This is brand-new technology and <span style="font-weight: bold;">feedback on this filter specifically</span> (e.g. bugs, false positives, etc.) <span style="font-weight: bold;">should be posted in the <a href="http://forum.palemoon.org/viewtopic.php?f=5&amp;t=10471">dedicated thread on the forum</a> for this feature.</span> Please also see that thread for details on how to use and control this filter.</li>
+        <li>Distrusted several root certificates in accordance with security best practice.</li>
+        <li>Aligned cookie acceptance with RFC 6265 §4.1.1. We still
+make an exception for allowing spaces and double quotes in cookie
+values, but this will be made more strict in the future for full spec
+compliance.</li>
+        <li>Removed several hazardous modules like the maintenance service and the identity module.<br>
+        </li>
+        <li>Implemented all upstream security updates from Mozilla that are applicable to our code base (up to and including Firefox 43).</li>
+      </ul>
+      <br>
+      <hr style="width: 100%; height: 2px;">
+      <h3>25.8.1 (2015-11-28)</h3>
+A small update to address two important issues:<br>
       <ul>
         <li>Fix for a crash that could occur at random since the update to 25.8.0.</li>
         <li>Fix for CSP (Content Security Policy) to be more lenient
