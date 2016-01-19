@@ -59,7 +59,7 @@
       </td>
     </tr>
     <tr>
-      <td style="padding-top: 1em;"> Pale Moon is an Open Source web
+      <td style="padding-top: 1em;"> Pale Moon is an Open Source, Goanna-based web
 browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
 efficiency and ease of use. Make sure to get the most out of your
@@ -68,10 +68,9 @@ browser!<br>
 Pale Moon offers you a browsing experience in a browser completely
 built from its own, independently developed source that has been forked
 off from Firefox/Mozilla code, with carefully
-selected features and optimizations to maximize the browser's speed<small>*</small>,
-stability and user experience, while offering a rich collection of
-extensions and themes (including compatibility with many Firefox
-extensions users have come to love and rely on).<br>
+selected features and optimizations to improve the browser's speed<small>*</small>,
+resource use, stability and user experience, while offering full customization and a growing collection of
+extensions and themes to make the browser truly your own.<br>
       <br>
 &nbsp;<br>
       <div class="center"> <a id="dllink-windows" class="dllink_green" href="http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src="images/down.png" border="0">Download (Windows
@@ -93,22 +92,23 @@ download menu at the top of this page!<br>
       <br>
       <span class="bold">Main features</span>:<br>
       <ul>
-        <li>Optimized for modern processors<br>
+        <li>Optimized for modern processors</li>
+        <li>Based on our own optimized layout engine (Goanna)<br>
         </li>
-        <li>Safe: forked from Firefox and regularly updated.<br>
+
+        <li>Safe: forked from mature Mozilla code and regularly updated<br>
         </li>
         <li>Supported by a friendly, active community of users<br>
         </li>
-        <li>Familiar, efficient, fully customizable interface (no
-Australis!) </li>
-        <li>Support for full themes: total freedom of any element's
+        <li>Familiar, efficient, fully customizable interface </li>
+        <li>Support for full themes: total freedom over any element's
 design </li>
         <li>Support for easily-created lightweight themes (skins)<br>
         </li>
         <li>Smooth and speedy page drawing and script processing </li>
         <li>Increased stability: experience fewer browser crashes<br>
         </li>
-        <li>Support for many Firefox extensions (add-ons)<br>
+        <li>Support for many Firefox extensions<br>
         </li>
         <li>Support for a growing number of Pale Moon exclusive
 extensions<br>
@@ -119,19 +119,22 @@ extensions<br>
         </li>
         <li>Able to import existing Firefox profiles with the <a href="migrationtool.shtml">migration tool</a> </li>
       </ul>
-      <br>
-This browser, even though fairly close to its sibling Mozilla Firefox
-in the way it works, offers a different set of features. For example,
+      <br>This
+browser, even though fairly close to Gecko-based browsers like Mozilla
+Firefox
+in the way it works, is based on a different layout engine and offers a
+different set of features. It aims to provide close adherence to
+official web standards and specifications in its implementation (with
+minimal compromise), and purposefully excludes a number of features to
+strike a balance between general use, performance, and technical
+advancements on the Web. For example,
 if you need <span class="bold">specialized accessibility features</span>
 or <span class="bold">integration of Windows' parental controls</span>,
 then Pale Moon may not be a good browser choice for you.<br>
       <br>
-With the current generation of Mozilla-based browsers, there are other
-differences between Pale Moon and Firefox that are more obvious and not
-just "under the hood": contrary to what Mozilla has done with their
-redesign of the user interface, <span class="bold">Pale Moon will
-continue to provide a familiar set of controls</span> and visual
-feedback similar to previous versions, including <span class="bold">grouped
+With the current generation of mainstream browsers, there are also more obvious and not
+just "under the hood" differences: <span class="bold">Pale Moon will
+continue to provide</span> <span class="bold">grouped
 navigation</span> buttons of a decent size, a bookmarks toolbar that is
 enabled by default, tabs next to page content by default (easily
 switchable) and not in the least a <span class="bold">functional
@@ -176,7 +179,8 @@ news...</a> </td>
       <p> Pale Moon is, and will always be, completely FREE to download
 and use! (Open Source and Freeware)<br>
 But, if you feel so inclined and if you enjoy the browser enough to
-help pay for bills for hosting and further development of the browser:<br>
+help pay for bills for hosting, related on-line and off-line services,
+and especially further development and maintenance of the browser:<br>
       </p>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <div class="center"> <input name="cmd" value="_s-xclick" type="hidden"><input name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----" type="hidden"> <input src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image"><img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1"><br>
@@ -190,7 +194,7 @@ due to fees)</small></small><br>
 Moon are available too! </div>
       <br>
 If you are interested in keeping updated of new releases of the
-optimized Pale Moon web browser for windows, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the
+optimized Pale Moon web browser, please <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the
 official Pale Moon forum</a> and subscribe to "Announcements", or <a target="_blank" href="http://forum.palemoon.org/feed.php?f=1">subscribe
 to the news feed</a> of the announcements board.<br>
       <br>
@@ -200,20 +204,21 @@ page.<br>
       <small><span class="grey"><br>
 * Please note that current, popular "benchmarks" are extremely limited
 in what they test and the way they test "browser speed". Pale Moon does
-not aim to have an "as high as possible benchmark score", but instead
+not aim to have an "as high as possible benchmark score" and may not
+perform well in these so-called micro-benchmarks, but instead
 focuses heavily on overall browser smoothness, CPU usage, efficient
 networking and program-wide optimizations not related to a certain
 (limited) subset of functions. Benchmarks, by definition, do not
 provide a real world browsing scenario, and should not be relied on to
 determine "which browser is faster or better".<br>
       <br>
-      <br>
-      </span></small>
+      <br></span></small>
       <div class="right"><small><span class="grey">Sponsors and
 technologies:<br>
-      <a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a><a href="http://www.travel-ticker.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/travel_ticker.png" class="c11" alt="Travel Ticker"></a><a href="https://www.conversational.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/conversational-200-67.png" class="c11" alt="Answering service"></a> <a href="http://www.mozilla.org/poweredby" target="_blank"><img src="powered-by-mozilla-30.png" class="c12" alt="Powered by Mozilla"></a><br>
-      </div>
-      <br>
+<a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://moonchildproductions.info/goanna.shtml"><img title="Powered by Goanna!" style="border: 0px solid ; width: 200px; height: 66px;" src="images/goanna200x66.png" class="c11" alt="Goanna" align="top"></a><br>
+
+<a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a><a href="http://www.travel-ticker.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/travel_ticker.png" class="c11" alt="Travel Ticker"></a><a href="https://www.conversational.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/conversational-200-67.png" class="c11" alt="Answering service"></a> </div>
+<br>
       </td>
     </tr>
     <tr>
