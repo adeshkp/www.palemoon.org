@@ -2,6 +2,7 @@
 <html lang="en"><head>
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -105,8 +106,8 @@ extensions for you). Since Pale Moon Commander is not signed this way
 (and won't be, because it is against the license the extension is
 released under), it will no longer be possible to use Pale Moon
 Commander in Mozilla Firefox, even if it is otherwise fully compatible
-with the browser (until Mozilla removes support for XUL-based
-extensions).<br>
+with the browser -- until Mozilla removes support for XUL-based
+extensions.<br>
           </td>
         </tr>
         <tr>
