@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Project History</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -106,44 +107,33 @@ With the release of Firefox 24 (and Pale Moon of the same version), Pale Moon's 
             the browser market.<br>
             <br>
             This is where we are now, with Pale Moon 25 and later: a fully independent browser product.<br>
-            <br>
+            This includes the change to our own layout and rendering engine called
+Goanna, which has been forked off from Gecko, debuting in the Pale Moon
+26 milestone release after more than 6 months in pre-release development.<br>
             <h2>
               Future directions
-            </h2>The
-outline Mozilla has sketched seems to be to make Firefox more than a
-browser, and to spread thin across many different disciplines and
-platforms in an attempt to make a web-OS, Skype client alternative, App
-developer environment, mobile phone OS, media player and/or swiss army knife out of
-it, as well as increasing ties with on-line commercial ventures like
-Google, Yahoo, social media sites, Hello, Pocket, and whomever wishes
-to pay to be advertised in the browser. These plans may look nice on
-paper, but would most likely see a vast amount of practical issues when
-trying to implement them, as has already been shown in decreasing
-stability and usability in the Firefox browser in recent times. Not to
-mention: users have voiced that they are very regularly not looking for
-whatever mozilla decides would be good changes or additions, but this
-has been ignored.<br>
-            <br>
-            In addition, Mozilla touting minor bugfix releases of Firefox as "major" releases (for the inherent buzz as
-            many review sites feel compelled to write an article with each major version release) and constant changes
-            in the browser (best left to beta channels) being forced upon everyone has clearly led to "user fatigue"
-            and even more so "(extension) developer fatigue" where both users and developers get tired of constantly
-            having to change their way of working and coding, respectively, with each rapid release.<br>
-            <br>
-            Pale Moon aims, instead, to follow standards developments and adapt to the changes on the Web, without
-            losing track of what it is supposed to be: a web browser.<br>
-            <br>
-            <h3>
+            </h2>With
+our independence in Pale Moon 25 and later, the future of Pale Moon is
+continued support for the existing extension ecosystem, a focus on
+desktop use, improving standards compliance and maintaining (and
+possibly extending) the flexibility of the XUL framework used to build
+the browser on.<br>
+      <br>
+Pale Moon will also continue to support:<br>
+      <ul>
+        <li>Binary components in extensions</li>
+        <li>XUL (overlay) extensions, including XPCOM/XBL<br>
+        </li>
+        <li>Complete themes</li>
+        <li>Lightweight themes</li>
+      </ul>
+<h3>
               Australis
             </h3>Pale Moon will continue to use the well-known, fully customizable user interface, and will not be
             following Mozilla's (and alternative rebuilds') move to the "Australis" user interface (by a number of
             people dubbed "FireChrome" because of its likeness with Google's Chrome browser interface) introduced in
-            Firefox 29.<br>
-            Instead, the current plan for Pale Moon is to stick to a stable, solid, and easily maintainable base code
-            that started off initially as Firefox 24 ESR (with a number of reverted changes to keep maximum
-            configurability as well as important updates ported back from later Firefox versions) and to maintain and
-            develop this code further as an independent fork.<br>
-            <br>
+            Firefox 29.<br><br>
+More information can be found on our <a href="roadmap.shtml">future roadmap</a>.<br>
             <h3>
               Bottom line
             </h3><span class="bold">Pale Moon aims to remain what it is at its heart: a fully customizable web

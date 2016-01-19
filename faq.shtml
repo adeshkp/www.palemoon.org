@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -48,7 +49,7 @@ table.c11 {background-color: #F9F9F9}
             A more comprehensive list of frequently asked questions can be found in the <a href="http://forum.palemoon.org/viewforum.php?f=24" target="_blank">F.A.Q. section of the Pale Moon Forum</a>.
             Please make sure to also check there if the question you are looking for is not listed here.<br>
             <h4>
-              Specific issues with Pale Moon 25:
+              Specific issues with Pale Moon 25 and later:
             </h4>
             <ul>
               <li>
@@ -120,7 +121,7 @@ table.c11 {background-color: #F9F9F9}
                 pane, but the old method of paging through tabs instead.</a>
               </li>
               <li>
-                <a href="#Preference:_Insert_Tabs_after_current">I prefer that new tabs are opened immediately to the
+                <a href="#Preference:_Insert_Tabs_after_current">I prefer that related tabs (from links) are opened immediately to the
                 right of the current tab, like some other browsers do.</a>
               </li>
               <li>
@@ -263,22 +264,28 @@ and Pale Moon have similar roots in the Mozilla Community code, and
 Pale Moon has been originally based on Firefox code, but as a product,
 Pale Moon has diverted significantly from its sibling, and has its own
 code, development path and future, independent of what the Mozilla
-Corporation does with Firefox. Firefox is created with one-size-fits-all in mind; Pale Moon is created with
+Corporation does with Firefox.<br>
+      <br>
+Firefox is created with one-size-fits-all in mind; Pale Moon is created with
 efficiency and user choice in mind. <span class="c3">These two approaches are mutually exclusive</span>, and result in
             some functions being present/absent in one browser but not the other, as well as different system
             requirements for either browser. Pale Moon also has a different set of goals as to what should be included
             in the browser and intended audience.<br>
             <br>
-            Pale Moon has a number of changes to the user interface and feature set, to provide an as intuitive,
+            Pale Moon has a number of differences in the user interface and feature set to provide an as intuitive,
             predictable, logical and usable user interface as possible for the best user experience. Additional and
             removed features are, of course, specific to Pale Moon, meaning you may find some different way of working
             Pale Moon than what you are used to from other browsers, and some features or options not found in other
-            browsers at all.<br>
-            You may be interested in the overview table of <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml">features
-            compared to several versions of Firefox</a> for a quick overview of the most important user-exposed differences.<br>
-            <br>
+            browsers at all.<br><br>
             Note that Pale Moon will <span class="c4">never</span> adopt the Australis (Firefox 29 and later)
-            interface and aims to remain a fully XUL-driven browser.<br>
+            interface and aims to remain a fully XUL-driven browser with full user interface customizability.<br>
+      <br>
+Also please note that Pale Moon has not run rampant with its releases
+and even though there is a big gap in version number between the two,
+you should never assume Pale Moon is somehow an "outdated Firefox".
+Pale Moon is a completely separate product with its own roadmap,
+direction, versioning and release schedule, unlike all other
+"Firefox-based" browsers out there.<br>
             <br>
             <a href="#top">[^ Top ^]</a><br>
             <br>
@@ -291,8 +298,9 @@ efficiency and user choice in mind. <span class="c3">These two approaches are mu
             resource/hardware use. <span class="c5">It doesn't necessarily aim to be a lightweight browser</span>,
 but seems to achieve that goal in some circumstances as a side effect.
 Overall, comparison between browsers would put Pale Moon in a similar
-position to its sibling Firefox since it it has its roots in the same rendering and scripting
-engines (Gecko/SpiderMonkey). Synthetic benchmarks aren't the end-all of things, so
+position to Firefox since it it has its roots in the same rendering and scripting
+engines. Goanna is a fork of Gecko, and they both use *Monkey-based JavaScript engines.<br>
+Synthetic benchmarks aren't the end-all of things, so
 it's difficult to obtain unbiased comparisons between different
 browsers through them, and a higher benchmark score doesn't necessarily
 mean that a browser would perform better in a real-world browsing
@@ -311,7 +319,7 @@ situation. Quite the opposite is the case in some situations.<br>
             <h3>
               <a name="How_do_I_copy_my_existing_Firefox" id="How_do_I_copy_my_existing_Firefox"></a>How do I copy my
               existing Firefox profile to Pale Moon?<br>
-            </h3>To migrate a Firefox profile (bookmarks, history, add-ons, etc.) to Pale Moon, <a href="migrationtool.shtml">USE THIS TOOL</a>.
+            </h3>To migrate a Firefox profile (bookmarks, history, add-ons, etc.) to Pale Moon, you can <a href="migrationtool.shtml">USE THIS TOOL</a>.
 This tool will copy the profile(s) from Firefox to Pale Moon. Please
 note that this tool is limited because of the increasing differences
 between Firefox and Pale Moon.<br>
@@ -322,11 +330,16 @@ between Firefox and Pale Moon.<br>
             <h3>
               <a name="Will_Firefox_and_Pale_Moon_work_together" id="Will_Firefox_and_Pale_Moon_work_together"></a>Will
               Firefox and Pale Moon work together in the future?
-            </h3>Since the Mozilla Corporation has obviously chosen to follow a different path at the management level
-            and has set different goals for its browser, it doesn't seem likely that Pale Moon and Firefox will ever
-            see a unification or joining of forces. Quite the opposite, in fact. Of course, that doesn't mean there is
-            no communication or that there is a "browser war" going on between the two - in fact, there is regular
-            communication about security updates, for example.<br>
+            </h3>Since
+the Mozilla Corporation has obviously chosen to follow a different path
+at the management level and has set different goals for its browser, it
+doesn't seem likely that Pale Moon and Firefox will ever see a
+unification or joining of forces. Quite the opposite, in fact. Of
+course, that doesn't mean there is no communication or that there is a
+"browser war" going on between the two - in fact, there is regular
+communication about security updates, for example, and one could say
+that the diversity seen here offers different users a closer match to
+what they need.<br>
             <br>
             <a href="mailto:beltzner%5Bat%5Dmozilla.com" rel="contact colleague"></a> There have been and are growing
             conflicts of interests between Pale Moon and Firefox as far as the so-called UX (User eXperience)
@@ -352,7 +365,7 @@ there. As Pale Moon has developed, so has the amount of individual code
 for the browser, steadily diverging Pale Moon from its sibling in the
 direction aimed for in this browser - having transformed it from an
 optimized build (which it was when it first started out in 2009) into a
-true "fork" of Firefox.<br>
+true "fork" of Mozilla code and being completely independent now.<br>
             <br>
             Some have even claimed that the Pale Moon project as such was given shape to gain fame -- they should
             consider that the popularity was unexpected. <span class="c4">Pale Moon is, and has always been, released
@@ -434,8 +447,9 @@ has been re-integrated into the browser.</span><br>
             </h2>
             <h3>
               <a name="Preference:_I_prefer_the_old_Ctrl-Tab" id="Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference: I prefer the Firefox Ctrl-Tab behavior
-            </h3>If you don't like the graphical preview pane for switching between browser tabs, you can restore the
-            old method as also found in Firefox:<br>
+            </h3>If
+you don't like the graphical preview pane for switching between browser
+tabs, you can restore the method as also found in Firefox:<br>
             In the address bar, type <a href="about:config">about:config</a> and press enter. This opens the advanced
             configuration editor.<br>
             Find the parameter <span class="c3">browser.ctrlTab.previews</span> and set it to <span class="c3">false</span><br>

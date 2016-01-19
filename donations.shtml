@@ -10,6 +10,7 @@
 
 
 
+
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Donations and support</title><!-- Keep the http-equiv meta tag for IE8 -->
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -71,7 +72,7 @@
 cryptocurrencies are no longer accepted at this time. It is too
 cumbersome to deal with the many different types of cryptocurrencies
 for one-time donations that are likely never going to see more
-occurrences in the same coin. See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
+occurrences in the same coin, as well as the unreliable nature of cryptocurrency exchanges. See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
                 </li>
               <li>Sending cash (bills only please, no coins)<br>
                 If you prefer, you can also send a donation in the form of cash (any currency accepted, but Swedish
@@ -91,13 +92,8 @@ occurrences in the same coin. See <a href="http://forum.palemoon.org/viewtopic.p
             </h2>If you wish to donate (surplus) hardware to help development of Pale Moon, you should contact me by
             e-mail at moonchild [at] palemoon.org to discuss if what you wish to donate will be useful for me (saves
             unnecessary shipping expenses and saves stuff taking up my floor space ;) ).<br>
-            <br>
-            Currently, I could use, specifically:<br>
-            <ul>
-              <li>A development class OSX 10.8+ Macintosh computer (to be able to build and test Pale Moon for Mac)
-              </li>
-            </ul>
-            <h2>
+      <br>
+<h2>
               Donating services
             </h2>If you want to supply services to help Pale Moon development, there are a few possible areas you may
             be able to help. Please contact me to discuss this.<br>
@@ -106,7 +102,7 @@ occurrences in the same coin. See <a href="http://forum.palemoon.org/viewtopic.p
             <ul>
               <li>Advertising! Spread the word, launch an ad campaign, tell your friends, hand out flyers, etc.<br>
               </li>
-              <li>File hosting (burst capable, direct-link capable, zero-ads) (any location except DE)<br>
+              <li>File mirrors (burst capable, direct-link capable, zero-ads) (any location except DE)<br>
               </li>
               <li>Cloud computing services/build machines<br>
               </li>
