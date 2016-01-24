@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -62,11 +63,9 @@ table.c16 {background-color: #F9F9F9}
                 <a href="#CPUsupport">Supported Processors</a>
               </li>
               <li>
-                <a href="#Firefox_Differences">Differences with Firefox</a>
+                <a href="#Firefox_Differences">Differences with Mozilla products</a>
               </li>
-              <li>
-                <a href="#Naming_of_the_browser">Why a different name?</a><br>
-              </li>
+              
               <li>
                 <a href="#Palemoon_tested">How Pale Moon is tested</a>
               </li>
@@ -95,7 +94,7 @@ table.c16 {background-color: #F9F9F9}
               </li>
               <li>Support for Pale Moon specific Extensions.<br>
               </li>
-              <li>Support for Personas ("light-weight" themes).
+              <li>Support for Personas ("lightweight" themes).
               </li>
               <li>Support for Complete Themes.<br>
               </li>
@@ -105,7 +104,7 @@ table.c16 {background-color: #F9F9F9}
               </li>
               <li>Speedy scripting and page rendering.
               </li>
-              <li>Optimized networking.<br>
+              <li>Optimized, secure networking.<br>
               </li>
               <li>Graphical tab switching with quick-search (user-selectable).<br>
               </li>
@@ -115,7 +114,7 @@ table.c16 {background-color: #F9F9F9}
               </li>
               <li>More options for recovery (safe mode dialog).<br>
               </li>
-            </ul>The following features have been <span class="c2">disabled</span> by design:<br>
+            </ul>The following features have been <span class="c2">disabled or removed</span> by design:<br>
             <ul>
               <li>
                 <span class="c2">Accessibility features</span>. Most people don't have a need for specialized
@@ -147,8 +146,7 @@ table.c16 {background-color: #F9F9F9}
                 format instead of a stripped-down display in an in-browser reader.
               </li>
               <li>
-                <span class="c2">Social API</span>. The code for this is still included for people who choose to use
-                it, but completely disabled by default and not supported by the Pale Moon developers.<br>
+                <span class="c2">Social API</span>. We do not integrate at the browser core level with social media.<br>
               </li>
               <li>
                 <span class="c2">Tab Groups</span>. The Tab Group (aka Panorama) feature has never properly matured and
@@ -285,33 +283,31 @@ table.c16 {background-color: #F9F9F9}
             </table><br>
             <br>
             <h3>
-              <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Firefox?
+              <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Mozilla products?
             </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
             close to Firefox in certain parts of the code to ensure compatibility with many add-ons, but
-            should be considered a "fork" and a totally independent product.</span><span class="c12"><br>
-            <br></span> For a feature set comparison with Firefox, please have a look at the <a href="https://docs.google.com/spreadsheets/d/1CT9YLUjMyb5Xf8HHcQ66lVh-SALb7cWTmUKgeJOvk00/pubhtml" target="_blank">following table</a>.<br>
+            should be considered a "fork" and a totally independent product.</span><span class="c12"></span><br>
             <ol>
-              <li>Pale Moon, like Firefox (and several other browsers) is based on the Gecko rendering engine (or
-              rather, a modified version thereof). This means that the core rendering functions for Pale Moon and
-              Firefox will be a very close match and that whatever functionality there is in the Gecko core code, will,
-              as a ballpark estimate, also exist in Pale Moon. Where specific core functions have been changed, it has
-              been done carefully and with due consideration to provide better performance and efficiency while not
-              endangering the security of the browser.
-              </li>
-              <li>Some functions have been completely disabled to cut down on input complexity (accessibility, for
-              one), unnecessary/unused code (multiple additional modules) and to remove non-essential tools that would
-              be better left to the free choice of the user. This improves stability and speed, and reduces resource
-              use.
-              </li>
               <li>Pale
+Moon is based on a derivative of the Gecko rendering engine (Goanna).
+This means that the core rendering functions for Pale Moon and Firefox
+(and rebuilds) will be a relatively close match and that functionality
+in the Gecko core code, will, as a ballpark estimate, also exist in
+Pale Moon. Where specific core functions have been changed, it has been
+done carefully and with due consideration to provide better performance
+and efficiency while not endangering the security of the browser, and
+to focus on better standards compatibility and/or more sane behavior. </li><li>Pale
 Moon comes with a number of different default configuration settings
 than Firefox. These basic "tweaks" (I'd prefer to call them "more sane
 defaults") are done with in-depth knowledge of the modified engine, to
 provide you with the smoothest browsing experience as well as to be
 considerate towards the Internet ecosystem, website/service providers
 and residential gateways (e.g. by reducing the number of concurrent
-http and total dns requests needed when browsing). Note that "internet
-speed boosters" and general "tweak guides" for Firefox can actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
+http and total dns requests needed when browsing) without relying on
+protocol extensions that are often not or not properly supported. Note
+that "internet
+speed boosters" and general "tweak guides" written for Firefox can
+actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
               in-depth knowledge of the browser back-end and "a higher number" or "bigger buffer" isn't always better.
               <span class="c12">You are strongly advised to always use defaults as supplied in Pale Moon.</span>
               </li>
@@ -324,7 +320,7 @@ speed boosters" and general "tweak guides" for Firefox can actually <span class=
               <span class="c2">This means the "Australis" interface will never be used in Pale Moon.</span><br>
               </li>
               <li>Pale Moon offers more configurability for features, like additional tab preferences, preferences for
-              image loading or tab positions, and full control over smooth scrolling.
+              image loading or tab positions, and full control over smooth scrolling, to name a few.
               </li>
               <li>Pale Moon uses a different "Sync" client and its own server to synchronize data between different
               instances of the browser. This is not compatible with Firefox Sync as used in Firefox 29 or later.
@@ -339,33 +335,9 @@ speed boosters" and general "tweak guides" for Firefox can actually <span class=
               advanced processing instructions) and gears the machine code at the assembly level specifically towards
               certain generations of processors, as opposed to trying to compromise for different ways of working of
               old (read: museum-grade) hardware. This impacts <span class="c13">every</span> aspect of the browser,
-              from loading pages to drawing graphics and running scripts.
-              </li>
+              from loading pages to drawing graphics and running scripts.</li>
             </ol><br>
-            <h3>
-              <a name="Naming_of_the_browser" id="Naming_of_the_browser"></a>Naming of the browser
-            </h3>So why not just call it "Optimized Firefox" or a similar closely-related name (something-Fox), you
-            might think?<br>
-            <br>
-            Firefox is the name for the complete package <span class="c13">as supplied and intended by the Mozilla
-            Corporation</span>, which this browser deviates from (in ever-increasing ways) by developing own code,
-            excluding certain features, having a different user interface, having a different feature set, and
-            configuring the program differently. With the later versions, Pale Moon has diverged so much from Firefox
-            <span class="c2">making it clearly a different product</span> that it should not carry the name or any
-            other identification of its sibling. In addition, <span class="c2">Pale Moon is in no way affiliated with
-            the Mozilla Corporation</span>, and therefore should not carry a brand name that is Mozilla's property.<br>
-            <br>
-            Using the freedom of the MPL, I have therefore branded the browser Pale Moon, to clearly identify this
-            browser as an individual product, not related to the Mozilla Corporation or official Firefox installations.
-            <span class="c13">Like the Mozilla Corporation</span>, I rely on all of the contributors to this Open
-            Source Mozilla project for the supplied program code and development of new versions. The Mozilla
-            Corporation didn't program Firefox, the <span class="c13">community</span> did, drawing on code as far back
-            as Netscape. This also means that, similar to Mozilla owning Firefox and the Firefox logo, I retain the
-            rights to the Pale Moon project name, graphics and logo; they may not be used elsewhere without prior
-            permission, and only in relation to this browser, and redistribution of the <span class="c2">binary</span>
-            executable code is <a href="redist.shtml">limited by a redstribution license</a>.<br>
-            <br>
-            <h3>
+<h3>
               <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale Moon has been tested
             </h3>Pale Moon builds are tested for stability before being released by having it used for day-to-day
             browsing by a group of beta testers. This includes but is not limited to:<br>
@@ -382,14 +354,7 @@ speed boosters" and general "tweak guides" for Firefox can actually <span class=
               </li>
               <li>Social media sites
               </li>
-            </ul>In addition, more rigorous testing is sometimes done by having the browser used in an autosurf
-            setting, visiting a very wide range of pages from all over the world with greatly varying content. This is
-            the kind of test where some other browsers tend to fall behind quickly in stability and robustness, and it
-            is very much a real-world kind of test. Synthetic tests are OK to get some basic metrics, but in the end,
-            people will use this browser to <span class="c13">browse</span> a wide variety of sites, and would prefer
-            it not crashing, hogging all resources or slowing down to a speed similar to wading through a tarpit.
-            Unorthodox way of testing, maybe, but certainly effective.<br>
-            <br>
+            </ul><br>
             <h3>
               <a name="GeekCorner" id="GeekCorner"></a>The Geek Corner
             </h3>TMI (Too Much Information) for the average joe:<br>
