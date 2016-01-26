@@ -65,8 +65,8 @@ engine should be as detailed as possible to allow us to pinpoint the cause of th
 our language packs. With the need to move to our own full localization
 and lacking translators to support and maintain less common languages
 in use around the world, we've reduced our number of offered languages
-to a little over 30. The languages still supported should royally cover
-all commonly-spoken languages around the globe. You will need to update
+to a little over 30. The languages still supported should more than cover
+the common languages spoken around the globe. You will need to update
 your language packs!</li>
         <li>Although we've given this release extensive testing, it is
 still possible you run into some website compatibility issues (usually
