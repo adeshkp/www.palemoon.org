@@ -112,7 +112,7 @@ will be in English.<br>
 translated it, and it has some English text; may have translation
 errors and needs a full review)<br>
   <span style="color: rgb(204, 153, 51);" class="red">■</span> =
-            incomplete (someone has partially translated it, and it has some English text)<br>
+            incomplete (these are mostly translated, but have some English text)<br>
             <span class="green">■</span> = complete (all strings should be translated with the exception of e.g. special bookmark folder names and the Safe Mode dialog)<br>
             <br>
             <span class="bold">These language packs are for the latest version of the browser</span> (v26). They will
@@ -142,7 +142,8 @@ a language pack.<br>
                   </td>
                 </tr>
                 <tr>
-                  <td class="c12"><span style="color: rgb(204, 153, 51);" class="red">■</span> Czech
+                  <td class="c12">
+                    <span class="green">■</span> Czech
                   </td>
                   <td class="c13">
                     <a href="http://relmirror.palemoon.org/langpacks/25.6/cs.xpi">cs.xpi</a>
@@ -288,8 +289,7 @@ a language pack.<br>
                   </td>
                 </tr>
                 <tr>
-                  <td class="c14">
-                    <span class="green">■</span> Polish
+                  <td class="c14"><span style="color: rgb(204, 153, 51);" class="red">■</span> Polish
                   </td>
                   <td class="c14">
                     <a href="http://relmirror.palemoon.org/langpacks/25.6/pl.xpi">pl.xpi</a>
