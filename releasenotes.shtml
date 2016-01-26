@@ -92,13 +92,13 @@ terms of the shapes of controls and color setting.</li>
         <li>Updated graphics/media support: Pale Moon now supports the
 WebP image format, properly scales EXIF rotated JPEGs, has updated
 support for different WebGL texture formats, improved scaling of vector
-images,updated libpng, libjpeg-turbo, libvpx, and misc other upstream libraries/modules, and more! </li>
+images, updated libpng, libjpeg-turbo, libvpx, and misc other upstream libraries/modules, and more! </li>
         <li>Library changes: <br>
         </li>
         <ul>
           <li>The library now has a scope bar (pops up when searching)
 with the option to select what you want to search in (either bookmarks
-or history) and save your searches.</li>
+or history) and the option to save your searches.</li>
           <li>By default, there will be a history menu drop-down in the browser's user interface next to the bookmarks one.</li>
           <li>Added "Containing folder" and "Containing folder path"
 columns so you can see exactly where a bookmark is located at a glance
@@ -134,13 +134,13 @@ encryption ciphers than just AES.</li>
         <li>Added an advanced,
 active XSS (cross-site scripting) filter. Pale Moon will now check for
 XSS attacks and block XSS content in the resulting
-pages. This is brand-new technology and <span style="font-weight: bold;">feedback on this filter specifically</span> (e.g. bugs, false positives, etc.) <span style="font-weight: bold;">should be posted in the dedicated thread on the forum for this feature.</span> Please also see that thread for details on how to use and control this filter.</li>
+pages. This is brand-new technology and <span style="font-weight: bold;">feedback on this filter specifically</span> (e.g. bugs, false positives, etc.) <span style="font-weight: bold;">should be posted in the <a href="https://forum.palemoon.org/viewtopic.php?f=5&amp;t=10817" target="_blank">dedicated thread on the forum</a> for this feature.</span> Please also see that thread for details on how to use and control this filter.</li>
         <li>Distrusted several root certificates in accordance with security best practice.</li>
         <li>Aligned
 cookie acceptance with RFC 6265 §4.1.1. We still
 make an exception for allowing spaces and double quotes in cookie
 values, but this will be made more strict in the future for full spec
-compliance. If you are a web designed and use cookies, please verify
+compliance. If you are a web designer and use cookies, please verify
 that you are RFC compliant in terms of both cookie names and cookie
 values, or the browser may reject them.<br>
 </li>
