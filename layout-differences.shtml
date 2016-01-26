@@ -1,25 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en-us">
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <title>
-      Pale Moon: A different layout
-    </title><!-- Keep the http-equiv meta tag for IE8 -->
+<html lang="en-us"><head>
+
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon: A different layout</title><!-- Keep the http-equiv meta tag for IE8 -->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
     img.c5 {width: 300px; height: 240px;}
-    </style>
-  </head>
-  <body>
+    </style></head><body>
     <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
+            <img class="subpageheader" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
           </th>
         </tr>
         <tr align="left">
@@ -119,7 +115,7 @@
             status bar, a small, peripheral-view element provides users with several different types of feedback about
             the status of the browser. In all respects, including the status bar is beneficial to the user interface's
             level of intuitiveness: it provides affordance by showing status text, in an expected location, and
-            improves responsiveness.<br>
+            improves responsiveness of the UI by providing immediate feedback.<br>
             <br>
             Firefox's alternative for status text (the popup method) to display network status and link addresses gives
             a comparable amount of feedback, but in a much more intrusive way: by not having it in a static element,
@@ -156,8 +152,7 @@
             In some conditions, it is: when a browser is maximized or used in full screen, having the tabs at or close
             to the edge of the browser means they are at the edge of the screen. In this case, it becomes easier to
             use, since the screen edge is a "hard" border and you don't have to be as accurate to quickly select a
-            different tab with a traditional pointing device - this follows <a title="Wikipedia entry for Fitts' Law"
-            href="http://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank">Fitts' law</a> concepts.<br>
+            different tab with a traditional pointing device - this follows <a title="Wikipedia entry for Fitts' Law" href="http://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank">Fitts' law</a> concepts.<br>
             <br>
             In <span class="underline">all</span> other cases, it is not -- including touch devices where screen edge
             considerations don't apply and may even cause problems and annoyance if it's a "hot edge" for the operating
@@ -167,8 +162,7 @@
             that, once again, element grouping (this time of larger zones of the browser) is not followed. Consider the
             following different layouts:<br>
             <div class="center">
-              <img class="c5" alt="Layout with Tabs on Top" src="images/layout-tot1.png" hspace="25"><img class="c5"
-              alt="Layour with Tabs next to Content" src="images/layout-tot2.png" hspace="25"><br>
+              <img class="c5" alt="Layout with Tabs on Top" src="images/layout-tot1.png" hspace="25"><img class="c5" alt="Layour with Tabs next to Content" src="images/layout-tot2.png" hspace="25"><br>
             </div>The left layout has tabs not grouped with the element they control, but has static UI elements that
             are browser-wide inbetween. The right layout has tabs grouped with the content. The tabs don't control the
             way the navigation controls of the browser or the URL bar look or behave, nor do they influence other
@@ -208,7 +202,7 @@
             layout..."<br>
             <br>
             <div class="center">
-              <big><span class="bold">Your browser, your way!</span></big><br>
+              <big><span class="bold">Your browser, Your way!</span></big><br>
             </div><br>
           </td>
         </tr>
@@ -221,5 +215,4 @@
       </tbody>
     </table><br>
     <br>
-  </body>
-</html>
+  </body></html>

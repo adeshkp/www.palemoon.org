@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Profile Migration Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -73,7 +74,8 @@ cases.<br>
             If this tool, for whatever reason, doesn't work for you, please check the <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=144">FAQ</a> section on the forum for instructions on
             how to manually copy over a profile.<br>
             <br>
-            <br>
+            
+            This tool is supplied as COPYRIGHTED FREEWARE. Please see the <a href="freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
           </td>
         </tr>
         <tr>

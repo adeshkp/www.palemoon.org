@@ -2,6 +2,7 @@
 <html lang="[en]"><head>
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -35,7 +36,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2015-11-22</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-01-23</small><br>
 
             <h3>
               General Information
@@ -74,15 +75,17 @@ browser has it too".<br>
             It is beyond the scope of this document to list planned HTML/content improvements in Pale Moon in detail,
             since many of those are small, individual changes and additions (even though some require a lot of work to
             implement by re-writing parts of the parser and renderer in Pale Moon's core).<br>
+      <br>
+The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page.<br>
             <h4>
               JavaScript
             </h4>JavaScript
-development is currently one of the main focuses of the core work
-performed on Pale Moon, and the 25.* milestone will see continual added
+development is one of the ongoing focuses of the core work
+performed on Pale Moon, and the current milestone will see continual added
 implementation of more of the ECMAScript version 6 (ES6) standard. Pale
 Moon currently already supports everything in the actual ES5 standard,
 but is being extended to offer web developers more "bleeding edge"
-JavaScript features to work with from the ES6 standard. Please
+JavaScript features to work with from the ES6 standard over time. Please
 understand that implementing these changes is slow and meticulous work
 that requires extensive coding and testing to do properly. There is
 very little margin for error, because JavaScript not only runs in
@@ -136,17 +139,16 @@ many parts of the program itself.<br>
             <ul>
               <li>Linux (x86 and x64) -- Completed and actively maintained
               </li>
-              <li>Mac OS X -- Currently in its early stages, not maintained<br>
-We can use your help on this one, since we lack hardware and expertise<br>
+              <li>Mac OS X -- Currently in its early stages, experimental<br>There is some movement on this front and we hope to have an OS X version available later in the year<br>
 
               </li>
-              <li>Android ARM -- Completed, but not actively maintained due to lack of manpower.<br>
-We can use your help on this one (Fennec-based)
+              <li>Android ARM -- Completed, but not actively developed due to lack of manpower<br>
+We can use your help on this one (Fennec-based), especially for Android-L (5) compatibility
               </li>
               <li>Android-x86 -- Experimental (Fennec-based), no public releases<br>
               </li>
               <li>ReactOS
--- A specific version is planned for this platform in the future, if
+-- A specific version is planned for this platform in the future, but only if
 the platform matures enough to warrant the investment.<br>
               </li>
             </ul><br>
@@ -162,7 +164,7 @@ User Interface in Pale Moon is stable, based on the Firefox 4-28
 browser era UI and will not be changed in any major way as far as how
 the UI operates. "Australis", the UI rework done by Mozilla in Firefox
 29 and later which completely removed many customization features, will
-not be adopted. This also means full support for total restyling (full
+not be adopted. This also means full and ongoing support for total restyling (full
 themes).<br>
             <br>
             <span class="c4">As a side note: A number of other Firefox derivatives are published that seem, at first
@@ -203,6 +205,11 @@ themes).<br>
 Unlike Firefox, Pale Moon will continue to offer full support for XUL
 and XPCOM binary-component extensions and there is no plan to discard the
 current extension system</span> for Chrome-like alternatives (WebExtensions).<br>
+Mozilla has already marked XUL extensions and bootstrapped extensions
+as "legacy" and will be phasing out support for this, which will affect
+many Firefox extensions. We have no plans to do this and many "legacy"
+Firefox extensions will continue to work on Pale Moon in its Firefox
+extension compatibility mode.<br>
             <h4>
               JetPack (Add-on SDK) extensions
             </h4>JetPack (add-on SDK) add-ons are discouraged for Pale Moon, because they inherently run into
@@ -246,9 +253,9 @@ current extension system</span> for Chrome-like alternatives (WebExtensions).<br
                 account and associated data are removed from the database.
               </li>
               <li>Password recovery.<br>
-                Offering a password reset option by sending an e-mail to the user requesting this.
-              </li>
-            </ul>
+                Offering a password reset option by sending an e-mail to the user requesting this.</li>
+            </ul>In addition, expect a capacity limit to be imposed on individual accounts in the future.<br>
+
             <h4>
               Pale Moon start page
             </h4>We are partnered up with a start portal provider to improve the user experience on the Pale Moon

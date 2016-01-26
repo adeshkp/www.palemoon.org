@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -48,30 +49,6 @@
             <br>
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
-              
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When playing videos in fullscreen mode, you may see network status pop up</span><br>
-This is because a number of major sites have changed the way videos are
-embedded in pages, which isn't properly detected by Pale Moon when
-switching to fullscreen mode, resulting in the browser treating it like
-a normal fullscreen mode web page.<br>
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Go to
-(Options -&gt;) Status bar options... -&gt; Advanced -&gt; uncheck
-"Detect full-screen mode and show links/status appropriately"<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When running on Windows 10, there are some theming/UI issues</span><br>
-These issues include wrong shapes of the window control buttons, them
-being off-center, strange background color issues in the bleached white
-application areas (e.g. when opening a sidebar) and border drawing
-issues.<br>
-This is caused by the changes Microsoft has made (a lot of them at the
-last second) to the way windows are drawn and handled. This is known
-and work is underway to correct these issues.<br>
-          <span style="font-weight: bold;">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-          <span style="font-weight: bold;">Workaround:</span> None<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0<br>
-<span class="c4"></span></li>
 
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
@@ -119,8 +96,34 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
-            <span class="bold">25.5:<br>
+            <span class="bold">25.6+:<br>
 </span>
+      <ul>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When playing videos in fullscreen mode, you may see network status pop up</span><br>
+This is because a number of major sites have changed the way videos are
+embedded in pages, which isn't properly detected by Pale Moon when
+switching to fullscreen mode, resulting in the browser treating it like
+a normal fullscreen mode web page.<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> Go to
+(Options -&gt;) Status bar options... -&gt; Advanced -&gt; uncheck
+"Detect full-screen mode and show links/status appropriately"<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When running on Windows 10, there are some theming/UI issues</span><br>
+These issues include wrong shapes of the window control buttons, them
+being off-center, strange background color issues in the bleached white
+application areas (e.g. when opening a sidebar) and border drawing
+issues.<br>
+This is caused by the changes Microsoft has made (a lot of them at the
+last second) to the way windows are drawn and handled. This is known
+and work is underway to correct these issues.<br>
+          <span style="font-weight: bold;">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> None<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0</li>
+      </ul>
+      <span class="bold">25.5:<br>
+      </span>
       <ul>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The internal updater won't show proper text in the default language</span><br>
 
