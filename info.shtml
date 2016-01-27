@@ -46,8 +46,10 @@
 
               <li>M. Tobin for additional research into the Mozilla code and general support in a number of different
               areas of development
-              </li><li>R. Crellin for adapting and maintaining many of the complete themes for Pale Moon
-              </li>
+              </li><li>R. Crellin for adapting and maintaining many of the complete themes for Pale Moon</li>
+        <li>R. Pelizzi for laying the groundwork and working with us to get the active XSS filter implemented<br>
+        </li>
+
             </ul>Pale
 Moon aims to provide a browser with a large degree of freedom in how
 people want to browse the web, which tools or extensions
