@@ -43,7 +43,31 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.0.0 (2016-01-26)</h3>This
+            <h3>26.0.1 (2016-02-02)</h3>This is a bugfix, security and web compatibility release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Removed the sanity check for unsupported point-of-sale XP-based operating systems by user request.<br>
+Please see the forum for information on which operating systems we can reasonably support.</li>
+        <li>Changed the way "transparent" is handled to improve transparent gradients.</li>
+        <li>Made sure that <code>dom.disable_beforeunload</code> is predefined in about:config.</li>
+        <li>Fixed web compatibility issues with Youtube, Youtube Gaming and Netflix.</li>
+        <li>Reinstated the about:config warning by default.</li>
+        <li>Fixed 2 potential browser crashes.</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Updated NSS to 3.19.4.1-PM to fix a potential UAF and CVE-2015-7575.</li>
+        <li>Crash fix: Prevent queueing more than one media source in a single event loop.</li>
+        <li>Prevented unsafe memory manipulations in zip archives. (CVE-2016-1945) <span class="c7">DiD</span></li>
+        <li>Prevented a potential buffer overflow in WebGL. (x64 only) (CVE-2016-1935) <span class="c7">DiD</span></li>
+      </ul>
+      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.<br>
+      <br>
+      <h3>26.0.0 (2016-01-26)</h3>
+This
 is a new milestone release! It's been in the works for a good number of
 months, and has many hundreds of notable changes, fixes, and
 improvements that can't possibly all be listed here.<br>
@@ -198,10 +222,9 @@ identification of workstations is done by actual reported machine
 name). This avoids issues like CVE-2015-4515.</li>
         <li>Fixed a potentially vulnerable crash from a spinning event loop during resize painting. <span class="c7">DiD</span></li>
         <li>Fixed several Javascript-based memory safety hazards. <span class="c7">DiD</span></li>
-      </ul>
-      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
-            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
-            the same code when surrounding code changes, exposing the problem.
+      </ul><br>
+
+      <span class="c7"></span>
       <h3>25.7.3.1 (Android only!) (2015-10-15)</h3>
 A small update to the Android version only to fix an issue with the Sync setup still not working properly on Android clients.<br>
       <h3>25.7.3 (2015-10-14)</h3>
