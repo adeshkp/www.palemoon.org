@@ -35,8 +35,8 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: September 6<sup>th</sup>,
-2015.<br>
+      <div style="text-align: right;">Last Updated: January 30<sup>th</sup>,
+2016.<br>
       </div>
       <h3>Terms of Service - Overview</h3>
       <ul>
@@ -114,7 +114,8 @@ territory that, in our opinion, causes interference with, or denial of, service 
 users, with or without stated reason.</li>
 
       </ul>
-      <h4>Limited storage</h4>This
+      <h4>Limited storage</h4>Limited time storage:<br>
+This
 Service will retain User Data only for a limited time. If the Service
 is not actively used by a user, the User Data stored on the server may
 be removed at our discretion to free up server resources for other
@@ -123,6 +124,17 @@ As a general guideline, User Data older than 2 months (not modified on
 the server for 2 months) may be removed from the server database in any
 scheduled or ad hoc maintenance window (either announced or not). This
 does not affect user accounts, only User Data.<br>
+      <br>
+Limited volume storage:<br>
+This service has limited capacity which is shared among all users, and
+it is the user's responsibility to keep their individual usage under
+control. We reserve the right to, in our sole discretion, remove any
+account or block access to the service from any account or IP we find
+in excess of reasonable storage limits for this Sync service.<br>
+As a guideline, users should try to keep their data usage preferably
+around 15MB or less, and reduce their data storage if it exceeds 30MB
+by cleaning up history or deselecting categories to synchronize. Sync
+client software will be able to query the server for quota in use.<br>
       <h4>Proprietary Rights</h4>
 
       <p>We do not grant to you any intellectual property rights in the
