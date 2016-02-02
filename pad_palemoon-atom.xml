@@ -34,26 +34,26 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>Pale Moon Atom/WinXP</Program_Name>
-		<Program_Version>26.0.0</Program_Version>
-		<Program_Release_Month>01</Program_Release_Month>
-		<Program_Release_Day>26</Program_Release_Day>
+		<Program_Version>26.0.2</Program_Version>
+		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Release_Day>03</Program_Release_Day>
 		<Program_Release_Year>2016</Program_Release_Year>
 		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
 		<Program_Type>Freeware</Program_Type>
-		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
 		<Program_OS_Support>Win7 x32,Win7 x64,WinServer,WinVista,WinVista x64,WinXP</Program_OS_Support>
 		<Program_Language>English</Program_Language>
-		<Program_Change_Info>This is a new milestone release! Please see the official release notes for more details.</Program_Change_Info>
+		<Program_Change_Info>Please see the official release notes for more details.</Program_Change_Info>
 		<Program_Specific_Category>Internet</Program_Specific_Category>
 		<Program_Category_Class>Network &amp; Internet::Browsers</Program_Category_Class>
 		<Program_System_Requirements>Intel Atom or compatible CPU, 256MB RAM, 150 MB HDD space</Program_System_Requirements>
 		<File_Info>
-			<File_Size_Bytes>19898024</File_Size_Bytes>
-			<File_Size_K>19431</File_Size_K>
-			<File_Size_MB>18.98</File_Size_MB>
+			<File_Size_Bytes>19912992</File_Size_Bytes>
+			<File_Size_K>19446</File_Size_K>
+			<File_Size_MB>18.99</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
@@ -88,8 +88,8 @@ Pale Moon is a middle road, cutting away support for (by current standards) anci
 			<Application_XML_File_URL>http://www.palemoon.org/pad_palemoon-atom.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://relmirror.palemoon.org/release/palemoon-26.0.0.Atom.WinXP.installer.exe</Primary_Download_URL>
-			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/palemoon-26.0.0.Atom.WinXP.installer.exe</Secondary_Download_URL>
+			<Primary_Download_URL>http://relmirror.palemoon.org/release/palemoon-26.0.2.Atom.WinXP.installer.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://relmirror2.palemoon.org/release/palemoon-26.0.2.Atom.WinXP.installer.exe</Secondary_Download_URL>
 			<Additional_Download_URL_1>http://www.fosshub.com/Pale-Moon.html</Additional_Download_URL_1>
 			<Additional_Download_URL_2>http://www.palemoon.org/palemoon-atom.shtml</Additional_Download_URL_2>
 		</Download_URLs>
