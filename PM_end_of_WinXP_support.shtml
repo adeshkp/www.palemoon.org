@@ -36,13 +36,16 @@ table.c8 {background-color: #F9F9F9}
           <td class="c6">
             <h1>
               End of Windows XP support in Pale Moon
-            </h1>With Pale Moon 25.0, support for the Windows XP operating system has been dropped. This page aims to
-            clarify the situation and provide alternatives to current Windows XP users who wish to continue using Pale
-            Moon as their browser.<br>
+            </h1>Starting
+with Pale Moon 25.0, support for the Windows XP operating system in
+main-line builds has been dropped. This page aims to clarify the
+situation and provide alternatives to current Windows XP users who wish
+to continue using Pale Moon as their browser.<br>
             <br>
+For the impatient: you need to use the <a href="palemoon-atom.shtml">Atom version</a>.<br>
             <h3>
               Why was Windows XP support discontinued by Pale Moon?
-            </h3>Unlike its sibling Firefox, that will continue to offer Windows XP as a supported operating system,
+            </h3>Unlike Firefox, that will continue to offer Windows XP as a supported operating system in its main-line products,
             Pale Moon has discontinued support for this OS. Considering the large number of users still on Windows XP,
             this has not been done without some good reasons, outlined below:<br>
             <ul>
@@ -57,16 +60,25 @@ table.c8 {background-color: #F9F9F9}
                 <span class="c2">OS Life considerations:</span> Windows XP has the status "obsolete". It has never been
                 one of Pale Moon's goals to support particularly old systems from its very inception. That includes
                 obsolete operating systems.<br>
-                <span class="c3">There is an alternative version of Windows XP called POSReady2009 that will receive
+                <span class="c3"></span></li>
+        <li><span style="font-weight: bold;">POSReady2009</span>: There is an alternative version of Windows XP called POSReady2009 that will receive
                 continued updates beyond this point in time, but it should be noted that this is <span class="c2">not</span> a desktop operating system and has been designed specifically around use in cash
                 registers and other Points of Sale situations with single-application use (and not desktop use) in
-                mind. Using that alternative version is <span class="c2">never recommended for general use</span> and
-                is not considered by Pale Moon as a viable target operating system to run on.</span><br>
+                mind. Using that alternative version is <span class="c2">never recommended for general use</span>
+and is not considered by Pale Moon as a viable target operating system
+to run on. Even though Microsoft will continue to provide some security
+updates for specific POS applications using embedded versions of this
+operating system, these updates are not necessarily compatible with
+Retail/OEM installations of Windows XP. A number of people have applied
+an unsactioned configuration change to their Windows XP installations
+to receive these updates even though they are not meant for Windows XP.
+Please understand that we cannot provide more than <a href="http://forum.palemoon.org/viewforum.php?f=53" target="_blank">self-serve community support</a> (by users for users) for either POSReady2009 or hybrid installations of POSReady updates on top of Windows XP.<br>
               </li>
+
               <li>
                 <span class="c2">Stability considerations:</span> Forcing NT 5.x kernel compatibility has shown to
                 cause stability issues, especially with the optimizations used in Pale Moon's main-line builds. Being
-                able to use more modern (Vista and later) windows functions improves stability and overall performance
+                able to use more modern (Vista and later) windows kernel functions improves stability and overall performance
                 of the browser.
               </li>
               <li>
@@ -100,7 +112,7 @@ table.c8 {background-color: #F9F9F9}
               </li>
               <li>
                 <span class="c4">Recommended:</span> Since the <a href="palemoon-atom.shtml">specialized Atom
-                version</a> will continue to support Windows XP indefinitely (because of the large amount of netbooks
+                version</a> will continue to support Windows XP (because of the large amount of netbooks
                 being limited to that operating system) you can switch to that version.
               </li>
               
