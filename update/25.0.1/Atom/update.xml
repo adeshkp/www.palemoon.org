@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 
 <updates>
-  <update type="major" displayVersion="26.0.0 (Atom/WinXP)" appVersion="26.0.0"  extensionVersion="26.0.0" 
+  <update type="major" displayVersion="26.0.2 (Atom/WinXP)" appVersion="26.0.2"  extensionVersion="26.0.2" 
           detailsURL="http://www.palemoon.org/releasenotes.shtml" showNeverForVersion="true">
-    <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-26.0.0.atom.win32.complete.mar"
-           hashFunction="SHA1" hashValue="a0069f25a372bc0835db6961ec2b50a9c036da97" size="24122177"/>
+    <patch type="complete" URL="http://aus.palemoon.org/mar/palemoon-26.0.2.atom.win32.complete.mar"
+           hashFunction="SHA1" hashValue="3fcb84d2f081c3cdb2d26173f674a3f360b9e35d" size="24140020"/>
   </update>
 </updates>
