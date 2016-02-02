@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>End of Windows XP support in Pale Moon</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -61,17 +62,20 @@ For the impatient: you need to use the <a href="palemoon-atom.shtml">Atom versio
                 one of Pale Moon's goals to support particularly old systems from its very inception. That includes
                 obsolete operating systems.<br>
                 <span class="c3"></span></li>
-        <li><span style="font-weight: bold;">POSReady2009</span>: There is an alternative version of Windows XP called POSReady2009 that will receive
-                continued updates beyond this point in time, but it should be noted that this is <span class="c2">not</span> a desktop operating system and has been designed specifically around use in cash
+        <li><span style="font-weight: bold;">POSReady2009</span>: There is an alternative version of Windows called POSReady2009 that will receive
+                continued updates beyond the end-of-life date of Windows XP, but it should be noted that this is <span class="c2">not</span> a desktop operating system and has been designed specifically around use in cash
                 registers and other Points of Sale situations with single-application use (and not desktop use) in
                 mind. Using that alternative version is <span class="c2">never recommended for general use</span>
 and is not considered by Pale Moon as a viable target operating system
-to run on. Even though Microsoft will continue to provide some security
+to run on, and for technical reasons we cannot provide support for it.<br>
+Even though Microsoft will continue to provide some security
 updates for specific POS applications using embedded versions of this
 operating system, these updates are not necessarily compatible with
 Retail/OEM installations of Windows XP. A number of people have applied
-an unsactioned configuration change to their Windows XP installations
-to receive these updates even though they are not meant for Windows XP.
+an unsanctioned configuration change to their Windows XP installations
+to receive these updates (by tricking the Windows Update servers into
+thinking it is POSReady2009) even though they are not meant for Windows
+XP.
 Please understand that we cannot provide more than <a href="http://forum.palemoon.org/viewforum.php?f=53" target="_blank">self-serve community support</a> (by users for users) for either POSReady2009 or hybrid installations of POSReady updates on top of Windows XP.<br>
               </li>
 
