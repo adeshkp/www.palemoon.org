@@ -50,6 +50,14 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
 
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Google Hangouts doesn't work</span><br>
+The website versions of Google Hangouts (either stand-alone or
+integrated in Google+) don't work because they won't let you sign in to
+your account.<br>
+          <span style="font-weight: bold;">Cause:</span> unknown, server-side issue<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 0, 0);">[To be fixed by Google]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> None, use the Hangouts App or Google Chrome<br>
+<span class="c4"></span></li>
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
                 This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
@@ -60,12 +68,13 @@
               </li>
 
 
+
               <li>
                 <span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
                 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
                 extension.<br>
                 More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
-                <span class="bold">Status:</span> <span class="mediumred">Caused by extension restrictions</span><br>
+                <span class="bold">Status:</span> <span style="font-weight: bold;" class="mediumred">[Caused by extension restrictions]</span><br>
                 <span class="bold">Fix:</span> Contact the extension author and have them update their extension to
                 include support for Pale Moon<br>
                 <span class="bold">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated or forked version for Pale
@@ -84,7 +93,7 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
                 <span class="c4">The browser creates directories under %APPDATA%\Mozilla, specifically
                 Mozilla\Extensions</span><br>
                 These directories are related to the underlying Mozilla extension code (<span class="bold">Pale Moon is a
-                Mozilla-based browser</span>) and stores extension IDs there. This issue is completely harmless and
+                Mozilla-derived browser</span>) and stores extension IDs there. This issue is completely harmless and
                 non-breaking; in fact, having (all) Mozilla-based applications use this one central location for
                 extension IDs is desired.<br>
                 <span class="bold">Status:</span> <span class="bydesign bold">[By Design]</span>
@@ -96,8 +105,34 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
-            <span class="bold">25.6+:<br>
+            <span class="bold">26.0.0:<br>
 </span>
+      <ul>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The browser doesn't start with "Unsupported operating system"</span><br>
+Windows XP users who have hacked their OS with a registry hack to
+supposedly "get continued security updates" from Microsoft past the
+end-of-life date for Windows XP in 2014, by tricking the Windows Update
+servers into thinking that they are running Windows Embedded (a bad
+thing to do, see articles on <a href="http://www.neowin.net/news/microsoft-warns-against-registry-hack-that-allows-windows-xp-updates" target="_blank">Neowin</a>, <a href="http://www.tomshardware.com/news/microsoft-hack-windows-xp-registry-embedded,26882.html" target="_blank">Tom's Hardware</a> and <a href="http://betanews.com/2014/05/27/microsoft-warns-against-xp-update-hack-suggests-users-upgrade-to-windows-8-1-instead/" target="_blank">Betanews</a>) will be unable to start the browser.<br>
+This is caused by a sanity check in the browser for supported operating
+systems (since we do not support point-of-sale or embedded Windows
+versions due to technical compatibility issues with those SKUs) to
+prevent problems on platforms that are not a valid target for Pale Moon.<br>
+By user request, we've decided to remove this check with the clear
+responsibility for support being shifted to end-users. You are on your
+own when not running a straight-up retail/OEM Windows XP.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> Remove the registry hack<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.0.1</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The browser has a number of web compatibility issues</span><br>
+Some well-known sites don't like the "Goanna" user agent and/or are specifically blocking Pale Moon.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workarounds]</span> by way of user agent overrides for YouTube, Netflix, some fora, etc.<br>
+          <span style="font-weight: bold;">Timeline: </span>Ongoing, some major sites fixed in 26.0.1<br>
+          <br>
+        </li>
+      </ul>
+      <span class="bold">25.6+:<br>
+      </span>
       <ul>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When playing videos in fullscreen mode, you may see network status pop up</span><br>
 This is because a number of major sites have changed the way videos are
