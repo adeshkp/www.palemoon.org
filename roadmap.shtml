@@ -36,7 +36,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-01-23</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-02-03</small><br>
 
             <h3>
               General Information
@@ -45,12 +45,22 @@ table.c7 {background-color: #F9F9F9}
             community. There are occasional polls and constructive discussions on the forum that determine the
             inclusion and progress of certain features in the browser.<br>
             <br>
-            Pale Moon, with v25 more clearly than before, but over the preceding 5 years as well, has been a diverging
-            product, with increasing differences between it and other Mozilla-based browser products. This divergent path
-            will remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and will never be again."<br>
-            <br>
-Pale Moon will be selective in what is adopted into its core from its
-Mozilla sibling Firefox or written to implement features, and the
+Pale Moon, over the course of its life, has been a product diverging
+from its common Mozilla ancestor, with increasing differences between
+Pale Moon and Mozilla-based browser products. This divergent path will
+remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and
+will never be again."<br>
+Of course there are a number of challenges on this kind of divergent
+(some might even say rebellious) path, like adoption of the browser as
+an independent force by the Internet community, and a number of
+technical advances as the Web develops.<br>
+            <br>Having a
+common acestor in Mozilla code, it can draw in part on the public
+sources and feature developments in Mozilla products, and where
+possible, desired features will be ported across or re-implemented
+based on code from the Mozilla core code. However: Pale Moon will be
+selective in what is adopted into its core from Mozilla or written to
+implement features, and the
 current feature set is and will always be different as a result. Pale
 Moon does not aim to provide 100% parity with other browsers, but
 rather to offer a sane balance of features and workflow to its users
@@ -77,6 +87,15 @@ browser has it too".<br>
             implement by re-writing parts of the parser and renderer in Pale Moon's core).<br>
       <br>
 The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page.<br>
+      <h4>Layout and Rendering</h4>
+The current layout and rendering engine (Goanna) is Pale Moon's
+independent implementation derived from Gecko. This engine debuted in
+v26 of the browser, and aims to improve upon the previous Pale Moon
+engine by steadily adopting more desired HTML and CSS features. Some
+implementations will be significantly different than those found in
+other browsers, even Gecko-based ones, and aim to provide the best
+solutions to design problems.<br>
+
             <h4>
               JavaScript
             </h4>JavaScript
