@@ -43,30 +43,41 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.0.1 (2016-02-02)</h3>This is a bugfix, security and web compatibility release.<br>
+            <h3>26.0.2 (2016-02-03)</h3>This is a bugfix, security and web compatibility release.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Removed the sanity check for unsupported point-of-sale XP-based operating systems by user request.<br>
 Please see the forum for information on which operating systems we can reasonably support.</li>
-        <li>Changed the way "transparent" is handled to improve transparent gradients.</li>
+        <li>Changed the way "transparent" is handled in Goanna to improve transparent gradients using this keyword.<br>
+</li>
         <li>Made sure that <code>dom.disable_beforeunload</code> is predefined in about:config.</li>
-        <li>Fixed web compatibility issues with Youtube, Youtube Gaming and Netflix.</li>
+        <li>Fixed web compatibility issues with Youtube, Youtube Gaming, Yuku fora and Netflix.</li>
+        <li>Fixed web compatibility with Comcast/XFinity webmail and
+other sites or web applications that expect older JavaScript versions
+as default.<br>
+        </li>
+
         <li>Reinstated the about:config warning by default.</li>
         <li>Fixed 2 potential browser crashes.</li>
       </ul>
       <span style="font-weight: bold;">Security fixes:</span><br>
       <ul>
         <li>Updated NSS to 3.19.4.1-PM to fix a potential UAF and CVE-2015-7575.</li>
-        <li>Crash fix: Prevent queueing more than one media source in a single event loop.</li>
+        <li>Crash fix: Prevented queueing multiple media sources that could lead to unsafe memory access.</li>
         <li>Prevented unsafe memory manipulations in zip archives. (CVE-2016-1945) <span class="c7">DiD</span></li>
         <li>Prevented a potential buffer overflow in WebGL. (x64 only) (CVE-2016-1935) <span class="c7">DiD</span></li>
+        <li>Updated the way binaries are code-signed. Not only does v26.0 use a new
+SHA256-signed digital certificate, but starting this version will also
+be signed with both SHA1 and SHA256 digest algorithms to satisfy later Windows' code-signing requirements.</li>
+
       </ul>
       <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
             apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
             the same code when surrounding code changes, exposing the problem.<br>
-      <br>
+      <h3>26.0.1 (unreleased)</h3>Internal development/test version.<br>
       <h3>26.0.0 (2016-01-26)</h3>
+
 This
 is a new milestone release! It's been in the works for a good number of
 months, and has many hundreds of notable changes, fixes, and
