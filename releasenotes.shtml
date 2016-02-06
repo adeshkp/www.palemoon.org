@@ -6,6 +6,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -43,7 +45,17 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.0.2 (2016-02-03)</h3>This is a bugfix, security and web compatibility release.<br>
+            <h3>26.0.3 (2016-02-05)</h3>This is a small bugfix release:<br>
+      <ul>
+        <li>Changed our cookie gate to allow cookie names with spaces in them, to improve web compatibility.<br>
+Critical note: if your site uses cookie names with spaces in them,
+please consider moving away from doing that so you are no longer in the
+"grey" area of cookie behavior.</li>
+        <li>Changed the configuration of our XSS filter to address some known, harmless filter hits that have been reported.<br>
+        </li>
+      </ul>
+      <h3>26.0.2 (2016-02-03)</h3>
+This is a bugfix, security and web compatibility release.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
