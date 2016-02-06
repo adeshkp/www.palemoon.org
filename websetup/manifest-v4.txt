@@ -1,13 +1,13 @@
-26.0.2 x86 (32-bit)
+26.0.3 x86 (32-bit)
 2
-http://relmirror.palemoon.org/release/palemoon-26.0.2.win32.installer.exe
-http://relmirror2.palemoon.org/release/palemoon-26.0.2.win32.installer.exe
-26.0.2 x64 (64-bit)
+http://relmirror.palemoon.org/release/palemoon-26.0.3.win32.installer.exe
+http://relmirror2.palemoon.org/release/palemoon-26.0.3.win32.installer.exe
+26.0.3 x64 (64-bit)
 2
-http://relmirror.palemoon.org/release/palemoon-26.0.2.win64.installer.exe
-http://relmirror2.palemoon.org/release/palemoon-26.0.2.win64.installer.exe
-26.0.2 Atom-WinXP
+http://relmirror.palemoon.org/release/palemoon-26.0.3.win64.installer.exe
+http://relmirror2.palemoon.org/release/palemoon-26.0.3.win64.installer.exe
+26.0.3 Atom-WinXP
 2
-http://relmirror.palemoon.org/release/palemoon-26.0.2.Atom.WinXP.installer.exe
-http://relmirror2.palemoon.org/release/palemoon-26.0.2.Atom.WinXP.installer.exe
+http://relmirror.palemoon.org/release/palemoon-26.0.3.Atom.WinXP.installer.exe
+http://relmirror2.palemoon.org/release/palemoon-26.0.3.Atom.WinXP.installer.exe
 
