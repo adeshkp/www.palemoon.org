@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -50,6 +51,17 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
 
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Animated GIF files may cause performance issues</span><br>
+We are aware of performance issues on Windows for animated GIF images
+being used as "pseudo video". particularly large animated GIF files or
+a large number of these "video" GIFs on a single page may slow down the
+browser (in some cases severely) and cause high CPU usage.<br>
+          <span style="font-weight: bold;">Cause:</span> This is likely
+an issue with the way Pale Moon tries to perform rapid memory
+allocations and the Windows system memory allocator in particular not
+handling this (atypical) behavior very well.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 102, 51);">[In progress]</span> - We're currently investigating and exploring our options.<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Google Hangouts doesn't work</span><br>
 The website versions of Google Hangouts (either stand-alone or
 integrated in Google+) don't work because they won't let you sign in to
@@ -58,6 +70,7 @@ your account.<br>
           <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 0, 0);">[To be fixed by Google]</span><br>
           <span style="font-weight: bold;">Workaround:</span> None, use the Hangouts App or Google Chrome<br>
 <span class="c4"></span></li>
+
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
                 This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
