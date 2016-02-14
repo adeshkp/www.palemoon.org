@@ -5,6 +5,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -60,15 +61,17 @@ browser (in some cases severely) and cause high CPU usage.<br>
 an issue with the way Pale Moon tries to perform rapid memory
 allocations and the Windows system memory allocator in particular not
 handling this (atypical) behavior very well.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 102, 51);">[In progress]</span> - We're currently investigating and exploring our options.<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span> - We'll be using a more Mozilla-code-friendly allocator library.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.1.0<br>
+</li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Google Hangouts doesn't work</span><br>
 The website versions of Google Hangouts (either stand-alone or
 integrated in Google+) don't work because they won't let you sign in to
 your account.<br>
           <span style="font-weight: bold;">Cause:</span> unknown, server-side issue<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 0, 0);">[To be fixed by Google]</span><br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
           <span style="font-weight: bold;">Workaround:</span> None, use the Hangouts App or Google Chrome<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.1.0<br>
 <span class="c4"></span></li>
 
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
