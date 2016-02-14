@@ -45,7 +45,49 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.0.3 (2016-02-05)</h3>This is a small bugfix release:<br>
+            <h3>26.1.0 (2016-02-16)</h3>This is a web compatibility, stability and bugfix release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Disabled our ES6 Promise implementation introduced in 26.0
+since there were some severe issues with its implementation that caused
+a lot of inexplicable failures on websites. This means that some sites
+that insist on using Promises without checking availability and that do
+not provide sufficient web client compatibility by way of server-side
+libraries or polyfills will currently not work as-intended. Apologies
+for any inconvenience this may cause; providing a perfectly-working
+implementation will be our top priority going forward.</li>
+        <li>Improved website compatibility with many sites and web applications by making our cookie gate less strict.</li>
+        <li>Fixed web compatibility with Google Hangouts and Yahoo Calendar.<br>
+        </li>
+        <li>Changed the memory allocator on Windows platforms to a much
+more modern full-library implementation of jemalloc, with miscellaneous
+additional fixes. This should give comparable speed to the system one
+and will allocate free memory more dynamically. This should fix issues
+like "huge animated gif choking" and inexplicable pauses when using
+many tabs, scrolling (extremely) long pages, or viewing media.</li>
+        <li>Fixed a few rare crashing issues on Windows due to the build process.<br>
+        </li>
+
+        <li>Reduced jank on inner frame scrolling reflows.</li>
+        <li>Extension compatibility: partial implementation of Firefox 26 download 
+js modules as shims; this should make more Firefox extensions compatible with us out-of-the-box. (Thanks, Chaoskagami!)<br>
+        </li>
+        <li>Added a "superstop" key combination (<span style="color: rgb(0, 0, 153); font-weight: bold;">Shift+Esc</span>) that will stop all 
+(foreground and background) network activity, stop animated gifs, etc. even after the 
+page itself has fully loaded (and the stop button not being available) - some web 
+applications may not like this if you use it since it will also cancel 
+XHR requests, etc.</li>
+        <li>Updated NTLM authentication, deprecating v1 and adding a proper v2 implementation (Thanks, Trava90!)</li>
+        <li>Updated the default theme to tweak/improve it some more (Thanks, Antonius32!)</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Updated the Graphite2 font library to 1.3.5+ to fix a number of vulnerabilities (and some font bugs).<br>
+        </li>
+      </ul>
+      <h3>26.0.3 (2016-02-05)</h3>
+This is a small bugfix release:<br>
       <ul>
         <li>Changed our cookie gate to allow cookie names with spaces in them, to improve web compatibility.<br>
 Critical note: if your site uses cookie names with spaces in them,
