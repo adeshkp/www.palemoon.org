@@ -11,6 +11,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Download the Pale Moon browser</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -53,7 +54,7 @@ table.c17 {background-color: #F9F9F9}
         <tr>
           <td class="c5">
             <h1>
-              <a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>Download Pale Moon 26.0.3<br>
+              <a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>Download Pale Moon 26.1.0<br>
             </h1><span class="c3">New this release:</span> This is a bugfix update to the new milestone release!
             Details about this update can be found in the <a href="releasenotes-ng.shtml">Release notes.</a><br>
             <br>
@@ -93,9 +94,9 @@ table.c17 {background-color: #F9F9F9}
               Download locations
             </h2>File size for the installer is 20.3 MB<br>
             <br>
-            SHA-1 checksum: 7646eea5ea616bbcd2d7077fe384b29aa8763712<br>
+            SHA-256: 47f45e2375b890e26694e2cca765c4af503cb65e425285358befcaccca08a8dc<br>
             (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.0.3.win32.installer.exe.sig">[Sig]</a><br>
+            GPG/PGP signature: <a href="pgp/palemoon-26.1.0.win32.installer.exe.sig">[Sig]</a><br>
             <br>
             <table class="c15" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -118,7 +119,7 @@ table.c17 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror.palemoon.org/release/palemoon-26.0.3.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                    <a href="http://relmirror.palemoon.org/release/palemoon-26.1.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text">
                     <span class="c3">Pale Moon mirror</span> #1 (EU)<br>
@@ -127,7 +128,7 @@ table.c17 {background-color: #F9F9F9}
                 </tr>
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.0.3.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
+                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.1.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
                   </td>
                   <td class="c5">
                     <span class="c3">Pale Moon mirror</span> #2 (US)<br>
@@ -169,15 +170,15 @@ table.c17 {background-color: #F9F9F9}
             quick use (unpack and run). Note that this is <span class="c16">not</span> a portable browser, it stores
             its data in the normal user folders on the system (documents/settings or users folder).<br>
       <br>
-SHA-1: d9bdc4cf1c4cdf976489fc6b7e8bc64dab8f6d52<br>
+SHA-256: 0d4ed9dd89c0e1c5043e285446f01f0e1b9bbf00a816b6db3ad5f6f61aeaf6bd<br>
 
-            GPG/PGP Signature: <a href="pgp/palemoon-26.0.3.win32.zip.sig">[Sig]</a><br>
+            GPG/PGP Signature: <a href="pgp/palemoon-26.1.0.win32.zip.sig">[Sig]</a><br>
 <ul>
               <li>
-                <a href="http://relmirror.palemoon.org/release/palemoon-26.0.3.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #1 EU (direct download)</a> 
+                <a href="http://relmirror.palemoon.org/release/palemoon-26.1.0.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #1 EU (direct download)</a> 
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/palemoon-26.0.3.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #2 US (direct download)</a>
+                <a href="http://relmirror2.palemoon.org/release/palemoon-26.1.0.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #2 US (direct download)</a>
               </li>
               <li>
                 <a href="http://www.gamershell.com/download_110813.shtml">Download <span class="c3">ZIP</span> from
