@@ -69,7 +69,7 @@ many tabs, scrolling (extremely) long pages, or viewing media.</li>
         <li>Fixed a few rare crashing issues on Windows due to the build process.<br>
         </li>
 
-        <li>Reduced jank on inner frame scrolling reflows.</li>
+        <li>Reduced so-called "jank" on inner frame scrolling reflows.</li>
         <li>Extension compatibility: partial implementation of Firefox 26 download 
 js modules as shims; this should make more Firefox extensions compatible with us out-of-the-box. (Thanks, Chaoskagami!)<br>
         </li>
