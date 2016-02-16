@@ -48,7 +48,7 @@ table.c6 {background-color: #F9F9F9}
             </h2>The source code of the current (main-line) release version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.0.3-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.1.0-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
@@ -71,7 +71,7 @@ table.c6 {background-color: #F9F9F9}
               properly build on versions of Visual Studio older than VS2010.<br>
 In its current state, Pale Moon will <span style="font-style: italic;">not</span> build on VS 2013 Community or
 Full due to breaking changes in the MSVC compiler. </li>
-              <li>For Linux, you will need to use GCC (clang is not currently producing stable builds on Linux), 4.7.*
+              <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span> (clang is not currently producing stable builds on Linux), 4.7.*
               recommended but later versions might work too. We do not support particularly old versions of GCC (&lt; 4.6).<br>
               </li>
               <li>You will need to get the build prerequisites as outlined on the Mozilla Developer Network. Most
@@ -79,9 +79,14 @@ Full due to breaking changes in the MSVC compiler. </li>
               if building on Windows.
               </li>
               <li>Pale Moon <span class="c2">should not</span> be built with PGO (Profile-Guided Optimization). Doing
-              so will likely not build or at the very least result in an unstable browser.
-              </li>
-              <li>Pale Moon has been primarily designed for Windows and Linux, and the necessary theme changes were
+              so will likely not build or at the very least result in an unstable browser.</li>
+        <li>Do not build tests. Building tests may or may not work on
+your platform/configuration, and significantly increases build time for
+no gain unless you plan on doing automated testing with the Mozilla
+test harness (we don't provide support for using this test harness).<br>
+        </li>
+
+              <li>Pale Moon has been primarily designed for Windows and Linux, and the necessary default-theme changes were
               made to the relevant themes only. If you want to build for other platforms (e.g. Mac) then be aware that
               the browser will look different and may need some serious tweaking to be usable or look similar to the
               Windows/Linux version.<br>
