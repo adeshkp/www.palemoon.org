@@ -10,6 +10,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -47,7 +48,7 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.1.1 (2016-02-26)</h3>This is a bugfix release to improve stability and extension compatibility.<br>
+            <h3>26.1.1 (2016-02-24)</h3>This is a bugfix release to improve stability and extension compatibility.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
