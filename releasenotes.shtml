@@ -8,6 +8,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -45,7 +47,19 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.1.0 (2016-02-16)</h3>This is a web compatibility, stability and bugfix release.<br>
+            <h3>26.1.1 (2016-02-26)</h3>This is a bugfix release to improve stability and extension compatibility.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a few oversights in the Firefox extension
+compatibility changes in 26.1.0 that should improve compatibility with
+a number of Firefox extensions.</li>
+        <li>Changed memory handling to (hopefully) address the memory inflation issues some people have experienced with 26.1.0.</li>
+        <li>Updated YouTube compatibility, which should once again allow users to choose between Flash and HTML5 players on YouTube.<br>
+        </li>
+      </ul>
+      <h3>26.1.0 (2016-02-16)</h3>
+This is a web compatibility, stability and bugfix release.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
