@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -131,9 +132,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>16 Feb 2016</small></small><br>
-Pale Moon 26.1 has been released</span>
-which is an important web compatibility, stability and&nbsp; security release.<br>
+            <span class="bold"><small><small>26 Feb 2016</small></small><br>
+Pale Moon 26.1.1 has been released</span>
+which is a web compatibility and bugfix release.<br>
             <br>
             <span class="bold"><small><small></small></small></span><span class="bold"><small><small>26 Jan 2016</small></small><br>
 Pale Moon 26 has been released</span>
