@@ -48,6 +48,7 @@ table.c13 {background-color: #F9F9F9}
               Pale Moon for Android™
             </h1>This version of Pale Moon is built for the Android operating system on mobile devices (phones,
             tablets).<br>
+<br>
             <table class="sysreq c5" align="center" border="0" cellpadding="0" cellspacing="0">
               <tbody>
                 <tr>
@@ -70,14 +71,17 @@ table.c13 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c6">
-              Current version: 25.8.1
-            </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
-            release notes</a>.<br>
-            <br>
-            This is a security, stability and usability update to keep users of the browser updated and safe.<br>
-Please do note that there are known issues on some mobiles and versions
+              Current version: 25.9
+            </h3>This is a security update to keep users of the browser updated and safe.<br>
+Information about this browser version:<br>
+      <ul>
+        <li>Ported security fixes to update the browser, addressing all current security issues known.</li>
+        <li>Updated Sync cipher suites to align with current expected ciphers and protocols.</li>
+      </ul>
+
+            Please do note that there are known issues on some mobiles and versions
 of Android that will prevent this browser from working properly or in a
-stable fashion.<br>
+stable fashion in some situations.<br>
       <br>
 The Android version does not currently have a developer/team assigned
 to it due to lack of resources in the Pale Moon team, and we can currently, at
@@ -140,7 +144,7 @@ for Android-x86 on the forum. You may have to build from source,
 yourself, to get a more recent version.<br>
             <h3>
               Source code
-            </h3>Please see the Android branch on the Pale Moon repository <a href="sourcecode.shtml">here</a>.<br>
+            </h3>Please see the Android branch on the Pale Moon repository <a href="https://github.com/MoonchildProductions/Pale-Moon/tree/Android">here</a>.<br>
             <br>
           </td>
         </tr>
