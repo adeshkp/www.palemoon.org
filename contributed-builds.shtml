@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -49,6 +50,9 @@ A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
         <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15 by Mike Purtell<br>
 Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a> Linux distro.</li>
+        <li><a href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale Moon repositories for Debian and Ubuntu</a> by Steve Pusser.<br>
+        </li>
+
         <li><a href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/staging/extra-web/palemoon">Pale Moon for AOSC OS</a> by AOSC Development Hub<br>
 A hardened Pale Moon build configured for <a href="https://aosc.io/" target="_blank">AOSC OS</a>
 optimized for modern personal computer architectures. Available in .deb
