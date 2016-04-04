@@ -11,6 +11,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -48,7 +50,42 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.1.1 (2016-02-24)</h3>This is a bugfix release to improve stability and extension compatibility.<br>
+            <h3>26.2.0 (2016-04-05)</h3>This is a major update and bugfix release.<br>
+      <br>
+      <strong>Changes:</strong><br>
+      <ul>
+<li>Implemented the <a href="https://url.spec.whatwg.org/#api" target="_blank">URL API</a> that's needed for a number of websites.</li><li>Changed
+ internal keystroke handling within the spec to better align with generally expected behavior.<br>
+This should fix the infamous "backpace" issue on Facebook.<br>
+          <span style="font-weight: bold;">Web developers please note:</span> calling preventDefault() in a "keydown" event handler will now prevent most keypress events from firing.<br>
+</li><li>Linux: gstreamer 1.0 support has been implemented and enabled by default (hats off to Travis!)<br>
+From this version forward you will need to have gstreamer 1.0 libraries for video playback (0.10 is no longer supported).<br>
+</li><li>Re-styled about:sessionrestore to use more available screen real estate for tab info.</li><li>Added an option to use the mousewheel for horizontal scrolling (mouse action value 4).<br>(e.g. setting <span style="color: rgb(0, 128, 128);">mousewheel.with_shift.action</span> to <span style="color: rgb(0, 128, 128);">4</span> makes Shift+wheel scroll horizontally)</li><li>Bumped max icon size for search engine icons to 32 KB to cater to more common use of HiDPI icons.</li><li>Fixed
+some hard-coded branding strings in Sync still reading "Firefox", and
+similarly changed sync information URLs to point to our relevant pages.</li><li>Removed default profile bookmarks pointing to Firefox/Mozilla since the information there no longer applies to us.</li><li>Updated UA overrides and XSS configuration to deal with some problematic sites (e.g.: Google, Embedly)</li><li>Fixed
+ several issues with the default theme causing problems with behavior 
+due to styling (thanks, Antonius32) (Issue #384 and friends)</li><li>Fixed some miscellaneous issues in the internal jemalloc implementation.</li><li>Added
+ a configure option to use the full jemalloc lib (jemalloc v3) if the 
+builder so wishes (used for Linux, sys mallocs are not happy there 
+either, so for our generic binaries we switched to this lib now)</li><li>Worked around a crash caused by the XSS filter on some fora by bailing on too short and empty strings.</li><li>Fixed layout of reflowed comboboxes without enough space. </li><li>Fixed a crash related to flexboxes overflowing themselves. (Issue #396)</li><li>Added a simple implementation for Weak Messagelisteners. (Issue #399)</li><li>Fixed a crash for losing our cache entry while finishing up compression.<br>(re-apply after unintentional back-out switching to Goanna)</li><li>Linux: Worked around driver bugs with Intel drivers that falsely report what they can support in max texture size.</li>
+        <li>Portable only: Removed compression of the browser
+components library after some reports that in certain configurations
+and environments it was causing issues with the browser.<br>
+        </li>
+
+      </ul>
+      <strong>Security fixes:</strong><br>
+      <ul>
+<li>Updated the graphite font library to 1.3.7+ to solve CVE-2016-2796 and no less than 14 of its friends.</li><li>Updated NSS to 3.19.4.2-PM to address several vulnerabilities (UAF, heap overflow).</li><li>Updated libvorbis to a much more recent version to fix multiple issues.</li><li>Crash
+ fix and DiD fixes by holding strong references to objects in suspect 
+places in the HTML parser. (CVE-2016-1961) (ZDI-CAN-3574)</li><li>Fixed several out-of-bounds issues in the VP8 decoder.</li><li>Fixed a potentially exploitable crash in XML/XSLT handling.</li><li>Applied some Kung Fu to HTML animations and transitions to prevent memory hazards.<br>
+</li>
+        <li>Fixed applicable Mozilla code vulnerabilities CVE-2016-1965, CVE-2016-1960 (ZDI-CAN-3545), CVE-2016-1966, and CVE-2016-1963.<br>
+        </li>
+      </ul>
+      <br>
+      <h3>26.1.1 (2016-02-24)</h3>
+This is a bugfix release to improve stability and extension compatibility.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
