@@ -6,6 +6,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -52,6 +53,15 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
 
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Keyboard navigation of the menu doesn't work</span><br>
+With 26.2.0, trying to navigate the application menus with the keyboard doesn't work.<br>
+This is caused by the change in keystroke handling in this version
+unfortunately negatively affecting how they are handled in the UI as
+well.<br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress]</span><br>
+          <span style="font-weight: bold;">Workaround</span>: None, unfortunately.<br>
+          <span style="font-weight: bold;">Timeline</span>: ASAP.<br>
+<span class="c4"></span></li>
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
                 This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
@@ -60,6 +70,7 @@
                 <span class="bold">Status:</span> <span class="research">[Research]</span><br>
                 <span class="bold">Workaround:</span> disable hardware acceleration
               </li>
+
 
 
 

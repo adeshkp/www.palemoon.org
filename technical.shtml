@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -285,7 +286,7 @@ table.c16 {background-color: #F9F9F9}
             <h3>
               <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Mozilla products?
             </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
-            close to Firefox in certain parts of the code to ensure compatibility with many add-ons, but
+            close to Firefox in certain parts of the code to offer a degree of compatibility with many add-ons, but
             should be considered a "fork" and a totally independent product.</span><span class="c12"></span><br>
             <ol>
               <li>Pale
@@ -380,7 +381,7 @@ actually <span class="c12">harm</span> Pale Moon's speed as the configuration de
               <li>Optimizations: SSE2 architecture, global speed-preference flags, intrinsic functions where possible,
               auto-vectorization, auto-parallelization. Some small variations of these could be possible depending on
               specific release builds. Whole Program Optimization is used to provide the most efficiently linked
-              binaries. Many of the builds (and all recent ones) use identical COMDAT folding to further increase speed
+              binaries. Many of the builds (and all recent ones) use identical-code folding to further increase speed
               and reduce size of the program at the expense of compile time.
               </li>
               <li>Profile Guided Optimization was used between 3.6.0.1 and 15.4.1 - even though this relies very
