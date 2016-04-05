@@ -13,6 +13,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -56,7 +57,7 @@ table.c10 {background-color: #F9F9F9}
       <ul>
 <li>Implemented the <a href="https://url.spec.whatwg.org/#api" target="_blank">URL API</a> that's needed for a number of websites.</li><li>Changed
  internal keystroke handling within the spec to better align with generally expected behavior.<br>
-This should fix the infamous "backpace" issue on Facebook.<br>
+This should fix the infamous "backspace" issue on Facebook.<br>
           <span style="font-weight: bold;">Web developers please note:</span> calling preventDefault() in a "keydown" event handler will now prevent most keypress events from firing.<br>
 </li><li>Linux: gstreamer 1.0 support has been implemented and enabled by default (hats off to Travis!)<br>
 From this version forward you will need to have gstreamer 1.0 libraries for video playback (0.10 is no longer supported).<br>
