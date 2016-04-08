@@ -8,6 +8,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -54,14 +55,7 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
 
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Keyboard navigation of the menu doesn't work</span><br>
-With 26.2.0, trying to navigate the application menus with the keyboard doesn't work.<br>
-This is caused by the change in keystroke handling in this version negatively affecting how they are handled in the UI as
-well.<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-          <span style="font-weight: bold;">Workaround</span>: None, unfortunately.<br>
-          <span style="font-weight: bold;">Timeline</span>: Fixed in 26.2.1 to be released very soon.<br>
-<span class="c4"></span></li>
+        
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
                 This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
@@ -110,6 +104,22 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
+      <span style="font-weight: bold;">26.2.0:<br>
+</span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Keyboard navigation of the user interface doesn't properly work</span><br>
+
+With 26.2.0, trying to navigate the application menus with the keyboard doesn't work.<br>
+
+This is caused by the change in keystroke handling in this version negatively affecting how they are handled in the UI as
+well.<br>
+
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
+
+          <span style="font-weight: bold;">Workaround</span>: None, unfortunately. Use your pointing device.<br>
+
+          <span style="font-weight: bold;">Timeline</span>: Fixed in 26.2.1.</li>
+      </ol>
       <span style="font-weight: bold;">26.0.1-26.0.3:</span><br>
       <ol>
 <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Animated GIF files may cause performance issues</span><br>
