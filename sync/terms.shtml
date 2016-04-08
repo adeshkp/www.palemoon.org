@@ -3,6 +3,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync Terms of Service</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -35,7 +36,7 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: January 30<sup>th</sup>,
+      <div style="text-align: right;">Last Updated: April 8<sup>th</sup>,
 2016.<br>
       </div>
       <h3>Terms of Service - Overview</h3>
@@ -132,9 +133,12 @@ control. We reserve the right to, in our sole discretion, remove any
 account or block access to the service from any account or IP we find
 in excess of reasonable storage limits for this Sync service.<br>
 As a guideline, users should try to keep their data usage preferably
-around 15MB or less, and reduce their data storage if it exceeds 30MB
-by cleaning up history or deselecting categories to synchronize. Sync
-client software will be able to query the server for quota in use.<br>
+at less than 15MB, and reduce their data storage if higher by cleaning
+up history or other synced data, or deselecting categories to
+synchronize. Sync
+client software will be able to query the server for volume quota in
+use, and the server will refuse to store any data if you are exceeding
+our set capacity limit.<br>
       <h4>Proprietary Rights</h4>
 
       <p>We do not grant to you any intellectual property rights in the
@@ -171,7 +175,11 @@ prior to unlinking your last device.<br>
       </p>
       <h4>Third Party Client Developers</h4>
       <p>Use of third party clients to access the Pale Moon Sync
-Service is not permitted.</p>
+Service is not permitted, with the exception of official, fully Sync 1.1 compliant, non-abusive mobile Sync clients.<br>
+To use the Pale Moon Sync service with other Sync clients, you need to
+obtain prior express written permission from the Sync server
+administrator (Moonchild).<br>
+</p>
       <h4>Updates to the Terms</h4>
       <p>We may update this TOS from time to time, for example to
 address a new feature of the Service or to clarify a provision. The
@@ -190,11 +198,14 @@ Service is free of defects, merchantable, fit for any particular
 purpose and non-infringing. You bear the entire risk as to selecting
 the Service for your purposes and as to the quality and performance of
 the Service, including without limitation the risk that your User Data
-is deleted, lost or corrupted. Some jurisdictions do not allow the
-exclusion or limitation of implied warranties, in which case you should
+is deleted, lost or corrupted.<br>
+</p>
+      <p>Some jurisdictions do not allow the
+exclusion or limitation of implied warranties, in which case you may
 not make use of the Service. The service is used solely at your own
 risk, regardless of legal precedent.<br>
       </p>
+
       <h4>Limitation of Liability</h4>
       <p>Moonchild Productions, its distributors, contributors, and
 licensors, will not be liable for any indirect, special, incidental,
