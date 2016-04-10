@@ -4,6 +4,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync Terms of Service</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -36,7 +37,7 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: April 8<sup>th</sup>,
+      <div style="text-align: right;">Last Updated: April 10<sup>th</sup>,
 2016.<br>
       </div>
       <h3>Terms of Service - Overview</h3>
@@ -67,15 +68,20 @@ Moonchild Productions/Moonchild (Mr. M.C. Straver BASc)/Pale Moon
 administrators/operators ("we", "us", etc.).<br>
       </p>
       <h4>Use of the Services</h4>
-      <p>To use the Service you must first register. During
-registration you will need to provide your email address and create a
-username and password (collectively "Account Data"). These will be sent
-to Pale Moon servers using Secure Socket Layers (SSL) technology to
-encrypt them during transit. Your password will be stored on our server
+      <p>To
+use the Service you must first register. During
+registration you will need to provide your email address, which will be
+your username, and create a password (collectively "Account Data").
+These will be sent
+to Pale Moon servers using Transport Layer Security (TLS) technology to
+encrypt them during transit. Both your e-mail and password will be
+stored on our server
 in an encrypted form. The form of encryption used prevents anyone from
-stealing your actual password, but still allows us to authenticate you
-when you sign into the Service. You will also create a secret phrase.
-The secret phrase is stored on your computer and is not sent to us.</p>
+stealing your actual password or discovering your e-mail address, but
+still allows us to authenticate you
+when you sign into the Service. A secret key is also created during
+sign-up on your computer.
+The secret key is stored only on your computer and is not sent to us.</p>
       <p>You may use the Service only for purposes that are permitted
 by (i) the TOS and (ii) the laws and regulations in your state and
 country and any other laws and regulations that apply to your use of
@@ -93,7 +99,13 @@ Pale Moon project owner.</li>
         <li>An exception to the previous point is the personal use of
 Sync on mobile devices, but only when using official builds of software that is fully Sync 1.1 compatible.</li>
 
-      </ul>If you use the Pale Moon Sync service in any sort of sizable organization (more than a handful of users), then you are <span style="font-style: italic;">strongly</span> encouraged to run your own Sync service instead of making disproportionate use of this free, public instance of Sync.<br>
+      </ul>Limits on your use (fair use limits):<br>
+      <ul>
+        <li>If you use the Pale Moon Sync service in any sort of sizable organization (more than a handful of users), then you are <span style="font-style: italic;">strongly</span> encouraged to run your own Sync service instead of making disproportionate use of this free, public instance of Sync.</li>
+        <li>If your organization exceeds 100 individual devices or users (whichever is larger), then you may not use the free Pale Moon Sync service without express permission from us.<br>
+        </li>
+      </ul>
+
 
       <h4>Your Acknowledgments</h4>
       <p>You acknowledge and agree that:</p>
@@ -131,14 +143,16 @@ This service has limited capacity which is shared among all users, and
 it is the user's responsibility to keep their individual usage under
 control. We reserve the right to, in our sole discretion, remove any
 account or block access to the service from any account or IP we find
-in excess of reasonable storage limits for this Sync service.<br>
-As a guideline, users should try to keep their data usage preferably
+in excess of reasonable storage limits for this Sync service.<br>As
+a guideline, users should try to keep their data usage preferably
 at less than 15MB, and reduce their data storage if higher by cleaning
 up history or other synced data, or deselecting categories to
 synchronize. Sync
 client software will be able to query the server for volume quota in
 use, and the server will refuse to store any data if you are exceeding
-our set capacity limit.<br>
+our set upper capacity limit. If you are close to or at this limit, you
+should reduce your storage to prevent disproportional individual load
+on the service.<br>
       <h4>Proprietary Rights</h4>
 
       <p>We do not grant to you any intellectual property rights in the
@@ -163,7 +177,7 @@ your User Data over various public networks and in various media; and
 adapt that User Data to the technical requirements of connecting
 networks, devices, services or media. Provided you are using the Pale
 Moon browser, during any such transmission, your User Data and Account
-Data will be sent via SSL.</p>
+Data will be sent via TLS-protected connections.</p>
       <h4>Canceling the Service</h4>
       <p>You can discontinue use of the Service at any time. In the
 Pale Moon browser go to the "Options", category "Sync", and click
