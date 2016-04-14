@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -31,8 +32,8 @@
             </h1>The following list is a list of endorsed third party builds of Pale Moon. If the browser is not in
             this list, it is not an authorized redistribution/build. <span class="bold">Please note that these
             third-party builds may lag behind the main-line releases of Pale Moon.</span><br>
-            <br>
-            Alternate operating systems/configurations:<br>
+            <br><span style="font-weight: bold;">
+            Alternate operating systems/configurations:</span><br>
 <ul>
               
               <li>
@@ -40,11 +41,7 @@
                 for Pandora</a> by ptitSeb<br>
                 A special build of Pale Moon for the OpenPandora OS on Pandora boxes.
               </li>
-              <li>
-                <a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon
-                PPA</a> for Debian/Ubuntu and compatible by Marián Kadaňka<br>
-                A build specifically for this OS. Source with necessary modifications available from the same page.<br>
-                <span class="underline">Note:</span> currently outdated; use with caution or use the official tarballs.</li>
+              
         <li><a href="http://raspi.palemoon.org/">Pale Moon for Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
@@ -62,25 +59,36 @@ selection.<br>
 
 
 
-            </ul>Processor-specific rebuilds:<br>
-            <ul>
-              <li>
-                <a href="ftp://contrib:get@ftp.palemoon.org/AVX/">AVX build (x86/x64)</a> by Accel. <span class="grey">(Inactive development, outdated, use with caution!)</span><br>
-                Note: this requires an AVX-capable CPU (latest generations Intel or AMD)
-              </li>
+            </ul><span style="font-weight: bold;">Processor-specific rebuilds:</span><br>
+<ul>
+              
               <li><a href="ftp://contrib:get@ftp.palemoon.org/SSE/">SSE build (x86)</a> by Mercury.<br>
 
                 A rebuild of Pale Moon from official source catering to particularly old processors that don't support
                 SSE2.<br>
 
                 </li>
-        <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman
-                Štefko. <span class="grey">(Inactive development, outdated, use with caution!)</span><br>
-                A rebuild of Pale Moon from official source catering to particularly old processors that don't support
-                SSE2.<br>
-              </li>
+        
 
-            </ul><br>
+            </ul><span style="font-weight: bold;">Historical/archived listings:</span><br>
+      <br>
+These are maintained for permissions for past contributions. <span style="font-weight: bold;">You should not use these builds</span> because the maintainers have stopped providing updates.<br>
+      <ul>
+        <li><a href="ftp://archive:get@ftp.palemoon.org/3rdparty/Accel-AVX/">AVX build (x86/x64)</a> by Accel.<span class="grey"></span><br>
+
+                Note: this requires an AVX-capable CPU (latest generations Intel or AMD)</li>
+        <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman
+                Štefko.<span class="grey"></span><br>
+
+                A rebuild of Pale Moon from official source catering to particularly old processors that don't support
+                SSE2.</li>
+        <li><a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon
+                PPA</a> for Debian/Ubuntu and compatible by Marián Kadaňka<br>
+
+                A build specifically for this OS. Source with necessary modifications available from the same page.<span class="underline"></span><br>
+        </li>
+      </ul>
+<br>
             To be listed here, you have to contact me and get permission. <span class="bold">It is the only way to be
             authorized to redistribute a modified binary version of Pale Moon with the <span class="underline">official name
             and logo</span> in any way, shape or form.</span> Binaries are subject to the proprietary Pale Moon
