@@ -250,7 +250,7 @@ a language pack.<br>
                 </tr>
                 <tr>
                   <td class="c12">
-                    <span class="red">■</span> Italian
+                    <span style="color: rgb(204, 153, 51);" class="red">■<span style="color: black;"></span></span> Italian
                   </td>
                   <td class="c13">
                     <a href="http://relmirror.palemoon.org/langpacks/26.x/it.xpi">it.xpi</a>
