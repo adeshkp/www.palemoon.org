@@ -5,6 +5,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -66,7 +67,7 @@ selection.<br>
 
                 A rebuild of Pale Moon from official source catering to particularly old processors that don't support
                 SSE2.</li>
-        <li><a href="ftp://contrib:get@ftp.palemoon.org/SSE/">IA-32 build (x86)</a> by Mercury.<br>
+        <li><a href="ftp://contrib:get@ftp.palemoon.org/IA32/">IA-32 build (x86)</a> by Mercury.<br>
 
 
                 A rebuild of Pale Moon from official source catering to <span style="font-style: italic;">very</span> old processors that don't support
