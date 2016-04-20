@@ -36,7 +36,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-02-03</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-04-20</small><br>
 
             <h3>
               General Information
@@ -81,12 +81,24 @@ browser has it too".<br>
             established standards, a lot of the features in Pale Moon are determined on an on-demand basis: If there is
             enough demand for a certain feature or if it is considered beneficial to the browser and the web, it will
             be implemented - other features may be put on hold or decided against altogether.<br>
+      <br><span style="font-weight: bold;">
+One important thing to note is that the next milestone release that is
+planned (v27) will be a re-base on the last version of Mozilla code
+that is considered desirable for Pale Moon development, to overcome
+some important, blocking issues that our current developers will not be
+able to sufficiently tackle otherwise. Even so, this will not mean that
+we are "going back to rebuilds of Firefox" like the start of this
+project was; quite the opposite. This decision was made with
+considerable community input and will take a good number of months to
+bring to completion. This means that our previously outlined roadmap
+will change significantly as to what is and will be supported by the
+browser. More on that later.</span><br>
             <br>
             It is beyond the scope of this document to list planned HTML/content improvements in Pale Moon in detail,
             since many of those are small, individual changes and additions (even though some require a lot of work to
             implement by re-writing parts of the parser and renderer in Pale Moon's core).<br>
       <br>
-The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page.<br>
+The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page, although a number of those will be tackled by the re-base.<br>
       <h4>Layout and Rendering</h4>
 The current layout and rendering engine (Goanna) is Pale Moon's
 independent implementation derived from Gecko. This engine debuted in
@@ -94,7 +106,7 @@ v26 of the browser, and aims to improve upon the previous Pale Moon
 engine by steadily adopting more desired HTML and CSS features. Some
 implementations will be significantly different than those found in
 other browsers, even Gecko-based ones, and aim to provide the best
-solutions to design problems.<br>
+solutions to web design problems.<br>
 
             <h4>
               JavaScript
@@ -124,11 +136,11 @@ many parts of the program itself.<br>
             <br>
             As such, specific media streaming features are <span class="c2">not</span> on Pale Moon's roadmap:<br>
             <ul>
-              <li>MSE (Media Source Extensions)
+              <li>MSE (Media Source Extensions)<sup>[note]</sup>
               </li>
-              <li>DASH support through MSE
+              <li>DASH support through MSE<sup>[note]</sup>
               </li>
-              <li>In-browser DRM (EME), either through dynamically downloaded closed-source components or data-mangling in JS
+              <li>In-browser DRM (EME)
               </li>
             </ul>Current media support will be only extended where needed for regular data formats, and <span class="c3">already includes</span>:<br>
             <ul>
@@ -148,8 +160,13 @@ many parts of the program itself.<br>
               </li>
               <li>Plugin-based video formats (Flash/Silverlight/etc.)
               </li>
-            </ul>There are currently no plans to extend media support any further, considering the already
+            </ul>There are currently no plans to explicitly extend media support further, considering the already
             broadly-encompassing media support in the web browser.<br>
+      <br>
+      <sup>[note]</sup>The planned re-base will provide MSE/MSE-DASH
+support as well as better handling of fragmented media files, which
+should make the browser a better match for popular media sites that
+insist on using this technology. <br>
             <br>
             <h3>
               Platform support
@@ -185,13 +202,11 @@ the UI operates. "Australis", the UI rework done by Mozilla in Firefox
 29 and later which completely removed many customization features, will
 not be adopted. This also means full and ongoing support for total restyling (full
 themes).<br>
-            <br>
-            <span class="c4">As a side note: A number of other Firefox derivatives are published that seem, at first
-            glance, to also not adopt Australis, but those are using extra layers on top of the Australis design to
-            revert the theme/operation (for as much as possible, which is not complete) to a pre-Australis way of
-            working.</span> <span class="c5">This is fundamentally different from Pale Moon</span><span class="c4">:
-            this browser does not have any Australis "CustomizableUI" code in it, and does not "revert" anything with
-            an additional layer on top of undesired UI code.</span><br>
+      <br>
+Even with the planned re-base on post-Australis back-end code, we will
+make every effort to retain our current setup and continue to provide
+you with the fully customizable UI our users have preferred over the
+years.<span class="c4"></span><span class="c4"></span><br>
             <br>
             <h3>
               Extensions and extension API
@@ -201,18 +216,19 @@ themes).<br>
             accepting installations for Firefox application IDs) even though Pale Moon, from v25 onwards, is a
             different application altogether from an extension point of view.<br>
             <br>
-            The future of Pale Moon is to maintain this general compatibility with v24 era Firefox extension
-            capabilities, although over time some things may change, be added or removed, in addition to offering Pale
-            Moon specific extension development in individual add-ons to allow them to target both Pale Moon and
-            Firefox with specific code for them in a single package.<br>
+The future of Pale Moon is to maintain this general compatibility with
+traditional Firefox-targeted extensions, although the (transitional)
+dual-ID setup will eventually be removed, at which point only Pale Moon
+targeted extensions will be accepted. This will still allow developers
+to target both Pale Moon and Firefox with specific code for them in a
+single package, but Firefox-only extensions will not longer be accepted
+by the browser.<br>
             <h4>
               XUL extensions
             </h4>This kind of extension uses the time-tested native extension capabilities to the browser XUL (UI
-            markup) code, combined with JavaScript. XUL extensions are strongly preferred because they are independent
-            of browser-included libraries that may change over time. With Pale Moon keeping front-end compatibility
-            with v24 of Firefox, this is the API level that should be aimed for. Unlike Firefox, existing API features
-            will not be removed, although new ones may be added in the future to extend functionality for extensions to
-            interact with the core.<br>
+            markup) code, combined with JavaScript. <span style="font-weight: bold;">XUL extensions are strongly preferred because they are independent
+            of browser-included libraries that may change over time.</span> With Pale Moon aiming to keep front-end compatibility
+            with v24 of Firefox, this is the API level that should be aimed for.<br>
             <br>
             One issue with Pale Moon accepting Firefox IDed XUL extensions is the fact that this compatibility mode
             does not extend beyond the installation manifest. This is on purpose, to not break with the chrome manifest
@@ -227,16 +243,18 @@ current extension system</span> for Chrome-like alternatives (WebExtensions).<br
 Mozilla has already marked XUL extensions and bootstrapped extensions
 as "legacy" and will be phasing out support for this, which will affect
 many Firefox extensions. We have no plans to do this and many "legacy"
-Firefox extensions will continue to work on Pale Moon in its Firefox
-extension compatibility mode.<br>
+Firefox extensions will continue to be possible on Pale Moon when targeting it.<br>
             <h4>
               JetPack (Add-on SDK) extensions
-            </h4>JetPack (add-on SDK) add-ons are discouraged for Pale Moon, because they inherently run into
-            compatibility issues for multi-application targeting due to its divergent nature from other Mozilla
-            applications. If you still like to develop JetPack add-ons for Pale Moon, you will likely have to make a
-            completely separate extension specific for Pale Moon targeting. Pale Moon's browser-included add-on SDK is
-            different than the one included in Mozilla Firefox, and extension code targeted at one version will likely
-            not be compatible with the other.<br>
+            </h4>JetPack
+(add-on SDK) add-ons are <span style="font-weight: bold;">discouraged</span> for Pale Moon, because they
+inherently run into compatibility issues for multi-application
+targeting due to its divergent nature from other Mozilla applications, and discrepancies in the browser-embedded SDK code.
+In addition, with the front-end focus of Jetpack, there are big and
+increasing issues with compatibility if you expect Firefox Jetpack extensions
+to work on Pale Moon. Pale Moon's browser-included add-on SDK is
+different than the one included in Mozilla Firefox, and extension code
+targeted at one version will likely not be compatible with the other.<br>
             <br>
             For the time being, Pale Moon's add-on SDK is almost fully equivalent to v1.14 of the Mozilla add-on SDK,
             and this will be kept static for at least the near future. If the SDK develops further, it will not be by
@@ -273,7 +291,7 @@ extension compatibility mode.<br>
               </li>
               <li>Password recovery.<br>
                 Offering a password reset option by sending an e-mail to the user requesting this.</li>
-            </ul>In addition, expect a capacity limit to be imposed on individual accounts in the future.<br>
+            </ul>
 
             <h4>
               Pale Moon start page
