@@ -17,6 +17,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -120,10 +121,8 @@ table.c14 {background-color: #F9F9F9}
               <span class="c2"><a name="PMP-x86" id="PMP-x86"></a>Download Pale Moon Portable x86 (32-bit):</span><br>
             </div><br>
             File size is approximately 22 MB (EXE):<br>
-            <ul>
-              <li>
-                <a href="http://www.fosshub.com/Pale-Moon.html">FossHub</a><br>
-              </li>
+<ul>
+              
               <li>
                 <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.2.1.win32.exe">Pale Moon mirror
                 #1</a> (EU)
@@ -149,10 +148,8 @@ table.c14 {background-color: #F9F9F9}
             64-bit Windows (Vista x64 or later). <span class="c2">Keep in mind that the same restrictions apply to this
             as to the desktop 64-bit version with regard to availability of media plug-ins, etc.</span><br>
             File size is approximately 26 MB (EXE):<br>
-            <ul>
-              <li>
-                <a href="http://www.fosshub.com/Pale-Moon.html">FossHub</a>
-              </li>
+<ul>
+              
               <li>
                 <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.2.1.win64.exe">Pale Moon mirror
                 #1</a> (EU)
@@ -174,10 +171,8 @@ table.c14 {background-color: #F9F9F9}
             </div><span class="c9"><br></span> Atom-optimized and Windows XP compatible version of the browser designed
             for portable use on netbooks and similar.<br>
             File size is approximately 19 MB (EXE):<br>
-            <ul>
-              <li>
-                <a href="http://www.fosshub.com/Pale-Moon.html">FossHub</a>
-              </li>
+<ul>
+              
               <li>
                 <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.2.1.Atom.WinXP.exe">Pale Moon
                 mirror #1</a> (EU)

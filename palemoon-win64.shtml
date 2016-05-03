@@ -15,6 +15,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -154,15 +155,7 @@ GPG/PGP signature: <a href="pgp/palemoon-26.2.1.win64.installer.exe.sig">[Sig]</
             <th> Description<br>
             </th>
           </tr>
-          <tr>
-            <td class="c12"> <a href="http://www.fosshub.com/Pale-Moon.html"><img class="c11" alt="" title="Click to download!" src="dl-images/fosshub2.png"></a><br>
-            </td>
-            <td class="c7"> <span class="c3">FossHub</span> (official
-mirror, product page)<br>
-Supporting free and open source software!<br>
-Multiple versions, description and review available<br>
-            </td>
-          </tr>
+          
           <tr>
             <td class="c12"> <a href="http://relmirror.palemoon.org/release/palemoon-26.2.1.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
             </td>
