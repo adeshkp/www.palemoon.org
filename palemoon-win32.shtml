@@ -1,30 +1,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
   
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Download the Pale Moon browser</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <style type="text/css">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Download the Pale Moon browser</title>
+
+  
+<!-- Keep the http-equiv meta tag for IE8 -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+  
+  <style type="text/css">
 table.c17 {background-color: #F9F9F9}
     span.c16 {text-decoration: underline;}
     table.c15 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
@@ -42,159 +40,160 @@ table.c17 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style></head><body>
-    <table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
-          </th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c5">
-            <h1>
-              <a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>Download Pale Moon 26.2.1<br>
-            </h1><span class="c3">New this release:</span> This is a small bugfix update.
-            Details about this update can be found in the <a href="releasenotes-ng.shtml">Release notes.</a><br>
-            <br>
-            These downloads are installers. At the bottom of the page, there are some links to <a href="download.shtml#ZIP_packed_versions">zip packed versions</a> of the browser meant for advanced use (not
-            recommended for average use), that you can use to simply unpack to a location of your choice. If you are
-            looking for a "portable" version of Pale Moon for removable media, <a href="palemoon-portable.shtml">click
-            here</a>.<br>
-            <br>
-            <span class="c3">Pale Moon is in the US English language</span><br>
-            If you want to use Pale Moon in a different language, you can install a Pale Moon language pack.
-            Instructions can be found <a href="langpacks.shtml">here</a>.<br>
-            <br>
-            <table class="sysreq c6" align="center" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td class="c4">
-                    <span class="c3">Minimum System Requirements:</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c5" width="50%">
-                    <ul>
-                      <li>Windows Vista/Windows 7/8/10/Server 2008 or later
-                      </li>
-                      <li>A processor with SSE2 support<span class="c3"><br></span>
-                      </li>
-                      <li>256 MB of free RAM (512 MB or more recommended)<br>
-                      </li>
-                      <li>At least 150 MB of free (uncompressed) disk space
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table><br>
-            <h2>
-              Download locations
-            </h2>File size for the installer is 20.4 MB<br>
-            <br>
-            SHA-256: 8ece60856ab982cecfdfbce4c24dbe208c7d88371db30c31e3c83b74258ae6b5<br>
-            (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.2.1.win32.installer.exe.sig">[Sig]</a><br>
-            <br>
-            <table class="c15" border="1" cellpadding="2" cellspacing="0">
-              <tbody>
-                <tr class="c7">
-                  <th>
-                    Link (click to download)<br>
-                  </th>
-                  <th>
-                    Description<br>
-                  </th>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://relmirror.palemoon.org/release/palemoon-26.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
-                  </td>
-                  <td class="dltable_text">
-                    <span class="c3">Pale Moon mirror</span> #1 (EU)<br>
-                    Direct download link<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
-                  </td>
-                  <td class="c5">
-                    <span class="c3">Pale Moon mirror</span> #2 (US)<br>
-                    Direct download link
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://www.downloadcrew.com/article/21323-pale_moon"><img class="c12" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
-                  </td>
-                  <td class="dltable_text">
-                    <span class="c3">Download Crew</span> (official mirror)<br>
-                    Download link at the top of the page (next to the title)<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://www.gamershell.com/download_110811.shtml"><img class="c13" alt="Logo" src="dl-images/gamershellcom.png"></a><br>
-                  </td>
-                  <td class="c5">
-                    <span class="c3">GamersHell</span><br>
-                    Servers in Europe and the US<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://www.filecluster.com/downloads/Pale-Moon.html"><img class="c14" alt="Filecluster Logo" title="Click to download!" src="dl-images/logo_filecluster.png"></a><br>
-                  </td>
-                  <td class="c5">
-                    <span class="c3">File Cluster</span><br>
-                    Choose the FileCluster server that's closest to you<br>
-                  </td>
-                </tr>
-              </tbody>
-            </table><br>
-            <h3>
-              <a name="ZIP_packed_versions" id="ZIP_packed_versions"></a>ZIP packed versions (approx. 26 MB)
-            </h3>These are simply zipped versions of the Pale Moon browser. Perfect for testing, advanced use, and
-            quick use (unpack and run). Note that this is <span class="c16">not</span> a portable browser, it stores
-            its data in the normal user folders on the system (documents/settings or users folder).<br>
-      <br>
-SHA-256: 0f7e2f1147a600477de61630efd9de13e349eaee7dfdfd930371cd823df0a79f<br>
+    </style>
+</head><body>
+<table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
 
-            GPG/PGP Signature: <a href="pgp/palemoon-26.2.1.win32.zip.sig">[Sig]</a><br>
-<ul>
-              <li>
-                <a href="http://relmirror.palemoon.org/release/palemoon-26.2.1.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #1 EU (direct download)</a> 
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c5">
+      <h1> <a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>Download Pale
+Moon 26.2.1<br>
+      </h1>
+      <span class="c3">New this release:</span> This is a small bugfix
+update. Details about this update can be found in the <a href="releasenotes-ng.shtml">Release notes.</a><br>
+      <br>
+These downloads are installers. At the bottom of the page, there are
+some links to <a href="download.shtml#ZIP_packed_versions">zip packed
+versions</a> of the browser meant for advanced use (not recommended for
+average use), that you can use to simply unpack to a location of your
+choice. If you are looking for a "portable" version of Pale Moon for
+removable media, <a href="palemoon-portable.shtml">click here</a>.<br>
+      <br>
+      <span class="c3">Pale Moon is in the US English language</span><br>
+If you want to use Pale Moon in a different language, you can install a
+Pale Moon language pack. Instructions can be found <a href="langpacks.shtml">here</a>.<br>
+      <br>
+      <table class="sysreq c6" align="center" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="c4"> <span class="c3">Minimum System
+Requirements:</span> </td>
+          </tr>
+          <tr>
+            <td class="c5" width="50%">
+            <ul>
+              <li>Windows Vista/Windows 7/8/10/Server 2008 or later </li>
+              <li>A processor with SSE2 support<span class="c3"><br>
+                </span> </li>
+              <li>256 MB of free RAM (512 MB or more recommended)<br>
               </li>
-              <li>
-                <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.1.win32.zip">Download <span class="c3">ZIP</span> from Pale Moon mirror #2 US (direct download)</a>
-              </li>
-              <li>
-                <a href="http://www.gamershell.com/download_110813.shtml">Download <span class="c3">ZIP</span> from
-                GamersHell</a><br>
-              </li>
-            </ul><br>
-            <h2>
-              Other downloads<br>
-            </h2>Portable version: see <a href="palemoon-portable.shtml">Pale Moon Portable</a><br>
-            Source code: see the source code page <a href="sourcecode.shtml">here</a>.<br>
-            Older versions: <a href="archived.shtml">here</a>.<br>
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c10">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+              <li>At least 150 MB of free (uncompressed) disk space </li>
+            </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h2> Download locations </h2>
+File size for the installer is 20.4 MB<br>
+      <br>
+SHA-256:
+8ece60856ab982cecfdfbce4c24dbe208c7d88371db30c31e3c83b74258ae6b5<br>
+(to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
+GPG/PGP signature: <a href="pgp/palemoon-26.2.1.win32.installer.exe.sig">[Sig]</a><br>
+      <br>
+      <table class="c15" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr class="c7">
+            <th> Link (click to download)<br>
+            </th>
+            <th> Description<br>
+            </th>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://relmirror.palemoon.org/release/palemoon-26.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
+#1 (EU)<br>
+Direct download link<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.1.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c5"> <span class="c3">Pale Moon mirror</span>
+#2 (US)<br>
+Direct download link </td>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://www.downloadcrew.com/article/21323-pale_moon"><img class="c12" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c3">Download Crew</span><br>
+Download link at the top of the page (next to the title)<br>
+            </td>
+          </tr>
+<tr>
+<td style="vertical-align: top; text-align: center;"><a href="http://www.filehorse.com/download-pale-moon-32/"><img style="border: 0px solid ; width: 200px; height: 65px;" class="c11" alt="FileHorse logo" title="Click to download!" src="dl-images/filehorse.png"></a></td>
+<td style="vertical-align: top;"><span style="font-weight: bold;">FileHorse</span><br>
+Download link at the top of the page<br>
+</td>
+</tr>
+          <tr>
+            <td class="c10"> <a href="http://www.gamershell.com/download_110811.shtml"><img class="c13" alt="Logo" src="dl-images/gamershellcom.png"></a><br>
+            </td>
+            <td class="c5"> <span class="c3">GamersHell</span><br>
+Servers in Europe and the US<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://www.filecluster.com/downloads/Pale-Moon.html"><img class="c14" alt="Filecluster Logo" title="Click to download!" src="dl-images/logo_filecluster.png"></a><br>
+            </td>
+            <td class="c5"> <span class="c3">File Cluster</span><br>
+Choose the FileCluster server that's closest to you<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h3> <a name="ZIP_packed_versions" id="ZIP_packed_versions"></a>ZIP
+packed versions (approx. 26 MB) </h3>
+These are simply zipped versions of the Pale Moon browser. Perfect for
+testing, advanced use, and quick use (unpack and run). Note that this
+is <span class="c16">not</span> a portable browser, it stores its data
+in the normal user folders on the system (documents/settings or users
+folder).<br>
+      <br>
+SHA-256:
+0f7e2f1147a600477de61630efd9de13e349eaee7dfdfd930371cd823df0a79f<br>
+GPG/PGP Signature: <a href="pgp/palemoon-26.2.1.win32.zip.sig">[Sig]</a><br>
+      <ul>
+        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.2.1.win32.zip">Download
+          <span class="c3">ZIP</span> from Pale Moon mirror #1 EU
+(direct download)</a> </li>
+        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.1.win32.zip">Download
+          <span class="c3">ZIP</span> from Pale Moon mirror #2 US
+(direct download)</a> </li>
+        <li> <a href="http://www.gamershell.com/download_110813.shtml">Download
+          <span class="c3">ZIP</span> from GamersHell</a><br>
+        </li>
+      </ul>
+      <br>
+      <h2> Other downloads<br>
+      </h2>
+Portable version: see <a href="palemoon-portable.shtml">Pale Moon
+Portable</a><br>
+Source code: see the source code page <a href="sourcecode.shtml">here</a>.<br>
+Older versions: <a href="archived.shtml">here</a>.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c10"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
