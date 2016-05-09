@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -36,7 +37,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-04-20</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-05-09</small><br>
 
             <h3>
               General Information
@@ -183,10 +184,7 @@ We can use your help on this one (Fennec-based), especially for Android-L (5) co
               </li>
               <li>Android-x86 -- Experimental (Fennec-based), no public releases<br>
               </li>
-              <li>ReactOS
--- A specific version is planned for this platform in the future, but only if
-the platform matures enough to warrant the investment.<br>
-              </li>
+              
             </ul><br>
             <h3>
               Front-end
