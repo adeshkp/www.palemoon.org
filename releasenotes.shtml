@@ -15,6 +15,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -52,7 +54,29 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.2.1 (2016-04-08)</h3>This is a small update to fix a problem with keyboard navigation of the user interface.<br>
+            <h3>26.2.2 (2016-05-10) &amp; Android 25.9.2<br>
+</h3>This is mainly a security update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Added a detection routine for dark window colors on Windows
+8 and later (system themes using dark window frames) to better adapt to
+dark system colors. Theme developers can take advantage of this by
+checking for <code>darkwindowframe="true"</code> on <code>#main-window</code> in CSS selectors.<br>
+        </li>
+        <li>CSS classes prefixed with "--" no longer stop parsing of the selectors.</li>
+        <li>Several crash fixes.</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Made GC suppression more aggressive to prevent issues when actually out of memory.</li>
+        <li>Fixed a memory safety hazard in jpeg decoding.</li>
+        <li>Fixed a potentially exploitable crash when using bi-directional text.</li>
+        <li>Updated NSS to 3.19.4.2-PM, fixing CVE-2016-1938 among other things.<br>
+        </li>
+      </ul>
+      <h3>26.2.1 (2016-04-08)</h3>
+This is a small update to fix a problem with keyboard navigation of the user interface.<br>
       <h3>26.2.0 (2016-04-05)</h3>
 This is a major update and bugfix release.<br>
       <br>
