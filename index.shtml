@@ -1,18 +1,29 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-
-
-
-
-
-
+  
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+  
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"><title>The Pale Moon Project homepage</title>
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+  <title>The Pale Moon Project homepage</title>
+
+  
+  
   <meta content="Pale Moon is an Open Source, Mozilla-derived web browser available for Microsoft Windows and Linux, focusing on efficiency and ease of use." name="description">
+
+  
   <meta content="Pale, Moon, Pale Moon, palemoon, firefox, browser, optimized, optimised, speed, fast, browser, web, webbrowser, web browser, internet, windows, Gecko, Goanna, Mozilla" name="keywords">
+
+  
   <meta content="Moonchild" name="author">
+
+  
   <meta content="http://www.palemoon.org/images/pale_moon_logo_256.png" name="og:image">
 
   
@@ -33,7 +44,8 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style></head><body>
+    </style>
+</head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -46,7 +58,8 @@
       </td>
     </tr>
     <tr>
-      <td style="padding-top: 1em;"> Pale Moon is an Open Source, Goanna-based web
+      <td style="padding-top: 1em;"> Pale Moon is an Open Source,
+Goanna-based web
 browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
 efficiency and ease of use. Make sure to get the most out of your
@@ -56,7 +69,8 @@ Pale Moon offers you a browsing experience in a browser completely
 built from its own, independently developed source that has been forked
 off from Firefox/Mozilla code, with carefully
 selected features and optimizations to improve the browser's speed<small>*</small>,
-resource use, stability and user experience, while offering full customization and a growing collection of
+resource use, stability and user experience, while offering full
+customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
       <br>
 &nbsp;<br>
@@ -82,11 +96,10 @@ download menu at the top of this page!<br>
         <li>Optimized for modern processors</li>
         <li>Based on our own optimized layout engine (Goanna)<br>
         </li>
-
         <li>Safe: forked from mature Mozilla code and regularly updated</li>
-        <li>Secure: Additional security features and security-aware development<br>
+        <li>Secure: Additional security features and security-aware
+development<br>
         </li>
-
         <li>Supported by a friendly, active community of users<br>
         </li>
         <li>Familiar, efficient, fully customizable interface </li>
@@ -108,7 +121,8 @@ extensions<br>
         </li>
         <li>Able to import existing Firefox profiles with the <a href="migrationtool.shtml">migration tool</a> </li>
       </ul>
-      <br>This
+      <br>
+This
 browser, even though fairly close to Gecko-based browsers like Mozilla
 Firefox
 in the way it works, is based on a different layout engine and offers a
@@ -121,7 +135,8 @@ if you need <span class="bold">specialized accessibility features</span>
 or <span class="bold">integration of Windows' parental controls</span>,
 then Pale Moon may not be a good browser choice for you.<br>
       <br>
-With the current generation of mainstream browsers, there are also more obvious and not
+With the current generation of mainstream browsers, there are also more
+obvious and not
 just "under the hood" differences: <span class="bold">Pale Moon will
 continue to provide</span> <span class="bold">grouped
 navigation</span> buttons of a decent size, a bookmarks toolbar that is
@@ -137,15 +152,16 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>8 Apr 2016</small></small><br>
-Pale Moon 26.2.1 has been released</span>
-which is a small bugfix update to 26.2.0, a web compatibility and security release.<br>
+            <span class="bold"><small><small>10 May 2016</small></small><br>
+Pale Moon 26.2.2 has been released</span>
+which is a small bugfix and security update.<br>
             <br>
-            <span class="bold"><small><small></small></small></span><span class="bold"><small><small>26 Jan 2016</small></small><br>
+            <span class="bold"></span><span class="bold"><small><small>26 Jan 2016</small></small><br>
 Pale Moon 26 has been released</span>
 which is new milestone in Pale Moon's development! Please take a
 moment to read the <a href="releasenotes.shtml">release
-notes</a> and see what all has been changed in this release that has been in the works for many months.<br>
+notes</a> and see what all has been changed in this release that has
+been in the works for many months.<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
@@ -176,7 +192,8 @@ due to fees)</small></small><br>
         </div>
       </form>
       <div class="center"> Bitcoin (BTC): <a href="bitcoin:1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE?label=Moonchild%20Productions">1PaLEmooNYSouqxNZU2U4zHaSRfPBH6ifE</a><br>
-      <script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=1BCXPnXrWgDck5npV3DVkLbtkE41hMzJ77&amp;output=BTC&amp;apiKey=a3d543a5b91b53d349c11836b83d312f7786616b95263c53d106c768ae4b5bd87b366bd9caf55f0d03b78138f96d625e59a5a57996ccb4299579b7ed648ad941"><img src="https://shapeshift.io/images/shifty/small_light_altcoins.png" class="ss-button"></a><br>
+      <script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script>
+      <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=1BCXPnXrWgDck5npV3DVkLbtkE41hMzJ77&amp;output=BTC&amp;apiKey=a3d543a5b91b53d349c11836b83d312f7786616b95263c53d106c768ae4b5bd87b366bd9caf55f0d03b78138f96d625e59a5a57996ccb4299579b7ed648ad941"><img src="https://shapeshift.io/images/shifty/small_light_altcoins.png" class="ss-button"></a><br>
       <a href="donations.shtml">Other options</a> for supporting Pale
 Moon are available too! </div>
       <br>
@@ -199,13 +216,13 @@ networking and program-wide optimizations not related to a certain
 provide a real world browsing scenario, and should not be relied on to
 determine "which browser is faster or better".<br>
       <br>
-      <br></span></small>
+      <br>
+      </span></small>
       <div class="right"><small><span class="grey">Sponsors and
 technologies:<br>
-<a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://moonchildproductions.info/goanna.shtml"><img title="Powered by Goanna!" style="border: 0px solid ; width: 200px; height: 66px;" src="images/goanna200x66.png" class="c11" alt="Goanna" align="top"></a><br>
-
-<a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a><a href="http://www.travel-ticker.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/travel_ticker.png" class="c11" alt="Travel Ticker"></a><a href="https://www.conversational.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/conversational-200-67.png" class="c11" alt="Answering service"></a> </div>
-<br>
+      <a href="http://www.chameleonjohn.com/" target="_blank"> </a></span></small><a href="http://moonchildproductions.info/goanna.shtml"><img title="Powered by Goanna!" style="border: 0px solid ; width: 200px; height: 66px;" src="images/goanna200x66.png" class="c11" alt="Goanna" align="top"></a><br>
+      <a href="http://www.chameleonjohn.com/" target="_blank"><img src="images/chameleonjohn_logo2.png" class="c11" alt="ChameleonJohn  - Online Coupons, Promo Codes &amp; Deals"></a><a href="https://www.conversational.com/" target="_blank"><img style="border: 0px solid ; width: 200px; height: 67px;" src="images/conversational-200-67.png" class="c11" alt="Answering service"></a> </div>
+      <br>
       </td>
     </tr>
     <tr>
@@ -227,5 +244,5 @@ technologies:<br>
 <!-- SS data: 
 CJ 16-07-11
 CVSC 16-11-30
-TT 16-05-22-->
+-->
 </body></html>

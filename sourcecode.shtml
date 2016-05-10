@@ -6,6 +6,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -49,12 +50,15 @@ table.c6 {background-color: #F9F9F9}
             </h2>The source code of the current (main-line) release version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.2.1-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.2.2-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
-            The source code archive above is for the main-line x86/x64 release version of Pale Moon. If you are
-            interested in other release branches like the Atom source, please check the git repository linked to below.<br>
+The source code archive above is for the main-line x86/x64 release
+version of Pale Moon on a Windows file system. If you are interested in
+other release branches like the Atom source or need unix-like file
+system flags in your tree, then please check the git repository linked
+to below where you can find additional source tree archives.<br>
             <br>
             <span class="c2">If you want to contribute:</span> These source code archives are snapshots of the actual
             releases of Pale Moon, and since it is being actively developed, any patches you may want to contribute
