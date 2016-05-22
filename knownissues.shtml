@@ -9,6 +9,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -56,6 +57,14 @@
 <ol>
 
         
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On some sites, pressing "back" may occasionally cause a browser crash</span><br>
+On some specific sites, using the browser's "back" button/navigating
+back in history may cause the browser to crash. This is caused by an
+issue in the XSS filter.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> Disable the XSS filter in options<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.2.3<br>
+<span class="c4"></span></li>
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
                 This is caused by a deep-rooted issue in the graphics rendering back-end affecting all
@@ -64,6 +73,7 @@
                 <span class="bold">Status:</span> <span class="research">[Research]</span><br>
                 <span class="bold">Workaround:</span> disable hardware acceleration
               </li>
+
 
 
 
