@@ -9,7 +9,6 @@ body {
   letter-spacing: 0.3px;
   background-color: #d4d9f7;
   background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
-  background: -moz-linear-gradient(top, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
 }
 
 h1 {
@@ -43,6 +42,7 @@ a:visited {
   border-radius: 9px;
   padding: 3px;
   background-color: rgb(249, 249, 249);
+  color: black;
 }
 
 .maintableheader {
@@ -97,6 +97,7 @@ td.topnewstext {
 
 blockquote {
   background-color: #ffffcc;
+  color:black;
   font-family: "Museo500Regular","Times New Roman",Times,serif;
   box-shadow: 1px 1px 2px #000;
   margin: 16px;
