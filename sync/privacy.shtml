@@ -21,15 +21,15 @@
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync Privacy Policy</h1>
-      <div style="text-align: right;">Last Updated: August 10<sup>th</sup>,
-2014.<br>
+      <div style="text-align: right;">Last Updated: May 29<sup>th</sup>,
+2016.<br>
       </div>  
     
       <h3>Privacy overview</h3>
 
     
       <ul>
-<li>We need your username and email address to register you with the Sync Service, 
+<li>We need your email address to register you with the Sync Service, 
           but we don&#8217;t ask for other personal information.</li><li>Your data is only used to provide the Pale Moon Sync Service.</li><li>Pale Moon Sync on your computer encrypts your data before sending it to us, meaning 
           the data isn&#8217;t stored on our servers in a usable form. <span style="font-weight: bold;">Only you</span> have the key to decrypt and use the stored data.<br>
 </li><li>We don&#8217;t sell or disclose your data.</li>
@@ -115,8 +115,15 @@ cannot be recovered from it).</p>
  
         
       <p>As part of registration, you will also create a recovery key. However, the Pale Moon Sync Service is designed so that your 
-recovery key resides only on your computer and is never transmitted to the 
-Pale Moon Sync servers or to us. </p>
+recovery key resides <span style="font-weight: bold;">only</span> on your computer and is <span style="font-weight: bold;">never</span> transmitted to the 
+Pale Moon Sync servers or to us.<br>
+</p>
+      <p>The only time your recovery key is transmitted is when you
+link a new device using the 12-character "easy setup" method. Even so,
+this transmission occurs both over SSL and client-side encrypted using
+a 3-party key exchange juggling protocol (J-PAKE) that prevents the intermediate (our data exchange server involved in this process) from ever learning your recovery key.<br>
+ </p>
+
 
         
       <p>Once
@@ -178,14 +185,16 @@ this case the key required to decrypt the User Data
 and access to your User Data will remain impossible without it.<br>
 </p>
       <p>No legal or governmental entity will be able to access User
-Data that is sent to use by using the Pale Moon Sync Service by design.
+Data that is sent to us by using the Pale Moon Sync Service by design.
 While we will comply with any official request for User Data as
 outlined in the previous paragraph as part of due process, this User
 Data cannot be decrypted, analyzed or used without your key and will
 therefore be useless to any entity requesting this data unless they
-also obtain the key from you.<br>
-It is your responsibility as a user to keep your recovery key safe to prevent access to your User Data.<br>
+also obtain the key from you.</p>
+      <p>
+It is your responsibility as a user to keep your recovery key safe to prevent access to your User Data by third parties.<br>
       </p>
+
 
 
         
@@ -229,7 +238,7 @@ Pale Moon Sync Service, you may disable the use of it from the Pale Moon prefere
 country. Some countries may provide for less legal protection of your 
 personal data; others may provide more legal protection. By using the 
 Pale Moon Sync Service, you consent to the transfer of the information 
-collected, as outlined by this Policy, to us in the country where the Sync server is located (currently Germany), 
+collected, as outlined by this Policy, to us in the country where the Sync server is located (currently the U.S.A.), 
 which may potentially provide a lesser level of data security than in your country 
 of residence.</p>
 
