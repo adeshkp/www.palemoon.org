@@ -63,7 +63,7 @@ back in history may cause the browser to crash. This is caused by an
 issue in the XSS filter.<br>
           <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
           <span style="font-weight: bold;">Workaround:</span> Disable the XSS filter in options<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.2.3<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.3.0<br>
 <span class="c4"></span></li>
         <li><span class="c4">Subpixel rendering for fonts is sub-optimal in some elements</span><br>
                 Some elements of the browser (e.g. tooltips and some web page elements) use suboptimal font rendering.
