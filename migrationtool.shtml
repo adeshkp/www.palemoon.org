@@ -30,52 +30,18 @@
           <td>
             <h1>
               Pale Moon profile migration tool
-            </h1>This tool will help you migrate a Mozilla Firefox profile to Pale Moon.<br>
-            This tool may not work for everyone, since it has a few important limitations:<br>
-            <ol>
-              <li>This tool only works for the default profile locations for Firefox and Pale Moon.
-              </li>
-              <li>This tool does not work for portable versions of either browser.
-              </li>
-              <li>This tool <span class="italic">may</span> not work well on limited accounts on Windows Vista.</li>
-        <li>This tool is not able to migrate passwords from later
-versions of Firefox to Pale Moon due to differences in password file
-format.<br>
-        </li>
-
-            </ol>It was put together mainly for people who have
-standard installations and as a convenient aid for people who do not
-have enough knowledge of the Windows O.S. and filesystem to manually
-copy the profiles over, and who would like to move history, bookmarks
-and extensions across to their new browser. It is not meant to be very
-versatile or flexible at this moment, but "gets the job done" in most
-cases.<br>
-            <br>
-            Current version: <span class="bold">1.7.0</span> (2015-08-24)<br>
-            This version update fixes some issues with popular add-ons and updates to the latest version of the runtime.<br>
-            <br>
+            </h1><br>
             <div class="c4">
-              <span class="bold">Important:</span> this tool is not aware of compatibility issues with Firefox extensions
-              in general, and will copy over <span class="bold">all</span> installed extensions. After migration, you
-              will have to examine your installed extensions and see which ones need to be updated, reverted to an
-              earlier compatible version, removed or changed out for an alternative. <span class="bold">Not all Firefox
-              extensions are guaranteed to work in Pale Moon</span>, and some may even prevent proper browser operation
-              if they are incompatible but still installed!<br>
+              <span class="bold">Note:</span>
+with the increasing divergence from Firefox, this migration tool has
+become unusable in its current state. If you wish to import individual
+items from Firefox to Pale Moon like bookmarks, you are recommended at
+this time to use available import/export features in either browser
+(e.g. export to html for bookmarks) or external tools, and otherwise
+re-build your profile from a fresh installation of Pale Moon.<br>
+We are looking into a more functional replacement of this tool, but no timeline is set for completion of it at this time.<br>
             </div><br>
-            <br>
-            <div class="center">
-              <a class="dllink_green" href="http://relmirror.palemoon.org/tools/pm-migrate.exe">Download now
-              (free)</a><br>
-            </div><br>
-            <br>
-            <span class="red bold">Note:</span> <span class="bold">Please close both Firefox and Pale Moon before attempting to
-            migrate your profiles.</span> Not doing so may cause an incomplete transfer or give errors.<br>
-            <br>
-            If this tool, for whatever reason, doesn't work for you, please check the <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=144">FAQ</a> section on the forum for instructions on
-            how to manually copy over a profile.<br>
-            <br>
-            
-            This tool is supplied as COPYRIGHTED FREEWARE. Please see the <a href="freeware-license.shtml">Pale Moon Freeware License</a> for details.<br>
+            <span class="red bold"></span><br>
           </td>
         </tr>
         <tr>
