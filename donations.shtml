@@ -24,6 +24,8 @@
 
 
 
+
+
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Donations and support</title><!-- Keep the http-equiv meta tag for IE8 -->
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -53,10 +55,21 @@
               Pale Moon Donations and Support
             </h1>If you enjoy this free browser enough to want to give something in return, there are several ways you
             can support development of Pale Moon. <span class="red bold">If you want your donation to remain anonymous,
-            please make sure to let me know!</span><br>
-            <h2>
+            please make sure to let me know</span><span style="font-weight: bold;"><br>
+      </span>
+      <ol>
+        <li><a href="#Monetary_donations">Monetary donations</a></li>
+        <li><a href="#Donating_development_hardware">Donating hardware</a></li>
+        <li><a href="#Donating_services">Donating services</a></li>
+        <li><a href="#Corporate_sponsorship">Corporate sponsorship</a></li>
+        <li><a href="#Thank_you">Thank you!</a></li>
+      </ol>
+      <br>
+      <hr style="width: 100%; height: 2px;"><span style="font-weight: bold;"></span>
+      <h2><a name="Monetary_donations"></a>
               Monetary donations
-            </h2>You can transfer money by using one of the following methods:<br>
+            </h2>
+You can transfer money by using one of the following methods:<br>
             <ul>
               <li>Paypal - this is a well-known US-based electronic money provider. You can use the donation button on
               the <a href="http://www.palemoon.org/">Pale Moon home page</a> to make a donation through PayPal.<br>
@@ -82,10 +95,15 @@
               </li>
               
               <li>Other
-cryptocurrencies are no longer accepted at this time. It is too
+cryptocurrencies are no longer directly accepted at this time. It is
+too
 cumbersome to deal with the many different types of cryptocurrencies
 for one-time donations that are likely never going to see more
-occurrences in the same coin, as well as the unreliable nature of cryptocurrency exchanges. See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
+occurrences in the same coin, as well as the unreliable nature of
+cryptocurrency exchanges. You can, however, use the "altcoin" button on
+the home page to have alternative cryptocurrency automatically
+converted and donated.<br>
+See <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044">http://forum.palemoon.org/viewtopic.php?f=24&amp;t=4044</a><br>
                 </li>
               <li>Sending cash (bills only please, no coins)<br>
                 If you prefer, you can also send a donation in the form of cash (any currency accepted, but Swedish
@@ -100,13 +118,13 @@ occurrences in the same coin, as well as the unreliable nature of cryptocurrency
                 </div>
               </li>
             </ul>
-            <h2>
+            <h2><a name="Donating_development_hardware"></a>
               Donating development hardware
             </h2>If you wish to donate (surplus) hardware to help development of Pale Moon, you should contact me by
             e-mail at moonchild [at] palemoon.org to discuss if what you wish to donate will be useful for me (saves
             unnecessary shipping expenses and saves stuff taking up my floor space ;) ).<br>
       <br>
-<h2>
+<h2><a name="Donating_services"></a>
               Donating services
             </h2>If you want to supply services to help Pale Moon development, there are a few possible areas you may
             be able to help. Please contact me to discuss this.<br>
@@ -119,10 +137,45 @@ occurrences in the same coin, as well as the unreliable nature of cryptocurrency
               </li>
               <li>Cloud computing services/build machines<br>
               </li>
-              <li>Any other service you think may be of benefit to Pale Moon development<br>
-              </li>
+              <li>Any other service you think may be of benefit to Pale Moon development</li>
             </ul><br>
-            <h1>
+      <h2><a name="Corporate_sponsorship"></a>Corporate sponsorship</h2>
+If you are an established company and wish to become a corporate
+sponsor of the Pale Moon project, then that is also an option. Please
+note that this kind of sponsorship involves a significant contribution
+in terms of resources or financial support. If you are simply looking
+for a prominent placement of your logo to improve your back-links or
+SEO then kindly please move right along. This is not purchasable
+advertisement space, and your sponsorship support is expected to be
+significantly greater than the average advertising costs involved for
+custom ads.<br>
+      <br>
+Corporate sponsorship will give your company a prominent mention on the
+project home page for as long as the endorsement lasts, with a display
+of your logo and link back to your company's site.<br>
+      <br>
+To be eligible for a sponsorship position:<br>
+      <ul>
+        <li>Your company must be an established company, not an
+individual. We currently don't accept personal home pages or individual
+sponsorship - please use other forms of donation if you wish to help
+out as an individual.</li>
+        <li>Your company must have clear (and preferably public) support of Open Source software and support the principles behind it.</li>
+        <li>You must be a direct representative of the company. We
+can't accept third-party endorsements for a number of legal and
+practical reasons.</li>
+        <li>Sponsorship must be of an on-going nature. Although we
+don't expect indefinite support, we do expect you to dedicate at least
+a year of endorsement to our project.</li>
+        <li>You should have a logo available for us to use of
+sufficient clarity. Transparent backgrounds surrounding logos are
+greatly preferred.<br>
+        </li>
+      </ul>
+Please contact business-inquiries [at] palemoon [dot] org if you wish to apply to become our sponsor.<br>
+      <br>
+
+            <h1><a name="Thank_you"></a>
               Thank you
             </h1>I would like to express my thanks to the following people for their support, in no particular order.
             <span class="bold red">Without your help, support and contributions, Pale Moon would not have been
@@ -331,7 +384,8 @@ Gillett, Michael Castro, Keith Billmore, Daniel Nolan, Alfred Heer,
 Denis J.O. Sullivan, Herman Ausprung, Aaron
 Carlisle, Mitch Ames, Michael Lewin, GJM v/d Laar,
 Nico Hänschen, David Slye, Philip Geneste, Thomas Sparrow, Michael
-Carroll, Lynford Burley, Sandra Woodruff, Clemens Wilhelm, Michael
+Carroll, Lynford Burley, Sandra Woodruff, Clemens Wilhelm,
+Michael
 Mashburn, Alexander Krigsfeld, Robert Corfield, Faramarz Rabii,
 Salvador Trujillo, Jos Polman, T~n~T Designs, Richard Shewchuk,
 Nicholas Thyer, Autoimmunity Research Inc., Dex Osborne,
@@ -394,7 +448,8 @@ Rajapakse, Hayri T. Uyar, Dave Smith, Kurt V Meyer, Mark Kaishar, Denis
 Cosandey, Stefan Helfrich, Christopher Delorit, Jay Martin, Björn
 Andersson, James Muchow,John Hancock, Ludwig Grann, Marc Adnin, Anton
 Peshkov, L. Verdijk, James Nyman, Christopher Dexholm, Silvio
-Romagnoli, Ken Phelan, Peter Ansdell, Thomas Gilleran, Anthony Hedge, Eric Duporge, DucknMoose, James Rodgers<br>
+Romagnoli, Ken Phelan, Peter Ansdell, Thomas Gilleran, Anthony Hedge,
+Eric Duporge, DucknMoose, James Rodgers, Milo Henderson, TBP Industries<br>
  </div><br>
             <div style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;">
               <span class="bold">Note:</span>
