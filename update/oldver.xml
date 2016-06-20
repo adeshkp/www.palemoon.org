@@ -3,5 +3,8 @@
 <updates>
   <update type="major" displayVersion="26.2.2" appVersion="26.2.2"  extensionVersion="26.2.2" 
           detailsURL="http://www.palemoon.org/releasenotes.shtml"  showNeverForVersion="true">
+  <patch type="complete"
+         URL="http://aus.palemoon.org/mar/invalid_placeholder.mar"
+         size="28000000"/>
   </update>
 </updates>
