@@ -1,5 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -10,8 +11,8 @@
   <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
 
   
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-  <title>The Pale Moon Project homepage</title>
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css"><title>The Pale Moon Project homepage</title>
+  
 
   
   
@@ -44,8 +45,7 @@
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
     img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -149,17 +149,10 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>10 May 2016</small></small><br>
-Pale Moon 26.2.2 has been released</span>
-which is a small bugfix and security update.<br>
-            <br>
-            <span class="bold"></span><span class="bold"><small><small>26 Jan 2016</small></small><br>
-Pale Moon 26 has been released</span>
-which is new milestone in Pale Moon's development! Please take a
-moment to read the <a href="releasenotes.shtml">release
-notes</a> and see what all has been changed in this release that has
-been in the works for many months.<br>
-            <br>
+            <span class="bold"><small><small>21 Jun 2016</small></small><br>
+Pale Moon 26.3.0 has been released</span>
+which is a bugfix, Windows 10 compatibility and security update.<br>
+            <span class="bold"></span><span class="bold"><small><small></small></small></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
           </tr>
