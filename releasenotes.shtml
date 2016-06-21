@@ -17,6 +17,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -54,8 +55,43 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.2.2 (2016-05-10) &amp; Android 25.9.2<br>
-</h3>This is mainly a security update.<br>
+            <h3>26.3.0 (2016-06-21)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Added detection for dark system themes on Windows 10 and
+re-worked Windows 10 specific theming to better integrate into the OS
+and provide more clarity.</li>
+        <li>HTML5 media controls have been reworked to a horizontal volume control 
+on all media, including HTML5 audio that was previously without an 
+element-control for volume.</li>
+        <li>Default HTML5 media volume preference added as media.default_volume -- fractional, default 1.0 (=100%).</li>
+        <li>String.prototype.match() and .replace() are now fully spec compliant.</li>
+        <li>NSPR and NSS now correctly no longer enforce IA32 architecture 
+compatibility, getting the advantage of SSE2 like the rest of the code.</li>
+        <li>Worked around crashes in the XSS filter when navigating back in history 
+due to document fragments.</li>
+        <li>Instated a hard minimum of 10,000 places entries regardless of free disk
+ space and total memory to prevent undesired expiration of history. That is around 16MB for an average entry size, 
+which should be sane enough even on low-memory machines.</li>
+        <li>Fixed a typo in networking code introduced in 26.2.2 that
+would cause issues on some sites due to adding extra forward slashes to
+the URL.</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Fixed a number of memory safety hazards and potentially exploitable crashes.</li>
+        <li>Fixed CVE-2016-2821 Use-after-free in the mozilla::dom::Element class<br>
+        </li>
+        <li>Fixed netaddr deserialization for AF_UNSPEC and AF_LOCAL.</li>
+        <li>Fixed a memory overrun error in the VP8 encoder. <span class="c7">DiD</span></li>
+        <li>Fixed non-threadsafe re-use of pixman images to prevent potential race conditions. <span class="c7">DiD</span></li>
+        <li>Fixed CVE-2016-2825 Partial Same Origin Policy violation</li>
+      </ul>
+      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>26.2.2 (2016-05-10) &amp; Android 25.9.2<br>
+      </h3>
+This is mainly a security update.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>

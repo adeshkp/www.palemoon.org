@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -56,7 +57,7 @@ table.c17 {background-color: #F9F9F9}
     <tr>
       <td class="c5">
       <h1> <a href="http://www.palemoon.org/pad_palemoon-x86.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>Download Pale
-Moon 26.2.2<br>
+Moon 26.3.0<br>
       </h1>
       <span class="c3">New this release:</span> This is a small bugfix
 update. Details about this update can be found in the <a href="releasenotes-ng.shtml">Release notes.</a><br>
@@ -96,9 +97,9 @@ Requirements:</span> </td>
       <h2> Download locations </h2>
 File size for the installer is 20.4 MB<br>
       <br>
-SHA-256: 62fb266883bd697a71797eab95858628d2090ce10499e50782f52dc9ff84502e<br>
+SHA-256: d5a5a2b5d89c71df327d85819f886be66b5f9165024163b92976bcbf2abc2e95<br>
 (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
-GPG/PGP signature: <a href="pgp/palemoon-26.2.2.win32.installer.exe.sig">[Sig]</a><br>
+GPG/PGP signature: <a href="pgp/palemoon-26.3.0.win32.installer.exe.sig">[Sig]</a><br>
       <br>
       <table class="c15" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -109,7 +110,7 @@ GPG/PGP signature: <a href="pgp/palemoon-26.2.2.win32.installer.exe.sig">[Sig]</
             </th>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://relmirror.palemoon.org/release/palemoon-26.2.2.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            <td class="c10"> <a href="http://relmirror.palemoon.org/release/palemoon-26.3.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
 #1 (EU)<br>
@@ -117,7 +118,7 @@ Direct download link<br>
             </td>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.2.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c10"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
             <td class="c5"> <span class="c3">Pale Moon mirror</span>
 #2 (US)<br>
 Direct download link </td>
@@ -160,13 +161,13 @@ is <span class="c16">not</span> a portable browser, it stores its data
 in the normal user folders on the system (documents/settings or users
 folder).<br>
       <br>
-SHA-256: 3288bab83415b2c361868cc8b974d5caee8be3699e950b2f64c4bc9b6a1d568b<br>
-GPG/PGP Signature: <a href="pgp/palemoon-26.2.2.win32.zip.sig">[Sig]</a><br>
+SHA-256: 01bc53493b146499f0f8656cec144eca7b42cdfaa458f1b61c65b0689e98bc12<br>
+GPG/PGP Signature: <a href="pgp/palemoon-26.3.0.win32.zip.sig">[Sig]</a><br>
       <ul>
-        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.2.2.win32.zip">Download
+        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.3.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #1 EU
 (direct download)</a> </li>
-        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.2.2.win32.zip">Download
+        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #2 US
 (direct download)</a> </li>
         <li> <a href="http://www.gamershell.com/download_110813.shtml">Download
