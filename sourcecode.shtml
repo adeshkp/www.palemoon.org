@@ -50,7 +50,7 @@ table.c6 {background-color: #F9F9F9}
             </h2>The source code of the current (main-line) release version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.2.2-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.3.0-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
@@ -76,8 +76,11 @@ to below where you can find additional source tree archives.<br>
               properly build on versions of Visual Studio older than VS2010.<br>
 In its current state, Pale Moon will <span style="font-style: italic;">not</span> build on VS 2013 Community or
 Full due to breaking changes in the MSVC compiler. </li>
-              <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span> (clang is not currently producing stable builds on Linux), 4.7.*
-              recommended but later versions might work too. We do not support particularly old versions of GCC (&lt; 4.6).<br>
+              <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span>
+(clang is not currently producing stable builds on Linux), 4.7.*
+recommended but later versions might work too. We do not support
+particularly old versions of GCC (&lt; 4.6), and 4.9 might not like our
+code.<br>
               </li>
               <li>You will need to get the build prerequisites as outlined on the Mozilla Developer Network. Most
               notably, you need the Mozilla Build Tools package (1.8-1.10, other versions may not work) and DirectX SDK
