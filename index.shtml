@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -148,6 +149,10 @@ to name a few things.<br>
         <tbody>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
+            <br>
+            <span class="bold"><small><small>25 Jun 2016</small></small><br>
+Pale Moon 26.3.1 has been released</span>
+which is a web compatibility and Windows 10 compatibility update.<br>
             <br>
             <span class="bold"><small><small>21 Jun 2016</small></small><br>
 Pale Moon 26.3.0 has been released</span>

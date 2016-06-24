@@ -18,6 +18,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -55,7 +56,21 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.3.0 (2016-06-21)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+            <h3>26.3.1 (2016-06-25)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed an issue with new tab button theming on dark toolbars.</li>
+        <li>Reverted the useragent identification of Firefox
+compatibility mode to 38.9 to avoid WOFF2 font issues for sites that
+don't use proper font deployment as recommended by the W3C.</li>
+        <li>Added a site-specific override for Google fonts to make sure it always works even if not using Firefox compatibility mode.<br>
+(workaround pending for a proper solution on Google's side)</li>
+        <li>Adjusted the "dark color" detection routine to switch text to white at higher relative contrast levels.<br>
+This will more closely match Windows 10's "flip point" for different
+accent colors and is within the recommended range determined by the
+WCAG.</li>
+      </ul>
+      <h3>26.3.0 (2016-06-21)</h3>
+<span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Added detection for dark system themes on Windows 10 and
 re-worked Windows 10 specific theming to better integrate into the OS
