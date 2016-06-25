@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
   
@@ -43,10 +44,15 @@ your client to the following address:<br>
       <br>
 Alternatively, you can enter our IRC channel directly from the browser
 below and have a live chat!<br><span style="font-weight: bold;">Please be patient</span>
-if you have a question, and keep in mind that this is a public chat
+if you have a question, and <span style="color: rgb(204, 0, 0);">keep in mind that this is a public IRC chat
 room, not private support chat like you may be used to from chatting
-with commercial companies. If you don't get an
-answer, it's recommended that you post on the forum instead. Please
+with commercial companies.</span> If you don't get an
+answer, it's recommended that you post on the forum instead.
+People on IRC commonly idle in chat rooms and may not actually see your
+questions or posts until a lot later - although the chat is live chat,
+and you may get an instant dialogue going, it may also not be immediate.<br>
+      <br>
+Please
 follow <a href="chat-etiquette.shtml">expected etiquette</a> when
 joining this chat room. Thanks in advance! :)<br>
 <br>
