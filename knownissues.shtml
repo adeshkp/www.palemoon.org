@@ -11,6 +11,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -65,8 +66,19 @@
 
 
 
-              <li>
-                <span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
+              <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
+This is due to a small issue in the new Windows 10 user interface in
+Pale Moon adapting to a chosen accent color, but Windows not having an
+accent color set in the registry.<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed, in testing]</span></span><br>
+          <span style="font-weight: bold;">Workaround/Fix:</span> Go
+into "personalization" of your desktop, Select "color" on your left,
+and choose an accent color to use for your windows. This will make the
+proper registry entries. Exit and restart the browser to have it pick
+up your new choice.<br>
+
+                <span class="c4"></span></li>
+        <li><span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
                 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
                 extension.<br>
                 More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
@@ -80,6 +92,7 @@
                 forum</a>)<br>
                 <br>
               </li>
+
             </ol><!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
 at this time</span><span style="font-weight: bold;"></span><br> -->
             <span class="bold"><br>
