@@ -2,6 +2,8 @@
 <html><head>
 
 
+
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
   
@@ -57,9 +59,8 @@ follow <a href="chat-etiquette.shtml">expected etiquette</a> when
 joining this chat room. Thanks in advance! :)<br>
 <br>
       <br>
-      <div style="text-align: center;"><a class="dllink_blue" href="chat-online.shtml">
-Click here to start chat!</a>
-      <br>
+      <div style="text-align: center;"><a class="chatbutton-freenode" href="chat-online.shtml">&nbsp; Start chat (freenode client)</a>
+      <a class="chatbutton-kiwi" href="https://kiwiirc.com/client/irc.freenode.net/#palemoon">&nbsp; Start chat (KiwiIRC client)</a><br>
       <br>
       <br>
 

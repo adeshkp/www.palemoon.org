@@ -129,6 +129,34 @@ pre {
   border-radius: 9px; 
 }
 
+.chatbutton-freenode {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 24px 16px 24px 54px;
+  background-color: #d3d3f0;
+  color: black !important;
+  text-decoration: none;
+  background-image: url(contact/irc-logo-s.png);
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
+.chatbutton-kiwi {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 24px 16px 24px 54px;
+  background-color: #505050;
+  color: white !important;
+  text-decoration: none;
+  background-image: url(contact/kiwi-logo.png);
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
 .chatframe {
   margin-top:8px;
   border:1px solid #eee;
