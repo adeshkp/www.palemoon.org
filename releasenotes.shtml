@@ -19,6 +19,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -56,7 +57,23 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.3.1 (2016-06-25)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+            <h3>26.3.2 (2016-06-27) - Windows only<br>
+</h3><span style="font-weight: bold;">This release only has pertinent changes for Windows. </span>Other operating systems do <span style="font-weight: bold;">not</span> need this update.<br>
+      <span style="font-weight: bold;"><br>
+Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a rare issue where the browser would not initialize
+properly (missing bookmarks and menu entries) if certain Windows
+registry values were missing (Windows 8 only).<br>
+        </li>
+        <li>Fixed an issue on Windows 10 where the classic menu bar would become unreadable (white on white).</li>
+        <li>Portable only: Switched to non-compressed binaries to
+prevent issues with antivirus packages, to prevent issues with browser
+run-time operation, and to simplify code signing.<br>
+        </li>
+      </ul>
+      <h3>26.3.1 (2016-06-25)</h3>
+<span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Fixed an issue with new tab button theming on dark toolbars.</li>
         <li>Reverted the useragent identification of Firefox
