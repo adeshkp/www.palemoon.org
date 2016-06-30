@@ -13,6 +13,9 @@
 
 
 
+
+
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -68,6 +71,7 @@
 
 
               
+        
         <li><span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
                 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
                 extension.<br>
@@ -82,6 +86,7 @@
                 forum</a>)<br>
                 <br>
               </li>
+
 
             </ol><!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
 at this time</span><span style="font-weight: bold;"></span><br> -->
@@ -104,8 +109,33 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
-      <span style="font-weight: bold;">26.3.1:<br>
+      <span style="font-weight: bold;">26.3.2:<br>
 </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
+
+
+
+This is due to Windows 10 apparently not always setting the proper registry entries for applying color to the Windows UI.<br>
+
+
+
+          <span style="font-weight: bold;">Status: </span><span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+
+
+
+          <span style="font-weight: bold;">Workaround/Fix:</span> Go
+into "personalization" of your desktop, Select "color" on your left,
+and toggle the slider "Show color on Start, taskbar, action center, and title bar" on and back off again. This will make the
+proper registry entries. Exit and restart the browser to have it pick
+up the value.<br>
+
+
+
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.3.3</li>
+      </ol>
+      <span style="font-weight: bold;">26.3.1:<br>
+      </span>
       <ol>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
 
