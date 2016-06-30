@@ -2,6 +2,7 @@
 <html lang="en"><head>
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Archived versions</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -29,13 +30,13 @@
             </h1>This page provides access to archived versions of Pale Moon. These are older versions of the browser
             that are no longer supported, but listed here in case you want or need to use an older version.
             <span class="bold">Please be aware that these versions may have (serious) bugs that have been fixed in later
-            versions.</span><br>
+            versions. We cannot reasonably provide support for too old versions.</span><br>
             <br>
             <div class="center">
               <span class="red">Please only grab the version you personally need and do not hotlink.</span><br>
             </div>
             <h3>
-              Download (25.x)
+              Download (26.x)
             </h3>You can download archived versions of the browser from the Pale Moon archival FTP<br>
             <div class="center">
               <h2>
