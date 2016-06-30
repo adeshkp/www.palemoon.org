@@ -20,6 +20,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -57,8 +59,26 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.3.2 (2016-06-27) - Windows only<br>
-</h3><span style="font-weight: bold;">This release only has pertinent changes for Windows. </span>Other operating systems do <span style="font-weight: bold;">not</span> need this update.<br>
+            <h3>26.3.3 (2016-07-01)</h3>Another
+small bugfix update to address some breaking issues. Sorry for the
+rapid-fire releases, everyone; this is not our intention.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed an additional issue found that could cause menu text on Windows 10 to be white-on-white (and therefore unreadable).</li>
+        <li>Fixed an issue with news feeds not showing up when embedded in web pages.<br>
+        </li>
+        <li>Removed recently-added parsing of the <span style="font-style: italic;">child-src</span>
+content security policy directive, after some web compatibility issues
+with it came to light, as well as it becoming clear that the CSP spec
+will see it removed in favor of the previous directive for embedded
+content. This should fix some intermittent issues people have reported
+on e.g. the main google.com page and phpMyAdmin installations.<br>
+        </li>
+      </ul>
+      <h3>26.3.2 (2016-06-27) - Windows only<br>
+      </h3>
+<span style="font-weight: bold;">This release only has pertinent changes for Windows. </span>Other operating systems do <span style="font-weight: bold;">not</span> need this update.<br>
       <span style="font-weight: bold;"><br>
 Changes/fixes:</span><br>
       <ul>
@@ -66,7 +86,9 @@ Changes/fixes:</span><br>
 properly (missing bookmarks and menu entries) if certain Windows
 registry values were missing (Windows 8 only).<br>
         </li>
-        <li>Fixed an issue on Windows 10 where the classic menu bar would become unreadable (white on white).</li>
+        <li>Fixed an issue on Windows 10 where the classic menu bar would become unreadable (white on white).<br>
+          <span style="font-weight: bold;">Update</span>: There's apparently a <span style="text-decoration: underline;">different</span> issue still remaining that can cause the same trouble. Please see the <a href="knownissues.shtml">Known Issues</a> page for status and workaround.<br>
+</li>
         <li>Portable only: Switched to non-compressed binaries to
 prevent issues with antivirus packages, to prevent issues with browser
 run-time operation, and to simplify code signing.<br>
