@@ -3,6 +3,7 @@
 
 
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -151,14 +152,11 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>27 Jun 2016</small></small><br>
-Pale Moon 26.3.2 has been released</span>
-which is a Windows 8 and 10 compatibility update. (Windows only)<br>
-            <br>
-            <span class="bold"><small><small>21 Jun 2016</small></small><br>
-Pale Moon 26.3.0 has been released</span>
-which is a bugfix, Windows 10 compatibility and security update.<br>
-            <span class="bold"></span><span class="bold"><small><small></small></small></span><br>
+            <span class="bold"><small><small>1 Jul 2016</small></small><br>
+Pale Moon 26.3.3 has been released</span>
+which is a bugfix and compatibility update.<br>
+
+            <span class="bold"><small><small></small></small></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
           </tr>
