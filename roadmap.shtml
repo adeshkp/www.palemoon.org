@@ -5,6 +5,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -38,7 +39,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-06-20</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-07-05</small><br>
 
             <h3>
               General Information
@@ -221,7 +222,7 @@ Pale Moon would not be complete without its support for Mozilla code extensions,
             accepting installations for Firefox application IDs) even though Pale Moon, from v25 onwards, is a
             different application altogether from an extension point of view.<br>
             <br>
-The future of Pale Moon is to maintain this general compatibility with
+The future of Pale Moon is to maintain this general level of compatibility with
 traditional Firefox-targeted extensions, although the (transitional)
 dual-ID setup will eventually be removed, at which point only Pale Moon
 targeted extensions will be accepted. This will still allow developers
@@ -246,7 +247,7 @@ may need some changes to cater to some changed toolkit APIs.<br>
       <br><span style="font-weight: bold;">
 Unlike Firefox, Pale Moon will continue to offer full support for XUL
 and XPCOM binary-component extensions and there is no plan to discard the
-current extension system</span> for Chrome-like alternatives (WebExtensions).<br>
+current extension system</span> in lieu of Chrome-like alternatives (WebExtensions).<br>
 Mozilla has already marked XUL extensions and bootstrapped extensions
 as "legacy" and will be phasing out support for this, which will affect
 many Firefox extensions. We have no plans to do this and many "legacy"
@@ -254,7 +255,7 @@ Firefox extensions will continue to be possible on Pale Moon when targeting it.<
             <h4>
               JetPack (Add-on SDK) extensions
             </h4>JetPack
-(add-on SDK) add-ons are <span style="font-weight: bold;">discouraged</span> for Pale Moon, because they
+(add-on SDK) add-ons are <span style="font-weight: bold;">deprecated</span> for Pale Moon, because they
 inherently run into compatibility issues for multi-application
 targeting due to its divergent nature from other Mozilla applications, and discrepancies in the browser-embedded SDK code.
 In addition, with the front-end focus of Jetpack, there are big and
@@ -264,10 +265,8 @@ different than the one included in Mozilla Firefox, and extension code
 targeted at one version will likely not be compatible with the other.<br>
             <br>
             For the time being, Pale Moon's add-on SDK is almost fully equivalent to v1.14 of the Mozilla add-on SDK,
-            and this will be kept static for at least the near future. If the SDK develops further, it will not be by
-            adopting a later version of the Firefox add-on SDK, since that SDK is focused specifically on Australis and
-            its different APIs, and is neither future-proof nor backwards compatible. Instead, the included add-on SDK
-            will be documented on the Pale Moon developer/add-on site.<br>
+            and this will be kept static for as long as the current release milestone is maintained.<br>
+Important note: With "Tycho", <span style="font-weight: bold;">we will completely remove add-on SDK support for extensions</span>, at which point only the "classic" (i.e.: native code) XUL/bootstrapped extensions will be supported.<br>
             <br>
             <h3>
               Additional tools and services
@@ -278,7 +277,7 @@ targeted at one version will likely not be compatible with the other.<br>
             for these improvements:<br>
             <ul>
               <li>Improvement of the profile migration tool to deal with increasing issues with potentially installed
-              and incompatible Firefox add-ons.
+              and incompatible Firefox add-ons. (currently unavailable pending an update)
               </li>
               <li>Improvement of the web installer to offer automatic configuration based on a few different user
               templates.
