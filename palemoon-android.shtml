@@ -8,6 +8,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -61,7 +62,7 @@ table.c13 {background-color: #F9F9F9}
                 <tr>
                   <td class="c4" width="50%">
                     <ul>
-                      <li>Android operating system, version 4.0 or higher
+                      <li>Android operating system, version 4.0 or higher (confirmed compatible with v6)
                       </li>
                       <li>ARM processor v7 or later
                       </li>
@@ -73,11 +74,15 @@ table.c13 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c6">
-              Current version: 25.9.3
-            </h3>This is a security and small bugfix update to keep users of the browser updated and safe.<br>
+              Current version: 25.9.4
+            </h3>This is a small bugfix update to 25.9.3.<br>
 Information about this browser version:<br>
       <ul>
+        <li>Removed CSP child-src directive parsing for causing web compatibility issues and for it being removed from the standard.<br>
+</li></ul><span style="font-weight: bold;">25.9.3:</span><br>
+      <ul>
         <li>String.prototype.match() and .replace() are now fully spec compliant.</li>
+
         <li>Instated
  a hard minimum of 10,000 places entries regardless of free disk space 
 and total memory to prevent undesired expiration of history. That is 
@@ -92,7 +97,8 @@ introduced in 25.9.2 that would cause issues on some sites due to adding
         <li>Fixed a memory overrun error in the VP8 encoder. DiD</li>
         <li>Fixed non-threadsafe re-use of pixman images to prevent potential race conditions. DiD</li>
         <li>Fixed CVE-2016-2825 Partial Same Origin Policy violation</li>
-</ul>
+      </ul>
+
 
             Please do note that there are known issues on some mobiles and versions
 of Android that will prevent this browser from working properly or in a
