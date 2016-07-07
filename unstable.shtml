@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en"><head>
+
+
+
+
+
+
+  
+  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+
+  
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Download the Pale Moon browser</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+  
+  <style type="text/css">
+table.c17 {background-color: #F9F9F9}
+    span.c16 {text-decoration: underline;}
+    table.c15 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
+    img.c14 {border: 0px solid ; width: 225px; height: 83px;}
+    img.c13 {border: 0px solid ; width: 230px; height: 43px;}
+    img.c12 {border: 0px solid ; width: 150px; height: 46px;}
+    img.c11 {border: 0px solid ; width: 227px; height: 44px;}
+    td.c10 {vertical-align: top; text-align: center;}
+    img.c9 {border: 0px solid ; width: 220px; height: 60px;}
+    tr.c8 {background-color: #E0FFE0}
+    tr.c7 {background-color: rgb(158, 217, 255); text-align: center; font-size: 14pt;}
+    table.c6 {text-align: left; width: 90%;}
+    td.c5 {vertical-align: top;}
+    td.c4 {vertical-align: top; background-color: rgb(204, 204, 255);}
+    span.c3 {font-weight: bold;}
+    img.c2 {border: 0px solid ; width: 80px; height: 31px;}
+    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
+    </style></head><body>
+<table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c5">
+      <h1> Pale
+Moon unstable releases<br>
+      </h1>
+      <span class="c3">These
+versions of Pale Moon are built somewhat regularly from the current
+development source of the browser and should only be considered for use
+by people who wish to help catch bugs before release.<br>
+</span><br>The unstable versions of Pale Moon come with recognizable
+unstable branding (a "blood moon") to clearly indicate its difference
+from the official releases.<br>
+      <br>
+Make sure you make regular backups of your Pale Moon profile as
+unstable versions may occasionally cause data loss. Unstable versions
+do not use a separate user profile, so if you decide to use these, your
+release-version profile will be used and potentially be at risk.<br>
+      <h2>Reporting bugs</h2>
+If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
+on GitHub for Pale Moon. When you do so, please check if the bug has
+already been reported before by others to prevent duplicate entries in
+the tracker. If you report bugs, make sure to include the build date
+(as found in the about box) and provide clear information about the bug:<br>
+      <ul>
+        <li>Clear description of the bug found, with a concise and clear title for the issue<br>
+(include exact circumstances and exact error messages, if any)<br>
+        </li>
+        <li>Steps to reproduce<br>
+(what exactly do you do to cause the bug to become apparent?)<br>
+        </li>
+        <li>Expected results<br>
+(given the steps taken, what did you expect the browser to do?)<br>
+        </li>
+        <li>Actual results<br>
+(what did the browser do instead of what was expected?)<br>
+        </li>
+      </ul>
+Also make sure that before you report a bug, that you verify if the bug
+also manifests with default preferences and no installed add-ons
+(preferably create a new profile to check).<br>
+      <h2>Updating</h2>
+The unstable versions have their own update channel, separate from
+official releases. The preferred way of updating is to let the internal
+updater do its task.<br>
+      <h2>Downloads</h2>
+
+      These versions are only available for 32-bit windows. They are
+not cryptographically signed due to the Release Engineering overhead
+involved in such things.<br>
+<br>
+      <table class="sysreq c6" align="center" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="c4"> <span class="c3">Minimum System
+Requirements:</span> </td>
+          </tr>
+          <tr>
+            <td class="c5" width="50%">
+            <ul>
+              <li>Windows Vista/Windows 7/8/10/Server 2008 or later</li>
+              <li>Windows Platform Update strongly recommended<br>
+              </li>
+
+              <li>A processor with SSE2 support<span class="c3"><br>
+                </span> </li>
+              <li>256 MB of free RAM (512 MB or more recommended)<br>
+              </li>
+              <li>At least 150 MB of free (uncompressed) disk space </li>
+            </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h2> Download locations </h2>
+      <table class="c15" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr class="c7">
+            <th> Link (click to download)<br>
+            </th>
+            <th> Description<br>
+            </th>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://relmirror.palemoon.org/release/palemoon-26.3.3.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
+#1 (EU)<br>
+Direct download link<br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c10"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.3.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c5"> <span class="c3">Pale Moon mirror</span>
+#2 (US)<br>
+Direct download link </td>
+          </tr>
+          
+
+          
+          
+        </tbody>
+      </table>
+      <br>
+      <h3> <a name="ZIP_packed_versions" id="ZIP_packed_versions"></a>ZIP
+packed versions (approx. 26 MB) </h3>
+      <ul>
+        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.3.3.win32.zip">Pale Moon mirror #1 EU
+(direct download)</a> </li>
+        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.3.win32.zip">Pale Moon mirror #2 US
+(direct download)</a> </li>
+        
+      </ul><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c10"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
