@@ -6,6 +6,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -39,7 +40,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-07-05</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-07-10</small><br>
 
             <h3>
               General Information
@@ -58,7 +59,7 @@ Of course there are a number of challenges on this kind of divergent
 an independent force by the Internet community, and a number of
 technical advances as the Web develops.<br>
             <br>Having a
-common acestor in Mozilla code, it can draw in part on the public
+common ancestor in Mozilla code, it can draw in part on the public
 sources and feature developments in Mozilla products, and where
 possible, desired features will be ported across or re-implemented
 based on code from the Mozilla core code. However: Pale Moon will be
@@ -141,9 +142,9 @@ ways putting unnecessary demands on web clients. This kind of streaming
 will always be a point of contention amont Pale Moon users but we will
 do our best to strike a sane balance between usability and complexity.<br>
             <br>
-            As such, specific media streaming features are <span class="c2">not</span> on Pale Moon's roadmap:<br>
+            As such, the following specific media streaming feature(s) is/are <span class="c2">not</span> on Pale Moon's roadmap:<br>
             <ul><li>In-browser DRM (EME)</li>
-            </ul>"Tycho" will, however, add the following streaming techniques:<br>
+            </ul>"Tycho" will, however, add the following media streaming features:<br>
       <ul>
 <li>MSE (Media Source Extensions)
               </li><li>DASH support through MSE</li>
