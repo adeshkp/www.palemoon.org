@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<updates>
+  <update type="minor" displayVersion="26.4.0a1" appVersion="26.4.0a1" extensionVersion="26.4.0" buildID="20160712160029"
+          detailsURL="http://www.palemoon.org/unstable/" showNeverForVersion="true">
+  <patch type="complete"
+         URL="http://aus.palemoon.org/mar/palemoon-latest-unstable.mar"
+         size="26856699"/>
+  </update>
+</updates>
