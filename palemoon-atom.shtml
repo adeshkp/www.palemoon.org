@@ -24,6 +24,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -126,14 +127,14 @@ on a non-Atom processor that is likely more powerful, anyway.<br>
               </tbody>
             </table>
             <h3 class="c7">
-              Current version: 26.3.3
+              Current version: 26.4.0
             </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
             release notes</a>.<br>
             <h3 class="c7">
               Download links
             </h3><span class="c3">Installer (recommended, 19.1 MB)</span>:<br>
-            SHA-256: 6d9c85ca818831183cd4dc2e4c22f73eeff8372d557c49445f16ad247758dbee<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.3.3.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
+            SHA-256: a358f12b0beb5a0df33d02d3b9dc1f5f4f7ad93b5f7bca978616fc4ded808b23<br>
+            GPG/PGP signature: <a href="pgp/palemoon-26.4.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
             <br>
             <table class="c13" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -148,7 +149,7 @@ on a non-Atom processor that is likely more powerful, anyway.<br>
                 
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror.palemoon.org/release/palemoon-26.3.3.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+                    <a href="http://relmirror.palemoon.org/release/palemoon-26.4.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
                   </td>
                   <td class="dltable_text">
                     <span class="c3">Pale Moon mirror</span> #1 (EU)<br>
@@ -157,7 +158,7 @@ on a non-Atom processor that is likely more powerful, anyway.<br>
                 </tr>
                 <tr>
                   <td class="c10">
-                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.3.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
+                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
                   </td>
                   <td class="c5">
                     <span class="c3">Pale Moon mirror</span> #2 (US)<br>
@@ -176,15 +177,15 @@ on a non-Atom processor that is likely more powerful, anyway.<br>
               </tbody>
             </table><span class="c3"><br>
             ZIP packed (approx. 25 MB)</span>:<br>
-            SHA-256: 33c6272f21c48e50338c4fff716c92a37eb033c3c4ce737dc8e8839cdcf0325e<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.3.3.Atom.WinXP.zip.sig">[Sig]</a><br>
+            SHA-256: 013b029bce4f67d776f1ceb481faa7050c058d4e4ac494e84d5374d72a365b70<br>
+            GPG/PGP signature: <a href="pgp/palemoon-26.4.0.Atom.WinXP.zip.sig">[Sig]</a><br>
             <ul>
               <li>
-                <a href="http://relmirror.palemoon.org/release/palemoon-26.3.3.Atom.WinXP.zip">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/palemoon-26.4.0.Atom.WinXP.zip">Pale Moon mirror
                 #1</a><br>
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/palemoon-26.3.3.Atom.WinXP.zip">Pale Moon mirror #2</a>
+                <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.0.Atom.WinXP.zip">Pale Moon mirror #2</a>
               </li>
               <li>
                 <a href="http://www.gamershell.com/download_110827.shtml">GamersHell</a><br>
