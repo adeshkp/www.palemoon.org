@@ -5,6 +5,7 @@
 
 
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -153,9 +154,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>1 Jul 2016</small></small><br>
-Pale Moon 26.3.3 has been released</span>
-which is a bugfix and compatibility update.<br>
+            <span class="bold"><small><small>17 Aug 2016</small></small><br>
+Pale Moon 26.4.0 has been released</span>
+which is general bugfix, compatibility and security update.<br>
 
             <span class="bold"><small><small></small></small></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
@@ -176,9 +177,9 @@ news...</a> </td>
       
       <p> Pale Moon is, and will always be, completely FREE to download
 and use! (Open Source and Freeware)</p>
-      <p>This browser is released as a community project to aim for
-open, collaborative development of a full-featured web browser, as much
-designed by the user as it is by our development team. It released
+      <p>This browser is released as a <span style="font-weight: bold;">community project</span> to aim for
+      <span style="font-weight: bold;">open, collaborative development of a full-featured web browser</span>, as much
+designed by the user as it is by our development team. It is released
 "as-is" and in the hope that it will be useful to its users. As such,
 we cannot provide any warranty of any kind, nor guarantee fitness for
 any particular purpose.<br>
