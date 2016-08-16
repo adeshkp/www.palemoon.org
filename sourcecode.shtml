@@ -83,7 +83,7 @@ Full due to breaking changes in the MSVC compiler. </li>
 (clang is not currently producing stable builds on Linux), 4.7.*
 recommended but later versions might work too. We do not support
 particularly old versions of GCC (&lt; 4.6), and 4.9 might not like our
-code.<br>
+code. GCC v5.* should work, v6.* is experimental and not recommended (YMMV).<br>
               </li>
               <li>You will need to get the build prerequisites as outlined on the Mozilla Developer Network. Most
               notably, you need the Mozilla Build Tools package (1.8-1.10, other versions may not work) and DirectX SDK
