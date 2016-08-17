@@ -9,6 +9,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -74,30 +75,17 @@ table.c13 {background-color: #F9F9F9}
               </tbody>
             </table>
             <h3 class="c6">
-              Current version: 25.9.4
-            </h3>This is a small bugfix update to 25.9.3.<br>
+              Current version: 25.9.5
+            </h3>This is a security, bugfix and compatibility update.<br>
 Information about this browser version:<br>
       <ul>
-        <li>Removed CSP child-src directive parsing for causing web compatibility issues and for it being removed from the standard.<br>
-</li></ul><span style="font-weight: bold;">25.9.3:</span><br>
-      <ul>
-        <li>String.prototype.match() and .replace() are now fully spec compliant.</li>
-
-        <li>Instated
- a hard minimum of 10,000 places entries regardless of free disk space 
-and total memory to prevent undesired expiration of history. That is 
-around 16MB for an average entry size, which should be sane enough even 
-on low-memory machines.</li>
-        <li>Fixed a typo in networking code 
-introduced in 25.9.2 that would cause issues on some sites due to adding
- extra forward slashes to the URL.</li>
-        <li>Fixed a number of memory safety hazards and potentially exploitable crashes.</li>
-        <li>Fixed CVE-2016-2821 Use-after-free in the mozilla::dom::Element class</li>
-        <li>Fixed netaddr deserialization for AF_UNSPEC and AF_LOCAL.</li>
-        <li>Fixed a memory overrun error in the VP8 encoder. DiD</li>
-        <li>Fixed non-threadsafe re-use of pixman images to prevent potential race conditions. DiD</li>
-        <li>Fixed CVE-2016-2825 Partial Same Origin Policy violation</li>
-      </ul>
+        <li>Updated the SQLite library to 3.13.0.</li>
+        <li>Updated the Graphite font library to 1.3.9.</li>
+        <li>Fixed a few potentially exploitable crashes.</li>
+        <li>Fixed CVE-2016-0718 Context-dependent crash in expat 2.1.0.</li>
+        <li>Added string.prototype.includes function (ES6).<br>
+        </li>
+</ul><ul></ul>
 
 
             Please do note that there are known issues on some mobiles and versions
