@@ -22,6 +22,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -59,7 +60,49 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.3.3 (2016-07-01)</h3>Another
+            <h3>26.4.0 (2016-08-17)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Removed
+Google Search as a bundled search provider. If desired, you can
+manually install it (or other search engines) after the update by
+following the steps in the <a href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=12788" target="_blank">Manage Search Engines</a> topic.<br></li>
+        <li>Fixed the URL API to allow "stringification" of the object
+per specification. This should make a number of websites happy.</li>
+
+        <li>Added the ES6 string <span style="color: rgb(102, 102, 204);">.includes()</span> function in addition to the pre-existing <span style="color: rgb(102, 102, 204);">.contains()</span> function for checking if a string contains another string. The <span style="color: rgb(102, 102, 204);">.contains()</span>
+function is retained for compatibility with web and extension scripts
+that adhere to the ES6 pre-release specification up to and including
+RC3.<br>
+        </li>
+        <li>Fixed
+ the calculation of standalone SVG embeds width and height, which should
+ solve some reported issues with html5 graphs being displayed 
+incorrectly.</li>
+        <li>Linux: improved memory allocation.</li>
+        <li>Updated the graphite font library to 1.3.9.</li>
+        <li>Added a blocking rule for F-Secure's 64-bit deepguard library to prevent crashes.</li>
+        <li>Updated the SQLite library to 3.13.0.</li>
+        <li>Download= properties of links are now honored from the context menu "Save" option.</li>
+        <li>Fixed a crash in the XSS filter.</li>
+        <li>Fixed a crash in the DOM error module.</li>
+        <li>Worked around a crash on Linux</li>
+        <li>Linux:
+Improved optimization and GCC6 compatibility (Note: compiling with GCC
+6 is still not recommended and it may or may not work, depending on
+your environment)<br>
+</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>(CVE-2016-5251)Potential URL spoofing in the address bar.</li>
+        <li>(CVE-2016-0718) Context-dependent crash in expat 2.1.0.</li>
+        <li>(CVE-2016-5266) Outgoing dataTransfer items are not properly filtered.</li>
+        <li>Fixed potentially exploitable crash in the array splice implementation.</li>
+        <li>Fixed potentially exploitable crash caused by badly formatted ICO files.</li>
+        <li>(CVE-2016-5254) Heap-use-after-free in nsXULPopupManager::KeyDown</li>
+      </ul>
+      <h3>26.3.3 (2016-07-01)</h3>
+Another
 small bugfix update to address some breaking issues. Sorry for the
 rapid-fire releases, everyone; this is not our intention.<br>
       <br>
