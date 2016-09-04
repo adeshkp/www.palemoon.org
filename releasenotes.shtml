@@ -60,7 +60,21 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.4.0 (2016-08-17)</h3><span style="font-weight: bold;">Changes/fixes:</span><br>
+            <h3>26.4.0.1 (2016-08-23) - Linux only</h3>This Linux-only release is once again using GStreamer 0.10 for video support, which
+ should prevent Pale Moon from crashing when playing some HTML5 videos.<br>
+      <br>
+      <strong>Additional changes/fixes:</strong><br>
+      <ul>
+        <li>A blacklist for GStreamer has been implemented and enabled by default 
+(can be disabled with the media.gstreamer.enable-blacklist about:config 
+pref).</li>
+        <li>The flump3dec GStreamer plugin (known to be crashy) &amp; 
+h264parser element (a potential security risk) have been blacklisted.</li>
+        <li>Fixed a couple other GStreamer related crashes.</li>
+        <li>No longer force Link Time Optimization with GCC 6</li>
+      </ul>
+      <h3>26.4.0 (2016-08-17)</h3>
+<span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Removed
 Google Search as a bundled search provider. If desired, you can
@@ -69,7 +83,7 @@ following the steps in the <a href="http://forum.palemoon.org/viewtopic.php?f=19
         <li>Fixed the URL API to allow "stringification" of the object
 per specification. This should make a number of websites happy.</li>
 
-        <li>Added the ES6 string <span style="color: rgb(102, 102, 204);">.includes()</span> function in addition to the pre-existing <span style="color: rgb(102, 102, 204);">.contains()</span> function for checking if a string contains another string. The <span style="color: rgb(102, 102, 204);">.contains()</span>
+        <li>Added the ES6 string <span style="color: rgb(64, 64, 128);">.includes()</span> function in addition to the pre-existing <span style="color: rgb(64, 64, 128);">.contains()</span> function for checking if a string contains another string. The <span style="color: rgb(64, 64, 128);">.contains()</span>
 function is retained for compatibility with web and extension scripts
 that adhere to the ES6 pre-release specification up to and including
 RC3.<br>
