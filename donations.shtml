@@ -75,14 +75,17 @@ You can transfer money by using one of the following methods:<br>
               <li>Paypal - this is a well-known US-based electronic money provider. You can use the donation button on
               the <a href="http://www.palemoon.org/">Pale Moon home page</a> to make a donation through PayPal.<br>
               </li>
-              <li>Skrill (formerly Moneybookers) - this is a European-based electronic money provider similar to
+              
+        <li style="color: silver;"><span style="color: black;">Skrill temporarily unavailable.</span><br>
+Skrill (formerly Moneybookers) - this is a European-based electronic money provider similar to
               PayPal, with lower fees and better monetary regulation, accepted world-wide with many options for
               payment/funding (no credit card required to use it).<br>
                 Simply transfer money as a personal transfer (yellow "send money" button) to<br>
                 Name: M.C. Straver<br>
                 E-mail: moonchild [at] palemoon.org<br>
-                Don't have an account? <a href="https://account.skrill.com/signup?rid=8464524">Sign up here.</a>
+                Don't have an account? Sign up here.
               </li>
+
               <li>Bank (wire) transfer<br>
                 For people living in the EU, this is an option as well (sorry, I don't accept wire transfers from
                 outside the EU zone due to fees) as long as your bank offers SEPA transfers. Contact me to get the bank
