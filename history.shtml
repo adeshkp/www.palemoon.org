@@ -95,8 +95,8 @@ When version 4.0 of the Firefox code arrived, after extensive betas, Pale Moon d
             into a separate, independent browser not longer necessarily tied to Firefox code development or release,
             although a close parallel was maintained for extension compatibility by rebasing Pale Moon code on top of
             later Firefox versions.<br>
-            <br>
-      <h3>24.* era</h3>
+<br>
+      <h3>24-26 era</h3>
 With the release of Firefox 24 (and Pale Moon of the same version), Pale Moon's already divergent
             development direction started to more clearly separate from Firefox than it had already done before, by
             focusing much more strongly on individual development of interface, features and back-end, while adopting
@@ -105,11 +105,16 @@ With the release of Firefox 24 (and Pale Moon of the same version), Pale Moon's 
             and management teams), the decision was made for Pale Moon to completely and decisively break the existing
             direct ties with Firefox (in the form of how it identifies itself) and be a completely independent force on
             the browser market.<br>
-            <br>
-            This is where we are now, with Pale Moon 25 and later: a fully independent browser product.<br>
-            This includes the change to our own layout and rendering engine called
+            With Pale Moon 25 and later this brought us a fully independent browser product on a sharply diverging path.<br>With
+the 26.0 milestone, we changed to our own layout and rendering engine
+called
 Goanna, which has been forked off from Gecko, debuting in the Pale Moon
-26 milestone release after more than 6 months in pre-release development.<br>
+26 milestone release after more than 6 months in pre-release
+development. It should be noted that this was merely the culmination of
+on-going changes to the Gecko-named engine previously and that it had
+already developed in its own direction for some time (the first real
+split-off point of note was, in fact, with 24.6)<br>
+<br>
             <h2>
               Future directions
             </h2>With
