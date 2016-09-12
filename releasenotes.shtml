@@ -60,7 +60,28 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.4.0.1 (2016-08-23) - Linux only</h3>This Linux-only release is once again using GStreamer 0.10 for video support, which
+            <h3>26.4.1 (2016-09-12)</h3>This is a minor bugfix and security release.<br>
+      <br>
+      <strong>Changes/fixes:</strong><br>
+      <ul>
+<li>Fixed a crash in the XSS filter.</li><li>Slightly changed the address bar shading on secure sites to be more subtle and easily-blended.</li><li>Fixed the occurrence of "null" titles in bookmarks dragged from special folders.</li><li>Fixed
+ an error initializing the browser due to trying to restore scratchpad 
+data from a stored session when having switched from a version with 
+devtools to a version without devtools, and the previous version had 
+scratchpad data saved.</li><li>Fixed some minor issues in scratchpad and gcli devtools.</li>
+      </ul>
+      <strong>Security fixes:</strong><br>
+      <ul>
+<li>Updated the HSTS preload list to a much more updated source list,
+and performing our own checks on validity from now on to have the list
+be as accurate as possible.</li><li>Disabled Triple-DES cipher suites by default (mitigating SWEET32).</li>
+      </ul>
+      <span style="font-weight: bold;">Portable-only:</span> Changed
+the behavior to, by default, allow it to start a new copy or multiple
+copies without checking if Pale Moon is already running on the system.
+You will need separate profiles to run multiple browsers concurrently.<br>
+      <h3>26.4.0.1 (2016-08-23) - Linux only</h3>
+This Linux-only release is once again using GStreamer 0.10 for video support, which
  should prevent Pale Moon from crashing when playing some HTML5 videos.<br>
       <br>
       <strong>Additional changes/fixes:</strong><br>

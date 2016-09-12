@@ -130,7 +130,7 @@ extensions<br>
 This
 browser, even though fairly close to Gecko-based browsers like Mozilla
 Firefox
-in the way it works, is based on a different layout engine and offers a
+and SeaMonkey in the way it works, is based on a different layout engine and offers a
 different set of features. It aims to provide close adherence to
 official web standards and specifications in its implementation (with
 minimal compromise), and purposefully excludes a number of features to
@@ -155,8 +155,8 @@ to name a few things.<br>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
             <span class="bold"><small><small>17 Aug 2016</small></small><br>
-Pale Moon 26.4.0 has been released</span>
-which is general bugfix, compatibility and security update.<br>
+Pale Moon 26.4.1 has been released</span>
+which is&nbsp; a general bugfix and security update.<br>
 
             <span class="bold"><small><small></small></small></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more

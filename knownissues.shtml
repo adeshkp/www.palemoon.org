@@ -72,6 +72,27 @@
 
               
         
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS proxies are not supported</span><br>
+We currently do not have support for encrypted connections to proxy servers.<br>
+          <span style="font-weight: bold;">Workaround:</span> If you
+need local-net encryption (untrusted local network) then you should use
+an encrypted VPN connection instead of a proxy server.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
+</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript "promises" are not supported</span><br>
+We currently do not support a spec-compliant version of so-called
+"promises" in JavaScript (part of ES6). As such, some sites that
+explicitly rely on this and that do not properly check for this feature
+or don't provide one of the many polyfills for it that are available on
+the server side, will fail to function properly (and in some cases even
+completely fail to display).<br>
+          <span style="font-weight: bold;">Fix:</span> Ask the website owners to include proper feature detection and a promises polyfill.<br>
+          <span style="font-weight: bold;">Workaround:</span> For some sites, our <a href="https://addons.palemoon.org/extensions/other/pm-promises/" target="_blank">promises injector extension</a>
+may work. Please note that fixing some sites with this may break other
+sites in turn (because the extension isn't perfect, and
+properly-detecting sites will assume promises are fully available)<br>
+          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
+        </li>
         <li><span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
                 This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
                 extension.<br>
@@ -86,6 +107,7 @@
                 forum</a>)<br>
                 <br>
               </li>
+
 
 
             </ol><!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None

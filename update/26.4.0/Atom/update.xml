@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
 
 <updates>
+  <update type="major" displayVersion="26.4.1 (Atom/WinXP)" appVersion="26.4.1"  extensionVersion="26.4.1" 
+          detailsURL="http://www.palemoon.org/releasenotes.shtml" showNeverForVersion="true">
+    <patch type="complete"
+           URL="http://aus.palemoon.org/mar/palemoon-26.4.1.atom.win32.complete.mar"
+           hashFunction="SHA256"
+           hashValue="7b408bc2496dcf9aa350ee1ba330b5c0416a363587fd6ba181bd4136d3dc1aa0"
+           size="24353440"/>
+  </update>
 </updates>

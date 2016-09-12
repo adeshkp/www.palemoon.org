@@ -53,32 +53,42 @@ table.c6 {background-color: #F9F9F9}
             </h2>The source code of the current (main-line) release version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.4.0-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp.palemoon.org/palemoon-26.4.1-source.7z">Download
               current release version source code</a><br>
             </div><br>
-            If you are looking for older versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
+            If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp.palemoon.org/">ftp://source:get@ftp.palemoon.org/</a><br>
 The source code archive above is for the main-line x86/x64 release
 version of Pale Moon on a Windows file system. If you are interested in
 other release branches like the Atom source or need unix-like file
 system flags in your tree, then please check the git repository linked
 to below where you can find additional source tree archives.<br>
             <br>
-            <span class="c2">If you want to contribute:</span> These source code archives are snapshots of the actual
-            releases of Pale Moon, and since it is being actively developed, any patches you may want to contribute
-            should usually not be made against these source code archives, but against the working development branch
-            instead. This can be found in the live repository on GitHub at the following URL:<br>
+            <span class="c2">If you want to contribute:</span>
+These source code archives are snapshots of the actual releases of Pale
+Moon, and since it is being actively developed, any patches you may
+want to contribute should usually not be made against these source code
+archives, but against the working development branch instead. This can
+be found in the live repository on GitHub at the following URL, which
+also has archives available for all tagged releases:<br>
             <div class="c3">
               <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
               </div><br>
             <h2>
               Hints for building Pale Moon yourself
-            </h2>If you want to build Pale Moon from source yourself, a few pointers:<br>
+            </h2>If you want to build release versions of Pale Moon from source yourself, a few pointers:<br>
             <ul>
-              <li>For Windows, you will need <span style="font-weight: bold;">Visual Studio 2012</span> (either the free Express version or the full commercial
+              <li>You have to <span style="font-weight: bold;">make sure you are on the current release/development branch</span>.
+Our "trunk" (master) branch is not suitable to build release-grade
+versions since that is where the tip of our milestone development takes
+place.<br>
+For release versions, check out <span style="font-family: monospace;">{version}_RelBranch</span>, or specific release-tagged commits, and for the raw development brach (at this time), check out <span style="font-family: monospace;">v26_Dev</span>.<br>
+</li>
+        <li>For Windows, you will need <span style="font-weight: bold;">Visual Studio 2012</span> (either the free Express version or the full commercial
               package). Even though it <span style="font-style: italic;">may</span> possibly build with VS 2010, there will likely be some snags. It will <span style="font-style: italic;">not</span>
               properly build on versions of Visual Studio older than VS2010.<br>
 In its current state, Pale Moon will <span style="font-style: italic;">not</span> build on VS 2013 Community or
 Full due to breaking changes in the MSVC compiler. </li>
+
               <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span>
 (clang is not currently producing stable builds on Linux), 4.7.*
 recommended but later versions might work too. We do not support

@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
+<html lang="en"><head>
+
 
 
 
@@ -11,7 +12,7 @@
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
   
-  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - x64 builds</title><!-- Keep the http-equiv meta tag for IE8 -->
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Windows 64-bit downloads</title><!-- Keep the http-equiv meta tag for IE8 -->
   
 
   
@@ -44,7 +45,9 @@ table.c17 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style></head><body>
+    </style>
+  <meta content="Moonchild" name="author">
+</head><body>
 <table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -59,7 +62,7 @@ table.c17 {background-color: #F9F9F9}
     <tr>
       <td class="c7">
       <h1> <a href="http://www.palemoon.org/pad_palemoon-x64.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a> Download Pale
-Moon x64 - 26.4.0<br>
+Moon x64 - 26.4.1<br>
       </h1>
 TL;DR? Go <a href="palemoon-win32.shtml">here</a>.<br>
       <br>
@@ -67,7 +70,7 @@ If you run a 64-bit operating system, you can choose to download and
 install a native 64-bit version of Pale Moon, a so-called "x64 build".<br>
 Without having to use the 32-bit compatibility layer in 64-bit Windows,
 native 64-bit browsers in general run faster and more efficient than
-their 32-bit counterparts, although <span class="c3">synthetic tests
+their 32-bit counterparts at the cost of using slightly more memory, although <span class="c3">synthetic tests
 will not provide you with conclusive results</span>. Most notably, you
 may see lower CPU strain running Pale Moon x64 on
 complex/processor-intensive web sites or sites with large amounts of
@@ -137,8 +140,8 @@ Requirements (Windows):</span> </td>
       <br>
       <h2> Download locations: </h2>
       <span class="c3">Installer (recommended, 23.6 MB)</span>:<br>
-SHA-256: 1b302f18aa948e77f6d39af611d2e40bdc7f026baee8cbd59ba98fa567d9d5ca<br>
-GPG/PGP signature: <a href="pgp/palemoon-26.4.0.win64.installer.exe.sig">[Sig]</a><br>
+SHA-256: f953dad05b1a859a5a8afc43e0f47741985a6dceb35fdcf9f48c24e79de1c6b1<br>
+GPG/PGP signature: <a href="pgp/palemoon-26.4.1.win64.installer.exe.sig">[Sig]</a><br>
       <br>
       <table class="c16" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -149,7 +152,7 @@ GPG/PGP signature: <a href="pgp/palemoon-26.4.0.win64.installer.exe.sig">[Sig]</
             </th>
           </tr>
           <tr>
-            <td class="c12"> <a href="http://relmirror.palemoon.org/release/palemoon-26.4.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            <td class="c12"> <a href="http://relmirror.palemoon.org/release/palemoon-26.4.1.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
 #1 (EU)<br>
@@ -157,7 +160,7 @@ Direct download link<br>
             </td>
           </tr>
           <tr>
-            <td class="c12"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c12"> <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.1.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
             <td class="c7"> <span class="c3">Pale Moon mirror</span>
 #2 (US)<br>
 Direct download link </td>
@@ -185,12 +188,12 @@ Servers in Europe and the US </td>
       <span class="c3"><br>
 ZIP packed (approx. 31 MB)</span>:<br>
       <br>
-SHA-256: f21f0a672632491c884af5b4eb86ef07c0733f7d64190a96aca518c371b0f734<br>
-GPG/PGP signature: <a href="pgp/palemoon-26.4.0.win64.zip.sig">[Sig]</a><br>
+SHA-256: 6648b30546ef5e6b9e75a445e190d723ecfb85a4206b31c97d69ffa7815b75ab<br>
+GPG/PGP signature: <a href="pgp/palemoon-26.4.1.win64.zip.sig">[Sig]</a><br>
       <ul>
-        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.4.0.win64.zip">Pale
+        <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.4.1.win64.zip">Pale
 Moon mirror #1</a> </li>
-        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.0.win64.zip">Pale
+        <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.4.1.win64.zip">Pale
 Moon mirror #2</a> </li>
         <li> <a href="http://www.gamershell.com/download_115366.shtml">GamersHell</a><br>
         </li>
