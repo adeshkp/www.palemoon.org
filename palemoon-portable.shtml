@@ -26,6 +26,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -148,7 +149,7 @@ table.c14 {background-color: #F9F9F9}
               <li>
                 <a href="http://www.gamershell.com/download_115368.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: e535c27e2147f2ac2465b4f9746a3f93cc7c4dff1ec3ac70b0052dc8d8fc1b2d<br>
+            </ul>SHA-256: 0d116ac9b0fac6919a0e760298db159067be27ba3d76239257fb6ad1bdd280dc<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win32.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
             <br>
@@ -172,7 +173,7 @@ table.c14 {background-color: #F9F9F9}
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: 8a44b38b9c1f857553f1cb4d5f6a92c3bca079676e627fe7ef5c5580488f1b8c<br>
+            </ul>SHA-256: 9806a3b2bb5126748b39c47a9ec86d65627cfc9cf4437552cf8cfecd5c41eac4<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win64.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br>
             <br>

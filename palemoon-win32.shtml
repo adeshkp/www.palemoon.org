@@ -9,6 +9,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -108,7 +109,7 @@ Requirements:</span> </td>
       <h2> Download locations </h2>
 File size for the installer is 20.4 MB<br>
       <br>
-SHA-256: 866007f6027348c8e321010ff529dbd3b65fad9518f03d0e8c38581325d52098<br>
+SHA-256: ca051b6b52ccdbb3e20fe91e5bd5d7676a566e184db50daff8c6e885c2a59543<br>
 (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
 GPG/PGP signature: <a href="pgp/palemoon-26.5.0.win32.installer.exe.sig">[Sig]</a><br>
       <br>
@@ -172,7 +173,7 @@ is <span class="c16">not</span> a portable browser, it stores its data
 in the normal user folders on the system (documents/settings or users
 folder).<br>
       <br>
-SHA-256: 163efb2a9fced78c75d74baa3480178b0218ba2fd123f6097f84f3b65d1d6cb0<br>
+SHA-256: 1dbf9165374fe5e6b92cac746fd243012081c61fccede41ef3e1caf1f1d9b543<br>
 GPG/PGP Signature: <a href="pgp/palemoon-26.5.0.win32.zip.sig">[Sig]</a><br>
       <ul>
         <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.win32.zip">Download

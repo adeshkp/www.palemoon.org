@@ -9,6 +9,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -139,8 +140,8 @@ Requirements (Windows):</span> </td>
       </table>
       <br>
       <h2> Download locations: </h2>
-      <span class="c3">Installer (recommended, 23.6 MB)</span>:<br>
-SHA-256: 061e9a1cf2607a6c65d75c0a83fccfaaf7f6a92605bddb6fbbc5fc11189a1a84<br>
+      <span class="c3">Installer (recommended, 23.7 MB)</span>:<br>
+SHA-256: 2cbec1713ef420b3f5245cf598403d2b05cf0b7532f8a731e7fbb39a128f00de<br>
 GPG/PGP signature: <a href="pgp/palemoon-26.5.0.win64.installer.exe.sig">[Sig]</a><br>
       <br>
       <table class="c16" border="1" cellpadding="2" cellspacing="0">
@@ -188,7 +189,7 @@ Servers in Europe and the US </td>
       <span class="c3"><br>
 ZIP packed (approx. 31 MB)</span>:<br>
       <br>
-SHA-256: 3165ab8f47369a5b94713357d983d862e1feea314e1696dc07e1ba38c48f3386<br>
+SHA-256: 19ae9301b272b8be1f1e089cf76909978d29ecb657f8ed16c5b65010812fc9c9<br>
 GPG/PGP signature: <a href="pgp/palemoon-26.5.0.win64.zip.sig">[Sig]</a><br>
       <ul>
         <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.win64.zip">Pale
