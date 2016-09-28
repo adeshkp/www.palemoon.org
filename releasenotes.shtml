@@ -23,6 +23,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -60,7 +61,30 @@ table.c10 {background-color: #F9F9F9}
             <h1>
               Pale Moon: Release notes
             </h1>
-            <h3>26.4.1 (2016-09-12)</h3>This is a minor bugfix and security release.<br>
+            <h3>26.5.0 (2016-09-28)</h3><strong>Fixes/Changes:</strong><br>
+      <ul>
+<li>Implemented a breaking CSP 
+(content security policy) spec change; when a page with CSP is loaded 
+over http, Pale Moon now interprets CSP directives to also include https
+ versions of the hosts listed in CSP if a scheme (http/https) isn't 
+explicitly listed. This breaks with CSP 1.0 which is more restrictive 
+and doesn't allow this cross-protocol access, but is in line with CSP 2 
+where this is allowed.</li><li>Fixed an issue with the XML parser where 
+it would sometimes end up in an unknown state and throw an error (e.g. 
+when specific networking errors would occur).</li><li>Improved the performance of canvas poisoning by explicitly parallelizing it.</li>
+      </ul>
+      <strong>Security fixes:</strong><br>
+      <ul>
+<li>Fixed a potentially exploitable crash related to text writing direction. (CVE-2016-5280)</li><li>Made
+ checking for invalid PNG files more strict. Pale Moon will now reject 
+more PNG files that have corrupted/invalid data that could otherwise 
+lead to potential security issues.</li><li>Changed the way paletted image frames are allocated so the space is cleared before it's used. <span style="color: rgb(128, 128, 0);">DiD</span></li><li>Fixed a crash in nsNodeUtils::CloneAndAdopt() due to a typo. <span style="color: rgb(128, 128, 0);">DiD</span></li><li>Fixed several memory safety issues and crashes.</li>
+      </ul>
+      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>26.4.1 (2016-09-12)</h3>
+This is a minor bugfix and security release.<br>
       <br>
       <strong>Changes/fixes:</strong><br>
       <ul>
@@ -218,9 +242,7 @@ the URL.</li>
         <li>Fixed non-threadsafe re-use of pixman images to prevent potential race conditions. <span class="c7">DiD</span></li>
         <li>Fixed CVE-2016-2825 Partial Same Origin Policy violation</li>
       </ul>
-      <span class="c7">DiD</span> This means that the fix is "Defense-in-Depth": It is a fix that does not
-            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
-            the same code when surrounding code changes, exposing the problem.
+      <span class="c7"></span>
       <h3>26.2.2 (2016-05-10) &amp; Android 25.9.2<br>
       </h3>
 This is mainly a security update.<br>
