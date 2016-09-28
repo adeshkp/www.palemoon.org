@@ -16,6 +16,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -89,7 +90,7 @@ completely fail to display).<br>
           <span style="font-weight: bold;">Fix:</span> Ask the website owners to include proper feature detection and a promises polyfill.<br>
           <span style="font-weight: bold;">Workaround:</span> For some sites, our <a href="https://addons.palemoon.org/extensions/other/pm-promises/" target="_blank">promises injector extension</a>
 may work. Please note that fixing some sites with this may break other
-sites in turn (because the extension isn't perfect, and
+sites in turn (because the extension isn't implementing the entire spec, and
 properly-detecting sites will assume promises are fully available)<br>
           <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
         </li>

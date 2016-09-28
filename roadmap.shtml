@@ -7,6 +7,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -40,7 +41,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-07-10</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-09-26</small><br>
 
             <h3>
               General Information
@@ -87,16 +88,14 @@ browser has it too".<br>
             be implemented - other features may be put on hold or decided against altogether.<br>
       <br><span style="font-weight: bold;">
 One important thing to note is that the next milestone release that is
-planned (v27, code-named "Tycho") will be a re-base on the last version of the Mozilla platform code
-that is considered desirable for Pale Moon development, to overcome
+planned (v27, code-named "Tycho") will be a re-base on what is considered the last version of the Mozilla platform code
+that is desirable for Pale Moon development in terms of feature set in the platform, to overcome
 some important, blocking issues that our current developers will not be
 able to sufficiently tackle otherwise. Even so, this will not mean that
 we are "going back to rebuilds of Firefox" like the start of this
 project was; quite the opposite. This decision was made with
 considerable community input and will take a good number of months to
-bring to completion. This means that our previously outlined roadmap
-(below) will change significantly as to what is and will be supported by the
-browser. More on that later.</span><br>
+bring to completion.</span><br>
             <br>
             It is beyond the scope of this document to list planned HTML/content improvements in Pale Moon in detail,
             since many of those are small, individual changes and additions (even though some require a lot of work to
@@ -111,6 +110,11 @@ engine by steadily adopting more desired HTML and CSS features as well as improv
 implementations will be significantly different than those found in
 other browsers, even Gecko-based ones, and aim to provide the best
 solutions to web design problems.<br>
+      <br>
+Version 27 of the browser will see another overhaul of the rendering
+engine, making the engine and subsequently platform version 3 of
+Goanna. This will tackle a few rather technical issues and improve
+support for current operating systems and hardware.<br>
 
             <h4>
               JavaScript
@@ -126,6 +130,10 @@ that requires extensive coding and testing to do properly. There is
 very little margin for error, because JavaScript not only runs in
 webpages in Pale Moon, but drives everything in the browser, including
 many parts of the program itself.<br>
+      <br>
+Version 27 of the browser will see some important landmark features
+implemented, among others a full implementation of promises and
+generators, as well as a full complement of typed-array features.<br>
             <h4>
               Media support
             </h4>Media
@@ -144,13 +152,17 @@ do our best to strike a sane balance between usability and complexity.<br>
             <br>
             As such, the following specific media streaming feature(s) is/are <span class="c2">not</span> on Pale Moon's roadmap:<br>
             <ul><li>In-browser DRM (EME)</li>
-            </ul>"Tycho" will, however, add the following media streaming features:<br>
+            </ul>Version 27 of the browser will, however, add the following media streaming features:<br>
       <ul>
 <li>MSE (Media Source Extensions)
               </li><li>DASH support through MSE</li>
-        <li>Better handling of fragmented media files<br>
-        </li>
-      </ul>
+        <li>Better handling of fragmented media files</li>
+      </ul>In
+addition, we are looking at extending the browser (especially for
+Linux) with ffmpeg media as a replacement for the (generally
+problematic) GStreamer.<br>
+      <br>
+
 Current basic media support will be only extended where needed for regular data formats, and <span class="c3">already includes</span>:<br>
             <ul>
               <li>MPEG support
@@ -169,8 +181,9 @@ Current basic media support will be only extended where needed for regular data 
               </li>
               <li>Plugin-based video formats (Flash/Silverlight/etc.)
               </li>
-            </ul>There are currently no concrete plans to explicitly extend basic media support further, considering the already
-            broadly-encompassing media support in the web browser.<sup></sup><br>
+            </ul>There are currently no specific plans to explicitly extend basic media support further, considering the already
+            broadly-encompassing media support in the web browser.<br>
+<br>
             <h3>
               Platform (operating system) support
             </h3>Pale Moon is originally a Microsoft Windows product.<br>
@@ -178,19 +191,19 @@ Current basic media support will be only extended where needed for regular data 
             <ul>
               <li>Linux (x86 and x64) -- Completed and actively maintained
               </li>
-              <li>Mac OS X -- Currently in its early stages<br>There is some movement on this front and we hope to have an OS X version available later in the year<br>
+              <li>Mac OS X -- Currently in development<br>There is some movement on this front and we hope to have an official OS X version available later in the year<br>
 
               </li>
-              <li>Android ARM -- Completed, but not actively developed due to lack of manpower<br>
-We can use your help on this one (Fennec-based), especially for Android-L (5) compatibility
-              </li>
-              <li>Android-x86 -- Experimental (Fennec-based), no public releases<br>
-              </li>
+              <li>Android ARM -- Completed, but not actively developed due to lack of manpower<br>We do plan to lift Android development up to the new milestone after desktop versions are released.</li>
               
-            </ul>
-            <h3>
+              
+            </ul><br>
+
+            
+      <h3>
               Front-end
-            </h3>Pale Moon's front-end features are well-established, tried-and-tested features that work well in terms
+            </h3>
+Pale Moon's front-end features are well-established, tried-and-tested features that work well in terms
             of flexibility and customizability for users. The front-end is and will remain XUL-based and fully
             extensible by the user.<br>
             <h4>
@@ -209,7 +222,7 @@ you with the fully customizable UI our users have preferred over the
 years.<span class="c4"></span><span class="c4"></span><br>
             <br>
             <h3>Plug-ins</h3>Pale
-Moon supports NPAPI plugins. Unlike Firefox, we will not be deprecating
+Moon supports NPAPI plug-ins. Unlike Firefox, we will not be deprecating
 or removing support for these kinds of plug-ins. This means that you
 will be able to continue using your media, authentication, and other
 plug-ins in Pale Moon like Flash, Silverlight, bank-authenticators or
@@ -236,8 +249,10 @@ by the browser when this lands.<br>
             markup) code, combined with JavaScript. <span style="font-weight: bold;">XUL extensions are strongly preferred because they are independent
             of browser-included libraries that may change over time.</span>
 With Pale Moon aiming to keep approximate front-end compatibility with
-v24 of Firefox, this is the API level that should be aimed for. "Tycho"
-may need some changes to cater to some changed toolkit APIs.<br>
+v24 of Firefox, this is the API level that should be aimed for. <br>
+      <br>
+Version 27 of the browser
+may need some changes to cater to some changed toolkit APIs (most notably the way downloads are handled).<br>
             <br>
             One issue with Pale Moon accepting Firefox IDed XUL extensions is the fact that this compatibility mode
             does not extend beyond the installation manifest. This is on purpose, to not break with the chrome manifest
@@ -255,19 +270,7 @@ many Firefox extensions. We have no plans to do this and many "legacy"
 Firefox extensions will continue to be possible on Pale Moon when targeting it.<br>
             <h4>
               JetPack (Add-on SDK) extensions
-            </h4>JetPack
-(add-on SDK) add-ons are <span style="font-weight: bold;">deprecated</span> for Pale Moon, because they
-inherently run into compatibility issues for multi-application
-targeting due to its divergent nature from other Mozilla applications, and discrepancies in the browser-embedded SDK code.
-In addition, with the front-end focus of Jetpack, there are big and
-increasing issues with compatibility if you expect Firefox Jetpack extensions
-to work on Pale Moon. Pale Moon's browser-included add-on SDK is
-different than the one included in Mozilla Firefox, and extension code
-targeted at one version will likely not be compatible with the other.<br>
-            <br>
-            For the time being, Pale Moon's add-on SDK is almost fully equivalent to v1.14 of the Mozilla add-on SDK,
-            and this will be kept static for as long as the current release milestone is maintained.<br>
-Important note: With "Tycho", <span style="font-weight: bold;">we will completely remove add-on SDK support for extensions</span>, at which point only the "classic" (i.e.: native code) XUL/bootstrapped extensions will be supported.<br>
+            </h4>With Pale Moon v27, <span style="font-weight: bold;">we will completely remove add-on SDK support for extensions</span>, at which point only the "classic" (i.e.: native code) XUL/bootstrapped extensions will be supported.<br>
             <br>
             <h3>
               Additional tools and services
