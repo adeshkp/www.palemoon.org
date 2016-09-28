@@ -6,7 +6,7 @@
     <patch type="complete"
            URL="http://aus.palemoon.org/mar/palemoon-26.5.0.win64.complete.mar"
            hashFunction="SHA256"
-           hashValue="b74ce38628c980a6cc121e412b22e0e7b36aa49d2c7fa0c8ce281d0d6e4aab73"
-           size="30834938"/>
+           hashValue="32aa01e8f0edf852a5e50d5c6c34895ca2d0dc7d89e286b67b643fe64ba5cba6"
+           size="30904677"/>
   </update>
 </updates>
