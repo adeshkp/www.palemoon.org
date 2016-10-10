@@ -8,6 +8,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -41,7 +42,7 @@ table.c7 {background-color: #F9F9F9}
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-09-26</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-10-06</small><br>
 
             <h3>
               General Information
@@ -219,7 +220,17 @@ themes).<br>
 Even with the planned re-base on post-Australis platform code, we will
 make every effort to retain our current setup and continue to provide
 you with the fully customizable UI our users have preferred over the
-years.<span class="c4"></span><span class="c4"></span><br>
+years.<br>
+      <h4>Developer Tools</h4>
+We plan to <span style="font-weight: bold;">not</span> include Web
+Developer tools in our release versions of Pale Moon to keep the
+browser light on its feet and to keep tools optional that would not be
+needed by the vast majority of web browser users, sticking to our credo
+promoting choice.<br>
+For people who want or need these kinds of tools, we will be offering relevant extensions with the same functionality. We <span style="font-style: italic; text-decoration: underline;">may</span>
+(not decided yet, depending on demand) potentially offer a separate
+build of Pale Moon to web developers in the future that have the
+Mozilla-sourced devtools<span class="c4"></span> included.<span class="c4"></span><br>
             <br>
             <h3>Plug-ins</h3>Pale
 Moon supports NPAPI plug-ins. Unlike Firefox, we will not be deprecating
@@ -281,9 +292,9 @@ Firefox extensions will continue to be possible on Pale Moon when targeting it.<
             for these improvements:<br>
             <ul>
               <li>Improvement of the profile migration tool to deal with increasing issues with potentially installed
-              and incompatible Firefox add-ons. (currently unavailable pending an update)
+              and incompatible Firefox add-ons and Firefox profile file formats. (currently unavailable pending an update)
               </li>
-              <li>Improvement of the web installer to offer automatic configuration based on a few different user
+              <li>Improvement of the web installer to offer automatic selection/configuration based on a few different user
               templates.
               </li>
               
