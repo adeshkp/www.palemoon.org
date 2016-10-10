@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Pale Moon geolocation</title>
+
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+</head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Pale Moon geolocation</h1>
+      <h2 id="w_how-do-i-add-a-device">What is geolocation?</h2>
+      <p> Websites that use geolocation (location-aware browsing) will
+ask where you are in order to bring you more relevant information, or
+to save you time while searching. Let&#8217;s say you&#8217;re looking for a
+restaurant in your area. A website will be able to ask you to share
+your location so that it will bring you the relevant restaurants in
+your area... no further information or extra typing required! </p>
+      <p>This service is totally optional &#8211; Pale Moon doesn&#8217;t share
+your location without your permission &#8211; and is done with the utmost
+respect for your privacy. </p>
+      <h2>How does it work?</h2>
+      <p>When you visit a location-aware website, Pale Moon will ask
+you if you want to share your location.</p>
+      <p> If you consent, Pale Moon performs a lookup of your location
+by connecting to the IP-API website, requesting the location (latitude
+and longitude) for your public IP address. No data is sent to this
+service provider other than a regular web request from your location,
+and only the specific IP geolocation is requested (even though more
+data may be available). That location estimate is then shared with the
+requesting website.</p>
+      <p><span style="font-weight: bold;">Of note:</span> this is
+significantly more privacy-aware than Firefox which collects details
+about your computer's local IP address and WiFi access points it knows
+of to send off to Google Location Services. </p>
+      <p>If you say that you do not consent, Pale Moon will not do
+anything and the requesting website will not get any data.</p>
+      <h2><section id="undo-permission"> </section></h2>
+      
+      <h2>How do I undo a permission granted to a site?</h2>
+
+      <p> If you've given Pale Moon permission to always give your
+location to a site and later change your mind, you can easily revoke
+that permission. Here's how: </p>
+      <ul>
+        <li>Navigate to the site to which you&#8217;ve given permission</li>
+        <li>Go to the <em>Tools</em> menu, or right-click the page,
+then select <em>Page Info</em></li>
+        <li>Select the <em>Permissions</em> category</li>
+        <li>Change the setting for <em>Share Location</em></li>
+      </ul>
+      <h2>How do I turn this off completely?</h2>
+      <p> Location-Aware Browsing is always and opt-in feature in Pale
+Moon. No location information is ever sent without your permission. If
+you still wish to disable the feature completely, please follow this
+set of steps: </p>
+      <ul>
+        <li>In the URL bar, type <code>about:config</code> and press
+enter<br>
+        </li>
+        <li>Type <code>geo.enabled</code> to find the geolocation
+preference<br>
+        </li>
+        <li>Double click on the <em>geo.enabled</em> preference to set
+it to <span style="font-style: italic;">false</span><br>
+        </li>
+        <li>Geolocation is now disabled</li>
+      </ul>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon mixed content blocking</title>
+  
+
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Mixed content blocking in Pale Moon</h1>Pale
+Moon protects you from attacks by blocking potentially harmful,
+insecure content on web pages that are supposed to be secure.<br>
+
+      <h2 id="w_how-do-i-add-a-device">What is mixed content?</h2>
+      <p>When
+you visit a page served over HTTP, your connection is open for
+potential eavesdropping and man-in-the-middle attacks. Most websites
+are served over HTTP because they don't involve passing sensitive
+information back and forth and do not need to be secured.<br>
+      <br>
+When you visit a page fully transmitted over HTTPS, like your bank,
+you'll see a green or blue padlock icon in the address bar. This means
+that your connection is authenticated and encrypted, hence safeguarded
+from eavesdroppers and man-in-the-middle attacks.<br>
+      <br>
+However, if the HTTPS page you visit includes HTTP content, the HTTP
+portion can be read or potentially modified by attackers, even though
+the main page is served over HTTPS. When an HTTPS page has HTTP
+content, we call that content &#8220;mixed&#8221; and the padlock will indicate
+this as such. The page you are visiting is only partially encrypted and
+even though it appears to be secure, it isn't.<br>
+</p>
+      <p>By default, Pale Moon will allow mixed passive content
+(images), but will block mixed active content (scripts) because active
+content can easily be abused to steal sensitive information. If content is blocked this way by Pale Moon, you will see the shield icon letting you know mixed content was blocked.<br>
+      </p>
+      <h2>What are the risks of mixed content?</h2>
+      <p>An attacker can replace the HTTP content on the page you're
+visiting in order to steal your credentials, take over your account,
+acquire sensitive data about you, or even attempt to install malware on
+your computer.<br>
+You should normally not allow mixed content on sites that are important
+to be properly secured, like a store checkout, bank, or eMoney provider.<br>
+      </p>
+      <h2>When is mixed content common?<br>
+      </h2>
+      <p>In some situations, mixed content can be a common occurrence.
+For example, if you use webmail to read your e-mail and you've received
+an HTML e-mail that includes images served over a plain HTTP
+connection. Always be aware of the potential risks involved even in
+these situations, and make sure that you check that any login page for
+your webmail is always fully secure.<br>
+      </p>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
