@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -47,38 +49,54 @@ include notes for public betas and the intended "rolling" unstable
 channel we have planned for the near future.<br>
 Please understand that these release notes are concise summaries, nothing more.<br>
 </span><br>
-<h2>Pale Moon v27 public beta 1 (2016-10-??)<br>
-</h2>Public beta 1 should be feature-complete enough for daily use. It's obviously going to still have some bugs in it.<br>
-      <br>
+
 If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
 on GitHub for Pale Moon. When you do so, please <span style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
 already been reported before by others</span> to prevent duplicate entries in
 the tracker. If you report bugs, make sure to include the build date
 (as found in the about box) and provide clear information about the bug:<br>
+
+
+      
       <ul>
-        <li>Clear
+<li>Clear
 indication of what version of the browser this was found in (x86, x64,
 Windows, Linux, exact version and build (see "About" box)<br>
-</li>
-        <li>Clear description of the bug found, with a concise and clear title for the issue<br>
+</li><li>Clear description of the bug found, with a concise and clear title for the issue<br>
 (include exact circumstances and exact error messages, if any)<br>
-        </li>
-
-        <li>Steps to reproduce<br>
+        </li><li>Steps to reproduce<br>
 (what exactly do you do to cause the bug to become apparent?)<br>
-        </li>
-        <li>Expected results<br>
+        </li><li>Expected results<br>
 (given the steps taken, what did you expect the browser to do?)<br>
-        </li>
-        <li>Actual results<br>
+        </li><li>Actual results<br>
 (what did the browser do instead of what was expected?)<br>
         </li>
       </ul>
+
+
 Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
+
+<br>
+<h2>Pale Moon v27 public beta 2 (2016-10-10)</h2>Making progress with the bugfixes.<br>
+Public beta 2 should be feature-complete enough for daily use. It's obviously going to still have bugs in it.<br>
+
       <br>
-      <span style="font-weight: bold;">Important changes since the Alpha stages:</span><br>
+      <span style="font-weight: bold;">Most important changes/fixes since beta 1:</span><br>
+
+      
+      <ul>
+<li>Fixed up most of the devtools.</li><li>Removed WebappRT.</li><li>Fixed OCSP options.</li><li>Removed inclusion of the WindowsXP DirectX library for WebGL.<br>
+(no longer in use on supported platforms)<br>
+</li><li>Fixed about:credits.</li><li>Fixed a crash in offsetX/Y events (e.g. triggered by IMDB videos)</li><li>Changed
+ the "default browser" Windows system integration for later versions of 
+Windows to work around Microsoft blocking explicit control panel module 
+calls.</li><li>Restored wider spacing to about:config for the time being.</li><li>Fixed html button content padding</li><li>Fixed RSS feeds view/subscription</li><li>Fixed up some media back-end issues + added improvements</li><li>Updated libVPX to 1.4</li><li>Fixed missing tabstrip scroll arrows</li>
+      </ul>
+      <h2>Pale Moon v27 public beta 1 (2016-10-04)<br>
+      </h2>
+<span style="font-weight: bold;">Important changes since the Alpha stages:</span><br>
       <ul>
         <li>Sync is available. Casual testing has been performed to set up a new account and synchronize data.<br>
 One known issue that isn't directly related to sync is that when
@@ -93,9 +111,22 @@ some bugs here, since the integration into our front-end is rather
 complex.</li>
         <li>This version doesn't come with an updater because we want
 to, at this point, have a known control point for bugfixing. To update
-to a later version you'll have to manually install.<br>
-        </li>
+to a later version you'll have to manually install.</li>
+      </ul><span style="font-weight: bold;">Added features since the previous version:</span><br>
+      <ul>
+        <li>Added a preference to control Generational Garbage
+Collection in the JavaScript engine and disabled it by default after
+extensive comparative testing.</li>
+        <li>Improved worst-case minor garbage collection latency and releasing of wrapped JS code.</li>
+        <li>Animated SVG in OpenType fonts now work and don't kill browser responsiveness.</li>
+        <li>Implemented an improved implementation of <code>background-repeat:space</code> and <code>background-repeat:round</code> CSS statements.</li>
+        <li>Added <code>MouseEvent.offsetX</code> and <code>MouseEvent.offsetY</code>.</li>
+        <li>Added the "noopener" link option for hyperlinks.</li>
+        <li>Added several optimizations and improvements for Vista and higher versions of Windows.</li>
+        <li>Added many media handling improvements</li>
+        <li>Implemented HTTP/2 pseudo-header restrictions in accordance with RFC 7540.</li>
       </ul>
+
       <span style="font-weight: bold;">Additional important information:</span><br>
       <ul>
         <li>We do <span style="font-weight: bold;">not</span> support
