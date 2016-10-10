@@ -3,20 +3,22 @@
 <html><head>
   <title>Our Contributors</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="chrome://global/skin/about.css" type="text/css">
   <style type="text/css">
     html {
       background-color: #FFFFFF;
     }
 
     body {
+      background-color: #FFFFF3;
       color: #000000;
+      box-shadow: 2px 3px 8px #303030;
     }
 
     h1 {
       text-align: center;
     }
   </style>
-  <link rel="stylesheet" href="Contributors.css" type="text/css">
 </head>
 
 <body id="aboutPageContainer" class="aboutPageWideContainer">
@@ -2333,7 +2335,7 @@ Siyuan Tian,
 András Tímár,
 Timur Timirkhanov,
 Ahmet Serkan Tıratacı,
-Matt Tobin,
+Matt A. Tobin,
 Dominik Tobschall,
 Sara Todaro,
 Heikki Toivonen,
@@ -2512,6 +2514,7 @@ Shawn Wilsher,
 John Wilson,
 Kathleen Wilson,
 Matt Wilson,
+Travis Wine,
 Andy Wingo,
 Blake Winton,
 Daniel Witte,
@@ -2608,9 +2611,10 @@ Valeria Zysman
 
 <p>
   This is a list of people who have "made a significant investment of time, with useful results,
-  into <a href="https://www.mozilla.org/">Mozilla project</a>-governed activities". Any such
-  contributors who wish to be added to the list should <a href="https://docs.google.com/forms/d/1rwLVzr1Fql9ZtAKkG_z5jcRczn2uy84zqwBX9gX52OY/viewform">fill in this form</a>.
-  There is a <a href="https://www.mozilla.org/credits/faq/">FAQ</a> about this process. The list was last updated July 19, 2016.
+  into <a href="https://www.mozilla.org/">Mozilla project</a>-governed activities" (historically),
+  and people who have significantly contributed to the <a href="http://www.palemoon.org/">Pale Moon project</a>.
+  Any such contributors to the Pale Moon project who wish to be added to the list should <a href="https://docs.google.com/forms/d/e/1FAIpQLScG_YGnBg51UroJs7xeNg-FSEsvpv3cbHchHyTGgbXvccO1oA/viewform">fill in this form</a>.
+  The list was last updated October 7, 2016.
 </p>
 
 </body></html>
