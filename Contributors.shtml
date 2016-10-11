@@ -2615,23 +2615,7 @@ Valeria Zysman
   into <a href="https://www.mozilla.org/">Mozilla project</a>-governed activities" (historically),
   and people who have significantly contributed to the <a href="http://www.palemoon.org/">Pale Moon project</a>.
   Any such contributors to the Pale Moon project who wish to be added to the list should <a href="https://docs.google.com/forms/d/e/1FAIpQLScG_YGnBg51UroJs7xeNg-FSEsvpv3cbHchHyTGgbXvccO1oA/viewform">fill in this form</a>.
-<script language="javascript">
-months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-var weekday=new Array(7);
-weekday[0]="Sunday";
-weekday[1]="Monday";
-weekday[2]="Tuesday";
-weekday[3]="Wednesday";
-weekday[4]="Thursday";
-weekday[5]="Friday";
-weekday[6]="Saturday";
-
-var theDate = new Date(document.lastModified); 
-theDate.setTime((theDate.getTime()+(60*60)) );
-with (theDate) { 
-document.write("The list was last updated on "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+getFullYear()+'.');
-} 
-</script>
+  The list was last updated on 11 October 2016.
 </p>
 
 </body></html>
