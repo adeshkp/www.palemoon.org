@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <meta content="Moonchild" name="author">
     <style type="text/css">
-table.c8 {background-color: #F9F9F9}
     td.c7 {vertical-align: top; text-align: center;}
     td.c6 {vertical-align: top;}
     span.c5 {color: rgb(102, 0, 0);}
@@ -20,7 +19,7 @@ table.c8 {background-color: #F9F9F9}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style></head><body>
-    <table class="maintable c8" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">

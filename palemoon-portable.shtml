@@ -35,7 +35,6 @@
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
     <style type="text/css">
-table.c14 {background-color: #F9F9F9}
     td.c13 {vertical-align: top; text-align: center;}
     td.c12 {vertical-align: top;}
     span.c11 {color: red;}
@@ -50,7 +49,7 @@ table.c14 {background-color: #F9F9F9}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style></head><body>
-    <table class="maintable c14" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">

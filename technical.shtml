@@ -20,7 +20,6 @@ table.resulttable > tbody > tr > td {
 
     </style>
     <style type="text/css">
-table.c16 {background-color: #F9F9F9}
     td.c15 {vertical-align: top; text-align: center;}
     li.c14 {list-style: none; display: inline}
     span.c13 {font-style: italic;}
@@ -37,7 +36,7 @@ table.c16 {background-color: #F9F9F9}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style></head><body>
-    <table class="maintable c16" align="center" border="0" cellpadding="0" cellspacing="0">
+    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <th class="subpageheader">
