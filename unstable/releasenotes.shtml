@@ -3,6 +3,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -27,7 +28,7 @@ table.c17 {background-color: #F9F9F9}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style></head><body>
-<table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
+<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
     <tr>
@@ -79,7 +80,36 @@ also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
 
 <br>
-<h2>Pale Moon v27 public beta 2 (2016-10-10)</h2>Making progress with the bugfixes.<br>
+<h2>Pale Moon v27 public beta 3 (2016-10-27)</h2>A lot more polishing
+and bugfixing, working through the last blockers for the coming
+release. You may consider this stable enough for just about all intents
+and purposes.<br>
+      <br>
+      <span style="font-weight: bold;">Most important changes/fixes since beta 2:</span><br>
+      <ul>
+<li>This should fix webcrypto issues people have reported.</li><li>Fixed places/library category errors (tags etc).</li><li>Fixed geolocation (prompt and lookup, "more information").</li><li>Fixed desktop notification and pointerlock prompts.</li><li>Fixed the "more information" link for mixed content.</li><li>Removed pdf.js from the browser.<br>
+Considering this preview module (maintained for emergency only) would
+not render even half the documents correctly, it has been removed from
+Pale Moon. Some websites that insist on only having embedded PDF
+content (not downloadable and not using a web-based viewer on-site) may
+require you to install a PDF plugin as a result.<br>
+</li><li>Fixed the "ask to activate" image+link in plugin areas.</li><li>Fixed the browser downloads UI call in BrowserDownloadsUI().</li><li>Enforced Firefox-compatibility useragent on msn.com and bing.com to prevent errors.</li><li>Fixed the save file picker dialog closing immediately on some sites (e.g. dropbox).</li><li>Fixed missing toolbar in print preview.</li><li>Fixed "Forget about this site" command.</li><li>Fixed an issue with update logging.</li><li>Added
+ a new option and control to determine whether to save zone information 
+(downloaded from the Internet) on downloaded files (Windows+NTFS).<br>
+You can find this option in the "General" category of browser options.<br>
+</li><li>Fixed a regression causing memory inflation and crash due to onload= changes to &lt;link&gt; and style elements.</li><li>Fixed favicon handling on hash navigation.</li><li>Added
+ indicators in the add-ons manager for native (blue)/non-native (orange)
+ extensions, to more easily pinpoint which extensions are Pale Moon 
+specific and which are Firefox extensions.</li><li>Fixed an issue with xlink:href navigation (e.g. embedded &lt;a&gt; links inside SVG).</li><li>Fixed an issue with SVG favicons on sites not being seen as valid nor being cached properly.</li><li>Switched AMO useragent override to be v28.9 instead of v24.9, to be closer to our FE+platform spec.</li><li>Updated OTS to 5.1 from upstream + fixed a visibility issue in it.</li><li>Updated the woff2 code from upstream.</li><li>Hard-blocked the classic theme restorer (CTR) extension -- just in case.</li><li>Fixed History menu "restore all tabs".</li><li>Fixed font preferences fallback encoding selection.</li><li>Removed the (unused) maintenance service code.</li><li>Changed the media/video parsing/rendering logic.</li><li>Added MSE enable/disable options to the Options dialog.<br>
+You can find these options in the "Content" category of browser options.<br>
+</li><li>Enabled @font-face unicode-range parsing in CSS.</li><li>Added use of object array and typed object array <em>.includes()</em>.</li><li>Fixed the offline application cache to work properly with http cache v2.</li><li>Removed confusion in preferences for the use of https cache back-ends.<br>
+The preference to select the back-end is now called <code>browser.cache.backend</code> (numeric).<br>
+Set to 0 for the old back-end (deprecated) or 1 for the new back-end.<br>
+</li><li>Fixed up OS X default theme styling.</li>
+      </ul>
+      <br>
+      <h2>Pale Moon v27 public beta 2 (2016-10-10)</h2>
+Making progress with the bugfixes.<br>
 Public beta 2 should be feature-complete enough for daily use. It's obviously going to still have bugs in it.<br>
 
       <br>
