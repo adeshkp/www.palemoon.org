@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Preferences: General</title>
+
+  
+<!-- Keep the http-equiv meta tag for IE8 -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+</head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Startup, Home page and Downloads</h1>
+      <strong>This preferences page provides Pale Moon settings for
+browser startup, home page location, and several settings for downloads.</strong><br>
+      <br>
+      <h2>Browser startup</h2>
+      <p>When Pale Moon starts, you can choose from the following
+startup behaviors:<br>
+      </p>
+      <ul>
+        <li>Show my home page: This will make the initial page loaded
+when the browser starts the home page or pages set below. (default)<br>
+        </li>
+        <li>Show a blank page: This will make the initial page loaded
+when the browser starts an empty document.</li>
+        <li>Show my windows and tabs from last time: This will restore
+the browser windows and tabs that were open when you ended your
+previous browsing session (exited the browser).</li>
+      </ul>
+      <h2>Browser home page</h2>
+In the Home Page field, you can enter any URL (or multiple, separated
+by a pipe | character) that the browser should treat as its home page.
+This home page will be used for the Home navigation button, and (if
+set) as startup page for browser start.<br>
+If you erase the contents of the field, the browser will use an
+(internal) home page with some basic functions and a web search bar.<br>
+      <br>
+The buttons allow you to quickly set the home page field:<br>
+      <ul>
+        <li>Use current page: Sets the field to whatever URL is
+currently open in the browser window you opened the Options from.</li>
+        <li>Use Bookmark...: Opens a bookmark chooser, allowing you to
+pick one of the bookmarks you saved as a home page.</li>
+        <li>Restore to default: Resets the home page field to the
+default home page as shipped with the browser.<br>
+        </li>
+      </ul>
+      <h2>Downloads</h2>
+      <p>This section allows you to choose where to save downloaded
+files. You can either select a default download location, making
+downloads start automatically and downloaded files to always be saved
+in the designated folder/directory, or select to have the browser ask
+where downloaded files should be saved every time.</p>
+      <p>(New in v27): On Windows, files downloaded from the internet
+can have specific zone information saved with them to mark the files as
+potentially unsafe. You can indicate here whether this zone information
+should be saved with downloaded files or not:<br>
+      </p>
+      <ul>
+        <li>Never: The browser will never save zone information with
+the downloaded files (they are not marked as downloaded from the
+internet).<br>
+        </li>
+        <li>Always: The browser will always save this information with
+downloaded files.<br>
+        </li>
+        <li>Use system setting: The browser will use whatever the
+system-wide setting is for zone information to determine whether to
+save this information with downloaded files or not.</li>
+      </ul>
+Note: Zone information can only be saved on NTFS drives.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
