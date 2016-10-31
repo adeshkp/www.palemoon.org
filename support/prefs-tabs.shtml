@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Tabs</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Tabs</h1>
+      <strong>This preferences page provides Pale Moon settings for
+tabbed browsing.</strong><br>
+      <br>
+The following selections are available:<br>
+      <ul>
+        <li><strong>Open new windows in a new tab instead:</strong> This <span class="for" data-for="win">option</span>
+ controls whether links from other applications or from web pages which 
+request to open them in new windows are opened in a new window or a new 
+tab in the most recent window.</li>
+        <li><strong>Warn me when closing multiple tabs</strong>: When
+you close multiple tabs with a single action (e.g. "Close all other
+tabs" from the tab strip), Pale Moon will ask you to confirm this
+action when this option is checked, to prevent accidental closing of
+many pages at once.<br>
+        </li>
+        <li> <strong>Warn me when opening multiple tabs might slow down Pale Moon</strong>:
+ When you open a large number of tabs at once, Pale Moon will ask you to 
+confirm your choice. This prevents you from accidentally slowing down 
+your system while the pages are loading. Uncheck this <span class="for" data-for="win">option</span> to disable this warning.</li>
+        <li><strong>Always show the tab bar</strong>: When this option is deselected, the tab bar will be hidden when you only have a single tab open.<br>
+        </li>
+        <li><strong>Don't load tabs until selected</strong>: When checked, Pale Moon will 
+only load the active tab when it starts or restores your previous 
+session. This can make startup much faster if you are restoring many 
+tabs. The other open tabs will be loaded as you click on them.
+        </li>
+        <li> <strong>When I open a link in a new tab, switch to it immediately</strong>: When you middle-click on a Web link (or hold down <span class="for" data-for="win,linux"><span class="key">Ctrl</span></span>
+ while clicking with the left mouse button), the page will be opened in a
+ new tab. That page will not be displayed and will load in a background 
+tab. Check this <span class="for" data-for="win">option</span> to load and display the page in a new foreground tab instead.<strong></strong></li>
+        <li><strong>Show tab previews in the Windows taskbar</strong>: When
+ you move your pointer over the Pale Moon icon in the Windows 7 or later taskbar, 
+Windows will show you a preview of the Pale Moon window. With this option 
+check marked, Windows will show you a separate preview for each tab, instead.
+        </li>
+        <li> <strong>Insert related tabs next to the current tab</strong>:
+When this option is checked, Pale Moon will insert tabs related to your
+active tab (e.g. a link from the current page) in a new tab inserted
+directly next to your active tab instead of at the end of the tab strip.</li>
+        <li><strong>When performing a context search, switch to the new tab immediately</strong>:
+When you perform a context search (selecting a word/phrase, then
+right-clicking and choosing to search the web for that word/phrase),
+Pale Moon will open the search in a new tab. If you check this option,
+the search results tab will immediately be brought to the foreground.</li>
+        <li><strong>Close the window when the last tab is closed</strong>:
+If you check this option, Pale Moon will close the browser window if
+you close the last tab in it. Otherwise, it will close the document,
+keep the window open, and show a new blank tab, instead.</li>
+        <li><strong>When opening a new tab, show</strong>: Allows you to choose what newly-opened tabs display by default.</li>
+        <ul>
+          <li>A blank page: Displays an empty document.</li>
+          <li>The Pale Moon start page: Displays the Pale Moon start portal.</li>
+          <li>The Quickdial page: Displays a page with thumbnails of the most used and/or pinned web pages.</li>
+        </ul>
+      </ul>
+
+      <div class="for" data-for="win7,win8">
+
+      </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
