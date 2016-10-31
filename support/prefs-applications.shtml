@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Applications</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Applications</h1>
+      <span style="font-weight: bold;">The </span><span style="font-weight: bold;" class="menu">Applications</span><span style="font-weight: bold;"> category allows you to choose how Pale Moon handles different types of files.</span><br>
+      <br>
+For each content type Pale Moon recognizes, you can select an action
+that will be used to handle that type of content. You can view the file
+content in the browser window with formats that are natively supported
+by Pale Moon (e.g. Podcasts or Web Feeds) or handled by a plugin (e.g.
+PDF), open the file with an application installed on your computer (or
+in some cases, with a web application), or you can save the file to
+disk.<br>
+      <br>
+      <p>To change how Pale Moon handles a listed file type, click on its 
+name to select it. Then, open the drop-down menu to select the action
+ you want Pale Moon to use:
+      </p>
+
+      <ul>
+<li> <strong>Preview in Pale Moon</strong>: Select this if you want 
+Pale Moon to display the content in its browser window.  This is only applicable to a limited 
+number of file types, namely only those that Pale Moon is able to decode directly such as Podcasts or Web Feeds.<strong><br>
+Note:</strong> A particular configuration of the server hosting
+a supported document could force the download of the file (disabling
+the preview).</li>
+        <li> <strong>Choose a feature or plugin</strong>: If you want a feature
+or a plugin in Pale Moon to handle the type, and one is available,
+select it from the drop-down menu. This will be indicated with "Use
+[name of feature] (in Pale Moon)"<br>
+
+        </li>
+        <li> <strong>Choose an application</strong>: To choose a local or 
+web application to handle a type, select the application from the 
+drop-down menu. If you want a local application that is not in the menu 
+to handle the type, select <strong>Use other…</strong> from the drop-down menu and point Pale Moon to its location.
+        </li>
+        <li> <strong>Save file</strong>: Some file types can be saved to your computer. Select <strong>Save File</strong>
+from the menu for one of these file types to have Pale Moon save that
+type of file to the location specified in the Downloads settings.
+</li>
+      </ul>
+
+
+      <strong></strong> 
+
+      <p>Some file formats may have multiple content types, also called Internet media types, <span class="for" data-for="win">(for instance, audio/wav and audio/x-wav for Wave Sound) </span>that
+ you will need to change. Also, when a plugin is available to handle a 
+content type and you choose a different action for that type, Pale Moon 
+will only take your chosen action when you access the type directly (direct link or download link).<br>
+For
+ example,  you may choose to open these files with a media player 
+application instead of using the plugin that is set to open it. In such 
+cases, your chosen application will be used for file downloads, but, when
+ the content type is embedded inside a web page, Pale Moon will continue 
+to use the plugin to handle the content type, instead. 
+      </p>
+The Applications category has limited functionality for editing. You
+can change the action for an existing file type but you cannot add or
+remove file types. Entries are added automatically when you download
+files and select actions for them from the file download dialog box.<br>
+      <br>
+      <strong></strong>
+
+      <div class="for" data-for="win7,win8">
+
+      </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
