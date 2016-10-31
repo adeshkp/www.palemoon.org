@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Web Content</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Settings for Web Content</h1>
+      <strong>This preferences page provides Pale Moon settings for web content, pop-ups, fonts, and languages.</strong><br>
+      <br>
+      <h2>Pop-ups</h2>
+By default, Pale Moon blocks annoying pop-up windows on websites. Unchecking this option will disable pop-up blocking.<br>
+Some websites make legitimate use of pop-up windows. Therefore, you can
+allow these sites to open pop-ups anyway. To do so, click <span style="font-style: italic;">Exceptions…</span>, enter the site name, and click <span style="font-style: italic;">Allow</span>. To remove a website from the list, select it and then click <span style="font-style: italic;">Remove Site</span>. To clear the list completely, click <span style="font-style: italic;">Remove All Sites</span>.<br>
+      <h2>Images</h2>
+Pale Moon allows you to control whether images in web pages are loaded
+or not. The default setting to automatically load all images is
+strongly recommended, but if your specific conditions require it, you
+may change this setting:<br>
+      <ul>
+        <li>Automatically: Automatically requests and loads all images in a web page.</li>
+        <li>Never: Never loads images in a web page.</li>
+        <li>Originating server only: Only loads images from the same
+server as the web page is loaded from, and doesn't load images that are
+hosted on a third-party server. Although this setting potentially
+improves your privacy, it will not work for websites that use dedicated
+image servers or content distribution networks.<br>
+        </li>
+      </ul>
+      <h2><a name="Fonts_and_Colors"></a>Fonts and Colors</h2>
+      <p><strong>Default font</strong> and <strong>Size</strong>: Web pages 
+are usually displayed in the font and size specified here (measured in 
+pixels). However, web pages can override these choices unless you 
+specify otherwise in the Fonts dialog. Click the <span style="font-style: italic;" class="button">Advanced…</span> button to access the Fonts dialog and to change this and other fonts <span class="for" data-for="win">options</span>.
+      </p>
+
+      <h3>Fonts Dialog</h3>
+
+      <ol>
+<li> From the <strong>Fonts for</strong> drop-down list, choose a 
+language group/script. For instance, to set default fonts for the West 
+European languages/scripts (Latin), choose <span class="for" data-for="fx34"><em>Latin</em></span>. For a language/script not in the list, choose <span class="for" data-for="fx34"><em>Other Writing Systems</em></span>.
+</li><li> Select whether proportional text should be serif (like "Times 
+New Roman") or sans-serif (like "Arial"). Then specify the font size you
+ want for proportional text.
+</li><li> Specify the font to use for Serif, Sans-serif and Monospace fonts. You can also change the size for <code>Monospace fonts</code>.
+</li>
+      </ol>
+
+      <p>You can also set the minimum web page font size. This is useful to 
+prevent sites from using overly small fonts that are barely readable.
+      </p>
+
+      <ul>
+<li> <strong>Allow pages to choose their own fonts, instead of my selections above</strong>: By default, Pale Moon uses the fonts specified by the web page author. Disabling this <span class="for" data-for="win">option</span>
+will force all sites to use your default fonts instead. Please note
+that this may severely impact the display and usability of some sites.<br>
+
+</li><li> <strong>Character Encoding for Legacy Content</strong>: The character encoding selected here will be used to display pages that don't specify which encoding to use.</li>
+      </ul>
+      <h3>Colors Dialog</h3>
+      <strong>Text and Background</strong>: Here you can change the default
+ text and background color to be used on web pages that haven't 
+specified that information. Click on the color samples to select colors.
+
+      <ul>
+<li> <strong>Use system colors</strong> Check this <span class="for" data-for="win">option</span> to use the colors defined in your operating system settings instead of the colors specified above.
+</li>
+      </ul>
+
+      <p><strong>Link Colors</strong>: Here you can change the default colors for Web links. Click on the color samples to select colors.
+      </p>
+
+      <ul>
+<li> <strong>Underline links</strong>: By default, links are underlined on web pages. Uncheck this <span class="for" data-for="win">option</span> to disable this. Note that many sites specify their own styling rules and this <span class="for" data-for="win">option</span> has no effect on those sites.
+</li><li>Version 26 and before:<br>
+If you are using a High Contrast (accessibility) operating system
+theme, colors specified by the page will always be overridden.<br>
+ <strong>Allow pages to choose their own colors, instead of my selections above</strong>: Select this <span class="for" data-for="win">option</span> (default) to allow pages to use the colors specified by the page author.<br>
+ <strong></strong></li>
+        <li>Version 27 and later:<br>
+ <strong>Override the colors specified by the page with my selections above</strong>:
+<ul><li> <strong>Always</strong>: Select this <span class="for" data-for="win">option</span> to force all sites to use your default colors.
+</li><li> <strong>Only with High Contrast themes</strong>: This <span class="for" data-for="win">option</span> will make Pale Moon use the colors specified by the web page author, except when you are using a High Contrast (accessibility) <span class="for" data-for="win"></span>theme.
+</li><li> <strong>Never</strong>: Select this <span class="for" data-for="win">option</span> to make Pale Moon always use the colors specified by the web page author.
+</li></ul>
+        </li>
+      </ul>
+      <h2>Languages</h2>
+      <p>Some web pages are offered in more than one language. Click the <span style="font-style: italic;" class="button">Choose…</span> button to specify your preferred language or languages.
+      </p>
+      <p><strong>Languages Dialog</strong>: To add a language, click <strong>Select a language to add…</strong>, choose the language, and click the  button. Remove a language by selecting it in the list of active languages and clicking the <span style="font-style: italic;" class="button">AddRemove</span> button. You can also reorder languages using the <span style="font-style: italic;" class="button">Move Up</span> and <span style="font-style: italic;" class="button">Move Down</span> buttons to determine the most preferred one in case a page is provided in multiple of your listed languages.
+      </p>
+      <h2>Video</h2>
+Only for Pale Moon version 27 and up.<br>
+      <ul>
+        <li><strong>Enable Media Source Extensions (MSE)</strong>: This enables the use
+of Media Source Extensions, a streaming media delivery method used for
+video on a number of websites. This is enabled by default.<br>
+        </li>
+        <li><strong>Enable MSE for MP4 video</strong>: This enables the use of MSE for media in MP4/h.264 video formats. This is enabled by default.<br>
+        </li>
+        <li><strong>Enable MSE for WebM video</strong>: This enables the use of MSE for media in the WebM video format.<br>
+This is disabled by default because it causes issues with seeking and
+looping of media in the player implementations on the main websites
+where this combination is used.<br>
+        </li>
+      </ul>
+      <br>
+
+      <div class="for" data-for="win7,win8">
+
+      </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
