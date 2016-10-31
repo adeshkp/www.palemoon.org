@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Security</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Security and Passwords</h1>
+      <strong>This preferences page provides Pale Moon settings for
+various security features and stored passwords.</strong><br>
+      <h2>Add-ons</h2>
+
+      <p><strong>Warn me when sites try to install add-ons</strong>: Pale Moon will
+ always ask you to confirm installations of add-ons. To prevent 
+unrequested installation prompts which may lead to accidental 
+installations, Pale Moon warns you when a website tries to install an 
+add-on and blocks the installation prompt. To allow installations from a
+ specific site, click <span style="font-style: italic;" class="button">Exceptions…</span>, enter the site name, and click <span style="font-style: italic;" class="button">Allow</span>. Uncheck this to disable the extra warning for all sites. <br>
+      </p>
+      <h2>Passwords</h2>
+If you store passwords in the browser, it is strongly recommended that you set and use a master password.<br>
+      <ul>
+<li> <strong>Remember passwords for sites</strong>: Pale Moon can 
+securely save passwords you enter in web forms to make it easier to log 
+on to websites. Clear this checkbox to prevent Pale Moon from remembering 
+your passwords.<br>
+          <span style="font-weight: bold;">Note</span>: Even with this checked, you will still be asked whether 
+to save specific passwords for a site when you first visit it. If you select <span style="font-style: italic;" class="button">Never for This Site</span>, that site will be added to an exceptions list. To access this list or to remove sites from it, click the <span style="font-style: italic;" class="button">Exceptions…</span> button.
+
+</li><li> <strong>Use a master password</strong>: Pale Moon can protect
+sensitive information such as saved passwords and certificates by
+encrypting them using a master password. If you create a master
+password, each time you start a new browsing session, Pale Moon will
+ask you to enter the password the first time it needs to access a
+certificate or stored password (including when Sync is used).<br>
+You can set, change, or remove the 
+master password by checking or unchecking this <span class="for" data-for="win">option</span> or by clicking the <span style="font-style: italic;" class="button">Change Master Password…</span>
+button. If a master password is already set, you will need to enter the
+current master password in order to change or remove it, as a security
+measure.
+</li><li> You can manage saved passwords and view or delete individual passwords by clicking the <span style="font-style: italic;" class="button">Saved Passwords…</span> button.
+</li>
+      </ul>
+      <h2>XSS Filter</h2>
+      <p>Pale Moon version 26.* only.</p>
+      <p>This checkbox enables the active XSS (Cross-site scripting)
+filter present in Pale Moon v26. Please see the forum for more
+information about this filter.<br>
+Due to technical limitations and stability concerns (browser crashes), this filter is not implemented in v27 any longer.<br>
+      </p>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
