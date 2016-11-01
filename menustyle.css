@@ -17,9 +17,9 @@
 	list-style: none;
 	line-height: 1;
 	color:#FFFFFF;
-	background: #222;
+	background: #5272A1;
 	padding: 0;
-	border: solid #343430;
+	border: solid #A0A0A4;
 	border-width: 1px 0;
 	margin: 0 0 0 0;
 
@@ -29,14 +29,14 @@
 }
 
 .mainmenu a, .mainmenu a:visited {
-	display: block;
+   display: block;
    font-family: "Museo500Regular","Times New Roman",Times, serif;
    font-size:11.5pt;
    font-style:normal;
    text-decoration:none;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding: 7px 1em;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 7px 1em;
    letter-spacing: 0.4px;
    opacity: 0.99;
 }
@@ -47,7 +47,6 @@
 .mainmenu ul a{
 	width:1%;
 }
-
 
 .mainmenu li  {
 	float: left;
@@ -64,7 +63,7 @@
 	height: auto;
 	width:15em;	
 	
-	background: #222;
+	background: #5272A1;
 	font-weight: normal;
 	border-width: 1px;
 	margin: 0;
@@ -107,7 +106,7 @@
 }
 
 .mainmenu li:hover{
-	background: #974B00;
+	background: #004B97;
 }
 
 .mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
@@ -123,7 +122,7 @@
 .mainmenu li li:hover, .mainmenu li li li:hover, 
 .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
 {
-	background: #974B00;
+	background: #004B97;
 	z-index:9999;
 }
 .mainmenu li li:hover a,.mainmenu li li li:hover a, 

@@ -7,18 +7,18 @@ body {
   font-style: normal;
   font-size: 12pt;
   letter-spacing: 0.3px;
-  background-color: #000000;
-  background: linear-gradient(to bottom, #543900 0%, #220 31%, #000000 93%, #543900 100%);
+  background-color: #d4d9f7;
+  background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
 }
 
 h1 {
   font-family: "Museo300Regular","Times New Roman",Times,serif;
   font-size: 20.5pt;
-  color: #660;
+  color: #000066;
 }
 
 h2.faq {
-  background-color: #000;
+  background-color: #e0e0ff;
 }
 
 td {
@@ -26,23 +26,23 @@ td {
 }
 
 a {
-  color: #630;
+  color: rgb(22, 54, 101);
 }
 
 a:visited {
-  color: #432;
+  color: rgb(42, 54, 81);
 }
 
 .maintable {
-border: 1px solid;
-border-color: #888888;
-text-align: left;
-width: 800px;
-box-shadow: 0px 0px 13px #3f0;
-border-radius: 9px;
-padding: 3px;
-background-color: rgb(200, 200, 180);
-color:black;
+  border: 1px solid;
+  border-color: #888888;
+  text-align: left;
+  width: 800px;
+  box-shadow: 2px 2px 8px #333;
+  border-radius: 9px;
+  padding: 3px;
+  background-color: rgb(249, 249, 249);
+  color: black;
 }
 
 .maintableheader {
@@ -65,8 +65,8 @@ img.subpageheader {
 
 .pagemenu {
   padding: 0pt;
-vertical-align: top;
-  background-color: #222;
+  vertical-align: top;
+  background-color: rgb(82, 114, 161);
 }
 
 .dltable_text {
@@ -75,13 +75,13 @@ vertical-align: top;
 }
 
 .topnews {
-  border: 1px solid rgb(255, 182, 000);
+  border: 1px solid rgb(151, 182, 255);
   border-radius: 5px; 
   text-align: left; 
   font-family: "Museo500regular",Arial,Helvetica,sans-serif; 
   width: 100%;
-  color: #ddd; 
-  background-color: #110;
+  color: black; 
+  background-color: rgb(244, 244, 255);
 }
 td.topnewstext {
   margin: 0px; 
@@ -90,7 +90,7 @@ td.topnewstext {
 }
 
 .sysreq {
-  border: 1px solid rgb(155, 82, 55);
+  border: 1px solid rgb(51, 82, 155);
   border-radius: 5px;
   overflow: hidden;
   }
@@ -110,23 +110,23 @@ pre {
   }
   
 .dllink_green {
-border: 1px solid rgb(0, 153, 0); 
-padding: 14px; 
-background-color: rgb(153, 255, 153); 
-font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
-color: black; 
-text-decoration: none; 
-border-radius: 9px; 
+  border: 1px solid rgb(0, 153, 0); 
+  padding: 14px; 
+  background-color: rgb(153, 255, 153); 
+  font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
+  color: black; 
+  text-decoration: none; 
+  border-radius: 9px; 
 }
 
 .dllink_blue {
-border: 1px solid rgb(0, 0, 153); 
-padding: 14px; 
-background-color: rgb(153, 153, 255); 
-font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
-color: black; 
-text-decoration: none; 
-border-radius: 9px; 
+  border: 1px solid rgb(0, 0, 153); 
+  padding: 14px; 
+  background-color: rgb(153, 153, 255); 
+  font-family: "Museo500Regular",Arial,Helvetica,sans-serif; 
+  color: black; 
+  text-decoration: none; 
+  border-radius: 9px; 
 }
 
 .chatbutton-freenode {
