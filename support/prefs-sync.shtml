@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Sync</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"><img style="border: 0px solid ; width: 800px; height: 82px;" alt="The Pale Moon Project - Custom-built and optimized Firefox browsers for Windows Operating Systems" src="../pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Sync preferences</h1>
+      <strong>This preferences page provides Pale Moon settings for
+the Pale Moon Sync client.</strong><br>
+      <h2>When Sync has not been set up yet</h2>When Pale Moon Sync has not been set up yet, this page offers 2 links:<br>
+      <ul>
+        <li><span style="font-weight: bold;">Set Up Sync</span>: Set up Pale Moon Sync on this browser</li>
+        <li><span style="font-weight: bold;">Pair a device</span>: Link the browser to an existing Sync account.</li>
+      </ul>
+Please see the <a href="http://www.palemoon.org/sync/help/easy-setup.shtml">help page for adding new devices</a> for more information on how this setup procedure works.<br>
+      <h2>When Sync is active</h2>
+
+      <p>When Sync is active (it is set up with a user name, password
+and key), this page offers various settings to control the operation of
+Sync.<br>
+</p>
+      <h3>Manage Account</h3>
+This drop-down menu has a number of options:<br>
+      <ul>
+        <li>View Quota: This allows you to check how much space you
+have in use on the Pale Moon Sync server for each synchronized data
+category.</li>
+        <li>Change Password: This allows you to change the password on
+your Sync account. Entering a new password in the Sync client will
+prevent any of your other linked devices from synchronizing until
+you've updated the password on those devices as well.</li>
+        <li>My Recovery Key: This allows you to view and manage your encryption key for your data. Please see the <a href="http://www.palemoon.org/sync/help/recoverykey.shtml">help page for managing your recovery key</a> for more information.</li>
+        <li>Reset Sync: This allows you to remove synchronized data and re-synchronize, in case of issues. You have the choice of:</li>
+        <ul>
+          <li><span style="font-weight: bold;">Merge data</span>: This
+will remove the data belonging to this device on the server, and
+re-send local data, as well as re-fetch data from other devices linked
+to your account.</li>
+          <li><span style="font-weight: bold;">Replace all data on this device</span>: This will remove all local data that is shared between devices (bookmarks/passwords/etc.) and fetch replacements from the Sync server. Any un-synchronized local data will be lost.</li>
+          <li><span style="font-weight: bold;">Replace all data on other devices</span>:
+This will remove all data on the sync server that is shared between
+devices and push the local data to the server to replace data on other
+devices. Any data on other devices will be overwritten by this local
+data next time those devices connect to the Sync server.<br>
+          </li>
+        </ul>
+      </ul>
+      <h3>Sync My...</h3>
+This determines which items to synchronize between devices.<br>
+Any item that is checked will be sent from this browser and fetched
+from the server; any unchecked item will have a local, independent copy
+of the item.<br>
+      <h3>Device Name</h3>
+This space is used to give your synchronized browser a unique name on
+the Sync server, allowing you to find a device easily for getting a
+specific item from a remote, synchronized, device, like an open tab.<br>
+      <br>
+      <span style="font-weight: bold;">Privacy notice</span>: This field is the <span style="font-style: italic;">only</span> thing that is sent <span style="font-style: italic;">as-is</span>
+to the Sync server and not encrypted in the database (although still
+protected by SSL/TLS in transport, of course). If you are worried that
+this information might be a privacy issue, then please make sure to
+give each synchronized browser instance a unique, cryptic name that
+makes sense to you for distinguishing the different browsers, but
+doesn't make sense to a random observer.<br>
+      <h3>Unlink This Device</h3>
+Clicking this link will remove this browser from your Sync account and will stop synchronizing data.<br>
+      <br>
+You will not lose any local data when you do this; all your history,
+bookmarks, passwords, etc. will remain stored as-normal in your
+browser, but any changes to this data will no longer be sent to the
+server, nor be available on other devices from that point forward.<br>
+      <h3>Terms of Service/Privacy policy<br>
+      </h3>
+      <p>These links allow you to open up a page with the Terms of
+Service and Privacy Policy of the sync server you currently have in
+use.This will be dependent on whether you use the Pale Moon Sync server or a different (custom) sync server operated by someone else. <br>
+      </p>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
