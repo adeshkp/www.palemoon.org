@@ -50,7 +50,8 @@
 
   <tbody>
     <tr>
-      <th class="maintableheader" colspan="2"> <img class="c1" alt="The Pale Moon browser - Your browser, Your way!" src="siteheader.jpg" align="top" hspace="0" vspace="0"> </th>
+      <th class="maintableheader" colspan="2">
+      </th>
     </tr>
     <tr align="left">
       <td colspan="2" class="pagemenu"><!--#include virtual="nav/menu.html" -->

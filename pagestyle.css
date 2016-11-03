@@ -49,12 +49,18 @@ a:visited {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   overflow: hidden;
+  width: 800px;
+  height: 200px;
+  background-image: url(themes/default/siteheader.jpg);
 }
 
 .subpageheader {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   overflow: hidden;
+  width: 800px;
+  height: 82px;
+  background-image: url(themes/default/pagebanner.jpg);
 }
 
 img.subpageheader {

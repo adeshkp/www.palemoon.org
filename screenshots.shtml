@@ -24,7 +24,6 @@
     td.c4 {vertical-align: top; text-align: center;}
     img.c3 {border: 0px solid ; width: 300px; height: 214px;}
     span.c2 {font-weight: bold;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
   </head>
   <body>
@@ -32,8 +31,6 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-            <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0"
-            vspace="0"><br>
           </th>
         </tr>
         <tr align="left">

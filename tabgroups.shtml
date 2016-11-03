@@ -28,14 +28,13 @@
     ul.c4 {margin-top: 0cm;}
     div.c3 {text-align: center}
     a.c2 {display: table-cell;}
-    img.c1 {border: 0px solid ; width: 800px; height: 82px;}
     </style>
 </head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
     <tr>
-      <th class="subpageheader"> <img class="c1" alt="Pale Moon - Your browser, Your way" src="pagebanner.jpg" align="top" hspace="0" vspace="0"><br>
+      <th class="subpageheader">
       </th>
     </tr>
     <tr align="left">
