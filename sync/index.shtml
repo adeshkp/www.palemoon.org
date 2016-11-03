@@ -55,10 +55,8 @@ When talking about "data", this comprises, by your choice:<br>
         <li>Bookmarks</li>
         <li>Open tabs</li>
         <li>Browsing history</li>
-        <li>Form history<br>
-        </li>
+        <li>Form history</li>
         <li>Passwords</li>
-        <li>Extensions (add-ons)</li>
         <li>Preferences (limited subset)</li>
       </ul>
       <h3>What is Pale Moon Sync <span style="text-decoration: underline;">not</span> for?</h3><span style="color: rgb(153, 0, 0);">
