@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
+
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Donations and support</title><!-- Keep the http-equiv meta tag for IE8 -->
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
@@ -183,14 +185,9 @@ Please contact business-inquiries [at] palemoon [dot] org if you wish to apply t
             <div style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;">
               <span class="bold">Note:</span>
 this list only includes the names of people who have made a notable
-contribution (monetary or otherwise) - for monetary donations, this
-means a donation of at least $5, other listings are at the developer's
-discretion. <span class="underline">All donations and support are greatly appreciated</span>, of
-              course, but there are a few tiers to keep in mind. $5 or more will get your name listed here. $25 or more
-              will get you a little something in the mail.<br>
-            </div><br>
-            <span class="bold">Wall of shame:</span><br>
-            Lenard James (illegitimate chargeback on donation)<br>
+contribution (monetary or otherwise). <span class="underline">All donations and support, no matter how small, are greatly appreciated</span>, of
+              course.<br>
+            </div><span class="bold"></span><br>
           </td>
         </tr>
         <tr>
