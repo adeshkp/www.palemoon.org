@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -22,7 +23,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -64,10 +66,10 @@ will be in English.<br>
                 <li>Download the language pack .xpi from this page (below). Choose to immediately "install" in the Pale
                 Moon browser (the default when left-clicking), skipping the need to save it first.<br>
                 </li>
-                <li>Install the Zing! locale switcher from here:<br>
-                  <a href="https://addons.palemoon.org/extensions/other/zing-locale-switcher/">https://addons.palemoon.org/extensions/other/zing-locale-switcher/</a><br>
+                <li>Install the Pale Moon locale switcher from here:<br>
+                  <a href="http://www.palemoon.org/support/pm-localeswitch-3.0.xpi">http://www.palemoon.org/support/pm-localeswitch-3.0.xpi</a><br>
                   </li>
-                <li>Click the Z! flag in your toolbar, and select the language you prefer from the drop-down.
+                <li>Click the new globe icon with colored bubbles in your toolbar, and select the language you prefer from the drop-down.
                 </li>
                 <li>Let the browser restart when asked.<br>
                 </li>
