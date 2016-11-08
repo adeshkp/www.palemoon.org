@@ -10,6 +10,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -52,7 +53,8 @@
   <tbody>
     <tr>
       <th class="subpageheader">
-      </th>
+      <br>
+</th>
     </tr>
     <tr align="left">
       <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
@@ -165,6 +167,13 @@ Direct download link<br>
 Direct download link </td>
           </tr>
           <tr>
+            <td style="vertical-align: top; text-align: center;"><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+            <td style="vertical-align: top;"><span class="c3">Pale Moon mirror</span>
+#3 (Asia)<br>
+
+Direct download link</td>
+          </tr>
+<tr>
             <td class="c12"> <a href="http://www.downloadcrew.com/article/21353-pale_moon_x64"><img class="c14" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Download Crew</span><br>
@@ -191,9 +200,14 @@ SHA-256: 19ae9301b272b8be1f1e089cf76909978d29ecb657f8ed16c5b65010812fc9c9<br>
 GPG/PGP signature: <a href="pgp/palemoon-26.5.0.win64.zip.sig">[Sig]</a><br>
       <ul>
         <li> <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.win64.zip">Pale
-Moon mirror #1</a> </li>
+Moon mirror #1</a> (EU) </li>
         <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.5.0.win64.zip">Pale
-Moon mirror #2</a> </li>
+Moon mirror #2</a> (US)<br>
+</li>
+        <li><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.win64.zip">Pale
+Moon mirror #3</a> (Asia)<br>
+        </li>
+
         <li> <a href="http://www.gamershell.com/download_115366.shtml">GamersHell</a><br>
         </li>
       </ul>

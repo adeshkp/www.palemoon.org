@@ -10,6 +10,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -54,7 +55,8 @@
   <tbody>
     <tr>
       <th class="subpageheader">
-      </th>
+      <br>
+</th>
     </tr>
     <tr align="left">
       <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
@@ -134,6 +136,13 @@ Direct download link<br>
 Direct download link </td>
           </tr>
           <tr>
+            <td style="vertical-align: top; text-align: center;"><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+            <td style="vertical-align: top;"><span class="c3">Pale Moon mirror</span>
+#3 (Asia)<br>
+
+Direct download link</td>
+          </tr>
+<tr>
             <td class="c10"> <a href="http://www.downloadcrew.com/article/21323-pale_moon"><img class="c12" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Download Crew</span><br>
@@ -179,7 +188,11 @@ GPG/PGP Signature: <a href="pgp/palemoon-26.5.0.win32.zip.sig">[Sig]</a><br>
 (direct download)</a> </li>
         <li> <a href="http://relmirror2.palemoon.org/release/palemoon-26.5.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #2 US
-(direct download)</a> </li>
+(direct download)</a></li>
+        <li><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.win32.zip">Download
+          <span class="c3">ZIP</span> from Pale Moon mirror #3 Asia
+(direct download)</a></li>
+
         <li> <a href="http://www.gamershell.com/download_115362.shtml">Download
           <span class="c3">ZIP</span> from GamersHell</a><br>
         </li>

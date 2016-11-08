@@ -27,6 +27,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -52,7 +53,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -138,8 +140,10 @@
               </li>
               <li>
                 <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.win32.exe">Pale Moon mirror
-                #2</a> (US)
-              </li>
+                #2</a> (US)</li>
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.win32.exe">Pale Moon mirror
+                #3</a> (Asia)</li>
+
               <li>
                 <a href="http://www.downloadcrew.com/article/21349-pale_moon_407_portable">Download Crew</a>
               </li>
@@ -165,8 +169,10 @@
               </li>
               <li>
                 <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.win64.exe">Pale Moon mirror
-                #2</a> (US)
-              </li>
+                #2</a> (US)</li>
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.win64.exe">Pale Moon mirror
+                #3</a> (Asia)</li>
+
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
@@ -188,8 +194,10 @@
               </li>
               <li>
                 <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.Atom.WinXP.exe">Pale Moon
-                mirror #2</a> (US)
-              </li>
+                mirror #2</a> (US)</li>
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.Atom.WinXP.exe">Pale Moon
+                mirror #3</a> (Asia)</li>
+
               <li>
                 <a href="http://www.gamershell.com/download_115372.shtml">GamersHell</a><br>
               </li>
