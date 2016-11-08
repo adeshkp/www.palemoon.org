@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Cookie Policy</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -15,7 +16,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -36,10 +38,14 @@ sensitive information and are used for:<br>
 information when visiting the forum or logging in to the forum or start
 portal are stored in a cookie. This functionality will break when cookies are disallowed.<br>
 </li>
-        <li>Advertising. We use Google AdSense on some of our websites
+        <li>Advertising. We use advertising on some of our
+websites
 to offset the costs involved in providing the website and services
-related to Pale Moon to you. Google AdSense uses cookies as part of its
-advertising framework, to keep track of the validity of visits and clicks. By displaying advertisements through this framework, relevant cookies will
+related to Pale Moon to you. The advertising networks generally use
+cookies as part of their
+advertising framework, to keep track of the validity of visits and
+clicks. By displaying advertisements through this framework, relevant
+cookies will
 be stored in your browser.</li>
       </ol>
 By using these websites, you consent to the use of cookies.<br>
