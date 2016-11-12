@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Flash protected Mode Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -16,7 +17,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -28,7 +30,13 @@
           <td>
             <h1>
               Flash Protected Mode tool
-            </h1>This simple tool was written as a quick way to switch Protected Mode in the Flash player off and
+            </h1><span style="color: rgb(204, 0, 0);">Important
+note: With Pale Moon 27 and later you no longer need this tool -- you
+can enable or disable the Flash protected mode setting right from
+within the browser with the "Options" button on the Flash plugin in the
+Add-ons manager.</span><br style="color: rgb(204, 0, 0);">
+      <br>
+This simple tool was written as a quick way to switch Protected Mode in the Flash player off and
             on.<br>
             If you are experiencing lots of crashes of Flash in Pale Moon, disabling protected mode in the flash player
             may help. Because Pale Moon itself already provides process isolation for plugins as a security measure,
