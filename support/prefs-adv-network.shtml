@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Advanced Preferences: Network</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader">
+      <br>
+</th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Advanced preferences: Network</h1>
+      <strong>This preferences tab provides advanced Pale Moon settings for network connections and caching.</strong><br>
+      <h2>Connection</h2>
+      <p>This
+allows you to configure how Pale Moon connects to the internet.
+Clicking the button will open an advanced connection settings dialog:<br>
+      </p>
+      <ul>
+        <li>Configure Proxies to Access the Internet:<br>
+One of five possible options:</li>
+        <ul>
+          <li>No proxy: All connections are made directly to the server.</li>
+          <li>Auto-detect proxy settings: Pale Moon will attempt to
+determine the required connectivity settings for proxies automatically
+(either through a system proxy or direct connections).</li>
+          <li>Use system proxy settings: Use whatever proxy is set up in the operating system for Internet connectivity.</li>
+          <li>Manual proxy configuration: You enter proxy addresses and
+ports yourself. Please see the documentation or instructions given to
+you (usually by IT staff) what to enter in which location if you need
+this option.</li>
+          <li>Automatic proxy configuration URL: Enter the URL here of
+the proxy configuration file (.pac) you need to use. Please also see
+the relevant instructions or documentation given to you for this option.</li>
+        </ul>
+</ul><h2>Cached Web Content</h2>TO-DO<br>
+      <h2>Offline Web Content and User Data</h2>
+      <span style="font-weight: bold;"></span>TO-DO<br>
+      <br>
+</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+</body></html>
