@@ -28,6 +28,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -65,7 +66,7 @@
         <tr>
           <td class="c12">
             <h1>
-              Pale Moon Portable 26.5.0<br>
+              Pale Moon Portable 27.0.0<br>
             </h1>
             <h3>
               You can now take Pale Moon anywhere with you!<br>
@@ -117,31 +118,21 @@
             redistribution</span> of the binaries with the Pale Moon name and logo, e.g. with added extensions,
             languages, plugins, tools, etc., you <span class="c2">MUST get permission beforehand</span>. Full details
             in the <a href="redist.shtml">redistribution license</a>.<br>
-            <br>
-            <div class="c7">
-              Currently there are no "multi-language" or foreign language versions of Pale Moon Portable that are
-              endorsed, and any "multi-language" or foreign language portable versions of Pale Moon are therefore
-              illegal redistributions. Please discourage anyone from promoting or redistributing or downloading these
-              versions.<br>
-              <div class="c6">
-                <span class="c2">Please check the <a href="contributed-builds.shtml">list of contributed builds</a> to
-                know if they are officially endorsed.</span><br>
-              </div>
-            </div><br>
+<br>
             <div class="c8">
               <span class="c2"><a name="PMP-x86" id="PMP-x86"></a>Download Pale Moon Portable x86 (32-bit):</span><br>
             </div><br>
-            File size is approximately 21 MB (EXE):<br>
+            File size is approximately 28 MB (EXE):<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.5.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.win32.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
@@ -150,60 +141,37 @@
               <li>
                 <a href="http://www.gamershell.com/download_115368.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: 0d116ac9b0fac6919a0e760298db159067be27ba3d76239257fb6ad1bdd280dc<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win32.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: 9ce0f7e33c553724f701b369fc42bed9f228a32e746523727341ae66c449863e<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.0.win32.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
               x64 (64-bit):</span><br>
             </div><span class="c9"><br></span><span class="c2">64-bit</span> version of the launcher and browser for
-            64-bit Windows (Vista x64 or later). <span class="c2">Keep in mind that the same restrictions apply to this
-            as to the desktop 64-bit version with regard to availability of media plug-ins, etc.</span><br>
-            File size is approximately 24 MB (EXE):<br>
+            64-bit Windows (Vista x64 or later). <span class="c2">Keep in mind that this will only work on computers with a 64-bit operating system.</span>
+This means that it may not be as suitable to take with you to plug into
+public computers that may potentially not run 64-bit Windows.<br>
+<br>
+            File size is approximately 32 MB (EXE):<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.5.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.win64.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: 9806a3b2bb5126748b39c47a9ec86d65627cfc9cf4437552cf8cfecd5c41eac4<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win64.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: defe1694dcf4a9ddefc02e7c50c8f899290f6d3dafa24360a43af7e39b37c6eb<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.0.win64.exe.sig">[Sig]</a><br>
             PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br>
-            <br>
-            <div class="c8">
-              <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
-              Atom/WinXP (32-bit):</span><br>
-            </div><span class="c9"><br></span> Atom-optimized and Windows XP compatible version of the browser designed
-            for portable use on netbooks and similar.<br>
-            File size is approximately 19 MB (EXE):<br>
-<ul>
-              
-              <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-26.5.0.Atom.WinXP.exe">Pale Moon
-                mirror #1</a> (EU)
-              </li>
-              <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-26.5.0.Atom.WinXP.exe">Pale Moon
-                mirror #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-26.5.0.Atom.WinXP.exe">Pale Moon
-                mirror #3</a> (Asia)</li>
-
-              <li>
-                <a href="http://www.gamershell.com/download_115372.shtml">GamersHell</a><br>
-              </li>
-            </ul>SHA-256: 24091ffa4377144f065279cf9655886e343df055e0d3564c9a0ed6afbfd88c26<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.Atom.WinXP.exe.sig">[Sig]</a><br>
-            PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
             <br>
             <br>
             <h3><a name="Upgrade"></a>

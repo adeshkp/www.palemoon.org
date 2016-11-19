@@ -29,6 +29,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -71,14 +72,19 @@
             </h1><span style="color: rgb(204, 0, 0);">Starting
 with Pale Moon 27.0, we no longer support Windows XP and other Windows versions from the same era (Server 2003, etc.) in <span style="font-style: italic;">any</span> of our builds.<br>
       <br>
-      </span>Further testing has also indicated that building
+      </span>Further
+testing has also indicated that building
 specifically for Atom processors no longer provides a sufficient
-performance/maintenance cost tradeoff with the v27 code base.<br>
+performance/maintenance cost tradeoff with the v27 code base. We have
+therefore decided to offer a single version of Pale Moon for all
+processor types from this point forward.<br>
       <br>
 All users previously on the Atom version will automatically be offered
 an upgrade to the main-line x86 build of Pale Moon, with the exception
 of Windows XP users who will not be offered an upgrade past the latest
 compatible version (determined by offered useragent string).<br>
+      <br>
+Additional information about Pale Moon on Windows XP can be found <a href="PM_end_of_WinXP_support.shtml">here</a>.<br>
 <br>
             <br>
           </td>
