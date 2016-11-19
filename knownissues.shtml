@@ -17,6 +17,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -37,7 +38,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -60,52 +62,9 @@
             <br>
             <br>
             <span class="bold">Known issues in the current version:</span><br>
-<ol>
-
-        
-        
-        
-
-
-
-
-
-              
-        
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS proxies are not supported</span><br>
-We currently do not have support for encrypted connections to proxy servers.<br>
-          <span style="font-weight: bold;">Workaround:</span> If you
-need local-net encryption (untrusted local network) then you should use
-an encrypted VPN connection instead of a proxy server.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
-</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript "promises" are not supported</span><br>
-We currently do not support a spec-compliant version of so-called
-"promises" in JavaScript (part of ES6). As such, some sites that
-explicitly rely on this and that do not properly check for this feature
-or don't provide one of the many polyfills for it that are available on
-the server side, will fail to function properly (and in some cases even
-completely fail to display).<br>
-          <span style="font-weight: bold;">Fix:</span> Ask the website owners to include proper feature detection and a promises polyfill.<br>
-          <span style="font-weight: bold;">Workaround:</span> For some sites, our <a href="https://addons.palemoon.org/extensions/other/pm-promises/" target="_blank">promises injector extension</a>
-may work. Please note that fixing some sites with this may break other
-sites in turn (because the extension isn't implementing the entire spec, and
-properly-detecting sites will assume promises are fully available)<br>
-          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
-        </li>
-        <li><span class="c4">A number of Firefox extensions are missing browser interface elements</span><br>
-                This is caused by Pale Moon's GUID change and the presence of targeted code or overlays in the
-                extension.<br>
-                More information: <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=5932" target="_blank">FAQ</a><br>
-                <span class="bold">Status:</span> <span style="font-weight: bold;" class="mediumred">[Caused by extension restrictions]</span><br>
-                <span class="bold">Fix:</span> Contact the extension author and have them update their extension to
-                include support for Pale Moon<br>
-                <span class="bold">Workaround/Fix:</span> Check <a target="_blank" href="http://addons.palemoon.org/">http://addons.palemoon.org/</a> for an updated or forked version for Pale
-                Moon 25+<br>
-                <span class="bold">Workaround (advanced):</span> manually edit chrome.manifest inside the extension
-                archive (<a href="https://forum.palemoon.org/viewtopic.php?f=44&amp;t=5883" target="_blank">see
-                forum</a>)<br>
-                <br>
+<ol><li><span class="c4">A number of Firefox extensions do not work</span><br>
+This is caused by Pale Moon's divergence from Firefox. Please see the
+forum and out own add-ons site for replacements/alternatives.<br><br>
               </li>
 
 
@@ -131,8 +90,32 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
-      <span style="font-weight: bold;">26.3.2:<br>
+      <span style="font-weight: bold;">26.*:<br>
 </span>
+      <ol>
+<li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS proxies are not supported</span><br>
+We currently do not have support for encrypted connections to proxy servers.<br>
+          <span style="font-weight: bold;">Workaround:</span> If you
+need local-net encryption (untrusted local network) then you should use
+an encrypted VPN connection instead of a proxy server.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
+</li><li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript "promises" are not supported</span><br>
+We currently do not support a spec-compliant version of so-called
+"promises" in JavaScript (part of ES6). As such, some sites that
+explicitly rely on this and that do not properly check for this feature
+or don't provide one of the many polyfills for it that are available on
+the server side, will fail to function properly (and in some cases even
+completely fail to display).<br>
+          <span style="font-weight: bold;">Fix:</span> Ask the website owners to include proper feature detection and a promises polyfill.<br>
+          <span style="font-weight: bold;">Workaround:</span> For some sites, our <a href="https://addons.palemoon.org/extensions/other/pm-promises/" target="_blank">promises injector extension</a>
+may work. Please note that fixing some sites with this may break other
+sites in turn (because the extension isn't implementing the entire spec, and
+properly-detecting sites will assume promises are fully available)<br>
+          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
+      </ol>
+      <br>
+      <span style="font-weight: bold;">26.3.2:<br>
+      </span>
       <ol>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
 
