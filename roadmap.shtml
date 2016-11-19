@@ -9,6 +9,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -29,7 +30,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -39,7 +41,7 @@
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-10-06</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-11-19</small><br>
 
             <h3>
               General Information
@@ -84,22 +86,11 @@ browser has it too".<br>
             established standards, a lot of the features in Pale Moon are determined on an on-demand basis: If there is
             enough demand for a certain feature or if it is considered beneficial to the browser and the web, it will
             be implemented - other features may be put on hold or decided against altogether.<br>
-      <br><span style="font-weight: bold;">
-One important thing to note is that the next milestone release that is
-planned (v27, code-named "Tycho") will be a re-base on what is considered the last version of the Mozilla platform code
-that is desirable for Pale Moon development in terms of feature set in the platform, to overcome
-some important, blocking issues that our current developers will not be
-able to sufficiently tackle otherwise. Even so, this will not mean that
-we are "going back to rebuilds of Firefox" like the start of this
-project was; quite the opposite. This decision was made with
-considerable community input and will take a good number of months to
-bring to completion.</span><br>
-            <br>
-            It is beyond the scope of this document to list planned HTML/content improvements in Pale Moon in detail,
+      <br><span style="font-weight: bold;"></span>It is beyond the scope of this document to list planned HTML/content improvements in Pale Moon in detail,
             since many of those are small, individual changes and additions (even though some require a lot of work to
             implement by re-writing parts of the parser and renderer in Pale Moon's core).<br>
       <br>
-The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page, although a number of those will be tackled by the re-base and will eventually be marked in the issue tracker as such.<br>
+The status of planned improvements is, to some extent, available on the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">GitHub issues</a> page.<br>
       <h4>Layout and Rendering</h4>
 The current layout and rendering engine (Goanna) is Pale Moon's
 independent implementation derived from Gecko. This engine debuted in
@@ -109,31 +100,26 @@ implementations will be significantly different than those found in
 other browsers, even Gecko-based ones, and aim to provide the best
 solutions to web design problems.<br>
       <br>
-Version 27 of the browser will see another overhaul of the rendering
-engine, making the engine and subsequently platform version 3 of
-Goanna. This will tackle a few rather technical issues and improve
-support for current operating systems and hardware.<br>
+Version 27 of the browser carries the engine and subsequently platform version 3 of
+Goanna. This tackles a few rather technical issues and improve
+support for current operating systems and hardware - further improvements will be made over time.<br>
 
             <h4>
               JavaScript
             </h4>JavaScript
 development is one of the ongoing focuses of the core work
-performed on Pale Moon, and the next milestone will see a large amount of added
-implementation of more of the ECMAScript version 6 (ES6) standard. Pale
-Moon currently already supports everything in the actual ES5 standard,
-but is being extended in current and future versions to offer web developers more "bleeding edge"
-JavaScript features to work with from the ES6 standard over time. Please
+performed on Pale Moon, and the resulting
+implementation in v27 has a lot more of the ECMAScript version 6 (ES6)
+standard implemented than previous versions, which provides a solid
+base for websites to build their scripting on.<br>
+      <br>
+Please
 understand that implementing these changes is slow and meticulous work
 that requires extensive coding and testing to do properly. There is
 very little margin for error, because JavaScript not only runs in
 webpages in Pale Moon, but drives everything in the browser, including
 many parts of the program itself.<br>
-      <br>
-Version 27 of the browser will see some important landmark features
-implemented, among others a full implementation of promises and
-generators, as well as a full complement of typed-array features.<br>
-            <h4>
-              Media support
+<h4>Media support
             </h4>Media
 support is a regularly-discussed topic for Pale Moon users, since part
 of the user base would prefer a browser to also be a full-featured and
@@ -141,48 +127,16 @@ fully dedicated&amp;specialized media player. This is, however, not a
 goal of Pale Moon because of the inherent shift of focus from document
 content to media content. That being said, the Web has shifted to be
 more visual-media heavy and as such will require a browser to at least
-to some extent take on the media player role.<br>Specifically,
-media should be delivered in a playable container format, but certain
-streaming sites insist on trying to deliver their content in different
-ways putting unnecessary demands on web clients. This kind of streaming
-will always be a point of contention amont Pale Moon users but we will
-do our best to strike a sane balance between usability and complexity.<br>
-            <br>
-            As such, the following specific media streaming feature(s) is/are <span class="c2">not</span> on Pale Moon's roadmap:<br>
+to some extent take on the media player role.<br><br>The following specific media streaming feature(s) is/are <span class="c2">not</span> on Pale Moon's roadmap:<br>
             <ul><li>In-browser DRM (EME)</li>
-            </ul>Version 27 of the browser will, however, add the following media streaming features:<br>
-      <ul>
-<li>MSE (Media Source Extensions)
-              </li><li>DASH support through MSE</li>
-        <li>Better handling of fragmented media files</li>
-      </ul>In
-addition, we are looking at extending the browser (especially for
+            </ul>We
+are looking at extending the browser (especially for
 Linux) with ffmpeg media as a replacement for the (generally
-problematic) GStreamer.<br>
+problematic) GStreamer and libstagefright solutions that are currently
+in place. Work is underway to make this the default decoding/media
+back-end for all supported platforms.<br>
       <br>
-
-Current basic media support will be only extended where needed for regular data formats, and <span class="c3">already includes</span>:<br>
-            <ul>
-              <li>MPEG support
-              </li>
-              <li>Common streaming Open Source audio formats (ogg/vorbis/etc)
-              </li>
-              <li>H.264 on supported operating systems
-              </li>
-              <li>WebM/Theora containers
-              </li>
-              <li>VPX (VP8 and VP9) support
-              </li>
-              <li>High framerate and HD resolution support (subject to hardware limitations)
-              </li>
-              <li>Full-screen HTML5 video
-              </li>
-              <li>Plugin-based video formats (Flash/Silverlight/etc.)
-              </li>
-            </ul>There are currently no specific plans to explicitly extend basic media support further, considering the already
-            broadly-encompassing media support in the web browser.<br>
-<br>
-            <h3>
+<h3>
               Platform (operating system) support
             </h3>Pale Moon is originally a Microsoft Windows product.<br>
             On the roadmap are the following specific platforms to support in addition to Windows:<br>
@@ -203,7 +157,7 @@ Current basic media support will be only extended where needed for regular data 
             </h3>
 Pale Moon's front-end features are well-established, tried-and-tested features that work well in terms
             of flexibility and customizability for users. The front-end is and will remain XUL-based and fully
-            extensible by the user.<br>
+            extensible by the user and browser extensions.<br>
             <h4>
               User Interface
             </h4>The
@@ -212,45 +166,45 @@ browser era UI and will not be changed in any major way as far as how
 the UI operates. "Australis", the UI rework done by Mozilla in Firefox
 29 and later which completely removed many customization features, will
       <span style="font-weight: bold;">not</span> be adopted. This also means full and ongoing support for total restyling (complete
-themes).<br>
-      <br>
-Even with the planned re-base on post-Australis platform code, we will
-make every effort to retain our current setup and continue to provide
-you with the fully customizable UI our users have preferred over the
-years.<br>
-      <h4>Developer Tools</h4>
+themes).<br><h4>Developer Tools</h4>
 We plan to <span style="font-weight: bold;">not</span> include Web
 Developer tools in our release versions of Pale Moon to keep the
 browser light on its feet and to keep tools optional that would not be
 needed by the vast majority of web browser users, sticking to our credo
 promoting choice.<br>
-For people who want or need these kinds of tools, we will be offering relevant extensions with the same functionality. We <span style="font-style: italic; text-decoration: underline;">may</span>
+For people who want or need these kinds of tools, we are offering a dedicated extension with web developer functionality. We <span style="font-style: italic; text-decoration: underline;">may</span>
 (not decided yet, depending on demand) potentially offer a separate
 build of Pale Moon to web developers in the future that have the
-Mozilla-sourced devtools<span class="c4"></span> included.<span class="c4"></span><br>
-            <br>
-            <h3>Plug-ins</h3>Pale
-Moon supports NPAPI plug-ins. Unlike Firefox, we will not be deprecating
-or removing support for these kinds of plug-ins. This means that you
+Mozilla-sourced devtools<span class="c4"></span> included. This will depend on demand and on potential quality issues.<span class="c4"></span><br>
+      <br>
+<h3>Plug-ins</h3>Pale
+Moon supports <span style="font-weight: bold;">NPAPI plug-ins</span>. Unlike Firefox, <span style="font-weight: bold; text-decoration: underline;">we will not be deprecating
+or removing support for these kinds of plug-ins.</span> This means that you
 will be able to continue using your media, authentication, and other
 plug-ins in Pale Moon like Flash, Silverlight, bank-authenticators or
 networking plug-ins for specific purposes.<br>
       <br>
       <h3>Extensions and extension API
-            </h3>
-Pale Moon would not be complete without its support for Mozilla code extensions, of course, and the
-            extension compatibility maintained in Pale Moon is purposefully kept (mostly) at the Firefox v24 front-end level. It
-            provides compatibility with most of the browser extensions originally written for Mozilla Firefox (by
-            accepting installations for Firefox application IDs) even though Pale Moon, from v25 onwards, is a
-            different application altogether from an extension point of view.<br>
+            </h3>Pale
+Moon would not be complete without its support for browser extensions,
+of course, and the extension compatibility maintained in Pale Moon is
+purposefully kept (mostly) at the Firefox v24-28 front-end level. It
+provides compatibility with most of the browser extensions originally
+written for Mozilla Firefox (by accepting installations for Firefox
+application IDs) even though Pale Moon, from v25 onwards, is a
+different application altogether from an extension point of view.<br>
             <br>
 The future of Pale Moon is to maintain this general level of compatibility with
-traditional Firefox-targeted extensions, although the (transitional)
+traditional (XUL) Firefox-targeted extensions, although the (transitional)
 dual-ID setup will eventually be removed, at which point only Pale Moon
 targeted extensions will be accepted. This will still allow developers
 to target both Pale Moon and Firefox with specific code for them in a
 single package, but Firefox-only extensions will not longer be accepted
 by the browser when this lands.<br>
+      <br>
+Pale Moon v27 has been fitted with an indicator in the add-on manager
+to make users aware which add-ons are native to Pale Moon and which are
+running as "Firefox compatible", to assist in troubleshooting.<br>
             <h4>
               XUL extensions
             </h4>This kind of extension uses the time-tested native extension capabilities to the browser XUL (UI
@@ -260,7 +214,7 @@ With Pale Moon aiming to keep approximate front-end compatibility with
 v24 of Firefox, this is the API level that should be aimed for. <br>
       <br>
 Version 27 of the browser
-may need some changes to cater to some changed toolkit APIs (most notably the way downloads are handled).<br>
+may need some changes to cater to some changed toolkit APIs (most notably the way downloads and the find bar are handled).<br>
             <br>
             One issue with Pale Moon accepting Firefox IDed XUL extensions is the fact that this compatibility mode
             does not extend beyond the installation manifest. This is on purpose, to not break with the chrome manifest
@@ -278,7 +232,7 @@ many Firefox extensions. We have no plans to do this and many "legacy"
 Firefox extensions will continue to be possible on Pale Moon when targeting it.<br>
             <h4>
               JetPack (Add-on SDK) extensions
-            </h4>With Pale Moon v27, <span style="font-weight: bold;">we will completely remove add-on SDK support for extensions</span>, at which point only the "classic" (i.e.: native code) XUL/bootstrapped extensions will be supported.<br>
+            </h4>With Pale Moon v27, <span style="font-weight: bold;">no extension of this type are supported anymore</span>. We will not offer future support for these types of extensions.<br>
             <br>
             <h3>
               Additional tools and services
@@ -317,81 +271,7 @@ Firefox extensions will continue to be possible on Pale Moon when targeting it.<
             quarter of 2015 and will likely remain the offered start page solution of choice.<br>
             <h4>
               Pale Moon add-on site services
-            </h4>
-            <p>
-              The <a href="http://addons.palemoon.org/" target="_blank">Pale Moon add-on site</a> is a new service
-              of the Pale Moon project. It came about when the decision was made to clearly separate ourselves from
-              Mozilla, although the possibility of an independent add-ons site was already being considered before that
-              point in time.
-            </p>
-            <p>
-              The add-on site has its own specific roadmap, which has two (planned) generations.
-            </p>
-            <p>
-              The <strong>first generation</strong> of the add-on site has three stages of development and uses off the
-              shelf tools and readily available knowledge and experience to provide a growing feature set and service
-              very quickly. This incarnation is managed wholly by the "Pale Moon Add-ons Team" and administrated by
-              Matt A. Tobin with resources donated to the project by Binary Outcast. Add-on developers will not have
-              direct access to publishing tools in this generation of the site.
-            </p>
-            <ul>
-              <li>Phase 1 - Launch (completed)
-                <ul>
-                  <li>Design the base web interface and select the site framework
-                  </li>
-                  <li>Collect add-on information from the Pale Moon 25+ compatibility reports (semi-perpetual)
-                  </li>
-                  <li>Document said information
-                  </li>
-                  <li>Add-on Manager site integration and pass-through to AMO
-                  </li>
-                  <li>Create temporary (Pseudo-Static) versions for most commonly used add-ons (This is a perpetual
-                  item)
-                  </li>
-                  <li>Contact add-on developers with requests for direct support for Pale Moon (This is a perpetual
-                  item)
-                  </li>
-                </ul>
-              </li>
-              <li>Phase 2 - Improvements (in progress)
-                <ul>
-                  <li>Determine final status of those add-ons that are made Pseudo-Static
-                  </li>
-                  <li>Provide forks where needed and populate the listing of externals (those add-ons that do work and
-                  are on AMO)
-                  </li>
-                  <li>Improve the user experience of add-on pages and secondary pages
-                  </li>
-                  <li>Assemble a team to increase productivity of the service
-                  </li>
-                  <li>Provide our own services through add-on manager integration and reduce 1:1 pass-through
-                    <ul>
-                      <li>Provide our own updates as well as updates through AMO
-                      </li>
-                    </ul>
-                  </li>
-                  <li>Continue aforementioned contact with extension developers, including (where possible) working
-                  with them to fix up their extensions
-                  </li>
-                  <li>Create and review policies for add-ons created/forked by the Add-ons Team and those created by
-                  the community specifically for Pale Moon.
-                  </li>
-                  <li>Provide an ancillary site for add-on developers with vital information and documentation
-                    <ul>
-                      <li>Including retrieving documentation obfuscated by Mozilla
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li>Phase 3 - Finalization and Long Term Maintenance (future)
-                <ul>
-                  <li>To be determined
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <p>
+            </h4><p>
               The <strong>second generation</strong> add-on site will be one that has been created from the ground up
               to serve the Pale Moon project and community. This incarnation will take a protracted period of time to
               materialize and planning is still in the most preliminary of stages.
