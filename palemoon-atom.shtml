@@ -28,6 +28,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -64,149 +65,21 @@
         </tr>
         <tr>
           <td class="c5">
-            <h1>
-              <a href="http://www.palemoon.org/pad_palemoon-atom.xml"><img class="c2" alt="" src="padbutton.gif" align="right"></a>
-            </h1>
+            
             <h1>
               Intel Atom™ and Windows XP build
-            </h1>This version of Pale Moon is optimized specifically for use on Intel Atom™ processors and compatible
-            with the Windows XP and Server 2003 operating systems.<br>
-            Many low-powered netbooks and laptops are equipped with this processor, and using a build of Pale Moon
-            specifically optimized for this processor will reduce power consumption and increase speed of the browser
-            for these systems.<br>
-            <br>
-            <span class="c3">Please note the following:</span><br>
-            <ul>
-              <li>These builds are specifically optimized for Intel Atom™ processors, and are not recommended for
-              regular Intel or AMD processors on current operating systems (Vista or higher). The extra optimizations
-              <span class="c3">only</span> work on <span class="c3">Atom</span>
-processors and will execute a little slower than the normal version of
-Pale Moon on a non-Atom processor (but otherwise run just fine). In
-general use, though, you will likely not notice much (if any) difference if run
-on a non-Atom processor.<br>
-              </li>
-              <li>These builds are otherwise exactly the same as the normal desktop version of Pale Moon, built from a
-              specialized branch of the same source code. Apart from Windows XP compatibility and small technical and aesthetic
-              changes, no other changes are made to the browser core.
-              </li>
-              <li>Windows XP compatibility is maintained for these builds since some older, low powered
-              netbooks/laptops are designed specifically for XP and use it as their OS. Please <span class="c3">be responsible</span> if
-              you are running this operating system that is no longer supported with security updates by its
-              manufacturer.<br>
-              </li>
-              <li>This version of the browser is only available in 32-bit (x86).
-              </li>
-              <li>Atom/XP builds exclude the Web Developer tools to further reduce resource use on lower-powered
-              computers with limited memory. Web Developer tools are not in common use on the intended systems and they
-              do take a decent amount of memory and processing power when included. If you still need these types of
-              tools, please install an extension like Firebug to get this kind of functionality on this build.<br>
-              </li>
-            </ul>
-            <table class="sysreq c6" align="center" border="0" cellpadding="0" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td class="c4">
-                    <span class="c3">Minimum system Requirements:</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c5" width="50%">
-                    <ul>
-                      <li>Windows XP SP3/Server 2003 or later<br>
-                      </li>
-                      <li>A processor with SSE2 capabilities<br>
-                      </li>
-                      <li>Atom processor recommended but not required<br>
-                      </li>
-                      <li>256 MB of free RAM
-                      </li>
-                      <li>At least 150 MB of free (uncompressed) disk space
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <h3 class="c7">
-              Current version: 26.5.0
-            </h3>Information about this browser version can be found in the <a href="releasenotes-ng.shtml">Pale Moon
-            release notes</a>.<br>
-            <h3 class="c7">
-              Download links
-            </h3><span class="c3">Installer (recommended, 19.1 MB)</span>:<br>
-            SHA-256: 2e52237fdf1da362a07153b743283872a4e20c58c32c35de75e940a42cc3b250<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.5.0.Atom.WinXP.installer.exe.sig">[Sig]</a><br>
-            <br>
-            <table class="c13" border="1" cellpadding="2" cellspacing="0">
-              <tbody>
-                <tr class="c8">
-                  <th>
-                    Link (click to download)<br>
-                  </th>
-                  <th>
-                    Description<br>
-                  </th>
-                </tr>
-                
-                <tr>
-                  <td class="c10">
-                    <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
-                  </td>
-                  <td class="dltable_text">
-                    <span class="c3">Pale Moon mirror</span> #1 (EU)<br>
-                    Direct download link<br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c10">
-                    <a href="http://relmirror2.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a>
-                  </td>
-                  <td class="c5">
-                    <span class="c3">Pale Moon mirror</span> #2 (US)<br>
-                    Direct download link
-                  </td>
-                </tr>
-                <tr>
-            <td style="vertical-align: top; text-align: center;"><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
-            <td style="vertical-align: top;"><span class="c3">Pale Moon mirror</span> #3 (Asia)<br>
-
-                    Direct download link</td>
-          </tr>
-<tr>
-                  <td class="c10">
-                    <a href="http://www.gamershell.com/download_115374.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" class="c12" alt="Logo" src="dl-images/gamershellcom.png"></a>
-                  </td>
-                  <td class="c5">
-                    <span class="c3">GamersHell</span><br>
-                    Servers in Europe and the US
-                  </td>
-                </tr>
-              </tbody>
-            </table><span class="c3"><br>
-            ZIP packed (approx. 25 MB)</span>:<br>
-            SHA-256: 6996491b062b6e02996b1c7741e13fbf31ec4b486062a4db1bb74f29d38fff64<br>
-            GPG/PGP signature: <a href="pgp/palemoon-26.5.0.Atom.WinXP.zip.sig">[Sig]</a><br>
-            <ul>
-              <li>
-                <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.zip">Pale Moon mirror
-                #1</a> (EU)<br>
-              </li>
-              <li>
-                <a href="http://relmirror2.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.zip">Pale Moon mirror #2</a> (US)<br>
-</li>
-        <li><a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.zip">Pale Moon mirror #3</a> (Asia)<br>
-        </li>
-
-              <li>
-                <a href="http://www.gamershell.com/download_115376.shtml">GamersHell</a><br>
-              </li>
-            </ul>
-            <h3>
-              Portable version:
-            </h3>See <a href="palemoon-portable.shtml">Pale Moon Portable</a>
-            <h3>
-              Source code
-            </h3>Links to the source code are <a href="sourcecode.shtml">here</a>.<br>
+            </h1><span style="color: rgb(204, 0, 0);">Starting
+with Pale Moon 27.0, we no longer support Windows XP and other Windows versions from the same era (Server 2003, etc.) in <span style="font-style: italic;">any</span> of our builds.<br>
+      <br>
+      </span>Further testing has also indicated that building
+specifically for Atom processors no longer provides a sufficient
+performance/maintenance cost tradeoff with the v27 code base.<br>
+      <br>
+All users previously on the Atom version will automatically be offered
+an upgrade to the main-line x86 build of Pale Moon, with the exception
+of Windows XP users who will not be offered an upgrade past the latest
+compatible version (determined by offered useragent string).<br>
+<br>
             <br>
           </td>
         </tr>
