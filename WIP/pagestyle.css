@@ -2,13 +2,16 @@
 @import url("../css/Museo500-stylesheet.css");
 @import url("../css/Museo300-stylesheet.css");
 
+html {
+  min-height: 100%;
+}
+
 body {
   font-family: "Museo300Regular","Times New Roman",Times,serif;
   font-style: normal;
   font-size: 12pt;
   background-color: #d4d9f7;
-  background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
-  background: -moz-linear-gradient(top, #d4d9f7 0%, #abafea 31%, #999ee8 93%, #d4d9f7 100%);
+  background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 100%);
 }
 
 h1 {
