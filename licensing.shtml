@@ -24,7 +24,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -69,7 +70,7 @@ trademark law, even when built into binaries that we provide.<br>
       <p>In addition, we do use some of Mozilla's trademarks in our communication, like Mozilla's
 trademarks of Firefox® and XUL™. We honor and respect these trademarks
 to belong to their respective owners and use them to refer to specific
-products and technologies incorporated in, or in relation to, our work.   </p>
+products and technologies incorporated in, or in relation to, our work (nominative use).   </p>
 
 
 
@@ -84,8 +85,8 @@ products and technologies incorporated in, or in relation to, our work.   </p>
   
       <p>Pale Moon website content (i.e. text and pictures, not look and feel) 
 is generally licensed under Creative Commons Attribution Share-Alike 
-(CC-SA) licenses. User-generated content, such as comments on our blog 
-posts or forum, are also generally made available under CC-SA.  </p>
+(CC-BY-SA) licenses. User-generated content, such as comments on our blog 
+posts or forum, are also generally made available under CC-BY-SA.  </p>
 
 
   
@@ -111,9 +112,12 @@ marks, or house style of Moonchild Productions.  </p>
       <p>
     Executable software binaries released by Moonchild Productions, such 
 as Pale Moon, are made available under the terms of the 
-      <a href="redist.shtml">binary redistribution license</a>. Helper applications and tools may be made available under different licenses like the <a href="freeware-license.shtml">Pale Moon Freeware License</a> -- please see the applicable page of the tools or utilities in question to see which license(s) apply.<br>
+      <a href="redist.shtml">binary redistribution license</a>. This license also outlines the situation where binaries are built from source with official branding.<br>
+</p>
+      <p>Helper applications and tools may be made available under different licenses like the <a href="freeware-license.shtml">Pale Moon Freeware License</a> -- please see the applicable page of the tools or utilities in question to see which license(s) apply.<br>
 On some proprietary, non-free platforms, necessary binary 
 components subject to other licenses may be included in the installer.  </p>
+
 
 
   
