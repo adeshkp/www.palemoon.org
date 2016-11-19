@@ -4,6 +4,7 @@
 
 
 
+
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -38,7 +39,7 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-      <h3>27.0.0 (2016-11-23)</h3>
+      <h3>27.0.0 (2016-11-22)</h3>
 
       After about 8 months of development, we now have a new milestone
 release with literally too many changes to list even concisely. These
@@ -61,7 +62,7 @@ operating systems and graphics hardware.</li>
         <li>Media Source Extensions have been implemented to solve many video playback issues.<br>
 This can be enabled/disabled and configured in Options. It's
 recommended at this time to not enable MSE for WebM since there are a
-few issues with it on services like YouTube (e.g. losing audio).<br>
+few issues with it on services like YouTube (e.g. losing audio when looping/skipping).<br>
         </li>
         <li>Support for reading and playing so-called "fragmented" MP4 files has been added, further solving media playback issues.</li>
         <li>Support for SSL/TLS connections to proxy servers.<br>
@@ -117,9 +118,13 @@ on downloaded files (Windows+NTFS). You can find this in Options.<br>
       <ul>
         <li>Pale Moon 27 will initially only be available in English.
 We are working on getting localization done to have language packs
-available over time. You can not use the previous language packs since
+available over time.<br>
+Important: You can not use the previous language packs since
 many strings have changed. Trying to do so will likely prevent the
-browser from starting or functioning.<br>
+browser from starting or functioning. Pale Moon will automatically
+disable language packs for the previous version, but if you have
+explicitly disabled add-on compatibility checking you may run into
+trouble.<br>
         </li>
       </ul>
 
