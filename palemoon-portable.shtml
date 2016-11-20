@@ -28,6 +28,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -152,7 +153,6 @@
               </li>
             </ul>SHA-256: 0d116ac9b0fac6919a0e760298db159067be27ba3d76239257fb6ad1bdd280dc<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win32.exe.sig">[Sig]</a><br>
-            PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x86.xml">[link]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
@@ -178,7 +178,6 @@
               </li>
             </ul>SHA-256: 9806a3b2bb5126748b39c47a9ec86d65627cfc9cf4437552cf8cfecd5c41eac4<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.win64.exe.sig">[Sig]</a><br>
-            PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-x64.xml">[link]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
@@ -203,7 +202,6 @@
               </li>
             </ul>SHA-256: 24091ffa4377144f065279cf9655886e343df055e0d3564c9a0ed6afbfd88c26<br>
             GPG/PGP Signature: <a href="pgp/Palemoon-Portable-26.5.0.Atom.WinXP.exe.sig">[Sig]</a><br>
-            PAD: <a href="http://www.palemoon.org/pad_palemoon-portable-atom.xml">[link]</a><br>
             <br>
             <br>
             <h3><a name="Upgrade"></a>
