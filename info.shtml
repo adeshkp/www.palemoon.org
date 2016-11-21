@@ -2,6 +2,8 @@
 <html><head>
 
 
+
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - General Information</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -14,7 +16,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -40,14 +43,17 @@
               <li>M. Turnbull (Sparky Bluefang) for supplying the base code for the V4+ status bar
               </li>
               <li>K. Engert for supplying the base code for the padlock feature</li>
-        <li>Kailapis for supplying the base code for ruby annotations<br>
+        <li>Kailapis for supplying the base code for ruby annotations (v26)<br>
         </li>
 
               <li>M. Tobin for additional research into the Mozilla code and general support in a number of different
-              areas of development
+              areas of development, as well as being instrumental in the 2016 platform update.
               </li><li>R. Crellin for adapting and maintaining many of the complete themes for Pale Moon</li>
-        <li>R. Pelizzi for laying the groundwork and working with us to get the active XSS filter implemented<br>
+        <li>R. Pelizzi for laying the groundwork and working with us to get the active XSS filter implemented (v26)<br>
+</li>
+        <li>T. Wine for his extensive work on improving media playback<br>
         </li>
+
 
             </ul>Pale
 Moon aims to provide a browser with a large degree of freedom in how

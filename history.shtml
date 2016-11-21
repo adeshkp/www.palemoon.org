@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Project History</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -15,7 +16,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -126,8 +128,10 @@ the browser on.<br>
 Pale Moon will also continue to support:<br>
       <ul>
         <li>Binary components in extensions</li>
-        <li>XUL (overlay) extensions, including XPCOM/XBL<br>
+        <li>XUL (overlay) extensions, including XPCOM/XBL</li>
+        <li>NPAPI plugins<br>
         </li>
+
         <li>Complete themes</li>
         <li>Lightweight themes</li>
       </ul>
