@@ -5,6 +5,7 @@
 
 
 
+
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -70,10 +71,13 @@ few issues with it on services like YouTube (e.g. losing audio when looping/skip
 
         <li>Support for the WOFF2 font format for downloadable fonts.<br>
         </li>
-        <li>The JavaScript engine has been updated with support for
+        <li>The
+JavaScript engine has been updated with support for
 many landmark ECMAScript6 features (chief among them promises and
 generators). This will solve many of the web compatibility issues that
-people have started to run into in the past few months.</li>
+people have started to run into in the past few months (e.g. webmail
+interfaces, some sites coming up blank because they are
+script-generated).</li>
         <li>The way web content is cached has been changed to be more
 efficient. If you want to immediately take advantage of this, clear
 your cache.<br>
@@ -124,8 +128,23 @@ many strings have changed. Trying to do so will likely prevent the
 browser from starting or functioning. Pale Moon will automatically
 disable language packs for the previous version, but if you have
 explicitly disabled add-on compatibility checking you may run into
-trouble.<br>
-        </li>
+trouble.</li>
+        <li>We will continue to fully support the following:</li>
+        <ul>
+          <li>NPAPI plugins</li>
+          <li>Extensions with binary/XPCOM components</li>
+          <li>XUL/Overlay and bootstrapped extensions<br>
+          </li>
+          <li>Complete themes</li>
+          <li>Unsigned and author-signed extensions</li>
+          <li>The <a href="https://en.wikipedia.org/wiki/Camellia_%28cipher%29">Camellia</a> encryption cipher (also in <a href="https://en.wikipedia.org/wiki/Galois/Counter_Mode">GCM</a> mode)<br>
+          </li>
+          <li>Graphite font shaping</li>
+          <li>Sync 1.1 (albeit without support for syncing add-ons)</li>
+          <li>Full customization of the UI as before<br>
+          </li>
+        </ul>
+
       </ul>
 
 <hr style="width: 100%; height: 2px;"><br>
