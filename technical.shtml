@@ -3,6 +3,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -39,7 +40,8 @@ table.resulttable > tbody > tr > td {
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -88,15 +90,15 @@ table.resulttable > tbody > tr > td {
               </li>
               <li>Support for Scalable Vector Graphics (SVG) and Canvas.
               </li>
-              <li>Support for many Firefox Extensions (add-ons).
+              <li>Support for many Firefox Extensions (add-ons) as a compatibility feature.
               </li>
-              <li>Support for Pale Moon specific Extensions.<br>
+              <li>Support for a growing number of Pale Moon specific Extensions.<br>
               </li>
               <li>Support for Personas ("lightweight" themes).
               </li>
               <li>Support for Complete Themes.<br>
               </li>
-              <li>CSS Downloadable Font support (including WOFF).
+              <li>CSS Downloadable Font support (including WOFF and WOFF2).
               </li>
               <li>Extended HTML5, CSS3 and advanced DOM support.<br>
               </li>
@@ -106,7 +108,7 @@ table.resulttable > tbody > tr > td {
               </li>
               <li>Graphical tab switching with quick-search (user-selectable).<br>
               </li>
-              <li>More customization options for navigation controls and the tab strip.
+              <li>More customization options for navigation controls and the tab strip than other modern browsers.
               </li>
               <li>Enhanced security indicators (padlock/styling).
               </li>
@@ -137,15 +139,12 @@ table.resulttable > tbody > tr > td {
                 does not update silently in the background.
               </li>
               <li>
-                <span class="c2">Integrated PDF reader</span>. The code for this is still included for emergencies
-                (i.e. when you need to read a PDF but don't have access to a reader) but disabled by default - you are
+                <span class="c2">Integrated PDF reader</span>. You are
                 always recommended to use a separate, up-to-date document reader for PDF files (as an external program,
                 not as a browser plugin) for your own security, and to have documents displayed in their fully intended
                 format instead of a stripped-down display in an in-browser reader.
               </li>
-              <li>
-                <span class="c2">Social API</span>. We do not integrate at the browser core level with social media.<br>
-              </li>
+              
               <li>
                 <span class="c2">Tab Groups</span>. The Tab Group (aka Panorama) feature has never properly matured and
                 has not seen many people using it. In addition, the feature is generally slow to use, not intuitive,
@@ -163,14 +162,14 @@ table.resulttable > tbody > tr > td {
             exclusively available in more modern (or rather: not museum-grade) processors. This means it will not run
             on PCs that are particularly old by today's standards, and is likely to display errors or refuse to start
             on systems with unsupported or poorly supported CPUs.<br>
-            Requirements for the regular Pale Moon browser are, in short: <span class="c2">a 7th or later generation
-            CPU with SSE2 support</span>.<br>
+            Requirements for the regular Pale Moon browser are, in short: <span class="c2">a CPU with SSE2 support</span>.<br>
             Since many people will not know off-hand what their CPU is capable of or what generation it is, here is a
-            run-down of a number of popular CPUs around the time of includion of this instruction set, and if they are
+            run-down of a number of popular CPUs around the time of inclusion of this instruction set, and if they are
             supported. In case of doubt if your CPU is supported or not, please find a CPU information tool like CPU-z
             or Crystal CPU-ID to check your CPU's capacities.<br>
             <br>
-            This table is incomplete, but outlines a few popular classes of processor:<br>
+This table is incomplete, but outlines a few popular classes of
+processor around the era where this may be a question:<br>
             <br>
             <table class="c10" border="1" cellpadding="2" cellspacing="0">
               <tbody>
@@ -283,7 +282,7 @@ table.resulttable > tbody > tr > td {
             <h3>
               <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Mozilla products?
             </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
-            close to Firefox in certain parts of the code to offer a degree of compatibility with many add-ons, but
+            close to Firefox in certain parts of the code to offer a degree of compatibility with add-ons, but
             should be considered a "fork" and a totally independent product.</span><span class="c12"></span><br>
             <ol>
               <li>Pale
@@ -326,14 +325,7 @@ actually <span class="c12">harm</span> Pale Moon's speed as the configuration de
               focuses more on future commercial endeavours of the Mozilla Corporation and, after careful consideration,
               has been rejected for use in Pale Moon (for quite the list of reasons, to be fair).<br>
               </li>
-              <li>A stock Firefox executable is built to run on, by today's standards, <span class="c13">ancient</span>
-              hardware (are you still running a first generation Pentium processor? I wouldn't think so). The build
-              environment used for Pale Moon allows for specific optimizations in the building process that actually
-              <span class="c13">uses</span> the capabilities of the computer hardware it runs on (specifically:
-              advanced processing instructions) and gears the machine code at the assembly level specifically towards
-              certain generations of processors, as opposed to trying to compromise for different ways of working of
-              old (read: museum-grade) hardware. This impacts <span class="c13">every</span> aspect of the browser,
-              from loading pages to drawing graphics and running scripts.</li>
+              
             </ol><br>
 <h3>
               <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale Moon has been tested
@@ -362,36 +354,27 @@ actually <span class="c12">harm</span> Pale Moon's speed as the configuration de
               <li class="c14">
                 <ul>
                   
-            <li>Hardware: Asus Phenom II BE, main workstation, 16GB RAM<br>
+            <li>Hardware: Asus AMD FX, main workstation, 16GB RAM<br>
                   </li>
 
                   
-            <li>Software: Windows 7 64-bit, Windows 8 SDK, DX9/10 SDK<br>
+            <li>Software: Windows 7 64-bit, Windows 8 SDK<br>
                   </li>
 
                   
-            <li>Compiler: MS Visual Studio 2012 Update 5 (MSVC CL 11)
+            <li>Compiler: MS Visual Studio 2013 CE (MSVC CL 12)
                   </li>
 
                 </ul>
               </li>
-              <li>Optimizations: SSE2 architecture, global speed-preference flags, intrinsic functions where possible,
-              auto-vectorization, auto-parallelization. Some small variations of these could be possible depending on
-              specific release builds. Whole Program Optimization is used to provide the most efficiently linked
-              binaries. Many of the builds (and all recent ones) use identical-code folding to further increase speed
-              and reduce size of the program at the expense of compile time.
-              </li>
-              <li>Profile Guided Optimization was used between 3.6.0.1 and 15.4.1 - even though this relies very
-              heavily on the machine the browser is <span class="c13">compiled</span> on - which would generally
-              <span class="c13">not</span> be a good measure for a browser that is used over a wide array of different
-              systems - the overall performance increase when using a manually, carefully selected set of operations
-              for application profiling resulted in a significant increase in performance in those versions. With the
-              change to Visual Studio 2012, PGO became (a lot) less significant and starting with Pale Moon 19.0, a
-              more general code optimization was used to make the resulting program perform equally well regardless of
-              O.S. and PC used on, and more importantly, improve stability of the browser by avoiding compiler/linker
-              bugs related to PGO.<br>
-                <br>
-              </li>
+              <li>Optimizations:
+SSE2 architecture, global speed-preference flags, intrinsic functions
+where possible, auto-vectorization, auto-parallelization. Some small
+variations of these could be possible depending on specific release
+builds. Many of the builds (and all recent ones) use identical-code
+folding to further increase speed and reduce size of the program at the
+expense of compile time. </li>
+              
             </ul><br>
           </td>
         </tr>
