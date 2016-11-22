@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -51,7 +52,8 @@
   <tbody>
     <tr>
       <th class="maintableheader" colspan="2">
-      </th>
+      <br>
+</th>
     </tr>
     <tr align="left">
       <td colspan="2" class="pagemenu"><!--#include virtual="nav/menu.html" -->
@@ -68,9 +70,8 @@ browser!<br>
       <br>
 Pale Moon offers you a browsing experience in a browser completely
 built from its own, independently developed source that has been forked
-off from Firefox/Mozilla code, with carefully
-selected features and optimizations to improve the browser's speed<small>*</small>,
-resource use, stability and user experience, while offering full
+off from Firefox/Mozilla code a number of years ago, with carefully
+selected features and optimizations to improve the browser's stability and user experience, while offering full
 customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
       <br>
@@ -89,7 +90,7 @@ if ((navigator.userAgent.indexOf("Linux") != -1) && (navigator.userAgent.indexOf
       <span class="bold"><br>
       </span> Having trouble with the web installer or looking for
 other download options like an off-line installer, a package for a
-different operating system, Atom builds or portable version? Check the
+different operating system, or portable version? Check the
 download menu at the top of this page!<br>
       <br>
       <span class="bold">Main features</span>:<br>
@@ -101,7 +102,7 @@ download menu at the top of this page!<br>
         <li>Secure: Additional security features and security-aware
 development<br>
         </li>
-        <li>Supported by a friendly, active community of users<br>
+        <li>Supported by our user community, and fully non-profit<br>
         </li>
         <li>Familiar, efficient, fully customizable interface </li>
         <li>Support for full themes: total freedom over any element's
@@ -150,9 +151,10 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>28 Sep 2016</small></small><br>
-Pale Moon 26.5.0 has been released</span>
-which implements an important CSP spec change and is&nbsp; otherwise a general bugfix and security update.<br>
+            <span class="bold"><small><small>22 Nov 2016</small></small><br>
+Pale Moon 27 has been released</span>
+which is a new major milestone in Pale Moon's development!<br>
+Please take a moment to check out the <a href="releasenotes.shtml">release notes</a> to see a summary of the changes involved.<br>
             <span class="bold"></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
@@ -171,7 +173,7 @@ news...</a> </td>
     document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
 }());
 </script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async=""></script>
 <!-- end sponsor link space -->
       </div>
       </td>
@@ -187,7 +189,7 @@ much
 designed by the user as it is by our development team. It is released
 "as-is" and in the hope that it will be useful to its users. As such,
 we cannot provide any warranty of any kind, nor guarantee fitness for
-any particular purpose.<br>
+any particular purpose or workflow.<br>
       </p>
       <p>But, if you feel so inclined and if you enjoy the browser
 enough to
@@ -219,7 +221,7 @@ page.<br>
 * Please note that current, popular "benchmarks" are extremely limited
 in what they test and the way they test "browser speed". Pale Moon does
 not aim to have an "as high as possible benchmark score" and may not
-perform well in these so-called micro-benchmarks, but instead
+perform well in a number of these so-called micro-benchmarks, but instead
 focuses heavily on overall browser smoothness, CPU usage, efficient
 networking and program-wide optimizations not related to a certain
 (limited) subset of functions. Benchmarks, by definition, do not
