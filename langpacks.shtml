@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-  
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>Pale Moon - Language Packs</title>
 
   
-<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -23,8 +24,7 @@
     th.c11 {vertical-align: top; width: 150px; text-align: center;}
     th.c10 {vertical-align: top; width: 224px; text-align: center;}
     div.c8 {border: 2px solid rgb(204, 204, 255); padding: 5px 10px; background-color: rgb(240, 240, 255);}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable c19" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -41,6 +41,8 @@
       <h1> Pale Moon language packs<br>
       </h1>
 We currently do not have any language packs available for Pale Moon v27.<br>
+      <br>
+To be informed of progress (or to help out!), please go to the following <a href="https://forum.palemoon.org/viewtopic.php?f=30&amp;t=13720">forum topic dedicated to localization</a>.<br>
       <br>
 <!--      <br>
 If you prefer to have the Pale Moon user interface in your native
