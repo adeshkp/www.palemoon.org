@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -151,6 +152,10 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
+            <span class="bold"><small><small>28 Nov 2016</small></small><br>
+Pale Moon 27.0.1 has been released</span>
+which addresses some initial-release bugs for the new milestone.<br>
+<br>
             <span class="bold"><small><small>22 Nov 2016</small></small><br>
 Pale Moon 27 has been released</span>
 which is a new major milestone in Pale Moon's development!<br>
@@ -164,12 +169,9 @@ news...</a> </td>
       <br>
       <div style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:
 <!-- sponsor link space -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- PM vertical -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-4490583218014683"
-     data-ad-slot="7570024458"></ins>
+<ins class="adsbygoogle" style="width: 160px; height: 600px;" data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
