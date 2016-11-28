@@ -20,6 +20,9 @@
 
 
 
+
+
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -72,14 +75,32 @@ changes.<br>
           <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
           <span style="font-weight: bold;">Workaround:</span> Go to Options -&gt; Content, and uncheck "Enable Media Source Extensions (MSE)"<br>
           <span style="font-weight: bold;">Timeline:</span> will be fixed in 27.0.1 (to be released soon).</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading some tab's contents doesn't want to load</span><br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading some tabs' content doesn't want to load</span><br>
 On some systems, the contents of a portion of automatically restored
 session tabs doesn't want to load when clicked and needs a manual
 reconfirmation of the URL. This is caused by a combination of things
 happening with the one-time profile migration with the upgrade to 27.<br>
           <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span><br>
-Please see <a href="https://forum.palemoon.org/viewtopic.php?f=3&amp;t=13719">this forum thread</a> for a workaround to solve the session store problem.<br>
+Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for a workaround to solve the session store problem.</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27, stored passwords are missing</span><br>
+If you have previously copied a (newer) Firefox profile to Pale Moon
+that already uses the new password storage format, and this was
+previously converted from the older format, then it's possible that
+Pale Moon 27 will not convert your stored passwords properly (because a
+new storage file already exists).<br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
+Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27 from a localized browser setup, it will not start</span><br>
+If you get a small window with an XML parsing error instead of the
+normal browser interface, your language pack was not properly disabled
+as it should. V26 language packs are not compatible with v27 and will
+prevent the browser from starting.<br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
+
+Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.<br>
         </li>
+
+
 
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
