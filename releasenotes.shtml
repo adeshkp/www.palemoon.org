@@ -6,6 +6,7 @@
 
 
 
+
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -40,7 +41,24 @@
             <h1>
               Pale Moon: Release notes
             </h1>
+      <h3>27.0.1 (2016-11-28)</h3>This is a bugfix release for some of the issues that popped up with the new milestone.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed removal of distribution/bundles/ copies of status bar code and ruby annotations code.<br>This should clean up everything on install/upgrade that currently causes double code to create intermittent/odd behavior.</li>
+        <li>Backed out some media back-end changes to fix MSE playback on Twitch.tv and other similar sites.</li>
+        <li>Disabled pop-up network status in full screen by default (since video detection is rather iffy at the moment).</li>
+        <li>Fixed a regression causing the "reset profile" button to not appear in about:support on the default profile.<br>
+        </li>
+        <li>Worked around bad Netflix interface changes - it will now use a more compatible web UI.</li>
+        <li>Aligned base status bar colors with default prefs.</li>
+        <li>Fixed status bar options not being remembered.</li>
+        <li>Added an override for Amazon Prime videos so they won't stop us at the front door any longer.<br>
+        </li>
+        <li>Re-applied proper branding text to in-app licensing.</li>
+      </ul>
       <h3>27.0.0 (2016-11-22)</h3>
+
 
       After about 8 months of development, we now have a new milestone
 release with literally too many changes to list even concisely. These
@@ -120,6 +138,11 @@ on downloaded files (Windows+NTFS). You can find this in Options.<br>
       </ul>
       <span style="font-weight: bold;">Other important notes:</span><br>
       <ul>
+        <li>When
+first upgrading your browser to v27, your profile will be migrated to
+the new format for the browser. This is a one-time conversion and
+unfortunately this migration can cause some issues. Please see the <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">forum FAQ</a> for more details.<br>
+</li>
         <li>Pale Moon 27 will initially only be available in English.
 We are working on getting localization done to have language packs
 available over time.<br>
@@ -129,6 +152,7 @@ browser from starting or functioning. Pale Moon will automatically
 disable language packs for the previous version, but if you have
 explicitly disabled add-on compatibility checking you may run into
 trouble.</li>
+
         <li>We will continue to fully support the following:</li>
         <ul>
           <li>NPAPI plugins</li>

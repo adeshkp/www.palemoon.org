@@ -13,6 +13,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -51,10 +52,10 @@
             <br>
             <h2>
               Downloading the source code
-            </h2>The source code of the current (main-line) release version:<br>
+            </h2>The source code of the current <span style="font-weight: bold;">release</span> version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.0.0-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.0.1-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
@@ -67,7 +68,7 @@ to below where you can find additional source tree archives.<br>
             <span class="c2">If you want to contribute:</span>
 These source code archives are snapshots of the actual releases of Pale
 Moon, and since it is being actively developed, any patches you may
-want to contribute should usually not be made against these source code
+want to contribute should usually <span style="font-weight: bold;">not</span> be made against these source code
 archives, but against the working development branch instead. This can
 be found in the live repository on GitHub at the following URL, which
 also has archives available for all tagged releases:<br>
@@ -94,9 +95,11 @@ In its current state, Pale Moon will <span style="font-style: italic;">not</span
 Full due to breaking changes in the MSVC compiler. </li>
 
               <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span>
-(clang is not currently producing stable builds on Linux), 4.7.*
+(clang is not currently producing stable builds on Linux), 4.9.*
 recommended but later versions might work too. We do not support
-particularly old versions of GCC (&lt; 4.6). GCC v5.* should work, v6.* is experimental and not recommended (YMMV).<br>
+particularly old versions of GCC (&lt; 4.6). GCC v5.* should work for a
+basic (non-optimized) build but may produce unstable builds with
+certain optimizations, v6.* is experimental and not recommended (YMMV).<br>
               </li>
               <li>You
 will need to get the build prerequisites as outlined on the Mozilla

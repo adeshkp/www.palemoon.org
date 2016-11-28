@@ -30,6 +30,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -85,6 +86,19 @@ of Windows XP users who will not be offered an upgrade past the latest
 compatible version (determined by offered useragent string).<br>
       <br>
 Additional information about Pale Moon on Windows XP can be found <a href="PM_end_of_WinXP_support.shtml">here</a>.<br>
+      <br>
+For your convenience, we keep a direct download link to the installer
+available here, in case you need to install the latest version for
+Windows XP. <span style="font-weight: bold;">Please understand that
+this version is not current and unsupported by us! Please also make
+sure to disable updates in this browser as outlined on the info page
+linked to above.</span><br>
+      <br>
+Pale Moon 26.5.0 for Atom/Windows XP<br>
+Size: 20,087,280 Bytes<br>
+SHA256: 2e52237fdf1da362a07153b743283872a4e20c58c32c35de75e940a42cc3b250<br>
+Download link: <a href="http://relmirror.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Europe]</a> <a href="http://relmirror2.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[USA]</a> <a href="http://relmirror3.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Asia]</a><br>
+
 <br>
             <br>
           </td>
