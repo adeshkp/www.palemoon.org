@@ -7,6 +7,7 @@
 
 
 
+
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -50,10 +51,15 @@
         <li>Disabled pop-up network status in full screen by default (since video detection is rather iffy at the moment).</li>
         <li>Fixed a regression causing the "reset profile" button to not appear in about:support on the default profile.<br>
         </li>
-        <li>Worked around bad Netflix interface changes - it will now use a more compatible web UI.</li>
+        <li>Worked around bad Netflix interface changes - it will now use a more compatible web UI.<br>
+Please note that these Netflix changes were unrelated to the actual release of Pale Moon (26.5 is also affected).<br>
+</li>
         <li>Aligned base status bar colors with default prefs.</li>
         <li>Fixed status bar options not being remembered.</li>
-        <li>Added an override for Amazon Prime videos so they won't stop us at the front door any longer.<br>
+        <li>Added
+an override for Amazon Prime videos so they won't stop us at the front
+door any longer when not using the Firefox Compatibility user agent
+mode.<br>
         </li>
         <li>Re-applied proper branding text to in-app licensing.</li>
       </ul>
