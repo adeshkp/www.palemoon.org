@@ -30,6 +30,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -67,7 +68,7 @@
         <tr>
           <td class="c12">
             <h1>
-              Pale Moon Portable 27.0.0<br>
+              Pale Moon Portable 27.0.1<br>
             </h1>
             <h3>
               You can now take Pale Moon anywhere with you!<br>
@@ -127,13 +128,13 @@
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.0.win32.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
@@ -142,8 +143,8 @@
               <li>
                 <a href="http://www.gamershell.com/download_115368.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: 9ce0f7e33c553724f701b369fc42bed9f228a32e746523727341ae66c449863e<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.0.win32.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: c106801bd438b5a73ac78d46fcf17fb1c2d5962f4d90fe4866a725e3e57fc708<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.1.win32.exe.sig">[Sig]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
@@ -157,20 +158,20 @@ public computers that may potentially not run 64-bit Windows.<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.0.win64.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: defe1694dcf4a9ddefc02e7c50c8f899290f6d3dafa24360a43af7e39b37c6eb<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.0.win64.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: a81aa9c0c27dec1735d22c4c27cf62e8f9cd1419238bfdbf0044c101c62007ec<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.1.win64.exe.sig">[Sig]</a><br>
             <br>
             <br>
             <h3><a name="Upgrade"></a>
