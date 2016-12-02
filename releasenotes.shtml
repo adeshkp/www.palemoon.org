@@ -42,20 +42,20 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-      <h3>27.0.2 (2016-12-02)</h3>This is a minor update to address 2 things:<br>
+      <h3>27.0.2 (2016-12-02)</h3>This is a minor update to address usability and security issues:<br>
       <ul>
         
         <li><span style="font-weight: bold;">Enabled Firefox Compatibility mode by default for the useragent string.</span><br>Unfortunately
 too many websites (and especially the big players who should know
-better like Google and Microsoft) still require the "we must pretend to
-be Firefox is we want this to work" status quo to be
+better like Google, Apple and Microsoft) still require the "we must pretend to
+be Firefox if we want this site to work" status quo to be
 maintained, because people still insist on using useragent sniffing to
 determine "browser features", or even worse, discriminate against free
 choice of browser by flat-out refusing service (I'm looking at you,
-banking industry!) when visiting websites just because companies don't
-want to provide assistance to any but users on the main 3.<br>
-HTML offers plenty of ways to do proper feature detection; site owners should use them.<br>
-Seriously people, it was a bad idea 20 years ago, and it's a worse idea in 2016.</li>
+banking industry and cloud services!) when visiting websites just because companies don't
+want to provide assistance to any but users on the main 3.<br><span style="font-style: italic;">
+HTML offers plenty of ways to do proper feature detection; site owners should use them.</span><br style="font-style: italic;"><span style="font-style: italic;">
+Seriously people, it was a bad idea 20 years ago, and it's a worse idea in 2016.</span></li>
 
         <li><span style="font-weight: bold;">The built-in devtools are back, and with a facelift!</span><br>
 Thanks to some consistent community help, the built-in devtools, sorely
