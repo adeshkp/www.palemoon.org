@@ -31,6 +31,8 @@
 
 
 
+
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -68,7 +70,7 @@
         <tr>
           <td class="c12">
             <h1>
-              Pale Moon Portable 27.0.1<br>
+              Pale Moon Portable 27.0.2<br>
             </h1>
             <h3>
               You can now take Pale Moon anywhere with you!<br>
@@ -124,17 +126,17 @@
             <div class="c8">
               <span class="c2"><a name="PMP-x86" id="PMP-x86"></a>Download Pale Moon Portable x86 (32-bit):</span><br>
             </div><br>
-            File size is approximately 28 MB (EXE):<br>
+            File size is approximately 30 MiB (EXE):<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.1.win32.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
@@ -143,8 +145,8 @@
               <li>
                 <a href="http://www.gamershell.com/download_115368.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: c106801bd438b5a73ac78d46fcf17fb1c2d5962f4d90fe4866a725e3e57fc708<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.1.win32.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: b69d61ff6c8664d0a3884a38271e1185631d1f8c77856079ed06492d5398785c<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.2.win32.exe.sig">[Sig]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
@@ -154,24 +156,24 @@
 This means that it may not be as suitable to take with you to plug into
 public computers that may potentially not run 64-bit Windows.<br>
 <br>
-            File size is approximately 32 MB (EXE):<br>
+            File size is approximately 34 MiB (EXE):<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.1.win64.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: a81aa9c0c27dec1735d22c4c27cf62e8f9cd1419238bfdbf0044c101c62007ec<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.1.win64.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: cda6e9b55c8866004dd91ca2008ae26fcc567ccba2c12b463955ec07c59ab3d0<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.2.win64.exe.sig">[Sig]</a><br>
             <br>
             <br>
             <h3><a name="Upgrade"></a>
@@ -187,20 +189,8 @@ duplicate any changes you have made to the old .ini file.<br>
         </li>
         <li>Test if everything is OK, and if so, delete the old installation folder.<br>
         </li>
-      </ol><br>
-      <span style="font-weight: bold;">Alternative:</span><br>
-      <br>
-Since Pale Moon Portable comes in a "virgin" state, you can also simply download and overwrite an existing
-            Pale Moon Portable folder with the files from a newer version. Your user profile will remain untouched as
-            it doesn't exist in a freshly extracted Pale Moon Portable.<br>
-<span class="c2"></span><br>
-            <span class="c5">Important:</span> If you have made changes to palemoon-portable.ini yourself, you will
-            have to make these changes again as the .ini file will be <span class="c2">overwritten</span>. The solution
-            is to save this file as "user.ini" which will take precedence over palemoon-portable.ini if found by the
-            launcher.<br>
-<br>
-            
-      <hr style="width: 100%; height: 2px;" noshade="noshade"><br>
+      </ol><span style="font-weight: bold;"></span><br>
+<hr style="width: 100%; height: 2px;" noshade="noshade"><br>
             <span class="c2">Note on using Pale Moon's internal updater:</span> <span class="c10">NOT
             RECOMMENDED!</span> You can also use "Check for updates" in Pale Moon Portable itself, but this will only
             update the browser, not the portable shell. On occasion (infrequently) some changes are made to the shell
@@ -208,15 +198,7 @@ Since Pale Moon Portable comes in a "virgin" state, you can also simply download
             this -may- cause problems or inconsistencies with documentation. Before you ask for support for an issue,
             always first try to use the full portable package if you have used the internal updater of the browser.
             Also, <span class="c11">on occasion, updates are made that are specific only to the portable version, which
-            will not be picked up by the internal updater</span>.<br>
-            <br>
-            <span class="c2">Optional (advanced):</span>
-If you are afraid it may still overwrite something you don't want it
-to, then the alternative is to download the standard Pale Moon ZIP file
-(not the portable one), and replace the files and folders in the Pale
-Moon folder in \bin\ with the ones from the ZIP file. You could simply
-overwrite, but it is recommended that you <span style="text-decoration: underline;">remove</span> the old files first before you copy the new ones. The same note here as for
-            using the internal updater: you will only update the browser, and not the portable shell. <br>
+            will not be picked up by the internal updater</span>.<span class="c2"></span><br>
             <br>
           </td>
         </tr>

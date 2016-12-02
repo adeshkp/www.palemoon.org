@@ -3,6 +3,7 @@
 
 
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -152,9 +153,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>28 Nov 2016</small></small><br>
-Pale Moon 27.0.1 has been released</span>
-which addresses some initial-release bugs for the new milestone.<br>
+            <span class="bold"><small><small>02 Dec 2016</small></small><br>
+Pale Moon 27.0.2 has been released</span>
+which addresses some issues with the new milestone and re-introduces (an updated version of) devtools.<br>
 <br>
             <span class="bold"><small><small>22 Nov 2016</small></small><br>
 Pale Moon 27 has been released</span>

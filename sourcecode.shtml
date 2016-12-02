@@ -14,6 +14,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -55,7 +56,7 @@
             </h2>The source code of the current <span style="font-weight: bold;">release</span> version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.0.1-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.0.2-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
