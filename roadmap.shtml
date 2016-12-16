@@ -10,6 +10,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -41,7 +42,7 @@
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-11-19</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2016-12-15</small><br>
 
             <h3>
               General Information
@@ -79,9 +80,26 @@ browser has it too".<br>
             like the Pale Moon browser depends on many factors, so this roadmap should be seen as an indication or
             general direction - and a dynamic document to be updated as the need arises to change plans around.<br>
             <br>
-            <h3>
+            <h3>Technology support</h3>Pale Moon supports and will continue to support the following features/technologies:<br>
+      <ul>
+        <li>Full UI customization<br>
+        </li>
+        <li>Full theming (complete themes) and lightweight theming (personas)<br>
+        </li>
+        <li>XUL and XBL to build interfaces<br>
+        </li>
+        <li>NPAPI plug-ins<br>
+        </li>
+        <li>XPCOM binary components for extensions</li>
+        <li>Overlay and bootstrapped extensions, including restartless ones</li>
+        <li>Access to low-level APIs from extensions<br>
+        </li>
+        <li>Pale Moon Sync (in the secure, time-tested Weave fashion)</li>
+      </ul>
+      <h3>
               Core Work
-            </h3>Pale Moon's core is in flux, just like the web is. With the current practice of a total lack of
+            </h3>
+Pale Moon's core is in flux, just like the web is. With the current practice of a total lack of
             standards and everyone implementing things based on draft specifications and recommendations instead of
             established standards, a lot of the features in Pale Moon are determined on an on-demand basis: If there is
             enough demand for a certain feature or if it is considered beneficial to the browser and the web, it will
@@ -146,7 +164,7 @@ back-end for all supported platforms.<br>
               <li>Mac OS X -- Currently in development<br>There is some movement on this front and we hope to have an official OS X version available later in the year<br>
 
               </li>
-              <li>Android ARM -- Completed, but not actively developed due to lack of manpower<br>We do plan to lift Android development up to the new milestone after desktop versions are released.</li>
+              <li>Android ARM -- Completed, but not actively developed due to lack of manpower<br>We do plan to lift Android development up to the new milestone after desktop versions are released and have stabilized.</li>
               
               
             </ul><br>
@@ -167,16 +185,11 @@ the UI operates. "Australis", the UI rework done by Mozilla in Firefox
 29 and later which completely removed many customization features, will
       <span style="font-weight: bold;">not</span> be adopted. This also means full and ongoing support for total restyling (complete
 themes).<br><h4>Developer Tools</h4>
-We plan to <span style="font-weight: bold;">not</span> include Web
-Developer tools in our release versions of Pale Moon to keep the
-browser light on its feet and to keep tools optional that would not be
-needed by the vast majority of web browser users, sticking to our credo
-promoting choice.<br>
-For people who want or need these kinds of tools, we are offering a dedicated extension with web developer functionality. We <span style="font-style: italic; text-decoration: underline;">may</span>
-(not decided yet, depending on demand) potentially offer a separate
-build of Pale Moon to web developers in the future that have the
-Mozilla-sourced devtools<span class="c4"></span> included. This will depend on demand and on potential quality issues.<span class="c4"></span><br>
-      <br>
+We <span style="font-weight: bold;"></span>include
+Web
+Developer tools in our release versions of Pale Moon. These tools are
+based on the Mozilla-adaptation of Firebug, and provide a fairly broad
+set of tools for web developers and extension developers alike.<br><br>
 <h3>Plug-ins</h3>Pale
 Moon supports <span style="font-weight: bold;">NPAPI plug-ins</span>. Unlike Firefox, <span style="font-weight: bold; text-decoration: underline;">we will not be deprecating
 or removing support for these kinds of plug-ins.</span> This means that you
@@ -205,9 +218,17 @@ by the browser when this lands.<br>
 Pale Moon v27 has been fitted with an indicator in the add-on manager
 to make users aware which add-ons are native to Pale Moon and which are
 running as "Firefox compatible", to assist in troubleshooting.<br>
-            <h4>
+            <br>
+One issue with Pale Moon accepting Firefox IDed XUL extensions is the fact that this compatibility mode
+            does not extend beyond the installation manifest. This is on purpose, to not break with the chrome manifest
+            specification for application targeting. XUL extensions will therefore have to add manifest entries for
+            overlays, skins and content if they target individual applications, now and in the future. Of course, it
+            would be greatly preferred if extension developers, while doing this, actually add full installation
+            support for Pale Moon as well, targeting Pale Moon's GUID of {8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}.<br>
+      <h4>
               XUL extensions
-            </h4>This kind of extension uses the time-tested native extension capabilities to the browser XUL (UI
+            </h4>
+This kind of extension uses the time-tested native extension capabilities to the browser XUL (UI
             markup) code, combined with JavaScript. <span style="font-weight: bold;">XUL extensions are strongly preferred because they are independent
             of browser-included libraries that may change over time.</span>
 With Pale Moon aiming to keep approximate front-end compatibility with
@@ -215,24 +236,18 @@ v24 of Firefox, this is the API level that should be aimed for. <br>
       <br>
 Version 27 of the browser
 may need some changes to cater to some changed toolkit APIs (most notably the way downloads and the find bar are handled).<br>
-            <br>
-            One issue with Pale Moon accepting Firefox IDed XUL extensions is the fact that this compatibility mode
-            does not extend beyond the installation manifest. This is on purpose, to not break with the chrome manifest
-            specification for application targeting. XUL extensions will therefore have to add manifest entries for
-            overlays, skins and content if they target individual applications, now and in the future. Of course, it
-            would be greatly preferred if extension developers, while doing this, actually add full installation
-            support for Pale Moon as well, targeting Pale Moon's GUID of {8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}.<br>
-      <br><span style="font-weight: bold;">
+            <br><span style="font-weight: bold;">Binary components in extensions</span><br>
+<br><span style="font-weight: bold;">
 Unlike Firefox, Pale Moon will continue to offer full support for XUL
 and XPCOM binary-component extensions and there is no plan to discard the
-current extension system</span> in lieu of Chrome-like alternatives (WebExtensions).<br>
+current extension system</span> in lieu of Chrome-like alternatives (WebExtensions). <br>
 Mozilla has already marked XUL extensions and bootstrapped extensions
-as "legacy" and will be phasing out support for this, which will affect
+as "legacy" and will be phasing out support for all but WebExtensions, which will affect
 many Firefox extensions. We have no plans to do this and many "legacy"
 Firefox extensions will continue to be possible on Pale Moon when targeting it.<br>
             <h4>
               JetPack (Add-on SDK) extensions
-            </h4>With Pale Moon v27, <span style="font-weight: bold;">no extension of this type are supported anymore</span>. We will not offer future support for these types of extensions.<br>
+            </h4>With Pale Moon v27, <span style="font-weight: bold;">no extensions of this type are supported anymore</span>. We will not offer future support for these types of extensions.<br>
             <br>
             <h3>
               Additional tools and services
