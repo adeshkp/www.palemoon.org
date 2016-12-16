@@ -33,6 +33,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -70,7 +71,7 @@
         <tr>
           <td class="c12">
             <h1>
-              Pale Moon Portable 27.0.2<br>
+              Pale Moon Portable 27.0.3<br>
             </h1>
             <h3>
               You can now take Pale Moon anywhere with you!<br>
@@ -130,13 +131,13 @@
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.3.win32.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.3.win32.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.2.win32.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.3.win32.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
@@ -145,8 +146,8 @@
               <li>
                 <a href="http://www.gamershell.com/download_115368.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: b69d61ff6c8664d0a3884a38271e1185631d1f8c77856079ed06492d5398785c<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.2.win32.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: fd5d877ef4e46de2836c7daf299dab71b1b199a0ce098217cc3f53fdfb148234<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.3.win32.exe.sig">[Sig]</a><br>
             <br>
             <div class="c8">
               <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span class="c2">Download Pale Moon Portable
@@ -160,27 +161,27 @@ public computers that may potentially not run 64-bit Windows.<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
+                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.0.3.win64.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
+                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.0.3.win64.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.2.win64.exe">Pale Moon mirror
+        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.0.3.win64.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
                 <a href="http://www.gamershell.com/download_115370.shtml">GamersHell</a><br>
               </li>
-            </ul>SHA-256: cda6e9b55c8866004dd91ca2008ae26fcc567ccba2c12b463955ec07c59ab3d0<br>
-            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.2.win64.exe.sig">[Sig]</a><br>
+            </ul>SHA-256: 1f520cc5aaa34e15cf1e6e5d1dc9e853308420ad3e7d490f87e0e713fc9987a3<br>
+            GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.0.3.win64.exe.sig">[Sig]</a><br>
             <br>
             <br>
             <h3><a name="Upgrade"></a>
               I already have an earlier version of palemoon-portable. How do I upgrade?
             </h3><span style="font-weight: bold; color: rgb(0, 102, 0);">Recommended method:</span><br>
       <ol>
-        <li>Download and extract the portable version of your choice to an empty folder.</li>
+        <li>Download and extract the portable version of your choice to an <span style="font-weight: bold;">empty</span> folder.</li>
         <li>Copy the "user" folder from your old installation over to your new one.<br>
         </li>
         <li>Optionally, if you have created a user.ini file for the

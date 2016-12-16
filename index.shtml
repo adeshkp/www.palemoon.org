@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -150,10 +151,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>02 Dec 2016</small></small><br>
-Pale Moon 27.0.2 has been released</span>
-which addresses some issues with the new milestone and re-introduces
-(an updated version of) devtools.<br>
+            <span class="bold"><small><small>16 Dec 2016</small></small><br>
+Pale Moon 27.0.3 has been released</span>
+which is a bugfix and security release.<br>
             <br>
             <span class="bold"><small><small>22 Nov 2016</small></small><br>
 Pale Moon 27 has been released</span>

@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -83,8 +84,7 @@ table.resulttable > tbody > tr > td {
             <br>
             The Pale Moon browser has, among other things, the following features:<br>
             <ul>
-              <li>Specifically optimized for current processors. It makes use of the enhanced instruction sets of newer
-              CPUs - as a result, this browser will not run on particularly old systems.
+              <li>Specifically optimized for current processors.This browser will not run on particularly old systems.
               </li>
               <li>Increased stability: experience fewer crashes.<br>
               </li>
@@ -92,8 +92,10 @@ table.resulttable > tbody > tr > td {
               </li>
               <li>Support for many Firefox Extensions (add-ons) as a compatibility feature.
               </li>
-              <li>Support for a growing number of Pale Moon specific Extensions.<br>
-              </li>
+              <li>Support for a growing number of Pale Moon specific Extensions.</li>
+        <li>Offering low-level API access to extension developers to truly extend browser features.<br>
+        </li>
+
               <li>Support for Personas ("lightweight" themes).
               </li>
               <li>Support for Complete Themes.<br>
@@ -159,7 +161,7 @@ table.resulttable > tbody > tr > td {
             <h3>
               <a name="CPUsupport" id="CPUsupport"></a>Supported processors
             </h3>The Pale Moon browser is specifically optimized for current-day processors and uses instructions
-            exclusively available in more modern (or rather: not museum-grade) processors. This means it will not run
+            exclusively available in more modern (or rather: <span style="font-weight: bold;">not museum-grade</span>) processors. This means it will not run
             on PCs that are particularly old by today's standards, and is likely to display errors or refuse to start
             on systems with unsupported or poorly supported CPUs.<br>
             Requirements for the regular Pale Moon browser are, in short: <span class="c2">a CPU with SSE2 support</span>.<br>
@@ -295,13 +297,8 @@ done carefully and with due consideration to provide better performance
 and efficiency while not endangering the security of the browser, and
 to focus on better standards compatibility and/or more sane behavior. </li><li>Pale
 Moon comes with a number of different default configuration settings
-than Firefox. These basic "tweaks" (I'd prefer to call them "more sane
-defaults") are done with in-depth knowledge of the modified engine, to
-provide you with the smoothest browsing experience as well as to be
-considerate towards the Internet ecosystem, website/service providers
-and residential gateways (e.g. by reducing the number of concurrent
-http and total dns requests needed when browsing) without relying on
-protocol extensions that are often not or not properly supported. Note
+than Firefox and may behave differently when certain advanced configuration preferences are changed.<br>
+Note
 that "internet
 speed boosters" and general "tweak guides" written for Firefox can
 actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
@@ -332,8 +329,10 @@ actually <span class="c12">harm</span> Pale Moon's speed as the configuration de
             </h3>Pale Moon builds are tested for stability before being released by having it used for day-to-day
             browsing by a group of beta testers. This includes but is not limited to:<br>
             <ul>
-              <li>Graphics heavy art sites
-              </li>
+              <li>Graphics heavy art sites</li>
+        <li>Various "web applications"<br>
+        </li>
+
               <li>Static HTML sites with many elements
               </li>
               <li>DHTML/CSS sites

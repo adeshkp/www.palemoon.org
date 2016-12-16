@@ -1,19 +1,19 @@
-27.0.2 x86 (32-bit)
+27.0.3 x86 (32-bit)
 3
 EU
-http://relmirror.palemoon.org/release/palemoon-27.0.2.win32.installer.exe
+http://relmirror.palemoon.org/release/palemoon-27.0.3.win32.installer.exe
 NA,SA
-http://relmirror2.palemoon.org/release/palemoon-27.0.2.win32.installer.exe
+http://relmirror2.palemoon.org/release/palemoon-27.0.3.win32.installer.exe
 AS,OC
-http://relmirror3.palemoon.org/release/palemoon-27.0.2.win32.installer.exe
-27.0.2 x64 (64-bit)
+http://relmirror3.palemoon.org/release/palemoon-27.0.3.win32.installer.exe
+27.0.3 x64 (64-bit)
 3
 EU
-http://relmirror.palemoon.org/release/palemoon-27.0.2.win64.installer.exe
+http://relmirror.palemoon.org/release/palemoon-27.0.3.win64.installer.exe
 NA,SA
-http://relmirror2.palemoon.org/release/palemoon-27.0.2.win64.installer.exe
+http://relmirror2.palemoon.org/release/palemoon-27.0.3.win64.installer.exe
 AS,OC
-http://relmirror3.palemoon.org/release/palemoon-27.0.2.win64.installer.exe
+http://relmirror3.palemoon.org/release/palemoon-27.0.3.win64.installer.exe
 N/A
 1
 XX

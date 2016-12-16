@@ -8,6 +8,9 @@
 
 
 
+
+
+
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Release Notes</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -42,7 +45,56 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-      <h3>27.0.2 (2016-12-02)</h3>This is a minor update to address usability and security issues:<br>
+      <h3>27.0.3 (2016-12-16)</h3>This is a bugfix and security update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed certain network errors not displaying.</li>
+        <li>Fixed network error page styling.</li>
+        <li>Fixed the writing of DOM storage data to tabs (should solve
+the "tabs not loading their contents" issue when migrating a profile
+and some other situations).</li>
+        <li>Disabled downloadable font unicode-ranges on non-Windows platforms.</li>
+        <li>Added a Google Fonts user-agent override for non-Windows
+platforms so they don't send unicode-ranged composite fonts (Feature
+detection? Google apparently still doesn't know what that is).</li>
+        <li>Re-enabled the reporting of CSS errors to the console by
+default to prevent issues with some extensions who rely on this (e.g.
+Stylish).</li>
+        <li>Fixed and updated preferences for location bar suggestions.</li>
+        <li>Fixed several x64-specific issues in memory allocation code (regression fix).</li>
+        <li>Fixed timer issues when resuming a computer from stand-by (regression fix).</li>
+        <li>Fixed a number of branding and textual issues in the browser.</li>
+        <li>Fixed prompting for the saving of off-line data (previously always allowed without prompting).</li>
+        <li>Fixed a layout regression that would cause block elements
+following left floats to not wrap to the next line if there wasn't
+enough clearance.</li>
+        <li>Fixed a mismatch in Firefox extension compatibility-mode
+installation where Firefox extensions served by addons.mozilla.org
+would be marked incompatible when trying to install.<br>
+        </li>
+
+
+      </ul><span style="font-weight: bold;">
+Security-related and crash fixes:</span><br>
+      <ul>
+        <li>Fixed use-after-free while manipulating DOM events and removing audio elements (CVE-2016-9899).</li>
+        <li>Fixed CSP bypass using the marquee tag (CVE-2016-9895).</li>
+        <li>Fixed a vulnerability in the internal Jetpack modules (CVE-2016-9903). <span style="color: rgb(128, 128, 0);">DiD</span></li>
+        <li>Fixed use-after-free in Editor while manipulating DOM subtrees (CVE-2016-9898).<br>
+        </li>
+        <li>Fixed an error in the buffer logic in http-chunked decoder.</li>
+        <li>Fixed a crash in generational GC code (not in use by default) <span style="color: rgb(128, 128, 0);">DiD</span></li>
+        <li>Fixed a compartment mismatch bug in plug-in code</li>
+        <li>Fixed a crash trying to get a nonexistent property.</li>
+        <li>Improved MediaRecorder's observer safety.</li>
+        <li>Fixed a crash related to document history.</li>
+
+      </ul><span style="color: rgb(128, 128, 0);">DiD </span>This means that the fix is "Defense-in-Depth": It is a fix that does not
+            apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
+            the same code when surrounding code changes, exposing the problem.
+      <h3>27.0.2 (2016-12-02)</h3>
+This is a minor update to address usability and security issues:<br>
       <ul>
         
         <li><span style="font-weight: bold;">Enabled Firefox Compatibility mode by default for the useragent string.</span><br>Unfortunately
