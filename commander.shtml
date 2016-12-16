@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Commander add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -75,10 +76,13 @@
             <h2>
               Download and install
             </h2>The current version is <span class="bold">1.7.3</span> - this is an update re-wording a few options.<br>
-      <span style="font-weight: bold; color: rgb(204, 0, 0);">Important:</span>
+      
+      <div style="padding: 2px 4px; text-align: left; background-color: rgb(255, 255, 153);"><span style="font-weight: bold; color: rgb(204, 0, 0);">Important:</span>
 This version is designed for Pale Moon 25.5-26.*. A good number of
 options will not work in v27 -- this extension will be updated to a new
 version to cater to v27 of the browser soon.<br>
+      </div>
+
             <br>
             You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181" target="_blank">go to the forum
             thread</a> for this add-on to provide feedback.<br>
