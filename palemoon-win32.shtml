@@ -18,6 +18,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -152,13 +153,7 @@ Download link at the top of the page (next to the title)<br>
 Download link at the top-right of the page<br>
 </td>
 </tr>
-          <tr>
-            <td class="c10"> <a href="http://www.gamershell.com/download_115360.shtml"><img style="border: 0px solid ; width: 230px; height: 43px;" class="c13" alt="Logo" src="dl-images/gamershellcom.png"></a><br>
-            </td>
-            <td class="c5"> <span class="c3">GamersHell</span><br>
-Servers in Europe and the US<br>
-            </td>
-          </tr>
+          
           
         </tbody>
       </table>
@@ -184,9 +179,7 @@ GPG/PGP Signature: <a href="pgp/palemoon-27.0.3.win32.zip.sig">[Sig]</a><br>
           <span class="c3">ZIP</span> from Pale Moon mirror #3 Asia
 (direct download)</a></li>
 
-        <li> <a href="http://www.gamershell.com/download_115362.shtml">Download
-          <span class="c3">ZIP</span> from GamersHell</a><br>
-        </li>
+        
       </ul>
       <br>
       <h2> Other downloads<br>
