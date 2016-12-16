@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -54,10 +55,6 @@ Make sure you make regular backups of your Pale Moon profile as
 unstable versions may occasionally cause data loss. <span style="font-weight: bold;">Unstable versions
 do not use a separate user profile</span>, so if you decide to use these, your
 release-version profile will be used and potentially be at risk.<br>
-      <br>
-Unstable versions will come with internal devtools enabled to make it
-easier to analyze potential problems and not rely on the extension
-framework (which may have bugs in development).<br>
       <h2>Reporting bugs</h2>
 If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
 on GitHub for Pale Moon. When you do so, please <span style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
@@ -87,7 +84,7 @@ official releases. The preferred way of updating is to let the internal
 updater do its task (default setting is to update automatically).<br>
       <h2>Downloads</h2>
 
-      These versions are only available for 32-bit windows. They are
+      These versions are only available in 32-bit for Windows. They are
 not cryptographically signed due to the Release Engineering overhead
 involved in such things.<br>
 <br>
@@ -146,15 +143,25 @@ Direct download link </td>
         </tbody>
       </table>
       <br>
-      <h3> <a name="ZIP_packed_versions" id="ZIP_packed_versions"></a>ZIP
-packed versions (approx. 26 MB) </h3>
+      <h3> ZIP
+packed versions<br>
+ </h3>
       <ul>
         <li> <a href="http://relmirror.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale Moon mirror #1 EU
 (direct download)</a> </li>
         <li> <a href="http://relmirror2.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale Moon mirror #2 US
-(direct download)</a> </li>
+(direct download)</a></li>
         
-      </ul><br>
+      </ul>
+      <h3>Portable versions</h3>
+      <ul>
+<li> <a href="http://relmirror.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale Moon mirror #1 EU
+(direct download)</a> </li><li> <a href="http://relmirror2.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale Moon mirror #2 US
+(direct download)</a></li>
+      </ul>
+      <br>
+      <br>
+<br>
       </td>
     </tr>
     <tr>
