@@ -2,6 +2,7 @@
 <html><head>
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Flash protected Mode Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -31,10 +32,10 @@
             <h1>
               Flash Protected Mode tool
             </h1><span style="color: rgb(204, 0, 0);">Important
-note: With Pale Moon 27 and later you no longer need this tool -- you
+note: </span>With Pale Moon 27 and later you possibly no longer need this tool -- in 32-bit versions you
 can enable or disable the Flash protected mode setting right from
 within the browser with the "Options" button on the Flash plugin in the
-Add-ons manager.</span><br style="color: rgb(204, 0, 0);">
+Add-ons manager. Please check that first!<br style="color: rgb(204, 0, 0);">
       <br>
 This simple tool was written as a quick way to switch Protected Mode in the Flash player off and
             on.<br>
