@@ -24,6 +24,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -68,7 +69,19 @@
             <br>
             <br>
             <span class="bold">Known issues in the current version:</span><br>
-<ol><li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
+<ol><li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon x64 refuses to install on Windows Vista</span><br>
+This is due to an incorrect check that came across from the Mozilla platform when we updated it for v27.<br>
+Confusingly, it will tell the user that it requires Windows Vista x64 (while the check requires at least Windows 7)<br>
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+
+          <span style="font-weight: bold;">Workaround:</span> Install the 32-bit version<br>
+
+          <span style="font-weight: bold;">Workaround (alternative):</span> Install from the ZIP archive<br>
+
+
+          <span style="font-weight: bold;"></span><span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
 that already uses the new password storage format, and this was
 previously converted from the older format, then it's possible that
@@ -76,6 +89,7 @@ Pale Moon 27 will not convert your stored passwords properly (because a
 new storage file already exists).<br>
           <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
+
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27 from a localized browser setup, it will not start</span><br>
 If you get a small window with an XML parsing error instead of the
 normal browser interface, your language pack was not properly disabled
