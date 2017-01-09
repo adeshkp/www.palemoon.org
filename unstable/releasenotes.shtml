@@ -4,6 +4,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -33,7 +34,8 @@ table.c17 {background-color: #F9F9F9}
   <tbody>
     <tr>
       <th class="subpageheader">
-      </th>
+      <br>
+</th>
     </tr>
     <tr align="left">
       <td class="pagemenu"><!--#include virtual="/nav/menuroot.html" --> <br>
@@ -80,94 +82,41 @@ also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
 
 <br>
-<h2>Pale Moon v27 public beta 3 (2016-10-27)</h2>A lot more polishing
-and bugfixing, working through the last blockers for the coming
-release. You may consider this stable enough for just about all intents
-and purposes.<br>
-      <br>
-      <span style="font-weight: bold;">Most important changes/fixes since beta 2:</span><br>
+      <h3>Current trunk progress since release (major changes only):</h3>
       <ul>
-<li>This should fix webcrypto issues people have reported.</li><li>Fixed places/library category errors (tags etc).</li><li>Fixed geolocation (prompt and lookup, "more information").</li><li>Fixed desktop notification and pointerlock prompts.</li><li>Fixed the "more information" link for mixed content.</li><li>Removed pdf.js from the browser.<br>
-Considering this preview module (maintained for emergency only) would
-not render even half the documents correctly, it has been removed from
-Pale Moon. Some websites that insist on only having embedded PDF
-content (not downloadable and not using a web-based viewer on-site) may
-require you to install a PDF plugin as a result.<br>
-</li><li>Fixed the "ask to activate" image+link in plugin areas.</li><li>Fixed the browser downloads UI call in BrowserDownloadsUI().</li><li>Enforced Firefox-compatibility useragent on msn.com and bing.com to prevent errors.</li><li>Fixed the save file picker dialog closing immediately on some sites (e.g. dropbox).</li><li>Fixed missing toolbar in print preview.</li><li>Fixed "Forget about this site" command.</li><li>Fixed an issue with update logging.</li><li>Added
- a new option and control to determine whether to save zone information 
-(downloaded from the Internet) on downloaded files (Windows+NTFS).<br>
-You can find this option in the "General" category of browser options.<br>
-</li><li>Fixed a regression causing memory inflation and crash due to onload= changes to &lt;link&gt; and style elements.</li><li>Fixed favicon handling on hash navigation.</li><li>Added
- indicators in the add-ons manager for native (blue)/non-native (orange)
- extensions, to more easily pinpoint which extensions are Pale Moon 
-specific and which are Firefox extensions.</li><li>Fixed an issue with xlink:href navigation (e.g. embedded &lt;a&gt; links inside SVG).</li><li>Fixed an issue with SVG favicons on sites not being seen as valid nor being cached properly.</li><li>Switched AMO useragent override to be v28.9 instead of v24.9, to be closer to our FE+platform spec.</li><li>Updated OTS to 5.1 from upstream + fixed a visibility issue in it.</li><li>Updated the woff2 code from upstream.</li><li>Hard-blocked the classic theme restorer (CTR) extension -- just in case.</li><li>Fixed History menu "restore all tabs".</li><li>Fixed font preferences fallback encoding selection.</li><li>Removed the (unused) maintenance service code.</li><li>Changed the media/video parsing/rendering logic.</li><li>Added MSE enable/disable options to the Options dialog.<br>
-You can find these options in the "Content" category of browser options.<br>
-</li><li>Enabled @font-face unicode-range parsing in CSS.</li><li>Added use of object array and typed object array <em>.includes()</em>.</li><li>Fixed the offline application cache to work properly with http cache v2.</li><li>Removed confusion in preferences for the use of https cache back-ends.<br>
-The preference to select the back-end is now called <code>browser.cache.backend</code> (numeric).<br>
-Set to 0 for the old back-end (deprecated) or 1 for the new back-end.<br>
-</li><li>Fixed up OS X default theme styling.</li>
+        <li>Completely changed the media handling for Linux:</li>
+        <ul>
+          <li>Switched to use MediaFormatReader to better parse media files</li>
+          <li>Switched to FFmpeg/libav codec</li>
+          <li>Removed the use of gstreamer<br>
+          </li>
+          <li>Added FFmpeg 3.x support</li>
+          <li>Made MSE/H.264 work</li>
+        </ul>
+        <li>Restored classic about:config styling</li>
+        <li>Added a fallback to US-ASCII if the autoconfig UTF-8 conversion fails</li>
+        <li>Improved cross-compartment wrapper handling when managing a large number of tabs (performance)</li>
+        <li>Changed the way audio and video synchronization is
+calculated to account for (slow) device latency, preventing things from
+getting out of sync.</li>
+        <li>Changed the way scripts are handled when they are stopped
+from the "unresponsive script" dialog, to prevent browser lockup. We
+will now stop all scripts in the affected compartment in one go.</li>
+        <li>Fixed several errors in the devtools.</li>
+        <li>Fixed a nasty crash caused by cross-origin referrers.</li>
+        <li>Fixed the installer to allow 64-bit versions of the browser to be installed on Vista.</li>
+        <li>Added HTML5-spec clipboard handling for content (cut&amp;copy only -- paste is not allowed for security reasons).</li>
+        <li>Made multiple changes to the jetpack modules to cater to PMkit extensions.</li>
+        <li>Fixed a css layout issue: make max-width affect contributions to intrinsic min-width.</li>
+        <li>Implemented several updates to the permissions manager (needs testing!)</li>
+        <li>Removed Metro browser platform/widget code.</li>
+        <li>Removed support for non-standard/deprecated let blocks and expressions.</li>
+        <li>Made the use of let as a keyword versionless and ES6 compliant.</li>
       </ul>
-      <br>
-      <h2>Pale Moon v27 public beta 2 (2016-10-10)</h2>
-Making progress with the bugfixes.<br>
-Public beta 2 should be feature-complete enough for daily use. It's obviously going to still have bugs in it.<br>
+For a more detailed and complete list of changes, check out the <a href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit log</a>.<br>
 
-      <br>
-      <span style="font-weight: bold;">Most important changes/fixes since beta 1:</span><br>
 
-      
-      <ul>
-<li>Fixed up most of the devtools.</li><li>Removed WebappRT.</li><li>Fixed OCSP options.</li><li>Removed inclusion of the WindowsXP DirectX library for WebGL.<br>
-(no longer in use on supported platforms)<br>
-</li><li>Fixed about:credits.</li><li>Fixed a crash in offsetX/Y events (e.g. triggered by IMDB videos)</li><li>Changed
- the "default browser" Windows system integration for later versions of 
-Windows to work around Microsoft blocking explicit control panel module 
-calls.</li><li>Restored wider spacing to about:config for the time being.</li><li>Fixed html button content padding</li><li>Fixed RSS feeds view/subscription</li><li>Fixed up some media back-end issues + added improvements</li><li>Updated libVPX to 1.4</li><li>Fixed missing tabstrip scroll arrows</li>
-      </ul>
-      <h2>Pale Moon v27 public beta 1 (2016-10-04)<br>
-      </h2>
-<span style="font-weight: bold;">Important changes since the Alpha stages:</span><br>
-      <ul>
-        <li>Sync is available. Casual testing has been performed to set up a new account and synchronize data.<br>
-One known issue that isn't directly related to sync is that when
-syncing add-ons, downloads of these add-ons may fail (for security
-reasons).<br>
-        </li>
-        <li>The status bar and indicators are back! We've worked on fully integrating the relevant code.<br>
-        </li>
-        <li>Pale Moon now has devtools available again. This includes a
-more modern port of them from a later Firefox version. Expect to find
-some bugs here, since the integration into our front-end is rather
-complex.</li>
-        <li>This version doesn't come with an updater because we want
-to, at this point, have a known control point for bugfixing. To update
-to a later version you'll have to manually install.</li>
-      </ul><span style="font-weight: bold;">Added features since the previous version:</span><br>
-      <ul>
-        <li>Added a preference to control Generational Garbage
-Collection in the JavaScript engine and disabled it by default after
-extensive comparative testing.</li>
-        <li>Improved worst-case minor garbage collection latency and releasing of wrapped JS code.</li>
-        <li>Animated SVG in OpenType fonts now work and don't kill browser responsiveness.</li>
-        <li>Implemented an improved implementation of <code>background-repeat:space</code> and <code>background-repeat:round</code> CSS statements.</li>
-        <li>Added <code>MouseEvent.offsetX</code> and <code>MouseEvent.offsetY</code>.</li>
-        <li>Added the "noopener" link option for hyperlinks.</li>
-        <li>Added several optimizations and improvements for Vista and higher versions of Windows.</li>
-        <li>Added many media handling improvements</li>
-        <li>Implemented HTTP/2 pseudo-header restrictions in accordance with RFC 7540.</li>
-      </ul>
-
-      <span style="font-weight: bold;">Additional important information:</span><br>
-      <ul>
-        <li>We do <span style="font-weight: bold;">not</span> support
-Jetpack/add-on SDK extensions any longer. Any extensions falling into
-this category will now be clearly marked as such in the Add-on Manager
-in the browser.</li>
-        <li>The browser is available in US-English only. Our current release language packs will not work.<br>
-        </li>
-      </ul>
-<br>
-      </td>
+      <br><span style="font-weight: bold;"></span></td>
     </tr>
     <tr>
       <td class="c10"><!--#include virtual="/nav/footer.html" -->&nbsp;
