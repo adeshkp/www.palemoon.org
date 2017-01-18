@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
-  
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>Pale Moon browser - unstable channel</title>
 
   
-<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -37,8 +38,7 @@ table.c17 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -70,7 +70,10 @@ unstable versions may occasionally cause data loss. <span style="font-weight: bo
 do not use a separate user profile</span>, so if you decide to use
 these, your
 release-version profile will be used and potentially be at risk.<br>
+<h2>Release notes</h2>You can find some concise release notes about this development version here:<br>
+      <a href="http://www.palemoon.org/unstable/releasenotes.shtml">http://www.palemoon.org/unstable/releasenotes.shtml</a><br>
       <h2>Reporting bugs</h2>
+
 If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
 on GitHub for Pale Moon. When you do so, please <span style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
 already been reported before by others</span> to prevent duplicate

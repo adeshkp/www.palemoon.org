@@ -5,6 +5,10 @@
 
 
 
+
+
+
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -87,8 +91,11 @@ also manifests with default preferences and no installed add-ons
         <li>Completely changed the media handling for Linux:</li>
         <ul>
           <li>Switched to use MediaFormatReader to better parse media files</li>
+          <li>Added our own parser for MP3 files<br>
+          </li>
+
           <li>Switched to FFmpeg/libav codec</li>
-          <li>Removed the use of gstreamer<br>
+          <li>Removed the use of gstreamer by default for all media<br>
           </li>
           <li>Added FFmpeg 3.x support</li>
           <li>Made MSE/H.264 work</li>
@@ -112,6 +119,14 @@ will now stop all scripts in the affected compartment in one go.</li>
         <li>Removed Metro browser platform/widget code.</li>
         <li>Removed support for non-standard/deprecated let blocks and expressions.</li>
         <li>Made the use of let as a keyword versionless and ES6 compliant.</li>
+        <li>Improved the permissions manager (about:permissions) with a more complete set of permissions.</li>
+        <li>Made the privacy category in preferences a tabbed setup.</li>
+        <li>Fixed a regression preventing certain MP4 video files from playing.</li>
+        <li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.<br>
+        </li>
+
+
+
       </ul>
 For a more detailed and complete list of changes, check out the <a href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit log</a>.<br>
 
