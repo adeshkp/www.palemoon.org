@@ -9,6 +9,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -122,8 +123,11 @@ will now stop all scripts in the affected compartment in one go.</li>
         <li>Improved the permissions manager (about:permissions) with a more complete set of permissions.</li>
         <li>Made the privacy category in preferences a tabbed setup.</li>
         <li>Fixed a regression preventing certain MP4 video files from playing.</li>
-        <li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.<br>
+        <li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.</li>
+        <li>Fixed a crash caused by certain downloadable fonts with DirectWrite in use.</li>
+        <li>Improved downloads-button indicator legibility on some combinations of Windows versions and system theme colors.<br>
         </li>
+
 
 
 
