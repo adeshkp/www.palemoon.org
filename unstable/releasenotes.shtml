@@ -10,6 +10,8 @@
 
 
 
+
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -100,6 +102,9 @@ also manifests with default preferences and no installed add-ons
           </li>
           <li>Added FFmpeg 3.x support</li>
           <li>Made MSE/H.264 work</li>
+          <li>Added MP4-backed quicktime playback support<br>
+          </li>
+
         </ul>
         <li>Restored classic about:config styling</li>
         <li>Added a fallback to US-ASCII if the autoconfig UTF-8 conversion fails</li>
@@ -125,13 +130,29 @@ will now stop all scripts in the affected compartment in one go.</li>
         <li>Fixed a regression preventing certain MP4 video files from playing.</li>
         <li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.</li>
         <li>Fixed a crash caused by certain downloadable fonts with DirectWrite in use.</li>
-        <li>Improved downloads-button indicator legibility on some combinations of Windows versions and system theme colors.<br>
-        </li>
+        <li>Improved downloads-button indicator legibility on some combinations of Windows versions and system theme colors.</li>
 
 
 
 
       </ul>
+      <h3>Current trunk progress past v27.1 branch:</h3>
+      <ul>
+        <li>Updated the ICU lib to 58.2.</li>
+        <li>Added proper control for the user for offline storage for web applications.</li>
+        <li>No longer building GStreamer support by default.</li>
+        <li>Added a check to prevent auto-filled URLs from copying the autofilled selection to clipboard/primary.</li>
+        <li>Added the feature to pass a URL to open in a private window from the command-line.</li>
+        <li>Improved the display of the downloads indicator on the button in brighttext situations.<br>
+        </li>
+        <li>DOM storage now honors the "3rd party cookie" setting in
+that it will not allow 3rd party data to be stored if 3rd party cookies
+are disallowed.</li>
+        <li>CORS now treats data: URIs as the same origin (re: Facebook reload issue).<br>
+        </li>
+
+      </ul>
+
 For a more detailed and complete list of changes, check out the <a href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit log</a>.<br>
 
 
