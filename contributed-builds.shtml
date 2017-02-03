@@ -1,126 +1,137 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
-
-
-
-
-
+  
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Contributed builds</title>
 
   
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author"></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          </th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h1>
-              Contributed builds of Pale Moon
-            </h1>The following list is a list of endorsed third party builds of Pale Moon. If the browser is not in
-            this list, it is not an authorized redistribution/build. <span class="bold">Please note that these
-            third-party builds may lag behind the main-line releases of Pale Moon.</span><br>
-            <br><span style="font-weight: bold;">
-            Alternate operating systems/configurations:</span><br>
-<ul>
-              
-              <li>
-                <a href="http://repo.openpandora.org/?page=detail&amp;app=palemoon_ptitseb" target="_blank">Pale Moon
-                for Pandora</a> by ptitSeb<br>
-                A special build of Pale Moon for the OpenPandora OS on Pandora boxes.
-              </li>
-              
-        <li><a href="http://raspi.palemoon.org/">Pale Moon for Raspberry Pi boards</a> by dimag0g<br>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author">
+
+</head><body>
+<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h1> Contributed builds of Pale Moon </h1>
+The following list is a list of endorsed third party builds of Pale
+Moon. If the browser is not in this list, it is not an authorized
+redistribution/build. <span class="bold">Please note that these
+third-party builds may lag behind the main-line releases of Pale Moon.</span><br>
+      <br>
+      <span style="font-weight: bold;"> Alternate operating
+systems/configurations:</span><br>
+      <ul>
+        <li> <a href="http://repo.openpandora.org/?page=detail&amp;app=palemoon_ptitseb" target="_blank">Pale Moon for Pandora</a> by ptitSeb<br>
+A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
+        <li><a href="http://raspi.palemoon.org/">Pale Moon for
+Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
-        <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15 by Mike Purtell<br>
-Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a> Linux distro.</li>
-        <li><a href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale Moon repositories for Debian and Ubuntu</a> by Steve Pusser.<br>
-        </li>
-
-        <li><a href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/staging/extra-web/palemoon">Pale Moon for AOSC OS</a> by AOSC Development Hub<br>
+        <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15
+by Mike Purtell<br>
+Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a>
+Linux distro.</li>
+        <li><a href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/staging/extra-web/palemoon">Pale
+Moon for AOSC OS</a> by AOSC Development Hub<br>
 A hardened Pale Moon build configured for <a href="https://aosc.io/" target="_blank">AOSC OS</a>
 optimized for modern personal computer architectures. Available in .deb
 and .rpm packages, including all supported languages with automatic
 selection.<br>
         </li>
-
-
-
-            </ul><span style="font-weight: bold;">Processor-specific rebuilds:</span><br>
-<ul>
-              
-              <li><a href="ftp://contrib:get@ftp.palemoon.org/SSE/">SSE build (x86)</a> by Mercury.<br>
-
-                A rebuild of Pale Moon from official source catering to particularly old processors that don't support
-                SSE2.</li>
-        <li><a href="ftp://contrib:get@ftp.palemoon.org/IA32/">IA-32 build (x86)</a> by Mercury.<br>
-
-
-                A rebuild of Pale Moon from official source catering to <span style="font-style: italic;">very</span> old processors that don't support
-                SSE.</li>
-
-        
-
-            </ul><span style="font-weight: bold;">Historical/archived listings:</span><br>
-      <br>
-These are maintained for permissions for past contributions. <span style="font-weight: bold;">You should not use these builds</span> because the maintainers have stopped providing updates.<br>
+      </ul>
+      <span style="font-weight: bold;">Processor-specific rebuilds:</span><br>
       <ul>
-        <li><a href="ftp://archive:get@ftp.palemoon.org/3rdparty/Accel-AVX/">AVX build (x86/x64)</a> by Accel.<span class="grey"></span><br>
-
-                Note: this requires an AVX-capable CPU (latest generations Intel or AMD)</li>
-        <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman
-                Štefko.<span class="grey"></span><br>
-
-                A rebuild of Pale Moon from official source catering to particularly old processors that don't support
-                SSE2.</li>
-        <li><a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon
-                PPA</a> for Debian/Ubuntu and compatible by Marián Kadaňka<br>
-
-                A build specifically for this OS. Source with necessary modifications available from the same page.<span class="underline"></span><br>
+        <li><a href="ftp://contrib:get@ftp.palemoon.org/SSE/">SSE build
+(x86)</a> by Mercury.<br>
+A rebuild of Pale Moon from official source catering to particularly
+old processors that don't support SSE2.</li>
+        <li><a href="ftp://contrib:get@ftp.palemoon.org/IA32/">IA-32
+build (x86)</a> by Mercury.<br>
+A rebuild of Pale Moon from official source catering to <span style="font-style: italic;">very</span> old processors that don't
+support SSE.</li>
+      </ul>
+      <span style="font-weight: bold;">Historical/archived listings:</span><br>
+      <br>
+These are maintained for permissions for past contributions. <span style="font-weight: bold;">You should not use these builds</span>
+because the maintainers have stopped providing updates.<br>
+      <ul>
+        <li><a href="ftp://archive:get@ftp.palemoon.org/3rdparty/Accel-AVX/">AVX
+build (x86/x64)</a> by Accel.<span class="grey"></span><br>
+Note: this requires an AVX-capable CPU (latest generations Intel or AMD)</li>
+        <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman Štefko.<span class="grey"></span><br>
+A rebuild of Pale Moon from official source catering to particularly
+old processors that don't support SSE2.</li>
+        <li><a href="https://launchpad.net/%7Emarian.kadanka/+archive/ubuntu/palemoon" target="_blank">Pale Moon PPA</a> for Debian/Ubuntu and compatible by
+Marián Kadaňka<br>
+A build specifically for this OS. Source with necessary modifications
+available from the same page.<span class="underline"></span><br>
         </li>
       </ul>
+      <div style="border: 3px dashed rgb(204, 0, 0); padding: 5px; background-color: rgb(255, 255, 204);"><span style="font-weight: bold; color: rgb(204, 0, 0);">Revoked listings:</span><br>
+      <br>
+These have, for one reason or another (e.g. stability, bad configs,
+malware) had their permissions to use official branding revoked. <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);">You
+should not use these builds</span> because they have, for valid
+reasons, shown to not uphold the principles or quality that should be
+associated with official release builds of Pale Moon.</span><br>
+      
+      <ul style="text-align: left;">
+        <li><a href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
+Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
+      </ul>
+</div>
+      <br>
+To be listed here, you have to contact me and get permission. <span class="bold">It is the only way to be authorized to redistribute a
+modified binary version of Pale Moon with the <span class="underline">official
+name and logo</span> in any way, shape or form.</span> Binaries are
+subject to the proprietary Pale Moon <a href="redist.shtml">redistribution
+license</a>. Please read this license thoroughly if you want to
+redistribute Pale Moon in any way.<br>
+You will have to supply me with a copy of the browser as-intended for
+distribution for me to check.<br>
+      <br>
+Contributed builds must:<br>
+      <ul>
+        <li>Only include neutral content, i.e. not be loaded with
+vendor/advertiser specific extensions </li>
+        <li>Not contain malware of any kind! </li>
+        <li>Not be altered significantly after approval has been given
+without sending it in again for a re-check.<br>
+        </li>
+      </ul>
+      <span class="red">Want to add your build as an endorsed one?</span>
+      <a href="contact/">Contact me!</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="center"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <br>
-            To be listed here, you have to contact me and get permission. <span class="bold">It is the only way to be
-            authorized to redistribute a modified binary version of Pale Moon with the <span class="underline">official name
-            and logo</span> in any way, shape or form.</span> Binaries are subject to the proprietary Pale Moon
-            <a href="redist.shtml">redistribution license</a>. Please read this license thoroughly if you want to
-            redistribute Pale Moon in any way.<br>
-            You will have to supply me with a copy of the browser as-intended for distribution for me
-            to check.<br>
-            <br>
-            Contributed builds must:<br>
-            <ul>
-              <li>Only include neutral content, i.e. not be loaded with vendor/advertiser specific extensions
-              </li>
-              <li>Not contain malware of any kind!
-              </li>
-              <li>Not be altered significantly after approval has been given without sending it in again for a
-              re-check.<br>
-              </li>
-            </ul><span class="red">Want to add your build as an endorsed one?</span> <a href="contact/">Contact
-            me!</a><br>            
-          </td>
-        </tr>
-        <tr>
-          <td class="center">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+
+<br>
+
+</body></html>
