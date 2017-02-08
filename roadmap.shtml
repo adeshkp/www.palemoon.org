@@ -11,6 +11,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon future roadmap</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -42,7 +43,7 @@
         <tr>
           <td class="c6">
             <h1>
-              Pale Moon future roadmap</h1><small>Last update: 2016-12-15</small><br>
+              Pale Moon future roadmap</h1><small>Last update: 2017-02-07</small><br>
 
             <h3>
               General Information
@@ -86,7 +87,9 @@ browser has it too".<br>
         </li>
         <li>Full theming (complete themes) and lightweight theming (personas)<br>
         </li>
-        <li>XUL and XBL to build interfaces<br>
+        <li>XUL
+and XBL to build interfaces and applications (including the ability to
+launch independent XUL-apps from the browser binaries).<br>
         </li>
         <li>NPAPI plug-ins<br>
         </li>
@@ -148,8 +151,8 @@ more visual-media heavy and as such will require a browser to at least
 to some extent take on the media player role.<br><br>The following specific media streaming feature(s) is/are <span class="c2">not</span> on Pale Moon's roadmap:<br>
             <ul><li>In-browser DRM (EME)</li>
             </ul>We
-are looking at extending the browser (especially for
-Linux) with ffmpeg media as a replacement for the (generally
+are extending the browser (especially for
+Linux) with FFmpeg media as a replacement for the (generally
 problematic) GStreamer and libstagefright solutions that are currently
 in place. Work is underway to make this the default decoding/media
 back-end for all supported platforms.<br>
@@ -247,7 +250,13 @@ many Firefox extensions. We have no plans to do this and many "legacy"
 Firefox extensions will continue to be possible on Pale Moon when targeting it.<br>
             <h4>
               JetPack (Add-on SDK) extensions
-            </h4>With Pale Moon v27, <span style="font-weight: bold;">no extensions of this type are supported anymore</span>. We will not offer future support for these types of extensions.<br>
+            </h4>With Pale Moon v27, <span style="font-weight: bold;">no extensions of this type are supported anymore</span>.<br>
+As an alternative, a slightly-limited subset of the Jetpack SDK is
+available in the new PMkit set of libraries, included and available in
+v27.1 and beyond, which will offer support for many jpm-based SDK
+extensions. Extension developers can easily target this set of
+libraries with a few simple changes and a build specifically for the
+Pale Moon browser instead of Firefox.<br>
             <br>
             <h3>
               Additional tools and services
