@@ -2,6 +2,7 @@
 <html lang="en"><head>
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>End of Windows XP support in Pale Moon</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -36,12 +37,14 @@
             <h1>
               End of Windows XP support in Pale Moon
             </h1><span style="color: rgb(204, 0, 0);">Starting
-with Pale Moon 27.0, we no longer support Windows XP and other Windows versions from the same era (Server 2003, etc.) in <span style="font-style: italic;">any</span> of our builds.</span><br><h3>Please switch off checking for updates!</h3>No
+with Pale Moon 27.0, we no longer support Windows XP and other Windows versions from the same era (Server 2003, etc.) in <span style="font-style: italic;">any</span> of our builds.</span><br><span style="font-weight: bold;"><br>
+      </span>No
 further updates will be provided for Windows XP users. With care, you
 may want to continue running Pale Moon 26.5.0 on your Windows XP
 system, or switch to a different browser that still maintains support
 for XP.<br>
-If you choose to continue using Pale Moon, <span style="font-weight: bold;">we kindly ask that you switch off automatic updates in the browser</span>
+      <h3>Please switch off checking for updates!</h3>
+If you choose to continue using an older version of Pale Moon on Windows XP, <span style="font-weight: bold;">we kindly ask that you switch off automatic updates in the browser</span>
 to avoid unnecessary load on our web server and for your own safety (in
 case there is a misconfiguration in the future or similar - accidents
 do happen - resulting in being served an incompatible update, for
