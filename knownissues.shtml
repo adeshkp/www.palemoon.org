@@ -69,18 +69,7 @@
             <br>
             <br>
             <span class="bold">Known issues in the current version:</span><br>
-<ol><li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon x64 refuses to install on Windows Vista</span><br>
-This is due to an incorrect check that came across from the Mozilla platform when we updated it for v27.<br>
-Confusingly, it will tell the user that it requires Windows Vista x64 (while the check requires at least Windows 7)<br>
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-
-          <span style="font-weight: bold;">Workaround:</span> Install the 32-bit version<br>
-
-          <span style="font-weight: bold;">Workaround (alternative):</span> Install from the ZIP archive<br>
-
-
-          <span style="font-weight: bold;"></span><span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+<ol>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
 that already uses the new password storage format, and this was
@@ -148,8 +137,25 @@ reconfirmation of the URL. This is caused by a combination of things
 happening with the one-time profile migration with the upgrade to 27.<br>
           <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br><span style="font-weight: bold;">Workaround:</span>
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for a workaround to solve the session store problem.<br>
-  <span style="font-weight: bold;">Timeline:</span> Fixed in 27.0.3<br>
-</li>
+  <span style="font-weight: bold;">Timeline:</span> Fixed in 27.0.3</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon x64 refuses to install on Windows Vista</span><br>
+
+This is due to an incorrect check that came across from the Mozilla platform when we updated it for v27.<br>
+
+Confusingly, it will tell the user that it requires Windows Vista x64 (while the check requires at least Windows 7)<br>
+
+          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+
+
+          <span style="font-weight: bold;">Workaround:</span> Install the 32-bit version<br>
+
+
+          <span style="font-weight: bold;">Workaround (alternative):</span> Install from the ZIP archive<br>
+
+
+
+          <span style="font-weight: bold;"></span><span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0</li>
+
       </ol>
       <br>
       <span style="font-weight: bold;">26.*:<br>

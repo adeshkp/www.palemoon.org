@@ -45,7 +45,59 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-      <h3>27.0.3 (2016-12-16)</h3>This is a bugfix and security update.<br>
+      <h3>27.1.0 (2017-02-09)</h3>This
+is a major update with lots of development and bugfixes. It also
+introduces the so-called "PMkit" modules, our effort to restore
+compatibility with Jetpack/SDK extensions and making it possible for
+extenion developers to convert their SDK extensions with little effort
+to a Pale Moon compatible format. For more details please <a href="http://developer.palemoon.org/Add-ons:Extensions/Jetpack">check the PMkit documentation</a> on the developer wiki.<br>
+      <br>
+      <strong>Changes/Fixes:</strong><br>
+      <ul>
+<li>Reworked the media 
+back-end completely (thanks Travis!) to use FFmpeg (including support 
+for FFmpeg v3 and MP3 playback) and our own MP4 parser, and no longer 
+relying on gstreamer on Linux, as well as adding some improvements on 
+Windows for media parsing and playing.</li><li>On
+Linux, Apple .mov files of the correct type will also be played through
+FFmpeg now, for those rare occasions where they are still in use,
+considering there is no Quicktime plug-in available on that operating
+system.</li><li>Restored the classic about:config styling.</li><li>Added a fallback to US-ASCII if the autoconfig UTF-8 conversion fails.</li><li>Improved cross-compartment wrapper handling when managing a large number of tabs (fixes a performance regression with v27).</li><li>Changed
+ the way audio and video synchronization is calculated to account for 
+(slow) device latency, preventing things from getting out of sync on e.g. BlueTooth-connected speakers.</li><li>Changed
+ the way scripts are handled when they are stopped from the 
+"unresponsive script" dialog, to prevent browser lockup. We will now 
+stop all scripts in the affected compartment in one go.</li><li>Fixed several errors in the devtools.</li><li>Fixed a nasty crash caused by cross-origin referrers.</li><li>Fixed the installer to allow 64-bit versions of the browser to be installed on Vista again.</li><li>Added HTML5-spec clipboard handling for content (cut&amp;copy only -- paste is not allowed for security reasons).</li><li>Made multiple changes to the toolkit jetpack modules to cater to PMkit extensions.<br>This
+should make running SDK-based modules as PMkit extensions fairly simple
+for extension developers. See the introductory text to these release
+notes.<br>
+</li><li>Fixed a css layout issue: make max-width affect contributions to intrinsic min-width.</li><li>Implemented
+ several updates to the permissions manager. Among others, Improved the 
+permissions manager (about:permissions) with a more complete set of 
+permissions for pages.</li><li>Removed otherwise unused Metro browser platform/widget code.</li><li>Removed support for non-standard/deprecated let blocks and expressions.</li><li>Made the use of let as a keyword versionless and ES6 compliant.</li><li>Made the privacy category in preferences a tabbed setup to better fit the current options.</li><li>Fixed a regression preventing certain MP4 video files from playing.</li><li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.</li><li>Fixed a crash caused by certain downloadable fonts with DirectWrite in use.</li><li>Improved downloads-button indicator legibility on some combinations of Windows versions and system theme colors.</li><li>Changed
+ the Facebook user-agent override to be our native one, based on reports
+ from users that it is (finally) working acceptably.</li>
+        <li>Fixed site-specific useragents being ignored if a global override is defined.</li>
+      </ul>
+      <strong>Security/privacy changes:</strong><br>
+      <ul>
+<li>Changed
+ CORS handling to allow data: sources, assuming they are same-origin. 
+This should fix the infamous "Facebook endless reload" issue and may 
+make some other sites that assume this particular (unspecified) CORS 
+behavior happy with Pale Moon.</li><li>Reinstated the <span style="font-style: italic;">network.stricttransportsecurity.enabled</span> preference so people who choose privacy over HSTS can do so again.</li><li>Added, In HSTS "off" state, prevention of HSTS site status from being written to disk.</li><li>Updated
+ the IDN blacklist with more extended unicode characters that "look very
+ similar to" normal ASCII characters, to prevent spoofing of well-known 
+domains. If blacklisted characters are found, the IDN domain name will 
+be displayed in its punycode form. (CVE-2017-5383 and similar)</li><li>Fixed an exploitable crash when using MP4 video. (CVE-2017-5396)</li><li>Fixed an exploitable crash in XSL parsing. (CVE-2017-5376)</li><li>Fixed a potential security issue when exporting certificates with specially-crafted credentials. (CVE-2017-5381)</li><li>Fixed a potential use-after-free situation in frame selection. (CVE-2017-5380) <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a leak of window details through the Ion compiler in certain situations.</li><li>Fixed the potential for an exploitable crash involving Javascript GC. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a potential overflow situation in (non-released) WebRTC code. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a potentially unsafe situation in websockets. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed several memory and other safety hazards (BMO bugs 1318766, 1325877, 1328834 <span style="color: rgb(191, 64, 64);">DiD</span>, 1288561 <span style="color: rgb(191, 64, 64);">DiD</span>, 1322420 <span style="color: rgb(191, 64, 64);">DiD</span>, 1293327 <span style="color: rgb(191, 64, 64);">DiD</span>, 1322315, 1325344, 1285960).</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span>
+ This means that the fix is "Defense-in-Depth": It is a fix that does 
+not apply to a (potentially) actively exploitable vulnerability in Pale 
+Moon, but prevents future vulnerabilities caused by the same code when 
+surrounding code changes, exposing the problem.<br>
+      <h3>27.0.3 (2016-12-16)</h3>
+This is a bugfix and security update.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
@@ -80,17 +132,17 @@ Security-related and crash fixes:</span><br>
       <ul>
         <li>Fixed use-after-free while manipulating DOM events and removing audio elements (CVE-2016-9899).</li>
         <li>Fixed CSP bypass using the marquee tag (CVE-2016-9895).</li>
-        <li>Fixed a vulnerability in the internal Jetpack modules (CVE-2016-9903). <span style="color: rgb(128, 128, 0);">DiD</span></li>
+        <li>Fixed a vulnerability in the internal Jetpack modules (CVE-2016-9903). <span style="color: rgb(191, 64, 64);">DiD</span><span style="color: rgb(128, 128, 0);"></span></li>
         <li>Fixed use-after-free in Editor while manipulating DOM subtrees (CVE-2016-9898).<br>
         </li>
         <li>Fixed an error in the buffer logic in http-chunked decoder.</li>
-        <li>Fixed a crash in generational GC code (not in use by default) <span style="color: rgb(128, 128, 0);">DiD</span></li>
+        <li>Fixed a crash in generational GC code (not in use by default) <span style="color: rgb(191, 64, 64);">DiD</span><span style="color: rgb(128, 128, 0);"></span></li>
         <li>Fixed a compartment mismatch bug in plug-in code</li>
         <li>Fixed a crash trying to get a nonexistent property.</li>
         <li>Improved MediaRecorder's observer safety.</li>
         <li>Fixed a crash related to document history.</li>
 
-      </ul><span style="color: rgb(128, 128, 0);">DiD </span>This means that the fix is "Defense-in-Depth": It is a fix that does not
+      </ul><span style="color: rgb(191, 64, 64);">DiD</span><span style="color: rgb(128, 128, 0);"> </span>This means that the fix is "Defense-in-Depth": It is a fix that does not
             apply to an actively exploitable vulnerability in Pale Moon, but prevents future vulnerabilities caused by
             the same code when surrounding code changes, exposing the problem.
       <h3>27.0.2 (2016-12-02)</h3>

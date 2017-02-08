@@ -57,7 +57,7 @@
             </h2>The source code of the current <span style="font-weight: bold;">release</span> version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.0.3-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.1.0-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
@@ -117,7 +117,7 @@ test harness (we don't provide support for using this test harness).<br>
         </li>
 
               <li>Pale Moon has been primarily designed for Windows and Linux, and the necessary default-theme changes were
-              made to the relevant themes only. If you want to build for other platforms (e.g. Mac) then be aware that
+              made to the relevant themes only. If you want to build for other platforms then be aware that
               the browser will look different and may need some serious tweaking to be usable or look similar to the
               Windows/Linux version.<br>
               </li>

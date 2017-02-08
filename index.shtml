@@ -118,8 +118,10 @@ design </li>
         <li>Support for a growing number of Pale Moon exclusive
 extensions<br>
         </li>
-        <li>Extensive and growing support for HTML5 and CSS3<br>
+        <li>Extensive and growing support for HTML5 and CSS3</li>
+        <li>Broad support for image formats: Supports WebP and ICC v4<br>
         </li>
+
         <li>Many customization and configuration options<br>
         </li>
       </ul>
@@ -152,18 +154,11 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
+            <span class="bold"><small><small>09 Feb 2017</small></small><br>
+Pale Moon 27.1 has been released.</span> This is a major development update with lots of changes and fixes. Please read the <a href="releasenotes.shtml">release notes</a> for details.<br>
+            <br>
             <span class="bold"><small><small>11 Jan 2017</small></small><br>
-Pale Moon unstable channel available.</span> For the people who want to be on the development edge. <a href="http://www.palemoon.org/unstable/">More info</a>.<br>
-            <br>
-            <span class="bold"><small><small>16 Dec 2016</small></small><br>
-Pale Moon 27.0.3 has been released</span>
-which is a bugfix and security release.<br>
-            <br>
-            <span class="bold"><small><small>22 Nov 2016</small></small><br>
-Pale Moon 27 has been released</span>
-which is a new major milestone in Pale Moon's development!<br>
-Please take a moment to check out the <a href="releasenotes.shtml">release
-notes</a> to see a summary of the changes involved.<br>
+Pale Moon unstable channel available.</span> For the people who want to be on the development edge. <a href="http://www.palemoon.org/unstable/">More info</a>.<span class="bold"><small><small></small></small></span><br>
             <span class="bold"></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
