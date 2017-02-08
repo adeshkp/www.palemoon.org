@@ -12,6 +12,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -131,6 +132,9 @@ will now stop all scripts in the affected compartment in one go.</li>
         <li>Fixed a regression where seeking in media files would halt playback/jump to the end of the stream.</li>
         <li>Fixed a crash caused by certain downloadable fonts with DirectWrite in use.</li>
         <li>Improved downloads-button indicator legibility on some combinations of Windows versions and system theme colors.</li>
+        <li>CORS now treats data: URIs as the same origin (re: Facebook reload issue).</li>
+        <li>Fixed site-specific useragents being ignored if a global override is defined.</li>
+
 
 
 
@@ -148,8 +152,14 @@ will now stop all scripts in the affected compartment in one go.</li>
         <li>DOM storage now honors the "3rd party cookie" setting in
 that it will not allow 3rd party data to be stored if 3rd party cookies
 are disallowed.</li>
-        <li>CORS now treats data: URIs as the same origin (re: Facebook reload issue).<br>
+        <li>Allowed toolbar button badges to be properly styled.<br>
+</li>
+        <li>Updated the hunspell spellchecking library to 1.6.0.</li>
+        <li>Fixed desktop notifications being off-screen if fired in rapid succession.</li>
+        <li>Added Element.insertAdjacent{Element|Text}() DOM function.</li>
+        <li>Added experimental support for JPEG-XR (enable with <span style="font-style: italic;">media.jxr.enabled</span>)<br>
         </li>
+
 
       </ul>
 
