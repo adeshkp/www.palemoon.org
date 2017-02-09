@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
-  
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>Contributed builds</title>
 
   
-<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Contributed builds</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -16,9 +17,7 @@
   <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
 
   
-  <meta content="Moonchild" name="author">
-
-</head><body>
+  <meta content="Moonchild" name="author"></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -47,6 +46,9 @@ A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
 Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
+        <li><a href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
+Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
+
         <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15
 by Mike Purtell<br>
 Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a>
@@ -77,7 +79,7 @@ because the maintainers have stopped providing updates.<br>
       <ul>
         <li><a href="ftp://archive:get@ftp.palemoon.org/3rdparty/Accel-AVX/">AVX
 build (x86/x64)</a> by Accel.<span class="grey"></span><br>
-Note: this requires an AVX-capable CPU (latest generations Intel or AMD)</li>
+Note: this requires an AVX-capable CPU (later generations Intel or AMD)</li>
         <li><a href="http://www.romanstefko.com/pale-moon-sse/" target="_blank">SSE build (x86)</a> by Roman Štefko.<span class="grey"></span><br>
 A rebuild of Pale Moon from official source catering to particularly
 old processors that don't support SSE2.</li>
@@ -87,7 +89,7 @@ A build specifically for this OS. Source with necessary modifications
 available from the same page.<span class="underline"></span><br>
         </li>
       </ul>
-      <div style="border: 3px dashed rgb(204, 0, 0); padding: 5px; background-color: rgb(255, 255, 204);"><span style="font-weight: bold; color: rgb(204, 0, 0);">Revoked listings:</span><br>
+      <div style="border: 3px dashed rgb(204, 0, 0); padding: 5px; background-color: rgb(255, 255, 204); display: none;"><span style="font-weight: bold; color: rgb(204, 0, 0);">Revoked listings:</span><br>
       <br>
 These have, for one reason or another (e.g. stability, bad configs,
 malware) had their permissions to use official branding revoked. <span style="font-weight: bold;"><span style="color: rgb(204, 0, 0);">You
@@ -95,10 +97,7 @@ should not use these builds</span> because they have, for valid
 reasons, shown to not uphold the principles or quality that should be
 associated with official release builds of Pale Moon.</span><br>
       
-      <ul style="text-align: left;">
-        <li><a href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
-Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
-      </ul>
+      <ul style="text-align: left;"></ul>
 </div>
       <br>
 To be listed here, you have to contact me and get permission. <span class="bold">It is the only way to be authorized to redistribute a
