@@ -49,7 +49,7 @@
 is a major update with lots of development and bugfixes. It also
 introduces the so-called "PMkit" modules, our effort to restore
 compatibility with Jetpack/SDK extensions and making it possible for
-extenion developers to convert their SDK extensions with little effort
+extension developers to convert their SDK extensions with little effort
 to a Pale Moon compatible format. For more details please <a href="http://developer.palemoon.org/Add-ons:Extensions/Jetpack">check the PMkit documentation</a> on the developer wiki.<br>
       <br>
       <strong>Changes/Fixes:</strong><br>
