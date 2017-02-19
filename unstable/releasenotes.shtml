@@ -14,6 +14,8 @@
 
 
 
+
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -107,8 +109,14 @@ are disallowed.</li>
         <li>Updated the hunspell spellchecking library to 1.6.0.</li>
         <li>Fixed desktop notifications being off-screen if fired in rapid succession.</li>
         <li>Added Element.insertAdjacent{Element|Text}() DOM function.</li>
-        <li>Added experimental support for JPEG-XR (enable with <span style="font-style: italic;">media.jxr.enabled</span>)<br>
+        <li>Added experimental support for JPEG-XR. (enable with <span style="font-style: italic;">media.jxr.enabled</span>)</li>
+        <li>Killed GStreamer code!<br>
         </li>
+        <li>Added a fix for crashes on pages with multiple autoplaying videos. (27.1.1)<br>
+</li>
+        <li>Added a fix for plugin confusion with VLC. (27.1.1)</li>
+
+
 
 
       </ul>
