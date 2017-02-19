@@ -1,12 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
+  
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - Language Packs</title>
 
   
-  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Language Packs</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
+<!-- Keep the http-equiv meta tag for IE8 -->
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -24,7 +23,8 @@
     th.c11 {vertical-align: top; width: 150px; text-align: center;}
     th.c10 {vertical-align: top; width: 224px; text-align: center;}
     div.c8 {border: 2px solid rgb(204, 204, 255); padding: 5px 10px; background-color: rgb(240, 240, 255);}
-    </style></head><body>
+    </style>
+</head><body>
 <table class="maintable c19" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -40,23 +40,29 @@
       <td class="c14">
       <h1> Pale Moon language packs<br>
       </h1>
-We are currently working as a community to bring you more languages for Pale Moon 27.<br>
-      To be informed of progress (or to help out!), please go to the
+We are currently working as a community to bring you more languages for
+Pale Moon 27.<br>
+To be informed of progress (or to help out!), please go to the
 following <a href="https://forum.palemoon.org/viewtopic.php?f=30&amp;t=13720">forum
 topic dedicated to localization</a>.<br>
       <br>
-      If you prefer to have the Pale Moon user interface in your native
+If you prefer to have the Pale Moon user interface in your native
 language (not US-English), then these language packs can help you! They
-are originally based on the Mozilla Firefox language packs, with additional
-translations and improvements done by our community translators for Pale Moon. <span class="bold">Pale Moon will not be released with installers in
+are originally based on the Mozilla Firefox language packs, with
+additional
+translations and improvements done by our community translators for
+Pale Moon. <span class="bold">Pale Moon will not be released with
+installers in
 individual languages</span>, but installing these language packs on top
 of the US-English browser will pretty much have the same effect.<br>
-      <br><span class="red">Please note the installation instructions, just
+      <br>
+      <span class="red">Please note the installation instructions, just
 installing the language pack and letting Pale Moon restart is not
 enough!</span>
 Also keep in mind that these language packs are a convenience and that
 the browser is and remains an English language product at its heart, so
-something like the Safe Mode dialog, about box and default bookmarks folder names
+something like the Safe Mode dialog, about box and default bookmarks
+folder names
 will be in English.<br>
       <br>
       <div class="c8">
@@ -116,15 +122,17 @@ To download a spellchecker dictionary of your choice, go to: <a href="https://ad
 pop-up menu select Languages -&gt; Add Dictionaries...<br>
       <br>
       <h3> Download for v27<br>
-      </h3>Important:<br>
-<span class="bold">These language packs are for the latest
+      </h3>
+Important:<br>
+      <span class="bold">These language packs are for the latest
 version of the browser</span> (v27). They will not work on older
 versions. If you are using an older version of the browser, <span style="font-weight: bold;">please update to the current version</span>
 first. If you for whatever reason decide you need to use an older
 version of the browser, please go to the <a href="archived.shtml">archived
 versions</a> page and download the approporiate language pack for your
 browser version.<br>
-      <br>As
+      <br>
+As
 of version 27, we've had to re-do the language packs and will be adding
 more languages over time as they become available and supported by our
 community. We can only offer those languages that currently have active
@@ -138,25 +146,21 @@ translators for them.<br>
             <th class="c11"> Download<br>
             </th>
           </tr>
-          
           <tr>
             <td class="c12"> Czech </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/cs.xpi">cs.xpi</a> </td>
           </tr>
-          
           <tr>
             <td class="c12"> German </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/de.xpi">de.xpi</a> </td>
           </tr>
-          
-          
           <tr>
             <td style="vertical-align: top;">English (U.K.)<br>
             </td>
-            <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/27.x/en-GB.xpi">en-GB.xpi</a><br>
+            <td style="vertical-align: top;">N/A (known issues)<br>
             </td>
           </tr>
-<tr>
+          <tr>
             <td class="c12"> Spanish
 (Argentina) </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/es-AR.xpi">es-AR.xpi</a>
@@ -173,18 +177,14 @@ translators for them.<br>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/es-MX.xpi">es-MX.xpi</a>
             </td>
           </tr>
-          
           <tr>
             <td class="c12"><span class="green"></span> French </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/fr.xpi">fr.xpi</a> </td>
           </tr>
-          
-          
           <tr>
             <td class="c12"> Hungarian </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/hu.xpi">hu.xpi</a> </td>
           </tr>
-          
           <tr>
             <td class="c12"> Italian </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/it.xpi">it.xpi</a> </td>
@@ -193,56 +193,47 @@ translators for them.<br>
             <td class="c12"> Japanese </td>
             <td class="c13"> <a href="http://relmirror.palemoon.org/langpacks/27.x/ja.xpi">ja.xpi</a> </td>
           </tr>
-          
-          
-          
           <tr>
             <td style="vertical-align: top;">Korean<br>
             </td>
             <td style="vertical-align: top;"><a href="http://relmirror.palemoon.org/langpacks/27.x/ko.xpi">ko.xpi</a><br>
             </td>
           </tr>
-<tr>
+          <tr>
             <td class="c14"><span style="color: rgb(204, 153, 51);" class="red"></span> Polish </td>
             <td class="c14"> <a href="http://relmirror.palemoon.org/langpacks/27.x/pl.xpi">pl.xpi</a> </td>
           </tr>
-          
-          
-          
           <tr>
             <td class="c14"> Russian<br>
             </td>
             <td class="c14"> <a href="http://relmirror.palemoon.org/langpacks/27.x/ru.xpi">ru.xpi</a> </td>
           </tr>
-          
-          
-          
-          
-          
-          
           <tr>
             <td class="c14"> <span class="green"></span>Chinese
 (Simplified) </td>
             <td class="c14"> <a href="http://relmirror.palemoon.org/langpacks/27.x/zh-CN.xpi">zh-CN.xpi</a>
             </td>
           </tr>
-          
         </tbody>
       </table>
       <br>
       <br>
       <span class="bold underline red">Important note:</span> These
 language packs are provided <span class="bold">AS-IS</span>.
-We, the authors of the actual Pale Moon browser, are not the authors of these
+We, the authors of the actual Pale Moon browser, are not the authors of
+these
 language packs, and cannot provide support for the actual contents of
-them. This is a community effort! If you have any feedback on them, please either get involved on our <a href="https://crowdin.com/project/pale-moon" target="_blank">CrowdIn project</a> directly or go to the <a href="https://forum.palemoon.org/viewtopic.php?f=30&amp;t=13720" target="_blank">forum</a>.<br>
+them. This is a community effort! If you have any feedback on them,
+please either get involved on our <a href="https://crowdin.com/project/pale-moon" target="_blank">CrowdIn
+project</a> directly or go to the <a href="https://forum.palemoon.org/viewtopic.php?f=30&amp;t=13720" target="_blank">forum</a>.<br>
       <br>
       <span class="bold">Can't find your language?<br>
       </span>We're sorry but these are the only languages that actually
 have
 a complete translation and have support from (near-)native
 speakers. We cannot support any other languages without a dedicated
-community translator for a language. Other languages are in the works but not complete yet.<br>
+community translator for a language. Other languages are in the works
+but not complete yet.<br>
       </td>
     </tr>
     <tr>
