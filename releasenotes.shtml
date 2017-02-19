@@ -47,8 +47,8 @@
               Pale Moon: Release notes
             </h1>
       <h3>27.1.1 (2017-02-21)</h3>This is a stability and bugfix update to the browser.<br>
-      <br>
-Changes/Fixes:<br>
+      <br><span style="font-weight: bold;">
+Changes/Fixes:</span><br>
       <ul>
         <li>Implemented a fix in media handling to prevent crashes with
 concurrent videos and/or rapidly starting/stopping video playback in
