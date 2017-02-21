@@ -16,6 +16,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -115,6 +116,9 @@ are disallowed.</li>
         <li>Added a fix for crashes on pages with multiple autoplaying videos. (27.1.1)<br>
 </li>
         <li>Added a fix for plugin confusion with VLC. (27.1.1)</li>
+        <li>Updated NSS to 3.19.5.1-PM to address a potential connection issue.<br>
+        </li>
+
 
 
 
