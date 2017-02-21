@@ -70,6 +70,7 @@
             <br>
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
+        
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
 that already uses the new password storage format, and this was
@@ -78,6 +79,7 @@ Pale Moon 27 will not convert your stored passwords properly (because a
 new storage file already exists).<br>
           <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
+
 
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27 from a localized browser setup, it will not start</span><br>
 If you get a small window with an XML parsing error instead of the
@@ -120,8 +122,22 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
             </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
             previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
             <br>
-      <span style="font-weight: bold;">27.0:<br>
+      <span style="font-weight: bold;">27.1:<br>
 </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon may crash on pages with multiple auto-playing videos<br>
+          </span>This is caused by an issue in the new media code we
+introduced currently not handling rapid starting/stopping and
+concurrent playing of multiple videos well. This may in some cases also cause a hard hang or lock-up of the browser.<br>
+
+          <span style="font-weight: bold;">Status: <span style="color: rgb(153, 153, 0);"></span></span><span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br style="font-weight: bold;">
+
+          <span style="font-weight: bold;">Workaround:</span> Set <span style="font-style: italic;">media.autoplay.enabled</span> and <span style="font-style: italic;">media.autoplay.allowscripted</span> to <span style="font-style: italic;">false</span> in <span style="color: rgb(51, 51, 255);">about:config</span> and restart the browser. This will stop the crashes, but obviously also prevent auto-play of videos on pages.<br>
+
+          <span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.1.</li>
+      </ol>
+      <span style="font-weight: bold;">27.0:<br>
+      </span>
       <ol>
 <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Twitch.tv doesn't work</span><br>
 Pale Moon 27.0.0 is unable to play twitch.tv videos. This is a problem

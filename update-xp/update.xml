@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <updates>
-  <update type="major" displayVersion="for Windows XP - click more info link below!" appVersion="27.0.0"  extensionVersion="27.0.0" 
+  <update type="major" displayVersion="for Windows XP - click more info link below!" appVersion="27.1.1"  extensionVersion="27.1.1" 
           detailsURL="http://www.palemoon.org/PM_end_of_WinXP_support.shtml">
     <patch type="complete" URL="about:blank" hashFunction="SHA1" hashValue="" size=""/>
   </update>
