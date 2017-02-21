@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Advanced Preferences: Network</title><!-- Keep the http-equiv meta tag for IE8 -->
   
@@ -52,10 +53,48 @@ this option.</li>
 the proxy configuration file (.pac) you need to use. Please also see
 the relevant instructions or documentation given to you for this option.</li>
         </ul>
-</ul><h2>Cached Web Content</h2>TO-DO<br>
-      <h2>Offline Web Content and User Data</h2>
-      <span style="font-weight: bold;"></span>TO-DO<br>
+</ul><h2>Cached Web Content</h2>By default, Pale Moon will store
+downloaded pages and content in its web cache for quick access without
+having to re-download data for pages on subsequent visits. This section
+informs you how much disk space is being used for this cached web
+content, and allows you to empty the cache and control its size.<br>
       <br>
+      <span style="font-weight: bold;">Clear Now</span> (button): This will empty the cache and remove all stored web content from disk.<br>
+      <span style="font-weight: bold;">Override automatic cache management</span>:
+If you check this box, you can manually enter a maximum amount of disk
+space to use for cached web content. If unchecked, the browser will use
+default values up to a certain maximum based on your system
+specifications and available disk space.<br>
+      <span style="font-weight: bold;">Limit cache to</span>: When manually setting the cache size, use no more than this amount of disk space for cache web content.<br>
+<h2>Offline Web Content and User Data</h2>
+      <span style="font-weight: bold;"></span>Web
+applications can store user data in your browser, and in some
+situations tell the browser to cache specific content so the web
+application can still be used even if you are off-line.<br>
+      <br>
+This section will tell you how much data is being stored on disk for
+this purpose, and give you control over which sites are allowed to
+store this data.<br>
+      <br>
+      <span style="font-weight: bold;">Clear Now</span> (button): This
+will immediately clear stored user data and off-line web content.
+Please note that using this button, you may lose specific
+options/results stored in your browser by websites.<br>
+Pale Moon up to v27.1.1:<br>
+      <div style="margin-left: 40px;"><span style="font-weight: bold;">Tell me when a website asks to store data for off-line use:</span> Controls how the browser responds to websites asking to store this kind fo data:<br>
+      <span style="font-style: italic;">Checked</span>: You will be prompted by the browser to allow storage of data (unless it's in the exceptions)<br>
+      <span style="font-style: italic;">Unchecked</span>: Storage of data is always denied<br>
+      </div>
+
+      Pale Moon from v27.2 onwards:<br>
+      <div style="margin-left: 40px;"><span style="font-weight: bold;">When a website asks to store data for off-line use:</span><br>
+      <span style="font-style: italic;">Allow by default</span>: Storage of user data and offline web content is allowed without prompting (default), unless it's in the exceptions.<br>
+      <span style="font-style: italic;">Always ask</span>: You will be prompted by the browser to allow storage of data (unless it's in the exceptions)<br>
+      <span style="font-style: italic;">Deny</span>: Never allow storage of user data of off-line web content. Not recommended; this will break some web applications.<br>
+      </div>
+      <span style="font-weight: bold;">Exceptions</span> (button): Opens a list with websites for which you have told the browser to block storage.<br>
+      <span style="font-weight: bold;">Section with user data storage entries</span>: Shows a list of domains which have data stored in the browser. You can select and remove the data for individual entries.<br>
+
 </td>
     </tr>
     <tr>
