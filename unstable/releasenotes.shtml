@@ -17,6 +17,8 @@
 
 
 
+
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -112,12 +114,20 @@ are disallowed.</li>
         <li>Added Element.insertAdjacent{Element|Text}() DOM function.</li>
         <li>Added experimental support for JPEG-XR. (enable with <span style="font-style: italic;">media.jxr.enabled</span>)</li>
         <li>Killed GStreamer code!<br>
-        </li>
-        <li>Added a fix for crashes on pages with multiple autoplaying videos. (27.1.1)<br>
-</li>
-        <li>Added a fix for plugin confusion with VLC. (27.1.1)</li>
-        <li>Updated NSS to 3.19.5.1-PM to address a potential connection issue.<br>
-        </li>
+        </li><li>Updated NSS to 3.19.5.1-PM to address a potential connection issue.</li>
+        <li>Added support for element.innerText</li>
+        <li>Custom toolbars should now properly remember their state</li>
+        <li>Fixed some more playback issues with MP4/MSE videos</li>
+        <li>Added support for SHA-224, SHA-256, SHA-384 and SHA-512 to Crypto utils</li>
+        <li>Fixed a UA regression always displaying the minor Goanna version as .0</li>
+        <li>Updated NSPR to 4.13.1</li>
+        <li>Updated NSS to 3.28.3-RTM</li>
+        <li>Added support for 256-bit AES-GCM encryption</li>
+        <li>Added support for ChaCha20-Poly1305 encryption</li>
+        <li>Removed support for Camellia-GCM since nobody seems interested in it</li>
+        <li>Fixed unrestricted icon sizes in PMkit buttons</li>
+
+
 
 
 
