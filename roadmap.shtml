@@ -52,14 +52,14 @@
             community. There are occasional polls and constructive discussions on the forum that determine the
             inclusion and progress of certain features in the browser.<br>
             <br>
-Pale Moon, over the course of its life, has been a product diverging
+Pale Moon, over the course of its life, has been a product steadily diverging
 from its common Mozilla ancestor, with increasing differences between
 Pale Moon and Mozilla-based browser products. This divergent path will
 remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and
 will never be again."<br>
 Of course there are a number of challenges on this kind of divergent
 (some might even say rebellious) path, like adoption of the browser as
-an independent force by the Internet community, and a number of
+a truly independent force by the Internet community, and a number of
 technical advances as the Web develops.<br>
             <br>Having a
 common ancestor in Mozilla code, it can draw in part on the public
@@ -252,8 +252,8 @@ Firefox extensions will continue to be possible on Pale Moon when targeting it.<
               JetPack (Add-on SDK) extensions
             </h4>With Pale Moon v27, <span style="font-weight: bold;">no extensions of this type are supported anymore</span>.<br>
 As an alternative, a slightly-limited subset of the Jetpack SDK is
-available in the new PMkit set of libraries, included and available in
-v27.1 and beyond, which will offer support for many jpm-based SDK
+available in the new <span style="font-weight: bold;">PMkit</span> set of libraries, included and available in
+v27.1 and beyond, which will offer support for many <span style="font-weight: bold;">jpm</span>-based SDK
 extensions. Extension developers can easily target this set of
 libraries with a few simple changes and a build specifically for the
 Pale Moon browser instead of Firefox.<br>
