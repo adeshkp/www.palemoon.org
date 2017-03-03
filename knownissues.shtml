@@ -71,6 +71,23 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
         
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs may occur on media-heavy sites like Facebook and YouTube</span><br>
+On some machine/operating system combinations, the browser may hang
+when using meadie-heavy sites like Facebook and YouTube. This is
+especially likely on those systems if you switch away from the site for
+a time, then return to the tab of the site. Forcefully closing the Pale
+Moon process may be the only way to recover.<br>
+This is a rather complex bug in the media back-end (mostly because media playback is asynchronous and uses multiple threads).<br>
+          <span style="font-weight: bold;">Potential workarounds</span>:
+using a tab unloader extension like BarTab, disabling autoplay of
+videos, closing the tab when you're done with the site and reloading
+the site when you want to check it next.<br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress] Main problem worked around</span><br>
+          <span style="font-weight: bold;">Timeline</span>:
+v27.1.2 has a workaround for the most likely cause of deadlock. A
+better solution is still being worked on to solve the root problem that
+causes these hangs (too much asynchronicity in media handling).<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
 that already uses the new password storage format, and this was
@@ -79,6 +96,7 @@ Pale Moon 27 will not convert your stored passwords properly (because a
 new storage file already exists).<br>
           <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
+
 
 
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27 from a localized browser setup, it will not start</span><br>
