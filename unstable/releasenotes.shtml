@@ -126,6 +126,13 @@ are disallowed.</li>
         <li>Added support for ChaCha20-Poly1305 encryption</li>
         <li>Removed support for Camellia-GCM since nobody seems interested in it</li>
         <li>Fixed unrestricted icon sizes in PMkit buttons</li>
+        <li>Fixed unresponsive buttons on support page when not building the updater</li>
+        <li>Worked around a media element deadlock (27.1.2)</li>
+        <li>Fixed the use of "View image" and "Save image as" on extremely large images</li>
+        <li>Changed media processing to reduce dangerous processing asynchronicity.<br>
+This should also make media elements and playback more responsive.<br>
+        </li>
+
 
 
 
