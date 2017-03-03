@@ -46,7 +46,11 @@
             <h1>
               Pale Moon: Release notes
             </h1>
-      <h3>27.1.1 (2017-02-21)</h3>This is a stability and bugfix update to the browser.<br>
+      
+      <h3>27.1.2 (2017-03-03)</h3>
+This is a small update adding a workaround for potential deadlocks happening in media elements.<br>
+      <h3>27.1.1 (2017-02-21)</h3>
+This is a stability and bugfix update to the browser.<br>
       <br><span style="font-weight: bold;">
 Changes/Fixes:</span><br>
       <ul>

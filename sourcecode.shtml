@@ -58,7 +58,7 @@
             </h2>The source code of the current <span style="font-weight: bold;">release</span> version:<br>
             <br>
             <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.1.1-source.7z">Download
+              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.1.2-source.7z">Download
               current release version source code</a><br>
             </div><br>
             If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
@@ -109,8 +109,8 @@ will need to get the build prerequisites as outlined on the Mozilla
 Developer Network. Most notably, you need the Mozilla Build Tools
 package (2.1-2.2, other versions may or may not work) if building on
 Windows. </li>
-              <li>Pale Moon <span class="c2">should not</span> be built with PGO (Profile-Guided Optimization). Doing
-              so will likely not build or at the very least result in an unstable browser.</li>
+              <li>Pale Moon <span class="c2">should not</span> be built with PGO (Profile-Guided Optimization) or LTO (Link-time optimization). Doing
+              so will likely cause build errors or at the very least result in an unstable browser.</li>
         <li>Do not build tests. Building tests may or may not work on
 your platform/configuration, and significantly increases build time for
 no gain unless you plan on doing automated testing with the Mozilla
