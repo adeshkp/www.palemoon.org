@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Plugin Crashed</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
+
+  
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+
+  
+  <meta content="Moonchild" name="author"></head><body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <th class="subpageheader">
+      <br>
+</th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Slow startup detected</h1>
+      <strong>It seems that Pale Moon is taking much longer than normal to start.</strong><br>
+      <br>
+      <h2>What happened?</h2>
+      <p>Pale
+Moon, as part of normal monitoring of its process, has detected that
+starting the browser is taking much longer than it should. This can
+have multiple reasons:<br>
+</p>
+      <ul>
+        <li>Your computer is very busy due to other running programs, slowing the start of Pale Moon.</li>
+        <li>Your computer is low on memory.</li>
+        <li>There is a problem with your session store (saved windows and tabs from last time) causing a large delay.</li>
+        <li>There is a problem with one or more extensions, delaying the startup of the browser.<br>
+        </li>
+      </ul>
+ 
+      <h2>What can I do to fix this?</h2>
+      <p>If you run into this regularly, you should examine what the cause is using the above points.<br>
+If your computer is low on memory, considering adding more memory or closing resident programs.<br>
+If there is a delay because you are using a very large number of tabs, consider using bookmarks instead.<br>
+Examine your extensions and check for any incompatibilities.<br>
+</p>
+      <p>You can also try to give Pale Moon a fresh start with your
+data by performing a profile reset. To do this, go to Help -&gt;
+troubleshooting information... and use the "Reset" button top-right, if
+present. In some situations this button may nor be present, in which case you should create a fresh profile; for more assistance with that, please visit our <a href="https://forum.palemoon.org/">community forum</a>.<br>
+      </p>
+
+      
+      
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=5179423; 
+var sc_invisible=1; 
+var sc_partition=54; 
+var sc_click_stat=1; 
+var sc_security="63f07cc4"; 
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><a title="myspace views counter" href="http://www.statcounter.com/myspace/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/5179423/0/63f07cc4/1/" alt="myspace views
+counter"></a></div>
+</noscript><!-- End of StatCounter Code -->
+</body></html>
