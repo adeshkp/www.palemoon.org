@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
-  
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>Pale Moon Profile Backup Tool</title>
 
   
-<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Profile Backup Tool</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
+
+  
+
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -21,8 +22,7 @@
   
   <style type="text/css">
     img.c5 {width: 642px; height: 452px;}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
@@ -63,7 +63,7 @@ Please check the following forum thread for more details about this
 tool:<br>
       <a target="_blank" href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758">http://forum.palemoon.org/viewtopic.php?f=25&amp;t=758</a><br>
       <br>
-      <div class="center"> <a class="dllink_green" href="http://relmirror.palemoon.org/tools/pmbackup.exe">Download now
+      <div class="center"> <a class="dllink_green" href="http://rm-eu.palemoon.org/tools/pmbackup.exe">Download now
 (free)</a><br>
       </div>
       <br>

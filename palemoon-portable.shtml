@@ -36,6 +36,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - portable!</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -133,13 +134,13 @@
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
+                <a href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
+                <a href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
+        <li><a href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.1.2.win32.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               <li>
@@ -161,13 +162,13 @@ public computers that may potentially not run 64-bit Windows.<br>
 <ul>
               
               <li>
-                <a href="http://relmirror.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
+                <a href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
                 #1</a> (EU)
               </li>
               <li>
-                <a href="http://relmirror2.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
+                <a href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
                 #2</a> (US)</li>
-        <li><a href="http://relmirror3.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
+        <li><a href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.1.2.win64.exe">Pale Moon mirror
                 #3</a> (Asia)</li>
 
               

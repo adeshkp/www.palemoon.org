@@ -1,8 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
-
-
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -77,7 +75,7 @@ customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
       <br>
 &nbsp;<br>
-      <div class="center"> <a id="dllink-windows" class="dllink_green" href="http://relmirror.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src="images/down.png" border="0">Download (Windows
+      <div class="center"> <a id="dllink-windows" class="dllink_green" href="http://rm-eu.palemoon.org/release/palemoon-websetup.exe"><img class="c2" alt="" src="images/down.png" border="0">Download (Windows
 web installer)</a> <a id="dllink-linux" class="dllink_green" style="display: none;" href="http://linux.palemoon.org/"><img class="c2" alt="" src="images/down.png" border="0">Download (Linux
 desktop)</a><br>
       </div>
@@ -121,7 +119,6 @@ extensions<br>
         <li>Extensive and growing support for HTML5 and CSS3</li>
         <li>Broad support for image formats: Supports WebP and ICC v4<br>
         </li>
-
         <li>Many customization and configuration options<br>
         </li>
       </ul>
@@ -155,10 +152,13 @@ to name a few things.<br>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
             <span class="bold"><small><small>03 Mar 2017</small></small><br>
-Pale Moon 27.1.2 has been released.</span> This is a small bugfix update to the browser. Please read the <a href="releasenotes.shtml">release notes</a> for details.<br>
+Pale Moon 27.1.2 has been released.</span> This is a small bugfix
+update to the browser. Please read the <a href="releasenotes.shtml">release
+notes</a> for details.<br>
             <br>
             <span class="bold"><small><small>11 Jan 2017</small></small><br>
-Pale Moon unstable channel available.</span> For the people who want to be on the development edge and want to help catch bugs before release. <a href="http://www.palemoon.org/unstable/">More info</a>.<span class="bold"></span><br>
+Pale Moon unstable channel available.</span> For the people who want to
+be on the development edge and want to help catch bugs before release. <a href="http://www.palemoon.org/unstable/">More info</a>.<span class="bold"></span><br>
             <span class="bold"></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
@@ -172,7 +172,8 @@ news...</a> </td>
       <ins class="adsbygoogle" style="width: 160px; height: 600px;" data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458"></ins>
       <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-      </script><!-- end sponsor link space --> </div>
+      </script><!-- end sponsor link space -->
+      </div>
       </td>
     </tr>
     <tr>

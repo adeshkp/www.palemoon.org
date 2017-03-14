@@ -1,14 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en"><head>
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
   
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>Pale Moon Tab Groups add-on</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Tab Groups add-on</title><!-- Keep the http-equiv meta tag for IE8 -->
+  
 
   
-<!-- Keep the http-equiv meta tag for IE8 -->
+
   
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
 
@@ -28,14 +29,14 @@
     ul.c4 {margin-top: 0cm;}
     div.c3 {text-align: center}
     a.c2 {display: table-cell;}
-    </style>
-</head><body>
+    </style></head><body>
 <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
 
   <tbody>
     <tr>
       <th class="subpageheader">
-      </th>
+      <br>
+</th>
     </tr>
     <tr align="left">
       <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
@@ -53,7 +54,7 @@ in use by only a very small percentage of Pale Moon users.<br>
       <p class="MsoNormal"> To restore the Tab Groups/Panorama feature
 to Pale Moon you need to install the Pale Moon Tab Groups add-on.<br>
       </p>
-      <div class="center"> <a style="display: block; margin-left: auto; margin-right: auto; width: 12em;" class="dllink_green" href="http://relmirror.palemoon.org/support/palemoon-tabgroups-0.2.xpi">
+      <div class="center"> <a style="display: block; margin-left: auto; margin-right: auto; width: 12em;" class="dllink_green" href="http://rm-eu.palemoon.org/support/palemoon-tabgroups-0.2.xpi">
 Download
 and install<br>
 Click here</a>
@@ -91,7 +92,6 @@ developer Tim Taubert, and is available on github. If you want to
 contribute to the development of it for Pale Moon, or want to fork it
 yourself, go here (updated repository): <a href="https://github.com/wolfbeast/palemoon-tabgroups">https://github.com/wolfbeast/palemoon-tabgroups</a><br>
       <br>
-      <a href="/">[&lt;- Back]</a><br>
       </td>
     </tr>
     <tr>
