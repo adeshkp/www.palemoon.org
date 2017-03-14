@@ -4,6 +4,7 @@
 
 
 
+
   
     <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
@@ -26,7 +27,8 @@
       <tbody>
         <tr>
           <th class="subpageheader">
-          </th>
+          <br>
+</th>
         </tr>
         <tr align="left">
           <td class="pagemenu">
@@ -48,16 +50,7 @@
             <h4>
               Specific issues with Pale Moon 25 and later:
             </h4>
-            <ul>
-              <li>
-                <a href="http://forum.palemoon.org/viewtopic.php?f=24&amp;t=8740">Some of my add-ons stopped working.
-                What's going on?</a>
-              </li>
-              <li>
-                <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6004">Some websites look or act
-                differently, or have stopped providing service. What do I do?</a>
-              </li>
-              <li>
+            <ul><li>
                 <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6262">Some secure connections fail in Pale
                 Moon, but not in other browsers. What's wrong?</a><br>
               </li>
