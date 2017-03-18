@@ -21,6 +21,7 @@
 
 
 
+
   <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
   <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
@@ -99,53 +100,9 @@ also manifests with default preferences and no installed add-ons
 
 <br>
       <h3>Current trunk progress since release (major changes only):</h3>
-      <ul></ul><ul><li>Updated the ICU lib to 58.2.</li>
-        <li>Added proper control for the user for offline storage for web applications.</li><li>Added a check to prevent auto-filled URLs from copying the autofilled selection to clipboard/primary.</li>
-        <li>Added the feature to pass a URL to open in a private window from the command-line.</li>
-        <li>Improved the display of the downloads indicator on the button in brighttext situations.<br>
-        </li>
-        <li>DOM storage now honors the "3rd party cookie" setting in
-that it will not allow 3rd party data to be stored if 3rd party cookies
-are disallowed.</li>
-        <li>Allowed toolbar button badges to be properly styled.<br>
-</li>
-        <li>Updated the hunspell spellchecking library to 1.6.0.</li>
-        <li>Fixed desktop notifications being off-screen if fired in rapid succession.</li>
-        <li>Added Element.insertAdjacent{Element|Text}() DOM function.</li>
-        <li>Added experimental support for JPEG-XR. (enable with <span style="font-style: italic;">media.jxr.enabled</span>)</li>
-        <li>Completely removed GStreamer<br>
-        </li><li>Updated NSS to 3.19.5.1-PM to address a potential connection issue.</li>
-        <li>Added support for element.innerText</li>
-        <li>Custom toolbars should now properly remember their state</li>
-        <li>Fixed some more playback issues with MP4/MSE videos</li>
-        <li>Added support for SHA-224, SHA-256, SHA-384 and SHA-512 to Crypto utils</li>
-        <li>Fixed a UA regression always displaying the minor Goanna version as .0</li>
-        <li>Updated NSPR to 4.13.1</li>
-        <li>Updated NSS to 3.28.3-RTM</li>
-        <li>Added support for 256-bit AES-GCM encryption</li>
-        <li>Added support for ChaCha20-Poly1305 encryption</li>
-        <li>Removed support for Camellia-GCM since nobody seems interested in it</li>
-        <li>Fixed unrestricted icon sizes in PMkit buttons</li>
-        <li>Fixed unresponsive buttons on support page when not building the updater</li>
-        
-        <li>Fixed the use of "View image" and "Save image as" on extremely large images</li>
-        <li>Changed media processing to reduce dangerous processing asynchronicity.<br>
-This should also make media elements and playback more responsive.</li>
-        <li>Changed the way "View Image' and "Save Image As" work on canvas elements.</li>
-        <li>Made checking for dangerously large resolution PNG images smarter.</li>
-        <li>Converted several hard-coded URLs to preferences.</li>
-        <li>Improved status handling of secure sites to be less sensitive to "insecure" items that are local.</li>
-        <li>Updated the google.com override so it would not cripple services.</li>
-        <li>Added Inner and Outer Window ID administration.</li>
-        <li>Further improved media processing and threading.</li>
-        <li>Fixed the add-on discovery pane detection.</li>
-        <li>Added support for canvas ellipse.</li>
-        <li>Improved drawing of certain MathML elements at problematic zoom levels.</li>
-        <li>No longer building gamepad support.</li>
-        <li>Updated Harfbuzz font shaper to 1.4.3.</li>
-        <li>Fixed a number of crashes (layout, plugins, uncommon navigation, bad URLs).</li>
-        <li>Aligned SVG specular filters with the spec</li>
-        <li>Aligned DOM selection addRange with the spec</li>
+      <ul></ul><ul>
+        <li>(pending) Aligned DOM selection addRange with the spec</li>
+
 
 
 
