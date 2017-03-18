@@ -25,6 +25,7 @@
 
 
 
+
   
     <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
     
@@ -71,22 +72,17 @@
             <span class="bold">Known issues in the current version:</span><br>
 <ol>
         
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs may occur on media-heavy sites like Facebook and YouTube</span><br>
-On some machine/operating system combinations, the browser may hang
-when using meadie-heavy sites like Facebook and YouTube. This is
-especially likely on those systems if you switch away from the site for
-a time, then return to the tab of the site. Forcefully closing the Pale
-Moon process may be the only way to recover.<br>
-This is a rather complex bug in the media back-end (mostly because media playback is asynchronous and uses multiple threads).<br>
-          <span style="font-weight: bold;">Potential workarounds</span>:
-using a tab unloader extension like BarTab, disabling autoplay of
-videos, closing the tab when you're done with the site and reloading
-the site when you want to check it next.<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress] Main problem worked around</span><br>
-          <span style="font-weight: bold;">Timeline</span>:
-v27.1.2 has a workaround for the most likely cause of deadlock. A
-better solution is still being worked on to solve the root problem that
-causes these hangs (too much asynchronicity in media handling).<br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);"> Vimeo videos may not play</span><br>
+The way Vimeo uses MSE for a good percentage of their videos (either on
+their main site or embedded in other sites) prevents Pale Moon from
+playing them (videos will not start).<br>
+We are still working on improving MSE and its integration with the
+media components to address this. because of the complexity of the
+media components this will take time.<br>
+          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress]</span><br>
+          <span style="font-weight: bold;">Workaround:</span> Go into
+Options -&gt; Content, and uncheck "Enable MSE for MP4 video". Note
+that this workaround may prevent other sites from displaying video.<br>
 <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
@@ -94,7 +90,7 @@ that already uses the new password storage format, and this was
 previously converted from the older format, then it's possible that
 Pale Moon 27 will not convert your stored passwords properly (because a
 new storage file already exists).<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span> <br>
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
 
 
@@ -104,7 +100,7 @@ If you get a small window with an XML parsing error instead of the
 normal browser interface, your language pack was not properly disabled
 as it should. V26 language packs are not compatible with v27 and will
 prevent the browser from starting.<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workaround]</span> <br>
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span> <br>
 
 Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.<br>
         </li>
@@ -143,6 +139,26 @@ at this time</span><span style="font-weight: bold;"></span><br> -->
       <span style="font-weight: bold;">27.1:<br>
 </span>
       <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs may occur on media-heavy sites like Facebook and YouTube</span><br>
+
+On some machine/operating system combinations, the browser may hang
+when using meadie-heavy sites like Facebook and YouTube. This is
+especially likely on those systems if you switch away from the site for
+a time, then return to the tab of the site. Forcefully closing the Pale
+Moon process may be the only way to recover.<br>
+
+This is a rather complex bug in the media back-end (mostly because media playback is asynchronous and uses multiple threads).<br>
+
+          <span style="font-weight: bold;">Potential workarounds</span>:
+using a tab unloader extension like BarTab, disabling autoplay of
+videos, closing the tab when you're done with the site and reloading
+the site when you want to check it next.<br>
+
+          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
+
+          <span style="font-weight: bold;">Timeline</span>:
+v27.2.0 has all but eliminated the offending code, and these deadlocks should no longer occur.<br>
+<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon may crash on pages with multiple auto-playing videos<br>
           </span>This is caused by an issue in the new media code we
 introduced currently not handling rapid starting/stopping and
@@ -153,6 +169,7 @@ concurrent playing of multiple videos well. This may in some cases also cause a 
           <span style="font-weight: bold;">Workaround:</span> Set <span style="font-style: italic;">media.autoplay.enabled</span> and <span style="font-style: italic;">media.autoplay.allowscripted</span> to <span style="font-style: italic;">false</span> in <span style="color: rgb(51, 51, 255);">about:config</span> and restart the browser. This will stop the crashes, but obviously also prevent auto-play of videos on pages.<br>
 
           <span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.1.</li>
+
       </ol>
       <span style="font-weight: bold;">27.0:<br>
       </span>

@@ -21,6 +21,7 @@
 
 
 
+
   
   <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
 
@@ -75,7 +76,7 @@
     <tr>
       <td class="c5">
       <h1> Download Pale
-Moon x86 - 27.1.2<br>
+Moon x86 - 27.2.0<br>
       </h1>
       <span class="c3">New this release:</span> Details about this
 update can be found in the <a href="releasenotes-ng.shtml">Release notes.</a><br>
@@ -107,9 +108,9 @@ Requirements:</span> </td>
       <h2> Download locations </h2>
 File size for the installer is 30.0 MiB<br>
       <br>
-SHA-256: b629cad71d6c561d6f995b19e94d236b769ecd836bfbfd4648c2bb4e82e4fc09<br>
+SHA-256: 0caca3dd8fdf4810f2cecfd2df8e6afd9ac04370fe2f2d4ad392f3c4dd8c1a54<br>
 (to check your download, you can use a tool like <a href="http://code.google.com/p/winhasher/">WinHasher</a>)<br>
-GPG/PGP signature: <a href="pgp/palemoon-27.1.2.win32.installer.exe.sig">[Sig]</a><br>
+GPG/PGP signature: <a href="pgp/palemoon-27.2.0.win32.installer.exe.sig">[Sig]</a><br>
       <br>
       <table class="c15" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -120,7 +121,7 @@ GPG/PGP signature: <a href="pgp/palemoon-27.1.2.win32.installer.exe.sig">[Sig]</
             </th>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://rm-eu.palemoon.org/release/palemoon-27.1.2.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            <td class="c10"> <a href="http://rm-eu.palemoon.org/release/palemoon-27.2.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
 #1 (EU)<br>
@@ -128,13 +129,13 @@ Direct download link<br>
             </td>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://rm-us.palemoon.org/release/palemoon-27.1.2.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c10"> <a href="http://rm-us.palemoon.org/release/palemoon-27.2.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
             <td class="c5"> <span class="c3">Pale Moon mirror</span>
 #2 (US)<br>
 Direct download link </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: center;"><a href="http://rm-as.palemoon.org/release/palemoon-27.1.2.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
+            <td style="vertical-align: top; text-align: center;"><a href="http://rm-as.palemoon.org/release/palemoon-27.2.0.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
             <td style="vertical-align: top;"><span class="c3">Pale Moon mirror</span>
 #3 (Asia)<br>
 
@@ -166,16 +167,16 @@ is <span class="c16">not</span> a portable browser, it stores its data
 in the normal user folders on the system (documents/settings or users
 folder).<br>
       <br>
-SHA-256: ca6bfdac31a33b137c33e21e813e55bbb7fcd72844b67611eca0a73f77c7e472<br>
-GPG/PGP Signature: <a href="pgp/palemoon-27.1.2.win32.zip.sig">[Sig]</a><br>
+SHA-256: 8151602ea81d49d079362f83d891e10a7bdc59435574e2704231aec571651d96<br>
+GPG/PGP Signature: <a href="pgp/palemoon-27.2.0.win32.zip.sig">[Sig]</a><br>
       <ul>
-        <li> <a href="http://rm-eu.palemoon.org/release/palemoon-27.1.2.win32.zip">Download
+        <li> <a href="http://rm-eu.palemoon.org/release/palemoon-27.2.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #1 EU
 (direct download)</a> </li>
-        <li> <a href="http://rm-us.palemoon.org/release/palemoon-27.1.2.win32.zip">Download
+        <li> <a href="http://rm-us.palemoon.org/release/palemoon-27.2.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #2 US
 (direct download)</a></li>
-        <li><a href="http://rm-as.palemoon.org/release/palemoon-27.1.2.win32.zip">Download
+        <li><a href="http://rm-as.palemoon.org/release/palemoon-27.2.0.win32.zip">Download
           <span class="c3">ZIP</span> from Pale Moon mirror #3 Asia
 (direct download)</a></li>
 

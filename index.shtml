@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
 
+
   
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
@@ -117,7 +118,7 @@ design </li>
 extensions<br>
         </li>
         <li>Extensive and growing support for HTML5 and CSS3</li>
-        <li>Broad support for image formats: Supports WebP and ICC v4<br>
+        <li>Broad support for image formats: Supports WebP and JPEG-XR<br>
         </li>
         <li>Many customization and configuration options<br>
         </li>
@@ -152,8 +153,7 @@ to name a few things.<br>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
             <span class="bold"><small><small>03 Mar 2017</small></small><br>
-Pale Moon 27.1.2 has been released.</span> This is a small bugfix
-update to the browser. Please read the <a href="releasenotes.shtml">release
+Pale Moon 27.2 has been released.</span> This is a major update to the browser focusing on "under the hood" improvements and enhanced security. Please read the <a href="releasenotes.shtml">release
 notes</a> for details.<br>
             <br>
             <span class="bold"><small><small>11 Jan 2017</small></small><br>

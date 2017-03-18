@@ -47,7 +47,91 @@
               Pale Moon: Release notes
             </h1>
       
+      <h3>27.2.0 (2017-03-18)</h3>This is a major update to the browser with a focus on back-end improvements and security.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/Fixes:</span><br>
+      <ul>
+        <li>Updated the ICU lib to 58.2 to fix a number of issues.</li>
+        <li>Added proper control for the user for offline storage for web applications.</li>
+        <li>Added a check to prevent auto-filled URLs from copying the auto-filled selection to clipboard/primary.</li>
+        <li>Added the feature to pass a URL to open in a private window from the command-line.</li>
+        <li>Improved the display of the downloads indicator on the button in bright-text situations.<br>
+        </li>
+        <li>DOM storage now honors the "3rd party cookie" setting in
+that it will not allow 3rd party data to be stored if 3rd party cookies
+are disallowed.</li>
+        <li>Allowed toolbar button badges to be properly styled.<br>
+        </li>
+        <li>Updated the hunspell spellchecking library to 1.6.0 to fix a number of issues.</li>
+        <li>Fixed desktop notifications being off-screen if fired in rapid succession.</li>
+        <li>Added Element.insertAdjacentElement and Element.insertAdjacentText DOM functions.</li>
+        <li>Added support for JPEG-XR images.<br>
+This makes Pale Moon have the broadest support for image formats of all web browsers.<br>
+ (enabled by default; you can disable this with <span style="font-style: italic;">media.jxr.enabled</span>).<br>
+        </li>
+        <li>Completely removed the use of GStreamer on Linux.<br>
+        </li>
+        <li>Added support for element.innerText.</li>
+        <li>Custom toolbars should now properly remember their state.</li>
+        <li>Fixed some more playback issues with MP4/MSE videos.<br>
+Please be aware that we are still working on further improving MSE video handling.<br>
+</li>
+        <li>Changed media processing to reduce dangerous processing asynchronicity.<br>
+This should also make media elements and playback more responsive.</li>
+        
+        <li>Fixed a useragent string regression always displaying the minor Goanna version as .0</li>
+        <li>Updated NSPR to 4.13.1.</li>
+        <li>Updated NSS to 3.28.3-RTM.</li>
+        <li>Fixed unrestricted icon sizes in PMkit buttons.</li>
+        <li>Fixed unresponsive buttons on support page when not building the updater.</li>
+        <li>Fixed the use of "View image" and "Save image as" on extremely large images.</li>
+        <li>Changed the way "View Image" and "Save image as" work on canvas elements.</li>
+        <li>Made checking for dangerously large resolution PNG images smarter.<br>
+It will now accept larger "strip"-aspect ratio images while reducing unsupported large image resolutions.<br>
+This will e.g. fix Gmail's "emoji" window that uses a ridiculously long
+but very narrow single image to store all the emoticon pictures.<br>
+        </li>
+        <li>Converted several hard-coded URLs to preferences.</li>
+        <li>Updated the google.com override so it would not cripple services based on UA sniffing.</li>
+        <li>Added Inner and Outer Window ID administration.</li>
+        <li>Fixed the add-on discovery pane detection.</li>
+        <li>Added support for canvas ellipse.</li>
+        <li>Improved drawing of certain MathML elements at problematic zoom levels.</li>
+        <li>No longer building gamepad support.</li>
+        <li>Updated Harfbuzz font shaper to 1.4.3 to fix a number of issues.</li>
+        <li>Fixed a number of crashes (layout, plugins, uncommon navigation, bad URLs).</li>
+        <li>Aligned SVG specular filters with the spec.</li>
+      </ul>
+      <span style="font-weight: bold;">Security/privacy changes:</span><br>
+      <ul>
+        <li>Added support for 256-bit AES-GCM encryption.</li>
+        <li>Added support for ChaCha20-Poly1305 encryption.</li>
+        <li>Removed support for Camellia-GCM since nobody seems interested in it.<br>
+(Camellia in 128/256-bit CBC block mode is still fully supported).<br>
+        </li>
+        <li>Added support for SHA-224, SHA-256, SHA-384 and SHA-512 to Crypto utils.</li>
+        <li>Improved status handling of secure sites to be less sensitive to "insecure" items that are local.</li>
+        <li>Fixed print preview hijacking. (CVE-2017-5421)</li>
+        <li>Fixed a potentially exploitable crash in OnStartRequest. (CVE-2017-5416)</li>
+        <li>Fixed potential cross-origin content-stealing through a timing attack. (CVE-2017-5407) <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a denial-of-service problem with view-source. (CVE-2017-5422)</li>
+        <li>Fixed crash in directional controls. (CVE-2017-5413)</li>
+        <li>Fixed a perceived problem with chrome manifests. (CVE-2017-5427)</li>
+        <li>Fixed the use of an uninitialized value. (CVE-2017-5405)</li>
+        <li>Fixed a buffer overflow. (CVE-2017-5412)</li>
+        <li>Fixed a UAF situation. (CVE-2017-5403)</li>
+        <li>Fixed a potential spoofing issue with the address bar. (CVE-2017-5417)</li>
+        <li>Fixed a potential issue in libvpx. (CVE-2017-5402) <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential issue with HTTP auth. (CVE-2017-5418)</li>
+        <li>Fixed several memory safety hazards and potentially exploitable crashes. <span style="color: rgb(191, 64, 64);">DiD</span></li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span>
+ This means that the fix is "Defense-in-Depth": It is a fix that does 
+not apply to a (potentially) actively exploitable vulnerability in Pale 
+Moon, but prevents future vulnerabilities caused by the same code when 
+surrounding code changes, exposing the problem.
       <h3>27.1.2 (2017-03-03)</h3>
+
 This is a small update adding a workaround for potential deadlocks happening in media elements.<br>
       <h3>27.1.1 (2017-02-21)</h3>
 This is a stability and bugfix update to the browser.<br>
@@ -110,11 +194,7 @@ behavior happy with Pale Moon.</li><li>Reinstated the <span style="font-style: i
 domains. If blacklisted characters are found, the IDN domain name will 
 be displayed in its punycode form. (CVE-2017-5383 and similar)</li><li>Fixed an exploitable crash when using MP4 video. (CVE-2017-5396)</li><li>Fixed an exploitable crash in XSL parsing. (CVE-2017-5376)</li><li>Fixed a potential security issue when exporting certificates with specially-crafted credentials. (CVE-2017-5381)</li><li>Fixed a potential use-after-free situation in frame selection. (CVE-2017-5380) <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a leak of window details through the Ion compiler in certain situations.</li><li>Fixed the potential for an exploitable crash involving Javascript GC. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a potential overflow situation in (non-released) WebRTC code. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed a potentially unsafe situation in websockets. <span style="color: rgb(191, 64, 64);">DiD</span></li><li>Fixed several memory and other safety hazards (BMO bugs 1318766, 1325877, 1328834 <span style="color: rgb(191, 64, 64);">DiD</span>, 1288561 <span style="color: rgb(191, 64, 64);">DiD</span>, 1322420 <span style="color: rgb(191, 64, 64);">DiD</span>, 1293327 <span style="color: rgb(191, 64, 64);">DiD</span>, 1322315, 1325344, 1285960).</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span>
- This means that the fix is "Defense-in-Depth": It is a fix that does 
-not apply to a (potentially) actively exploitable vulnerability in Pale 
-Moon, but prevents future vulnerabilities caused by the same code when 
-surrounding code changes, exposing the problem.<br>
+      
       <h3>27.0.3 (2016-12-16)</h3>
 This is a bugfix and security update.<br>
       <br>
