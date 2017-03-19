@@ -1,618 +1,254 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Known Issues</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <meta content="Pale Moon's currently known issues" name="description">
-    <style type="text/css">
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - Known Issues</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta content="Pale Moon's currently known issues" name="description">
+  <style type="text/css">
     img.c16 {width: 343px; height: 188px;}
     img.c13 {width: 560px; height: 172px;}
     hr.c8 {width: 100%; height: 2px;}
     span.bydesign {color: rgb(102, 102, 204);}
     span.research {font-weight: bold; color: rgb(204, 51, 204);}
     span.c4 {font-weight: bold; color: rgb(51, 51, 153);}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h1>
-              Known issues in the current version
-            </h1>
-            <h3>
-              Development notes<br>
-            </h3>The Pale Moon browser, at any point in time, may have a number of known issues. These known issues
-            will usually be addressed in the next release of the browser, or it may be something that people have
-            noticed and are mentioned here because they are <span class="bydesign">"by design"</span>, i.e.: issues people
-            have asked about, are known, and are this way on purpose.<br>
-            For each issue, check the status for intended action to be taken in development (if any) and intended
-            timeline (if applicable).<br>
-            <br>
-            <br>
-            <span class="bold">Known issues in the current version:</span><br>
-<ol>
-        
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);"> Vimeo videos may not play</span><br>
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h1> Known issues in the current version </h1>
+      <h3> Development notes<br>
+      </h3>
+The Pale Moon browser, at any point in time, may have a number of known
+issues. These known issues will usually be addressed in the next
+release of the browser, or it may be something that people have noticed
+and are mentioned here because they are <span class="bydesign">"by
+design"</span>, i.e.: issues people have asked about, are known, and
+are this way on purpose.<br>
+For each issue, check the status for intended action to be taken in
+development (if any) and intended time line (if applicable).<br>
+      <br>
+      <br>
+      <span class="bold">Known issues in the current version:</span><br>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">
+Vimeo videos may not play</span><br>
 The way Vimeo uses MSE for a good percentage of their videos (either on
 their main site or embedded in other sites) prevents Pale Moon from
 playing them (videos will not start).<br>
 We are still working on improving MSE and its integration with the
 media components to address this. because of the complexity of the
 media components this will take time.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress]</span><br>
+          <span style="font-weight: bold;">Status:</span> <span
+ style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress]</span><br>
           <span style="font-weight: bold;">Workaround:</span> Go into
 Options -&gt; Content, and uncheck "Enable MSE for MP4 video". Note
 that this workaround may prevent other sites from displaying video.<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
+          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
 that already uses the new password storage format, and this was
 previously converted from the older format, then it's possible that
 Pale Moon 27 will not convert your stored passwords properly (because a
 new storage file already exists).<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span> <br>
-Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.</li>
-
-
-
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading to v27 from a localized browser setup, it will not start</span><br>
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
+          <br>
+Please see <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
+for steps to recover from this situation.</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading to v27 from a localized browser setup, it will not start</span><br>
 If you get a small window with an XML parsing error instead of the
 normal browser interface, your language pack was not properly disabled
 as it should. V26 language packs are not compatible with v27 and will
 prevent the browser from starting.<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span> <br>
-
-Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for steps to recover from this situation.<br>
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
+          <br>
+Please see <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
+for steps to recover from this situation.<br>
         </li>
-
-
-
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
-forum and our own add-ons site for replacements/alternatives.<br><br>
-              </li>
-
-
-
-
-            </ol><!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
+forum and our own add-ons site for replacements/alternatives.<br>
+          <br>
+        </li>
+      </ol>
+<!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
 at this time</span><span style="font-weight: bold;"></span><br> -->
-            <span class="bold"><br>
-            Known issues in all versions:</span><br>
-            <ol>
-              <li>
-                <span class="c4">The browser creates directories under %APPDATA%\Mozilla, specifically
-                Mozilla\Extensions</span><br>
-                These directories are related to the underlying Mozilla extension code (<span class="bold">Pale Moon is a
-                Mozilla-derived browser</span>) and stores extension IDs there. This issue is completely harmless and
-                non-breaking; in fact, having (all) Mozilla-based applications use this one central location for
-                extension IDs is desired.<br>
-                <span class="bold">Status:</span> <span class="bydesign bold">[By Design]</span>
-              </li>
-            </ol>
-            <hr class="c8">
-            <h2>
-              Known issues in previous versions
-            </h2>Because issues in previous versions may still apply to what people are running, here is a recap of
-            previous, still recent versions that <span class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
-            <br>
-      <span style="font-weight: bold;">27.1:<br>
-</span>
+      <span class="bold"><br>
+Known issues in all versions:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs may occur on media-heavy sites like Facebook and YouTube</span><br>
-
+        <li> <span class="c4">The browser creates directories under
+%APPDATA%\Mozilla, specifically Mozilla\Extensions</span><br>
+These directories are related to the underlying Mozilla extension code (<span
+ class="bold">Pale Moon is a Mozilla-derived browser</span>) and stores
+extension IDs there. This issue is completely harmless and
+non-breaking; in fact, having (all) Mozilla-based applications use this
+one central location for extension IDs is desired.<br>
+          <span class="bold">Status:</span> <span class="bydesign bold">[By
+Design]</span> </li>
+      </ol>
+      <hr class="c8">
+      <h2> Known issues in previous versions </h2>
+Because issues in previous versions may still apply to what people are
+running, here is a recap of previous, still recent versions that <span
+ class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
+      <br>
+      <span style="font-weight: bold;">27.1:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs
+may occur on media-heavy sites like Facebook and YouTube</span><br>
 On some machine/operating system combinations, the browser may hang
-when using meadie-heavy sites like Facebook and YouTube. This is
+when using media-heavy sites like Facebook and YouTube. This is
 especially likely on those systems if you switch away from the site for
 a time, then return to the tab of the site. Forcefully closing the Pale
 Moon process may be the only way to recover.<br>
-
-This is a rather complex bug in the media back-end (mostly because media playback is asynchronous and uses multiple threads).<br>
-
+This is a rather complex bug in the media back-end (mostly because
+media playback is asynchronous and uses multiple threads).<br>
           <span style="font-weight: bold;">Potential workarounds</span>:
 using a tab unloader extension like BarTab, disabling autoplay of
 videos, closing the tab when you're done with the site and reloading
 the site when you want to check it next.<br>
-
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
+ style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
           <span style="font-weight: bold;">Timeline</span>:
-v27.2.0 has all but eliminated the offending code, and these deadlocks should no longer occur.<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon may crash on pages with multiple auto-playing videos<br>
+v27.2.0 has all but eliminated the offending code, and these deadlocks
+should no longer occur.<br>
+          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
+Moon may crash on pages with multiple auto-playing videos<br>
           </span>This is caused by an issue in the new media code we
 introduced currently not handling rapid starting/stopping and
-concurrent playing of multiple videos well. This may in some cases also cause a hard hang or lock-up of the browser.<br>
-
-          <span style="font-weight: bold;">Status: <span style="color: rgb(153, 153, 0);"></span></span><span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br style="font-weight: bold;">
-
-          <span style="font-weight: bold;">Workaround:</span> Set <span style="font-style: italic;">media.autoplay.enabled</span> and <span style="font-style: italic;">media.autoplay.allowscripted</span> to <span style="font-style: italic;">false</span> in <span style="color: rgb(51, 51, 255);">about:config</span> and restart the browser. This will stop the crashes, but obviously also prevent auto-play of videos on pages.<br>
-
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.1.</li>
-
+concurrent playing of multiple videos well. This may in some cases also
+cause a hard hang or lock-up of the browser.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(153, 153, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br
+ style="font-weight: bold;">
+          <span style="font-weight: bold;">Workaround:</span> Set <span
+ style="font-style: italic;">media.autoplay.enabled</span> and <span
+ style="font-style: italic;">media.autoplay.allowscripted</span> to <span
+ style="font-style: italic;">false</span> in <span
+ style="color: rgb(51, 51, 255);">about:config</span> and restart the
+browser. This will stop the crashes, but obviously also prevent
+auto-play of videos on pages.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+27.1.1.</li>
       </ol>
       <span style="font-weight: bold;">27.0:<br>
       </span>
       <ol>
-<li><span style="font-weight: bold; color: rgb(51, 51, 153);">Twitch.tv doesn't work</span><br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Twitch.tv
+doesn't work</span><br>
 Pale Moon 27.0.0 is unable to play twitch.tv videos. This is a problem
 with the added MSE routines and continued work on media playback
 changes.<br>
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Go to Options -&gt; Content, and uncheck "Enable Media Source Extensions (MSE)"<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 27.0.1<br>
-</li><li><span style="font-weight: bold; color: rgb(51, 51, 153);">After upgrading some tabs' content doesn't want to load</span><br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> Go to
+Options -&gt; Content, and uncheck "Enable Media Source Extensions
+(MSE)"<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+27.0.1<br>
+        </li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading some tabs' content doesn't want to load</span><br>
 On some systems, the contents of a portion of automatically restored
 session tabs doesn't want to load when clicked and needs a manual
 reconfirmation of the URL. This is caused by a combination of things
 happening with the one-time profile migration with the upgrade to 27.<br>
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br><span style="font-weight: bold;">Workaround:</span>
-Please see <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a> for a workaround to solve the session store problem.<br>
-  <span style="font-weight: bold;">Timeline:</span> Fixed in 27.0.3</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale Moon x64 refuses to install on Windows Vista</span><br>
-
-This is due to an incorrect check that came across from the Mozilla platform when we updated it for v27.<br>
-
-Confusingly, it will tell the user that it requires Windows Vista x64 (while the check requires at least Windows 7)<br>
-
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-
-
-          <span style="font-weight: bold;">Workaround:</span> Install the 32-bit version<br>
-
-
-          <span style="font-weight: bold;">Workaround (alternative):</span> Install from the ZIP archive<br>
-
-
-
-          <span style="font-weight: bold;"></span><span style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0</li>
-
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span>
+Please see <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
+for a workaround to solve the session store problem.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+27.0.3</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
+Moon x64 refuses to install on Windows Vista</span><br>
+This is due to an incorrect check that came across from the Mozilla
+platform when we updated it for v27.<br>
+Confusingly, it will tell the user that it requires Windows Vista x64
+(while the check requires at least Windows 7)<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> Install
+the 32-bit version<br>
+          <span style="font-weight: bold;">Workaround (alternative):</span>
+Install from the ZIP archive<br>
+          <span style="font-weight: bold;"></span><span
+ style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0</li>
       </ol>
       <br>
       <span style="font-weight: bold;">26.*:<br>
       </span>
       <ol>
-<li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS proxies are not supported</span><br>
-We currently do not have support for encrypted connections to proxy servers.<br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS
+proxies are not supported</span><br>
+We currently do not have support for encrypted connections to proxy
+servers.<br>
           <span style="font-weight: bold;">Workaround:</span> If you
 need local-net encryption (untrusted local network) then you should use
 an encrypted VPN connection instead of a proxy server.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
-</li><li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript "promises" are not supported</span><br>
+          <span style="font-weight: bold;">Status:</span> <span
+ style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
+        </li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript
+"promises" are not supported</span><br>
 We currently do not support a spec-compliant version of so-called
 "promises" in JavaScript (part of ES6). As such, some sites that
 explicitly rely on this and that do not properly check for this feature
 or don't provide one of the many polyfills for it that are available on
 the server side, will fail to function properly (and in some cases even
 completely fail to display).<br>
-          <span style="font-weight: bold;">Fix:</span> Ask the website owners to include proper feature detection and a promises polyfill.<br>
-          <span style="font-weight: bold;">Workaround:</span> For some sites, our <a href="https://addons.palemoon.org/extensions/other/pm-promises/" target="_blank">promises injector extension</a>
+          <span style="font-weight: bold;">Fix:</span> Ask the website
+owners to include proper feature detection and a promises polyfill.<br>
+          <span style="font-weight: bold;">Workaround:</span> For some
+sites, our <a
+ href="https://addons.palemoon.org/extensions/other/pm-promises/"
+ target="_blank">promises injector extension</a>
 may work. Please note that fixing some sites with this may break other
-sites in turn (because the extension isn't implementing the entire spec, and
+sites in turn (because the extension isn't implementing the entire
+spec, and
 properly-detecting sites will assume promises are fully available)<br>
-          <span style="font-weight: bold;">Status:</span> <span style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
+          <span style="font-weight: bold;">Status:</span> <span
+ style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
       </ol>
       <br>
-      <span style="font-weight: bold;">26.3.2:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
-
-
-
-This is due to Windows 10 apparently not always setting the proper registry entries for applying color to the Windows UI.<br>
-
-
-
-          <span style="font-weight: bold;">Status: </span><span style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-
-
-
-          <span style="font-weight: bold;">Workaround/Fix:</span> Go
-into "personalization" of your desktop, Select "color" on your left,
-and toggle the slider "Show color on Start, taskbar, action center, and title bar" on and back off again. This will make the
-proper registry entries. Exit and restart the browser to have it pick
-up the value.<br>
-
-
-
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.3.3</li>
-      </ol>
-      <span style="font-weight: bold;">26.3.1:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On Windows 10, if you have the classic menu bar enabled, it may be white-on-white</span><br>
-
-This is due to a small issue in the new Windows 10 user interface in
-Pale Moon adapting to a chosen accent color, but Windows not having an
-accent color set in the registry.<br>
-
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-
-          <span style="font-weight: bold;">Workaround/Fix:</span> Go
-into "personalization" of your desktop, Select "color" on your left,
-and choose an accent color to use for your windows. This will make the
-proper registry entries. Exit and restart the browser to have it pick
-up your new choice.<br>
-
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.3.2</li>
-      </ol>
-      <span style="font-weight: bold;">26.2.1&amp;26.2.2:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">On some sites, pressing "back" may occasionally cause a browser crash</span><br>
-
-On some specific sites, using the browser's "back" button/navigating
-back in history may cause the browser to crash. This is caused by an
-issue in the XSS filter.<br>
-
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
-
-          <span style="font-weight: bold;">Workaround:</span> Disable the XSS filter in options<br>
-
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.3.0</li>
-      </ol>
-      <span style="font-weight: bold;">26.2.0:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Keyboard navigation of the user interface doesn't properly work</span><br>
-
-With 26.2.0, trying to navigate the application menus with the keyboard doesn't work.<br>
-
-This is caused by the change in keystroke handling in this version negatively affecting how they are handled in the UI as
-well.<br>
-
-          <span style="font-weight: bold;">Status</span>: <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><span style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-
-          <span style="font-weight: bold;">Workaround</span>: None, unfortunately. Use your pointing device.<br>
-
-          <span style="font-weight: bold;">Timeline</span>: Fixed in 26.2.1.</li>
-      </ol>
-      <span style="font-weight: bold;">26.0.1-26.0.3:</span><br>
-      <ol>
-<li><span style="font-weight: bold; color: rgb(51, 51, 153);">Animated GIF files may cause performance issues</span><br>
-We are aware of performance issues on Windows for animated GIF images
-being used as "pseudo video". particularly large animated GIF files or
-a large number of these "video" GIFs on a single page may slow down the
-browser (in some cases severely) and cause high CPU usage.<br>
-          <span style="font-weight: bold;">Cause:</span> This is likely
-an issue with the way Pale Moon tries to perform rapid memory
-allocations and the Windows system memory allocator in particular not
-handling this (atypical) behavior very well.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span> - We'll be using a more Mozilla-code-friendly allocator library.<br>
-  <span style="font-weight: bold;">Timeline:</span> Fixed in 26.1.0<br>
-</li><li><span style="font-weight: bold; color: rgb(51, 51, 153);">Google Hangouts doesn't work</span><br>
-The website versions of Google Hangouts (either stand-alone or
-integrated in Google+) don't work because they won't let you sign in to
-your account.<br>
-          <span style="font-weight: bold;">Cause:</span> unknown, server-side issue<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
-          <span style="font-weight: bold;">Workaround:</span> None, use the Hangouts App or Google Chrome<br>
-  <span style="font-weight: bold;">Timeline:</span> Fixed in 26.1.0</li>
-      </ol>
+      <span style="font-weight: bold;"></span><span class="bold"></span><span
+ class="bold"></span><span class="bold"></span><span class="bold"></span><span
+ class="bold"></span><span class="bold"></span><span class="bold"></span><span
+ class="bold"></span><span class="bold"></span><!--#include virtual="nav/footer.html" --><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 <br>
-            <span class="bold">26.0.0:<br>
-</span>
-      <ul>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The browser doesn't start with "Unsupported operating system"</span><br>
-Windows XP users who have hacked their OS with a registry hack to
-supposedly "get continued security updates" from Microsoft past the
-end-of-life date for Windows XP in 2014, by tricking the Windows Update
-servers into thinking that they are running Windows Embedded (a bad
-thing to do, see articles on <a href="http://www.neowin.net/news/microsoft-warns-against-registry-hack-that-allows-windows-xp-updates" target="_blank">Neowin</a>, <a href="http://www.tomshardware.com/news/microsoft-hack-windows-xp-registry-embedded,26882.html" target="_blank">Tom's Hardware</a> and <a href="http://betanews.com/2014/05/27/microsoft-warns-against-xp-update-hack-suggests-users-upgrade-to-windows-8-1-instead/" target="_blank">Betanews</a>) will be unable to start the browser.<br>
-This is caused by a sanity check in the browser for supported operating
-systems (since we do not support point-of-sale or embedded Windows
-versions due to technical compatibility issues with those SKUs) to
-prevent problems on platforms that are not a valid target for Pale Moon.<br>
-By user request, we've decided to remove this check with the clear
-responsibility for support being shifted to end-users. You are on your
-own when not running a straight-up retail/OEM Windows XP.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(0, 153, 0);">[Fixed]</span><br>
-          <span style="font-weight: bold;">Workaround:</span> Remove the registry hack<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in 26.0.1</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The browser has a number of web compatibility issues</span><br>
-Some well-known sites don't like the "Goanna" user agent and/or are specifically blocking Pale Moon.<br>
-          <span style="font-weight: bold;">Status:</span> <span style="font-weight: bold; color: rgb(153, 102, 51);">[Workarounds]</span> by way of user agent overrides for YouTube, Netflix, some fora, etc.<br>
-          <span style="font-weight: bold;">Timeline: </span>Ongoing, some major sites fixed in 26.0.1<br>
-          <br>
-        </li>
-      </ul>
-      <span class="bold">25.6+:<br>
-      </span>
-      <ul>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When playing videos in fullscreen mode, you may see network status pop up</span><br>
-This is because a number of major sites have changed the way videos are
-embedded in pages, which isn't properly detected by Pale Moon when
-switching to fullscreen mode, resulting in the browser treating it like
-a normal fullscreen mode web page.<br>
-          <span style="font-weight: bold;">Status: <span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Go to
-(Options -&gt;) Status bar options... -&gt; Advanced -&gt; uncheck
-"Detect full-screen mode and show links/status appropriately"<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0<br>
-<span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">When running on Windows 10, there are some theming/UI issues</span><br>
-These issues include wrong shapes of the window control buttons, them
-being off-center, strange background color issues in the bleached white
-application areas (e.g. when opening a sidebar) and border drawing
-issues.<br>
-This is caused by the changes Microsoft has made (a lot of them at the
-last second) to the way windows are drawn and handled. This is known
-and work is underway to correct these issues.<br>
-          <span style="font-weight: bold;">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-          <span style="font-weight: bold;">Workaround:</span> None<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in Pale Moon 26.0</li>
-      </ul>
-      <span class="bold">25.5:<br>
-      </span>
-      <ul>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">The internal updater won't show proper text in the default language</span><br>
-
-Because of a localization error, the text in the internal updater
-window will not show properly when an update is offered to the browser.
-You can still update normally by pressing the "Next" button.<br>
-
-          <span style="font-weight: bold;">Status:</span>  <span class="mediumgreen bold">[Fixed]</span><br>
-
-          <span style="font-weight: bold;">Workaround:</span> none<br>
-
-          <span style="font-weight: bold;">Timeline:</span> Fixed in the 25.6 updater.</li>
-      </ul>
-      <span class="bold">25.3:<br></span>
-            <ul>
-              <li>
-                <span class="c4">Android: using VPN connections may not work</span><br>
-                If you are using a VPN connection on Android 5 (Lollipop), Pale Moon may not be able to resolve host
-                names, leading to connectivity failures. This is caused by a known problem in the underlying Fennec
-                code that caters to much older versions of Android and relies on functions that have been removed in
-                Android 5.*<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Workarounds:</span> Use local (on-device) DNS resolution with a DNS resolver, use a
-                different browser for VPN use, or downgrade to Android 4.*<br>
-                <span class="bold">Timeline:</span> Fixed in 25.4
-              </li>
-            </ul><span class="bold">25.2.0:<br></span>
-            <ul>
-              <li>
-                <span class="c4">Some Single-Sign-On (SSO) setups don't work</span><br>
-                Because of a security vulnerability with authentication redirection (cookie injection) through proxies
-                (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8639">CVE-2014-8639</a> <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2015-04/">MFSA2015-04</a>), Pale Moon currently
-                does not allow auth cookies to pass through or be modified by proxies. This may make some SSO setups
-                fail to authenticate to individual services (usually on corporate intranetworks that employ proxies)
-                and as a result the user is asked to provide login details.<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span>, following the relevant Mozilla
-                bugs.<br>
-                The vulnerability patch was adapted to allow for cookies to be stored by authenticating proxies, but
-                not on proxy connection failures, greatly reducing the available scenarios for this already difficult
-                to practically exploit session fixation vulnerability. It should be sufficiently mitigated this way
-                while not being in the way of legitimate cookie injection requests. In environments where this is a
-                concern, the session policies should be revised or implemented in a different way.<br>
-                <span class="bold">Workaround:</span> Avoid using proxies for SSO.
-              </li>
-            </ul><span class="bold">25.0.1:<br></span>
-            <ul>
-              <li>
-                <span class="c4">Add-on update checks don't work</span><br>
-                This is caused by a hidden, undocumented feature in the Mozilla code that requires a very strict check
-                on the certificate presented by the add-ons server.<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Workaround:</span> Create a new boolean preference called
-                extensions.update.requireBuiltInCerts and set it to false<br>
-                <span class="bold">Timeline:</span> Fixed in 25.0.2
-              </li>
-              <li>
-                <span class="c4">Some parts of Devtools don't work</span><br>
-                This is caused by the rather unexpected in-app useragent sniffing that the devtools do (yes,
-                seriously!)<br>
-                Without Firefox/* in the UserAgent string, the JavaScript debugger and Style Editor (and possibly a few
-                other functions) don't work properly or at all.<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Workaround:</span> Set <span class="pref">general.useragent.compatMode.firefox</span> 
-                to <span class="pref">true</span><br>
-                <span class="bold">Timeline:</span> Fixed in 25.0.2
-              </li>
-            </ul><span class="bold">25.0.0:<br></span>
-            <ol>
-              <li>
-                <span class="c4">Some jetpack add-ons that should work refuse to work properly</span><br>
-                This is caused by some add-on SDK files missing the new Pale Moon ID in them.<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 25.0.1
-              </li>
-            </ol><span class="bold">24.7.0:</span><br>
-            <ol>
-              <li>
-                <span class="c4">Rendered text color may become the wrong color or white when scrolling</span><br>
-                In some situations, colored fonts may become the wrong color or white when scrolling and hardware
-                acceleration is enabled in the browser.<br>
-                <span class="bold">Workaround:</span> set <span class="pref">layers.force-active</span> to 
-                <span class="pref">true</span> in about:config<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.7.1
-              </li>
-              <li>
-                <span class="c4">Google Maps on Google.com displays a non-functional preview of the "new"
-                maps.</span><br>
-                This is caused by interpretation of the custom user agent in Pale Moon for the google.com domain.<br>
-                <span class="bold">Workaround:</span> see <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=5243#p32637</a><br>
-
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.7.1
-              </li>
-            </ol><span class="bold">24.6.2:</span><br>
-            <ol>
-              <li>
-                <span class="c4">Domain highlighting sometimes works and sometimes doesn't</span><br>
-                This is caused by a conflict with domain highlighting and the code to have status indicators in the
-                address bar.<br>
-                <span class="bold">Workaround:</span> Disable domain highlighting in the status bar options<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]<br></span> <span class="bold">Timeline:</span>
-                Fixed in 24.7.0<br>
-              </li>
-            </ol><span class="bold">24.6.0/24.6.1:<br></span>
-            <ol>
-              <li>
-                <span class="c4">After upgrading from 24.5 or before, the browser may crash on startup</span><br>
-                On systems where people have previously changed the advanced preference "gfx.content.azure.enabled" or
-                "gfx.content.azure.backends", 24.6.0/24.6.1 may crash or immediately close upon startup.<br>
-                This is caused by a multi-tiered problem in graphics engine selection, which sometimes causes an
-                invalid or incompatible choice to be made by the browser.<br>
-                <span class="bold">Workaround:</span> Start the browser with SHIFT held down, and in the safe mode dialog
-                box, click "Reset all user preferences to Pale Moon defaults" and then click "Make changes and
-                restart"<br>
-                <span class="bold">Workaround 2:</span> Start the browser in safe mode (Start with SHIFT, then click
-                "Continue in Safe Mode"), and manually reset all gfx.* preferences in about:config<br>
-                <span class="bold">Workaround 3:</span> Start the browser in safe mode, and set
-                <span class="pref">gfx.direct2d.disabled</span> to <span class="pref">true</span> in about:config<br>
-                <span class="bold">Workaround 4:</span> Start the browser in safe mode and perform a browser reset from
-                the <span class="italic">Help -&gt; Troubleshooting information</span> page.<br>
-                <span class="bold">Status:</span> <span class="mediumred bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.6.2
-              </li>
-            </ol><span class="bold">24.5.0:</span><br>
-            <ol>
-              <li>
-                <span class="c4">On <span class="italic">certain</span> systems, rendering of text and graphics may become
-                "pixelated"</span><br>
-                If you are using Windows 7 SP1 with the (Feb 28<sup>th</sup> 2013) Windows Platform Update (<a href="http://support.microsoft.com/kb/2670838">KB 2670838</a>), or potentially also if you are using Windows
-                8/8.1, and your system is equipped with a certain legacy ATI/AMD Radeon (specifically an HD3000 or
-                HD4000 series) graphics processor, you may encounter issues with rendering text and graphics in page
-                content, similar to:<br>
-                <img class="c13" alt="" src="images/bug812695.png"><br>
-                This is caused by the combination of OS, the Platform Update which makes changes to DirectX, and the
-                graphics hardware/drivers in your system. Unfortunately, it's not clear who exactly is to blame, as
-                people keep pointing fingers to others (Microsoft, AMD, Mozilla). Note that the update may also have
-                been installed as a prerequisite for using MSIE 10/11.<br>
-                Of note: Later versions of Pale Moon are less likely to display this error than Firefox, but it
-                <span class="italic">may</span> still occur.<span class="bold"><br>
-                Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228">http://forum.palemoon.org/viewtopic.php?f=1&amp;t=2228</a>
-                - TL;DR: <span class="bold">uninstall KB2670838</span> or <span class="bold">disable azure for content.<br>
-                Status:</span> <span class="bold"><span class="mediumgreen bold">[Fixed]</span><br>
-                Timeline:</span> Fixed in 24.6.0.
-              </li>
-              <li>
-                <span class="c4">On some Windows 8/8.1 systems, the browser regularly crashes</span><br>
-                This is caused by a problem in the Gecko rendering engine on the newer version of Direct2D (introduced
-                in Windows 8, 8.1 and through the Platform Update of Windows 7) when hardware acceleration is used.<br>
-                <span class="bold">Status: <span class="mediumgreen bold">[Fixed]</span></span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.6.0.
-              </li>
-            </ol><span class="bold">24.4.2<br></span>
-            <ol>
-              <li>
-                <span class="c4">On some sites, the plugin notification icon may incorrectly show or provide a blank
-                doorhanger</span><br>
-                This is caused by page content removing document nodes and confusing the plugin indicator code. As a
-                result, you will see the following when clicking the plugin indicator:<br>
-                <img class="c16" alt="Screenshot" src="images/bug916542.png"><br>
-                <span class="bold">Workaround:</span> None<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.5.
-              </li>
-            </ol><span class="bold">24.4.1<br></span>
-            <ol>
-              <li>
-                <span class="c4">The download manager panel may pop up in the far bottom-left</span><br>
-                On some installations, the download manager panel may possibly pop up on the bottom left of the browser
-                instead of where the download manager button is. This is caused by a small issue in the default set of
-                controls in the v24.4.0 updated status bar code, confusing the panel by having 2 places to "hang" the
-                panel from.<br>
-                I will be fixing this by removing the status bar download control from the "default" set of controls
-                (like in previous versions).<br>
-                <span class="bold">Workaround:</span> Open the customization window (right-click a toolbar button and
-                select Customize... from the menu) and remove the download manager control you don't intend to use
-                (either the button in the main navigation bar or the control in the status bar) by dragging it from the
-                browser window to the customization window.<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.4.2.
-              </li>
-            </ol><span class="bold">24.4.0<br></span>
-            <ol>
-              <li>
-                <span class="c4">Trying to open up the download manager from the download status control doesn't
-                work</span><br>
-                Trying to open up the download manager (either panel or classic window) by clicking on the status bar
-                control for downloads does nothing. This is caused by a small issue in the newly updated status bar
-                code in 24.4.0.<br>
-                <span class="bold">Status: <span class="mediumgreen bold">[Fixed]</span></span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.4.1
-              </li>
-            </ol><span class="bold">24.2.2<br></span>
-            <ol>
-              <li>
-                <span class="c4">When using the classic downloads window, downloads in private windows are not
-                shown</span><br>
-                If you use the classic downloads window and open a Private Browsing (PB) window, there is no easy way
-                to see which downloads are done in the PB window. When checking the downloads, it will open up the
-                (non-PB) classic downloads window which does not have downloads listed from the PB session.<br>
-                This is caused by PB windows being implemented after Mozilla moved to the panel-based downloads
-                manager, and there is no check in the classic downloads window if it is called from a PB window or
-                regular window.<br>
-                <span class="bold">Workaround:</span> In the PB window, open a new tab and type <span class="mediumblue bold italic">about:downloads</span> in the address bar<br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.3.0
-              </li>
-              <li>
-                <span class="c4">Geolocation doesn't work in Pale Moon</span><br>
-                This is caused by the Firefox standard geolocation provider (Google Inc.) now requiring an API key to
-                request geolocation coordinates. Only official Mozilla Firefox builds of the code will work.<br>
-                Pale Moon will be switching provider to address this issue.<br>
-                <span class="bold">Workaround:</span> <span class="red">none.</span><br>
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline:</span> Fixed in 24.3.0
-              </li>
-              <li>
-                <span class="c4">The "More information" link for blocked add-ons doesn't work</span><br>
-                <span class="bold">Workaround:</span> See <a href="http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750">http://forum.palemoon.org/viewtopic.php?f=29&amp;t=2750</a><br>
-
-                <span class="bold">Status:</span> <span class="mediumgreen bold">[Fixed]</span><br>
-                <span class="bold">Timeline</span>: Fixed in 24.3.0
-              </li>
-            </ol>
-            <!--#include virtual="nav/footer.html" --><br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+<br>
+</body>
+</html>
