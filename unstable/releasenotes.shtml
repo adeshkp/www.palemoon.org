@@ -1,31 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
+<html lang="en">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon browser - unstable channel</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
   <meta content="Moonchild" name="author">
   <style type="text/css">
 table.c17 {background-color: #F9F9F9}
@@ -45,17 +28,19 @@ table.c17 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style></head><body>
-<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
-      <br>
-</th>
+      <th class="subpageheader"> <br>
+      </th>
     </tr>
     <tr align="left">
-      <td class="pagemenu"><!--#include virtual="/nav/menuroot.html" --> <br>
+      <td class="pagemenu"><!--#include virtual="/nav/menuroot.html" -->
+      <br>
       </td>
     </tr>
     <tr>
@@ -67,58 +52,63 @@ Moon unstable releases - release notes<br>
 release notes are for pre-release versions of Pale Moon. They may
 include notes for public betas and the intended "rolling" unstable
 channel we have planned for the near future.<br>
-Please understand that these release notes are concise summaries, nothing more.<br>
-</span><br>
-
-If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
-on GitHub for Pale Moon. When you do so, please <span style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
-already been reported before by others</span> to prevent duplicate entries in
+Please understand that these release notes are concise summaries,
+nothing more.<br>
+      </span><br>
+If you find bugs in these versions, please report them in the <a
+ href="https://github.com/MoonchildProductions/Pale-Moon/issues"
+ target="_blank">issue tracker</a>
+on GitHub for Pale Moon. When you do so, please <span
+ style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
+already been reported before by others</span> to prevent duplicate
+entries in
 the tracker. If you report bugs, make sure to include the build date
 (as found in the about box) and provide clear information about the bug:<br>
-
-
-      
       <ul>
-<li>Clear
+        <li>Clear
 indication of what version of the browser this was found in (x86, x64,
 Windows, Linux, exact version and build (see "About" box)<br>
-</li><li>Clear description of the bug found, with a concise and clear title for the issue<br>
+        </li>
+        <li>Clear description of the bug found, with a concise and
+clear title for the issue<br>
 (include exact circumstances and exact error messages, if any)<br>
-        </li><li>Steps to reproduce<br>
+        </li>
+        <li>Steps to reproduce<br>
 (what exactly do you do to cause the bug to become apparent?)<br>
-        </li><li>Expected results<br>
+        </li>
+        <li>Expected results<br>
 (given the steps taken, what did you expect the browser to do?)<br>
-        </li><li>Actual results<br>
+        </li>
+        <li>Actual results<br>
 (what did the browser do instead of what was expected?)<br>
         </li>
       </ul>
-
-
 Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
-
-<br>
+      <br>
       <h3>Current trunk progress since release (major changes only):</h3>
-      <ul></ul><ul>
-        <li>(pending) Aligned DOM selection addRange with the spec</li>
-
-
-
-
-
-
-
-
-
-
-
+      <ul>
       </ul>
-
-For a more detailed and complete list of changes, check out the <a href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit log</a>.<br>
-
-
-      <br><span style="font-weight: bold;"></span></td>
+      <ul>
+        <li>Aligned DOM selection addRange with the spec.<br>
+(this time without breaking copying of selected text ;) )<br>
+        </li>
+        <li>Media: Made tail dispatching automatic and happen on the
+main thread.</li>
+        <li>Fixed a crash with sorted arrays. (Pentadactyl-crash)</li>
+        <li>Fixed an issue with JXR planar alpha being premultiplied
+twice.</li>
+        <li>Worked around OOM crashes caused by ludicrously-large
+images.</li>
+        <li>Exposed mozAnon constructor js binding to system scopes for
+XHR.</li>
+      </ul>
+For a more detailed and complete list of changes, check out the <a
+ href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit
+log</a>.<br>
+      <br>
+      <span style="font-weight: bold;"></span></td>
     </tr>
     <tr>
       <td class="c10"><!--#include virtual="/nav/footer.html" -->&nbsp;
@@ -126,9 +116,7 @@ For a more detailed and complete list of changes, check out the <a href="https:/
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
