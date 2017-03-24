@@ -146,10 +146,10 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>18 Mar 2017</small></small><br>
-Pale Moon 27.2 has been released.</span> This is a major update to the
-browser focusing on "under the hood" improvements and enhanced
-security. Please read the <a href="releasenotes.shtml">release
+            <span class="bold"><small><small>24 Mar 2017</small></small><br>
+Pale Moon 27.2.1 has been released.</span> This is a small update to
+address some stability and usability issues. Please read the <a
+ href="releasenotes.shtml">release
 notes</a> for details.<br>
             <br>
             <span class="bold"><small><small>11 Jan 2017</small></small><br>
@@ -268,8 +268,7 @@ technologies:<br>
  title="VPS Servers"
  style="border: 0px solid ; width: 250px; height: 61px;"
  src="images/vpsserver.png" class="c11"
- alt="VPSserver.com - VPS servers"></a>&nbsp;
-      </div>
+ alt="VPSserver.com - VPS servers"></a>&nbsp; </div>
       <small style="color: rgb(128, 128, 128);">Want to become a
 corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
  href="donations.shtml#Corporate_sponsorship">read this</a>.</small><br>

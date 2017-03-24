@@ -1,45 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-
-  
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon Windows 64-bit downloads</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html lang="en">
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Pale Moon Windows 64-bit downloads</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
   <style type="text/css">
     table.c16 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
     img.c15 {border: 0px solid ; width: 230px; height: 43px;}
@@ -57,14 +28,15 @@
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     </style>
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
-      <br>
-</th>
+      <th class="subpageheader"> <br>
+      </th>
     </tr>
     <tr align="left">
       <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
@@ -73,11 +45,14 @@
     <tr>
       <td class="c7">
       <h1>Download Pale
-Moon x64 - 27.2.0</h1><br>
+Moon x64 - 27.2.1</h1>
+      <br>
 These
 downloads are native 64-bit versions of the browser, designed for
 64-bit versions of Windows on modern hardware with dedicated GPUs.<br>
-If you are running on embedded graphics or a lower-end laptop, you may want to <a href="palemoon-win32.shtml">grab the 32-bit version</a> instead.<br>
+If you are running on embedded graphics or a lower-end laptop, you may
+want to <a href="palemoon-win32.shtml">grab the 32-bit version</a>
+instead.<br>
       <br>
       <table class="sysreq c8" align="center" cellspacing="0">
         <tbody>
@@ -101,9 +76,11 @@ Requirements (Windows):</span> </td>
       </table>
       <br>
       <h2> Download locations: </h2>
-      <span class="c3">Installer (recommended, 33.5 MiB)</span>:<br>
-SHA-256: b5e0bb15a08046a7b46a5f378bef5bc077cb19c46c253d134afd402ebc694e87<br>
-GPG/PGP signature: <a href="pgp/palemoon-27.2.0.win64.installer.exe.sig">[Sig]</a><br>
+      <span class="c3">Installer (recommended, 34.0 MiB)</span>:<br>
+SHA-256:
+c351cb16b5320d89ceb548988e2f37316233185717405c0f0d68a4988ac4ac9c<br>
+GPG/PGP signature: <a
+ href="pgp/palemoon-27.2.1.win64.installer.exe.sig">[Sig]</a><br>
       <br>
       <table class="c16" border="1" cellpadding="2" cellspacing="0">
         <tbody>
@@ -114,7 +91,11 @@ GPG/PGP signature: <a href="pgp/palemoon-27.2.0.win64.installer.exe.sig">[Sig]</
             </th>
           </tr>
           <tr>
-            <td class="c12"> <a href="http://rm-eu.palemoon.org/release/palemoon-27.2.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
+            <td class="c12"> <a
+ href="http://rm-eu.palemoon.org/release/palemoon-27.2.1.win64.installer.exe"><img
+ style="border: 0px solid ; width: 227px; height: 44px;" class="c13"
+ alt="Pale Moon logo" title="Click to download!"
+ src="dl-images/mainsite.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
 #1 (EU)<br>
@@ -122,50 +103,67 @@ Direct download link<br>
             </td>
           </tr>
           <tr>
-            <td class="c12"> <a href="http://rm-us.palemoon.org/release/palemoon-27.2.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a> </td>
+            <td class="c12"> <a
+ href="http://rm-us.palemoon.org/release/palemoon-27.2.1.win64.installer.exe"><img
+ style="border: 0px solid ; width: 227px; height: 44px;" class="c13"
+ alt="Pale Moon logo" title="Click to download!"
+ src="dl-images/mainsite.png"></a> </td>
             <td class="c7"> <span class="c3">Pale Moon mirror</span>
 #2 (US)<br>
 Direct download link </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: center;"><a href="http://rm-as.palemoon.org/release/palemoon-27.2.0.win64.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c13" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a></td>
-            <td style="vertical-align: top;"><span class="c3">Pale Moon mirror</span>
+            <td style="vertical-align: top; text-align: center;"><a
+ href="http://rm-as.palemoon.org/release/palemoon-27.2.1.win64.installer.exe"><img
+ style="border: 0px solid ; width: 227px; height: 44px;" class="c13"
+ alt="Pale Moon logo" title="Click to download!"
+ src="dl-images/mainsite.png"></a></td>
+            <td style="vertical-align: top;"><span class="c3">Pale Moon
+mirror</span>
 #3 (Asia)<br>
-
 Direct download link</td>
           </tr>
-<tr>
-            <td class="c12"> <a href="http://www.downloadcrew.com/article/21353-pale_moon_x64"><img class="c14" alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"></a><br>
+          <tr>
+            <td class="c12"> <a
+ href="http://www.downloadcrew.com/article/21353-pale_moon_x64"><img
+ class="c14" alt="Download Crew logo"
+ src="dl-images/downloadcrew-partner-logo.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Download Crew</span><br>
 Download link at the top of the page (next to the title)<br>
             </td>
           </tr>
-<tr>
-<td style="vertical-align: top; text-align: center;"><a href="http://www.filehorse.com/download-pale-moon-64/"><img style="border: 0px solid ; width: 200px; height: 65px;" class="c11" alt="FileHorse logo" title="Click to download!" src="dl-images/filehorse.png"></a></td>
-<td style="vertical-align: top;"><span style="font-weight: bold;">FileHorse</span><br>
+          <tr>
+            <td style="vertical-align: top; text-align: center;"><a
+ href="http://www.filehorse.com/download-pale-moon-64/"><img
+ style="border: 0px solid ; width: 200px; height: 65px;" class="c11"
+ alt="FileHorse logo" title="Click to download!"
+ src="dl-images/filehorse.png"></a></td>
+            <td style="vertical-align: top;"><span
+ style="font-weight: bold;">FileHorse</span><br>
 Download link at the top-right of the page<br>
-</td>
-</tr>
-          
+            </td>
+          </tr>
         </tbody>
       </table>
       <span class="c3"><br>
-ZIP packed (approx. 43 MiB)</span>:<br>
+ZIP packed (approx. 44 MiB)</span>:<br>
       <br>
-SHA-256: 60d7ffe21220e9a764dbfbc862e6afb967d3c7599bbbf6a93b2588a4a03928e1<br>
-GPG/PGP signature: <a href="pgp/palemoon-27.2.0.win64.zip.sig">[Sig]</a><br>
+SHA-256:
+a25ef22de8bb0967027acc187a34295359a0da355cfc57bfc37b1a481f6641f4<br>
+GPG/PGP signature: <a href="pgp/palemoon-27.2.1.win64.zip.sig">[Sig]</a><br>
       <ul>
-        <li> <a href="http://rm-eu.palemoon.org/release/palemoon-27.2.0.win64.zip">Pale
+        <li> <a
+ href="http://rm-eu.palemoon.org/release/palemoon-27.2.1.win64.zip">Pale
 Moon mirror #1</a> (EU) </li>
-        <li> <a href="http://rm-us.palemoon.org/release/palemoon-27.2.0.win64.zip">Pale
+        <li> <a
+ href="http://rm-us.palemoon.org/release/palemoon-27.2.1.win64.zip">Pale
 Moon mirror #2</a> (US)<br>
-</li>
-        <li><a href="http://rm-as.palemoon.org/release/palemoon-27.2.0.win64.zip">Pale
+        </li>
+        <li><a
+ href="http://rm-as.palemoon.org/release/palemoon-27.2.1.win64.zip">Pale
 Moon mirror #3</a> (Asia)<br>
         </li>
-
-        
       </ul>
       <br>
       <h2> Other downloads<br>
@@ -183,9 +181,7 @@ Older versions: <a href="archived.shtml">here</a>.<br>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
