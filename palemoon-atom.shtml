@@ -1,46 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html dir="ltr" lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon Atom/WinXP builds</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <style type="text/css">
+<html dir="ltr" lang="en">
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon Atom/WinXP builds</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <style type="text/css">
     table.c13 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
     img.c12 {border: 0px solid ; width: 230px; height: 43px;}
     img.c11 {border: 0px solid ; width: 227px; height: 44px;}
@@ -53,26 +25,27 @@
     td.c4 {vertical-align: top; background-color: rgb(204, 204, 255);}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c5">
-            
-            <h1>
-              Intel Atom™ and Windows XP build
-            </h1><span style="color: rgb(204, 0, 0);">Starting
-with Pale Moon 27.0, we no longer support Windows XP and other Windows versions from the same era (Server 2003, etc.) in <span style="font-style: italic;">any</span> of our builds.<br>
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c5">
+      <h1> Intel Atom™ and Windows XP build </h1>
+      <span style="color: rgb(204, 0, 0);">Starting
+with Pale Moon 27.0 (Nov 2016), we no longer support Windows XP and
+other Windows versions from the same era (Server 2003, etc.) in <span
+ style="font-style: italic;">any</span> of our builds.<br>
       <br>
       </span>Further
 testing has also indicated that building
@@ -86,7 +59,8 @@ an upgrade to the main-line x86 build of Pale Moon, with the exception
 of Windows XP users who will not be offered an upgrade past the latest
 compatible version (determined by offered useragent string).<br>
       <br>
-Additional information about Pale Moon on Windows XP can be found <a href="PM_end_of_WinXP_support.shtml">here</a>.<br>
+Additional information about Pale Moon on Windows XP can be found <a
+ href="PM_end_of_WinXP_support.shtml">here</a>.<br>
       <br>
 For your convenience, we keep a direct download link to the installer
 available here, in case you need to install the latest version for
@@ -98,19 +72,23 @@ linked to above.</span><br>
 Pale Moon 26.5.0 for Atom/Windows XP<br>
 Size: 20,087,280 Bytes<br>
 SHA256: 2e52237fdf1da362a07153b743283872a4e20c58c32c35de75e940a42cc3b250<br>
-Download link: <a href="http://rm-eu.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Europe]</a> <a href="http://rm-us.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[USA]</a> <a href="http://rm-as.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Asia]</a><br>
-
+Download link: <a
+ href="http://rm-eu.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Europe]</a>
+      <a
+ href="http://rm-us.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[USA]</a>
+      <a
+ href="http://rm-as.palemoon.org/release/palemoon-26.5.0.Atom.WinXP.installer.exe">[Asia]</a><br>
+      <br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c10"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 <br>
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c10">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+<br>
+</body>
+</html>
