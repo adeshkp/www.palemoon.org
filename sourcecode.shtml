@@ -1,138 +1,144 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Source code</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <meta content="Information on and download of the Pale Moon source code." name="description">
-    <style type="text/css">
+<html lang="en">
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Source code</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta
+ content="Information on and download of the Pale Moon source code."
+ name="description">
+  <style type="text/css">
     td.c5 {vertical-align: top; text-align: center;}
     td.c4 {vertical-align: top;}
     div.c3 {text-align: center;}
     span.c2 {font-weight: bold;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c4">
-            <h1>
-              Pale Moon source code
-            </h1>This page is intended mainly for people interested in the code changes and people needing to audit the
-            browser code for security purposes. <span class="c2">As a regular user, you don't need the source code of
-            the browser.</span><br>
-            <br>
-            <h2>
-              Downloading the source code
-            </h2>The source code of the current <span style="font-weight: bold;">release</span> version:<br>
-            <br>
-            <div class="c3">
-              <a class="dllink_blue" href="ftp://source:current@ftp2.palemoon.org/palemoon-27.2.0-source.7z">Download
-              current release version source code</a><br>
-            </div><br>
-            If you are looking for older/different versions of the source code, check the source code archives on ftp: <a href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
-The source code archive above is for the main-line x86/x64 release
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c4">
+      <h1> Pale Moon source code </h1>
+This page is intended mainly for people interested in the code changes
+and people needing to audit the browser code for security purposes. <span
+ class="c2">As a regular user, you don't need the source code of the
+browser.</span><br>
+      <br>
+      <h2> Downloading the source code </h2>
+The source code of the current <span style="font-weight: bold;">release</span>
+version:<br>
+      <br>
+      <div class="c3"> <a class="dllink_blue"
+ href="ftp://source:current@ftp2.palemoon.org/palemoon-27.2.1-source.7z">Download
+current release version source code</a><br>
+      </div>
+      <br>
+PGP signature: <a
+ href="ftp://source:current@ftp2.palemoon.org/palemoon-27.2.1-source.7z.sig">[Sig]</a><br>
+      <br>
+If you are looking for older/different versions of the source code,
+check the source code archives on ftp: <a
+ href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
+      <br>
+      <span style="font-weight: bold;">Note:</span> The source code
+archive above is for the main-line x86/x64 release
 version of Pale Moon on a Windows file system. If you are interested in
 other release branches or need unix-like file
 system flags in your tree, then please check the git repository linked
 to below where you can find additional source tree archives.<br>
-            <br>
-            <span class="c2">If you want to contribute:</span>
+      <br>
+      <span class="c2">If you want to contribute:</span>
 These source code archives are snapshots of the actual releases of Pale
 Moon, and since it is being actively developed, any patches you may
-want to contribute should usually <span style="font-weight: bold;">not</span> be made against these source code
+want to contribute should usually <span style="font-weight: bold;">not</span>
+be made against these source code
 archives, but against the working development branch instead. This can
 be found in the live repository on GitHub at the following URL, which
 also has archives available for all tagged releases:<br>
-            <div class="c3">
-              <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
-              </div><br>
-            <h2>
-              Hints for building Pale Moon yourself
-            </h2>Please use binaries supplied by us where possible, since we cannot
+      <div class="c3"> <a
+ href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
+      </div>
+      <br>
+      <h2> Hints for building Pale Moon yourself </h2>
+Please use binaries supplied by us where possible, since we cannot
 provide much (if any) support for builds in unknown environments.<br>
       <br>
-If you want to build release versions of Pale Moon from source yourself, a few pointers:<br>
-            <ul>
-              <li>You have to <span style="font-weight: bold;">make sure you are on the current release/development branch</span>.
+If you want to build release versions of Pale Moon from source
+yourself, a few pointers:<br>
+      <ul>
+        <li>You have to <span style="font-weight: bold;">make sure you
+are on the current release/development branch</span>.
 Our "trunk" (master) branch is not suitable to build release-grade
 versions since that is where the tip of our development takes
 place.<br>
-For release versions, check out <span style="font-family: monospace;">{version}_RelBranch</span>, or specific release-tagged commits.<br>
-</li>
-        <li>For Windows, you will need <span style="font-weight: bold;">Visual Studio 2013</span> (either the free Community Edition or the full commercial
-              package). It will <span style="font-style: italic;">not</span>
-              properly build on versions of Visual Studio other than VS2013.<br>
-In its current state, Pale Moon will <span style="font-style: italic;">not</span> build on VS 2015 Community or
+For release versions, check out <span style="font-family: monospace;">{version}_RelBranch</span>,
+or specific release-tagged commits.<br>
+        </li>
+        <li>For Windows, you will need <span style="font-weight: bold;">Visual
+Studio 2013</span> (either the free Community Edition or the full
+commercial package). It will <span style="font-style: italic;">not</span>
+properly build on versions of Visual Studio other than VS2013.<br>
+In its current state, Pale Moon will <span style="font-style: italic;">not</span>
+build on VS 2015 Community or
 Full due to breaking changes in the MSVC compiler. </li>
-
-              <li>For Linux, you will need to use <span style="font-weight: bold;">GCC</span>
+        <li>For Linux, you will need to use <span
+ style="font-weight: bold;">GCC</span>
 (clang is not currently producing stable builds on Linux), 4.9.*
 recommended but later versions might work too. We do not support
 particularly old versions of GCC (&lt; 4.6). GCC v5.* should work for a
 basic (non-optimized) build but may produce unstable builds with
 certain optimizations, v6.* is experimental and not recommended (YMMV).<br>
-              </li>
-              <li>You
+        </li>
+        <li>You
 will need to get the build prerequisites as outlined on the Mozilla
 Developer Network. Most notably, you need the Mozilla Build Tools
 package (2.1-2.2, other versions may or may not work) if building on
 Windows. </li>
-              <li>Pale Moon <span class="c2">should not</span> be built with PGO (Profile-Guided Optimization) or LTO (Link-time optimization). Doing
-              so will likely cause build errors or at the very least result in an unstable browser.</li>
+        <li>Pale Moon <span class="c2">should not</span> be built with
+PGO (Profile-Guided Optimization) or LTO (Link-time optimization).
+Doing so will likely cause build errors or at the very least result in
+an unstable browser.</li>
         <li>Do not build tests. Building tests may or may not work on
 your platform/configuration, and significantly increases build time for
 no gain unless you plan on doing automated testing with the Mozilla
 test harness (we don't provide support for using this test harness).<br>
         </li>
-
-              <li>Pale Moon has been primarily designed for Windows and Linux, and the necessary default-theme changes were
-              made to the relevant themes only. If you want to build for other platforms then be aware that
-              the browser will look different and may need some serious tweaking to be usable or look similar to the
-              Windows/Linux version.<br>
-              </li>
-            </ul><br>
-            <a href="/">[&lt;- Back]</a><br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c5">
-            <!--#include virtual="nav/footer.html" --><br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+        <li>Pale Moon has been primarily designed for Windows and
+Linux, and the necessary default-theme changes were made to the
+relevant themes only. If you want to build for other platforms then be
+aware that the browser will look different and may need some serious
+tweaking to be usable or look similar to the Windows/Linux version.<br>
+        </li>
+      </ul>
+      <br>
+      <a href="/">[&lt;- Back]</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c5"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
