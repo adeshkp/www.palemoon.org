@@ -49,20 +49,6 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">
-Vimeo videos may not play</span><br>
-The way Vimeo uses MSE for a good percentage of their videos (either on
-their main site or embedded in other sites) prevents Pale Moon from
-playing them (videos will not start).<br>
-We are still working on improving MSE and its integration with the
-media components to address this. because of the complexity of the
-media components this will take time.<br>
-          <span style="font-weight: bold;">Status:</span> <span
- style="font-weight: bold; color: rgb(204, 102, 0);">[In Progress]</span><br>
-          <span style="font-weight: bold;">Workaround:</span> Go into
-Options -&gt; Content, and uncheck "Enable MSE for MP4 video". Note
-that this workaround may prevent other sites from displaying video.<br>
-          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
 upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
