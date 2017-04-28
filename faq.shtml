@@ -1,18 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Frequently Asked Questions</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <style type="text/css">
+<html>
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - Frequently Asked Questions</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <style type="text/css">
     td.c10 {vertical-align: top; text-align: center;}
     td.c9 {vertical-align: top;}
     div.c8 {text-align: center;}
@@ -22,135 +21,128 @@
     span.c4 {text-decoration: underline;}
     span.c3 {font-style: italic;}
     span.c2 {color: red;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c9">
-            <h1>
-              <a name="top" id="top"></a>Pale Moon: Frequently Asked Questions (F.A.Q.)
-            </h1>Since there are a number of common questions people have been asking, they are listed here. Please
-            read through these questions and answers before asking for support, as your question may already be
-            included here. This F.A.Q. is limited and will not be expanded further because focus of support has moved
-            to the Pale Moon forum.<br>
-            <br>
-            A more comprehensive list of frequently asked questions can be found in the <a href="http://forum.palemoon.org/viewforum.php?f=24" target="_blank">F.A.Q. section of the Pale Moon Forum</a>.
-            Please make sure to also check there if the question you are looking for is not listed here.<br>
-            <h4>
-              Specific issues with Pale Moon 25 and later:
-            </h4>
-            <ul><li>
-                <a href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6262">Some secure connections fail in Pale
-                Moon, but not in other browsers. What's wrong?</a><br>
-              </li>
-            </ul>
-            <h4>
-              General:
-            </h4>
-            <ul>
-              <li>
-                <a href="#Is_Pale_Moon_safe_to_use">Is Pale Moon safe to use?</a>
-              </li>
-              <li>
-                <a href="#My_antivirus_software_complains">My antivirus software complains that Pale Moon is a trojan
-                or keylogger. What's up with that?</a><br>
-              </li>
-              <li>
-                <a href="#Why_do_some_add-ons_not_work">Why do some add-ons not work (properly) with Pale Moon?</a>
-              </li>
-              <li>
-                <a href="#non-English">Will there be a Pale Moon version in my (non-English) language?</a><br>
-              </li>
-              <li>
-                <a href="#How_do_I_update_Pale_Moon">How do I update Pale Moon?</a><br>
-              </li>
-              <li>
-                <a href="#What_are_the_differences_with_Firefox">What are the differences with Firefox?</a>
-              </li>
-              <li>
-                <a href="#How_does_it_compare_to_other_browsers">How does it compare to other browsers?</a>
-              </li>
-              <li>
-                <a href="#Can_I_run_Pale_Moon_and_Firefox_at_the">Can I run Pale Moon and Firefox at the same time?</a>
-              </li>
-              <li>
-                <a href="#How_do_I_copy_my_existing_Firefox">How do I copy my existing Firefox profile to Pale
-                Moon?</a>
-              </li>
-              <li>
-                <a href="#Will_Firefox_and_Pale_Moon_work_together">Will Firefox and Pale Moon work together in the
-                future?</a>
-              </li>
-              <li>
-                <a href="#Will_Pale_Moon_bundle_the_extension">Will Pale Moon bundle the extension/add-on {xxxx}?</a>
-              </li>
-              <li>
-                <a href="#Can_I_see_your_mozconfig">Can I see your mozconfig/build environment?</a>
-              </li>
-              <li>
-                <a href="#Restore_Tab_Groups">How do I restore Tab Groups in Pale Moon 24.0 and later?</a><br>
-              </li>
-            </ul>
-            <h4>
-              Feature preferences:
-            </h4>
-            <ul>
-              <li>
-                <a href="#Preference:_I_prefer_the_old_Ctrl-Tab">I prefer not to use the graphical "Ctrl-Tab" preview
-                pane, but the old method of paging through tabs instead.</a>
-              </li>
-              <li>
-                <a href="#Preference:_Insert_Tabs_after_current">I prefer that related tabs (from links) are opened immediately to the
-                right of the current tab, like some other browsers do.</a>
-              </li>
-              <li>
-                <a href="#Preference_4.x:_Restore_menu_bar">Pale Moon 4 and later has a title bar button and no menu.
-                How do I get my menu back?</a>
-              </li>
-            </ul><br>
-            <h2 class="faq">
-              The following FAQ entries relate to general questions:
-            </h2>
-            <h3>
-              <a name="Is_Pale_Moon_safe_to_use" id="Is_Pale_Moon_safe_to_use"></a>Is Pale Moon safe to use?
-            </h3>Absolutely! Pale Moon is based on the Mozilla release source code that has a large community of
-            developers and security-aware people, next to having seen over a decade of development by now. In addition,
-            the Pale Moon team checks and verifies any reports of issues that might impact your safety on the web. It
-            includes, among other things, protection against dangerous add-ons, automatic checking for updates of
-            add-ons, password protection (master password), website-identity information in the address bar, and
-            private browsing.<br>
-            <br>
-            Pale Moon's development includes a critical evaluation of potential security risks which are addressed in
-            each new release, with on occasion a point-release for critical issues that is released as soon as possible
-            after the security issue comes to light.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="My_antivirus_software_complains" id="My_antivirus_software_complains"></a>My antivirus software
-              complains that Pale Moon is a trojan, keylogger, PUP, PUA, ...
-            </h3>Some Antivirus software is a little too paranoid in their scanning for potentially dangerous programs.
-            It seems scanning with what is called "heuristics" is still something extremely difficult for antivirus
-            suites to implement properly, and as a result, some AV scanners are rather paranoid whenever a complex
-            piece of optimized software is encountered, especially if it interacts with multiple other programs and the
-            Internet (like the plugin container does). <span class="c2">Pale Moon has been scanned by several leading
-            and independent software distributors and found to be 100% clean and safe.</span><br>
-            <br>
-            If your anti-malware package keeps complaining and your system is otherwise clean, please report it to your
-            security software vendor as a false positive. Reporting it to the browser author serves no purpose as it's
-            the malware detector's scanning engine that needs fixing.<br>
-            <br>
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c9">
+      <h1> <a name="top" id="top"></a>Pale Moon: Frequently Asked
+Questions (F.A.Q.) </h1>
+Since there are a number of common questions people have been asking,
+they are listed here. Please read through these questions and answers
+before asking for support, as your question may already be included
+here. This F.A.Q. is limited and will not be expanded further because
+focus of support has moved to the Pale Moon forum.<br>
+      <br>
+A more comprehensive list of frequently asked questions can be found in
+the <a href="http://forum.palemoon.org/viewforum.php?f=24"
+ target="_blank">F.A.Q. section of the Pale Moon Forum</a>. Please make
+sure to also check there if the question you are looking for is not
+listed here.<br>
+      <h4> Specific issues with Pale Moon 25 and later: </h4>
+      <ul>
+        <li> <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=6262">Some
+secure connections fail in Pale Moon, but not in other browsers. What's
+wrong?</a><br>
+        </li>
+      </ul>
+      <h4> General: </h4>
+      <ul>
+        <li> <a href="#Is_Pale_Moon_safe_to_use">Is Pale Moon safe to
+use?</a> </li>
+        <li> <a href="#My_antivirus_software_complains">My antivirus
+software complains that Pale Moon is a trojan or keylogger. What's up
+with that?</a><br>
+        </li>
+        <li> <a href="#Why_do_some_add-ons_not_work">Why do some
+add-ons not work (properly) with Pale Moon?</a> </li>
+        <li> <a href="#non-English">Will there be a Pale Moon version
+in my (non-English) language?</a><br>
+        </li>
+        <li> <a href="#How_do_I_update_Pale_Moon">How do I update Pale
+Moon?</a><br>
+        </li>
+        <li> <a href="#What_are_the_differences_with_Firefox">What are
+the differences with Firefox?</a> </li>
+        <li> <a href="#How_does_it_compare_to_other_browsers">How does
+it compare to other browsers?</a> </li>
+        <li> <a href="#Can_I_run_Pale_Moon_and_Firefox_at_the">Can I
+run Pale Moon and Firefox at the same time?</a> </li>
+        <li> <a href="#How_do_I_copy_my_existing_Firefox">How do I
+copy my existing Firefox profile to Pale Moon?</a> </li>
+        <li> <a href="#Will_Firefox_and_Pale_Moon_work_together">Will
+Firefox and Pale Moon work together in the future?</a> </li>
+        <li> <a href="#Will_Pale_Moon_bundle_the_extension">Will Pale
+Moon bundle the extension/add-on {xxxx}?</a> </li>
+        <li> <a href="#Can_I_see_your_mozconfig">Can I see your
+mozconfig/build environment?</a> </li>
+        <li> <a href="#Restore_Tab_Groups">How do I restore Tab Groups
+in Pale Moon 24.0 and later?</a><br>
+        </li>
+      </ul>
+      <h4> Feature preferences: </h4>
+      <ul>
+        <li> <a href="#Preference:_I_prefer_the_old_Ctrl-Tab">I prefer
+not to use the graphical "Ctrl-Tab" preview pane, but the old method of
+paging through tabs instead.</a> </li>
+        <li> <a href="#Preference:_Insert_Tabs_after_current">I prefer
+that related tabs (from links) are opened immediately to the right of
+the current tab, like some other browsers do.</a> </li>
+        <li> <a href="#Preference_4.x:_Restore_menu_bar">Pale Moon 4
+and later has a title bar button and no menu. How do I get my menu back?</a>
+        </li>
+      </ul>
+      <br>
+      <h2 class="faq"> The following FAQ entries relate to general
+questions: </h2>
+      <h3> <a name="Is_Pale_Moon_safe_to_use"
+ id="Is_Pale_Moon_safe_to_use"></a>Is Pale Moon safe to use? </h3>
+Absolutely! Pale Moon is based on the Mozilla release source code that
+has a large community of developers and security-aware people, next to
+having seen over a decade of development by now. In addition, the Pale
+Moon team checks and verifies any reports of issues that might impact
+your safety on the web. It includes, among other things, protection
+against dangerous add-ons, automatic checking for updates of add-ons,
+password protection (master password), website-identity information in
+the address bar, and private browsing.<br>
+      <br>
+Pale Moon's development includes a critical evaluation of potential
+security risks which are addressed in each new release, with on
+occasion a point-release for critical issues that is released as soon
+as possible after the security issue comes to light.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="My_antivirus_software_complains"
+ id="My_antivirus_software_complains"></a>My antivirus software
+complains that Pale Moon is a trojan, keylogger, PUP, PUA, ... </h3>
+Some Antivirus software is a little too paranoid in their scanning for
+potentially dangerous programs. It seems scanning with what is called
+"heuristics" is still something extremely difficult for antivirus
+suites to implement properly, and as a result, some AV scanners are
+rather paranoid whenever a complex piece of optimized software is
+encountered, especially if it interacts with multiple other programs
+and the Internet (like the plugin container does). <span class="c2">Pale
+Moon has been scanned by several leading and independent software
+distributors and found to be 100% clean and safe.</span><br>
+      <br>
+If your anti-malware package keeps complaining and your system is
+otherwise clean, please report it to your security software vendor as a
+false positive. Reporting it to the browser author serves no purpose as
+it's the malware detector's scanning engine that needs fixing.<br>
+      <br>
 A critical note: the popular AVG and Norton scanners seems to be
 particularly paranoid about Pale Moon and have, in numerous cases,
 "fixed" what wasn't broken, i.e. deleted parts of the browser resulting
@@ -158,117 +150,143 @@ in a broken or destroyed browser. It's therefore recommended to never
 let an AV suite "automatically clean" your system. There are plenty of
 free-for-home-use antivirus packages available to verify the detection
 and get a "second opinion" if you don't trust what you downloaded.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Why_do_some_add-ons_not_work" id="Why_do_some_add-ons_not_work"></a>Why do some add-ons not work
-              (properly) with Pale Moon?
-            </h3>Pale Moon is forked from Firefox, and there are some significant differences between the two browsers. As
-            such, Pale Moon has its own (exclusive) extensions that were specifically written for it, which should
-            always work. In addition, Pale Moon also allows Firefox extensions to be installed, as long as these
-            extensions are compatible with version 24 of Firefox (since that is the closest matching version from an
-            add-on perspective). These Firefox extensions are not guaranteed to work, but in most cases can be made
-            compatible with a few small alterations. This incompatibility can be caused by several different things,
-            the most important:<br>
-            <ul>
-              <li>Difference in user interface or back-end code: Pale Moon is different from Firefox "under the hood"
-              as well as in what is visible. Firefox extensions that use specific part of the user interface or
-              back-end code that aredifferent will have compatibility issues.
-              </li>
-              <li>Difference in GUID (unique identifier): Firefox and Pale Moon use a different unique identifier. This
-              identifier is used to cater extensions or parts thereof (like overlays) to specific "target
-              applications". If Pale Moon's GUID isn't included in such extensions, it will likely be missing user
-              interface elements. You will have to contact the extension developer and ask for pale Moon's GUID to be
-              added in the proper places to make it compatible.<br>
-              </li>
-              <li>Naming: some add-ons or external programs expect the program to be called "firefox.exe" - a simple
-              problem with a simple solution for the add-on programmers to implement.
-              </li>
-              <li>Use of components not present in Pale Moon: If an add-on tries to use components that are
-              specifically excluded from Pale Moon (like accessibility features, ActiveX, parental controls) it will
-              fail.</li>
-        <li>The extension was never written for our extension API level (e.g. Australis-only extensions).<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Why_do_some_add-ons_not_work"
+ id="Why_do_some_add-ons_not_work"></a>Why do some add-ons not work
+(properly) with Pale Moon? </h3>
+Pale Moon is forked from Firefox, and there are some significant
+differences between the two browsers. As such, Pale Moon has its own
+(exclusive) extensions that were specifically written for it, which
+should always work. In addition, Pale Moon also allows Firefox
+extensions to be installed, as long as these extensions are compatible
+with version 24 of Firefox (since that is the closest matching version
+from an add-on perspective). These Firefox extensions are not
+guaranteed to work, but in most cases can be made compatible with a few
+small alterations. This incompatibility can be caused by several
+different things, the most important:<br>
+      <ul>
+        <li>Difference in user interface or back-end code: Pale Moon is
+different from Firefox "under the hood" as well as in what is visible.
+Firefox extensions that use specific part of the user interface or
+back-end code that aredifferent will have compatibility issues. </li>
+        <li>Difference in GUID (unique identifier): Firefox and Pale
+Moon use a different unique identifier. This identifier is used to
+cater extensions or parts thereof (like overlays) to specific "target
+applications". If Pale Moon's GUID isn't included in such extensions,
+it will likely be missing user interface elements. You will have to
+contact the extension developer and ask for pale Moon's GUID to be
+added in the proper places to make it compatible.<br>
         </li>
-
-            </ul>That being said, most add-ons do function without a hitch. Even so, you are encouraged to check the <a href="https://addons.palemoon.org/">Pale Moon add-ons site</a> for Pale Moon specific add-ons or alternatives to what you are using if you suspect there may be a compatibility issue.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Does_it_come_with_a_preloader" id="Does_it_come_with_a_preloader"></a>Does it come with a
-              preloader?
-            </h3>Pale Moon does not come with a preloader, or "quick start" tool that loads components of the browser
-            in memory and keeps them resident there. As it is, startup times of Pale Moon are generally sufficiently
-            low not to need something like that. External preloaders may not work with Pale Moon for the same reason
-            some add-ons may not work.<br>
-
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              Will there be a version in my (<a name="non-English" id="non-English"></a>non-English) language?
-            </h3>Pale Moon is released as a US-English browser. If you prefer a different language for the User
-            Interface, you can install a Pale Moon language pack and set your browser to use it.<br>
-            More information here: <a href="http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="How_do_I_update_Pale_Moon" id="How_do_I_update_Pale_Moon"></a>How do I update Pale Moon?
-            </h3>Pale Moon has a built-in update checker. If you let Pale
-            Moon automatically check for updates (which occurs every other day by default), you will be notified and given
-            the option to download and install the later version from within the browser. You can also manually check
-            and start the update from Pale Moon's Help -&gt; About dialog box.<br>
-            <br>
-            To be informed more quickly of new releases, and stay updated with some other miscellaneous news related to
-            Pale Moon and the Pale Moon web site, you have a few options:<br>
-            <ol>
-              <li>You can <a href="http://forum.palemoon.org/ucp.php?mode=register">register on the Pale Moon
-              forum</a>, and subscribe to the Announcements board, which will send you an e-mail when a new
-              announcement is posted to it. Your e-mail is safe, it will never be disclosed to anyone for any reason.
-              </li>
-              <li>You can use the RSS/Atom feed of the forum's Announcements board, either by using a separate RSS
-              reader or simply by going to the following URL and making it a Live Bookmark (built-in functionality of
-              Pale Moon): <a href="http://forum.palemoon.org/feed.php?f=1">http://forum.palemoon.org/feed.php?f=1</a>
-              </li>
-              <li>You can also follow the <a href="https://twitter.com/palemoonbrowser">Twitter feed</a>
-              </li>
-              <li>You can also like/follow the <a href="http://www.facebook.com/PaleMoonBrowser">Facebook page</a><br>
-                </li>
-            </ol><a href="https://twitter.com/palemoonbrowser"></a>To update Pale Moon manually, simply download the
-            installer of the new version and run it. No need to uninstall first! You can install the new version in the
-            same location as the old one, and it will perform an upgrade.<br>
-            <br>
-            Note: If you are one of the people using a ZIP packed version, it is recommended you remove the old browser
-            installation first, and not unpack a new version on top of an old one, because the program structure and
-            included files may have changed across versions.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="What_are_the_differences_with_Firefox" id="What_are_the_differences_with_Firefox"></a>What are
-              the differences with Firefox?
-            </h3>Firefox
+        <li>Naming: some add-ons or external programs expect the
+program to be called "firefox.exe" - a simple problem with a simple
+solution for the add-on programmers to implement. </li>
+        <li>Use of components not present in Pale Moon: If an add-on
+tries to use components that are specifically excluded from Pale Moon
+(like accessibility features, ActiveX, parental controls) it will fail.</li>
+        <li>The extension was never written for our extension API level
+(e.g. Australis-only extensions).<br>
+        </li>
+      </ul>
+That being said, most add-ons do function without a hitch. Even so, you
+are encouraged to check the <a href="https://addons.palemoon.org/">Pale
+Moon add-ons site</a> for Pale Moon specific add-ons or alternatives to
+what you are using if you suspect there may be a compatibility issue.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Does_it_come_with_a_preloader"
+ id="Does_it_come_with_a_preloader"></a>Does it come with a preloader? </h3>
+Pale Moon does not come with a preloader, or "quick start" tool that
+loads components of the browser in memory and keeps them resident
+there. As it is, startup times of Pale Moon are generally sufficiently
+low not to need something like that. External preloaders may not work
+with Pale Moon for the same reason some add-ons may not work.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> Will there be a version in my (<a name="non-English"
+ id="non-English"></a>non-English) language? </h3>
+Pale Moon is released as a US-English browser. If you prefer a
+different language for the User Interface, you can install a Pale Moon
+language pack and set your browser to use it.<br>
+More information here: <a
+ href="http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="How_do_I_update_Pale_Moon"
+ id="How_do_I_update_Pale_Moon"></a>How do I update Pale Moon? </h3>
+Pale Moon has a built-in update checker. If you let Pale Moon
+automatically check for updates (which occurs every other day by
+default), you will be notified and given the option to download and
+install the later version from within the browser. You can also
+manually check and start the update from Pale Moon's Help -&gt; About
+dialog box.<br>
+      <br>
+To be informed more quickly of new releases, and stay updated with some
+other miscellaneous news related to Pale Moon and the Pale Moon web
+site, you have a few options:<br>
+      <ol>
+        <li>You can <a
+ href="http://forum.palemoon.org/ucp.php?mode=register">register on the
+Pale Moon forum</a>, and subscribe to the Announcements board, which
+will send you an e-mail when a new announcement is posted to it. Your
+e-mail is safe, it will never be disclosed to anyone for any reason. </li>
+        <li>You can use the RSS/Atom feed of the forum's Announcements
+board, either by using a separate RSS reader or simply by going to the
+following URL and making it a Live Bookmark (built-in functionality of
+Pale Moon): <a href="http://forum.palemoon.org/feed.php?f=1">http://forum.palemoon.org/feed.php?f=1</a>
+        </li>
+        <li>You can also follow the <a
+ href="https://twitter.com/palemoonbrowser">Twitter feed</a> </li>
+        <li>You can also like/follow the <a
+ href="http://www.facebook.com/PaleMoonBrowser">Facebook page</a><br>
+        </li>
+      </ol>
+      <a href="https://twitter.com/palemoonbrowser"></a>To update Pale
+Moon manually, simply download the installer of the new version and run
+it. No need to uninstall first! You can install the new version in the
+same location as the old one, and it will perform an upgrade.<br>
+      <br>
+Note: If you are one of the people using a ZIP packed version, it is
+recommended you remove the old browser installation first, and not
+unpack a new version on top of an old one, because the program
+structure and included files may have changed across versions.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="What_are_the_differences_with_Firefox"
+ id="What_are_the_differences_with_Firefox"></a>What are the
+differences with Firefox? </h3>
+Firefox
 and Pale Moon have similar roots in the Mozilla Community code, and
 Pale Moon has been originally based on Firefox code, but as a product,
 Pale Moon has diverted significantly from its sibling, and has its own
 code, development path and future, independent of what the Mozilla
 Corporation does with Firefox.<br>
       <br>
-Firefox is created with one-size-fits-all in mind; Pale Moon is created with
-efficiency and user choice in mind. <span class="c3">These two approaches are mutually exclusive</span>, and result in
-            some functions being present/absent in one browser but not the other, as well as different system
-            requirements for either browser. Pale Moon also has a different set of goals as to what should be included
-            in the browser and intended audience.<br>
-            <br>
-            Pale Moon has a number of differences in the user interface and feature set to provide an as intuitive,
-            predictable, logical and usable user interface as possible for the best user experience. Additional and
-            removed features are, of course, specific to Pale Moon, meaning you may find some different way of working
-            Pale Moon than what you are used to from other browsers, and some features or options not found in other
-            browsers at all.<br><br>
-            Note that Pale Moon will <span class="c4">never</span> adopt the Australis (Firefox 29 and later)
-            interface and aims to remain a fully XUL-driven browser with full user interface customizability.<br>
+Firefox is created with one-size-fits-all in mind; Pale Moon is created
+with
+efficiency and user choice in mind. <span class="c3">These two
+approaches are mutually exclusive</span>, and result in some functions
+being present/absent in one browser but not the other, as well as
+different system requirements for either browser. Pale Moon also has a
+different set of goals as to what should be included in the browser and
+intended audience.<br>
+      <br>
+Pale Moon has a number of differences in the user interface and feature
+set to provide an as intuitive, predictable, logical and usable user
+interface as possible for the best user experience. Additional and
+removed features are, of course, specific to Pale Moon, meaning you may
+find some different way of working Pale Moon than what you are used to
+from other browsers, and some features or options not found in other
+browsers at all.<br>
+      <br>
+Note that Pale Moon will <span class="c4">never</span> adopt the
+Australis (Firefox 29 and later) interface and aims to remain a fully
+XUL-driven browser with full user interface customizability.<br>
       <br>
 Also please note that Pale Moon has not run rampant with its releases
 and even though there is a big gap in version number between the two,
@@ -276,51 +294,62 @@ you should never assume Pale Moon is somehow an "outdated Firefox".
 Pale Moon is a completely separate product with its own roadmap,
 direction, versioning and release schedule, unlike all other
 "Firefox-based" browsers out there.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="How_does_it_compare_to_other_browsers" id="How_does_it_compare_to_other_browsers"></a>How does
-              it compare to other browsers?
-            </h3>This is very much a subjective question, and there is no single answer to it. Short answer: YMMV (Your
-            Mileage May Vary) -- it all depends on what you are looking for in a browser to choose which one would work
-            best for you. In general, Pale Moon aims to be full-featured, but without compromise to efficient
-            resource/hardware use. <span class="c5">It doesn't necessarily aim to be a lightweight browser</span>,
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="How_does_it_compare_to_other_browsers"
+ id="How_does_it_compare_to_other_browsers"></a>How does it compare to
+other browsers? </h3>
+This is very much a subjective question, and there is no single answer
+to it. Short answer: YMMV (Your Mileage May Vary) -- it all depends on
+what you are looking for in a browser to choose which one would work
+best for you. In general, Pale Moon aims to be full-featured, but
+without compromise to efficient resource/hardware use. <span class="c5">It
+doesn't necessarily aim to be a lightweight browser</span>,
 but seems to achieve that goal in some circumstances as a side effect.
 Overall, comparison between browsers would put Pale Moon in a similar
-position to Firefox since it it has its roots in the same rendering and scripting
-engines. Goanna is a fork of Gecko, and they both use *Monkey-based JavaScript engines.<br>
+position to Firefox since it it has its roots in the same rendering and
+scripting
+engines. Goanna is a fork of Gecko, and they both use *Monkey-based
+JavaScript engines.<br>
 Synthetic benchmarks aren't the end-all of things, so
 it's difficult to obtain unbiased comparisons between different
 browsers through them, and a higher benchmark score doesn't necessarily
 mean that a browser would perform better in a real-world browsing
 situation. Quite the opposite is the case in some situations.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Can_I_run_Pale_Moon_and_Firefox_at_the" id="Can_I_run_Pale_Moon_and_Firefox_at_the"></a>Can I
-              run Pale Moon and Firefox at the same time?
-            </h3>Yes, you will be able to start Firefox and Pale Moon at the same time since they are completely
-            different products that only share a common ancestor.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="How_do_I_copy_my_existing_Firefox" id="How_do_I_copy_my_existing_Firefox"></a>How do I copy my
-              existing Firefox profile to Pale Moon?<br>
-            </h3>To migrate a Firefox profile (bookmarks, history, add-ons, etc.) to Pale Moon, you can <a href="migrationtool.shtml">USE THIS TOOL</a>.
-This tool will copy the profile(s) from Firefox to Pale Moon. Please
-note that this tool is limited because of the increasing differences
-between Firefox and Pale Moon.<br>
-            If, for whatever reason, the tool doesn't work, you will have to copy things manually.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Will_Firefox_and_Pale_Moon_work_together" id="Will_Firefox_and_Pale_Moon_work_together"></a>Will
-              Firefox and Pale Moon work together in the future?
-            </h3>Since
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Can_I_run_Pale_Moon_and_Firefox_at_the"
+ id="Can_I_run_Pale_Moon_and_Firefox_at_the"></a>Can I run Pale Moon
+and Firefox at the same time? </h3>
+Yes, you will be able to start Firefox and Pale Moon at the same time
+since they are completely different products that only share a common
+ancestor.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="How_do_I_copy_my_existing_Firefox"
+ id="How_do_I_copy_my_existing_Firefox"></a>How do I copy my existing
+Firefox profile to Pale Moon?<br>
+      </h3>
+Unfortunately, due to Mozilla's incessant changes to the different
+storage formats of data in the profile, that are not directly
+compatible with Pale Moon and regularly cause issues, we currently do
+not have an easy way to import existing Firefox profiles as a whole.<br>
+You can, however, import your bookmarks by first exporting them from
+Firefox (Bookmarks -&gt; Show all Bookmarks -&gt; Import and backup
+-&gt; Export bookmarks to HTML), then importing them in Pale Moon (in
+the same location, but then choose "Import bookmarks from HTML").<br>
+Other data like stored passwords can possibly be exported/imported
+using extensions. For more assistance, please ask for help on the forum.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Will_Firefox_and_Pale_Moon_work_together"
+ id="Will_Firefox_and_Pale_Moon_work_together"></a>Will Firefox and
+Pale Moon work together in the future? </h3>
+Since
 the Mozilla Corporation has obviously chosen to follow a different path
 at the management level and has set different goals for its browser, it
 doesn't seem likely that Pale Moon and Firefox will ever see a
@@ -330,20 +359,25 @@ course, that doesn't mean there is no communication or that there is a
 communication about security updates, for example, and one could say
 that the diversity seen here offers different users a closer match to
 what they need.<br>
-            <br>
-            <a href="mailto:beltzner%5Bat%5Dmozilla.com" rel="contact colleague"></a> There have been and are growing
-            conflicts of interests between Pale Moon and Firefox as far as the so-called UX (User eXperience)
-            developments are concerned. This results in a different user interface approach in Pale Moon. For example,
-            less stress is put on minimizing the size of UI elements or saving every pixel possible to benefit the
-            content area - in this day and age of full HD monitors and laptops that seems to be very counter-intuitive.
-            <span class="c5">Australis is considered unacceptable</span>, and will not be used.<br>
-            <br>
+      <br>
+      <a href="mailto:beltzner%5Bat%5Dmozilla.com"
+ rel="contact colleague"></a> There have been and are growing conflicts
+of interests between Pale Moon and Firefox as far as the so-called UX
+(User eXperience) developments are concerned. This results in a
+different user interface approach in Pale Moon. For example, less
+stress is put on minimizing the size of UI elements or saving every
+pixel possible to benefit the content area - in this day and age of
+full HD monitors and laptops that seems to be very counter-intuitive. <span
+ class="c5">Australis is considered unacceptable</span>, and will not
+be used.<br>
+      <br>
 On the flipside, some developers seem to complain that Pale Moon "is no
 different than other optimized (re)builds out there", meaning other
 people who have built Firefox from source with minimal tweaks or
 changes. Following the step-by-step
 instructions in the Mozilla Developer Center, and probably with some
-trial and error, anyone with a decent level of computer knowledge <span class="c3">could</span>
+trial and error, anyone with a decent level of computer knowledge <span
+ class="c3">could</span>
 build Firefox (if you have the right hardware and software),
 but that doesn't necessarily mean it's going to be stable or efficient,
 or that the result would be more than just a differently configured
@@ -356,36 +390,49 @@ for the browser, steadily diverging Pale Moon from its sibling in the
 direction aimed for in this browser - having transformed it from an
 optimized build (which it was when it first started out in 2009) into a
 true "fork" of Mozilla code and being completely independent now.<br>
-            <br>
-            Some have even claimed that the Pale Moon project as such was given shape to gain fame -- they should
-            consider that the popularity was unexpected. <span class="c4">Pale Moon is, and has always been, released
-            in the hope that it might be useful to its users</span>, nothing more. It is a full-time commitment of our
-            small but dedicated team of developers, and I'm happy to see it finding good use among its growing number of users.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Will_Pale_Moon_bundle_the_extension" id="Will_Pale_Moon_bundle_the_extension"></a>Will Pale Moon
-              bundle the extension/add-on {xxxx}?
-            </h3>Pale Moon releases come without any pre-defined and pre-installed add-ons/extensions.<br>
-            There are a number of "custom" browsers out that are basically a stock Firefox with simply added a number
-            of add-ons and released as a package - this is fine if you are looking for a browser that comes
-            pre-installed with extensions for a specific purpose and you don't want to install them yourself, but this
-            is not part of Pale Moon's goals.<br>
-            <br>
-            Pale Moon will be released as a browser without any extensions, since users of Pale Moon should have
-            <span class="c5">freedom of choice</span> to install or not install any extensions/add-ons that are
-            available for it. I would of course strongly recommend to look through the add-ons site for Pale Moon and
-            Firefox and pick some that you think work well for you, or use the add-ons window in the browser to search
-            for extensions on specific keywords, as there are some real gems out there, but by policy, <span class="c5">Pale Moon will not bundle any add-ons with the browser</span>.<br>
-            <br>
-            If you see Pale Moon offered bundled with extensions or "extra functionality" or whatever people would like
-            to call it, it will be an unofficial download and is not recommended (and potentially dangerous or unstable
-            - you don't know what all has been added to or changed in the browser). <span class="c5">Don't rely on
-            unofficial downloads or releases offered with add-ons/extensions already in it.</span> Go the official
-            route if you need extra functionality and install Pale Moon, then add your extensions to it.<br>
-            <br>
-            <span class="c6">Historical note: The</span> <span class="c7">one</span><span class="c6">
+      <br>
+Some have even claimed that the Pale Moon project as such was given
+shape to gain fame -- they should consider that the popularity was
+unexpected. <span class="c4">Pale Moon is, and has always been,
+released in the hope that it might be useful to its users</span>,
+nothing more. It is a full-time commitment of our small but dedicated
+team of developers, and I'm happy to see it finding good use among its
+growing number of users.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Will_Pale_Moon_bundle_the_extension"
+ id="Will_Pale_Moon_bundle_the_extension"></a>Will Pale Moon bundle the
+extension/add-on {xxxx}? </h3>
+Pale Moon releases come without any pre-defined and pre-installed
+add-ons/extensions.<br>
+There are a number of "custom" browsers out that are basically a stock
+Firefox with simply added a number of add-ons and released as a package
+- this is fine if you are looking for a browser that comes
+pre-installed with extensions for a specific purpose and you don't want
+to install them yourself, but this is not part of Pale Moon's goals.<br>
+      <br>
+Pale Moon will be released as a browser without any extensions, since
+users of Pale Moon should have <span class="c5">freedom of choice</span>
+to install or not install any extensions/add-ons that are available for
+it. I would of course strongly recommend to look through the add-ons
+site for Pale Moon and Firefox and pick some that you think work well
+for you, or use the add-ons window in the browser to search for
+extensions on specific keywords, as there are some real gems out there,
+but by policy, <span class="c5">Pale Moon will not bundle any add-ons
+with the browser</span>.<br>
+      <br>
+If you see Pale Moon offered bundled with extensions or "extra
+functionality" or whatever people would like to call it, it will be an
+unofficial download and is not recommended (and potentially dangerous
+or unstable - you don't know what all has been added to or changed in
+the browser). <span class="c5">Don't rely on unofficial downloads or
+releases offered with add-ons/extensions already in it.</span> Go the
+official route if you need extra functionality and install Pale Moon,
+then add your extensions to it.<br>
+      <br>
+      <span class="c6">Historical note: The</span> <span class="c7">one</span><span
+ class="c6">
 notable exception was the Pale Moon status bar add-on that came with
 versions 4 to 9; this was chosen as a solution over editing the core
 layout of the browser to prevent incompatibilities and unnecessary
@@ -394,86 +441,98 @@ Moon users. It was therefore considered a "core functionality add-on"
 that forms an essential part of the browser itself. In later versions,
 this add-on is no longer included as an add-on, since the functionality
 has been re-integrated into the browser.</span><br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Can_I_see_your_mozconfig" id="Can_I_see_your_mozconfig"></a>Can I see your mozconfig/build
-              environment/configuration files?
-            </h3>A few people have asked about getting a detailed run-down of my development environment,
-            configuration, .mozconfig file, path details, release engineering tools, etc.; clearly not always with good
-            intentions.<br>
-            <br>
-            The answer is: <span class="c5">No, you do not need that
-            info</span>.<br>
-            <br>
-            That being said, Pale Moon is released fully as Open Source, with downloadable source code released under
-            the Mozilla Public License v2.0, and with a Github repository available at <a href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
-
-            In addition, I've created basic <a href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=4166">build
-            instructions</a> on the forum that will allow you to build the browser from source.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Restore_Tab_Groups" id="Restore_Tab_Groups"></a>How do I restore Tab Groups/Panorama in Pale
-              Moon 24+?
-            </h3>Pale Moon 24 and later <span class="c5">do not</span> include Tab Groups (formerly known as Panorama
-            or Tab Candy) in the <span class="c5">core</span> of the browser anymore.<br>
-            <span class="c5">To restore this functionality, you have to download the palemoon-tabgroups add-on</span>,
-            which you can download from this website (Tools menu).<br>
-            <br>
-            After restarting, you will have access to Tab Groups like before.<br>
-            <br>
-            To get the Tab Groups button back after installing the add-on:<br>
-            Right-click a toolbar area, and select "<span class="c3">Customize</span>". In the customization window
-            that pops up, you will find the <span class="c3">Tab Groups icon</span>, which you can drag to any
-            preferred location in your browser interface.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h2 class="faq">
-              The following FAQ entries relate to feature preferences:
-            </h2>
-            <h3>
-              <a name="Preference:_I_prefer_the_old_Ctrl-Tab" id="Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference: I prefer the Firefox Ctrl-Tab behavior
-            </h3>If
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Can_I_see_your_mozconfig"
+ id="Can_I_see_your_mozconfig"></a>Can I see your mozconfig/build
+environment/configuration files? </h3>
+A few people have asked about getting a detailed run-down of my
+development environment, configuration, .mozconfig file, path details,
+release engineering tools, etc.; clearly not always with good
+intentions.<br>
+      <br>
+The answer is: <span class="c5">No, you do not need that info</span>.<br>
+      <br>
+That being said, Pale Moon is released fully as Open Source, with
+downloadable source code released under the Mozilla Public License
+v2.0, and with a Github repository available at <a
+ href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
+In addition, I've created basic <a
+ href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=4166">build
+instructions</a> on the forum that will allow you to build the browser
+from source.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Restore_Tab_Groups" id="Restore_Tab_Groups"></a>How
+do I restore Tab Groups/Panorama in Pale Moon 24+? </h3>
+Pale Moon 24 and later <span class="c5">do not</span> include Tab
+Groups (formerly known as Panorama or Tab Candy) in the <span
+ class="c5">core</span> of the browser anymore.<br>
+      <span class="c5">To restore this functionality, you have to
+download the palemoon-tabgroups add-on</span>, which you can download
+from this website (Tools menu).<br>
+      <br>
+After restarting, you will have access to Tab Groups like before.<br>
+      <br>
+To get the Tab Groups button back after installing the add-on:<br>
+Right-click a toolbar area, and select "<span class="c3">Customize</span>".
+In the customization window that pops up, you will find the <span
+ class="c3">Tab Groups icon</span>, which you can drag to any preferred
+location in your browser interface.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h2 class="faq"> The following FAQ entries relate to feature
+preferences: </h2>
+      <h3> <a name="Preference:_I_prefer_the_old_Ctrl-Tab"
+ id="Preference:_I_prefer_the_old_Ctrl-Tab"></a>Preference: I prefer
+the Firefox Ctrl-Tab behavior </h3>
+If
 you don't like the graphical preview pane for switching between browser
 tabs, you can restore the method as also found in Firefox:<br>
-            In the address bar, type <a href="about:config">about:config</a> and press enter. This opens the advanced
-            configuration editor.<br>
-            Find the parameter <span class="c3">browser.ctrlTab.previews</span> and set it to <span class="c3">false</span><br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Preference:_Insert_Tabs_after_current" id="Preference:_Insert_Tabs_after_current"></a>Preference: I prefer related Tabs to be inserted next to the
-              current Tab
-            </h3>If you prefer related (linked) new browser tabs to be inserted immediately to the right of your currently active tab,
-            Pale Moon does offer this feature (like some other browsers).<br>You can find this feature under Options, category Tabs.<br>
-            <br>
-            <a href="#top">[^ Top ^]</a><br>
-            <br>
-            <h3>
-              <a name="Preference_4.x:_Restore_menu_bar" id="Preference_4.x:_Restore_menu_bar"></a>Preference: I prefer
-              to use the old style menu bar.
-            </h3>On Windows versions that support it, Pale Moon 4 and later will, by default, hide the menu bar and
-            show an application menu pane from a button in the title bar, instead. If you prefer the standard windows
-            application layout with a menu bar and the page title shown in the title bar of the application, hover over
-            Options until the sub-menu opens (or click the arrowhead), then click "Menu Bar":<br>
-            <div class="c8">
-              <img alt="Version 4: how to restore the menu bar." src="images/v4-restoremenu.png"><br>
-            </div><a href="#top">[^ Top ^]</a><br>
-            <a href="http://www.palemoon.org/"></a><br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c10">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+In the address bar, type <a href="about:config">about:config</a> and
+press enter. This opens the advanced configuration editor.<br>
+Find the parameter <span class="c3">browser.ctrlTab.previews</span>
+and set it to <span class="c3">false</span><br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Preference:_Insert_Tabs_after_current"
+ id="Preference:_Insert_Tabs_after_current"></a>Preference: I prefer
+related Tabs to be inserted next to the current Tab </h3>
+If you prefer related (linked) new browser tabs to be inserted
+immediately to the right of your currently active tab, Pale Moon does
+offer this feature (like some other browsers).<br>
+You can find this feature under Options, category Tabs.<br>
+      <br>
+      <a href="#top">[^ Top ^]</a><br>
+      <br>
+      <h3> <a name="Preference_4.x:_Restore_menu_bar"
+ id="Preference_4.x:_Restore_menu_bar"></a>Preference: I prefer to use
+the old style menu bar. </h3>
+On Windows versions that support it, Pale Moon 4 and later will, by
+default, hide the menu bar and show an application menu pane from a
+button in the title bar, instead. If you prefer the standard windows
+application layout with a menu bar and the page title shown in the
+title bar of the application, hover over Options until the sub-menu
+opens (or click the arrowhead), then click "Menu Bar":<br>
+      <div class="c8"> <img
+ alt="Version 4: how to restore the menu bar."
+ src="images/v4-restoremenu.png"><br>
+      </div>
+      <a href="#top">[^ Top ^]</a><br>
+      <a href="http://www.palemoon.org/"></a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c10"><!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>

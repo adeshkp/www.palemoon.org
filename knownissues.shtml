@@ -49,6 +49,20 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Video
+playback on some sites is problematic</span><br>
+On some sites, video playback is problematic. This is generally caused
+by Media Source Extensions being in use. While we are working on
+aligning this to the spec and behavior of other browsers, some sites
+may still cause issues, like refusal to play, video/audio de-sync, or
+other issues that prevent proper playback of video in the web browser.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);">[In Progress]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> in
+Options -&gt; Content, try disabling Media Source Extensions<br>
+          <span style="font-weight: bold;">Timeline:</span> We hope to
+have these problems solved in 27.4<br>
+        </li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
 upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon

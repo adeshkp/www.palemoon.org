@@ -37,6 +37,140 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.3.0 (2017-04-28)</h3>
+A major development update. Many things have changed in the media
+back-end, but please understand that some things are still a work in
+progress, and you may still encounter some html5 video playback issues
+with MSE.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed up, checked and enabled vertical text writing modes!<br>
+Pale Moon will now be able to display vertical, right-to-left script.<br>
+        </li>
+        <li>Added the option to reset non-default profiles.</li>
+        <li>Fixed various issues in the WebP image decoder.</li>
+        <li>Added internally-supported document types to allowed <code>&lt;embed&gt;</code>
+types.<br>
+        </li>
+        <li>Fixed locale selection in ICU after update to ICU58.<br>
+(Note: Pale
+Moon uses the system locale for date formatting, not the browser locale)</li>
+        <li>Re-implemented the previous spellchecker dictionary logic
+(allow user override of document/element language, improve logic and
+make it unambiguous).</li>
+        <li>Ongoing fixes for the MP4 parser and MSE.</li>
+        <li>Made HTML Media Elements' preload attribute MSE-spec
+compliant.<br>
+The preload attribute on HTML media elements is now ignored in the case
+of an MSE source. This prevents an issue with sourceopen not firing
+when preload="none".</li>
+        <li>Fixed some issues with Windows WMF media playback.</li>
+        <li>Fixed an issue with Synced preferences sometimes
+overwriting stored individual preferences.</li>
+        <li>Fixed display of RSS folder icons.</li>
+        <li>Fixed issues with custom context menus.</li>
+        <li>Fixed an issue importing bookmarks with separators losing
+their extra data.</li>
+        <li>Changed the way numeric addresses are handled in the
+address bar so it doesn't perform a search when it shouldn't.</li>
+        <li>Added an option (<span
+ style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">browser.sessionstore.cache_behavior</span>)
+to
+control from which source restored tabs pull their page content:<br>
+0 = load restored tab data from cache (current behavior, default)<br>
+1 = refresh restored tab data from the network<br>
+2 = refresh stored tab data from the network and bypass any cached data.</li>
+        <li>Improved upon a v27 performance regression with SVG scaling.</li>
+        <li>Improved performance by being more selective which CSS
+animations to process.<br>
+As a side-effect, elements changing their display from "none" to
+something visible now also animate.<br>
+        </li>
+        <li>Increased memory allocation for the use of very large PAC
+files.</li>
+        <li>Added menu entries for the permissions manager and
+improvements to its function and display.</li>
+        <li>Added preferences to control "highlight all" behavior of
+the find bar:<br>
+          <span
+ style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">accessibility.typeaheadfind.highlightallbydefault</span>
+= true/false
+highlight all found words by default.<br>
+          <span
+ style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">accessibility.typeaheadfind.highlightallremember</span>
+= true/false remember
+the last-used state of Highlight All.</li>
+        <li>Added devtools command-line options.</li>
+        <li>Added remote IP and protocol to Devtools-&gt;Network entry
+details.</li>
+        <li>Added support for <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code>
+HTML
+tags.</li>
+        <li>Fixed a regression in the MSIE profile migrator.</li>
+        <li>Removed migration of browser-specific settings when
+migrating data from IE/Safari.</li>
+        <li>Implemented optional parameters for permessage-deflate in
+preparation for RFC7692 errata making acceptance of them mandatory (and
+to prevent web compat issues doe to the current conflicting text of it).</li>
+        <li>Made the image document favicon skinnable.
+        </li>
+        <li>Aligned DOM selection addRange with the spec.<br>
+        </li>
+        <li>Exposed mozAnon constructor js binding to system scopes for
+XHR.</li>
+        <li>Enhanced form data handling from JavaScript.<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Security/privacy changes:</span><br>
+      <ul>
+        <li>Updated NSS to 3.28.4-RTM to address a number of issues.</li>
+        <li>Added support for RSA-AES(-GCM)-SHA256/384 suites to
+broaden compatibility.</li>
+        <li>Reconfigured networking security: disabled static DHE
+suites by default, enabled all RSA-AES(-GCM)-SHA256/384 suites in their
+stead.</li>
+        <li>Fixed referrer policy keyword to align with the current
+spec ("cross-origin" vs "crossorigin").</li>
+        <li>Added an option to display punycode domain for IDN websites
+to combat phishing.<br>
+This is enabled by default for domain-validated https sites.<br>
+Preference: <span
+ style="font-weight: bold; font-style: italic; color: rgb(51, 102, 102);">browser.identity.display_punycode</span><br>
+0 = Display IDN name in identity panel (previous behavior)<br>
+1 = Display punycode name for DV SSL domains (default)<br>
+2 = Also display punycode for HTTP sites if IDN name used</li>
+        <li>Fixed an issue to prevent contacting remote servers when a
+connection might get blocked.</li>
+        <li>Fixed 3 public security flaws in libevent, which may affect
+Mozilla-based products. <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed several memory- and thread-safety hazards.</li>
+        <li>Fixed an address bar spoofing issue. <span
+ class="edit-hide">(CVE-2017-5451)
+          </span></li>
+        <li><span class="edit-hide">Fixed a potentially exploitable
+crash with HTTP/2. </span><span class="edit-hide">(CVE-2017-5446) </span></li>
+        <li><span class="edit-hide">Fixed several security hazards in
+XSLT processing. </span><span class="edit-hide"></span><span
+ class="edit-hide">(CVE-2017-5438) </span><span class="edit-hide">(CVE-2017-5439)
+          </span><span class="edit-hide">(CVE-2017-5440)</span></li>
+        <li><span class="edit-hide">Fixed several security hazards in
+old protocols. </span><span class="edit-hide">(CVE-2017-5444) </span><span
+ class="edit-hide">(CVE-2017-5445)</span></li>
+        <li><span class="edit-hide">Fixed out-of-bounds access in text
+formatting. </span><span class="edit-hide">(CVE-2017-5447)</span></li>
+        <li><span class="edit-hide">Fixed a potentially exploitable
+issue with innerText. </span><span class="edit-hide">(CVE-2017-5442)</span></li>
+        <li><span class="edit-hide">Fixed a potentially exploitable
+issue in graphite font shaping.</span></li>
+        <li><span class="edit-hide">Fixed a potentially exploitable
+crash with credential-authentication.<br>
+          </span></li>
+        <li><span class="edit-hide">Fixed out-of-bounds access with
+text selection in rare cases.</span></li>
+        <li><span class="edit-hide">Fixed a security hazard in the
+ANGLE library.</span></li>
+      </ul>
       <h3>27.2.1 (2017-03-24)</h3>
 This is a small update to fix some stability and usability issues.<br>
       <br>

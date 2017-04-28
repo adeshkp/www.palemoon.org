@@ -91,34 +91,16 @@ also manifests with default preferences and no installed add-ons
       <ul>
       </ul>
       <ul>
-        <li>Aligned DOM selection addRange with the spec.<br>
-(this time without breaking copying of selected text ;) )<br>
+      </ul>
+      <ul>
+        <li>Removed preloading of HPKP hosts and enabled HPKP header
+enforcement.<br>
         </li>
-        <li>Media: Made tail dispatching automatic and happen on the
-main thread.</li>
-        <li>Exposed mozAnon constructor js binding to system scopes for
-XHR.</li>
-        <li>Fixed various issues in the WebP image decoder.</li>
-        <li>Added support for RSA-AES(-GCM)-SHA256/384 suites to
-broaden compatibility.</li>
-        <li>Fixed an issue with Synced preferences sometimes
-overwriting stored individual preferences.</li>
-        <li>Added documents to allowed &lt;embed&gt; types for
-webmasters who don't know html ;P</li>
-        <li>Implemented optional parameters for permessage-deflate in
-preparation for RFC7692 errata making acceptance of them mandatory (and
-to prevent web compat issues doe to the current conflicting text of it).</li>
-        <li>Reconfigured networking security: disabled static DHE
-suites by default, enabled all RSA-AES(-GCM)-SHA256/384 suites in their
-stead.</li>
-        <li>Re-implemented the previous spellchecker dictionary logic
-(allow user override of document/element language, improve logic and
-make it unambiguous).</li>
-        <li>Made HTML Media Elements' preload attribute MSE-spec
-compliant.<br>
-The preload attribute on HTML media elements is now ignored in the case
-of an MSE source. This prevents an issue with sourceopen not firing
-when preload="none".</li>
+        <li>Added control in preferences for HSTS and HPKP usage.</li>
+        <li>Changed HTML bookmark exports on Windows to write CRLF line
+endings to the file.</li>
+        <li>Leveraged multi-core rendering for libVPX (VP8/VP9 WebM
+decoding).</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit
