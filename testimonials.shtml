@@ -1,23 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-  
-  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-
-  
+<html>
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <title>Pale Moon - Testimonials</title>
-
-  
-  
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
   <style type="text/css">
     td.c10 {vertical-align: top; text-align: center;}
     td.c9 {vertical-align: top;}
@@ -29,9 +21,10 @@
     span.c3 {font-style: italic;}
     span.c2 {font-weight: bold;}
     </style>
-</head><body>
-<table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
   <tbody>
     <tr>
       <th class="subpageheader"> <br>
@@ -58,7 +51,8 @@ with the following details:<br>
       </ul>
       <span class="c2">All of this information is mandatory!</span>
 Please <span class="c2">only</span> send <span class="c2">testimonials</span>
-to the above address, direct any other feedback to the <a href="http://forum.palemoon.org/" target="_blank">forum</a>. You will
+to the above address, direct any other feedback to the <a
+ href="http://forum.palemoon.org/" target="_blank">forum</a>. You will
 not receive any e-mail replies from this address.<br>
 <!--
 
@@ -73,8 +67,19 @@ not receive any e-mail replies from this address.<br>
 </blockquote>
 
 -->
-
-<blockquote>"I tried updating to Firefox x50 from v45. Big mistake.<br>
+      <blockquote>"As a longtime Firefox user, I was disappointed when
+their latest release (53) made my favourite web game unplayable. <br>
+Pale Moon to the rescue - not only does it work with that game, but its
+much faster on startup, and all my favourite extensions work as well. <br>
+        <br>
+Well done Pale Moon team - thank you for NOT abandoning a great browser
+base."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Aaron<small> (&lt;undisclosed&gt; BC, Canada) - Pale Moon 27.3.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I tried updating to Firefox x50 from v45. Big
+mistake.<br>
 I have a some apps on my own computer that require local disk access
 and the new Firefox will not allow me to use them. On top of that I
 have a problem with freezing up for no reason every so often which gets
@@ -88,32 +93,23 @@ about Firefox. <br>
 Flash based apps work way better, like YouTube or web based games.<br>
         <br>
 Keep up the good work on developing more for this browser. It rocks."<br>
-
-<div style="text-align: right; font-weight: bold; height: 1em;">
-
-<pre>Tom Lewis<small> (Salem, OR, USA) - Pale Moon 27.0.0</small></pre>
-
-</div>
-
-</blockquote>
-
-
-<blockquote>"I came to Pale Moon recently due to FF Extension signing
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Tom Lewis<small> (Salem, OR, USA) - Pale Moon 27.0.0</small></pre>
+        </div>
+      </blockquote>
+      <blockquote>"I came to Pale Moon recently due to FF Extension
+signing
 making things difficult for the addons I use, e.g pentadactyl, and with
 XUL being deprecated this will essentailly put the nail in the coffin
 for a lot of good addons.<br>
         <br>
-        <span style="font-weight: bold;">The browser is quick and functional.</span> Its like going back in time and using Firefox when it was the real alternative."<br>
-
-<div style="text-align: right; font-weight: bold; height: 1em;">
-
-<pre>Ben Crawford<small> (Northampton, UK) - Pale Moon 26.5.0</small></pre>
-
-</div>
-
-</blockquote>
-
-
+        <span style="font-weight: bold;">The browser is quick and
+functional.</span> Its like going back in time and using Firefox when
+it was the real alternative."<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>Ben Crawford<small> (Northampton, UK) - Pale Moon 26.5.0</small></pre>
+        </div>
+      </blockquote>
       <blockquote>"What an AWESOME browser!<br>
         <br>
 A month ago, I purchased an Acer Aspire 3050 laptop, which is a
@@ -536,7 +532,8 @@ Firefox v29.0 finally died</span>. Why did they killed such a product
 with new awful and dead-end-street interface features?<br>
 Even Classic-Theme-Restorer did not work as expected.<br>
         <br>
-        <span class="c2">Pale Moon</span> is now like a <span class="c2">miracle</span>. Much faster, less RAM, simpler, ... and all
+        <span class="c2">Pale Moon</span> is now like a <span
+ class="c2">miracle</span>. Much faster, less RAM, simpler, ... and all
 my 40 FF-add-ons are working perfectly."<br>
         <div class="c4">
         <pre>Joseph Eyberg<small> (Stuttgart, Germany) - Pale Moon 24.6.2</small><br>        </pre>
@@ -562,7 +559,8 @@ is a Linux version</span>. I installed 24.6.0 on my desktop (Xubuntu
         <br>
 So far, both are running nicely. I wasn't able to use the migration
 tool - it is Windoze only, so I wound up using FEBE and so far so good.
-        <span class="c2">All my addons are working.</span> I am also <span class="c2">not seeing the constant stalling when loading web pages
+        <span class="c2">All my addons are working.</span> I am also <span
+ class="c2">not seeing the constant stalling when loading web pages
 that I was seeing with FF 28 &amp; 29</span>. That was driving me
 freaking nuts.<br>
         <br>
@@ -595,7 +593,8 @@ cookies, passwords were transferred perfectly. There was no more setup
 needed. I felt like such a fool for not using the Migration tool in the
 first place. <span class="c2">So easy!</span><br>
         <br>
-This is my first day using Pale Moon and I have to say, so far it <span class="c2">beats Firefox in speed and ease of use</span>. It's not
+This is my first day using Pale Moon and I have to say, so far it <span
+ class="c2">beats Firefox in speed and ease of use</span>. It's not
 lightning fast but as other users say, loading websites is a matter of
 split seconds, as opposed to many seconds with FF 29. I haven't had one
 slow down or lock up as yet and <span class="c2">I feel instantly at
@@ -694,7 +693,8 @@ would like to thank the authors."<br>
         </div>
       </blockquote>
       <blockquote> "I discovered Pale Moon this afternoon, after
-finally losing my last shred of patience with Firefox. And... <span class="c6">[cue angelic choir and radiant beams of light]</span> this
+finally losing my last shred of patience with Firefox. And... <span
+ class="c6">[cue angelic choir and radiant beams of light]</span> this
 is such a thing of beauty I nearly want to weep with wonder and
 gratitude.<br>
         <br>
@@ -703,7 +703,8 @@ The migration tool migrated <span class="c3">everything</span> -- the
 my extensions, including two that I'd had to disable because of
 incompatibility with the latest FF.<br>
         <br>
-        <span class="c3">It just WORKS</span>. And it does it the way <span class="c2">I</span> want it to!<br>
+        <span class="c3">It just WORKS</span>. And it does it the way <span
+ class="c2">I</span> want it to!<br>
         <br>
 Thank you, thank you, thank you for all your work on this! I'm looking
 forward to a long and happy relationship with Pale Moon."<br>
@@ -744,8 +745,10 @@ incompatible one was an easily replaceable theme), for reference only
 release taking away more options and features, I began looking for an
 alternative browser. After a quick search, I discovered Pale Moon. Not
 only does it look and feel like classic Firefox, it retains many
-options and features removed from previous Firefox versions. It even <span class="c2">lets me customize the browser how I want it, which is no
-longer possible in Firefox thanks to Australis.</span> There's even an <span class="c2">x64 version</span>, something Mozilla won't provide for
+options and features removed from previous Firefox versions. It even <span
+ class="c2">lets me customize the browser how I want it, which is no
+longer possible in Firefox thanks to Australis.</span> There's even an <span
+ class="c2">x64 version</span>, something Mozilla won't provide for
 Windows users.<br>
         <br>
 I've been a loyal Firefox user since 2004, but thanks to the new
@@ -805,7 +808,8 @@ I appreciate all your hard work!"<br>
       </blockquote>
       <blockquote> "Really like Pale Moon.<br>
         <br>
-I switched over from Fire-Fox and now run Pale Moon as default.&nbsp; <span class="c2">I even run it in Linux Mint under Wine</span> and it works
+I switched over from Fire-Fox and now run Pale Moon as default.&nbsp; <span
+ class="c2">I even run it in Linux Mint under Wine</span> and it works
 just fine after I got Flash to run videos.<br>
         <br>
 Thanks."<br>
@@ -842,14 +846,17 @@ gravy!"<br>
         <pre>Greg<small> (Yorktown, VA, USA) - Pale Moon 24.4.1</small><br>        </pre>
         </div>
       </blockquote>
-      <blockquote> "I can't thank you enough for providing this <span class="c2">refuge from Mozilla</span> (Australis especially) <span class="c2">and Chrome</span>.<br>
+      <blockquote> "I can't thank you enough for providing this <span
+ class="c2">refuge from Mozilla</span> (Australis especially) <span
+ class="c2">and Chrome</span>.<br>
 My biggest (only, actually) complaint is that it took me this long to
 switch to Pale Moon!<br>
         <br>
 Speed, stability, <span class="c2">a *real* customizable UI</span>,
 add-on compatibility...what's not to love?!<br>
         <br>
-I am now looking forward to some enjoyable and productive browsing. <span class="c2">Thank you Pale Moon!</span>"<br>
+I am now looking forward to some enjoyable and productive browsing. <span
+ class="c2">Thank you Pale Moon!</span>"<br>
         <div class="c4">
         <pre>Brian<small> (Chicago, IL, USA) - Pale Moon 24.4.1</small><br>        </pre>
         </div>
@@ -1283,7 +1290,8 @@ appreciate the efforts of all of the developers on this project and
 everyone that has helped create it.<br>
         <br>
 Other than an occasional hiccup, not at all unusual for any browser,
-and most brought upon by my own experimentation, it has been a <span class="c2">rock solid performer</span>.<br>
+and most brought upon by my own experimentation, it has been a <span
+ class="c2">rock solid performer</span>.<br>
         <br>
 Thanks!"<br>
         <div class="c4">
@@ -1366,7 +1374,8 @@ Moon my default browser!&nbsp;<br>
         <br>
 My company uses several ERP applications such as Oracle
 Applications.&nbsp; And everything is so much faster and more efficient
-when working from Pale Moon.&nbsp; I just wanted to say <span class="c2">thank you</span> for all of your efforts and forward
+when working from Pale Moon.&nbsp; I just wanted to say <span
+ class="c2">thank you</span> for all of your efforts and forward
 thinking.&nbsp;<br>
         <br>
 Perhaps you are already aware, but <span class="c3">you have really
@@ -1379,7 +1388,8 @@ Keep up the good work!"<br>
         </div>
       </blockquote>
       <blockquote> "Having a very good i7 laptop and 8GB of RAM I
-didn't think there would be a browser which would improve on speed. <span class="c3">Boy was I wrong!</span> Lightning quick to open, and loads
+didn't think there would be a browser which would improve on speed. <span
+ class="c3">Boy was I wrong!</span> Lightning quick to open, and loads
 up websites with impressive speed.<br>
         <br>
 If you love surfing the web then you should download Pale Moon today,
@@ -1926,7 +1936,8 @@ No tests run, but it seems at least 20% faster.&nbsp; Great, thanks!"<br>
         <pre wrap="">Kit Thompson<small> (France)</small><br>        </pre>
         </div>
       </blockquote>
-If you would like to submit a testimonial yourself, please use the <a href="contact/">feedback form</a> to let me know your experiences with
+If you would like to submit a testimonial yourself, please use the <a
+ href="contact/">feedback form</a> to let me know your experiences with
 the browser. <span class="c7">Please make sure to mention either your
 full name or your unique handle to include. Also include your city and
 country.</span> If you don't include these details, your testimonial
@@ -1944,9 +1955,7 @@ offended if your testimonial is not published.</small><br>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>

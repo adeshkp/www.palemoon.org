@@ -112,9 +112,8 @@ tags.</li>
 migrating data from IE/Safari.</li>
         <li>Implemented optional parameters for permessage-deflate in
 preparation for RFC7692 errata making acceptance of them mandatory (and
-to prevent web compat issues doe to the current conflicting text of it).</li>
-        <li>Made the image document favicon skinnable.
-        </li>
+to prevent web compat issues due to the current conflicting text of it).</li>
+        <li>Made the image document favicon skinnable. </li>
         <li>Aligned DOM selection addRange with the spec.<br>
         </li>
         <li>Exposed mozAnon constructor js binding to system scopes for
@@ -146,8 +145,7 @@ connection might get blocked.</li>
 Mozilla-based products. <span style="color: rgb(191, 64, 64);">DiD</span></li>
         <li>Fixed several memory- and thread-safety hazards.</li>
         <li>Fixed an address bar spoofing issue. <span
- class="edit-hide">(CVE-2017-5451)
-          </span></li>
+ class="edit-hide">(CVE-2017-5451) </span></li>
         <li><span class="edit-hide">Fixed a potentially exploitable
 crash with HTTP/2. </span><span class="edit-hide">(CVE-2017-5446) </span></li>
         <li><span class="edit-hide">Fixed several security hazards in
