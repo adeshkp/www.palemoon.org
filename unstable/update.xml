@@ -7,7 +7,7 @@
   <patch type="complete"
          URL="http://aus.palemoon.org/mar/palemoon-unstable-latest.win32.complete.mar"
          hashFunction="SHA256"
-         hashValue="48548f57c5f84d1984dda07a746448d40bc7b52884eef00fa47748ebe9e0c865"         
-         size="38432193"/>
+         hashValue="0d63bb3780f32fc54d727f1894572bf04111f434425f21edb30d3be1e15adc0e"         
+         size="38427924"/>
   </update>
 </updates>
