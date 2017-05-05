@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Advanced Preferences: Certificates</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Advanced preferences: Certificates</h1>
+      <strong>This preferences tab provides advanced Pale Moon settings
+for SSL/TLS certificates.</strong><br>
+      <p></p>
+      <h2>Personal Certificate</h2>
+      <ul>
+        <li><span style="font-weight: bold;">When a server requests my
+personal certificate</span>: Some servers ask you to identify yourself
+with a personal certificate. In order to do so, they ask the browser to
+generate one for you or install one. When you visit the site in the
+future, Pale Moon will ask you for which certificate to use.<br>
+If you wish to have Pale Moon automatically choose a certificate for
+you, select the Select one automatically setting.<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Note</span>: A personal
+certificate can contain personally identifiable
+information, such as your name or address. It may therefore harm your
+privacy if you select the <span style="font-style: italic;">Select one
+automatically</span> setting. If you do,
+you will not be alerted when a website request your personal
+certificate, and you may lose the ability to control who can access
+your personal information.<br>
+      <br>
+      <h2>Certificate Validation</h2>
+You will most likely only need to change these settings if your
+Internet environment specifically requires it.<br>
+      <br>
+      <span style="font-weight: bold;">Query OCSP responder servers to
+confirm the current validity of certificates</span>: As part of normal
+validation checks on SSL/TLS certificates, Pale Moon may ask an OCSP
+(Online Certificate Status Protocol) server to confirm that a
+certificate is still valid and has not been revoked by its issuer. By
+default, Pale Moon validates a certificate if the certificate provides
+an OCSP server.<br>
+      <br>
+      <span style="font-weight: bold;">When an OCSP server connection
+fails, treat the certificate as invalid</span>: If a certificate
+provides an OCSP server, and the browser is for any reason not able to
+contact the OCSP server (e.g. due to routing, server load, or other
+connectivity issues with the OCSP server), Pale Moon will refuse the
+connection to the website you're trying to visit. There are many
+reasons why you won't be able to contact an OCSP server at any given
+time, so only enable this if you are at specific risk of enountering
+wrongly-issued and revoked certificates.<br>
+      <br>
+      <h2>Other controls</h2>
+      <ul>
+        <li><span style="font-weight: bold;">View Certificates</span>:
+Click this button to view stored certificates, import new certificates,
+and back up or delete old certificates in Pale Moon.</li>
+        <li><span style="font-weight: bold;">Security Devices</span>:
+Security devices can encrypt and decrypt connections and store
+certificates and passwords. If you need to use a security device other
+than the one built into Pale Moon, click the Security Devices button.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>

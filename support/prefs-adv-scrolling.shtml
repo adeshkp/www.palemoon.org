@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Advanced Preferences: Scrolling</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Advanced preferences: Scrolling</h1>
+      <strong>This preferences tab provides advanced Pale Moon settings
+for smooth scrolling.</strong><br>
+      <br>
+Use smooth scrolling: This master switch enables or disables smooth
+scrolling in the browser.<br>
+      <p></p>
+      <h2>Smooth scrolling parameters</h2>
+When smooth scrolling, you can decide when the browser scrolls
+smoothly, and if so, with which timings. By adjusting these timings,
+you can fine-tune the scrolling behavior and speed to your liking. You
+can indicate a set speed by having the two values be equal (time to
+scroll the distance per "tick") or an accelerated curve by having lower
+value (for the faster speed when e.g. scrolling the mouse wheel rapidly)
+and a higher value (for single "ticks") respectively in the input
+fields.<br>
+      <ul>
+        <li><span style="font-weight: bold;">Smooth scroll with mouse
+wheel</span>: This is the primary way of scrolling pages for most
+people. It is normal to use an accelerated curve here, so faster
+scrolling with the wheel results in faster scrolling of the page.<br>
+        </li>
+        <li><span style="font-weight: bold;">Smooth scroll with arrow
+keys</span>: Smooth scrolling of the page when pressing the arrow keys
+to scroll the page content.<br>
+        </li>
+        <li><span style="font-weight: bold;">Smooth scroll with page
+up/down</span>: Smooth scrolling when pressing PgUp or PgDn on the
+keyboard to scroll a full screen of page content.<br>
+        </li>
+        <li><span style="font-weight: bold;">Smooth scroll with
+scrollbars</span>: Smooth scrolling when clicking the arrow keys on
+scrollbars<br>
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Advanced Preferences: Update</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>Advanced preferences: Update</h1>
+      <strong>This preferences tab provides advanced Pale Moon settings
+for updates.</strong><br>
+      <p></p>
+      <h2>Pale Moon updates</h2>
+      <ul>
+        <li><span style="font-weight: bold;">Automatically install
+updates</span>: Firefox automatically downloads and installs found
+updates.</li>
+        <li><span style="font-weight: bold;">Check for updates, but let
+me choose whether to install them</span>: Pale Moon lets you choose if
+you want to download and install updates. If you do not choose to do
+so, you can download them at a later time.</li>
+        <li><span style="font-weight: bold;">Never check for updates
+(not recommended)</span>: Pale Moon will not check for updates.<br>
+          <span style="font-weight: bold;">Warning</span>: If you
+select this setting, you will not receive critical security updates
+that may keep you safe online unless you frequently do a manual check
+for updates.</li>
+      </ul>
+      <p>To review the history of updates that have been downloaded and
+installed, click Show Update History.</p>
+      <p><span style="font-weight: bold;">Note</span>: You must be
+running Pale Moon as an administrator or as the user who originally
+installed the browser to install updates.<br>
+      </p>
+      <h2>Automatically update</h2>
+      <p><span style="font-weight: bold;">Search Engines</span>: Check
+this to receive automatic updates to your search engines. <br>
+      <br>
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
