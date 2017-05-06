@@ -36,6 +36,35 @@
     </style>
 </head>
 <body>
+<style>
+#OKjbdp99tsfsf {
+display: none;
+margin-bottom: 15px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 10px 5px;
+background: #800000;
+text-align: center;
+color: #ffffff;
+border-radius: 5px;
+}
+#OKjbdp99tsfsf > a {
+color: #ffffd0;
+}
+#abclosebutton {
+float:left;
+}
+</style>
+
+<div id="OKjbdp99tsfsf">
+<a id="abclosebutton" href="#" onclick="abdismiss();">X</a>
+  We love ad blockers as much as you, but we depend on ad revenue to fund various sites and services.<br>
+  We use responsible ad services to keep your visit to our websites a safe and uninterrupted one.<br>
+  To ensure our continued operation, please disable your ad blocker for this site or <a href="donations.shtml">support us another way</a>.<br>
+</div>
+
+<script src="ads.js?id=somead" type="text/javascript"></script>
+<script src="pagefunctions.js" type="text/javascript"></script>
 <table class="maintable" align="center" border="0" cellpadding="0"
  cellspacing="0">
   <tbody>
