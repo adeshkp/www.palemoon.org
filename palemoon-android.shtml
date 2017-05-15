@@ -138,7 +138,8 @@ yourself, to get a more recent version.<br>
         </tr>
         <tr>
           <td class="c9">
-            <!--#include virtual="nav/footer.html" --><br>
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

@@ -198,7 +198,9 @@ updater</span>.<span class="c2"></span><br>
       </td>
     </tr>
     <tr>
-      <td class="c13"><!--#include virtual="nav/footer.html" --> <br>
+      <td class="c13">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

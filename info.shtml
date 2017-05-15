@@ -97,7 +97,8 @@ releases or publication plans of Mozilla. Pale Moon is an <span class="bold">ind
             </h3>Please look at the <a href="donations.shtml">Donations and Support page</a> to learn about ways to
             support Pale Moon, and to see who have contributed to the project to make it what it is.<br>
             <br>
-            <!--#include virtual="nav/footer.html" -->
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

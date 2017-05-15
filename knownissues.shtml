@@ -240,10 +240,8 @@ properly-detecting sites will assume promises are fully available)<br>
  style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
       </ol>
       <br>
-      <span style="font-weight: bold;"></span><span class="bold"></span><span
- class="bold"></span><span class="bold"></span><span class="bold"></span><span
- class="bold"></span><span class="bold"></span><span class="bold"></span><span
- class="bold"></span><span class="bold"></span><!--#include virtual="nav/footer.html" --><br>
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

@@ -111,10 +111,10 @@ version to cater to v27 of the browser soon.<br>
           </td>
         </tr>
         <tr>
-          <td class="center">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
+      <td class="center">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
+      </td>
         </tr>
       </tbody>
     </table><br>

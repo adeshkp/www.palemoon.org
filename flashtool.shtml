@@ -61,10 +61,10 @@ This simple tool was written as a quick way to switch Protected Mode in the Flas
           </td>
         </tr>
         <tr>
-          <td class="center">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
+      <td class="center">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
+      </td>
         </tr>
       </tbody>
     </table><br>

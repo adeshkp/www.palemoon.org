@@ -111,8 +111,33 @@ protocol.</li>
 http response codes.</li>
         <li>Enabled v-sync aligned refresh for a smoother scrolling
 experience.</li>
-        <li>Fixed an issue with SVG alignment correctness.<br>
-        </li>
+        <li>Removed support for CSS XP-theme media queries.</li>
+        <li>Improved console error reporting.</li>
+        <li>Fixed resetting toolbars and controls from the safe mode
+dialog.</li>
+        <li>Fixed innerText getters for display:none elements.</li>
+        <li>Fixed bookmark recovery option from the safe mode dialog.</li>
+        <li>MSE improvements:</li>
+        <ul>
+          <li>Added a track buffer manager for HTML5 video.</li>
+          <li>Added Media Source demuxer<br>
+          </li>
+        </ul>
+        <li>Fixed an issue with TLS 1.3 not supporting renegotiation by
+design.</li>
+        <li>Relaxed some restrictions for CSP to temporarily work
+around web compatibility issues with the CSP-3 deprecated `child-src`
+directive.</li>
+        <li>Fixed a GL buffer crash that might occur with certain
+combinations of drivers and hardware.</li>
+        <li>Added some more details to about:support.</li>
+        <li><span style="text-decoration: line-through;">Increased the
+resolution/accuracy of layout units to fix
+e.g. SVG sub-unit misalignment due to rounding.</span></li>
+        <li>Fixed a potential crash when the last audio device is
+removed during playback.</li>
+        <li>Removed the insertion of absolute path/file names and line
+numbers from the preprocessor.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit

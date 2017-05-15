@@ -191,9 +191,10 @@ contribution (monetary or otherwise). <span class="underline">All donations and 
           </td>
         </tr>
         <tr>
-          <td class="center">
-            <!--#include virtual="nav/footer.html" --><br>
-          </td>
+      <td class="center">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
+      </td>
         </tr>
       </tbody>
     </table><br>

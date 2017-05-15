@@ -133,7 +133,9 @@ tweaking to be usable or look similar to the Windows/Linux version.<br>
       </td>
     </tr>
     <tr>
-      <td class="c5"><!--#include virtual="nav/footer.html" --> <br>
+      <td class="c5">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

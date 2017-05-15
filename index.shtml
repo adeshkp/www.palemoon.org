@@ -304,7 +304,9 @@ corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
       </td>
     </tr>
     <tr>
-      <td colspan="2"><!--#include virtual="nav/footer.html" --> <br>
+      <td colspan="2">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

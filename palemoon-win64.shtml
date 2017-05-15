@@ -187,7 +187,9 @@ Older versions: <a href="archived.shtml">here</a>.<br>
       </td>
     </tr>
     <tr>
-      <td class="c12"><!--#include virtual="nav/footer.html" --> <br>
+      <td class="c12">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

@@ -88,8 +88,8 @@ or later, something that is not available in Windows XP. </li>
         </tr>
         <tr>
           <td class="c7">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

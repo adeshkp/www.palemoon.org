@@ -95,7 +95,9 @@ yourself, go here (updated repository): <a href="https://github.com/wolfbeast/pa
       </td>
     </tr>
     <tr>
-      <td class="c6"><!--#include virtual="nav/footer.html" --> <br>
+      <td class="c6">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

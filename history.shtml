@@ -149,7 +149,8 @@ More information can be found on our <a href="roadmap.shtml">future roadmap</a>.
             "Added tools" are nice, but may not be adopted in Pale Moon if they go beyond what should normally be part
             of a web browser for general use.<br>
             <br>
-            <!--#include virtual="nav/footer.html" -->
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

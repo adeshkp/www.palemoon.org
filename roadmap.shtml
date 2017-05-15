@@ -318,7 +318,8 @@ Pale Moon browser instead of Firefox.<br>
               The add-ons site is in a state of constant refinement and development as such we have set up a <a href="http://forum.palemoon.org/viewtopic.php?f=44&amp;t=6144" target="_blank">forum thread</a> and <a href="https://addons.palemoon.org/announcements/" target="_blank">page</a> for announcements and updates
               pertaining to the add-ons site.
             </p><br>
-            <!--#include virtual="nav/footer.html" -->
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

@@ -379,7 +379,8 @@ expense of compile time. </li>
         </tr>
         <tr>
           <td class="c15">
-            <br>
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
           </td>
         </tr>
       </tbody>

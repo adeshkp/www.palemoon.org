@@ -55,10 +55,10 @@ While you are here, you may be interested to learn about the growing number of c
           </td>
         </tr>
         <tr>
-          <td class="center">
-            <!--#include virtual="nav/footer.html" -->
-            <br>
-          </td>
+      <td class="center">
+      <!--#include virtual="nav/footerad.html" --> <br>
+      <!--#include virtual="nav/footer.html" --> <br>
+      </td>
         </tr>
       </tbody>
     </table><br>

@@ -187,7 +187,9 @@ Moon mirror #2 US
       </td>
     </tr>
     <tr>
-      <td class="c10"><!--#include virtual="/nav/footer.html" -->&nbsp;
+      <td class="c10">
+      <!--#include virtual="/nav/footerad.html" --> <br>
+      <!--#include virtual="/nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
