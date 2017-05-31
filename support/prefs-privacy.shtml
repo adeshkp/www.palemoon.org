@@ -1,28 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-  
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Preferences: Privacy</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Preferences: Privacy</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=8">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr>
@@ -30,137 +24,161 @@
       <h1>Privacy settings</h1>
       <strong>This preferences page provides Pale Moon settings for
 tracking signals, cookies and browsing history.</strong><br>
-      
       <h2>Tracking</h2>
-
-      <p>Most major websites track their visitors' behavior and then 
-sell or provide that information to other companies.  This information 
-can be used to show ads, products or services specifically targeted to 
-you. Pale Moon has a <strong>Do Not Track</strong> feature that lets you 
-tell every website you visit, their advertisers, and content providers 
-that you don't want your browsing behavior tracked. 
-      </p>
+      <p>Most major websites track their visitors' behavior and then
+sell or provide that information to other companies. This information
+can be used to show ads, products or services specifically targeted to
+you. Pale Moon has a <strong>Do Not Track</strong> feature that lets
+you tell every website you visit, their advertisers, and content
+providers that you don't want your browsing behavior tracked. </p>
       <p>Honoring this setting is voluntary - individual websites are
 not (yet) legally required to respect it. The setting is an official
 way of letting your wishes be known to visited websites but does not
 block or remove tracking, nor does it enforce your wishes.<br>
       </p>
-      <p>Websites that <span style="text-decoration: underline;">do</span> honor this setting should 
-automatically stop tracking your behavior without any further action 
-from you.  Turning on this feature will not affect your ability to log 
-in to websites nor cause Pale Moon to forget your private information, 
-such as the contents of shopping carts, location information or login 
-information.
-      </p>
+      <p>Websites that <span style="text-decoration: underline;">do</span>
+honor this setting should automatically stop tracking your behavior
+without any further action from you. Turning on this feature will not
+affect your ability to log in to websites nor cause Pale Moon to forget
+your private information, such as the contents of shopping carts,
+location information or login information. </p>
       <h2>History</h2>
-
-      <p>These settings<strong></strong> control how Pale Moon saves information about your web browsing.
-      </p>
-
+      <p>These settings<strong></strong> control how Pale Moon saves
+information about your web browsing. </p>
       <h3>Remember history</h3>
-
-      <p>When it is <span style="font-weight: bold;"></span>set to <strong>Remember history</strong>:
-      </p>
-
+      <p>When it is <span style="font-weight: bold;"></span>set to <strong>Remember
+history</strong>: </p>
       <ul>
-<li> Pale Moon will keep a list of the pages you've visited.
-</li><li> A list of files you download will be kept in the Library window.
-</li><li> The text you enter into form fields or the search bar will be 
-remembered so you can use those entries again.
-</li><li> Pale Moon will accept cookies from sites until they expire.
-</li>
+        <li> Pale Moon will keep a list of the pages you've visited.
+        </li>
+        <li> A list of files you download will be kept in the Library
+window.
+        </li>
+        <li> The text you enter into form fields or the search bar will
+be remembered so you can use those entries again.
+        </li>
+        <li> Pale Moon will accept cookies from sites until they
+expire.
+        </li>
       </ul>
-
-      <p>Click on:
-      </p>
-
+      <p>Click on: </p>
       <ul>
-<li> <strong>clear your recent history</strong> to open the Clear 
-Recent History window, which allows you to quickly erase some or all of your 
-history.
-</li><li> <strong>remove individual cookies</strong> to display the
+        <li> <strong>clear your recent history</strong> to open the
+Clear Recent History window, which allows you to quickly erase some or
+all of your history.
+        </li>
+        <li> <strong>remove individual cookies</strong> to display the
 Cookies window which will allow you to quickly delete cookies for one,
 multiple, or all websites you have visited.
-</li>
-      </ul>
-
-      <h3>Never remember history</h3>
-
-      <p>When it is set to <strong>Never remember history</strong>:
-      </p>
-
-      <ul>
-<li>Pale Moon will not keep a record of your browsing history.
-</li><li> The files you download will not be listed remembered in the Library window.
-</li><li> The text you enter into form fields or the search bar will not be remembered.
-</li><li>Pale Moon will accept cookies from sites and delete them when you close the browser.
-</li>
-      </ul>
-
-      <p>Using <strong>Never remember history</strong> is equivalent to always being in Private Browsing mode.
-      </p>
-      <p>Click on <strong>clear all current history</strong> to open the 
-Clear Recent History window, which allows you to quickly erase some or all of 
-your stored browsing and download history.
-      </p>
-
-      <h3>Use custom settings for history</h3>
-
-      <p>Wheit is set to <strong>Use custom settings for history</strong>, the following settings will be available:
-      </p>
-
-      <ul>
-<li> <strong>Always use private browsing mode</strong>: <br> If selected, Pale Moon will not remember any new history the next time it starts. Your already-saved history will be retained.<br>
- </li><li> <strong>Remember my browsing and download history</strong>: <br>
- If selected, Pale Moon will keep a list of the pages you've visited and 
-the files you've downloaded.
-</li><li> <strong>Remember search and form history</strong>: <br> If 
-selected, the text you enter into form fields or the search bar will be 
-remembered so you can use those entries again at a later time.
-</li><li> <strong>Accept cookies from sites</strong>: <br> If selected, Pale Moon will accept <a href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> from sites. Click <span style="font-style: italic;" class="button">Exceptions…</span> to control whether some sites are not allowed to set cookies.<br>
-Additional settings to control which cookies are accepted and how they are treated:<br>
- <ul>
-            <li> <strong>Accept third-party cookies</strong>:<br><strong></strong></li>
-            <ul>
-              <li><strong>Always</strong>: Pale Moon will always accept cookies from <em>http://site2.com</em> when you are visiting <em>http://site1.com</em>. (default)<br> <strong></strong></li>
-            </ul>
-            <ul>
-              <li><strong>From Visited</strong>: When you are visiting <em>http://site1.com</em>, Pale Moon will only accept cookies from <em>http://site2.com</em> if you have previously visited it directly; otherwise, Pale Moon will not accept them.<br><strong></strong></li>
-            </ul>
-            <ul>
-              <li><strong>Never</strong>: Pale Moon will never accept cookies from <em>http://site2.com</em> when you are visiting <em>http://site1.com</em>.&nbsp;
-              </li>
-            </ul>
-<li> <strong>Keep until</strong>:<br><strong></strong></li>
-            <ul>
-              <li><strong>They expire</strong>: If selected, Pale Moon will allow the sites you visit to specify how long Pale Moon should keep their cookies. (default)<br> <strong></strong></li>
-            </ul>
-            <ul>
-              <li><strong>I close Pale Moon</strong>: If selected, your cookies will be deleted when you close Pale Moon.<br>Click <span style="font-style: italic;" class="button">Show Cookies…</span> to display the Cookies window for easy removal of one or more stored cookies.
-              </li>
-            </ul>
-</ul>
-</li><li> <strong>Clear history when Pale Moon closes</strong>: <br>When checked, certain saved items will be deleted when you close Pale Moon. Click <span style="font-style: italic;" class="button">Settings…</span> to control which items are deleted.
-</li>
-      </ul>
-
-      <h2>Location Bar</h2>
-
-      <p>The Location Bar (Address Bar) is the field where you enter a site's web address 
-(URL). The Location Bar suggests results as you type in a search based 
-on the following:
-      </p>
-
-
-      <ul>
-<li><strong>History</strong>: If selected, sites you've previously visited will appear on your results list.
-</li><li><strong>Bookmarks</strong>: Sites you've bookmarked will appear on your results list.</li>
-        <li><strong>History and Bookmarks</strong>: Suggestions from both categories will be shown. (default)<br>
         </li>
-<li><strong>Nothing</strong>: Neither your browsing history nor your bookmarks will be used to make search suggestions.
-</li>
       </ul>
-<br>
+      <h3>Never remember history</h3>
+      <p>When it is set to <strong>Never remember history</strong>: </p>
+      <ul>
+        <li>Pale Moon will not keep a record of your browsing history.
+        </li>
+        <li> The files you download will not be listed remembered in
+the Library window.
+        </li>
+        <li> The text you enter into form fields or the search bar will
+not be remembered.
+        </li>
+        <li>Pale Moon will accept cookies from sites and delete them
+when you close the browser.
+        </li>
+      </ul>
+      <p>Using <strong>Never remember history</strong> is equivalent
+to always being in Private Browsing mode. </p>
+      <p>Click on <strong>clear all current history</strong> to open
+the Clear Recent History window, which allows you to quickly erase some
+or all of your stored browsing and download history. </p>
+      <h3>Use custom settings for history</h3>
+      <p>Wheit is set to <strong>Use custom settings for history</strong>,
+the following settings will be available: </p>
+      <ul>
+        <li> <strong>Always use private browsing mode</strong>: <br>
+If selected, Pale Moon will not remember any new history the next time
+it starts. Your already-saved history will be retained.<br>
+        </li>
+        <li> <strong>Remember my browsing and download history</strong>:
+          <br>
+If selected, Pale Moon will keep a list of the pages you've visited and
+the files you've downloaded.
+        </li>
+        <li> <strong>Remember search and form history</strong>: <br>
+If selected, the text you enter into form fields or the search bar will
+be remembered so you can use those entries again at a later time.
+        </li>
+        <li> <strong>Accept cookies from sites</strong>: <br>
+If selected, Pale Moon will accept <a
+ href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> from
+sites. Click <span style="font-style: italic;" class="button">Exceptions…</span>
+to control whether some sites are not allowed to set cookies.<br>
+Additional settings to control which cookies are accepted and how they
+are treated:<br>
+          <ul>
+            <li> <strong>Accept third-party cookies</strong>:<br>
+              <strong></strong></li>
+            <ul>
+              <li><strong>Always</strong>: Pale Moon will always accept
+cookies from <em>http://site2.com</em> when you are visiting <em>http://site1.com</em>.
+Requests for local storage from site2 are allowed. (default)<br>
+                <strong></strong></li>
+            </ul>
+            <ul>
+              <li><strong>From Visited</strong>: When you are visiting <em>http://site1.com</em>,
+Pale Moon will only accept cookies from <em>http://site2.com</em> if
+you have previously visited it directly; otherwise, Pale Moon will not
+accept them. Requests for local storage from site2 are still honored to
+minimize interoperability issues on the web.<br>
+                <strong></strong></li>
+            </ul>
+            <ul>
+              <li><strong>Never</strong>: Pale Moon will never accept
+cookies from <em>http://site2.com</em> when you are visiting <em>http://site1.com</em>.
+Requests for local storage from site2 are also denied. </li>
+            </ul>
+            <li> <strong>Keep until</strong>:<br>
+              <strong></strong></li>
+            <ul>
+              <li><strong>They expire</strong>: If selected, Pale Moon
+will allow the sites you visit to specify how long Pale Moon should
+keep their cookies. (default)<br>
+                <strong></strong></li>
+            </ul>
+            <ul>
+              <li><strong>I close Pale Moon</strong>: If selected, your
+cookies will be deleted when you close Pale Moon.<br>
+Click <span style="font-style: italic;" class="button">Show Cookies…</span>
+to display the Cookies window for easy removal of one or more stored
+cookies. </li>
+            </ul>
+          </ul>
+        </li>
+        <li> <strong>Clear history when Pale Moon closes</strong>: <br>
+When checked, certain saved items will be deleted when you close Pale
+Moon. Click <span style="font-style: italic;" class="button">Settings…</span>
+to control which items are deleted.
+        </li>
+      </ul>
+      <h2>Location Bar</h2>
+      <p>The Location Bar (Address Bar) is the field where you enter a
+site's web address (URL). The Location Bar suggests results as you type
+in a search based on the following: </p>
+      <ul>
+        <li><strong>History</strong>: If selected, sites you've
+previously visited will appear on your results list.
+        </li>
+        <li><strong>Bookmarks</strong>: Sites you've bookmarked will
+appear on your results list.</li>
+        <li><strong>History and Bookmarks</strong>: Suggestions from
+both categories will be shown. (default)<br>
+        </li>
+        <li><strong>Nothing</strong>: Neither your browsing history nor
+your bookmarks will be used to make search suggestions.
+        </li>
+      </ul>
+      <br>
       </td>
     </tr>
     <tr>
@@ -170,9 +188,7 @@ on the following:
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
