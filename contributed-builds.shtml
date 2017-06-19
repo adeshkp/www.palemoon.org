@@ -36,23 +36,25 @@ systems/configurations:</span><br>
       <ul>
         <li> <a
  href="http://repo.openpandora.org/?page=detail&amp;app=palemoon_ptitseb"
- target="_blank">Pale Moon for Pandora</a> by ptitSeb<br>
+ target="_blank">Pale Moon for Pandora</a> by ptitSeb.<br>
 A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
         <li><a
  href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
 Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
         <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15
-by Mike Purtell<br>
+by Mike Purtell.<br>
 Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a>
 Linux distro.</li>
         <li><a
  href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/staging/extra-web/palemoon">Pale
-Moon for AOSC OS</a> by AOSC Development Hub<br>
+Moon for AOSC OS</a> by AOSC Development Hub.<br>
 A hardened Pale Moon build configured for <a href="https://aosc.io/"
  target="_blank">AOSC OS</a>
 optimized for modern personal computer architectures. Available in .deb
 and .rpm packages, including all supported languages with automatic
-selection.<br>
+selection.</li>
+        <li><a href="http://repo.khronosschoty.org/Slackware/Pale-Moon/">Pale
+Moon for Slackware</a> by Khronosschoty.<br>
         </li>
       </ul>
       <span style="font-weight: bold;"></span>
@@ -134,9 +136,8 @@ us!</a><br>
       </td>
     </tr>
     <tr>
-      <td class="center">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+      <td class="center"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
