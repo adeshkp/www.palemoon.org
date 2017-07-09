@@ -203,8 +203,25 @@ internal errors with live bookmarks.</span></span></li>
 SQLite to 3.19.3.</span></span></li>
         <li><span class="blob-code-inner"><span class="pl-s">Fixed
 several reported issues with devtools (cli-cookies, cli help, copying
-cURL, inspecting SVGs, element size calculations, etc.)<br>
+cURL, inspecting SVGs, element size calculations, etc.)</span></span></li>
+        <li><span class="blob-code-inner"><span class="pl-s">Fixed an
+issue where a server response was allowed to override add-ons'
+specified version ranges even for add-ons that have strict
+compatibility (e.g. themes, language packs).<br>
           </span></span></li>
+      </ul>
+      <ul>
+        <li>Added the DOM selection events API (please test this if you
+know what this means ;-) )</li>
+        <li>Added Windows-specific CSS parameters and queries for the
+use of the system accent color. Added are parameters <code>-moz-win-accentcolor</code>
+and <code>-moz-win-accentcolortext</code>, and the media query <code>-moz-win-accentcolor-applies</code>
+to know if Windows is actively using an accent color.<br>
+        </li>
+        <li>Changed Windows' browser CSS sheet ot use variables instead
+of hard-coding colors, simplifying its style and making it more
+flexible.<br>
+        </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit
