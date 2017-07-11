@@ -49,20 +49,6 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Video
-playback on some sites is problematic</span><br>
-On some sites, video playback is problematic. This is generally caused
-by Media Source Extensions being in use. While we are working on
-aligning this to the spec and behavior of other browsers, some sites
-may still cause issues, like refusal to play, video/audio de-sync, or
-other issues that prevent proper playback of video in the web browser.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);">[In Progress]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> in
-Options -&gt; Content, try disabling Media Source Extensions<br>
-          <span style="font-weight: bold;">Timeline:</span> We hope to
-have these problems solved in 27.4<br>
-        </li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
 upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
 If you have previously copied a (newer) Firefox profile to Pale Moon
@@ -116,6 +102,24 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
+      <span style="font-weight: bold;">27.2, 27.3:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Video
+playback on some sites is problematic</span><br>
+On some sites, video playback is problematic. This is generally caused
+by Media Source Extensions being in use. While we are working on
+aligning this to the spec and behavior of other browsers, some sites
+may still cause issues, like refusal to play, video/audio de-sync, or
+other issues that prevent proper playback of video in the web browser.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> in
+Options -&gt; Content, try disabling Media Source Extensions<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed for
+MP4 (default settings) in v27.4</li>
+      </ol>
       <span style="font-weight: bold;">27.1:<br>
       </span>
       <ol>
@@ -240,8 +244,8 @@ properly-detecting sites will assume promises are fully available)<br>
  style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
       </ol>
       <br>
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+<!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

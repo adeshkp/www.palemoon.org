@@ -40,7 +40,7 @@
     </tr>
     <tr>
       <td class="c12">
-      <h1> Pale Moon Portable 27.3.0<br>
+      <h1> Pale Moon Portable 27.4.0<br>
       </h1>
       <h3> You can now take Pale Moon anywhere with you!<br>
       </h3>
@@ -118,21 +118,21 @@ Pale Moon Portable x86 (32-bit):</span><br>
 File size is approximately 31 MiB (EXE):<br>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.3.0.win32.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.0.win32.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.3.0.win32.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.0.win32.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.3.0.win32.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.0.win32.exe">Pale
 Moon mirror #3</a> (Asia)</li>
         <li> <a
  href="http://www.downloadcrew.com/article/21349-pale_moon_407_portable">Download
 Crew</a> </li>
       </ul>
 SHA-256:
-cb9414d95818163c8e589278992b59787e76e0ed6537716da3cdafabd826c804<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.3.0.win32.exe.sig">[Sig]</a><br>
+f6df47f3385afc252ed98177e2ab637327919c363e67048a97418f07104b9989<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.0.win32.exe.sig">[Sig]</a><br>
       <br>
       <div class="c8"> <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span
  class="c2">Download Pale Moon Portable x64 (64-bit):</span><br>
@@ -148,18 +148,18 @@ public computers that may potentially not run 64-bit Windows.<br>
 File size is approximately 34 MiB (EXE):<br>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.3.0.win64.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.0.win64.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.3.0.win64.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.0.win64.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.3.0.win64.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.0.win64.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
 SHA-256:
-f9103a0f8470054fcef2b23bae5c36ae1a82e4923ce88342064e20596b999a56<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.3.0.win64.exe.sig">[Sig]</a><br>
+b007de37aaecf5e95c23d7b4f4663a89dc6ec8fc6b48ef61bebd21efdd6235db<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.0.win64.exe.sig">[Sig]</a><br>
       <br>
       <br>
       <h3><a name="Upgrade"></a> I already have an earlier version of
@@ -198,9 +198,8 @@ updater</span>.<span class="c2"></span><br>
       </td>
     </tr>
     <tr>
-      <td class="c13">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+      <td class="c13"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
