@@ -1,25 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html dir="ltr" lang="en"><head>
-
-
-
-
-
-
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon for Android</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <style type="text/css">
+<html dir="ltr" lang="en">
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon for Android</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <style type="text/css">
     table.c12 {border-style: solid; border-width: 2px; text-align: left; width: 90%; font-family: Arial,Helvetica,sans-serif; text-decoration: none; margin-left: auto; margin-right: auto;}
     img.c11 {border: 0px solid ; width: 230px; height: 43px;}
     img.c10 {border: 0px solid ; width: 227px; height: 44px;}
@@ -31,118 +24,117 @@
     td.c4 {vertical-align: top;}
     td.c3 {vertical-align: top; background-color: rgb(204, 204, 255);}
     span.c2 {font-weight: bold;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c4">
-            <h1>
-              Pale Moon for Android™
-            </h1>This version of Pale Moon is built for the Android operating system on mobile devices (phones,
-            tablets).<br>
-<br>
-            <table class="sysreq c5" align="center" border="0" cellpadding="0" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td class="c3">
-                    <span class="c2">System Requirements:</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c4" width="50%">
-                    <ul>
-                      <li>Android operating system, version 4.0 or higher (confirmed compatible with v6)
-                      </li>
-                      <li>ARM processor v7 or later
-                      </li>
-                      <li>Android-x86 (Intel mobile) is currently not supported.<br>
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table><ul></ul>
-
-
-            Please do note that there are known issues on some mobiles and versions
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c4">
+      <h1> Pale Moon for Android™ </h1>
+This version of Pale Moon is built for the Android operating system on
+mobile devices (phones, tablets).<br>
+      <br>
+      <table class="sysreq c5" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="c3"> <span class="c2">System Requirements:</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="c4" width="50%">
+            <ul>
+              <li>Android operating system, version 4.0 or higher
+(confirmed compatible with v6) </li>
+              <li>ARM processor v7 or later </li>
+              <li>Android-x86 (Intel mobile) is currently not supported.<br>
+              </li>
+            </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ul>
+      </ul>
+Please do note that there are known issues on some mobiles and versions
 of Android that will prevent this browser from working properly or in a
 stable fashion in some situations.<br>
       <br>
 The Android version does not currently have a developer/team assigned
-to it due to lack of resources in the Pale Moon team, and we can currently, at
-most, provide security updates without further development or bugfixes.<br>
+to it due to lack of resources in the Pale Moon team, and we can
+currently not provide further development or bugfixes.<br>
       <br>
 We do not have the resources or Android-specific expertise to keep pace
 with the rapid developments of the Android OS to provide a usable and
 suitable browser alternative on all common versions of that platform or
 the latest hardware. If you think you can help out by picking up
-development of the Android browser, then please <a href="https://forum.palemoon.org/viewforum.php?f=39" target="_blank">get in touch with us</a>!<br>
-            <h3 class="c6">
-              Download links
-            </h3>
-            <table class="c12" border="1" cellpadding="2" cellspacing="0">
-              <tbody>
-                <tr class="c7">
-                  <th>
-                    Link (click to download)<br>
-                  </th>
-                  <th>
-                    Description<br>
-                  </th>
-                </tr>
-                <tr>
-                  <td class="c9">
-                    <a href="https://play.google.com/store/apps/details?id=org.palemoon.android"><img class="c8" alt="" title="Click to download!" src="dl-images/Google_play_logo.png"></a><br>
-                  </td>
-                  <td class="c4">
-                    <span class="c2">Google Play store</span><br>
-                    <br>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c9">
-                    <a href="http://forum.palemoon.org/viewforum.php?f=39"><img class="c10" alt="Pale Moon logo" title="Click to download!" src="dl-images/mainsite.png"></a><br>
-                  </td>
-                  <td class="dltable_text">
-                    <span class="c2">Pale Moon forum</span><br>
-                    Check the announcements section for the most recent version of the browser for Android<br>
-                  </td>
-                </tr>
-                
-              </tbody>
-            </table><br>
-            <h3>
-              Pale Moon for Android-x86
-            </h3>Pale
+development of the Android browser, then please <a
+ href="https://forum.palemoon.org/viewforum.php?f=39" target="_blank">get
+in touch with us</a>!<br>
+      <h3 class="c6"> Download links </h3>
+      <table class="c12" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr class="c7">
+            <th> Link (click to download)<br>
+            </th>
+            <th> Description<br>
+            </th>
+          </tr>
+          <tr>
+            <td class="c9"> <a
+ href="https://play.google.com/store/apps/details?id=org.palemoon.android"><img
+ class="c8" alt="" title="Click to download!"
+ src="dl-images/Google_play_logo.png"></a><br>
+            </td>
+            <td class="c4"> <span class="c2">Google Play store</span><br>
+            <br>
+            </td>
+          </tr>
+          <tr>
+            <td class="c9"> <a
+ href="http://forum.palemoon.org/viewforum.php?f=39"><img class="c10"
+ alt="Pale Moon logo" title="Click to download!"
+ src="dl-images/mainsite.png"></a><br>
+            </td>
+            <td class="dltable_text"> <span class="c2">Pale Moon forum</span><br>
+Check the announcements section for the most recent version of the
+browser for Android<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h3> Pale Moon for Android-x86 </h3>
+Pale
 Moon for Android-x86 is currently in its experimental build stages and
 has not been officially published. If you wish to give it a try, then
 please check the Pale Moon link above and look for the relevant posts
 for Android-x86 on the forum. You may have to build from source,
 yourself, to get a more recent version.<br>
-            <h3>
-              Source code
-            </h3>Please see the Android branch on the Pale Moon repository <a href="https://github.com/MoonchildProductions/Pale-Moon/tree/Android">here</a>.<br>
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c9">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+      <h3> Source code </h3>
+Please see the Android branch on the Pale Moon repository <a
+ href="https://github.com/MoonchildProductions/Pale-Moon/tree/Android">here</a>.<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c9"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
