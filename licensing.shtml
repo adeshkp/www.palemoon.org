@@ -1,158 +1,121 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-
-
-
-  
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Pale Moon software licensing</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <meta content="Software licensing information" name="description">
-    <style type="text/css">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Pale Moon software licensing</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta content="Software licensing information" name="description">
+  <style type="text/css">
     img.c8 {width: 300px; height: 256px;}
     img.c7 {width: 673px; height: 128px;}
     img.c6 {width: 128px; height: 128px;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h1>
-              Pale Moon software licensing<br>
-            </h1>
-        
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h1> Pale Moon software licensing<br>
+      </h1>
       <h2>Source Code</h2>
-
-  
-      <p>The Pale Moon browser is <a href="http://www.opensource.org/docs/osd">open source</a> and <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>.
- This means that it is not only available for download free of charge, 
-but you have access to the source code and may modify and redistribute 
-our software subject to certain restrictions.  </p>
-
-
-  
-      <p>
-    For more details, please read about our <a href="http://mozilla.org/MPL/2.0/">source code license</a>.  </p>
-
-
-  
+      <p>The Pale Moon browser is <a
+ href="http://www.opensource.org/docs/osd">open source</a> and <a
+ href="http://www.gnu.org/philosophy/free-sw.html">free software</a>.
+This means that it is not only available for download free of charge,
+but you have access to the source code and may modify and redistribute
+our software subject to certain restrictions. </p>
+      <p> For more details, please read about our <a
+ href="http://mozilla.org/MPL/2.0/">source code license</a>. </p>
       <h2>Trademarks</h2>
-
-  
-      <p>
-    Although our code is free, it is very important to note that we strictly 
-enforce our trademark (™)
+      <p> Although our code is free, it is very important to note that
+we strictly enforce our trademark (™)
 rights, in order to be able to protect our users against people who use
 the marks to commit fraud. Our trademarks include, among others, the
-names Pale Moon™ and "Your browser, Your way"™, as well as the Pale Moon™ logo, Goanna™
-logo and project names. This means that, while you have considerable freedom to redistribute 
-and modify our software, there are tight restrictions on your ability to
- use the Pale Moon names and logos in ways which fall in the domain of 
-trademark law, even when built into binaries that we provide.<br>
-</p>
-      <p>In addition, we do use some of Mozilla's trademarks in our communication, like Mozilla's
+names Pale Moon™ and "Your browser, Your way"™, as well as the Pale
+Moon™ logo, Goanna™
+logo and project names. This means that, while you have considerable
+freedom to redistribute and modify our software, there are tight
+restrictions on your ability to use the Pale Moon names and logos in
+ways which fall in the domain of trademark law, even when built into
+binaries that we provide.<br>
+      </p>
+      <p>In addition, we do use some of Mozilla's trademarks in our
+communication, like Mozilla's
 trademarks of Firefox® and XUL™. We honor and respect these trademarks
 to belong to their respective owners and use them to refer to specific
-products and technologies incorporated in, or in relation to, our work (nominative use).   </p>
-
-
-
-  
-      <p>
-    For more detail on our trademark licensing, see our <a href="branding.shtml">Branding Policy</a> and <a href="redist.shtml">Redistribution License</a>. If you still have questions after reading the policy, please contact <a href="mailto:trademarks@palemoon.org">trademarks@palemoon.org</a>.  </p>
-
-
-  
+products and technologies incorporated in, or in relation to, our work
+(nominative use). </p>
+      <p> For more detail on our trademark licensing, see our <a
+ href="branding.shtml">Branding Policy</a> and <a href="redist.shtml">Redistribution
+License</a>. If you still have questions after reading the policy,
+please contact <a href="mailto:trademarks@palemoon.org">trademarks@palemoon.org</a>.
+      </p>
       <h2>Website Content</h2>
-
-  
-      <p>Pale Moon website content (i.e. text and pictures, not look and feel) 
-is generally licensed under Creative Commons Attribution Share-Alike 
-(CC-BY-SA) licenses. User-generated content, such as comments on our blog 
-posts or forum, are also generally made available under CC-BY-SA.  </p>
-
-
-  
-
-  
+      <p>Pale Moon website content (i.e. text and pictures, not look
+and feel) is generally licensed under Creative Commons Attribution
+Share-Alike (CC-BY-SA) licenses. User-generated content, such as
+comments on our blog posts or forum, are also generally made available
+under CC-BY-SA. </p>
       <h2>Website Code</h2>
-
-  
-      <p>
-    You may use the HTML and CSS files on www.palemoon.org or other 
-Moonchild Productions websites for your web site - as long as you don't use the 
-visual design or style (the colors, gradients, fonts, etc.). In other 
-words, you can use the HTML and/or CSS code, but your page should not 
-look like you took Pale Moon's page and dropped in your logo. This does 
-not grant you any right to use the trademarks, trade names, service 
-marks, or house style of Moonchild Productions.  </p>
-
-
-  
+      <p> You may use the HTML and CSS files on www.palemoon.org or
+other Moonchild Productions websites for your web site - as long as you
+don't use the visual design or style (the colors, gradients, fonts,
+etc.). In other words, you can use the HTML and/or CSS code, but your
+page should not look like you took Pale Moon's page and dropped in your
+logo. This does not grant you any right to use the trademarks, trade
+names, service marks, or house style of Moonchild Productions. </p>
       <h2>Executable Software</h2>
-
-  
-      <p>
-    Executable software binaries released by Moonchild Productions, such 
-as Pale Moon, are made available under the terms of the 
-      <a href="redist.shtml">binary redistribution license</a>. This license also outlines the situation where binaries are built from source with official branding.<br>
-</p>
-      <p>Helper applications and tools may be made available under different licenses like the <a href="freeware-license.shtml">Pale Moon Freeware License</a> -- please see the applicable page of the tools or utilities in question to see which license(s) apply.<br>
-On some proprietary, non-free platforms, necessary binary 
-components subject to other licenses may be included in the installer.  </p>
-
-
-
-  
+      <p> Executable software binaries of core products released by
+Moonchild Productions, such as Pale Moon, are made available under the
+terms of the <a href="redist.shtml">binary redistribution license</a>.
+This license also outlines the situation where binaries are built from
+source with official branding.<br>
+      </p>
+      <p>Helper applications and tools may be made available under
+different licenses like the <a href="freeware-license.shtml">Pale Moon
+Freeware License</a> -- please see the applicable page of the tools or
+utilities in question to see which license(s) apply.<br>
+On some proprietary, non-free platforms, necessary binary components
+subject to other licenses may be included in the installer. </p>
       <h2>Informative, Not Authoritative</h2>
-
-  
       <p> This page is designed to inform, not to be the final,
 authoritative reference. If you're looking to reuse or redistribute
 something we have created, always check the licensing in the object of
 interest itself (for example, in the footer of a web page, or in the
 "About" box of software) after you've looked at this document. </p>
-
-
-  
-      <p>
-    In case of a conflict between this document and other documents (for
- example, if this document and the header file of a particular source 
-code file conflict) the other document should take precedence. If you do
- discover such a conflict, please notify <a href="mailto:licensing@palemoon.org">licensing@palemoon.org</a> so we can fix it.  </p>
-
-
-  
+      <p> In case of a conflict between this document and other
+documents (for example, if this document and the header file of a
+particular source code file conflict) the other document should take
+precedence. If you do discover such a conflict, please notify <a
+ href="mailto:licensing@palemoon.org">licensing@palemoon.org</a> so we
+can fix it. </p>
       <h2>Questions?</h2>
-
-  
       <p> If, after reading all the above carefully, you have a further
 question about the licensing terms of anything created by Moonchild
-Productions or the Pale Moon project, please send the question to <a href="mailto:licensing@palemoon.org">licensing@palemoon.org</a>.  </p>
-
-    
-            <br>
-            <!--#include virtual="nav/footer.html" -->
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+Productions or the Pale Moon project, please send the question to <a
+ href="mailto:licensing@palemoon.org">licensing@palemoon.org</a>. </p>
+      <br>
+<!--#include virtual="nav/footer.html" --> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
