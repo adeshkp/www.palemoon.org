@@ -197,9 +197,12 @@ news...</a> </td>
       <div
  style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:
 <!-- sponsor link space -->
-      <script src="//ap.lijit.com/www/delivery/fpi.js?z=404946&width=160&height=600"></script>
-<!-- end sponsor link space -->
-      </div>
+<!-- Palemoon 160x600 -->
+      <div id="onscroll-ad-palemoon-160-x-600"></div>
+<!-- OnScroll tag: Palemoon 160x600 -->
+      <script
+ src="//tags.onscroll.com/cf9beedc-e85b-418d-984d-c61ea44b005a/tag.min.js"
+ async="" defer="defer"></script><!-- end sponsor link space --> </div>
       </td>
     </tr>
     <tr>
