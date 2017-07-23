@@ -167,7 +167,7 @@ directive.</li>
 unsafe loading of libraries.</li>
         <li>Changed the way certain resources are included to reduce
 effectiveness of some common fingerprinting techniques. (e.g.
-browserleaks.org)<br>
+browserleaks.com)<br>
         </li>
         <li>Fixed a regression in the display of security information
 in the page info dialog for insecure content.</li>
