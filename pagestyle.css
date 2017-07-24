@@ -41,7 +41,8 @@ a:visited {
   border: 1px solid;
   border-color: #888888;
   text-align: left;
-  width: 800px;
+  min-width: 760px;
+  max-width: 1280px;
   box-shadow: 2px 2px 8px #333;
   border-radius: 9px;
   padding: 3px;
@@ -50,27 +51,37 @@ a:visited {
 }
 
 .maintableheader {
+  width: 100%;
+  height: 200px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   overflow: hidden;
-  width: 800px;
-  height: 200px;
-  background-image: url(themes/default/siteheader.jpg);
+  background: #dee6e8; /* Old browsers */
+  background: url(images/siteheader-moon.png) no-repeat top left,
+              url(images/siteheader-text.png) no-repeat top right,
+              radial-gradient(ellipse at 50% 100%,
+                              rgba(236,242,240,1) 0%,
+                              rgba(236,242,240,0.5) 50%,
+                              rgba(255,255,255,0) 100%),
+              radial-gradient(circle at 50% 85%,
+                              #dee6e8 0%, #c6ced1 80%, #b8cacc 100%);
 }
 
 .subpageheader {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   overflow: hidden;
-  width: 800px;
+  width: 100%;
   height: 82px;
-  background-image: url(themes/default/pagebanner.jpg);
-}
-
-img.subpageheader {
-  border: 0px solid;
-  width: 800px;
-  height: 82px;
+  background: #dee6e8; /* Old browsers */
+  background: url(images/subpage-logo.png) no-repeat top left,
+              url(images/subpage-wordmark.png) no-repeat top right,
+              radial-gradient(ellipse at 50% 100%,
+                              rgba(236,242,240,1) 0%,
+                              rgba(236,242,240,0.5) 50%,
+                              rgba(255,255,255,0) 100%),
+              radial-gradient(circle at 50% 85%,
+                              #dee6e8 0%, #c6ced1 80%, #b8cacc 100%);
 }
 
 .pagemenu {
