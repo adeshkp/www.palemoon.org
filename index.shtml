@@ -79,7 +79,7 @@ this site or <a href="donations.shtml">support us another way</a>.<br>
       </td>
     </tr>
     <tr>
-      <td style="padding-top: 1em;"> Pale Moon is an Open Source,
+      <td valign="top" style="padding-top: 1em;"> Pale Moon is an Open Source,
 Goanna-based web
 browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
