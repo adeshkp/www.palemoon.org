@@ -31,7 +31,7 @@
     img.c11 {border: 0px solid ; width: 200px; height: 67px;}
     img.c12 {border: 0px solid ; width: 119px; height: 30px; padding-bottom: 17px;}
     td.sidebar {padding-bottom: 1em; vertical-align: top; padding-top: 1em;}
-    img.c2 {width: 24px; height: 24px; position: relative; z-index: 9999; top: 7px; right: 4px;}
+    img.c2 {width: 24px; height: 24px; position: relative; z-index: 99; top: 7px; right: 4px;}
     img.c1 {width: 800px; height: 200px;}
     </style>
   <style>
