@@ -37,6 +37,23 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.4.1 (2017-08-03)</h3>
+This is a small update to address some media and web compatibility
+issues.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed an issue where media playback would not use hardware
+acceleration properly when using MSE.<br>
+This would cause high CPU usage and/or choppy playback for HD video on
+e.g. YouTube.</li>
+        <li>Fixed ES6 iterator chains to be spec-compliant.</li>
+        <li>Fixed ES6 vector append calls and some related memory leaks.<br>
+        </li>
+        <li>Added a workaround to reduce the likelihood of a potential
+rare (timing-critical) crash.<br>
+        </li>
+      </ul>
       <h3>27.4.0 (2017-07-12)</h3>
 This is a major update to straighten out most of the media streaming
 issues, as well as adding the necessary enhancements, bugfixes and
