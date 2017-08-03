@@ -1,38 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon - Awards</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Pale Moon - Awards</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=8">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
   <meta content="Moonchild" name="author">
-
-  
-  <meta content="List of Awards for the Pale Moon browser" name="description"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <meta content="List of Awards for the Pale Moon browser"
+ name="description">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
-      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <td
+ style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
       <br>
       </td>
     </tr>
@@ -40,14 +32,18 @@
       <td style="vertical-align: top;">
       <h1>Pale Moon: Awards</h1>
       <h3>Here is a listing of the awards Pale Moon has received:</h3>
-      
-      <table style="text-align: left; width: 99%;" border="0" cellpadding="2" cellspacing="2">
+      <table style="text-align: left; width: 99%;" border="0"
+ cellpadding="2" cellspacing="2">
         <tbody>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.softpedia.com/progClean/Pale-Moon-Clean-141741.html"><img style="border: 0px solid ; width: 170px; height: 116px;" alt="Tested 100% Clean by SoftPedia" src="softpedia_free_award_f.gif"></a><br>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.softpedia.com/progClean/Pale-Moon-Clean-141741.html"><img
+ style="border: 0px solid ; width: 170px; height: 116px;"
+ alt="Tested 100% Clean by SoftPedia" src="softpedia_free_award_f.gif"></a><br>
             </td>
             <td style="vertical-align: top;"><span id="intelliTxt">Softpedia
-guarantees that <a href="http://www.softpedia.com/get/Internet/Browsers/Pale-Moon.shtml">Pale
+guarantees that <a
+ href="http://www.softpedia.com/get/Internet/Browsers/Pale-Moon.shtml">Pale
 Moon</a> is <b style="color: blue;">100% Free</b>, which means it does
 not contain any form of malware, including but not limited to: spyware,
 viruses, trojans and backdoors. <br>
@@ -57,75 +53,48 @@ clean; therefore, it can be installed with no concern by any computer
 user.</span></td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.geardownload.com/internet/pale-moon.html"><img style="border: 0px solid ; width: 170px; height: 90px;" alt="" src="geardownload-100clean.jpg"></a></td>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.geardownload.com/internet/pale-moon.html"><img
+ style="border: 0px solid ; width: 170px; height: 90px;" alt=""
+ src="geardownload-100clean.jpg"></a></td>
             <td style="vertical-align: top;">Pale Moon is 100% clean.<br>
 This download was tested thoroughly and was found 100% clean.<br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><img style="width: 150px; height: 60px;" alt="" src="FilesRiver_5_stars_150_60.png"><br>
+            <td style="vertical-align: top; text-align: right;"><img
+ style="width: 150px; height: 60px;" alt=""
+ src="FilesRiver_5_stars_150_60.png"><br>
             </td>
-            <td style="vertical-align: top;">Pale Moon was awarded a 5-star rating and featured review at FilesRiver<br>
+            <td style="vertical-align: top;">Pale Moon was awarded a
+5-star rating and featured review at FilesRiver<br>
             <a href="http://www.filesriver.com/app/249/pale-moon">http://www.filesriver.com/app/249/pale-moon</a><br>
             </td>
           </tr>
-<tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.geardownload.com/internet/pale-moon-x64.html"><img style="border: 0px solid ; width: 120px; height: 120px;" alt="" src="5starsc.jpg"></a><br>
+          <tr>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.geardownload.com/internet/pale-moon-x64.html"><img
+ style="border: 0px solid ; width: 120px; height: 120px;" alt=""
+ src="5starsc.jpg"></a><br>
             </td>
             <td style="vertical-align: top;">Pale Moon was awarded a
 5-star rating at Gear Download<br>
             </td>
-          </tr><tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.fiberdownload.com/Download/20983/Pale-Moon"><img style="border: 0px solid ; width: 151px; height: 87px;" alt="Fiber Download: 5 stars" src="fiberdownload-5stars.png"></a></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.fiberdownload.com/Download/20983/Pale-Moon"><img
+ style="border: 0px solid ; width: 151px; height: 87px;"
+ alt="Fiber Download: 5 stars" src="fiberdownload-5stars.png"></a></td>
             <td style="vertical-align: top;">Editor's Pick, and 5/5
 stars rating.<br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.brothersoft.com/"><img style="border: 0px solid ; width: 90px; height: 70px;" alt="Brothersoft Editor's Pick" src="brothersoft-pick_100.gif"></a> </td>
-            <td style="vertical-align: top;">Brothersoft editor's pick.<br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.wareseeker.com"><img style="border: 0px solid ; width: 150px; height: 130px;" alt="WareSeeker Pick" src="wareseeker_pick.png"></a><br>
-            </td>
-            <td style="vertical-align: top;">WareSeeker editor's pick.<br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.bestsoftware4download.com/" target="_blank"><img src="http://www.bestsoftware4download.com/images/BS4D_award5.png" alt="Best Software 4 Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by Best Software 4 Download and got 5 stars award on our
-website: <a href="http://www.bestsoftware4download.com/software/t-free-pale-moon-download-obxhgwpv.html">http://www.bestsoftware4download.com/....html</a>.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.bestfreewaredownload.com/" target="_blank"><img src="http://www.bestfreewaredownload.com/images/BFD_award5.png" alt="Best Freeware Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by Best Freeware Download and got 5 stars award on our site: <a href="http://www.bestfreewaredownload.com/freeware/t-free-pale-moon-freeware-vbgwwzaf.html">http://www.bestfreewaredownload.com/....html</a><br>
-            <br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.bestvistadownloads.com/" target="_blank"><img src="http://www.bestvistadownloads.com/templates/BVD/images/award_5.gif" alt="Best Vista Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by Best Vista Download
-and got 5 stars award on our website: <a href="http://www.bestvistadownloads.com/software/t-free-pale-moon-download-vuvyuvug.html">http://www.bestvistadownloads.com/....html</a>.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.downloadatlas.com/"><img src="http://www.downloadatlas.com/clean-awards/pale-moon-by-moonchild-productions.png" style="border: medium none ;" alt="Pale Moon is clean!" height="114" width="160"></a> </td>
-            <td style="vertical-align: top;">DownloadAtlas.com
-guarantees that Pale Moon was tested by antivirus program and is
-absolutely clean, which means it does not contain any form of malware,
-including computer viruses, adware, trojans, spyware, rootkits, badware
-and other malicious and unwanted software.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.downloadatlas.com/"><img src="http://www.downloadatlas.com/images/editors_choice.png" style="border: medium none ;" alt="Pale Moon Editor's Choice" height="80" width="80"></a> </td>
-            <td style="vertical-align: top;">Pale Moon is an Editor's
-pick at DownloadAtlas.com.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.downloadroute.com/Pale-Moon-Moonchild-Productions.html"><img src="http://www.downloadroute.com/images/av-awards/Pale-Moon-Moonchild-Productions.png" alt="Pale Moon download now - it's clean" border="0"></a><br>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.downloadroute.com/Pale-Moon-Moonchild-Productions.html"><img
+ src="http://www.downloadroute.com/images/av-awards/Pale-Moon-Moonchild-Productions.png"
+ alt="Pale Moon download now - it's clean" border="0"></a><br>
             </td>
             <td style="vertical-align: top;">DownloadRoute.com have
 checked Pale Moon for viruses, trojans, adware, spyware, malware and
@@ -133,56 +102,33 @@ backdoors. They guarantee that Pale Moon is <b>Verified</b>, which
 means that does not contain any malicious components.</td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.downloadroute.com/"><img src="http://www.downloadroute.com/images/downloadroute_editorspick_70x70.png" style="border: medium none ;" alt="Pale Moon download" height="70" width="70"></a> </td>
-            <td style="vertical-align: top;">Pale Moon is an Editor's
-pick at downloadroute.<br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.freewarepark.com/pale-moon.html"><img src="http://www.freewarepark.com/images/freewarepark_5award160x80.png" alt="Pale Moon Best award form Freeware Park" border="0" height="80" width="160"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed and after tests that have been done to your freeware product
-we decided to grant the best award - "5 star award".</td>
-          </tr><tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.x64bitdownload.com/" target="_blank"><img src="http://www.x64bitdownload.com/templates/X64/images/award_5.gif" alt="X 64-bit Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by X 64-bit Download
-and got 5 stars award: <a href="http://www.x64bitdownload.com/downloads/t-64-bit-pale-moon-download-uyvprxnj.html">http://www.x64bitdownload.com/downloads/....html</a>.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.top4download.com/" target="_blank"><img src="http://www.top4download.com/templates/T4D/images/award_5.gif" alt="Top 4 Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by Top 4 Download and got 5 stars award: <a href="http://www.top4download.com/pale-moon/hbvfypil.html">http://www.top4download.com/pale-moon/hbvfypil.html</a>.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"></a> </td>
-            <td style="vertical-align: top;">Pale Moon has been
-reviewed by Windows 7 Download and got 5 stars award: <a href="http://www.windows7download.com/win7-pale-moon/ktdagsef.html">http://www.windows7download.com/win7-pale-moon/ktdagsef.html</a>.</td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://easyfreeware.com/pale_moon-75051-freeware.html" target="_blank"><img style="border: 0px solid ; width: 130px; height: 80px;" src="easyfreeware-rate5.gif" alt="Windows 7 Download"></a></td>
-            <td style="vertical-align: top;">5 stars at Easy Freeware.<br>
-"Your freeware has been reviewed by our editors and received <b style="font-weight: bold;"> <font size="4">5</font></b> stars award."<br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://easyfreeware.com/pale_moon-75051-freeware.html" target="_blank"><img style="border: 0px solid ; width: 200px; height: 100px;" src="filecluster-rated_5.gif" alt="Windows 7 Download"></a></td>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://easyfreeware.com/pale_moon-75051-freeware.html"
+ target="_blank"><img
+ style="border: 0px solid ; width: 200px; height: 100px;"
+ src="filecluster-rated_5.gif" alt="Windows 7 Download"></a></td>
             <td style="vertical-align: top;">5 stars and editor's pick
-at <a href="http://www.filecluster.com/Internet/Browsers/Download-Pale-Moon.html">FileCluster</a><br>
+at <a
+ href="http://www.filecluster.com/Internet/Browsers/Download-Pale-Moon.html">FileCluster</a><br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.downloadtyphoon.com/" target="_blank"><img src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif" alt="Download Typhoon" border="0"></a><br>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.downloadtyphoon.com/" target="_blank"><img
+ src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif"
+ alt="Download Typhoon" border="0"></a><br>
             </td>
             <td style="vertical-align: top;">Pale Moon has been
 reviewed by Download Typhoon and got a 5 stars award.<br>
-            <a href="http://www.downloadtyphoon.com/pale-moon/infowycftnww">http://www.downloadtyphoon.com/pale-moon/infowycftnww</a><br>
+            <a
+ href="http://www.downloadtyphoon.com/pale-moon/infowycftnww">http://www.downloadtyphoon.com/pale-moon/infowycftnww</a><br>
             </td>
           </tr>
           <tr>
             <td style="vertical-align: top;">
-            <div style="text-align: right;"><a href="http://www.instalki.pl/programy/download/Windows/przegladarki_www/Pale_Moon.html"><img src="Instalkipl-award2013.png" alt="Pale Moon - Award" border="0"></a></div>
-
+            <div style="text-align: right;"><a
+ href="http://www.instalki.pl/programy/download/Windows/przegladarki_www/Pale_Moon.html"><img
+ src="Instalkipl-award2013.png" alt="Pale Moon - Award" border="0"></a></div>
             </td>
             <td style="vertical-align: top;">Pale Moon received an
 Editor's Choice award at Instalki.pl - One of Poland's largest software
@@ -190,40 +136,36 @@ sites.<br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top;">
-            <div style="text-align: right;"><a href="http://www.downloadinn.com/pale-moon.html"><img style="border: 0px solid ; width: 200px; height: 80px;" src="DownloadInn-5stars.png" alt="Pale Moon Download"></a></div>
- </td>
-            <td style="vertical-align: top;">Pale Moon received 5 stars
-from Download Inn<br>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.programosy.pl/program,pale-moon.html"><img style="border: 0px solid ; width: 224px; height: 56px;" alt="Pale Moon - download for programosy.pl" src="http://www.programosy.pl/img/stars.png"></a><br>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.programosy.pl/program,pale-moon.html"><img
+ style="border: 0px solid ; width: 224px; height: 56px;"
+ alt="Pale Moon - download for programosy.pl"
+ src="http://www.programosy.pl/img/stars.png"></a><br>
             </td>
             <td style="vertical-align: top;">Pale Moon received 5 stars
 from Programosy<br>
             </td>
           </tr>
           <tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.filebuzz.com/fileinfo/217512/Pale_Moon.html"><img style="border: 0px solid ; width: 100px; height: 50px;" alt="File Buzz 5 stars" src="fb_rate_5.jpg"></a><br>
+            <td style="vertical-align: top; text-align: right;"><a
+ href="http://www.filebuzz.com/fileinfo/217512/Pale_Moon.html"><img
+ style="border: 0px solid ; width: 100px; height: 50px;"
+ alt="File Buzz 5 stars" src="fb_rate_5.jpg"></a><br>
             </td>
             <td style="vertical-align: top;">File Buzz awarded Pale
 Moon 5 stars.<br>
             </td>
-          </tr><tr>
-            <td style="vertical-align: top; text-align: right;"><img style="width: 157px; height: 109px;" alt="jsoftj" src="palemoon.jsoftj.com.gif"><br>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; text-align: right;"><img
+ style="width: 157px; height: 109px;" alt="jsoftj"
+ src="palemoon.jsoftj.com.gif"><br>
             </td>
-            <td style="vertical-align: top;">JsoftJ awarded 5 stars and "100% clean" award to Pale Moon.<br>
+            <td style="vertical-align: top;">JsoftJ awarded 5 stars and
+"100% clean" award to Pale Moon.<br>
             <a href="http://www.jsoftj.com/Software/9076/Pale-Moon/">http://www.jsoftj.com/Software/9076/Pale-Moon/</a><br>
             </td>
-          </tr><tr>
-            <td style="vertical-align: top; text-align: right;"><a href="http://www.freedownloadsplace.com/Products/42121/Pale-Moon"><img style="border: 0px solid ; width: 150px; height: 80px;" alt="" src="http://www.freedownloadsplace.com/images/awards/fdp2_5stars_150_80.jpg"></a><br>
-            </td>
-            <td style="vertical-align: top;">5-star reward on Freedownloadsplace.<br>
-            </td>
           </tr>
-
-
         </tbody>
       </table>
       <br>
@@ -236,9 +178,7 @@ Moon 5 stars.<br>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
