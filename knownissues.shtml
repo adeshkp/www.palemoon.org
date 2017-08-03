@@ -49,32 +49,14 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
-upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
-If you have previously copied a (newer) Firefox profile to Pale Moon
-that already uses the new password storage format, and this was
-previously converted from the older format, then it's possible that
-Pale Moon 27 will not convert your stored passwords properly (because a
-new storage file already exists).<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
-          <br>
-Please see <a
- href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
-for steps to recover from this situation.</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
-upgrading to v27 from a localized browser setup, it will not start</span><br>
-If you get a small window with an XML parsing error instead of the
-normal browser interface, your language pack was not properly disabled
-as it should. V26 language packs are not compatible with v27 and will
-prevent the browser from starting.<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
-          <br>
-Please see <a
- href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
-for steps to recover from this situation.<br>
-        </li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
+media+MSE combinations don't work.</span><br>
+Our new asynchronous MSE code is not yet implemented for WebM, meaning
+you cannot play WebM through MSE delivery with the new code.<br>
+We are working on completing this media code. In the meantime, if you
+need MSE+WebM video, in Options -&gt; Content, deselect "Use MSE
+asynchronously", and then select "Enable MSE for WebM video".<br>
+          <span class="c4"></span></li>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
 forum and our own add-ons site for replacements/alternatives.<br>
@@ -208,7 +190,35 @@ Install from the ZIP archive<br>
           <span style="font-weight: bold;"></span><span
  style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0</li>
       </ol>
-      <br>
+      <span style="font-weight: bold;">27.*:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
+If you have previously copied a (newer) Firefox profile to Pale Moon
+that already uses the new password storage format, and this was
+previously converted from the older format, then it's possible that
+Pale Moon 27 will not convert your stored passwords properly (because a
+new storage file already exists).<br>
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
+          <br>
+Please see <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
+for steps to recover from this situation.</li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
+upgrading to v27 from a localized browser setup, it will not start</span><br>
+If you get a small window with an XML parsing error instead of the
+normal browser interface, your language pack was not properly disabled
+as it should. V26 language packs are not compatible with v27 and will
+prevent the browser from starting.<br>
+          <span style="font-weight: bold;">Status</span>: <span
+ style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
+          <br>
+Please see <a
+ href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
+for steps to recover from this situation.</li>
+      </ol>
       <span style="font-weight: bold;">26.*:<br>
       </span>
       <ol>
