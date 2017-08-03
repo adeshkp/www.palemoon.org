@@ -2,7 +2,7 @@
 
 <updates>
   <update type="major" displayVersion="for Windows XP - click more info link below!"
-          appVersion="27.3.0"  extensionVersion="27.3.0" 
+          appVersion="27.4.1"  extensionVersion="27.4.1" 
           detailsURL="http://www.palemoon.org/PM_end_of_WinXP_support.shtml">
     <patch type="complete" URL="about:blank" hashFunction="SHA1" hashValue="" size=""/>
   </update>

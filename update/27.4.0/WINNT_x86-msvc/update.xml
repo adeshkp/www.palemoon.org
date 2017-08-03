@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
 
 <updates>
+  <update type="major" displayVersion="27.4.1 (32-bit)" appVersion="27.4.1"  extensionVersion="27.4.1"
+          detailsURL="http://www.palemoon.org/releasenotes.shtml"  showNeverForVersion="true">
+    <patch type="complete"
+           URL="http://aus.palemoon.org/mar/palemoon-27.4.1.win32.complete.mar"
+           hashFunction="SHA256"
+           hashValue="d17f47d1fd4f2e02658331254868bc8c530dd1711cb039c2ba2d4c3c0a69ef6d"
+           size="38492202"/>
+  </update>
 </updates>
