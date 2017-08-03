@@ -79,7 +79,8 @@ this site or <a href="donations.shtml">support us another way</a>.<br>
       </td>
     </tr>
     <tr>
-      <td valign="top" style="padding-top: 1em;"> Pale Moon is an Open Source,
+      <td style="padding-top: 1em;" valign="top"> Pale Moon is an Open
+Source,
 Goanna-based web
 browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
@@ -177,16 +178,10 @@ to name a few things.<br>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
             <span class="bold"><small><small>12 Jul 2017</small></small><br>
-Pale Moon 27.4.0 has been released.</span> This is a major update which
-focuses on improving media streaming, and otherwise has a large number
-of feature, security and stability updates. Please read
+Pale Moon 27.4.1 has been released.</span> This is a minor update to
+address some media and other issues. Please read
 the <a href="releasenotes.shtml">release
-notes</a> for details.<br>
-            <br>
-            <span class="bold"><small><small>11 Jan 2017</small></small><br>
-Pale Moon unstable channel available.</span> For the people who want to
-be on the development edge and want to help catch bugs before release. <a
- href="http://www.palemoon.org/unstable/">More info</a>.<span
+notes</a> for details.<span class="bold"><small><small></small></small></span><span
  class="bold"></span><br>
             <span class="bold"></span><br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
@@ -198,7 +193,8 @@ news...</a> </td>
       <div
  style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:
 <!-- sponsor link space -->
-<script src="//ap.lijit.com/www/delivery/fpi.js?z=404946&width=160&height=600"></script> 
+      <script
+ src="//ap.lijit.com/www/delivery/fpi.js?z=404946&amp;width=160&amp;height=600"></script>
 <!-- end sponsor link space --> </div>
       </td>
     </tr>
