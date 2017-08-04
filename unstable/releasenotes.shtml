@@ -116,16 +116,21 @@ accent colors dynamically and have the browser 's look and feel respond
 accordingly, even with automatic color changes based on desktop
 wallpaper.</li>
         <li>Fixed several minor issues in the devtools.</li>
-        <li>Fixed ES6 iterator prototype chains.</li>
-        <li>Fixed ES6 vector append calls and some related memory leaks.</li>
-        <li>Added DOM function isSameNode().</li>
+        <li>Fixed ES6 iterator prototype chains. (27.4.1)<br>
+        </li>
+        <li>Fixed ES6 vector append calls and some related memory
+leaks. (27.4.1)<br>
+        </li>
+        <li>Added DOM function <code>isSameNode()</code>.</li>
         <li>Added HTTP request method OPTIONS.</li>
         <li>Improved the handling of several CSS selectors.</li>
-        <li>Implemented document.scrollingelement (CSSOM).</li>
+        <li>Implemented <code>document.scrollingelement</code> (CSSOM).</li>
         <li>Added an option to exit to a no-content page after
-encountering a network or security error.<br>
+encountering a network or security error.</li>
+        <li>Added DOM <code>onvisibilitychange</code> event.</li>
+        <li>Changed session storage to remember form data for https
+sites by default.<br>
         </li>
-        <br>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit
