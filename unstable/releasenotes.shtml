@@ -129,7 +129,15 @@ leaks. (27.4.1)<br>
 encountering a network or security error.</li>
         <li>Added DOM <code>onvisibilitychange</code> event.</li>
         <li>Changed session storage to remember form data for https
-sites by default.<br>
+sites by default.</li>
+        <li>Enabled the opt-in feature to log SSL keys for HTTPS
+debugging purposes on all builds.</li>
+        <li>Added (yet another) trap prevention method to
+onbeforeunload events.</li>
+        <li>Removed the experimental FF4 prerelease
+status-in-addressbar feature because the already-crowded address bar
+needs a break. This should solve some extension interop issues, theme
+issues and domain highlighting issues people have reported.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
