@@ -137,7 +137,11 @@ onbeforeunload events.</li>
         <li>Removed the experimental FF4 prerelease
 status-in-addressbar feature because the already-crowded address bar
 needs a break. This should solve some extension interop issues, theme
-issues and domain highlighting issues people have reported.<br>
+issues and domain highlighting issues people have reported.</li>
+        <li>Fixed privacy preferences not correctly resetting all
+options when choosing "Remember History"</li>
+        <li>Fixed not being able to deselect loading bookmarks in the
+sidebar.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
