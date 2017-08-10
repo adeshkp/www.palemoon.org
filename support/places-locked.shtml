@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Placed database locked</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">
+      <h1>The bookmarks and history system will not be functional</h1>
+      <strong>The bookmarks and history system will not be functional
+because one of Firefox's files is in use by another application. Some
+security software can cause this problem.</strong><br>
+      <p>This happens when the file that stores your bookmarks and
+browsing history (named <span
+ style="font-weight: bold; font-style: italic;">places.sqlite</span>)
+can&#8217;t be accessed by Pale Moon. This page covers two possible solutions.<br>
+      </p>
+      <h3>Solution 1: restart your computer</h3>
+The most common causes of this error are another program using the file
+or a problem with the file that was caused when the computer was shut
+off unexpectedly (like a power failure). The good news is that most of
+the time, simply restarting your computer and then restarting Pale Moon
+is the fix for both problems. You may also want to perform a disk check
+(check disk for errors) to see if there is a problem with the actual
+file and repair it.<br>
+      <h3>Solution 2: create a new places database</h3>
+If restarting your computer doesn&#8217;t take care of things, you can fix
+this by having Pale Moon create a new places database for you.<br>
+      <ol>
+        <li>Click the Pale Moon button, click Help and select
+Troubleshooting Information. The Troubleshooting Information page will
+now open.</li>
+        <li>Under the Application Basics section, click on Show Folder
+next to "Profile Folder". A file manager window with your profile files
+will open.</li>
+        <li><span style="font-weight: bold;">Leave the Profile folder
+open</span>.</li>
+        <li>Click the Pale Moon button and then click Exit. Wait until
+Pale Moon has completely quit.</li>
+        <li>In the Pale Moon profile folder from step 2, find and
+rename the files <span style="font-weight: bold; font-style: italic;">places.sqlite</span>
+and <span style="font-weight: bold; font-style: italic;">places.sqlite-journal</span>
+(if it exists).</li>
+        <li>Reopen Pale Moon.</li>
+      </ol>
+When Pale Moon reopens it will create a new places database.<br>
+Your browsing history will be lost, but Pale Moon will automatically
+import your bookmarks from the most recent backup file.<br>
+      <br>
+If your bookmarks weren&#8217;t restored after creating a new places
+database, the following MozillaZine KB article may help: <a
+ href="http://kb.mozillazine.org/Lost_bookmarks">http://kb.mozillazine.org/Lost_bookmarks</a>.
+      <br>
+      <h2>Help! This didn&#8217;t fix the problem.</h2>
+This problem has symptoms that are similar to a number of other
+problems, that are beyond this simple help page.<br>
+It's suggested that you ask for help on our <a
+ href="https://forum.palemoon.org/">forum</a> to find the cause and
+potential solutions.<br>
+      <br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
