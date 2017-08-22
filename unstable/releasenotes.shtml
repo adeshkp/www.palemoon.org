@@ -141,7 +141,21 @@ issues and domain highlighting issues people have reported.</li>
         <li>Fixed privacy preferences not correctly resetting all
 options when choosing "Remember History"</li>
         <li>Fixed not being able to deselect loading bookmarks in the
-sidebar.<br>
+sidebar.</li>
+        <li>Limited the display of user names and hosts in the http
+auth dialog to sane lengths, preventing over-sizing issues.</li>
+        <li>Fixed a number of potential crash points.</li>
+        <li>Improved the security of the Windows dll loader module.</li>
+        <li>Updated NSPR to 4.15 RTM.</li>
+        <li>Updated NSS to 3.31.1 RTM.</li>
+        <li>Fixed a potential stall when TLS 1.3 is in use.</li>
+        <li>Reinstated "Open all in tabs" option on folders of live
+bookmarks (feeds).</li>
+        <li>Added and enabled Brotli accept-encoding (compressed data
+transfer).<br>
+        </li>
+        <li>Added Object.values and Object.entries enumerator functions
+(ECMA2017).<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
