@@ -37,6 +37,42 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.4.2 (2017-08-22)</h3>
+This is a small update to address some security and stability issues.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a number of crashes.</li>
+        <li>Enabled the opt-in debugging feature to log SSL keys to a
+file in all builds.</li>
+        <li>Added a fix for TLS 1.3 handshakes causing a browser
+hangup.<br>
+Handshakes should be considerably faster now and no longer
+stall in the wrong circumstances.<br>
+        </li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Updated NSPR to 4.15.</li>
+        <li>Updated NSS to 3.31.1.</li>
+        <li>Fixed a DoS issue using overly long Username in URL scheme
+(CVE-2017-7783)</li>
+        <li>Fixed an issue where (cross domain) iframes could break
+scope (CVE-2017-7787) </li>
+        <li>Fixed an issue in WindowsDllDetourPatcher (CVE-2017-7804)</li>
+        <li>Fixed an issue with elliptic curve addition in mixed
+Jacobian-affine coordinates (CVE-2017-7781)</li>
+        <li>Fixed a UAF in nsImageLoadingContent (CVE-2017-7784)</li>
+        <li>Fixed a UAF in WebSockets (CVE-2017-7800)</li>
+        <li>Fixed a heap-UAF in RelocateARIAOwnedIfNeeded
+(CVE-2017-7809) <span style="color: rgb(191, 64, 64);">DiD</span>
+(accessibility is disabled)</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code when
+surrounding code changes, exposing the problem.
       <h3>27.4.1 (2017-08-03)</h3>
 This is a small update to address some media and web compatibility
 issues.<br>
@@ -481,11 +517,7 @@ timing attack. (CVE-2017-5407) <span style="color: rgb(191, 64, 64);">DiD</span>
         <li>Fixed several memory safety hazards and potentially
 exploitable crashes. <span style="color: rgb(191, 64, 64);">DiD</span></li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code when
-surrounding code changes, exposing the problem.
+      <span style="color: rgb(191, 64, 64);"></span>
       <h3>27.1.2 (2017-03-03)</h3>
 This is a small update adding a workaround for potential deadlocks
 happening in media elements.<br>
