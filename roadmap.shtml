@@ -109,7 +109,7 @@ Long-term (UXP) plans may see this support dropped.<br>
         </li>
         <li>Overlay and bootstrapped extensions, including restartless
 ones</li>
-        <li>Access to low-level APIs from extensions, allowin them to
+        <li>Access to low-level APIs from extensions, allowing them to
 truly extend browser functionality<br>
         </li>
         <li>Pale Moon Sync (in the secure, time-tested Weave fashion)</li>
