@@ -40,7 +40,7 @@
     </tr>
     <tr>
       <td class="c12">
-      <h1> Pale Moon Portable 27.4.1<br>
+      <h1> Pale Moon Portable 27.4.2<br>
       </h1>
       <h3> You can now take Pale Moon anywhere with you!<br>
       </h3>
@@ -78,7 +78,8 @@ Three simple steps:<br>
         <li>Download the Pale Moon Portable file (below) </li>
         <li>Extract the contents of the file to your USB stick in a
 folder of your choice:<br>
-Run the .EXE file and tell it where to unpack<br>
+Run the .EXE file and tell it where to unpack (should be an empty or
+new folder)<br>
         </li>
         <li>Run <span class="c2">palemoon-portable.exe</span> (not
 palemoon.exe) in the location you unpacked to<br>
@@ -118,21 +119,21 @@ Pale Moon Portable x86 (32-bit):</span><br>
 File size is approximately 31 MiB (EXE):<br>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.1.win32.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.2.win32.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.1.win32.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.2.win32.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.1.win32.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.2.win32.exe">Pale
 Moon mirror #3</a> (Asia)</li>
         <li> <a
  href="http://www.downloadcrew.com/article/21349-pale_moon_407_portable">Download
 Crew</a> </li>
       </ul>
 SHA-256:
-0493e690da1cb0a89751a14d07d0faca82be824ee34197019e781e82a8315f0e<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.1.win32.exe.sig">[Sig]</a><br>
+7ddd0717c061a6cae72ddc8d391fe3789dd615f2bd2cd8fd516a6e0232f0b531<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.2.win32.exe.sig">[Sig]</a><br>
       <br>
       <div class="c8"> <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span
  class="c2">Download Pale Moon Portable x64 (64-bit):</span><br>
@@ -148,18 +149,18 @@ public computers that may potentially not run 64-bit Windows.<br>
 File size is approximately 34 MiB (EXE):<br>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.1.win64.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.4.2.win64.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.1.win64.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.4.2.win64.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.1.win64.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.4.2.win64.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
 SHA-256:
-3903a6643df027f74c499db3009cee9ca7b43e184eb6f16f8d702234d04daf53<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.1.win64.exe.sig">[Sig]</a><br>
+bba0694d02fc1683b169efff8c6a2a49b8b0144a3fd9b1aa96cd40a4f49ef1e3<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.4.2.win64.exe.sig">[Sig]</a><br>
       <br>
       <br>
       <h3><a name="Upgrade"></a> I already have an earlier version of
