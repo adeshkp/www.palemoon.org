@@ -37,6 +37,14 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.4.2.1 (2017-08-28)</h3>
+This is an out-of-band update for the portable version of the browser
+only (Windows).<br>
+This fixes a few issues in the portable shell regarding backups and
+settings.<br>
+      <br>
+To update, please follow the recommended update procedure listed on the
+      <a href="palemoon-portable.shtml">Pale Moon Portable page</a>.<br>
       <h3>27.4.2 (2017-08-22)</h3>
 This is a small update to address some security and stability issues.<br>
       <br>
