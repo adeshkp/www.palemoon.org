@@ -1,22 +1,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Pale Moon Live Chat</title>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
   <meta content="Moonchild" name="author">
-  <meta content="Basic etiquette rules for #palemoon" name="description"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <meta content="Basic etiquette rules for #palemoon" name="description">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
-      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <td
+ style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
       <br>
       </td>
     </tr>
@@ -24,22 +30,22 @@
       <td style="vertical-align: top;">
       <h1>Pale Moon Live Chat etiquette<br>
       </h1>
-
 Pale Moon has an IRC channel that is operated on the Freenode IRC
 network (a chat network mainly focusing on Free and Open Source
 Software). While on the chat network and in the chat room, you are
-requested to adhere to the following etiquette rules. Not following these rules can
+requested to adhere to the following etiquette rules. Not following
+these rules can
 get you removed from the chatroom (temporarily or permanently,
 depending on behavior):<br>
-
       <br>
-
       <ul>
-<li>The chatroom is meant for users of an adult mindset. Please only
+        <li>The chatroom is meant for users of an adult mindset. Please
+only
 use the chatroom if you are of adult age or have the mental capacity
 equivalent of an adult.</li>
-        <li>Please mind your language. The chatroom is a public room, and
-offending people with excessive use of course language is frowned upon.
+        <li>Please mind your language. The chatroom is a public room,
+and
+offending people with excessive use of coarse language is frowned upon.
 Although everyone is assumed to be of adult age (see previous point),
 and you may be upset about something, you're kindly requested to keep
 your use of language under control.</li>
@@ -62,34 +68,33 @@ is in everyone's interest :)</li>
 English should be taken to private chat or other channels specifically
 catering to the non-English language spoken.<br>
         </li>
-
-        <li>Please do not try to unnecessarily mask your identity. We are all people there, with personalities and identities.
+        <li>Please do not try to unnecessarily mask your identity. We
+are all people there, with personalities and identities.
 It is much easier to relate to and assist someone that actually tries
 to approach others with a personal identity than someone who goes at
 length to mask themselves. None of the topics in the chatroom will be
 personally or ideologically sensitive if we can help it, so there will
 be no need to hide/cloak/mask yourself.<br>
         </li>
-        <li>Please do not start flame wars or personal attacks against other users visiting the channel.</li>
-        <li>Please do not <a href="https://en.wikipedia.org/wiki/Troll_%28Internet%29" target="_blank">troll</a> or be disruptive to the chat. <br>
-</li>
+        <li>Please do not start flame wars or personal attacks against
+other users visiting the channel.</li>
+        <li>Please do not <a
+ href="https://en.wikipedia.org/wiki/Troll_%28Internet%29"
+ target="_blank">troll</a> or be disruptive to the chat. <br>
+        </li>
         <li>Please do not start discussions about politics, religion,
 or other touchy subjects that are not necessarily related to the
 browser (off-topic) and can easily lead to an very unwelcome
 atmosphere. Although enforcing of this point will be done leniently,
 you are asked to apply common sense and stop a particular line of
 conversation if it gets too heated or opinionated for the channel's
-overall atmosphere. If you want to continue an off-topic or in-depth discussion with someone, please take it to private chat!<br>
+overall atmosphere. If you want to continue an off-topic or in-depth
+discussion with someone, please take it to private chat!<br>
         </li>
-
       </ul>
-
       <br>
-
-
       <br>
-
-</td>
+      </td>
     </tr>
     <tr>
       <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
@@ -98,9 +103,7 @@ overall atmosphere. If you want to continue an off-topic or in-depth discussion 
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
