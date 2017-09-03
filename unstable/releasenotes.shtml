@@ -171,7 +171,10 @@ easier to open stated addresses.</li>
         <li>Fixed an issue with disabled context menu entries after
 using Customize...</li>
         <li>Added an option to control add-on blocklist behvior
-(Options -&gt; Security)<br>
+(Options -&gt; Security)</li>
+        <li>Added a menu option to restart the browser.</li>
+        <li>Fixed an issue with Graphite font rendering where automatic
+font collision fixing didn't always work.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
