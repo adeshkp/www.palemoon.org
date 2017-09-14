@@ -2,12 +2,12 @@
 
 <updates>
   <update type="minor" displayVersion="27.5.0a1" appVersion="27.5.0a1" extensionVersion="27.5.0a1"
-          buildID="20170902122723"
+          buildID="20170913232452"
           detailsURL="http://www.palemoon.org/unstable/">
   <patch type="complete"
          URL="http://aus.palemoon.org/mar/palemoon-unstable-latest.win32.complete.mar"
          hashFunction="SHA256"
-         hashValue="e1d8fd969d6d08fe12e514ab99e038efba08ddc2dcf4f583d8db6c9636b4bd9c"         
-         size="38501592"/>
+         hashValue="fa24de8168e710abf4533a9f42756f1bd7689bc12e6835d8104b23da4647b73e"         
+         size="38755092"/>
   </update>
 </updates>

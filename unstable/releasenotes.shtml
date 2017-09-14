@@ -116,11 +116,6 @@ accent colors dynamically and have the browser 's look and feel respond
 accordingly, even with automatic color changes based on desktop
 wallpaper.</li>
         <li>Fixed several minor issues in the devtools.</li>
-        <li>Fixed ES6 iterator prototype chains. (27.4.1)<br>
-        </li>
-        <li>Fixed ES6 vector append calls and some related memory
-leaks. (27.4.1)<br>
-        </li>
         <li>Added DOM function <code>isSameNode()</code>.</li>
         <li>Added HTTP request method OPTIONS.</li>
         <li>Improved the handling of several CSS selectors.</li>
@@ -146,14 +141,10 @@ sidebar.</li>
 auth dialog to sane lengths, preventing over-sizing issues.</li>
         <li>Fixed a number of potential crash points.</li>
         <li>Improved the security of the Windows dll loader module.</li>
-        <li>Updated NSPR to 4.15 RTM.<br>
-Removed TFO code from NSPR because it breaks Win64 builds.<br>
-        </li>
-        <li>Updated NSS to 3.31.1 RTM.</li>
-        <li>Fixed a potential stall when TLS 1.3 is in use.</li>
         <li>Reinstated "Open all in tabs" option on folders of live
 bookmarks (feeds).</li>
-        <li>Added Brotli accept-encoding (compressed data
+        <li>Added experimental Brotli accept-encoding (alternative
+compressed http data
 transfer). Disabled by default for now because it causes issues.<br>
         </li>
         <li>Added Object.values and Object.entries enumerator functions
@@ -174,7 +165,23 @@ using Customize...</li>
 (Options -&gt; Security)</li>
         <li>Added a menu option to restart the browser.</li>
         <li>Fixed an issue with Graphite font rendering where automatic
-font collision fixing didn't always work.<br>
+font collision fixing didn't always work.</li>
+        <li>Color Management for images is now disabled by default on
+Linux, due to many distributions not having a streamlined setup with
+sane default ICC profiles, which makes images look worse.</li>
+        <li>Tightened the update security check to prevent acceptance
+of update manifests that have been intercepted/replaced through https
+MitM attacks.</li>
+        <li>Updated the ANGLE library to broaden WebGL support and
+reduce the potential of crashes (due to junk being sent to the video
+driver).</li>
+        <li>Added content-sniffing for WebP images (working around
+CloudFront's incorrect content-type headers).</li>
+        <li>Fixed a problem with some H.264 media not playing (SPS NAL).</li>
+        <li>Improved timer efficiency (switch back to lower precision
+when high precision is no longer needed, reducing CPU/power
+consumption).</li>
+        <li>Reorganized and cleaned up the status preferences.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
