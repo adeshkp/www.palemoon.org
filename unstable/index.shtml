@@ -1,26 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en"><head>
-
-
-  
-  <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon browser - unstable channel</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html lang="en">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon browser - unstable channel</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
   <meta content="Moonchild" name="author">
-
-  
   <style type="text/css">
 table.c17 {background-color: #F9F9F9}
     span.c16 {text-decoration: underline;}
@@ -39,9 +28,11 @@ table.c17 {background-color: #F9F9F9}
     span.c3 {font-weight: bold;}
     img.c2 {border: 0px solid ; width: 80px; height: 31px;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style></head><body>
-<table class="maintable c17" align="center" border="0" cellpadding="0" cellspacing="0">
-
+    </style>
+</head>
+<body>
+<table class="maintable c17" align="center" border="0" cellpadding="0"
+ cellspacing="0">
   <tbody>
     <tr>
       <th class="subpageheader"> <br>
@@ -67,16 +58,21 @@ unstable branding (a "blood moon") to clearly indicate its difference
 from the official releases.<br>
       <br>
 Make sure you make regular backups of your Pale Moon profile as
-unstable versions may occasionally cause data loss. <span style="font-weight: bold;">Unstable versions
+unstable versions may occasionally cause data loss. <span
+ style="font-weight: bold;">Unstable versions
 do not use a separate user profile</span>, so if you decide to use
 these, your
 release-version profile will be used and potentially be at risk.<br>
-<h2>Release notes</h2>You can find some concise release notes about this development version here:<br>
+      <h2>Release notes</h2>
+You can find some concise release notes about this development version
+here:<br>
       <a href="http://www.palemoon.org/unstable/releasenotes.shtml">http://www.palemoon.org/unstable/releasenotes.shtml</a><br>
       <h2>Reporting bugs</h2>
-
-If you find bugs in these versions, please report them in the <a href="https://github.com/MoonchildProductions/Pale-Moon/issues" target="_blank">issue tracker</a>
-on GitHub for Pale Moon. When you do so, please <span style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
+If you find bugs in these versions, please report them in the <a
+ href="https://github.com/MoonchildProductions/Pale-Moon/issues"
+ target="_blank">issue tracker</a>
+on GitHub for Pale Moon. When you do so, please <span
+ style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
 already been reported before by others</span> to prevent duplicate
 entries in
 the tracker. If you report bugs, make sure to include the build date
@@ -109,6 +105,8 @@ updater do its task (default setting is to update automatically).<br>
 These versions are only available in 32-bit for Windows. They are
 not cryptographically signed due to the Release Engineering overhead
 involved in such things.<br>
+If you're looking for Linux unstable binaries, go over yonder: <a
+ href="http://linux.palemoon.org/download/unstable/">http://linux.palemoon.org/download/unstable/</a><br>
       <br>
       <table class="sysreq c6" align="center" cellspacing="0">
         <tbody>
@@ -145,7 +143,11 @@ recommended<br>
             </th>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="../dl-images/mainsite.png"></a><br>
+            <td class="c10"> <a
+ href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.installer.exe"><img
+ style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
+ alt="Pale Moon logo" title="Click to download!"
+ src="../dl-images/mainsite.png"></a><br>
             </td>
             <td class="dltable_text"> <span class="c3">Pale Moon mirror</span>
 #1 (EU)<br>
@@ -153,7 +155,11 @@ Direct download link<br>
             </td>
           </tr>
           <tr>
-            <td class="c10"> <a href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.installer.exe"><img style="border: 0px solid ; width: 227px; height: 44px;" class="c11" alt="Pale Moon logo" title="Click to download!" src="../dl-images/mainsite.png"></a> </td>
+            <td class="c10"> <a
+ href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.installer.exe"><img
+ style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
+ alt="Pale Moon logo" title="Click to download!"
+ src="../dl-images/mainsite.png"></a> </td>
             <td class="c5"> <span class="c3">Pale Moon mirror</span>
 #2 (US)<br>
 Direct download link </td>
@@ -165,19 +171,23 @@ Direct download link </td>
 packed versions<br>
       </h3>
       <ul>
-        <li> <a href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale
+        <li> <a
+ href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale
 Moon mirror #1 EU
 (direct download)</a> </li>
-        <li> <a href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale
+        <li> <a
+ href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.zip">Pale
 Moon mirror #2 US
 (direct download)</a></li>
       </ul>
       <h3>Portable versions</h3>
       <ul>
-        <li> <a href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale
+        <li> <a
+ href="http://rm-eu.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale
 Moon mirror #1 EU
 (direct download)</a> </li>
-        <li> <a href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale
+        <li> <a
+ href="http://rm-us.palemoon.org/release/palemoon-unstable-latest.win32.portable.exe">Pale
 Moon mirror #2 US
 (direct download)</a></li>
       </ul>
@@ -187,16 +197,13 @@ Moon mirror #2 US
       </td>
     </tr>
     <tr>
-      <td class="c10">
-      <!--#include virtual="/nav/footerad.html" --> <br>
-      <!--#include virtual="/nav/footer.html" --> <br>
+      <td class="c10"><!--#include virtual="/nav/footerad.html" --> <br>
+<!--#include virtual="/nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
