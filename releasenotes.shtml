@@ -37,6 +37,136 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.5.0 (2017-09-26)</h3>
+This is a major update furthering general development of the browser.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>User interface:<br>
+        </li>
+        <ul>
+          <li>Added a menu option to restart the browser.</li>
+          <li>Added Windows-specific CSS parameters and queries for the
+use of the system accent color. Added are parameters <code>-moz-win-accentcolor</code>
+and <code>-moz-win-accentcolortext</code>, and the media query <code>-moz-win-accentcolor-applies</code>
+to know if Windows is actively using an accent color.<br>
+          </li>
+          <li>Changed Windows' browser CSS sheet ot use variables
+instead
+of hard-coding colors, simplifying its style and making it more
+flexible. Further cleaned up the Windows 10 specific browser style.<br>
+          </li>
+          <li>Changed the theme on Windows 10 to use the new accent
+colors and improve O.S. consistency.</li>
+          <li>Fixed some general inconsistencies in the Windows theme
+on all Windows operating systems.</li>
+          <li>Updated Windows widgets to be able to pick up Windows 10
+accent colors dynamically and have the browser 's look and feel respond
+accordingly, even with automatic color changes based on desktop
+wallpaper.</li>
+          <li>Removed the experimental FF4 prerelease
+status-in-addressbar feature because the already-crowded address bar
+needs a break. This should solve some extension interop issues, theme
+issues and domain highlighting issues people have reported.</li>
+          <li>Cleaned up some dead code for the plugin updater that no
+longer exists.</li>
+          <li>Fixed a text direction issue in preferences.</li>
+          <li>Fixed an issue with disabled context menu entries after
+using Customize...</li>
+          <li>Reorganized and cleaned up the status preferences.</li>
+        </ul>
+        <li>Media:<br>
+        </li>
+        <ul>
+          <li>MSE Media updates (ongoing). We are focusing on improving
+MP4 handling.<br>
+          </li>
+          <li>Improved MP3 metadata parsing (e.g. incorrect duration
+with embedded album cover)</li>
+          <li>Fixed a number
+of searching issues in MP3 files</li>
+          <li>Fixed a few crashes.</li>
+        </ul>
+        <li>Fixed an issue with automatically exporting bookmarks to
+HTML on shutdown.</li>
+        <li>Fixed a regression re: domains allowed to/blocked from
+installing add-ons.</li>
+        <li>Fixed several internal errors thrown in the front-end.</li>
+        <li>Fixed several minor issues in the devtools.</li>
+        <li>Fixed a number of minor issues in the devtools.</li>
+        <li>Added a fix to prevent the home page from being loaded (and
+subsequently overridden) when restoring a session.</li>
+        <li>Added an option to control add-on blocklist behvior
+(Options -&gt; Security)</li>
+        <li>Added DOM function <code>isSameNode()</code>.</li>
+        <li>Added DOM <code>onvisibilitychange</code> event.</li>
+        <li>Added <code>document.scrollingelement</code> (CSSOM).</li>
+        <li>Added a basic implementation of <code>Object.values</code>
+and <code>Object.entries</code>
+enumerator functions
+(ECMA2017 draft).<br>
+        </li>
+        <li>Added "Open in new private window" to bookmarks, feeds and
+history entries.</li>
+        <li>Added HTTP request method OPTIONS.</li>
+        <li>Added an option to exit to a no-content page after
+encountering a network or security error.<br>
+This is controlled with the preference <code>browser.escape_to_blank</code>
+-- when set to <code>true</code>, "Get me out of here" buttons will
+load a blank page instead of the browser's home page.<br>
+        </li>
+        <li>Added experimental Brotli accept-encoding (alternative
+to gzip/deflate compressed http data
+transfer). Disabled by default for now because it causes issues.<br>
+        </li>
+        <li>Improved the handling of several CSS selectors.</li>
+        <li>Changed session storage to remember form data for https
+sites by default.</li>
+        <li>Added (yet another) trap prevention method to
+onbeforeunload events.</li>
+        <li>Fixed privacy preferences not correctly resetting all
+options when choosing "Remember History"</li>
+        <li>Fixed not being able to deselect loading bookmarks in the
+sidebar.</li>
+        <li>Limited the display of user names and hosts in the http
+auth dialog to sane lengths, preventing over-sizing issues.</li>
+        <li>Fixed a number of potential crash points.</li>
+        <li>Improved the security of the Windows dll loader module.</li>
+        <li>Reinstated "Open all in tabs" option on folders of live
+bookmarks (feeds).</li>
+        <li>Made URL matching more liberal in selected text to make it
+easier to open stated addresses.</li>
+        <li>Fixed an issue with Graphite font rendering where automatic
+font collision fixing didn't always work.</li>
+        <li>Color Management for images is now disabled by default on
+Linux, due to many distributions not having a streamlined setup with
+sane default ICC profiles, which makes images look worse when color
+management is enabled.</li>
+        <li>Tightened the update security check to prevent acceptance
+of update manifests that have been intercepted/replaced through https
+MitM attacks.<br>
+Please be aware that https-filtering antivirus may interfere with
+future application updates as a result.<br>
+        </li>
+        <li>Updated the ANGLE library to broaden WebGL support and
+reduce the potential of crashes (due to junk being sent to the video
+driver).</li>
+        <li>Added content-sniffing for WebP images (working around
+CloudFront's incorrect content-type headers).</li>
+        <li>Fixed a problem with some H.264 media not playing (SPS NAL).</li>
+        <li>Improved timer efficiency (switch back to lower precision
+when high precision is no longer needed, reducing CPU/power
+consumption).</li>
+        <li>Improved context search on selected text/links.</li>
+        <li>Updated address bar handling with Alt or Shift modifiers,
+so that "switch to tab" with a modifier can open copies of
+already-opened sites.</li>
+        <li>Added a fix on Linux for starting the browser from
+Enlightenment.</li>
+        <li>Privacy fix: Pale Moon will now clear QuotaManager storage
+(asm.js
+cache/IndexedDB data) as part of clearing Offline Website Data.</li>
+      </ul>
       <h3>27.4.2.1 (2017-08-28)</h3>
 This is an out-of-band update for the portable version of the browser
 only (Windows).<br>
