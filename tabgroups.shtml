@@ -47,7 +47,7 @@ to Pale Moon you need to install the Pale Moon Tab Groups add-on.<br>
       <div class="center"> <a
  style="display: block; margin-left: auto; margin-right: auto; width: 12em;"
  class="dllink_green"
- href="http://rm-eu.palemoon.org/support/palemoon-tabgroups-0.2.xpi">Download
+ href="http://rm-eu.palemoon.org/support/palemoon-tabgroups-0.2.2.xpi">Download
 and install<br>
 Click here</a> </div>
       <h2> How to restore the Tab Groups feature and controls </h2>
@@ -73,6 +73,13 @@ not guaranteed to work properly with other extensions that would
 interact with the Tab Groups add-on in Firefox.<br>
 There should be no other limitations as the code in this add-on is 100%
 the same Tab Groups code that was present in Firefox.<br>
+      </p>
+      <p class="MsoNormal"><span style="color: rgb(204, 0, 0);">Important:</span>
+If you are a user of Tab Mix Plus, be aware that this does <span
+ style="font-weight: bold;">not</span> work well together with this
+extension.<br>
+You should use one or the other, not both, or your tab groups may show
+strange behavior.<br>
       </p>
       <h2> Code license </h2>
 This add-on is supplied as Open Source under the Mozilla Public License
