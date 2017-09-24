@@ -6,15 +6,15 @@
       <RDF:Seq>
         <RDF:li>
           <RDF:Description>
-            <em:version>0.2.2</em:version>
+            <em:version>0.2.3</em:version>
             <em:targetApplication>
               <RDF:Description>
                 <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
                 <em:minVersion>25.0</em:minVersion>
                 <em:maxVersion>27.*</em:maxVersion>
-                <em:updateLink>http://relmirror.palemoon.org/support/palemoon-tabgroups-0.2.2.xpi</em:updateLink>
+                <em:updateLink>http://relmirror.palemoon.org/support/palemoon-tabgroups-0.2.3.xpi</em:updateLink>
                 <em:updateInfoURL></em:updateInfoURL>
-                <em:updateHash>sha256:7aaafc0ab22950a6b5b49abc3226b4e8ca21183ed3149d8f6f82d0de703d2ad7</em:updateHash>
+                <em:updateHash>sha256:a33b92bc15b97f619de64bccafdea59d34a5835fd6b143fa77037e6221a3c79d</em:updateHash>
               </RDF:Description>
             </em:targetApplication>
           </RDF:Description>
