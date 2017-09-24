@@ -67,6 +67,22 @@ not receive any e-mail replies from this address.<br>
 </blockquote>
 
 -->
+      <blockquote>"I've always used Firefox, since I was on Windows XP.
+Lately, Firefox was getting just too bloated and heavy with features
+that I never really used. It took 20 seconds to start sometimes,
+especially the first time after booting my machine. As of version 55,
+most extensions that I use were getting all but deprecated in favor of
+a webextension system to which all these extensions should have already
+been ported by now.<br>
+        <br>
+I chose Pale Moon because it wasn't a FF clone. Well done, Pale Moon!
+Pale Moon is fast, doesn't crash on its own troubleshooting page,
+doesn't lag on startup, loads pages in almost half the time. I can even
+start the browser full screen without issue!"<br>
+        <div style="text-align: right; font-weight: bold; height: 1em;">
+        <pre>James<small> (Alabama, USA) - Pale Moon 27.4.2</small></pre>
+        </div>
+      </blockquote>
       <blockquote>"As a longtime Firefox user, I was disappointed when
 their latest release (53) made my favourite web game unplayable. <br>
 Pale Moon to the rescue - not only does it work with that game, but its
@@ -1950,9 +1966,8 @@ offended if your testimonial is not published.</small><br>
       <a href="http://www.palemoon.org/">[&lt;-- Back]</a> </td>
     </tr>
     <tr>
-      <td class="c10">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+      <td class="c10"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
