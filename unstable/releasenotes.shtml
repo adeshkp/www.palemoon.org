@@ -186,6 +186,15 @@ consumption).</li>
 of searching issues and crashes.</li>
         <li>Improved context search on selected text/links.</li>
         <li>Updated address bar handling with Alt or Shift modifiers.</li>
+        <li>Added a potential fix for Pale Moon not starting from
+Enlightenment.<br>
+        </li>
+        <li>Added Object.values and Object.entries object attributes to
+satisfy the spec.<br>
+        </li>
+        <li>Pale Moon will now clear QuotaManager storage (asm.js
+cache/IndexedDB) as part of clearing Offline Website Data.<br>
+        </li>
       </ul>
       <ul>
         <li>Dropped support for Direct2D 1.0 to avoid font rendering
@@ -195,15 +204,13 @@ different from this version onwards if you are on Windows Vista or
 Windows 7. Users on Windows 7 affected by this should install the <a
  href="https://www.microsoft.com/en-us/download/details.aspx?id=36805"
  target="_blank">Platform Update</a> to re-enable Direct2D.</li>
-        <li>Added a potential fix for Pale Moon not starting from
-Enlightenment. (27.5.0)<br>
-        </li>
-        <li>Added Object.values and Object.entries object attributes to
-satisfy the spec. (27.5.0)</li>
         <li>Fixed image decoder calls to make sure the image load event
 doesn't fire prematurely.</li>
-        <li>Pale Moon will now clear QuotaManager storage (asm.js
-cache/IndexedDB) as part of clearing Offline Website Data. (27.5.0)<br>
+        <li>Fixed "Remove from history" function from the downloads
+panel.</li>
+        <li>Added extra proxy settings in Options, covering DNS lookups
+through SOCKS v5 and automatic proxy authentication with known
+credentials.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
