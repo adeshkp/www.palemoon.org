@@ -96,7 +96,7 @@ installing add-ons.</li>
         <li>Fixed a number of minor issues in the devtools.</li>
         <li>Added a fix to prevent the home page from being loaded (and
 subsequently overridden) when restoring a session.</li>
-        <li>Added an option to control add-on blocklist behvior
+        <li>Added an option to control add-on blocklist behavior
 (Options -&gt; Security)</li>
         <li>Added DOM function <code>isSameNode()</code>.</li>
         <li>Added DOM <code>onvisibilitychange</code> event.</li>
