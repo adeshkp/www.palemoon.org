@@ -210,7 +210,12 @@ doesn't fire prematurely.</li>
 panel.</li>
         <li>Added extra proxy settings in Options, covering DNS lookups
 through SOCKS v5 and automatic proxy authentication with known
-credentials.<br>
+credentials.</li>
+        <li>Added Native UA override for Dropbox to prevent elements
+not showing.</li>
+        <li>Enabled the <a
+ href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch
+API</a> by default.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
