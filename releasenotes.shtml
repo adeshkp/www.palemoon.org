@@ -93,7 +93,6 @@ HTML on shutdown.</li>
 installing add-ons.</li>
         <li>Fixed several internal errors thrown in the front-end.</li>
         <li>Fixed several minor issues in the devtools.</li>
-        <li>Fixed a number of minor issues in the devtools.</li>
         <li>Added a fix to prevent the home page from being loaded (and
 subsequently overridden) when restoring a session.</li>
         <li>Added an option to control add-on blocklist behavior
