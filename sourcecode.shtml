@@ -47,12 +47,12 @@ The source code of the current <span style="font-weight: bold;">release</span>
 version:<br>
       <br>
       <div class="c3"> <a class="dllink_blue"
- href="ftp://source:current@ftp2.palemoon.org/palemoon-27.4.2-source.7z">Download
+ href="ftp://source:current@ftp2.palemoon.org/palemoon-27.5.0-source.7z">Download
 current release version source code</a><br>
       </div>
       <br>
 PGP signature: <a
- href="ftp://source:current@ftp2.palemoon.org/palemoon-27.4.2-source.7z.sig">[Sig]</a><br>
+ href="ftp://source:current@ftp2.palemoon.org/palemoon-27.5.0-source.7z.sig">[Sig]</a><br>
       <br>
 If you are looking for older/different versions of the source code,
 check the source code archives on ftp: <a
@@ -107,7 +107,8 @@ recommended but later versions might work too. We do not support
 particularly old versions of GCC (&lt; 4.6). GCC v5.* should work for a
 basic (non-optimized!) build but may produce unstable builds with
 certain optimizations, v6.* is experimental and not recommended (YMMV).
-See also requirements on the <a href="http://linux.palemoon.org/">Pale
+GCC 7 will not work without patching. See also requirements on the <a
+ href="http://linux.palemoon.org/">Pale
 Moon for Linux site</a>!<br>
         </li>
         <li>You
@@ -118,7 +119,7 @@ Windows. </li>
         <li>Pale Moon <span class="c2">should not</span> be built with
 PGO (Profile-Guided Optimization) or LTO (Link-time optimization).
 Doing so will likely cause build errors or at the very least result in
-an unstable browser. Due to the size of our code base, these
+an unstable or slow browser. Due to the size of our code base, these
 optimizations are both pushing the limits of compilers and will not
 result in any noticable improvement -- more likely the opposite.<br>
         </li>
