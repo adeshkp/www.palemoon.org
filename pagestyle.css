@@ -29,12 +29,12 @@ td {
   padding: 8px;
 }
 
-a {
+a, a:link, a:visited, a:active {
   color: rgb(22, 54, 101);
 }
 
-a:visited {
-  color: rgb(42, 54, 81);
+a:hover {
+  color: rgb(192, 19, 20);
 }
 
 .maintable {
