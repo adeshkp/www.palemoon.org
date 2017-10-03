@@ -109,15 +109,29 @@ panel.</li>
         <li>Added extra proxy settings in Options, covering DNS lookups
 through SOCKS v5 and automatic proxy authentication with known
 credentials.</li>
-        <li>Enabled the <a
+        <li><span style="text-decoration: line-through;">Enabled the </span><a
+ style="text-decoration: line-through;"
  href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch
-API</a> by default.</li>
+API</a><span style="text-decoration: line-through;"> by default.</span>
+(disabled; implementation is incomplete)<br>
+        </li>
         <li>Changed the default Windows 10 styling when no accent color
 is aplied to black-on-white. (27.5.1)<br>
         </li>
-        <li>Added a DropBox and Yahoo useragent override. (27.5.1)</li>
+        <li>Updated user agent overrides for DropBox, YouTube and
+Yahoo. (27.5.1)</li>
         <li>Added an option to clear Site Connectivity Data (delete
-history).<br>
+history).</li>
+        <li>Fixed a crash in the media subsystem. (27.5.1)<br>
+        </li>
+        <li>Fixed a regression where video playback hardware
+acceleration was disabled incorrectly on some systems. (27.5.1)</li>
+        <li>Fixed the dropmarker in the address bar to allow the
+suggestions to be closed with a click.</li>
+        <li>Updated LibPNG to 1.6.28, and enabled faster SSE2 decoding.</li>
+        <li>Updated the Brotli decoder library, and enabled support for
+Brotli HTTP content-encoding by default.</li>
+        <li>Updated WOFF2 code from upstream.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
