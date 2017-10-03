@@ -92,14 +92,14 @@ send Pale Moon's native string to websites, which indicates only its
 own rendering engine (Goanna/xx.xx) and application name
 (PaleMoon/xx.xx)<br>
           </li>
-          <li><span style="font-weight: bold;">Gecko compatibility (default)</span>:
+          <li><span style="font-weight: bold;">Gecko compatibility</span>:
 The same as Native, but adds a Gecko engine slice to the user agent
 string to indicate its common ancestry and general expected behavior to
 be roughly in line with Gecko-based browsers.<br>
           </li>
           <li><span style="font-weight: bold;">Firefox compatibility</span>:
 This changes the user agent string to be more "like Firefox" in that is
-uses the application version for its engine revision (rv:xx.xx) and including both a Gecko/xx.xx and Firefox/xx.xx slice in the user agent.<br>
+uses the application version for its engine revision (rv:xx.xx) and including both a Gecko/x and Firefox/xx.xx slice in the user agent.<br>
           </li>
         </ul>
       </ul>
