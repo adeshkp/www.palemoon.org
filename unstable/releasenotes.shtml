@@ -131,7 +131,11 @@ suggestions to be closed with a click.</li>
         <li>Updated LibPNG to 1.6.28, and enabled faster SSE2 decoding.</li>
         <li>Updated the Brotli decoder library, and enabled support for
 Brotli HTTP content-encoding by default.</li>
-        <li>Updated WOFF2 code from upstream.<br>
+        <li>Updated WOFF2 code from upstream.</li>
+        <li>Forced focus on the address bar in new windows if the
+content is a blank/empty document.</li>
+        <li>Improved Windows 10 styling when the menu bar is visible.
+(27.5.1)<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
