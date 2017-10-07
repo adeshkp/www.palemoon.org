@@ -192,16 +192,13 @@ news...</a> </td>
       <div
  style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:
 <!-- sponsor link space -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PM vertical -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-4490583218014683"
-     data-ad-slot="7570024458"></ins>
-<script>
+      <script async=""
+ src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- PM vertical -->
+      <ins class="adsbygoogle" style="width: 160px; height: 600px;"
+ data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458"></ins>
+      <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<!-- end sponsor link space -->
+      </script><!-- end sponsor link space -->
       </div>
       </td>
     </tr>
@@ -268,9 +265,8 @@ technologies:<br>
  title="Powered by Goanna!"
  style="border: 0px solid ; width: 200px; height: 66px;"
  src="images/goanna200x66.png" class="c11" alt="Goanna" align="top"></a>
-      <a
- href="https://evolution-host.com/ssd-vps-hosting.php" target="_blank"><img
- title="Evolution Host DDoS Protected VPS"
+      <a href="https://evolution-host.com/ssd-vps-hosting.php"
+ target="_blank"><img title="Evolution Host DDoS Protected VPS"
  style="border: 0px solid ; width: 206px; height: 58px;"
  src="images/EVO.png" class="c11" alt="KVM SSD VPS Hosting"></a> <a
  href="https://www.voucherslug.co.uk/" target="_blank"><img
@@ -281,14 +277,20 @@ technologies:<br>
  title="VPS Servers"
  style="border: 0px solid ; width: 250px; height: 61px;"
  src="images/vpsserver.png" class="c11"
- alt="VPSserver.com - VPS servers"></a>&nbsp; </div>
+ alt="VPSserver.com - VPS servers"></a> <a
+ href="https://www.ukwebhostreview.com/" target="_blank"><img
+ title="UK Web Host review"
+ style="border: 0px solid ; width: 295px; height: 66px;"
+ src="images/ukwebhostlogo.png" class="c11" alt="UK Web Host review"></a>
+      </div>
       <small style="color: rgb(128, 128, 128);">Want to become a
 corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
  href="donations.shtml#Corporate_sponsorship">read this</a>.</small><br>
       </td>
     </tr>
     <tr>
-      <td colspan="2"><!--#include virtual="nav/footerad.html" --> <br>
+      <td style="text-align: center;" colspan="2"><!--#include virtual="nav/footerad.html" -->
+      <br>
 <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
@@ -306,9 +308,9 @@ corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
  href="http://forum.palemoon.org/feed.php?f=1"><img class="icon"
  alt="RSS" src="social/feed.png"></a> </li>
 </ul>
-<!-- END SOCIAL MEDIA WIDGET -->
-<!-- SS data: 
+<!-- END SOCIAL MEDIA WIDGET --><!-- SS data: 
 VS 18-03-14
+UKWHR 18-01-07
 -->
 </body>
 </html>
