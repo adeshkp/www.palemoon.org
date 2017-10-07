@@ -135,7 +135,22 @@ Brotli HTTP content-encoding by default.</li>
         <li>Forced focus on the address bar in new windows if the
 content is a blank/empty document.</li>
         <li>Improved Windows 10 styling when the menu bar is visible.
-(27.5.1)<br>
+(27.5.1)</li>
+        <li>Worked around some more issues with broken Apple fonts.</li>
+        <li>Updated libhyphen to the latest upstream.</li>
+        <li>Fixed some potential hazards in the NPAPI interface</li>
+        <li>Fixed a potential reference issue in JS arrays</li>
+        <li>Updated NSPR to 4.16 with added patch to un-bust building
+on win64.</li>
+        <li>Updated NSS to 3.32.1</li>
+        <li>Added notifications to inform users about WebExtensions not
+being supported if they try to install them (as opposed to "extension
+is corrupt")</li>
+        <li>Further cleaned up the status bar code.</li>
+        <li>Disabled window.showModalDialog; it's been removed from the
+spec 2 years ago and has potential abuse issues (modal dialogs block
+the UI)</li>
+        <li>Fixed a potential build issue.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
