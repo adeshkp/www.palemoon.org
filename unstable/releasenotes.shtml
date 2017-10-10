@@ -109,23 +109,8 @@ panel.</li>
         <li>Added extra proxy settings in Options, covering DNS lookups
 through SOCKS v5 and automatic proxy authentication with known
 credentials.</li>
-        <li><span style="text-decoration: line-through;">Enabled the </span><a
- style="text-decoration: line-through;"
- href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch
-API</a><span style="text-decoration: line-through;"> by default.</span>
-(disabled; implementation is incomplete)<br>
-        </li>
-        <li>Changed the default Windows 10 styling when no accent color
-is aplied to black-on-white. (27.5.1)<br>
-        </li>
-        <li>Updated user agent overrides for DropBox, YouTube and
-Yahoo. (27.5.1)</li>
         <li>Added an option to clear Site Connectivity Data (delete
 history).</li>
-        <li>Fixed a crash in the media subsystem. (27.5.1)<br>
-        </li>
-        <li>Fixed a regression where video playback hardware
-acceleration was disabled incorrectly on some systems. (27.5.1)</li>
         <li>Fixed the dropmarker in the address bar to allow the
 suggestions to be closed with a click.</li>
         <li>Updated LibPNG to 1.6.28, and enabled faster SSE2 decoding.</li>
@@ -134,15 +119,7 @@ Brotli HTTP content-encoding by default.</li>
         <li>Updated WOFF2 code from upstream.</li>
         <li>Forced focus on the address bar in new windows if the
 content is a blank/empty document.</li>
-        <li>Improved Windows 10 styling when the menu bar is visible.
-(27.5.1)</li>
         <li>Worked around some more issues with broken Apple fonts.</li>
-        <li>Updated libhyphen to the latest upstream.</li>
-        <li>Fixed some potential hazards in the NPAPI interface</li>
-        <li>Fixed a potential reference issue in JS arrays</li>
-        <li>Updated NSPR to 4.16 with added patch to un-bust building
-on win64.</li>
-        <li>Updated NSS to 3.32.1</li>
         <li>Added notifications to inform users about WebExtensions not
 being supported if they try to install them (as opposed to "extension
 is corrupt")</li>
@@ -150,7 +127,14 @@ is corrupt")</li>
         <li>Disabled window.showModalDialog; it's been removed from the
 spec 2 years ago and has potential abuse issues (modal dialogs block
 the UI)</li>
-        <li>Fixed a potential build issue.<br>
+        <li>Fixed a potential build issue.</li>
+        <li>Made general improvements to internal code structure and
+spec adherence.</li>
+        <li>Fixed an issue with certain command-line parameters being
+used.</li>
+        <li>Fixed some debug-only assertion errors.</li>
+        <li>Removed stale entries from the HSTS preload list, and
+improved generation/processing of it.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
