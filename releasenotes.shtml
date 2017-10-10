@@ -37,6 +37,45 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.5.1 (2017-10-10)</h3>
+This is a security and stability update to the browser, as well as
+fixing some issues users have indicated.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Changed the default Windows 10 styling when no accent color
+is applied to black-on-white.</li>
+        <li>Changed the theme styling on Windows 10 when the system
+window frame is used (menu bar enabled) to use the window manager
+background directly, preventing visual lag updating the window color
+when it changes.</li>
+        <li>Updated user agent overrides for DropBox, YouTube and
+Yahoo to work around user agent sniffing issues.</li>
+        <li>Fixed a crash in the media subsystem.<br>
+        </li>
+        <li>Fixed a regression where video playback hardware
+acceleration was disabled incorrectly on some systems.</li>
+      </ul>
+      <span style="font-weight: bold;">Security fixes:</span><br>
+      <ul>
+        <li>Updated the hyphenation library to the latest upstream code
+to fix a
+security issue.</li>
+        <li>Updated NSPR to 4.16-RTM with a patch to un-bust building
+on win64.</li>
+        <li>Updated NSS to 3.32.1-RTM.</li>
+        <li>Worked around some more issues with Mac fonts
+(CVE-2017-7825).</li>
+        <li>Fixed a potential rooting hazard in NPAPI plugin code. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential reference issue in JavaScript arrays. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code when
+surrounding code changes, exposing the problem.
       <h3>27.5.0 (2017-09-26)</h3>
 This is a major update furthering general development of the browser.<br>
       <br>
@@ -205,11 +244,7 @@ Jacobian-affine coordinates (CVE-2017-7781)</li>
 (CVE-2017-7809) <span style="color: rgb(191, 64, 64);">DiD</span>
 (accessibility is disabled)</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code when
-surrounding code changes, exposing the problem.
+      <span style="color: rgb(191, 64, 64);"></span>
       <h3>27.4.1 (2017-08-03)</h3>
 This is a small update to address some media and web compatibility
 issues.<br>

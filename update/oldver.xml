@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <updates>
-  <update type="major" displayVersion="27.5.0" appVersion="27.5.0"  extensionVersion="27.5.0" 
+  <update type="major" displayVersion="27.5.1" appVersion="27.5.1"  extensionVersion="27.5.1" 
           detailsURL="http://www.palemoon.org/releasenotes.shtml">
   <patch type="complete"
          URL="http://aus.palemoon.org/mar/invalid_placeholder.mar"

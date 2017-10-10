@@ -70,9 +70,10 @@ Please do note that there are known issues on some mobiles and versions
 of Android that will prevent this browser from working properly or in a
 stable fashion in some situations.<br>
       <br>
-The Android version does not currently have a developer/team assigned
+      <big><span style="color: rgb(204, 0, 0);">The Android version
+does not currently have a developer/team assigned
 to it due to lack of resources in the Pale Moon team, and we can
-currently not provide further development or bugfixes.<br>
+currently not provide further development or bugfixes.</span></big><br>
       <br>
 We do not have the resources or Android-specific expertise to keep pace
 with the rapid developments of the Android OS to provide a usable and
