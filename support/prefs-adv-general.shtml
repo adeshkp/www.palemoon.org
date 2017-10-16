@@ -1,35 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-  
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>Advanced Preferences: General</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Advanced Preferences: General</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=8">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
-      <br>
-</th>
+      <th class="subpageheader"> <br>
+      </th>
     </tr>
     <tr>
       <td style="vertical-align: top;">
       <h1>Advanced preferences: General</h1>
-      <strong>This preferences tab provides advanced Pale Moon settings not categorized elsewhere.</strong><br>
+      <strong>This preferences tab provides advanced Pale Moon settings
+not categorized elsewhere.</strong><br>
       <h2>Accessibility</h2>
       <p>This holds a single accessibility option:<br>
       </p>
@@ -40,7 +34,8 @@ search in the web page you have open by starting to type. Please note
 that this is an option specifically for accessibility use of the
 browser. It is recommended to leave this option disabled and use "/" to
 start a quick search or "Ctrl+F" to start a full search to avoid
-unexpected or ambiguous browser behavior.</li></ul>
+unexpected or ambiguous browser behavior.</li>
+      </ul>
       <h2>Browsing</h2>
 This section holds a few general-browsing options:<br>
       <ul>
@@ -54,18 +49,22 @@ compose, scroll and animate web pages (using your GPU when possible)
 which can dramatically speed up the display of web pages. If disabled,
 these tasks are performed by your CPU. Disabling this may be required
 for some combinations of hardware, system software and video drivers
-that may have issues with the way Pale Moon tries tohandle page compositing and rendering. </li>
-        <li>Check my spelling as I type: This enables the built-in spellchecking engine for text input when you type.</li>
+that may have issues with the way Pale Moon tries tohandle page
+compositing and rendering. </li>
+        <li>Check my spelling as I type: This enables the built-in
+spellchecking engine for text input when you type.</li>
       </ul>
       <h2>System Defaults</h2>
-This section determines how Pale Moon behaves in regards to system integration (default browser settings).<br>
+This section determines how Pale Moon behaves in regards to system
+integration (default browser settings).<br>
       <ul>
         <li>Always check to see if Pale Moon is the default browser on
 startup: If enabled, Pale Moon will do a check when it is launched to
 see if it is set as the operating system's default browser or not. If
 not, it will ask you if you want to make it the default browser when it
 starts.</li>
-        <li>Button "Make Pale Moon the default browser": This is only displayed if Pale Moon is not the default browser.<br>
+        <li>Button "Make Pale Moon the default browser": This is only
+displayed if Pale Moon is not the default browser.<br>
 This button allows you to have Pale Moon attempt to set itself as the
 operating system's default browser for all supported protocols and file
 types.</li>
@@ -85,7 +84,9 @@ websites that specifically check for mainstream browsers.<br>
       </ul>
       <span style="font-weight: bold;">v27:</span><br>
       <ul>
-        <li><span style="font-weight: bold;">User Agent mode</span>: This allows you to control the type of user agent (identification) Pale Moon sends to visited websites:</li>
+        <li><span style="font-weight: bold;">User Agent mode</span>:
+This allows you to control the type of user agent (identification) Pale
+Moon sends to visited websites:</li>
         <ul>
           <li><span style="font-weight: bold;">Native</span>: This will
 send Pale Moon's native string to websites, which indicates only its
@@ -98,12 +99,13 @@ string to indicate its common ancestry and general expected behavior to
 be roughly in line with Gecko-based browsers.<br>
           </li>
           <li><span style="font-weight: bold;">Firefox compatibility</span>:
-This changes the user agent string to be more "like Firefox" in that is
-uses the application version for its engine revision (rv:xx.xx) and including both a Gecko/x and Firefox/xx.xx slice in the user agent.<br>
+This changes the user agent string to be more "like Firefox" in that it
+uses the application version for its engine revision (rv:xx.xx) and
+including both a Gecko/x and Firefox/xx.xx slice in the user agent.<br>
           </li>
         </ul>
       </ul>
-<br>
+      <br>
       </td>
     </tr>
     <tr>
@@ -113,9 +115,7 @@ uses the application version for its engine revision (rv:xx.xx) and including bo
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
