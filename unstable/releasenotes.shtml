@@ -134,7 +134,14 @@ spec adherence.</li>
 used.</li>
         <li>Fixed some debug-only assertion errors.</li>
         <li>Removed stale entries from the HSTS preload list, and
-improved generation/processing of it.<br>
+improved generation/processing of it.</li>
+        <li>Added a number of DOM childNode convenience functions. This
+should fix some lazy-loading frameworks.<br>
+(enjoy your LOLcats again!)</li>
+        <li>Added pretty-printing for ECDSA-SHA224, 256, 384 and 512
+hashed certificate signatures.</li>
+        <li>Removed undesired certificate issuer organization to common
+name fallback (if issuer org is empty).<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
