@@ -1,27 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-  
-  <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-
-  
+<html>
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <title>Pale Moon - Redistribution</title>
-
-  
 <!-- Keep the http-equiv meta tag for IE8 -->
-  
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-
-  
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
   <meta content="Moonchild" name="author">
-
-  
   <style type="text/css">
 table.c8 {background-color: #F9F9F9}
     td.c7 {vertical-align: top; text-align: center;}
@@ -31,12 +21,14 @@ table.c8 {background-color: #F9F9F9}
     hr.c3 {width: 100%; height: 2px;}
     span.c2 {font-weight: bold;}
     img.c1 {border: 0px solid ; width: 800px; height: 82px;}
-    </style></head><body>
-<table class="maintable c8" align="center" border="0" cellpadding="0" cellspacing="0">
-
+    </style>
+</head>
+<body>
+<table class="maintable c8" align="center" border="0" cellpadding="0"
+ cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
@@ -48,27 +40,33 @@ table.c8 {background-color: #F9F9F9}
       <h1> Redistributing Pale Moon </h1>
 Even though Pale Moon is open source and the source is supplied under
 the Mozilla Public License, <span class="c2">redistribution of the
-Pale Moon binaries (executable form) is limited by certain conditions under a proprietary
+Pale Moon binaries (executable form) is limited by certain conditions
+under a proprietary
 license by Moonchild Productions</span>, as permitted under 3.2b of the
 MPL v2.0. This has been required because of, among other things, the
 increasing number of rogue/altered copies and people taking advantage
 of the free availability of the browser to monetize upon, which is
 against Pale Moon's principles of free software.<br>
       <br>
-Even though Pale Moon is supplied as open source, our branding included
+Even though Pale Moon is supplied as open source, <span
+ style="font-weight: bold;">our branding included
 in the source tree is protected and you are not granted any rights or
 licenses to the Pale Moon name, logo, or other identifying official
-branding marks, names or phrases. To clarify the situation if you build
-from source to redistribute the resulting executable form, please see
+branding marks, names or phrases.</span> To clarify the situation if
+you redistribute the browser in either source or executable form,
+please see
 points 8, 10 and 12 below.<br>
       <br>
 This license covers redistribution of officially supplied binaries and
 some policies regarding binaries built from source with official
-branding, which is allowed in some circumstances.<br>
+branding, which is allowed in some circumstances. In case of any doubt,
+always err on the side of caution and verify with the project owner <span
+ style="font-weight: bold;">before</span> publicly distributing Pale
+Moon.<br>
       <br>
       <hr class="c3">
       <h3> Redistribution license </h3>
-      <span class="c2">Last updated:</span> 24 February 2016<br>
+      <span class="c2">Last updated:</span> 26 October 2017<br>
       <br>
 If you wish to redistribute the binaries (executable form of the code)
 of Pale Moon, you are free to do so, with the following limitations:<br>
@@ -88,7 +86,8 @@ binaries, yourself (you have no rights to it)<br>
             <li>You charge for a physical medium like a CD or DVD.
 Example: If you provide a "cover disk" with a <span class="c4">printed</span>
 magazine, that is considered a "no charge" item (free bonus item with
-the magazine) and is therefore allowed. If you provide a <span class="c4">disk-based magazine</span> (digital) that includes Pale
+the magazine) and is therefore allowed. If you provide a <span
+ class="c4">disk-based magazine</span> (digital) that includes Pale
 Moon, the medium itself is paid for and considered a "charge" item, and
 is therefore not allowed. </li>
           </ol>
@@ -97,7 +96,9 @@ is therefore not allowed. </li>
 data (name, e-mail, telephone number, address, age, gender, ID, or
 similar) to download the binaries. If you require registration of users
 before they can download Pale Moon, you are not allowed to distribute
-it. Users must, at all times, have the <span class="c4">clear <span class="c2">and equal</span> option</span> to download Pale Moon <span class="c4">without</span> surrendering <span class="c4">any</span>
+it. Users must, at all times, have the <span class="c4">clear <span
+ class="c2">and equal</span> option</span> to download Pale Moon <span
+ class="c4">without</span> surrendering <span class="c4">any</span>
 personal information to you.<br>
         </li>
         <li>The
@@ -164,11 +165,16 @@ limited to non-commercial variants of Linux, variants of BSD and
 ReactOS. This exception only applies to unaltered versions of the Pale
 Moon binaries or officially branded variants specifically built for the
 target operating system from source that have not been materially
-changed (including brand-specific configurations like e.g. home page,
+changed (including build configuration not necessary for the resulting
+binary's proper operation and brand-specific configurations like e.g.
+home page,
 default search engine). If any of the essential settings of the browser
-are altered beyond what is strictly needed for providing a working
+are altered beyond what is strictly needed for providing a working and
+stable
 build on the target operating system, the exception in this point does
-not apply and the license defaults to point 10, instead.<ol style="list-style-type: lower-alpha;"><li>Clarification
+not apply and the license defaults to point 10, instead.
+          <ol style="list-style-type: lower-alpha;">
+            <li>Clarification
 of "officially branded variants specifically built
 for the target operating system": If an officially-built binary (i.e.
 built
@@ -183,8 +189,23 @@ requirements) or operation, and otherwise not
 impacting the material content of the browser package as a whole. QA of
 and support for the resulting variant binaries will in that case fall
 on the maintainer who will have to take full responsibility for the
-variant binary.<br>
-</li></ol>
+variant binary.</li>
+            <li>When redistributing the browser in source form through
+a distribution system that imposes or can impose a specific
+configuration for building and run-time operation (e.g. portage trees,
+overlays, ebuilds) that configures the build system to use official
+branding in the resulting binary, you (as a package
+maintainer/distributor) must adhere as closely as possible to the build
+configuration used in official generic binaries. You must not
+reconfigure the build system or browser preferences beyond what is
+necessary to produce the browser on the target operating system. Any
+individual additional configurations done on the browser (either build-
+or run-time) must be done by the end user, not imposed by package
+maintainers/distributors. In principle, browser preferences and the
+supplied profile defaults must not be changed for the exception
+outlined in this point.<br>
+            </li>
+          </ol>
         </li>
         <li>This redistribution agreement and any Individual Agreements
 for the redistribution of executable code are provided by Moonchild
@@ -194,19 +215,30 @@ The Initial Developer and every Contributor is hereby indemnified for
 any liability incurred by the Initial Developer or such Contributor as
 a result of these terms. </li>
         <li>The <span class="c2">only</span> exception to this
-redistribution policy not otherwise covered in points 7 or 8 is if the
+redistribution license not otherwise covered in points 7 or 8 is if the
 repackaged or private build with official branding has been
-pre-approved by Moonchild for redistribution and is listed on this
-website as a contributed build. Contributed builds are subject to a
+pre-approved by Moonchild for redistribution. Contributed builds with
+official branding are subject to a
 screening process, may be accepted or rejected, may be re-screened at a
-later time, and may be at any time removed, in Moonchild's sole
-discretion, either with or without stated reason. </li>
+later time, and may have their endorsement for use of official branding
+removed at any time if there
+is any reason to do so, in Moonchild's sole
+discretion, from which point forward redistribution of the
+officially-branded build(s) in
+question is no longer allowed.<br>
+For redistribution in source form with significant configuration
+changes imposed (see 8b), pre-approval of the configuration and
+preference changes is likewise required if the use of official branding
+is configured and the resulting binary on the end user's system will be
+identified as an official Pale Moon distribution.<br>
+        </li>
         <li>If a distribution is authorized as per point 10, the
 contributed build may be redistributed <span class="c2">in unaltered
 form</span> by third parties as set out in the points above and under
 the same conditions. </li>
         <li>If you wish to distribute binaries for other platforms,
-building from Pale Moon source code, you may <span style="font-weight: bold;">not</span> use official branding
+building from Pale Moon source code, you may <span
+ style="font-weight: bold;">not</span> use official branding
 unless these builds have also been approved as a contributed build as
 per point 10 of this license or if they are exempt under points 7 or 8
 of this license. Even so, you obtain no rights to the Pale Moon name or
@@ -228,13 +260,15 @@ the resulting unofficially branded binaries.<br>
       </ol>
       <hr class="c3"> <br>
 This license may be updated without notice, so please make sure to
-check back on occasion if you redistribute the browser. That being
+check back on occasion if you redistribute the browser in any form.
+That being
 said, there is no intention of making changes to the core of this
 license and the main premise of free availability behind it.<br>
       <br>
-If you have any questions about this redistribution policy, think
+If you have any questions about this redistribution license, think
 anything is in error or wish to discuss individual redistribution terms
-for your specific scenario, then please <a href="contact/">contact me</a>.<br>
+for your specific scenario, then please <a
+ href="mailto:licensing@palemoon.org">contact me</a>.<br>
       <br>
       <h3> Authorized inclusions </h3>
 Pale Moon may be authorized for inclusion in commercial or
@@ -250,7 +284,8 @@ in touch with me</span>. This will tackle two problems at once:<br>
         <li>If an inclusion <span class="c4">is</span> authorized, it
 potentially prevents incorrect bad press for the company, which should
 never be anyone's intention. So <span class="c5">before</span> making
-public posts about a suspected breach of the above license, <span class="c5">always</span> contact me to verify! </li>
+public posts about a suspected breach of the above license, <span
+ class="c5">always</span> contact me to verify! </li>
         <li>If an inclusion <span class="c4">is not</span> authorized,
 contacting me will alert me to the issue at hand (I don't have the time
 to scour the Internet for this kind of thing) so people can be called
@@ -266,9 +301,7 @@ to order if needed.<br>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
