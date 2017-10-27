@@ -141,7 +141,20 @@ should fix some lazy-loading frameworks.<br>
         <li>Added pretty-printing for ECDSA-SHA224, 256, 384 and 512
 hashed certificate signatures.</li>
         <li>Removed undesired certificate issuer organization to common
-name fallback (if issuer org is empty).<br>
+name fallback (if issuer org is empty).</li>
+        <li>Updated the zlib compression library.</li>
+        <li>Updated the default theme to improve consistency and
+contrast of toolbar and download buttons.</li>
+        <li>Increased the default duration of notification pop-ups and
+made them configurable.</li>
+        <li>Improved handling of audio-visual media (ongoing).</li>
+        <li>Added a selectable fallback character encoding of UTF-8 and
+fallback to UTF-8 as a last effort. (Issue #1423)</li>
+        <li>Fixed an issue with the KISS-FFT library causing
+CPU-deadlocked threads (Issue #1425)</li>
+        <li>Fixed an issue in CSS where elements would sometimes reflow
+to the next line even with sufficient visual space.</li>
+        <li>Changed automatic updates over to the new infrastructure.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
