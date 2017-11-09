@@ -49,6 +49,16 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
+        <li>Pale Moon launches twice when opening a URL from the
+command-line.<br>
+This is a regression introduced in 27.6.0 due to an incorrect
+workaround for new window focus.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;"></span><span
+ style="font-weight: bold;">Timeline:</span> Fixed in v27.6.1<br>
+          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
 media+MSE combinations don't work.</span><br>
 Our new asynchronous MSE code is not yet implemented for WebM, meaning
