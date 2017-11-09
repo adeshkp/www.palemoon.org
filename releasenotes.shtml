@@ -37,6 +37,95 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.6.0 (2017-11-07)</h3>
+This is a major development update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Dropped support for Direct2D 1.0 to avoid font rendering
+issues. Windows installations not capable of using Direct2D 1.1 will
+now fall back to software rendering. As a result, fonts may look
+different from this version onwards if you are on Windows Vista or
+Windows 7. Users on Windows 7 affected by this should install the <a
+ href="https://www.microsoft.com/en-us/download/details.aspx?id=36805"
+ target="_blank">Platform Update</a> to re-enable Direct2D.</li>
+        <li>Updated the Brotli decoder library, and enabled support for
+Brotli HTTP content-encoding by default.</li>
+        <li>Added notifications to inform users about WebExtensions not
+being supported if they try to install them (as opposed to "extension
+is corrupt")</li>
+        <li>Added a number of DOM childNode convenience functions. This
+should fix some lazy-loading frameworks.<br>
+(enjoy your LOLcats again!)</li>
+        <li>Changed automatic updates over to the new infrastructure.</li>
+        <li>Added extra proxy settings in Options, covering DNS lookups
+through SOCKS v5 and automatic proxy authentication with known
+credentials.</li>
+        <li>Added a selectable fallback character encoding of UTF-8 and
+fallback to UTF-8 as a last effort. (Issue #1423)</li>
+        <li>Improved timing of <code>canplay</code> and <code>canplaythrough</code>
+firing to work around a potential race condition locking up queued
+video playback.</li>
+        <li>Improved upmixing of mono sound for multi-channel setups.</li>
+        <li>Fixed a parallelization issue with the KISS-FFT library
+causing
+CPU-deadlocked threads (Issue #1425)</li>
+        <li>Fixed "Remove from history" function from the downloads
+panel.</li>
+        <li>Forced focus on the address bar in new windows if the
+content is a blank/empty document.</li>
+        <li>Fixed the dropmarker in the address bar to allow the
+suggestions to be closed with a click.</li>
+        <li>Further cleaned up the status bar code.</li>
+        <li>Disabled window.showModalDialog; it's been removed from the
+spec 2 years ago and has potential abuse issues (modal dialogs block
+the UI)</li>
+        <li>Fixed image decoder calls to make sure the image load event
+doesn't fire prematurely.</li>
+        <li>Updated LibPNG to 1.6.28, and enabled faster SSE2 decoding.</li>
+        <li>Updated WOFF2 code from upstream.</li>
+        <li>Updated the zlib compression library.</li>
+        <li>Made general improvements to internal code structure and
+spec adherence.</li>
+        <li>Fixed an issue with certain command-line parameters being
+used.</li>
+        <li>Updated the default theme to improve consistency and
+contrast of toolbar and download buttons.</li>
+        <li>Increased the default duration of notification pop-ups and
+made them configurable.</li>
+        <li>Improved handling of audio-visual media (ongoing).</li>
+        <li>Fixed an issue in CSS where elements would sometimes reflow
+to the next line even with sufficient visual space.</li>
+        <li>Aligned the implementation of <code>for(let x=y;;)</code>
+loops with the final ES6 specification.</li>
+        <li>Fixed the selection system inside of a nested
+contenteditable element being broken.</li>
+        <li>Fixed Windows 10 detection for blocklisting graphics
+drivers.</li>
+        <li>Enabled pasting of clipboard data in documents without an
+editor element to improve web compatibility.</li>
+        <li>Fixed the uninstallation routine of restartless add-ons.</li>
+        <li>Fixed the handling of unimplemented functions in the
+console API.</li>
+        <li>Updated the Facebook user-agent to enable otherwise
+vendor-restricted functionality.</li>
+        <li>Updated the SVG scaling cache limit to be more lenient for
+larger SVG images at a small performance trade-off, working around some
+sites' design issues.</li>
+      </ul>
+      <span style="font-weight: bold;">Security/privacy fixes:<br>
+      </span>
+      <ul>
+        <li>Added an option to clear Site Connectivity Data (delete
+history).</li>
+        <li>Removed stale entries from the HSTS preload list, and
+improved generation/processing of it.</li>
+        <li>Removed undesired certificate issuer organization to common
+name fallback (if issuer org is empty).</li>
+        <li>Added pretty-printing for ECDSA-SHA224, 256, 384 and 512
+hashed certificate signatures.</li>
+        <li>Worked around some more issues with broken Apple fonts.</li>
+      </ul>
       <h3>27.5.1 (2017-10-10)</h3>
 This is a security and stability update to the browser, as well as
 fixing some issues users have indicated.<br>

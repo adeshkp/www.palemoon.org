@@ -1,18 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-
-  
-    <meta name="generator" content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - Technical Details</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <style type="text/css">
+<html>
+<head>
+  <meta name="generator"
+ content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - Technical Details</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <style type="text/css">
 table.resulttable > tbody > tr > td {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -21,7 +20,7 @@ table.resulttable > tbody > tr > td {
     }
 
     </style>
-    <style type="text/css">
+  <style type="text/css">
     td.c15 {vertical-align: top; text-align: center;}
     li.c14 {list-style: none; display: inline}
     span.c13 {font-style: italic;}
@@ -36,258 +35,226 @@ table.resulttable > tbody > tr > td {
     th.c4 {width: 320px; text-align: center;}
     th.c3 {width: 330px; text-align: center;}
     span.c2 {font-weight: bold;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" -->
-            <br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c8">
-            <h1>
-              Pale Moon: Technical Details
-            </h1>So, you want more details about the browser? I'll be more than happy to explain:<br>
-            <br>
-            <ul>
-              <li>
-                <a href="#features">Features</a>
-              </li>
-              <li>
-                <a href="#CPUsupport">Supported Processors</a>
-              </li>
-              <li>
-                <a href="#Firefox_Differences">Differences with Mozilla products</a>
-              </li>
-              
-              <li>
-                <a href="#Palemoon_tested">How Pale Moon is tested</a>
-              </li>
-              <li>
-                <a href="#GeekCorner">The Geek Corner</a><br>
-              </li>
-            </ul><br>
-            <h3>
-              <a name="features" id="features"></a>Features/disabled features
-            </h3>This browser aims to strike a balance between features and speed. As such, a choice has been made to
-            consciously disable a few features found in other browsers that are not commonly used by the largest group
-            of users. If you require any of the disabled features, then the main-line build of Pale Moon is not for
-            you! You may find a suitable version on the third party <a href="contributed-builds.shtml">contributed
-            builds</a> page instead.<br>
-            <br>
-            The Pale Moon browser has, among other things, the following features:<br>
-            <ul>
-              <li>Specifically optimized for current processors.This browser will not run on particularly old systems.
-              </li>
-              <li>Increased stability: experience fewer crashes.<br>
-              </li>
-              <li>Support for Scalable Vector Graphics (SVG) and Canvas.
-              </li>
-              <li>Support for many Firefox Extensions (add-ons) as a compatibility feature.
-              </li>
-              <li>Support for a growing number of Pale Moon specific Extensions.</li>
-        <li>Offering low-level API access to extension developers to truly extend browser features.<br>
+    </style>
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c8">
+      <h1> Pale Moon: Technical Details </h1>
+So, you want more details about the browser? I'll be more than happy to
+explain:<br>
+      <br>
+      <ul>
+        <li> <a href="#features">Features</a> </li>
+        <li> <a href="#CPUsupport">Supported Processors</a> </li>
+        <li> <a href="#Firefox_Differences">Differences with Mozilla
+products</a> </li>
+        <li> <a href="#Palemoon_tested">How Pale Moon is tested</a> </li>
+      </ul>
+      <br>
+      <h3> <a name="features" id="features"></a>Features/disabled
+features </h3>
+This browser aims to strike a balance between features and speed. As
+such, a choice has been made to consciously disable a few features
+found in other browsers that are not commonly used by the largest group
+of users. If you require any of the disabled features, then the
+main-line build of Pale Moon is not for you! You may find a suitable
+version on the third party <a href="contributed-builds.shtml">contributed
+builds</a> page instead.<br>
+      <br>
+The Pale Moon browser has, among other things, the following features:<br>
+      <ul>
+        <li>Specifically optimized for current processors.This browser
+will not run on particularly old systems. </li>
+        <li>Increased stability: experience fewer crashes.<br>
         </li>
-
-              <li>Support for Personas ("lightweight" themes).
-              </li>
-              <li>Support for Complete Themes.<br>
-              </li>
-              <li>CSS Downloadable Font support (including WOFF and WOFF2).
-              </li>
-              <li>Extended HTML5, CSS3 and advanced DOM support.<br>
-              </li>
-              <li>Speedy scripting and page rendering.
-              </li>
-              <li>Optimized, secure networking.<br>
-              </li>
-              <li>Graphical tab switching with quick-search (user-selectable).<br>
-              </li>
-              <li>More customization options for navigation controls and the tab strip than other modern browsers.
-              </li>
-              <li>Enhanced security indicators (padlock/styling).
-              </li>
-              <li>More options for recovery (safe mode dialog).<br>
-              </li>
-            </ul>The following features have been <span class="c2">disabled or removed</span> by design:<br>
-            <ul>
-              <li>
-                <span class="c2">Accessibility features</span>. Most people don't have a need for specialized
-                accessibility features for custom input or display devices. This cuts down on the input complexity, and
-                increases speed, but will, obviously, not be suitable for people who need these features.
-              </li>
-              <li>
-                <span class="c2">Parental controls</span>. Pale Moon aims to be a fast browser for general use, not a
-                "secured family browser". The design impact of operating system integrated parental controls as
-                introduced in Mozilla code is significant, and has had serious implications for building the browser. As
-                such, parental controls have been disabled. Extensions-based parental controls are, of course, a
-                just-as viable alternative (and may in many cases work better!).<br>
-              </li>
-              <li>
-                <span class="c2">WebRTC</span>. Apart from opening up a whole can of worms security/privacy-wise, "Web
-                Real Time Chat" (comparable with Skype video calls and the likes) is not considered useful or desired
-                functionality for Pale Moon (both according to the developers and the users of the browser at large).
-                This is best left to dedicated programs or at most a browser plug-in.<br>
-              </li>
-              <li>
-                <span class="c2">Maintenance service</span>. Pale Moon does not use a Windows maintenance service and
-                does not update silently in the background.
-              </li>
-              <li>
-                <span class="c2">Integrated PDF reader</span>. You are
-                always recommended to use a separate, up-to-date document reader for PDF files (as an external program,
-                not as a browser plugin) for your own security, and to have documents displayed in their fully intended
-                format instead of a stripped-down display in an in-browser reader.
-              </li>
-              
-              <li>
-                <span class="c2">Tab Groups</span>. The Tab Group (aka Panorama) feature has never properly matured and
-                has not seen many people using it. In addition, the feature is generally slow to use, not intuitive,
-                and puts a rather hefty load on the browser when included. For people who still prefer to use this
-                feature even though it has been completely removed from the browser, an <a href="tabgroups.shtml">add-on is available</a> to replace the removed code.<br>
-              </li>
-              <li>A few miscellaneous things like the crashreporter and telemetry data gathering have been completely
-              removed since they require server-side components that are not in place at palemoon.org, as well as the
-              latter severely impacting user privacy.<br>
-              </li>
-            </ul><br>
-            <h3>
-              <a name="CPUsupport" id="CPUsupport"></a>Supported processors
-            </h3>The Pale Moon browser is specifically optimized for current-day processors and uses instructions
-            exclusively available in more modern (or rather: <span style="font-weight: bold;">not museum-grade</span>) processors. This means it will not run
-            on PCs that are particularly old by today's standards, and is likely to display errors or refuse to start
-            on systems with unsupported or poorly supported CPUs.<br>
-            Requirements for the regular Pale Moon browser are, in short: <span class="c2">a CPU with SSE2 support</span>.<br>
-            Since many people will not know off-hand what their CPU is capable of or what generation it is, here is a
-            run-down of a number of popular CPUs around the time of inclusion of this instruction set, and if they are
-            supported. In case of doubt if your CPU is supported or not, please find a CPU information tool like CPU-z
-            or Crystal CPU-ID to check your CPU's capacities.<br>
-            <br>
+        <li>Support for Scalable Vector Graphics (SVG) and Canvas. </li>
+        <li>Support for many Firefox Extensions (add-ons) as a
+compatibility feature. </li>
+        <li>Support for a growing number of Pale Moon specific
+Extensions.</li>
+        <li>Offering low-level API access to extension developers to
+truly extend browser features.<br>
+        </li>
+        <li>Support for Personas ("lightweight" themes). </li>
+        <li>Support for Complete Themes.<br>
+        </li>
+        <li>CSS Downloadable Font support (including WOFF and WOFF2). </li>
+        <li>Extended HTML5, CSS3 and advanced DOM support.<br>
+        </li>
+        <li>Speedy scripting and page rendering. </li>
+        <li>Optimized, secure networking.<br>
+        </li>
+        <li>Graphical tab switching with quick-search (user-selectable).<br>
+        </li>
+        <li>More customization options for navigation controls and the
+tab strip than other modern browsers. </li>
+        <li>Enhanced security indicators (padlock/styling). </li>
+        <li>More options for recovery (safe mode dialog).<br>
+        </li>
+      </ul>
+The following features have been <span class="c2">disabled or removed</span>
+by design:<br>
+      <ul>
+        <li> <span class="c2">Accessibility features</span>. Most
+people don't have a need for specialized accessibility features for
+custom input or display devices. This cuts down on the input
+complexity, and increases speed, but will, obviously, not be suitable
+for people who need these features. </li>
+        <li> <span class="c2">Parental controls</span>. Pale Moon aims
+to be a fast browser for general use, not a "secured family browser".
+The design impact of operating system integrated parental controls as
+introduced in Mozilla code is significant, and has had serious
+implications for building the browser. As such, parental controls have
+been disabled. Extensions-based parental controls are, of course, a
+just-as viable alternative (and may in many cases work better!).<br>
+        </li>
+        <li> <span class="c2">WebRTC</span>. Apart from opening up a
+whole can of worms security/privacy-wise, "Web Real Time Chat"
+(comparable with Skype video calls and the likes) is not considered
+useful or desired functionality for Pale Moon (both according to the
+developers and the users of the browser at large). This is best left to
+dedicated programs or at most a browser plug-in.<br>
+        </li>
+        <li> <span class="c2">Maintenance service</span>. Pale Moon
+does not use a Windows maintenance service and does not update silently
+in the background. </li>
+        <li> <span class="c2">Integrated PDF reader</span>. You are
+always recommended to use a separate, up-to-date document reader for
+PDF files (as an external program, not as a browser plugin) for your
+own security, and to have documents displayed in their fully intended
+format instead of a stripped-down display in an in-browser reader. </li>
+        <li> <span class="c2">Tab Groups</span>. The Tab Group (aka
+Panorama) feature has never properly matured and has not seen many
+people using it. In addition, the feature is generally slow to use, not
+intuitive, and puts a rather hefty load on the browser when included.
+For people who still prefer to use this feature even though it has been
+completely removed from the browser, an <a href="tabgroups.shtml">add-on
+is available</a> to replace the removed code.<br>
+        </li>
+        <li>A few miscellaneous things like the crashreporter and
+telemetry data gathering have been completely removed since they
+require server-side components that are not in place at palemoon.org,
+as well as the latter severely impacting user privacy.<br>
+        </li>
+      </ul>
+      <br>
+      <h3> <a name="CPUsupport" id="CPUsupport"></a>Supported
+processors </h3>
+The Pale Moon browser is specifically optimized for current-day
+processors and uses instructions exclusively available in more modern
+(or rather: <span style="font-weight: bold;">not museum-grade</span>)
+processors. This means it will not run on PCs that are particularly old
+by today's standards, and is likely to display errors or refuse to
+start on systems with unsupported or poorly supported CPUs.<br>
+Requirements for the regular Pale Moon browser are, in short: <span
+ class="c2">a CPU with SSE2 support</span>.<br>
+Since many people will not know off-hand what their CPU is capable of
+or what generation it is, here is a run-down of a number of popular
+CPUs around the time of inclusion of this instruction set, and if they
+are supported. In case of doubt if your CPU is supported or not, please
+find a CPU information tool like CPU-z or Crystal CPU-ID to check your
+CPU's capacities.<br>
+      <br>
 This table is incomplete, but outlines a few popular classes of
 processor around the era where this may be a question:<br>
-            <br>
-            <table class="c10" border="1" cellpadding="2" cellspacing="0">
-              <tbody>
-                <tr class="c5">
-                  <th colspan="1" rowspan="1" class="c3">
-                    Processor<br>
-                  </th>
-                  <th colspan="1" rowspan="1" class="c4">
-                    Supported?<br>
-                  </th>
-                </tr><tr>
-                  <td class="c6">
-                    386 / 486 / Pentium / Pentium II<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c7">NO</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    Pentium III<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c7">NO</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    Pentium IV<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c9">YES</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    Pentium-M / Celeron-M<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c9">YES</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    Pentium-D / Celeron-D<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c9">YES</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    Older generation single-core Celeron<br>
-                  </td>
-                  <td class="c8">
-                    Maybe:<br>
-                    &lt; 1.7 GHz not likely,<br>
-                    &gt;= 1.7 GHz likely.<br>
-                    Use a CPU info tool!
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    AMD Athlon (1st generation) / Thunderbird<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c7">NO</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    AMD Athlon XP/MP<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c7">NO</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    AMD Opteron / Athlon64 / Turion64<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c9">YES</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    AMD Sempron<br>
-                  </td>
-                  <td class="c8">
-                    Maybe:<br>
-                    Socket 462: <span class="c7">NO</span><br>
-                    Socket 754/939: <span class="c9">YES</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="c6">
-                    <span class="c2">All</span> multi-core processors:<br>
-                    Intel Core/C2D/C2Q/i3/i5/i7/etc.<br>
-                    AMD Athlon II X2/X3/X4/etc.<br>
-                    AMD Phenom/II/FX/etc.<br>
-                  </td>
-                  <td class="c8">
-                    <span class="c9">YES</span>
-                  </td>
-                </tr>
-              </tbody>
-            </table><br>
-            <br>
-            <h3>
-              <a name="Firefox_Differences" id="Firefox_Differences"></a>How different is this browser from Mozilla products?
-            </h3><span class="c11">The differences are increasingly significant as time passes. Pale Moon will remain
-            close to Firefox in certain parts of the code to offer a degree of compatibility with add-ons, but
-            should be considered a "fork" and a totally independent product.</span><span class="c12"></span><br>
-            <ol>
-              <li>Pale
+      <br>
+      <table class="c10" border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr class="c5">
+            <th colspan="1" rowspan="1" class="c3"> Processor<br>
+            </th>
+            <th colspan="1" rowspan="1" class="c4"> Supported?<br>
+            </th>
+          </tr>
+          <tr>
+            <td class="c6"> 386 / 486 / Pentium / Pentium II<br>
+            </td>
+            <td class="c8"> <span class="c7">NO</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> Pentium III<br>
+            </td>
+            <td class="c8"> <span class="c7">NO</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> Pentium IV<br>
+            </td>
+            <td class="c8"> <span class="c9">YES</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> Pentium-M / Celeron-M<br>
+            </td>
+            <td class="c8"> <span class="c9">YES</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> Pentium-D / Celeron-D<br>
+            </td>
+            <td class="c8"> <span class="c9">YES</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> Older generation single-core Celeron<br>
+            </td>
+            <td class="c8"> Maybe:<br>
+&lt; 1.7 GHz not likely,<br>
+&gt;= 1.7 GHz likely.<br>
+Use a CPU info tool! </td>
+          </tr>
+          <tr>
+            <td class="c6"> AMD Athlon (1st generation) / Thunderbird<br>
+            </td>
+            <td class="c8"> <span class="c7">NO</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> AMD Athlon XP/MP<br>
+            </td>
+            <td class="c8"> <span class="c7">NO</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> AMD Opteron / Athlon64 / Turion64<br>
+            </td>
+            <td class="c8"> <span class="c9">YES</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> AMD Sempron<br>
+            </td>
+            <td class="c8"> Maybe:<br>
+Socket 462: <span class="c7">NO</span><br>
+Socket 754/939: <span class="c9">YES</span> </td>
+          </tr>
+          <tr>
+            <td class="c6"> <span class="c2">All</span> multi-core
+processors:<br>
+Intel Core/C2D/C2Q/i3/i5/i7/etc.<br>
+AMD Athlon II X2/X3/X4/etc.<br>
+AMD Phenom/II/FX/etc.<br>
+            </td>
+            <td class="c8"> <span class="c9">YES</span> </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <h3> <a name="Firefox_Differences" id="Firefox_Differences"></a>How
+different is this browser from Mozilla products? </h3>
+      <span class="c11">The differences are increasingly significant as
+time passes. Pale Moon will remain close to Firefox in certain parts of
+the code to offer a degree of compatibility with add-ons, but should be
+considered a "true fork" and a totally independent product.</span><span
+ class="c12"></span><br>
+      <ol>
+        <li>Pale
 Moon is based on a derivative of the Gecko rendering engine (Goanna).
 This means that the core rendering functions for Pale Moon and Firefox
 (and rebuilds) will be a relatively close match and that functionality
@@ -295,94 +262,71 @@ in the Gecko core code, will, as a ballpark estimate, also exist in
 Pale Moon. Where specific core functions have been changed, it has been
 done carefully and with due consideration to provide better performance
 and efficiency while not endangering the security of the browser, and
-to focus on better standards compatibility and/or more sane behavior. </li><li>Pale
+to focus on better standards compatibility and/or more sane behavior. </li>
+        <li>Pale
 Moon comes with a number of different default configuration settings
-than Firefox and may behave differently when certain advanced configuration preferences are changed.<br>
+than Firefox and may behave differently when certain advanced
+configuration preferences are changed.<br>
 Note
 that "internet
 speed boosters" and general "tweak guides" written for Firefox can
-actually <span class="c12">harm</span> Pale Moon's speed as the configuration defaults are made with
-              in-depth knowledge of the browser back-end and "a higher number" or "bigger buffer" isn't always better.
-              <span class="c12">You are strongly advised to always use defaults as supplied in Pale Moon.</span>
-              </li>
-              <li>Changes were made to the user interface and feature set, to incorporate functionality and visual
-              elements in <a href="layout-differences.shtml">different locations</a> than what was chosen by the
-              Mozilla team, as well as <span class="c2">retaining or re-introducing useful elements that were removed
-              in Firefox</span>, and either removing or disabling (by default) components that would not be used by the
-              average user. In addition, some other user interface changes were made to provide an as consistent and
-              intuitive interface as possible while still staying close to what Firefox's goals have always been.
-              <span class="c2">This means the "Australis" interface will never be used in Pale Moon.</span><br>
-              </li>
-              <li>Pale Moon offers more configurability for features, like additional tab preferences, preferences for
-              image loading or tab positions, and full control over smooth scrolling, to name a few.
-              </li>
-              <li>Pale Moon uses a different "Sync" client and its own server to synchronize data between different
-              instances of the browser. This is not compatible with Firefox Sync as used in Firefox 29 or later.
-              Mozilla's change to "Firefox Accounts" is a different and less secure approach to synchronizing data and
-              focuses more on future commercial endeavours of the Mozilla Corporation and, after careful consideration,
-              has been rejected for use in Pale Moon (for quite the list of reasons, to be fair).<br>
-              </li>
-              
-            </ol><br>
-<h3>
-              <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale Moon has been tested
-            </h3>Pale Moon builds are tested for stability before being released by having it used for day-to-day
-            browsing by a group of beta testers. This includes but is not limited to:<br>
-            <ul>
-              <li>Graphics heavy art sites</li>
+actually <span class="c12">harm</span> Pale Moon's speed as the
+configuration defaults are made with in-depth knowledge of the browser
+back-end and "a higher number" or "bigger buffer" isn't always better. <span
+ class="c12">You are strongly advised to always use defaults as
+supplied in Pale Moon.</span> </li>
+        <li>Changes were made to the user interface and feature set, to
+incorporate functionality and visual elements in <a
+ href="layout-differences.shtml">different locations</a> than what was
+chosen by the Mozilla team, as well as <span class="c2">retaining or
+re-introducing useful elements that were removed in Firefox</span>, and
+either removing or disabling (by default) components that would not be
+used by the average user. In addition, some other user interface
+changes were made to provide an as consistent and intuitive interface
+as possible while still staying close to what Firefox's goals have
+always been. <span class="c2">This means the "Australis" interface
+will never be used in Pale Moon.</span><br>
+        </li>
+        <li>Pale Moon offers more configurability for features, like
+additional tab preferences, preferences for image loading or tab
+positions, and full control over smooth scrolling, to name a few. </li>
+        <li>Pale Moon uses a different "Sync" client and its own server
+to synchronize data between different instances of the browser. This is
+not compatible with Firefox Sync as used in Firefox 29 or later.
+Mozilla's change to "Firefox Accounts" is a different and less secure
+approach to synchronizing data and focuses more on future commercial
+endeavours of the Mozilla Corporation and, after careful consideration,
+has been rejected for use in Pale Moon (for quite the list of reasons,
+to be fair).<br>
+        </li>
+      </ol>
+      <br>
+      <h3> <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale
+Moon has been tested </h3>
+Pale Moon builds are tested for stability before being released by
+having it used for day-to-day browsing by a group of beta testers. This
+includes but is not limited to:<br>
+      <ul>
+        <li>Graphics heavy art sites</li>
         <li>Various "web applications"<br>
         </li>
-
-              <li>Static HTML sites with many elements
-              </li>
-              <li>DHTML/CSS sites
-              </li>
-              <li>SSL/heavy authentication sites
-              </li>
-              <li>Flash-heavy sites
-              </li>
-              <li>Social media sites
-              </li>
-            </ul><br>
-            <h3>
-              <a name="GeekCorner" id="GeekCorner"></a>The Geek Corner
-            </h3>TMI (Too Much Information) for the average joe:<br>
-            <ul>
-              <li>Build environment (Windows):<br>
-              </li>
-              <li class="c14">
-                <ul>
-                  
-            <li>Hardware: Asus AMD FX, main workstation, 16GB RAM<br>
-                  </li>
-
-                  
-            <li>Software: Windows 7 64-bit, Windows 8 SDK<br>
-                  </li>
-
-                  
-            <li>Compiler: MS Visual Studio 2013 CE (MSVC CL 12)
-                  </li>
-
-                </ul>
-              </li>
-              <li>Optimizations:
-SSE2 architecture, global speed-preference flags, intrinsic functions
-where possible, auto-vectorization, auto-parallelization. Some small
-variations of these could be possible depending on specific release
-builds. Many of the builds (and all recent ones) use identical-code
-folding to further increase speed and reduce size of the program at the
-expense of compile time. </li>
-              
-            </ul><br>
-          </td>
-        </tr>
-        <tr>
-          <td class="c15">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-  </body></html>
+        <li>Static HTML sites with many elements </li>
+        <li>DHTML/CSS sites </li>
+        <li>SSL/heavy authentication sites </li>
+        <li>Flash-heavy sites </li>
+        <li>Social media sites </li>
+      </ul>
+      <br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="c15"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>
