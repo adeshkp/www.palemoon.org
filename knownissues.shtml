@@ -49,16 +49,6 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li>Pale Moon launches twice when opening a URL from the
-command-line.<br>
-This is a regression introduced in 27.6.0 due to an incorrect
-workaround for new window focus.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;"></span><span
- style="font-weight: bold;">Timeline:</span> Fixed in v27.6.1<br>
-          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
         <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
 media+MSE combinations don't work.</span><br>
 Our new asynchronous MSE code is not yet implemented for WebM, meaning
@@ -93,6 +83,42 @@ Design]</span> </li>
 Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
+      <br>
+      <span style="font-weight: bold;">27.6.0:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
+Moon launches twice when opening a URL from the
+command-line/other program.</span><br>
+This is a regression introduced in 27.6.0 due to an incorrect
+workaround for new window focus.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
+          <span style="font-weight: bold;"></span><span
+ style="font-weight: bold;">Workaround: </span>None, but you can use
+the <a href="http://www.palemoon.org/unstable/">unstable version</a>
+in the meantime if this is a breaking issue.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+v27.6.1<br>
+          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Logging
+in to CitiBank's on-line banking fails.</span><br>
+The server gives cryptic error message that the website it temporarily
+unavailable -- as it turns out this seems to be a user-agent sniffing
+issue which can easily be worked around (it's not a browser bug).<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(140, 121, 98);">[Workaround]</span></span><br>
+          <span style="font-weight: bold;">Workaround:</span> in
+about:config, change the existing preference <code>general.useragent.override.citi.com</code>
+to "<code>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101
+Firefox/57.0 (Pale Moon)</code>". When the default override for this
+site will be updated, you can reset the pref to use Pale Moon's default
+again (in case another change is needed in the future, and to
+accurately reflect dynamic parts of the override).<br>
+          <span style="font-weight: bold;">Timeline:</span> The
+override for this site will be updated in 27.6.1.</li>
+      </ol>
       <br>
       <span style="font-weight: bold;">27.2, 27.3:<br>
       </span>
