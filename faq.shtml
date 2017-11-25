@@ -86,8 +86,6 @@ copy my existing Firefox profile to Pale Moon?</a> </li>
 Firefox and Pale Moon work together in the future?</a> </li>
         <li> <a href="#Will_Pale_Moon_bundle_the_extension">Will Pale
 Moon bundle the extension/add-on {xxxx}?</a> </li>
-        <li> <a href="#Can_I_see_your_mozconfig">Can I see your
-mozconfig/build environment?</a> </li>
         <li> <a href="#Restore_Tab_Groups">How do I restore Tab Groups
 in Pale Moon 24.0 and later?</a><br>
         </li>
@@ -444,27 +442,6 @@ has been re-integrated into the browser.</span><br>
       <br>
       <a href="#top">[^ Top ^]</a><br>
       <br>
-      <h3> <a name="Can_I_see_your_mozconfig"
- id="Can_I_see_your_mozconfig"></a>Can I see your mozconfig/build
-environment/configuration files? </h3>
-A few people have asked about getting a detailed run-down of my
-development environment, configuration, .mozconfig file, path details,
-release engineering tools, etc.; clearly not always with good
-intentions.<br>
-      <br>
-The answer is: <span class="c5">No, you do not need that info</span>.<br>
-      <br>
-That being said, Pale Moon is released fully as Open Source, with
-downloadable source code released under the Mozilla Public License
-v2.0, and with a Github repository available at <a
- href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
-In addition, I've created basic <a
- href="http://forum.palemoon.org/viewtopic.php?f=19&amp;t=4166">build
-instructions</a> on the forum that will allow you to build the browser
-from source.<br>
-      <br>
-      <a href="#top">[^ Top ^]</a><br>
-      <br>
       <h3> <a name="Restore_Tab_Groups" id="Restore_Tab_Groups"></a>How
 do I restore Tab Groups/Panorama in Pale Moon 24+? </h3>
 Pale Moon 24 and later <span class="c5">do not</span> include Tab
@@ -527,9 +504,8 @@ opens (or click the arrowhead), then click "Menu Bar":<br>
       </td>
     </tr>
     <tr>
-      <td class="c10">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+      <td class="c10"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>
