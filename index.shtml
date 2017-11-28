@@ -84,7 +84,7 @@ Source,
 Goanna-based web
 browser available for Microsoft Windows and
 Linux (with other operating systems in development), focusing on
-efficiency and ease of use. Make sure to get the most out of your
+efficiency and customization. Make sure to get the most out of your
 browser!<br>
       <br>
 Pale Moon offers you a browsing experience in a browser completely
@@ -176,6 +176,11 @@ to name a few things.<br>
         <tbody>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
+            <br>
+            <span class="bold"><small><small>28 Nov 2017</small></small><br>
+Pale Moon 27.6.2 has been released.</span> This is security and
+stability update. This will be the last update of 2017; Happy Holidays
+to everyone!<br>
             <br>
             <span class="bold"><small><small>15 Nov 2017</small></small><br>
 Pale Moon 27.6.1 has been released.</span> This is small bugfix update
