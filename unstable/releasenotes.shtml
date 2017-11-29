@@ -101,30 +101,13 @@ also manifests with default preferences and no installed add-ons
 migration for server used.</li>
         <li>Fixed devtools (gcli) screenshots on vertical-text pages.</li>
         <li>Fixed devtools copy as cURL for POST requests.</li>
-        <li>Fixed the Linux load throbber image to be properly encoded.
-(27.6.2)<br>
-        </li>
         <li>Worked around an issue with some improperly-encoded PNG
 files not decoding after our libpng update.</li>
         <li>Removed the "ask every time" policy for cookies.</li>
         <li>Added support for X-Content-Type-Options: nosniff (scripts).</li>
         <li>Added "My home page" as an option for new tabs.</li>
-        <li>Added cookie restrictions for "cookie-averse" document
-objects. (27.6.2)</li>
         <li>Fixed an issue with "nosniff" in the case of null body
 responses (30x).</li>
-        <li>Fixed several issues with the display of IDNs
-(internationalized domain names). (27.6.2)</li>
-        <li>Fixed several crashes.
-(27.6.2)</li>
-        <li>Ported relevant security fixes across from Firefox 57.
-(27.6.2)</li>
-        <li>Removed the shortcut key combination for restarting the
-browser to avoid issues with people using certain keyboard layouts
-hitting the combination unintentionally. (27.6.2)</li>
-        <li>Fixed a potential issue with exporting of tagged bookmarks
-to HTML.
-(27.6.2)</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
