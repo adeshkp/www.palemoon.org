@@ -65,8 +65,13 @@ some other issues like CVE-2017-7833 are already mitigated by us.<br>
 certificates.</li>
         <li>Added missing sanitization in exporting bookmarks to HTML.
 (CVE-2017-7840)</li>
-        <li>Fixed several crashes and memory safety hazards.<br>
-        </li>
+        <li>Fixed several crashes and memory safety hazards.</li>
+        <li>Fixed the Linux load throbber image to be properly encoded,
+to prevent flickering.</li>
+        <li>Removed the shortcut key combination for restarting the
+browser to avoid issues with people using certain keyboard layouts
+hitting the combination and unintentionally triggering a browser
+restart.</li>
       </ul>
       <h3>27.6.1 (2017-11-15)</h3>
 This is a minor bugfix release to address some pressing issues people
