@@ -108,6 +108,39 @@ files not decoding after our libpng update.</li>
         <li>Added "My home page" as an option for new tabs.</li>
         <li>Fixed an issue with "nosniff" in the case of null body
 responses (30x).</li>
+        <li>Added support for media cue-change events (e.g. subtitles).</li>
+        <li>Improved the HTML editor component (several bugfixes).</li>
+        <li>Fixed an issue where CSS clone operations would draw a
+border.</li>
+        <li>Fixed an issue where number inputs would incorrectly be
+flagged as read-only.</li>
+        <li>Improved the resetting of non-default profiles.</li>
+        <li>Fixed an issue with details/summary having the incorrect
+height if floated, breaking layouts.</li>
+        <li>Made several more improvements to the details/summary tags.<br>
+        </li>
+        <li>Fixed several additional bugs in details/summary tags.</li>
+        <li>Fixed an assert in cubeb-alsa code (Linux).</li>
+        <li>Added an option to disable the 4th and 5th mouse buttons
+(Windows).<br>
+(<code>mouse.button4.enabled</code> and <code>mouse.button5.enabled</code>,
+respectively)</li>
+        <li>Added an option to disable the page visibility Web API (<code>dom.visibilityAPI.enabled</code>)</li>
+        <li>Fixed an issue on Mac builds not properly populating the
+application menu.</li>
+        <li>Added support for ES7's exponentiation <code>a ** b</code>
+operator.</li>
+        <li>Updated SQLite to 3.21.0.</li>
+        <li>Removed referrers when opening links in a new private
+window.<br>
+        </li>
+        <li>Added assets for tile display in the Windows start panel.</li>
+        <li>Improved WebAudio API: Return the connected audio node from
+          <code>AudioNode.connect()</code></li>
+        <li>Added support for a default playback start position in
+media elements.</li>
+        <li>Fixed a crash when trying to use the platform embedded.<br>
+        </li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
