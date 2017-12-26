@@ -139,7 +139,14 @@ window.<br>
           <code>AudioNode.connect()</code></li>
         <li>Added support for a default playback start position in
 media elements.</li>
-        <li>Fixed a crash when trying to use the platform embedded.<br>
+        <li>Fixed a crash when trying to use the platform embedded.</li>
+        <li>Fixed an issue with arrow functions incorrectly creating an
+'arguments' binding.</li>
+        <li>Removed the sending of referrers when opening a link in a
+new private window.</li>
+        <li>Implemented support for flex/columnset contents inside
+buttons to align its behavior with other browsers.<br>
+(this should fix layout issues with Twitch's new web interface)<br>
         </li>
       </ul>
       <br>
