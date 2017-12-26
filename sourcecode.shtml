@@ -47,21 +47,21 @@ The source code of the current <span style="font-weight: bold;">release</span>
 version:<br>
       <br>
       <div class="c3"> <a class="dllink_blue"
- href="ftp://source:current@ftp2.palemoon.org/palemoon-27.6.2-source.7z">Download
+ href="ftp://source:current@archive.palemoon.org/palemoon-27.6.2-source.7z">Download
 current release version source code</a><br>
       </div>
       <br>
 PGP signature: <a
- href="ftp://source:current@ftp2.palemoon.org/palemoon-27.6.2-source.7z.sig">[Sig]</a><br>
+ href="ftp://source:current@archive.palemoon.org/palemoon-27.6.2-source.7z.sig">[Sig]</a><br>
       <br>
       <span style="font-weight: bold;">Debug symbols:</span> If you
 want to debug Windows release builds and need the debug symbols for it,
 you can find the symbols for individual releases matching the source
-trees at <a href="ftp://symbols:get@ftp2.palemoon.org/">ftp://symbols:get@ftp2.palemoon.org/</a><br>
+trees at <a href="ftp://symbols:get@archive.palemoon.org/">ftp://symbols:get@archive.palemoon.org/</a><br>
       <br>
 If you are looking for older/different versions of the source code,
 check the source code archives on ftp: <a
- href="ftp://source:get@ftp2.palemoon.org/">ftp://source:get@ftp2.palemoon.org/</a><br>
+ href="ftp://source:get@archive.palemoon.org/">ftp://source:get@archive.palemoon.org/</a><br>
       <span style="font-weight: bold;"></span><br>
       <span style="font-weight: bold;">Note:</span> The source code
 archive above is for the main-line x86/x64 release

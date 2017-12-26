@@ -81,17 +81,17 @@ Marián Kadaňka<br>
 A build specifically for this OS. Source with necessary modifications
 available from the same page.</li>
         <li><a
- href="ftp://archive:get@ftp2.palemoon.org/3rdparty/RasPi/">Pale Moon
+ href="ftp://archive:get@archive.palemoon.org/3rdparty/RasPi/">Pale Moon
 for
 Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
-        <li><a href="ftp://archive:get@ftp2.palemoon.org/3rdparty/SSE/">SSE
+        <li><a href="ftp://archive:get@archive.palemoon.org/3rdparty/SSE/">SSE
 build
 (x86)</a> by Mercury.<br>
 A rebuild of Pale Moon from official source catering to particularly
 old processors that don't support SSE2.</li>
-        <li><a href="ftp://archive:get@ftp2.palemoon.org/3rdparty/IA32/">IA-32
+        <li><a href="ftp://archive:get@archive.palemoon.org/3rdparty/IA32/">IA-32
 build (x86)</a> by Mercury.<br>
 A rebuild of Pale Moon from official source catering to <span
  style="font-style: italic;">very</span> old processors that don't
