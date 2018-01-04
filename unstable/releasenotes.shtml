@@ -146,7 +146,22 @@ media elements.</li>
 new private window.</li>
         <li>Implemented support for flex/columnset contents inside
 buttons to align its behavior with other browsers.<br>
-(this should fix layout issues with Twitch's new web interface)<br>
+(this should fix layout issues with Twitch's new web interface)</li>
+        <li>Changed the way fractional border widths are rounded to
+provide more natural behavior.</li>
+        <li>Disabled automatic filling in of log-in details by default
+to prevent potential risks of credentials being abused or stolen;<br>
+Added a preference (in the category security) to easily enable or
+disable automatic filling in of log-in data.<br>
+        </li>
+        <li>Reorganized access to preferences (moved to the Tools menu
+on Linux, and renamed from "Options" to "Preferences" on Windows).</li>
+        <li>Renamed "Restart with add-ons disabled" to "Restart in Safe
+Mode" to better reflect what it does.</li>
+        <li>Added Javascript's ES6 "unscopables".</li>
+      </ul>
+      <ul>
+        <li>Added support for ES6 "Symbol species".<br>
         </li>
       </ul>
       <br>
