@@ -1,71 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Live Chat</title>
-  
-
-  
-  
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Pale Moon Live Chat</title>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
-      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <td
+ style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
       <br>
       </td>
     </tr>
     <tr>
       <td style="vertical-align: top;">
-      <h1>Pale Moon Live Chat</h1>
+      <h1>Pale Moon Community Chat</h1>
 Pale
 Moon has an IRC channel that is operated on the Freenode IRC network (a
 chat network mainly focusing on Free and Open Source Software). If you
-have an IRC-capable chat client (e.g. FossaMail) then you can point
-your client to the following address:<br>
+have an IRC-capable chat client then you can point it to the following
+address:<br>
       <br>
-      <div style="text-align: center;"><a href="irc://irc.freenode.net:6667/%23palemoon">irc://irc.freenode.net:6667/#palemoon</a><br>
+      <div style="text-align: center;"><a
+ href="irc://irc.freenode.net:6667/%23palemoon">irc://irc.freenode.net:6667/#palemoon</a><br>
       </div>
       <br>
 Alternatively, you can enter our IRC channel directly from the browser
-below and have a live chat!<br><span style="font-weight: bold;">Please be patient</span>
-if you have a question, and <span style="color: rgb(204, 0, 0);">keep in mind that this is a public IRC chat
+below and have a chat!<br>
+      <span style="font-weight: bold;">Please be patient</span>
+if you have a question, and <span style="color: rgb(204, 0, 0);">keep
+in mind that this is a public IRC chat
 room, not private support chat like you may be used to from chatting
 with commercial companies.</span> If you don't get an
 answer, it's recommended that you post on the forum instead.
 People on IRC commonly idle in chat rooms and may not actually see your
-questions or posts until a lot later - although the chat is live chat,
+questions or posts until a lot later - although the chat is real-time,
 and you may get an instant dialogue going, it may also not be immediate.<br>
       <br>
 Please
 follow <a href="chat-etiquette.shtml">expected etiquette</a> when
 joining this chat room. Thanks in advance! :)<br>
-<br>
-      <br>
-      <div style="text-align: center;"><a class="chatbutton-freenode" href="chat-online.shtml">&nbsp; Start chat (freenode client)</a>
-      <a class="chatbutton-kiwi" href="https://kiwiirc.com/client/irc.freenode.net/#palemoon">&nbsp; Start chat (KiwiIRC client)</a><br>
       <br>
       <br>
-
+      <div style="text-align: center;"><a class="chatbutton-freenode"
+ href="chat-online.shtml">&nbsp; Start chat (freenode client)</a> <a
+ class="chatbutton-kiwi"
+ href="https://kiwiirc.com/client/irc.freenode.net/#palemoon">&nbsp;
+Start chat (KiwiIRC client)</a><br>
+      <br>
+      <br>
       </div>
-</td>
+      </td>
     </tr>
     <tr>
       <td style="vertical-align: top; text-align: center;"><!--#include virtual="/nav/footer.html" -->
@@ -74,9 +72,7 @@ joining this chat room. Thanks in advance! :)<br>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
