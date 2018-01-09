@@ -161,7 +161,9 @@ Mode" to better reflect what it does.</li>
         <li>Added Javascript's ES6 "unscopables".</li>
       </ul>
       <ul>
-        <li>Added support for ES6 "Symbol species".<br>
+        <li>Added support for ES6 "Symbol species".</li>
+        <li>Split caret width off from border width to make it
+independent and using a different rounding algorithm.<br>
         </li>
       </ul>
       <br>
