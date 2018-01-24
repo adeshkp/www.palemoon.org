@@ -177,14 +177,13 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>28 Nov 2017</small></small><br>
-Pale Moon 27.6.2 has been released.</span> This is security and
-stability update. This will be the last update of 2017; Happy Holidays
-to everyone!<br>
+            <span class="bold"><small><small>18 Jan 2018</small></small><br>
+Pale Moon 27.7.1 has been released.</span> This is a minor emergency
+update to address website breakage and a theme issue.<br>
             <br>
-            <span class="bold"><small><small>15 Nov 2017</small></small><br>
-Pale Moon 27.6.1 has been released.</span> This is small bugfix update
-to address some reported issues with the browser. Please read
+            <span class="bold"><small><small>15 Jan 2018</small></small><br>
+Pale Moon 27.7.0 has been released.</span> This is a major update with
+bugfixes, new features and security/privacy changes. Please read
 the <a href="releasenotes.shtml">release
 notes</a> for details.<br>
             <br>
@@ -197,16 +196,13 @@ news...</a> </td>
       <div
  style="text-align: center; font-family: Arial,Helvetica,sans-serif; font-size: x-small;">Advertisement:<br>
 <!-- sponsor link space -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- PM vertical -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
-     data-ad-client="ca-pub-4490583218014683"
-     data-ad-slot="7570024458"></ins>
-<script>
+      <script async=""
+ src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- PM vertical -->
+      <ins class="adsbygoogle" style="width: 160px; height: 600px;"
+ data-ad-client="ca-pub-4490583218014683" data-ad-slot="7570024458"></ins>
+      <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>      
-<!-- end sponsor link space -->
+      </script><!-- end sponsor link space -->
       </div>
       </td>
     </tr>
@@ -279,8 +275,7 @@ technologies:<br>
  title="VPS Servers"
  style="border: 0px solid ; width: 250px; height: 61px;"
  src="images/vpsserver.png" class="c11"
- alt="VPSserver.com - VPS servers"></a>
-      </div>
+ alt="VPSserver.com - VPS servers"></a> </div>
       <small style="color: rgb(128, 128, 128);">Want to become a
 corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
  href="donations.shtml#Corporate_sponsorship">read this</a>.</small><br>

@@ -84,6 +84,42 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
+      <span style="font-weight: bold;">27.7.0:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Tab
+borders are drawn too thick when visual elements in Windows are scaled
+up</span><br>
+At 125% or 150% scaling of visual elements in Display Options in
+Windows, the borders of tabs may be drawn thicker than intended in the
+default theme.<br>
+This is a side-effect of the natural border size rounding introduced in
+Pale Moon 27.7.0 combined with non-standard styling of tabs in our UI.
+This needs some tweaking of our default theme.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
+ style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
+          <span style="font-weight: bold;">Workaround:</span> Can be
+adjusted with userChrome.css; please see our forum for details.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+27.7.1<br>
+        </li>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
+websites have operational issues since 27.7.0</span><br>
+This is caused by an incomplete implementation of the new "Unscopables"
+ES6 feature in JavaScript. Fixing this is our current priority.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(255, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
+ style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
+          <span style="font-weight: bold;">Workaround:</span> None. You
+may want to revert to 27.6.2 for the time being or switch to the
+"Unstable" versions where any fixes will land the moment they are done.<br>
+          <span style="font-weight: bold;">Timeline:</span> Fixed in
+27.7.1</li>
+      </ol>
+      <br>
       <span style="font-weight: bold;">27.6.0:<br>
       </span>
       <ol>

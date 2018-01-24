@@ -62,8 +62,9 @@ will have a similar result.<br>
 give warranty or guarantees, and it is provided "as-is" although I've
 done my best to make sure it works as-intended. </p>
       <h2> Download and install </h2>
-The current version is <span class="bold">2.0.0</span> - this is an
-update for Pale Moon 27.*.<br>
+The current version is <span class="bold">2.0.1</span> - this is an
+update re-licensing the extension under the MPL 2.0. Enjoy your FOSS
+freedom!<br>
       <br>
 You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181"
  target="_blank">go to the forum thread</a> for this add-on to provide
@@ -90,9 +91,7 @@ Alternatives:<br>
 the add-on from <a
  href="http://www.softpedia.com/progDownload/Pale-Moon-Commander-Download-231714.html">SoftPedia</a><br>
       <br>
-This add-on is supplied as COPYRIGHTED FREEWARE with disclosed source.
-Please see the <a href="freeware-license.shtml">Pale Moon Freeware
-License</a> for details.<br>
+This add-on is supplied as FOSS under the Mozilla Public License v2.0.<br>
       <br>
       <h2> Documentation </h2>
 The add-on currently has a basic manual in PDF format, applicable to

@@ -47,12 +47,12 @@ The source code of the current <span style="font-weight: bold;">release</span>
 version:<br>
       <br>
       <div class="c3"> <a class="dllink_blue"
- href="ftp://source:current@archive.palemoon.org/palemoon-27.6.2-source.7z">Download
+ href="ftp://source:current@archive.palemoon.org/palemoon-27.7.1-source.7z">Download
 current release version source code</a><br>
       </div>
       <br>
 PGP signature: <a
- href="ftp://source:current@archive.palemoon.org/palemoon-27.6.2-source.7z.sig">[Sig]</a><br>
+ href="ftp://source:current@archive.palemoon.org/palemoon-27.7.1-source.7z.sig">[Sig]</a><br>
       <br>
       <span style="font-weight: bold;">Debug symbols:</span> If you
 want to debug Windows release builds and need the debug symbols for it,

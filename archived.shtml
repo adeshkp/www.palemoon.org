@@ -39,7 +39,8 @@ version you personally need and do not hotlink.<br>
 Please understand that "anonymous" FTP access is not enabled; you must
 use the links with credentials as posted on this page. Trying to use
 the FTP server name by itself will <span style="font-weight: bold;">not</span>
-give you access to downloads (this is required to deter scraper bots
+give you access to these downloads (this is required to deter scraper
+bots
 eating up our bandwidth for no real use).</span><br>
       </div>
       <h3> Download (all old versions) </h3>
@@ -47,7 +48,7 @@ You can download archived versions of the browser from the Pale Moon
 archival FTP<br>
       <div class="center">
       <h2> <a style="text-decoration: none;" target="_blank"
- href="ftp://archive:get@archive.palemoon.org/Pale_Moon/">ftp://archive:get@archive.palemoon.org/Pale_Moon/<br>
+ href="ftp://palemoon:get@archive.palemoon.org/">ftp://palemoon:get@archive.palemoon.org/<br>
       </a> </h2>
       </div>
 If you need <span class="bold">language packs</span> for older
@@ -72,9 +73,8 @@ current are found at:<br>
       </td>
     </tr>
     <tr>
-      <td class="center">
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
+      <td class="center"><!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

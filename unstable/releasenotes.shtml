@@ -97,73 +97,23 @@ also manifests with default preferences and no installed add-ons
       <ul>
       </ul>
       <ul>
-        <li>Finished sync infra swapover by adding a one-time pref
-migration for server used.</li>
-        <li>Fixed devtools (gcli) screenshots on vertical-text pages.</li>
-        <li>Fixed devtools copy as cURL for POST requests.</li>
-        <li>Worked around an issue with some improperly-encoded PNG
-files not decoding after our libpng update.</li>
-        <li>Removed the "ask every time" policy for cookies.</li>
-        <li>Added support for X-Content-Type-Options: nosniff (scripts).</li>
-        <li>Added "My home page" as an option for new tabs.</li>
-        <li>Fixed an issue with "nosniff" in the case of null body
-responses (30x).</li>
-        <li>Added support for media cue-change events (e.g. subtitles).</li>
-        <li>Improved the HTML editor component (several bugfixes).</li>
-        <li>Fixed an issue where CSS clone operations would draw a
-border.</li>
-        <li>Fixed an issue where number inputs would incorrectly be
-flagged as read-only.</li>
-        <li>Improved the resetting of non-default profiles.</li>
-        <li>Fixed an issue with details/summary having the incorrect
-height if floated, breaking layouts.</li>
-        <li>Made several more improvements to the details/summary tags.<br>
-        </li>
-        <li>Fixed several additional bugs in details/summary tags.</li>
-        <li>Fixed an assert in cubeb-alsa code (Linux).</li>
-        <li>Added an option to disable the 4th and 5th mouse buttons
-(Windows).<br>
-(<code>mouse.button4.enabled</code> and <code>mouse.button5.enabled</code>,
-respectively)</li>
-        <li>Added an option to disable the page visibility Web API (<code>dom.visibilityAPI.enabled</code>)</li>
-        <li>Fixed an issue on Mac builds not properly populating the
-application menu.</li>
-        <li>Added support for ES7's exponentiation <code>a ** b</code>
-operator.</li>
-        <li>Updated SQLite to 3.21.0.</li>
-        <li>Removed referrers when opening links in a new private
-window.<br>
-        </li>
-        <li>Added assets for tile display in the Windows start panel.</li>
-        <li>Improved WebAudio API: Return the connected audio node from
-          <code>AudioNode.connect()</code></li>
-        <li>Added support for a default playback start position in
-media elements.</li>
-        <li>Fixed a crash when trying to use the platform embedded.</li>
-        <li>Fixed an issue with arrow functions incorrectly creating an
-'arguments' binding.</li>
-        <li>Removed the sending of referrers when opening a link in a
-new private window.</li>
-        <li>Implemented support for flex/columnset contents inside
-buttons to align its behavior with other browsers.<br>
-(this should fix layout issues with Twitch's new web interface)</li>
-        <li>Changed the way fractional border widths are rounded to
-provide more natural behavior.</li>
-        <li>Disabled automatic filling in of log-in details by default
-to prevent potential risks of credentials being abused or stolen;<br>
-Added a preference (in the category security) to easily enable or
-disable automatic filling in of log-in data.<br>
-        </li>
-        <li>Reorganized access to preferences (moved to the Tools menu
-on Linux, and renamed from "Options" to "Preferences" on Windows).</li>
-        <li>Renamed "Restart with add-ons disabled" to "Restart in Safe
-Mode" to better reflect what it does.</li>
-        <li>Added Javascript's ES6 "unscopables".</li>
       </ul>
       <ul>
         <li>Added support for ES6 "Symbol species".</li>
-        <li>Split caret width off from border width to make it
-independent and using a different rounding algorithm.<br>
+        <li>Removed the notification bar when in full screen to prevent
+unwanted visible screen elements.</li>
+        <li>Removed unmaintained and insecure WebRTC code - building
+with WebRTC enabled is no longer an option.</li>
+        <li>Added a setting in preferences to select the use of tab
+previews with Ctrl+Tab.</li>
+        <li>Adjusted the theme to account for natural element border
+rounding causing too-thick tab borders. (27.7.1)<br>
+        </li>
+        <li>Added missing essential functionality for ES6
+array[@@unscopables]. (27.7.1)</li>
+        <li>Added Eyedropper menu entry to the AppMenu.</li>
+        <li>Disabled a potentially problematic optimization on Win 8+
+with high contrast themes in use.<br>
         </li>
       </ul>
       <br>
