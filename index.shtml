@@ -177,13 +177,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>18 Jan 2018</small></small><br>
-Pale Moon 27.7.1 has been released.</span> This is a minor emergency
-update to address website breakage and a theme issue.<br>
-            <br>
-            <span class="bold"><small><small>15 Jan 2018</small></small><br>
-Pale Moon 27.7.0 has been released.</span> This is a major update with
-bugfixes, new features and security/privacy changes. Please read
+            <span class="bold"><small><small>1 Feb 2018</small></small><br>
+Pale Moon 27.7.2 has been released.</span> This is a security and
+stability update to the browser. Please read
 the <a href="releasenotes.shtml">release
 notes</a> for details.<br>
             <br>
@@ -270,12 +266,17 @@ technologies:<br>
  href="https://www.voucherslug.co.uk/" target="_blank"><img
  title="Voucher Slug"
  style="border: 0px solid ; width: 157px; height: 70px;"
- src="images/voucherslug-2.png" class="c11" alt="Voucher Slug"></a> <a
+ src="images/voucherslug-2.png" class="c11" alt="Voucher Slug"></a><a
  href="https://www.vpsserver.com/" target="_blank"><img
  title="VPS Servers"
  style="border: 0px solid ; width: 250px; height: 61px;"
  src="images/vpsserver.png" class="c11"
- alt="VPSserver.com - VPS servers"></a> </div>
+ alt="VPSserver.com - VPS servers"></a> <a
+ href="https://www.topratedbingosites.co.uk/" target="_blank"><img
+ title="topratedbingosites.co.uk"
+ style="border: 0px solid ; width: 250px; height: 58px;"
+ src="images/topratedbingosites-UK.png" class="c11"
+ alt="topratedbingosites.co.uk"></a> </div>
       <small style="color: rgb(128, 128, 128);">Want to become a
 corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
  href="donations.shtml#Corporate_sponsorship">read this</a>.</small><br>
@@ -303,7 +304,10 @@ corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
 </ul>
 <!-- END SOCIAL MEDIA WIDGET -->
 <!-- SS data: 
+
 VS 18-03-14
+TRBS 19-02-05
+
 -->
 </body>
 </html>
