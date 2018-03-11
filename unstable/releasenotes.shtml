@@ -99,26 +99,22 @@ also manifests with default preferences and no installed add-ons
       <ul>
       </ul>
       <ul>
-        <li>Added support for ES6 "Symbol species".</li>
-        <li>Removed the notification bar when in full screen to prevent
-unwanted visible screen elements.</li>
-        <li>Removed unmaintained and insecure WebRTC code - building
-with WebRTC enabled is no longer an option.</li>
-        <li>Added a setting in preferences to select the use of tab
-previews with Ctrl+Tab.</li>
-        <li>Added Eyedropper menu entry to the AppMenu.</li>
-        <li>Disabled a potentially problematic optimization on Win 8+
-with high contrast themes in use.</li>
-        <li>Removed redundant checks for "Vista or later" since that is
-all we support.</li>
-        <li>Updated the kiss-fft library to our forked 1.4.0 version.</li>
-        <li>Added a preference to control whether the text cursor
-(caret) should be thicker when dealing with CJK characters or not
-(default = yes).</li>
-        <li>Added URL fix-ups for schemes (mis-typed "ttp://" etc.).</li>
-        <li>Set the performance timer granularity to 1 ms.</li>
-        <li>Added display of the http status to raw request displays.</li>
-        <li>Fixed a number of browser crashes.</li>
+        <li>Reverted NSS from 3.35 to 3.32.1 to mitigate shutdown
+crashes.</li>
+        <li>Fixed a number of spec compliance issues in our media
+subsystem.</li>
+        <li>Added a trailing slash to referrers when policy is set to
+fix some web compatibility issues.</li>
+        <li>Fixed the property order in
+Object.getOwnPropertyNames(string) and others.</li>
+        <li>Updated RegExp(RegExp object, flags) to ES6 standard.</li>
+        <li>Changed the embedded font from the no longer free EmojiOne
+to the open-licensed Twemoji. This also further extends unicode support
+to Unicode 10 emojis.</li>
+        <li>Updated the UA override for dropbox.</li>
+        <li>Adjusted some things in our memory allocator code to
+provide, among other things, better allocation alignment on Windows.<br>
+        </li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
