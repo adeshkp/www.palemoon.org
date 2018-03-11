@@ -177,12 +177,16 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
+            <span class="bold"><small><small>6 Mar 2018</small></small><br>
+Pale Moon 27.8.1 has been released.</span> This is a small update to
+address some breaking issues. Please read
+the <a href="releasenotes.shtml">release
+notes</a> for details.<br>
+            <br>
             <span class="bold"><small><small>2 Mar 2018</small></small><br>
 Pale Moon 27.8.0 has been released.</span> This is a standard
 development update which adds and improves several features and fixes a
-number of bugs. Please read
-the <a href="releasenotes.shtml">release
-notes</a> for details.<br>
+number of bugs.<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>

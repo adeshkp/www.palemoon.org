@@ -84,6 +84,30 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
+      <span style="font-weight: bold;">27.8.0:<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">In
+some configurations, the browser may crash on shutdown.</span><br>
+It seems to be especially the case if the Firefox version of
+GreaseMonkey (1.15) is installed instead of our Pale Moon fork of it.<br>
+The crash has been pinpointed to our latest NSS library update.<br>
+We are currently investigating the exact cause of this, and will be
+backing out the NSS update (as well as disabling TLS 1.3 draft support
+since the draft supported by the older NSS version is going to be
+obsolete very soon) to resolve the crashes in the next point release.<br>
+          <span style="font-weight: bold;">Status: </span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]
+          </span></span>(long term solution is <span
+ style="font-weight: bold; color: rgb(204, 102, 0);">[In
+progress]</span>)<br>
+          <span style="font-weight: bold;">Workaround:</span> If you
+are a greasemonkey 1.15 user, please update to our <a
+ href="https://github.com/janekptacijarabaci/greasemonkey/releases/">Pale
+Moon fork</a> of it.<br>
+          <span style="font-weight: bold;">Timeline:</span> Crash fixed
+in 27.8.1</li>
+      </ol>
       <span style="font-weight: bold;">27.7.0:<br>
       </span>
       <ol>
