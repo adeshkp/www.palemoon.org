@@ -48,38 +48,24 @@ anonymous, please make sure to let me know</span><span
       <hr style="width: 100%; height: 2px;"><span
  style="font-weight: bold;"></span>
       <h2><a name="Monetary_donations"></a> Monetary donations </h2>
-You can transfer money by using one of the following methods:<br>
+You can donate money by using one of the following methods:<br>
       <ul>
-        <li>Paypal - this is a well-known US-based electronic money
-provider. You can use the donation button on the <a
- href="http://www.palemoon.org/">Pale Moon home page</a> to make a
-donation through PayPal. Please note that due to transfer fees
-involved, we ask that you donate at least $5 (USD) or the equivalent
-when using PayPal.<br>
+        <li>Patreon: For continuous, recurring support to our project,
+at <a href="https://www.patreon.com/MoonchildProductions"
+ target="_blank">https://www.patreon.com/MoonchildProductions<br>
+          </a><a href="https://www.patreon.com/bePatron?u=10185297"
+ target="_blank"><img
+ style="border: 0px solid ; width: 217px; height: 51px;"
+ src="images/become_a_patron_button.png" alt="Become a Patron!"
+ align="middle"></a><br>
         </li>
-        <li>Bank (wire) transfer<br>
-For people living in the EU, this is an option as well (sorry, I don't
-accept wire transfers from outside the EU zone due to fees) as long as
-your bank offers SEPA transfers. Contact me to get the bank details. </li>
-        <li><span style="font-weight: bold;">Donations in
-cryptocurrencies are no longer accepted.</span> Due to the rapidly
-increasing volatility and increasing amount of criminal activity around
-any cryptocurrency, we can no longer accept donations in
-cryptocurrencies of any kind. It is cumbersome, risky and has become
-something we can no longer with a good conscience deal in.<br>
-        </li>
-        <li>Sending cash (bills only please, no coins)<br>
-If you prefer, you can also send a donation in the form of cash (any
-currency accepted, but Swedish Crowns preferred. Sending money in an
-envelope is always at your own risk; please make sure to not make it
-obvious as it may get stolen by postal workers in that case.<br>
-Send to:<br>
-          <div class="address"> M.C. Straver<br>
-Skrivaregatan 2<br>
-58649 Linköping<br>
-Sweden<br>
-          </div>
-        </li>
+        <li>Ko-Fi: For irregular donations, one-time support, or just
+to toss us some change to get a coffee :) at <a
+ href="https://ko-fi.com/palemoon">https://ko-fi.com/palemoon</a><br>
+          <a href="https://ko-fi.com/palemoon" target="_blank"><img
+ style="border: 0px solid ; width: 197px; height: 50px;"
+ src="images/kofi50.png?v=0" alt="Buy Me a Coffee at ko-fi.com"
+ align="middle"> </a></li>
       </ul>
       <h2><a name="Donating_development_hardware"></a> Donating
 development hardware </h2>
@@ -96,7 +82,7 @@ discuss this.<br>
       <br>
 Potential service areas:<br>
       <ul>
-        <li>Advertising! Spread the word, launch an ad campaign, tell
+        <li>Evangelism! Spread the word, launch an ad campaign, tell
 your friends, hand out flyers, etc.<br>
         </li>
         <li>Any other service you think may be of benefit to Pale Moon
@@ -116,8 +102,7 @@ custom ads. Currently, corporate sponsorship packages have a minimum of
 $100/month threshold; Open Source sponsors can get an OSS package with
 a lower minimum of $50/month.
 Please consider regular and/or recurring donations for support amounts
-smaller than that which will still have your support listed on this
-page.<br>
+smaller than that using the services above.<br>
       <br>
 Corporate sponsorship will give your company a prominent mention on the
 project home page for as long as the endorsement lasts, with a display
@@ -147,49 +132,12 @@ Please contact business-inquiries [at] palemoon [dot] org if you wish
 to apply to become our sponsor.<br>
       <br>
       <h1><a name="Thank_you"></a> Thank you </h1>
-I would like to express my thanks to the following people for their
-support, in no particular order. <span class="bold red">Without your
+I would like to express my thanks to all the people who, over the
+years, have supported our project in one way or another. <br>
+      <br>
+      <span class="bold red">Without your
 help, support and contributions, Pale Moon would not have been possible!</span><br>
       <br>
-      <span class="bold">Testing and moral support:</span><br>
-Cole Hughes, Colin Moran, Gerardo Rubio, Daryl Sprint, Jason Sullivan,
-and the beta testers on the forum.<br>
-      <br>
-      <span class="bold">Special thanks to the following people for
-chipping in for required development tools:</span><br>
-      <div class="supporter"> Jason Sullivan, Bruno Langelaan, Anthony
-Grobe, Maximilian Magana, Travis Anderson, Michael Wakunda, Jose
-Arellano, Roger Taylor, David Wales, Aurimas Grigas, Ezio Aditore, John
-McNamara, Rógvi D. Clementsen, Temple Martin, David Khoo, Floyd
-Drennon, Ryan Clemens, Stephen May, Robert McLean, Michael Larsen, Will
-Rolison, Tracy Romine, Timothy Lamb, Alain McKinnon, Kentaro Uematsu,
-Marc Finerty, Damjan Gerl, Chris Chokan, Jeff Lee, Greg Stone, Ton
-Sonneveldt, Mark Ewald, Rick Lund, 春名 五月, Don Hay, Mirko Breßler and
-some people who prefer to remain anonymous.<br>
-      </div>
-      <br>
-      <span class="bold">Special thanks to the following translators
-for their efforts in localizing Pale Moon:<br>
-      </span>
-      <div class="supporter"> O. Roth (ReinekeFux), Archaeopteryx,
-Endor, KNTRO, Gerardo Rubio "Lobocursor" Perez, José I. Plaza, Carlos
-Mella, Jarpo, Jojaba, Yodli, Morinaga, Bovirus, Hikaru Murai, RohithNS,
-Lee Kangsan, Nui Parishi, Дмитрий Черкасов, Mikael Hiort af Ornäs, Wang
-H.K., Phil Chan, Leo Lee, Kamil Drozdek, Rogério Queiroga.<br>
-      </div>
-      <br>
-      <span class="bold">Donations (monetary or otherwise) and other
-support:</span><br>
-      <div class="donator"><!--#include virtual="donatornames.txt" --> </div>
-      <br>
-      <div
- style="text-align: left; font-size: 11pt; line-height: 1.1em; color: rgb(51, 51, 153); font-style: italic;">
-      <span class="bold">Note:</span>
-this list only includes the names of people who have made a notable
-contribution (monetary or otherwise). <span class="underline">All
-donations and support, no matter how small, are greatly appreciated</span>,
-of course.<br>
-      </div>
       <span class="bold"></span><br>
       </td>
     </tr>
