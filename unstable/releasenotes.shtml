@@ -99,8 +99,6 @@ also manifests with default preferences and no installed add-ons
       <ul>
       </ul>
       <ul>
-        <li>Reverted NSS from 3.35 to 3.32.1 to mitigate shutdown
-crashes.</li>
         <li>Fixed a number of spec compliance issues in our media
 subsystem.</li>
         <li>Added a trailing slash to referrers when policy is set to
@@ -113,7 +111,24 @@ to the open-licensed Twemoji. This also further extends unicode support
 to Unicode 10 emojis.</li>
         <li>Updated the UA override for dropbox.</li>
         <li>Adjusted some things in our memory allocator code to
-provide, among other things, better allocation alignment on Windows.<br>
+provide, among other things, better allocation alignment on Windows.</li>
+        <li>Made the attempt to migrate people from the old sync server
+domain name to the current one more aggressive.</li>
+        <li>Made reading of the sessionstore synchronous, to speed up
+startup and prevent the homepage from being loaded when restoring a
+session.</li>
+        <li>Fixed a number of security bugs and crashes.</li>
+        <li>Updated lz4 to 1.8.0.</li>
+        <li>Added a fix to switch to the correct window/tab when a web
+notification is clicked.</li>
+        <li>Fixed Skia build path on AArch64.</li>
+        <li>Changed the placeholder to not include "Search" when all
+search functions from the address bar are disabled.</li>
+        <li>Enabled the use of Skia for canvas on Linux and OSX.</li>
+        <li>Pinpointed and worked around a pervasive crashing scenario
+in the layout engine due to unstable code for responsive media/images.<br>
+As a result, the browser currently doesn't respond to viewport changes
+on-the-fly any longer as regards images/media using <code>srcset</code>.<br>
         </li>
       </ul>
       <br>

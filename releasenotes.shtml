@@ -37,6 +37,41 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.8.3 (2018-03-28)</h3>
+This is a small update to address a pervasive crashing issue.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Backed out some responsive layout code that caused
+intermittent but not uncommon crashes in the browser depending on
+window sizes and page content.<br>
+        </li>
+      </ul>
+      <h3>27.8.2 (2018-03-22)</h3>
+This is a security update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Privacy fix: prevented update checks for the default theme.</li>
+        <li>Added a user-agent override for Dropbox to improve
+compatibility with their service.</li>
+        <li>Fixed an issue with mouseover handling related to
+(CVE-2018-5103). <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Disabled the Mac OSX Nano allocator. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed (CVE-2018-5129) OOB Write.</li>
+        <li>Updated the lz4 library to 1.8.0 to solve potential issues.
+          <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed (CVE-2018-5137) Path traversal on chrome:// URLs<br>
+        </li>
+        <li>Fixed several memory safety an synchronicity hazards.</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code, e.g. when
+surrounding code changes, exposing the problem, or when new attack
+vectors are discovered.
       <h3>27.8.1 (2018-03-06)</h3>
 This is a small update to address some breaking issues.<br>
       <br>
@@ -124,12 +159,7 @@ rare crash. <br>
         <li>Fixed a crash with some uncommon FTP operations.</li>
         <li>Fixed a potential race condition in the JAR library.</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code, e.g. when
-surrounding code changes, exposing the problem, or when new attack
-vectors are discovered.
+      <span style="color: rgb(191, 64, 64);"></span>
       <h3>27.7.1 (2018-01-18)</h3>
 This is a minor emergency update to address website breakage and a
 theme issue.<br>

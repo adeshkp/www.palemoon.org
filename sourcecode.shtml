@@ -43,12 +43,18 @@ and people needing to audit the browser code for security purposes. <span
 browser.</span><br>
       <br>
       <h2> Downloading the source code </h2>
-To download the source code for current and past versions,
-check the source code archives on ftp:<br>
-Starting with 27.8.0 it will be available as 7-zip archive (Windows
-file system) or .tar.gz archive (Linux file system).<br>
-PGP/GnuPG signatures (.sig) accompany the archives to verify their
-integrity and authenticity.<br>
+To download the source code for current and a limited number of past
+versions,
+check the source code release on GitHub:<br>
+      <br>
+      <div style="text-align: center;"><big><a
+ href="https://github.com/MoonchildProductions/Pale-Moon/releases">https://github.com/MoonchildProductions/Pale-Moon/releases</a></big><br>
+      </div>
+      <br>
+To download previous (archived) versions of the source code for older
+versions of Pale Moon, these are provided <span
+ style="font-weight: bold;">for historical reference only</span> at the
+archival FTP site:<br>
       <br>
       <div style="text-align: center;"><big><a
  href="ftp://source:get@archive.palemoon.org/">ftp://source:get@archive.palemoon.org/</a></big><br>
