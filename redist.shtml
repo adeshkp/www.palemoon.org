@@ -203,11 +203,11 @@ on the maintainer who will have to take full responsibility for the
 variant binary.</li>
             <li>When redistributing the browser in source form through
 a distribution system that imposes or can impose a specific
-configuration for building and run-time operation (e.g. portage trees,
-overlays, ebuilds) that configures the build system to use official
-branding in the resulting binary, you (as a package
-maintainer/distributor) must adhere as closely as possible to the build
-configuration used in official generic binaries. You must not
+configuration for building and run-time operation (e.g. portage
+ebuilds, ABS/AUR PKGBUILDs, port Makefiles) that configures the build
+system to use official branding in the resulting binary, you (as a
+package maintainer/distributor) must adhere as closely as possible to
+the build configuration used in official generic binaries. You must not
 reconfigure the build system or browser preferences beyond what is
 necessary to produce the browser on the target operating system. Any
 individual additional configurations done on the browser (either build-
@@ -238,9 +238,9 @@ discretion, from which point forward redistribution of the
 officially-branded build(s) in
 question is no longer allowed.<br>
 For redistribution in source form (e.g. through any of the various
-overlay build scripts or portage tree systems) under our mixed license
-with protected trademark assets included, with significant
-configuration
+source packaging systems such as portage, ABS/AUR or ports) under our
+mixed license with protected trademark assets included, with
+significant configuration
 changes imposed (see 8b), pre-approval of the build configuration and
 preference changes is likewise required if the use of official branding
 is configured and the resulting binary on the end user's system will be
