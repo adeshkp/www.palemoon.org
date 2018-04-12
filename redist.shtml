@@ -56,17 +56,27 @@ branding marks, names or phrases.</span> To clarify the situation if
 you redistribute the browser in either source or executable form,
 please see
 points 8, 10 and 12 below.<br>
+Since our source code is released under a mixed license, explicitly
+excluding any rights to the trademarks therein, the branding assets and
+trademarks included remain the sole property of Moonchild (M. Straver)
+and rights are only granted <span style="font-weight: bold;">by
+exception</span> and under specific
+circumstances. <span style="font-weight: bold;">Even though the assets
+are included in our source tree,
+you have no rights to use them or include them in any resulting
+binaries, regardless of how they are produced</span>, unless explicitly
+granted by agreement or stated exceptions below.<br>
       <br>
 This license covers redistribution of officially supplied binaries and
 some policies regarding binaries built from source with official
 branding, which is allowed in some circumstances. In case of any doubt,
 always err on the side of caution and verify with the project owner <span
  style="font-weight: bold;">before</span> publicly distributing Pale
-Moon.<br>
+Moon or including it in a distribution framework.<br>
       <br>
       <hr class="c3">
       <h3> Redistribution license </h3>
-      <span class="c2">Last updated:</span> 26 October 2017<br>
+      <span class="c2">Last updated:</span> 12 April 2018<br>
       <br>
 If you wish to redistribute the binaries (executable form of the code)
 of Pale Moon, you are free to do so, with the following limitations:<br>
@@ -141,14 +151,16 @@ proprietary protocols. This includes any offering of such unendorsed
 downloading software or methods, regardless of offering "direct"
 downloads or allowed methods alongside the unendorsed ones.<br>
         </li>
-        <li>The binaries are not supplied as an integral part of a
+        <li>The binaries are not supplied or built as an integral part
+of a
 commercial/non-commercial software package/larger works ("package"). If
 you wish to do this, you must contact me beforehand to obtain
 permission and discuss terms. Inclusion in a package will be subject to
 an individual agreement (either extemporaneous or legalized) which may
 or may not involve compensation.<br>
         </li>
-        <li>The binaries are not supplied as an integral part of a
+        <li>The binaries are not supplied or built as an integral part
+of a
 commercial/non-commercial website/web service/on-line venue/etc.
 ("service"). If you wish to do this, you must contact me beforehand to
 obtain permission and discuss terms. Inclusion in a service will be
@@ -159,10 +171,9 @@ and 6 of this license for <span class="c4"> educational</span>
 purposes if bundled with other open source software or supplied as part
 of a curriculum or in-college resource for students. </li>
         <li>An <span class="c4">exception</span> applies to point 5 of
-this license for inclusion of the officially branded binaries in freely
-available and fully Open Source operating systems, including but not
-limited to non-commercial variants of Linux, variants of BSD and
-ReactOS. This exception only applies to unaltered versions of the Pale
+this license for inclusion of the officially branded binaries in
+non-commercial variants of Linux. This exception only applies to
+unaltered versions of the Pale
 Moon binaries or officially branded variants specifically built for the
 target operating system from source that have not been materially
 changed (including build configuration not necessary for the resulting
@@ -216,7 +227,7 @@ any liability incurred by the Initial Developer or such Contributor as
 a result of these terms. </li>
         <li>The <span class="c2">only</span> exception to this
 redistribution license not otherwise covered in points 7 or 8 is if the
-repackaged or private build with official branding has been
+repackaged or specialized build with official branding has been
 pre-approved by Moonchild for redistribution. Contributed builds with
 official branding are subject to a
 screening process, may be accepted or rejected, may be re-screened at a
@@ -226,11 +237,16 @@ is any reason to do so, in Moonchild's sole
 discretion, from which point forward redistribution of the
 officially-branded build(s) in
 question is no longer allowed.<br>
-For redistribution in source form with significant configuration
-changes imposed (see 8b), pre-approval of the configuration and
+For redistribution in source form (e.g. through any of the various
+overlay build scripts or portage tree systems) under our mixed license
+with protected trademark assets included, with significant
+configuration
+changes imposed (see 8b), pre-approval of the build configuration and
 preference changes is likewise required if the use of official branding
 is configured and the resulting binary on the end user's system will be
-identified as an official Pale Moon distribution.<br>
+identified as an official Pale Moon distribution. If not approved, you
+must not instruct the build system to produce officially-branded
+binaries on the target system.<br>
         </li>
         <li>If a distribution is authorized as per point 10, the
 contributed build may be redistributed <span class="c2">in unaltered
