@@ -107,7 +107,8 @@ fix some web compatibility issues.</li>
 Object.getOwnPropertyNames(string) and others.</li>
         <li>Updated RegExp(RegExp object, flags) to ES6 standard.</li>
         <li>Changed the embedded font from the no longer free EmojiOne
-to the open-licensed Twemoji. This also further extends unicode support
+to the open-licensed Twemoji (with additional fixes). This also further
+extends unicode support
 to Unicode 10 emojis.</li>
         <li>Updated the UA override for dropbox.</li>
         <li>Adjusted some things in our memory allocator code to
@@ -128,7 +129,18 @@ search functions from the address bar are disabled.</li>
         <li>Pinpointed and worked around a pervasive crashing scenario
 in the layout engine due to unstable code for responsive media/images.<br>
 As a result, the browser currently doesn't respond to viewport changes
-on-the-fly any longer as regards images/media using <code>srcset</code>.<br>
+on-the-fly any longer as regards images/media using <code>srcset</code>.</li>
+        <li>Worked around a potential cause for some non-standard
+bitmapped fonts ending up with incorrect line heights (I'm looking at
+you, Noto fonts!).</li>
+        <li>Added a workaround for incorrectly-encoded JPEG-XR images
+with planar alpha. Ultimately, the jxrlib reference implementation
+should be fixed to encode according to spec.</li>
+        <li>Aligned XCTO:nosniff allowed script MIME types with the
+updated spec.</li>
+        <li>Improved the logic for storing vector images in the surface
+cache.</li>
+        <li>Fixed character set handling for XMLHttpRequests.<br>
         </li>
       </ul>
       <br>
