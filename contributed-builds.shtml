@@ -67,7 +67,7 @@ These are maintained for permissions for past contributions. <span
 because the maintainers have stopped providing updates.<br>
       <ul>
         <li><a
- href="ftp://archive:get@ftp.palemoon.org/3rdparty/Accel-AVX/">AVX
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/AVX/">AVX
 build (x86/x64)</a> by Accel.<span class="grey"></span><br>
 Note: this requires an AVX-capable CPU (later generations Intel or AMD)</li>
         <li><a href="http://www.romanstefko.com/pale-moon-sse/"
@@ -81,21 +81,33 @@ Marián Kadaňka<br>
 A build specifically for this OS. Source with necessary modifications
 available from the same page.</li>
         <li><a
- href="ftp://archive:get@archive.palemoon.org/3rdparty/RasPi/">Pale Moon
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/RasPi/">Pale
+Moon
 for
 Raspberry Pi boards</a> by dimag0g<br>
 A special build of Pale Moon for Raspberry Pi, Raspberry Pi 2,
 Banana Pi, Orange Pi, Odroid and related boards (ARM v6 and v7).</li>
-        <li><a href="ftp://archive:get@archive.palemoon.org/3rdparty/SSE/">SSE
+        <li><a
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/SSE/">SSE
 build
 (x86)</a> by Mercury.<br>
 A rebuild of Pale Moon from official source catering to particularly
 old processors that don't support SSE2.</li>
-        <li><a href="ftp://archive:get@archive.palemoon.org/3rdparty/IA32/">IA-32
+        <li><a
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/IA32/">IA-32
 build (x86)</a> by Mercury.<br>
 A rebuild of Pale Moon from official source catering to <span
  style="font-style: italic;">very</span> old processors that don't
 support SSE.</li>
+        <li><a
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/PM4XP/">Pale
+Moon for Windows XP</a> by Matt A. Tobin.<br>
+Our old, Windows XP specific builds of Pale Moon.</li>
+        <li><a
+ href="ftp://palemoon:get@archive.palemoon.org/third_party/slackware/">Pale
+Moon for Slackware</a> by Ketmar.<br>
+Some Slackware-specific rebuilds of old Pale Moon versions.<br>
+        </li>
       </ul>
       <div
  style="border: 3px dashed rgb(204, 0, 0); padding: 5px; background-color: rgb(255, 255, 204); display: none;"><span
