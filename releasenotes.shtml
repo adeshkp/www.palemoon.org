@@ -37,6 +37,67 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.9.0 (2018-04-17)</h3>
+This is the last major development update for the v27 milestone
+(codenamed "Tycho").<br>
+After this, we will be focusing our efforts for new features entirely
+on UXP and the new v28 milestone building on it. We will continue to
+support v27.9 with security and stability updates for a while, but no
+major new features will be added from this point forward.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a number of spec compliance issues in our media
+subsystem.</li>
+        <li>Added a trailing slash to referrers when policy is set to
+fix some web compatibility issues.</li>
+        <li>Fixed the property order in
+Object.getOwnPropertyNames(string) and others for web compatibility.</li>
+        <li>Updated RegExp(RegExp object, flags) to the ES6 standard
+specification.</li>
+        <li>Changed the embedded font from the no longer free EmojiOne
+to the open-licensed Twemoji (with additional fixes). This also further
+extends unicode support to Unicode 10 emoji(s). Please note that as a
+result, color emoji(s) will look different than before.<br>
+        </li>
+        <li>Adjusted some things in our memory allocator code to
+provide, among other things, better allocation alignment on Windows.<br>
+        </li>
+        <li>Made the attempt to migrate people from the old sync server
+domain name to the current one more aggressive. We will be retiring the
+old pmsync.palemoon.net Sync server address shortly to remove the need
+for us to maintain a security certificate for it; this preference
+migration should automatically put everyone on the correct server
+address (pmsync.palemoon.org) when upgrading.<br>
+        </li>
+        <li>Made reading of the sessionstore synchronous, to speed up
+startup and prevent the homepage from being loaded when restoring a
+session.<br>
+        </li>
+        <li> Added a fix to switch to the correct window/tab when a web
+notification is clicked.<br>
+        </li>
+        <li>Changed the placeholder text to not include "Search" when
+all search functions from the address bar are disabled.<br>
+        </li>
+        <li>Enabled the use of Skia for canvas on Linux and OSX.<br>
+        </li>
+        <li>Worked around a potential cause for some non-standard
+bitmapped fonts ending up with incorrect line heights (I'm looking at
+you, Noto fonts!).<br>
+        </li>
+        <li>Added a workaround for incorrectly-encoded JPEG-XR images
+with planar alpha. Ultimately, the jxrlib reference implementation
+should be fixed to encode according to spec.<br>
+        </li>
+        <li>Aligned XCTO:nosniff allowed script MIME types with the
+updated spec.<br>
+        </li>
+        <li>Improved the logic for storing vector images in the surface
+cache.<br>
+        </li>
+        <li>Fixed character set handling for XMLHttpRequests.</li>
+      </ul>
       <h3>27.8.3 (2018-03-28)</h3>
 This is a small update to address a pervasive crashing issue.<br>
       <br>
