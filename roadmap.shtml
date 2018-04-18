@@ -37,7 +37,7 @@
     <tr>
       <td class="c6">
       <h1> Pale Moon future roadmap</h1>
-      <small>Last update: 2017-07-11</small><br>
+      <small>Last update: 2018-04-14</small><br>
       <h3> General Information </h3>
 The Pale Moon project is a community-driven project, and as such the
 future roadmap of the browser is determined not only by what is decided
@@ -80,14 +80,23 @@ indication or general direction - and a dynamic document to be updated
 as the need arises to change plans around.<br>
       <br>
       <h3>Long-term plans</h3>
-Our long-term plans for Pale Moon involve (potentially) moving our
-browser to the UXP (Unified XUL Platform) that is currently being
+Our long-term plans for Pale Moon involve moving our
+browser to UXP (the Unified XUL Platform) that is currently being
 worked on alongside the browser. This will at its earliest be somewhere
-in 2018, considering this would involve a large amount of work in
-adaptation and testing to move the browser application across to the
+in the summer of 2018, considering this involves a large amount of work
+in
+adaptation and testing to move the browser application code across to
+the
 new platform.<br>
 This platform will continue to carry the Goanna engine, like the
 current browser, albeit with many updates and rearchitecturing.<br>
+      <br>
+UXP is currently in a working state and porting of the Pale Moon
+application is underway with promising preliminary results as far as
+timeline is concerned. Pale Moon 27.* will be put in "maintenance mode"
+to receive priority security and stability updates only, and our
+unstable channel will be moved across to the new UXP-based Pale Moon
+when the application reaches beta-stage quality.<br>
       <br>
       <h3>Technology support</h3>
 Pale Moon supports and will continue to support the following
@@ -103,9 +112,6 @@ and XBL to build interfaces and applications (including the ability to
 launch independent XUL-apps from the browser binaries).<br>
         </li>
         <li>Full support for NPAPI plug-ins<br>
-        </li>
-        <li>XPCOM binary components for extensions (short term).
-Long-term (UXP) plans may see this support dropped.<br>
         </li>
         <li>Overlay and bootstrapped extensions, including restartless
 ones</li>
@@ -148,6 +154,11 @@ version 3 of
 Goanna. This tackles a few rather technical issues and improve
 support for current operating systems and hardware - further
 improvements will be made over time.<br>
+      <br>
+Version 28 of the browser, building on UXP, will carry the 4th
+incarnation of Goanna, adding, among other things, support for WebGL2,
+CSS Grid, and other recent additions to the layout and rendering
+landscape for browsers.<br>
       <h4> JavaScript </h4>
 JavaScript
 development is one of the ongoing focuses of the core work
@@ -155,6 +166,10 @@ performed on Pale Moon, and the resulting
 implementation in v27 has a lot more of the ECMAScript version 6 (ES6)
 standard implemented than previous versions, which provides a solid
 base for websites to build their scripting on.<br>
+      <br>
+With the move to UXP, we aim to have full and complete support for
+ECMAScript (JavaScript) standards ES6, ES2016 and ES2017, with annexes,
+in Pale Moon.<br>
       <br>
 Please
 understand that implementing these changes is slow and meticulous work
@@ -173,17 +188,14 @@ more visual-media heavy and as such will require a browser to at least
 to some extent take on the media player role.<br>
       <br>
 The following specific media streaming feature(s) is/are <span
- class="c2">not</span> on Pale Moon's roadmap:<br>
+ class="c2">not</span> on Pale Moon's roadmap, regardless of version:<br>
       <ul>
         <li>In-browser DRM (EME)</li>
+        <li>WebRTC streaming/peering</li>
       </ul>
-We
-are extending the browser (especially for
-Linux) with FFmpeg media as a replacement for the (generally
-problematic) GStreamer and libstagefright solutions that are currently
-in place. Work is underway to make this the default decoding/media
-back-end for all supported platforms.<br>
-      <br>
+This underlines one of the differences with Basilisk, the UXP
+"reference application", which does provide these features from the
+unified platform.<br>
       <h3> Platform (operating system) support </h3>
 Pale Moon is originally a Microsoft Windows product.<br>
 On the roadmap are the following specific platforms to support in
@@ -194,8 +206,7 @@ addition to Windows:<br>
 There is some movement on this front and we hope to have an official OS
 X version available later in the year<br>
         </li>
-        <li>Android ARM -- Completed, but not actively developed due to
-lack of manpower<br>
+        <li>Android ARM -- Currently discontinued<br>
 We do plan to lift Android development up to the new milestone after
 desktop versions are released and have stabilized, if time and capacity
 permits.<br>
@@ -308,16 +319,17 @@ v27.1 and beyond, which will offer support for many <span
 extensions. Extension developers can easily target this set of
 libraries with a few simple changes and a build specifically for the
 Pale Moon browser instead of Firefox.<br>
+      <h4>WebExtensions</h4>
+We will not be supporting WebExtensions of any kind in Pale Moon. Our
+current extension technologies provide all the features, functionality
+and above all API access for any extension to do anything it has to,
+including the limited subset that is offered by WebExtensions.<br>
       <br>
       <h3> Additional tools and services </h3>
       <h4> Pale Moon authored utilities </h4>
 Some of the tools used in conjunction with Pale Moon are due for an
 update. No solid date has been set for these improvements:<br>
       <ul>
-        <li>Improvement of the profile migration tool to deal with
-increasing issues with potentially installed and incompatible Firefox
-add-ons and Firefox profile file formats. (currently unavailable
-pending an update) </li>
         <li>Improvement of the web installer to offer automatic
 selection/configuration based on a few different user templates. </li>
       </ul>
@@ -339,7 +351,8 @@ requesting this.</li>
 We are partnered up with a start portal provider to improve the user
 experience on the Pale Moon Start page with customizability of
 shortcuts and localized content. This went live in the first quarter of
-2015 and will likely remain the offered start page solution of choice.<br>
+2015 and will remain the offered start page solution of choice for the
+foreseeable future.<br>
       <h4> Pale Moon add-on site services </h4>
       <p> The <strong>second generation</strong> add-on site will be
 one that has been created from the ground up to serve the Pale Moon
