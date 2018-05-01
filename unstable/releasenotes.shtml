@@ -99,48 +99,10 @@ also manifests with default preferences and no installed add-ons
       <ul>
       </ul>
       <ul>
-        <li>Fixed a number of spec compliance issues in our media
-subsystem.</li>
-        <li>Added a trailing slash to referrers when policy is set to
-fix some web compatibility issues.</li>
-        <li>Fixed the property order in
-Object.getOwnPropertyNames(string) and others.</li>
-        <li>Updated RegExp(RegExp object, flags) to ES6 standard.</li>
-        <li>Changed the embedded font from the no longer free EmojiOne
-to the open-licensed Twemoji (with additional fixes). This also further
-extends unicode support
-to Unicode 10 emojis.</li>
-        <li>Updated the UA override for dropbox.</li>
-        <li>Adjusted some things in our memory allocator code to
-provide, among other things, better allocation alignment on Windows.</li>
-        <li>Made the attempt to migrate people from the old sync server
-domain name to the current one more aggressive.</li>
-        <li>Made reading of the sessionstore synchronous, to speed up
-startup and prevent the homepage from being loaded when restoring a
-session.</li>
-        <li>Fixed a number of security bugs and crashes.</li>
-        <li>Updated lz4 to 1.8.0.</li>
-        <li>Added a fix to switch to the correct window/tab when a web
-notification is clicked.</li>
-        <li>Fixed Skia build path on AArch64.</li>
-        <li>Changed the placeholder to not include "Search" when all
-search functions from the address bar are disabled.</li>
-        <li>Enabled the use of Skia for canvas on Linux and OSX.</li>
-        <li>Pinpointed and worked around a pervasive crashing scenario
-in the layout engine due to unstable code for responsive media/images.<br>
-As a result, the browser currently doesn't respond to viewport changes
-on-the-fly any longer as regards images/media using <code>srcset</code>.</li>
-        <li>Worked around a potential cause for some non-standard
-bitmapped fonts ending up with incorrect line heights (I'm looking at
-you, Noto fonts!).</li>
-        <li>Added a workaround for incorrectly-encoded JPEG-XR images
-with planar alpha. Ultimately, the jxrlib reference implementation
-should be fixed to encode according to spec.</li>
-        <li>Aligned XCTO:nosniff allowed script MIME types with the
-updated spec.</li>
-        <li>Improved the logic for storing vector images in the surface
-cache.</li>
-        <li>Fixed character set handling for XMLHttpRequests.<br>
+        <li>Removed the unused/incomplete places protocol handler.</li>
+        <li>Worked around an issue with MSE media without a Track ID.</li>
+        <li>Ported across jemalloc improvements from UXP.</li>
+        <li>Ported across cairo mutex improvements from UXP.<br>
         </li>
       </ul>
       <br>
