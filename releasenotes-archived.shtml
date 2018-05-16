@@ -2341,7 +2341,7 @@ mentioned a few times before, Pale Moon's support for Windows XP (and
 any other NT 5.x based operating system) has now ended. An exception to
 this is the specialized Atom build because of limited operating system
 availability on netbooks and the like. More details on the <a
- href="PM_end_of_WinXP_support.shtml">dedicated page for this change</a>.<br>
+ href="#">dedicated page for this change</a>.<br>
         </li>
         <li>By default, do not sync add-ons.<br>
 Syncing between different devices will likely not want you to sync the
@@ -2960,7 +2960,7 @@ security fixes.<br>
 After some thorough testing, the Atom/netbook builds are being released
 as final. These builds are specifically made for PCs with Intel Atom
 processors. More information can be found on the <a
- href="palemoon-atom.shtml">Atom builds</a> page.<br>
+ href="#">Atom builds</a> page.<br>
         </li>
         <li> <span class="c12">New feature: the title has been brought
 back to the title bar</span><br>
@@ -4227,7 +4227,7 @@ allocation/destruction mechanism for controls (potentially preventing
 memory leaks). </li>
         <li>Fixed: cache size override on new profiles (would be set to
 1GB instead of the application default of 200MB). Bug <a
- href="http://www.palemoon.org/bugs/20120512-GNBug.html">20120512-GN</a>.<br>
+ href="#">20120512-GN</a>.<br>
         </li>
         <li>Addition of a number of preferences in the Tabs category of
 the options dialog box: </li>
@@ -4471,7 +4471,7 @@ goal of Pale Moon remains to be as efficient as possible <span
 This update fixes a very important speed regression issue for Pale Moon
 7.0. It impacts mostly the page content layout engine and DOM handling,
 which will be on par again with what they should be for Pale Moon in
-this point release. Bug: <a href="bugs/20111001-CCBug.shtml">20111001-CCBug</a><br>
+this point release. Bug: <a href="#">20111001-CCBug</a><br>
 Benchmarking scores will see a significant jump from 7.0 to 7.0.1 as a
 result, as well.<br>
 There are no other functional or UI changes for this release.<br>
@@ -4576,7 +4576,7 @@ A number of fixes and a cosmetic update:<br>
       <ul>
         <li>Performance fix: Javascript performance improved </li>
         <li>Crash fix: Prevent crashes in optimized builds of JS due to
-          <a href="bugs/20110410-CCBug.shtml">20110410-CCBug</a><br>
+          <a href="#">20110410-CCBug</a><br>
         </li>
         <li>Updater fix: Internal updater should function again from
 this version onward </li>
@@ -4584,7 +4584,7 @@ this version onward </li>
 it </li>
         <li>Shell integration fixed for Vista and 7: The browser should
 no longer complain that it's not the default program when it, in fact,
-is. See bug <a href="bugs/20110408-SHBug.shtml">20110408-SHBug</a><br>
+is. See bug <a href="#">20110408-SHBug</a><br>
         </li>
         <li>Main Pale Moon program icon updated with a higher-res
 version of the logo image<br>
@@ -4594,7 +4594,7 @@ version of the logo image<br>
 Some stability bugfixes and improvements:<br>
       <ul>
         <li>Fix for a potential crash of the browser due to <a
- href="bugs/20110406-PRBug.shtml">20110406-PRBug</a> </li>
+ href="#">20110406-PRBug</a> </li>
         <li>Fix for the internal manual updater when a language pack is
 installed </li>
         <li>DirectWrite now default OFF (<span class="c7">gfx.font_rendering.directwrite.enabled</span>=<span

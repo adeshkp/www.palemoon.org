@@ -132,7 +132,7 @@ Moon mirror #2</a> (US)</li>
  href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.1.win32.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
-      <a href="pgp/Palemoon-Portable-27.4.2.1.win32.exe.sig"></a> <br>
+      <br>
       <div class="c8"> <span class="c9"><a name="PMP-x64" id="PMP-x64"></a></span><span
  class="c2">Download Pale Moon Portable x64 (64-bit):</span><br>
       </div>
@@ -160,7 +160,7 @@ Moon mirror #2</a> (US)</li>
  href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.1.win64.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
-      <a href="pgp/Palemoon-Portable-27.4.2.1.win64.exe.sig"></a><br>
+      <br>
       <br>
       <h3><a name="Upgrade"></a> I already have an earlier version of
 palemoon-portable. How do I upgrade? </h3>
