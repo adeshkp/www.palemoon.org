@@ -102,8 +102,10 @@ also manifests with default preferences and no installed add-ons
         <li>Removed the unused/incomplete places protocol handler.</li>
         <li>Worked around an issue with MSE media without a Track ID.</li>
         <li>Ported across jemalloc improvements from UXP.</li>
-        <li>Ported across cairo mutex improvements from UXP.<br>
-        </li>
+        <li>Ported across cairo mutex improvements from UXP.</li>
+        <li>Added support for FFmpeg 4.0/libavcodec 58.</li>
+        <li>Added a fix for Windows 10's "isAlpha()" not being what one
+would expect in v1803.</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
