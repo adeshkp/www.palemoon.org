@@ -37,6 +37,21 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.9.1 (2018-05-07)</h3>
+This is a maintenance release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Removed the unused/incomplete places protocol handler.</li>
+        <li>Worked around an issue with MSE media without a Track ID.
+This should help with the playability of some live streams.<br>
+        </li>
+        <li>Ported across jemalloc improvements from UXP.</li>
+        <li>Ported across cairo mutex improvements from UXP.</li>
+        <li>Added support for FFmpeg 4.0/libavcodec 58.</li>
+        <li>Added a fix for Windows 10's "isAlpha()" not being what one
+would expect in v1803.</li>
+      </ul>
       <h3>27.9.0 (2018-04-17)</h3>
 This is the last major development update for the v27 milestone
 (codenamed "Tycho").<br>

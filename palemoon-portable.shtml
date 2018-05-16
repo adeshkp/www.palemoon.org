@@ -40,7 +40,7 @@
     </tr>
     <tr>
       <td class="c12">
-      <h1> Pale Moon Portable 27.9.0<br>
+      <h1> Pale Moon Portable 27.9.1<br>
       </h1>
       <h3> You can now take Pale Moon anywhere with you!<br>
       </h3>
@@ -119,17 +119,17 @@ Pale Moon Portable x86 (32-bit):</span><br>
 File size is approximately 31 MiB (EXE).<br>
       <br>
 SHA-256:
-d7c5a042d10ec5ca23e6606874f8a0ffa5f7fe70201a198c7bca97b9b6dd0456<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.9.0.win32.exe.sig">[Sig]</a>
+753ef543ddaae12af646479660ed311bd5f74105dda06aa6da3acfc366cac100<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.9.1.win32.exe.sig">[Sig]</a>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.9.0.win32.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.9.1.win32.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.9.0.win32.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.9.1.win32.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.0.win32.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.1.win32.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
       <a href="pgp/Palemoon-Portable-27.4.2.1.win32.exe.sig"></a> <br>
@@ -147,17 +147,17 @@ public computers that may potentially not run 64-bit Windows.<br>
 File size is approximately 35 MiB (EXE).<br>
       <br>
 SHA-256:
-43058b1445b14cfc8e1875442e140bdac7a185242d271d72352b391351add758<br>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.9.0.win64.exe.sig">[Sig]</a>
+6c68502b47964088384833fb63da96698390ec58635b953c72f0a12b34d6ed92<br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-27.9.1.win64.exe.sig">[Sig]</a>
       <ul>
         <li> <a
- href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.9.0.win64.exe">Pale
+ href="http://rm-eu.palemoon.org/release/Palemoon-Portable-27.9.1.win64.exe">Pale
 Moon mirror #1</a> (EU) </li>
         <li> <a
- href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.9.0.win64.exe">Pale
+ href="http://rm-us.palemoon.org/release/Palemoon-Portable-27.9.1.win64.exe">Pale
 Moon mirror #2</a> (US)</li>
         <li><a
- href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.0.win64.exe">Pale
+ href="http://rm-as.palemoon.org/release/Palemoon-Portable-27.9.1.win64.exe">Pale
 Moon mirror #3</a> (Asia)</li>
       </ul>
       <a href="pgp/Palemoon-Portable-27.4.2.1.win64.exe.sig"></a><br>
