@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-
-<updates>
-  <update type="major" displayVersion="24.4.0 (x86)" version="24.4.0"  extensionVersion="24.4.0" 
-          detailsURL="http://www.palemoon.org/releasenotes-ng.shtml">
-    <patch type="partial" URL="http://aus.palemoon.org/mar/palemoon-24.4.0.win32-complete.mar"
-           hashFunction="SHA1" hashValue="673bfca13cd2b3c0cce38f2e9258854f6d9ad80a" size="25572576"/>
-  </update>
-</updates>
