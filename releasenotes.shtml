@@ -37,6 +37,51 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.9.3 (2018-06-12)</h3>
+This is a security update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>(CVE-2017-0381) Ported a patch from libopus upstream. Note,
+contrary to that report, the libopus maintainers state they don't
+believe remote code execution was possible, so this was not a critical
+patch.</li>
+        <li>Fixed an issue with task counting in JS GC.</li>
+        <li>Fixed a use-after-free in
+DOMProxyHandler::EnsureExpandoObject (thanks to Berk Cem Göksel for
+reporting).</li>
+        <li>Portable only: Included the previously omitted registry
+helper. This may in some cases help with file/type associations.<br>
+        </li>
+      </ul>
+      <h3>27.9.2 (2018-05-18)</h3>
+This is a security and stability update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>We changed the language strings for softblocked items so
+people will cry less when we do our job.</li>
+        <li>(CVE-2018-5174) Prevent potential SmartScreen bypass on
+Windows 10.</li>
+        <li>(CVE-2018-5173) Fixed an issue in the Downloads panel
+improperly rendering some Unicode characters, allowing for the file
+name to be spoofed. This could be used to obscure the file extension of
+potentially executable files from user view in the panel.</li>
+        <li>(CVE-2018-5177) Fixed a vulnerability in the XSLT component
+leading to a buffer overflow and crash if it occurs.</li>
+        <li>(CVE-2018-5159) Fixed an integer overflow vulnerability in
+the Skia library resulting in possible out-of-bounds writes.</li>
+        <li>(CVE-2018-5154) Fixed a use-after-free vulnerability while
+enumerating attributes during SVG animations with clip paths.</li>
+        <li>(CVE-2018-5178) Fixed a buffer overflow during UTF8 to
+Unicode string conversion within JavaScript with extremely large
+amounts of data. This vulnerability requires the use of a malicious or
+vulnerable extension in order to occur. <br>
+        </li>
+        <li>Fixed several stability issues (crashes) and memory safety
+hazards.<br>
+        </li>
+      </ul>
       <h3>27.9.1 (2018-05-07)</h3>
 This is a maintenance release.<br>
       <br>

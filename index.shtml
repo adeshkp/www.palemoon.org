@@ -141,8 +141,7 @@ design </li>
         <li>Support for a growing number of Pale Moon exclusive
 extensions<br>
         </li>
-        <li>Extensive and growing support for HTML5 and CSS3</li>
-        <li>Broad support for image formats: Supports WebP and JPEG-XR<br>
+        <li>Extensive and growing support for existing web standards<br>
         </li>
         <li>Many customization and configuration options<br>
         </li>
@@ -177,10 +176,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"></span><span class="bold"><small><small>7
-May 2018</small></small><br>
-Pale Moon 27.9.1 has been released.</span> This is a maintenance update
-for stability and web compatibility.<br>
+            <span class="bold"></span><span class="bold"><small><small>12
+Jun 2018</small></small><br>
+Pale Moon 27.9.3 has been released.</span> This is a security update.<br>
             <br>
             <span class="bold"><small><small>17 Apr 2018</small></small><br>
 Pale Moon 27.9.0 has been released.</span> This is a standard
