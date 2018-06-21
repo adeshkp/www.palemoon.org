@@ -33,8 +33,38 @@ add-on and blocks the installation prompt. To allow installations from
 a specific site, click <span style="font-style: italic;" class="button">Exceptions…</span>,
 enter the site name, and click <span style="font-style: italic;"
  class="button">Allow</span>. Uncheck this to disable the extra warning
-for all sites. <br>
+for all sites.<br>
       </p>
+      <p><strong>Add-on security level</strong>: Pale Moon allows you
+to set your desired security level for add-ons. This affects how
+blocklist entries are handled:<br>
+      </p>
+      <ul>
+        <li><strong>Off: No add-ons will be blocked (dangerous)</strong>
+- None of the add-ons on the blocklist will be blocked. This allows
+known-malicious add-ons to be installed and used and is obviously not
+recommended. Disabling blocking in this manner is dangerous and should
+only be done in testing environments and never for live browsing.<br>
+        </li>
+        <li><strong>Low: Block only add-ons with severe security and
+stability issues</strong> - Only add-ons that are confirmed to be
+directly affecting your security, privacy or browser stability will be
+blocked. Other add-ons on the blocklist can still be used, even though
+you will be warned about them being unsafe.<br>
+        </li>
+        <li><strong>Medium: Block all harmful add-ons (default,
+recommended)</strong> - All add-ons that are known to be harmful to you
+or unsuspecting third parties will be blocked and cannot be used.
+Add-ons on the blocklist that are known to cause less severe issues
+that do not cause harm can still be used, even though you will be
+warned about them causing issues.<br>
+        </li>
+        <li><strong>High: Block all add-ons with known issues</strong>
+- All add-ons with an entry on the blocklist will be blocked and cannot
+be used, regardless of the severity of the listing.<br>
+        </li>
+      </ul>
+      <p> </p>
       <h2>Passwords</h2>
 If you store passwords in the browser, it is strongly recommended that
 you set and use a master password.<br>
@@ -49,7 +79,16 @@ a site when you first visit it. If you select <span
  style="font-style: italic;" class="button">Never for This Site</span>,
 that site will be added to an exceptions list. To access this list or
 to remove sites from it, click the <span style="font-style: italic;"
- class="button">Exceptions…</span> button.
+ class="button">Exceptions…</span> button.</li>
+        <li><strong>Automatically fill in log-in details</strong>:
+When checked, Pale Moon will automatically fill in log-in credentials
+in log-in fields if only one entry exists for the site in the password
+manager. Please note that this is potentially dangerous and can allow
+scripts to abuse this feature for tracking or, at worst, stealing
+credentials.<br>
+When not checked (default), clicking on the user name/e-mail/etc. field
+will provide you with one or more user names to use for filling in
+log-in details.<br>
         </li>
         <li> <strong>Use a master password</strong>: Pale Moon can
 protect
@@ -64,12 +103,10 @@ clicking the <span style="font-style: italic;" class="button">Change
 Master Password…</span>
 button. If a master password is already set, you will need to enter the
 current master password in order to change or remove it, as a security
-measure.
-        </li>
+measure. </li>
         <li> You can manage saved passwords and view or delete
 individual passwords by clicking the <span style="font-style: italic;"
- class="button">Saved Passwords…</span> button.
-        </li>
+ class="button">Saved Passwords…</span> button. </li>
       </ul>
       <h2>Security protocols</h2>
 These settings allow you to control the use of some security protocols:<br>
