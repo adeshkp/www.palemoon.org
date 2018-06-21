@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <td>
-      <h1> Pale Moon software licensing<br>
+      <h1>Software licensing<br>
       </h1>
       <h2>Source Code</h2>
       <p>The Pale Moon browser is <a
@@ -39,9 +39,14 @@
  href="http://www.gnu.org/philosophy/free-sw.html">free software</a>.
 This means that it is not only available for download free of charge,
 but you have access to the source code and may modify and redistribute
-our software subject to certain restrictions. </p>
+our software subject to certain restrictions. Our source code is for
+the most part covered by the Mozilla Public License v2.0. <br>
+      </p>
       <p> For more details, please read about our <a
- href="http://mozilla.org/MPL/2.0/">source code license</a>. </p>
+ href="http://mozilla.org/MPL/2.0/">source code license</a>. To get a
+complete overview of which part of this software is covered by which
+free software license, type about:license in the address bar.<br>
+      </p>
       <h2>Trademarks</h2>
       <p> Although our code is free, it is very important to note that
 we strictly enforce our trademark (™)
@@ -52,8 +57,9 @@ Moon™ logo, Goanna™
 logo and project names. This means that, while you have considerable
 freedom to redistribute and modify our software, there are tight
 restrictions on your ability to use the Pale Moon names and logos in
-ways which fall in the domain of trademark law, even when built into
-binaries that we provide.<br>
+ways which fall in the domain of trademark law, even when included in
+the source tree and built into
+binaries that we provide for distribution.<br>
       </p>
       <p>In addition, we do use some of Mozilla's trademarks in our
 communication, like Mozilla's
@@ -89,10 +95,12 @@ source with official branding.<br>
       </p>
       <p>Helper applications and tools may be made available under
 different licenses like the <a href="freeware-license.shtml">Pale Moon
-Freeware License</a> -- please see the applicable page of the tools or
+Freeware License</a> or MIT licenses -- please see the applicable page
+of the tools or
 utilities in question to see which license(s) apply.<br>
 On some proprietary, non-free platforms, necessary binary components
-subject to other licenses may be included in the installer. </p>
+subject to other licenses may be included in the installer or packaged
+with the application. </p>
       <h2>Informative, Not Authoritative</h2>
       <p> This page is designed to inform, not to be the final,
 authoritative reference. If you're looking to reuse or redistribute
