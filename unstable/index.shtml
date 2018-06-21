@@ -69,7 +69,7 @@ here:<br>
       <a href="http://www.palemoon.org/unstable/releasenotes.shtml">http://www.palemoon.org/unstable/releasenotes.shtml</a><br>
       <h2>Reporting bugs</h2>
 If you find bugs in these versions, please report them in the <a
- href="https://github.com/MoonchildProductions/Pale-Moon/issues"
+ href="https://github.com/MoonchildProductions/UXP/issues"
  target="_blank">issue tracker</a>
 on GitHub for Pale Moon. When you do so, please <span
  style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has

@@ -50,15 +50,15 @@ Moon unstable releases - release notes<br>
       </h1>
       <span class="c3">These
 release notes are for pre-release versions of Pale Moon. They may
-include notes for public betas and the intended "rolling" unstable
-channel we have planned for the near future.<br>
+include notes for public betas and the "rolling" unstable
+channel.<br>
 Please understand that these release notes are concise summaries,
-nothing more.<br>
+nothing more, and not an exhaustive record of all changes.<br>
       </span><br>
 If you find bugs in these versions, please report them in the <a
- href="https://github.com/MoonchildProductions/Pale-Moon/issues"
+ href="https://github.com/MoonchildProductions/UXP/issues"
  target="_blank">issue tracker</a>
-on GitHub for Pale Moon. When you do so, please <span
+on GitHub for UXP. When you do so, please <span
  style="font-weight: bold; color: rgb(204, 0, 0);">check if the bug has
 already been reported before by others</span> to prevent duplicate
 entries in
@@ -67,7 +67,7 @@ the tracker. If you report bugs, make sure to include the build date
       <ul>
         <li>Clear
 indication of what version of the browser this was found in (x86, x64,
-Windows, Linux, exact version and build (see "About" box)<br>
+Windows, Linux, exact version and build (see "About" box))<br>
         </li>
         <li>Clear description of the bug found, with a concise and
 clear title for the issue<br>
@@ -87,7 +87,8 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress since release (major changes only):</h3>
+      <h3>Current trunk progress, milestone alpha 4 (major changes
+only):</h3>
       <ul>
       </ul>
       <ul>
@@ -98,18 +99,53 @@ also manifests with default preferences and no installed add-ons
       </ul>
       <ul>
       </ul>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">We have
+switched over to the new milestone, and these unstable builds are
+building on UXP. This means the browser will be significantly different
+under the hood than our current v27.* release versions.</span>
       <ul>
-        <li>Removed the unused/incomplete places protocol handler.</li>
-        <li>Worked around an issue with MSE media without a Track ID.</li>
-        <li>Ported across jemalloc improvements from UXP.</li>
-        <li>Ported across cairo mutex improvements from UXP.</li>
-        <li>Added support for FFmpeg 4.0/libavcodec 58.</li>
-        <li>Added a fix for Windows 10's "isAlpha()" not being what one
-would expect in v1803.</li>
+        <li>Ported a libopus upstream patch for CVE-2017-0381.</li>
+        <li>Blocking of top-level data: navigations is now in effect.</li>
+        <li>HSTS priming has been removed for mixed content.</li>
+        <li>The Social API code has been removed.</li>
+        <li>Fixed some theme icon issues.</li>
+        <li>Fixed a window restore issue when on HiDPI and device
+pixels per px was set to a custom value.</li>
+        <li>Removed UITour and its SelfSupport hints and tips back-end.</li>
+        <li>Added a build config option to allow disabling of
+precompilation of the startup cache for uncommon cross-architecture
+build environments.</li>
+        <li>Enabled automatic updating properly for unstable on Linux.</li>
+        <li>Fixed a crash with CSP tags in chrome.</li>
+        <li>Fixed shellservice to work properly for integration with
+the OS.</li>
+        <li>Updated ReaderView components.</li>
+        <li>Fixed the quicksearch hotkey feature.</li>
+        <li>Fixed "Open location" when the navigation toolbar is hidden.</li>
+        <li>Updated NSS+NSPR and enabled TLS 1.3 by default.</li>
+        <li>Updated time zone data.</li>
+        <li>Improved several things in the JavaScript engine.</li>
+        <li>Applied several security/stability fixes.</li>
+        <li>Reinstated <code>string.prototype.contains()</code> as an
+alias for <code>.includes()</code>.</li>
+        <li>Updated kiss-fft to 1.4.0.</li>
+        <li>Improved the 2d scaler for SSSE3.</li>
+        <li>Pale Moon Sync and the Sync client should now be
+operational again -- TESTING NEEDED.</li>
+        <li>Fixed regression with word-select selecting trailing space.</li>
+        <li>Fixed bustage if devtools was disabled at build time.</li>
+        <li>Changed DoNotTrack header to a simple "on/off" (since in
+effect the "yes please track me" header is the same as not sending
+anything).</li>
+        <li>Fixed some links on Linux.</li>
+        <li>Fixed lightweight themes not remaining applied after
+browser restart.</li>
+        <li>Fixed memory leak in the WebP decoder.</li>
+        <li>Added architecture detection in about:support</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
- href="https://github.com/MoonchildProductions/Pale-Moon/commits/master">commit
+ href="https://github.com/MoonchildProductions/UXP/commits/master">commit
 log</a>.<br>
       <br>
       <span style="font-weight: bold;"></span></td>
