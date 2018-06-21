@@ -39,7 +39,7 @@ address:<br>
       </div>
       <br>
 Alternatively, you can enter our IRC channel directly from the browser
-below and have a chat!<br>
+and have a chat!<br>
       <span style="font-weight: bold;">Please be patient</span>
 if you have a question, and <span style="color: rgb(204, 0, 0);">keep
 in mind that this is a public IRC chat
@@ -51,14 +51,45 @@ questions or posts until a lot later - although the chat is real-time,
 and you may get an instant dialogue going, it may also not be immediate.<br>
       <br>
 Please
-follow <a href="chat-etiquette.shtml">expected etiquette</a> when
+follow <a target="_blank" href="chat-etiquette.shtml">expected
+etiquette</a> when
 joining this chat room. Thanks in advance! :)<br>
       <br>
+      <form method="get" name="Confirm">
+        <script type="text/javascript">
+function checkterms() {
+  let PublicCheck=document.getElementById("Public").checked;
+  let EtiquetteCheck=document.getElementById("Etiquette").checked;
+  if (PublicCheck && EtiquetteCheck) {
+    // Enable buttons
+    document.getElementById("FreenodeChat").style["visibility"] = "visible";
+    document.getElementById("KiwiChat").style["visibility"] = "visible";
+  } else {
+    // Disable buttons
+    document.getElementById("FreenodeChat").style["visibility"] = "hidden";
+    document.getElementById("KiwiChat").style["visibility"] = "hidden";
+  }
+}
+        </script><input
+ onclick="checkterms();" id="Public" name="Public" value=""
+ type="checkbox">I have read the above statement and understand that: <br>
+        <div style="margin-left: 40px;">1. This chat is
+public and that contents may be logged and published.<br>
+2. There is no guarantee that I will get an immediate answer.<br>
+        </div>
+        <input onclick="checkterms();" id="Etiquette" name="Etiquette"
+ type="checkbox">I
+have read and will follow the posted chat <a
+ href="chat-etiquette.shtml" target="_blank">etiquette</a>.<br>
+      </form>
       <br>
-      <div style="text-align: center;"><a class="chatbutton-freenode"
- href="chat-online.shtml">&nbsp; Start chat (freenode client)</a> <a
- class="chatbutton-kiwi"
- href="https://kiwiirc.com/client/irc.freenode.net/#palemoon">&nbsp;
+      <br>
+      <div style="text-align: center;"><a id="FreenodeChat"
+ class="chatbutton-freenode" href="chat-online.shtml"
+ style="visibility: hidden;">&nbsp; Start chat (freenode client)</a> <a
+ id="KiwiChat" class="chatbutton-kiwi"
+ href="https://kiwiirc.com/client/irc.freenode.net/#palemoon"
+ style="visibility: hidden;">&nbsp;
 Start chat (KiwiIRC client)</a><br>
       <br>
       <br>
