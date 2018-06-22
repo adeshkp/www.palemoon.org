@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, milestone alpha 4 (major changes
+      <h3>Current trunk progress, milestone alpha 4+ (major changes
 only):</h3>
       <ul>
       </ul>
@@ -141,7 +141,21 @@ anything).</li>
         <li>Fixed lightweight themes not remaining applied after
 browser restart.</li>
         <li>Fixed memory leak in the WebP decoder.</li>
-        <li>Added architecture detection in about:support</li>
+        <li>Added architecture detection in about:support.</li>
+        <li>Fixed the findbar (now operates on a per-tab basis).</li>
+        <li>Removed UA override for Google fonts since we support
+unicode ranges on all OSes now.</li>
+        <li>Fixed the size for forcing GDI classic for problematic font
+families.</li>
+        <li>Added findbar and search undo buffer sanitation to clear
+history.</li>
+        <li>Fixed some loading issues for downloads (save as...).</li>
+        <li>Fixed devtools strings.</li>
+        <li>Fixed permissions manager and cookie handling.</li>
+        <li>Fixed misc branding regressions in the locale.</li>
+        <li>Fixed SSL status ambiguity regression -- cipher name now is
+again the name, not the full suite string. Suite string has been made
+available like before in Pale Moon.</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
