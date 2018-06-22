@@ -1,46 +1,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon Sync Terms of Service</title><!-- Keep the http-equiv meta tag for IE8 -->
-  
-
-  
-
-  
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Pale Moon Sync Terms of Service</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
-      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <td
+ style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
       <br>
       </td>
     </tr>
     <tr>
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync terms of service</h1>
-      <div style="text-align: right;">Last Updated: April 10<sup>th</sup>,
-2016.<br>
-      </div>
       <h3>Terms of Service - Overview</h3>
+For your convenience, these terms are summarized as follows to provide
+you with a quick overview of the rules applicable to the Pale Moon Sync
+service in plain English.<br>
+If you consider using this service, it is strongly recommended that you
+read the entire Terms of Service before agreeing to them when creating
+an account. Creating an account constitutes your full acceptance and
+understanding of the terms.<br>
       <ul>
         <li>The Pale Moon Sync Service supplied by Moonchild
 Productions allows you to synchronize information stored in your Pale
@@ -52,13 +48,18 @@ service we provide.<br>
         </li>
         <li>The data you sync is your data and remains your data. Your
 data is encrypted and we can&#8217;t see, access or use it.</li>
-        <li>The Pale Moon Sync Service is provided "as-is" and there
+        <li><span style="background-color: rgb(255, 255, 153);">The
+Pale Moon Sync Service is provided "as-is" and there
 are no guarantees of any kind, including fitness for any particular
-purpose.</li>
-        <li>Pale Moon and Moonchild Productions will accept absolutely
-no liability of any kind for your use of this service.</li>
+purpose</span>.</li>
+        <li><span style="background-color: rgb(255, 255, 153);">Pale
+Moon and Moonchild Productions will accept absolutely
+no liability of any kind for your use of this service</span>.</li>
       </ul>
       <h3>Terms of Service</h3>
+      <div style="text-align: right;">Last Updated: June 22<sup>nd</sup>,
+2018.<br>
+      </div>
       <h4>Acceptance</h4>
       <p>These Terms of Service ("TOS") govern your use of the Pale
 Moon Sync Service (the "Service"). By registering for and/or using the
@@ -81,12 +82,18 @@ stealing your actual password or discovering your e-mail address, but
 still allows us to authenticate you
 when you sign into the Service. A secret key is also created during
 sign-up on your computer.
-The secret key is stored only on your computer and is not sent to us.</p>
+The secret key is stored only on your computer and is not sent to us in
+any form.</p>
       <p>You may use the Service only for purposes that are permitted
 by (i) the TOS and (ii) the laws and regulations in your state and
 country and any other laws and regulations that apply to your use of
 the Service (including any laws regarding the export of data or
-software to and from the United States or other relevant countries).</p>
+software to and from the United States or other relevant countries).
+Please note that your use of the Service may not be authorized in
+jurisdisctions that do not allow disclaiming of warranties or
+limitations of liabilities. Unauthorized use of the Service is
+prohibited.<br>
+      </p>
       <p>You agree not to:</p>
       <ul>
         <li>Engage in any activity that interferes with or disrupts the
@@ -97,16 +104,22 @@ other than the official Pale Moon browser, unless you have been
 specifically allowed to do so in writing by the server operator and/or
 Pale Moon project owner.</li>
         <li>An exception to the previous point is the personal use of
-Sync on mobile devices, but only when using official builds of software that is fully Sync 1.1 compatible.</li>
-
-      </ul>Limits on your use (fair use limits):<br>
+Sync on mobile devices, but only when using official builds of software
+that is fully Sync 1.1 compatible and cause no other disruptions or
+issues for us.</li>
+      </ul>
+Limits on your use (fair use limits):<br>
       <ul>
-        <li>If you use the Pale Moon Sync service in any sort of sizable organization (more than a handful of users), then you are <span style="font-style: italic;">strongly</span> encouraged to run your own Sync service instead of making disproportionate use of this free, public instance of Sync.</li>
-        <li>If your organization exceeds 100 individual devices or users (whichever is larger), then you may not use the free Pale Moon Sync service without express permission from us.<br>
+        <li>If you use the Pale Moon Sync service in any sort of
+sizable organization (more than a handful of users), then you are <span
+ style="font-style: italic;">strongly</span> encouraged to run your own
+Sync service instead of making disproportionate use of this free,
+public instance of Sync.</li>
+        <li>If your organization exceeds 50 individual devices or users
+(whichever is larger), then your use of the free courtesy Pale Moon
+Sync service is not authorized without express permission from us.<br>
         </li>
       </ul>
-
-
       <h4>Your Acknowledgments</h4>
       <p>You acknowledge and agree that:</p>
       <ul>
@@ -122,18 +135,22 @@ including disabling your account if deemed necessary;<br>
 without liability. If we discontinue or change the Service, we will
 announce it through the usual channels for such announcements such as
 the forum.</li>
-        <li>We reserve the right to deny access to any user, IP, net block, client software or
-territory that, in our opinion, causes interference with, or denial of, service to other
-users, with or without stated reason.</li>
-
+        <li>We reserve the right to deny access to any user, IP, net
+block, client software or
+territory that, in our opinion, causes interference with, or denial of,
+service to other
+users, or interferes with our operation of the Service for our users,
+with or without stated reason.</li>
       </ul>
-      <h4>Limited storage</h4>Limited time storage:<br>
+      <h4>Limited storage</h4>
+Limited time storage:<br>
 This
 Service will retain User Data only for a limited time. If the Service
 is not actively used by a user, the User Data stored on the server may
 be removed at our discretion to free up server resources for other
 users who actively use the Service.<br>
-As a general guideline, User Data older than 2 months (not modified on
+As a general guideline, but periods may be shorter or longer, User Data
+older than 2 months (not modified on
 the server for 2 months) may be removed from the server database in any
 scheduled or ad hoc maintenance window (either announced or not). This
 does not affect user accounts, only User Data.<br>
@@ -143,7 +160,8 @@ This service has limited capacity which is shared among all users, and
 it is the user's responsibility to keep their individual usage under
 control. We reserve the right to, in our sole discretion, remove any
 account or block access to the service from any account or IP we find
-in excess of reasonable storage limits for this Sync service.<br>As
+in excess of reasonable storage limits for this Sync service.<br>
+As
 a guideline, users should try to keep their data usage preferably
 at less than 15MB, and reduce their data storage if higher by cleaning
 up history or other synced data, or deselecting categories to
@@ -154,7 +172,6 @@ our set upper capacity limit. If you are close to or at this limit, you
 should reduce your storage to prevent disproportional individual load
 on the service.<br>
       <h4>Proprietary Rights</h4>
-
       <p>We do not grant to you any intellectual property rights in the
 Service. For example, this TOS does not provide the right to use any of
 our copyrights, trade names, trademarks, service marks, logos, domain
@@ -189,11 +206,12 @@ prior to unlinking your last device.<br>
       </p>
       <h4>Third Party Client Developers</h4>
       <p>Use of third party clients to access the Pale Moon Sync
-Service is not permitted, with the exception of official, fully Sync 1.1 compliant, non-abusive mobile Sync clients.<br>
+Service is not permitted, with the exception of official, fully Sync
+1.1 compliant, non-abusive mobile Sync clients.<br>
 To use the Pale Moon Sync service with other Sync clients, you need to
 obtain prior express written permission from the Sync server
 administrator (Moonchild).<br>
-</p>
+      </p>
       <h4>Updates to the Terms</h4>
       <p>We may update this TOS from time to time, for example to
 address a new feature of the Service or to clarify a provision. The
@@ -204,7 +222,8 @@ after the effective date of such changes constitutes your acceptance of
 such changes. These terms may not be modified or cancelled without our
 written agreement.</p>
       <h4>Disclaimer of Warranty</h4>
-      <p>The Service is provided "as-is" with all faults. To the extent
+      <p style="background-color: rgb(255, 255, 153);">The Service is
+provided "as-is" with all faults. To the extent
 permitted by law, Moonchild Productions, its distributors,
 contributors, and licensors hereby disclaim ALL warranties, either
 express or implied, including without limitation warranties that the
@@ -213,15 +232,17 @@ purpose and non-infringing. You bear the entire risk as to selecting
 the Service for your purposes and as to the quality and performance of
 the Service, including without limitation the risk that your User Data
 is deleted, lost or corrupted.<br>
-</p>
-      <p>Some jurisdictions do not allow the
-exclusion or limitation of implied warranties, in which case you may
-not make use of the Service. The service is used solely at your own
+      </p>
+      <p style="background-color: rgb(255, 255, 153);">Some
+jurisdictions do not allow the
+exclusion or limitation of implied warranties, in which case your use
+of the Service is not authorized. The service is used solely at your
+own
 risk, regardless of legal precedent.<br>
       </p>
-
       <h4>Limitation of Liability</h4>
-      <p>Moonchild Productions, its distributors, contributors, and
+      <p style="background-color: rgb(255, 255, 153);">Moonchild
+Productions, its distributors, contributors, and
 licensors, will not be liable for any indirect, special, incidental,
 consequential or exemplary damages arising out of or in any way
 relating to this TOS or the use of or inability to use the Service,
@@ -231,7 +252,7 @@ malfunction, even if advised of the possibility of such damages and
 regardless of the theory (contract, tort or otherwise) upon which such
 claim is based. Some jurisdictions do not allow the exclusion or
 limitation of incidental, consequential or special damages, in which
-case use of the Service is prohibited.</p>
+case your use of the Service is not authorized.</p>
       <h4>Miscellaneous</h4>
       <p>This TOS constitutes the entire agreement between you and us
 concerning the Service. These terms are governed by the laws of Sweden.
@@ -249,9 +270,7 @@ English language version, the English language version shall control.</p>
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
