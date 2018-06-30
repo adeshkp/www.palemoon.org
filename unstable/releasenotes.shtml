@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, milestone alpha 4+ (major changes
+      <h3>Current trunk progress, v28 beta 2 (major and recent changes
 only):</h3>
       <ul>
       </ul>
@@ -104,58 +104,30 @@ switched over to the new milestone, and these unstable builds are
 building on UXP. This means the browser will be significantly different
 under the hood than our current v27.* release versions.</span>
       <ul>
-        <li>Ported a libopus upstream patch for CVE-2017-0381.</li>
-        <li>Blocking of top-level data: navigations is now in effect.</li>
-        <li>HSTS priming has been removed for mixed content.</li>
-        <li>The Social API code has been removed.</li>
-        <li>Fixed some theme icon issues.</li>
-        <li>Fixed a window restore issue when on HiDPI and device
-pixels per px was set to a custom value.</li>
-        <li>Removed UITour and its SelfSupport hints and tips back-end.</li>
-        <li>Added a build config option to allow disabling of
-precompilation of the startup cache for uncommon cross-architecture
-build environments.</li>
-        <li>Enabled automatic updating properly for unstable on Linux.</li>
-        <li>Fixed a crash with CSP tags in chrome.</li>
-        <li>Fixed shellservice to work properly for integration with
-the OS.</li>
-        <li>Updated ReaderView components.</li>
-        <li>Fixed the quicksearch hotkey feature.</li>
-        <li>Fixed "Open location" when the navigation toolbar is hidden.</li>
-        <li>Updated NSS+NSPR and enabled TLS 1.3 by default.</li>
-        <li>Updated time zone data.</li>
-        <li>Improved several things in the JavaScript engine.</li>
-        <li>Applied several security/stability fixes.</li>
-        <li>Reinstated <code>string.prototype.contains()</code> as an
-alias for <code>.includes()</code>.</li>
-        <li>Updated kiss-fft to 1.4.0.</li>
-        <li>Improved the 2d scaler for SSSE3.</li>
-        <li>Pale Moon Sync and the Sync client should now be
-operational again -- TESTING NEEDED.</li>
-        <li>Fixed regression with word-select selecting trailing space.</li>
-        <li>Fixed bustage if devtools was disabled at build time.</li>
-        <li>Changed DoNotTrack header to a simple "on/off" (since in
-effect the "yes please track me" header is the same as not sending
-anything).</li>
-        <li>Fixed some links on Linux.</li>
-        <li>Fixed lightweight themes not remaining applied after
-browser restart.</li>
         <li>Fixed memory leak in the WebP decoder.</li>
-        <li>Added architecture detection in about:support.</li>
         <li>Fixed the findbar (now operates on a per-tab basis).</li>
-        <li>Removed UA override for Google fonts since we support
-unicode ranges on all OSes now.</li>
-        <li>Fixed the size for forcing GDI classic for problematic font
-families.</li>
-        <li>Added findbar and search undo buffer sanitation to clear
-history.</li>
-        <li>Fixed some loading issues for downloads (save as...).</li>
-        <li>Fixed devtools strings.</li>
         <li>Fixed permissions manager and cookie handling.</li>
         <li>Fixed misc branding regressions in the locale.</li>
         <li>Fixed SSL status ambiguity regression -- cipher name now is
 again the name, not the full suite string. Suite string has been made
 available like before in Pale Moon.</li>
+        <li>Fixed the Quickdial page. It's been restyled and now also
+includes a search bar with your chosen search engine.</li>
+        <li>Fixed tab close icons on Windows 8 and above by using
+universal assets and making Australis-assets Basilisk-specific.</li>
+        <li>Fixed a privacy issue with moz-icon:// use.</li>
+        <li>Fixed a crash regression in cubeb on Linux.</li>
+        <li>Fixed potential crashes in libeditor.</li>
+        <li>Added about:console as a way to call up the toolkit error
+console in-content.</li>
+        <li>Cleaned up and reorganized the addon manager.</li>
+        <li>Stabilized Intersection Observers, aligned with the latest
+draft, and enabled them by default.</li>
+        <li>Added back the Quickdial "blank this page" control,
+transfixed the thumbnail grid to fixed chosen rows/columns, and
+improved styling some more.</li>
+        <li>Removed SSL Error Reporting Telemetry code.</li>
+        <li>Fixed standalone image display regression.</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
