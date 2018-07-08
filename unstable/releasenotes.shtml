@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, v28 beta 2 (major and recent changes
+      <h3>Current trunk progress, v28 beta 3 (major and recent changes
 only):</h3>
       <ul>
       </ul>
@@ -104,20 +104,6 @@ switched over to the new milestone, and these unstable builds are
 building on UXP. This means the browser will be significantly different
 under the hood than our current v27.* release versions.</span>
       <ul>
-        <li>Fixed memory leak in the WebP decoder.</li>
-        <li>Fixed the findbar (now operates on a per-tab basis).</li>
-        <li>Fixed permissions manager and cookie handling.</li>
-        <li>Fixed misc branding regressions in the locale.</li>
-        <li>Fixed SSL status ambiguity regression -- cipher name now is
-again the name, not the full suite string. Suite string has been made
-available like before in Pale Moon.</li>
-        <li>Fixed the Quickdial page. It's been restyled and now also
-includes a search bar with your chosen search engine.</li>
-        <li>Fixed tab close icons on Windows 8 and above by using
-universal assets and making Australis-assets Basilisk-specific.</li>
-        <li>Fixed a privacy issue with moz-icon:// use.</li>
-        <li>Fixed a crash regression in cubeb on Linux.</li>
-        <li>Fixed potential crashes in libeditor.</li>
         <li>Added about:console as a way to call up the toolkit error
 console in-content.</li>
         <li>Cleaned up and reorganized the addon manager.</li>
@@ -128,6 +114,22 @@ transfixed the thumbnail grid to fixed chosen rows/columns, and
 improved styling some more.</li>
         <li>Removed SSL Error Reporting Telemetry code.</li>
         <li>Fixed standalone image display regression.</li>
+        <li>Updated the WebP library to 1.0.0 + security fixes.</li>
+        <li>Fixed the findbar styling for now being part of tabs.</li>
+        <li>Fixed known security vulnerabilities from upstream.</li>
+        <li>Fixed an issues with extension button placement.</li>
+        <li>Re-implemented Pale Moon specific prefs for cache back-end
+and tab-modal prompts grabbing focus.</li>
+        <li>Worked around an issue with the thumbnail service in
+combination with overly script-heavy sites.</li>
+        <li>Fixed password manager icon display.</li>
+        <li>Updated reader view components.</li>
+        <li>Fixed an issue with web worker shutdowns.</li>
+        <li>Added mode:navigate to Fetch.</li>
+        <li>Fixed rights display for unbranded.</li>
+        <li>Restored pref control of the DOM page visibility API.</li>
+        <li>Reconfigured the application for intended release config.<br>
+        </li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
