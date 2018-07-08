@@ -57,7 +57,7 @@ Moon and Moonchild Productions will accept absolutely
 no liability of any kind for your use of this service</span>.</li>
       </ul>
       <h3>Terms of Service</h3>
-      <div style="text-align: right;">Last Updated: June 22<sup>nd</sup>,
+      <div style="text-align: right;">Last Updated: July 6<sup>th</sup>,
 2018.<br>
       </div>
       <h4>Acceptance</h4>
@@ -145,15 +145,21 @@ with or without stated reason.</li>
       <h4>Limited storage</h4>
 Limited time storage:<br>
 This
-Service will retain User Data only for a limited time. If the Service
-is not actively used by a user, the User Data stored on the server may
+Service will retain Account Data and User Data only for a limited time.
+If the Service
+is not actively used by a user, their Account Data and User Data stored
+on the server will
 be removed at our discretion to free up server resources for other
 users who actively use the Service.<br>
-As a general guideline, but periods may be shorter or longer, User Data
-older than 2 months (not modified on
-the server for 2 months) may be removed from the server database in any
-scheduled or ad hoc maintenance window (either announced or not). This
-does not affect user accounts, only User Data.<br>
+As a general guideline, accounts (both login credentials and any synced
+data) not used for more than <span style="font-weight: bold;">3 months</span>
+(no valid login to
+the server for 3 months) will be removed from the server database in
+any
+scheduled or ad hoc maintenance window (either announced or not). If
+you wish to retain your user account, you MUST actively use it. There
+are no exceptions to this rule. If your account has been purged due to
+inactivity, you may of course recreate your account.<br>
       <br>
 Limited volume storage:<br>
 This service has limited capacity which is shared among all users, and
