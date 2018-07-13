@@ -57,7 +57,7 @@ Moon and Moonchild Productions will accept absolutely
 no liability of any kind for your use of this service</span>.</li>
       </ul>
       <h3>Terms of Service</h3>
-      <div style="text-align: right;">Last Updated: July 6<sup>th</sup>,
+      <div style="text-align: right;">Last Updated: July 13<sup>th</sup>,
 2018.<br>
       </div>
       <h4>Acceptance</h4>
@@ -94,6 +94,19 @@ jurisdisctions that do not allow disclaiming of warranties or
 limitations of liabilities. Unauthorized use of the Service is
 prohibited.<br>
       </p>
+      <p>You may use the service to synchronize data between instances
+of Pale Moon and potentially other Sync 1.1 compliant clients. This
+data comprises bookmarks, browsing history, form history, passwords, a
+selection of browser preferences, open tabs, and any other collections
+of data (e.g. from extensions) sent by the client (collectively "User
+Data"). You acknowledge and agree that your User Data will be stored on
+the Pale Moon Sync server (in encrypted form) to facilitate this
+synchronization process. Although User Data is stored as part of this
+process, the primary function of the Sync server is and remains
+synchronization, not storage for e.g. back-up. Using the Service as a
+remote storage medium is not intended and unrecoverable data loss may
+occur at any time if used in such a fashion.<br>
+      </p>
       <p>You agree not to:</p>
       <ul>
         <li>Engage in any activity that interferes with or disrupts the
@@ -124,14 +137,15 @@ Sync service is not authorized without express permission from us.<br>
       <p>You acknowledge and agree that:</p>
       <ul>
         <li>You will only use the Service to access your own account
-and User Data (defined in Section 2);</li>
+and User Data;</li>
         <li>User Data may be sent outside your country of residence;</li>
         <li>We have the right to manage the Service in a manner
 designed to protect the rights and property of Moonchild Productions
 and others and to facilitate the proper functioning of the Service,
 including disabling your account if deemed necessary;<br>
         </li>
-        <li>We may discontinue or change the Service at our discretion
+        <li>We may discontinue or change the Service at our sole
+discretion
 without liability. If we discontinue or change the Service, we will
 announce it through the usual channels for such announcements such as
 the forum.</li>
@@ -139,8 +153,7 @@ the forum.</li>
 block, client software or
 territory that, in our opinion, causes interference with, or denial of,
 service to other
-users, or interferes with our operation of the Service for our users,
-with or without stated reason.</li>
+users, or interferes with our operation of the Service for our users.</li>
       </ul>
       <h4>Limited storage</h4>
 Limited time storage:<br>
@@ -151,8 +164,12 @@ is not actively used by a user, their Account Data and User Data stored
 on the server will
 be removed at our discretion to free up server resources for other
 users who actively use the Service.<br>
-As a general guideline, accounts (both login credentials and any synced
-data) not used for more than <span style="font-weight: bold;">3 months</span>
+As a general guideline, <span style="font-weight: bold;">User Data</span>
+for accounts not actively used for more than <span
+ style="font-weight: bold;">2 months</span> (no valid login to the
+server for 2 months) will be removed from the server database, and <span
+ style="font-weight: bold;">Account Data</span> for accounts not used
+for more than <span style="font-weight: bold;">3 months</span>
 (no valid login to
 the server for 3 months) will be removed from the server database in
 any
@@ -166,7 +183,7 @@ This service has limited capacity which is shared among all users, and
 it is the user's responsibility to keep their individual usage under
 control. We reserve the right to, in our sole discretion, remove any
 account or block access to the service from any account or IP we find
-in excess of reasonable storage limits for this Sync service.<br>
+in excess of reasonable storage limits for this courtesy Sync service.<br>
 As
 a guideline, users should try to keep their data usage preferably
 at less than 15MB, and reduce their data storage if higher by cleaning
@@ -204,19 +221,27 @@ Data will be sent via TLS-protected connections.</p>
       <h4>Canceling the Service</h4>
       <p>You can discontinue use of the Service at any time. In the
 Pale Moon browser go to the "Options", category "Sync", and click
-"Unlink this device" on all synced computers. There is currently no
+"Unlink this device" on all synced computers. Note that as a result of
+our limited time storage policy, unlinking all devices and not actively
+using your Sync account will have your data purged from our systems
+automatically after a period of inactivity. This means you do not have
+to take specific steps to have your data removed as it will naturally
+expire. There is currently no
 automated request procedure to have your encrypted data removed from
-the Sync server, so you should make sure to follow the instructions as
-stated on the Pale Moon website or in the forum to remove your data
-prior to unlinking your last device.<br>
-      </p>
+the Sync server, so if you want to have your data removed immediately,
+you should make sure to follow instructions as
+stated on the Pale Moon website or on the forum to remove your data
+prior to unlinking your last device. </p>
       <h4>Third Party Client Developers</h4>
       <p>Use of third party clients to access the Pale Moon Sync
 Service is not permitted, with the exception of official, fully Sync
 1.1 compliant, non-abusive mobile Sync clients.<br>
-To use the Pale Moon Sync service with other Sync clients, you need to
-obtain prior express written permission from the Sync server
-administrator (Moonchild).<br>
+To systematically use the Pale Moon Sync service with other Sync
+clients, you need to contact the Sync server
+administrator (Moonchild) prior to use, so capacity considerations and
+potential compensation can be discussed. Systematic use of these other
+sync clients (other desktop browsers, etc.) requires prior express
+written permission from the server administrator.<br>
       </p>
       <h4>Updates to the Terms</h4>
       <p>We may update this TOS from time to time, for example to
