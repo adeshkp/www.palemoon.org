@@ -150,6 +150,45 @@ pre {
   border-radius: 9px; 
 }
 
+.dllink_win,
+.dllink_win:active,
+.dllink_win:hover,
+.dllink_win:visited {
+  padding: 4px 4px 4px 68px;
+  color: white;
+  text-decoration: none;
+  background-image: url("images/windows_flag.png"),
+                    linear-gradient(to bottom, #4040F0, #8080F0);
+  background-repeat: no-repeat;
+  background-position: top 4px left 2px, top left;
+}
+
+.dllink_linux,
+.dllink_linux:active,
+.dllink_linux:hover,
+.dllink_linux:visited {
+  padding: 4px 4px 4px 68px;
+  color: white;
+  text-decoration: none;
+  background-image: url("images/tux_penguin.png"),
+                    linear-gradient(to bottom, #40A040, #80A080);
+  background-repeat: no-repeat;
+  background-position: top 4px left 2px, top left;
+}
+
+.dllink_os_temp {
+  display: inline-block;
+  border-radius: 3px;
+  margin: 3px;
+  box-shadow: 1px 1px 3px #555;
+  min-height: 64px;
+  opacity: .8;
+}
+
+.dllink_os_temp:hover {
+  opacity: 1;
+}
+
 .chatbutton-freenode {
   border-style: solid;
   border-color: black;

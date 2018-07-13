@@ -96,25 +96,23 @@ customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
       <br>
 &nbsp;<br>
-      <div class="center"> <a id="dllink-windows" class="dllink_green"
- href="http://rm-eu.palemoon.org/release/palemoon-websetup.exe"><img
- class="c2" alt="" src="images/down.png" border="0">Download (Windows
-web installer)</a> <a id="dllink-linux" class="dllink_green"
- style="display: none;" href="http://linux.palemoon.org/"><img
- class="c2" alt="" src="images/down.png" border="0">Download (Linux
-desktop)</a><br>
+Due to a potential security issue with the web installer, it is
+currently unavailable.
+Please find links to our most popular individual download pages,
+instead:<br>
+      <br>
+      <div style="text-align: center;"><a
+ class="dllink_win dllink_os_temp" href="palemoon-win32.shtml">Windows
+32-bit</a>
+      <a class="dllink_win dllink_os_temp" href="palemoon-win64.shtml">Windows
+64-bit</a>
+      <a class="dllink_linux dllink_os_temp"
+ href="http://linux.palemoon.org">Linux desktop</a>
+      <br>
       </div>
-<!-- display OS-related downloads -->
-      <script type="text/javascript">
-if ((navigator.userAgent.indexOf("Linux") != -1) && (navigator.userAgent.indexOf("X11") != -1)) {
-            document.getElementById('dllink-windows').style.display = "none";
-            document.getElementById('dllink-linux').style.display = "inline";
-            }
-            </script><br>
       <span class="bold"><br>
-      </span> Having trouble with the web installer or looking for
-other download options like an off-line installer, a package for a
-different operating system, or portable version? Check the
+      </span> Looking for other download options like a package for a
+different operating system or portable version? Check the
 download menu at the top of this page!<br>
       <br>
       <span class="bold">Main features</span>:<br>
