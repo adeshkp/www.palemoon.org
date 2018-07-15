@@ -128,7 +128,21 @@ combination with overly script-heavy sites.</li>
         <li>Added mode:navigate to Fetch.</li>
         <li>Fixed rights display for unbranded.</li>
         <li>Restored pref control of the DOM page visibility API.</li>
-        <li>Reconfigured the application for intended release config.<br>
+        <li>Reconfigured the application for intended release config.</li>
+        <li>Fixed an issue with WebGL shadow mapping.</li>
+        <li>Restored OS X 10.7/10.8 compatibility with WebGL.</li>
+        <li>Fixed a performance issue when closing a tab with an
+ungodly amount of images displayed.</li>
+        <li>Fixed an issue where full-screen does not initialize
+properly if a navigation bar control is focused.</li>
+        <li>Fixed a regression where fast downscaling of images would
+use Hamming instead of Lanczos-2.</li>
+        <li>Added a pref control (<span
+ style="color: rgb(51, 153, 153);">image.layerize.always</span>) to
+allow users to trade off image quality for performance.<br>
+Default disabled as it can cause aliased results in downscaled images
+with <code>position:fixed</code> or <code>position:absolute</code>.&nbsp;
+          <br>
         </li>
       </ul>
       <br>
