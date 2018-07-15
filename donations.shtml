@@ -50,6 +50,19 @@ anonymous, please make sure to let me know</span><span
       <h2><a name="Monetary_donations"></a> Monetary donations </h2>
 You can donate money by using one of the following methods:<br>
       <ul>
+        <li><span style="color: rgb(0, 153, 0);">[PREFERRED]</span>
+Liberapay: For continuous, recurring support to our project at 
+<a href="https://liberapay.com/Moonchild/donate">https://liberapay.com/Moonchild/donate</a><br>
+          <a href="https://liberapay.com/Moonchild/donate"><img
+ style="border: 0px solid ; height: 50px;" alt="Donate using Liberapay"
+ src="images/liberapay-donate.svg"></a> </li>
+        <li>Ko-Fi: For irregular donations, one-time support, or just
+to toss us some change to get a coffee :) at <a
+ href="https://ko-fi.com/palemoon">https://ko-fi.com/palemoon</a><br>
+          <a href="https://ko-fi.com/palemoon" target="_blank"><img
+ style="border: 0px solid ; width: 197px; height: 50px;"
+ src="images/kofi50.png?v=0" alt="Buy Me a Coffee at ko-fi.com"
+ align="middle"></a></li>
         <li>Patreon: For continuous, recurring support to our project,
 at <a href="https://www.patreon.com/MoonchildProductions"
  target="_blank">https://www.patreon.com/MoonchildProductions<br>
@@ -59,13 +72,6 @@ at <a href="https://www.patreon.com/MoonchildProductions"
  src="images/become_a_patron_button.png" alt="Become a Patron!"
  align="middle"></a><br>
         </li>
-        <li>Ko-Fi: For irregular donations, one-time support, or just
-to toss us some change to get a coffee :) at <a
- href="https://ko-fi.com/palemoon">https://ko-fi.com/palemoon</a><br>
-          <a href="https://ko-fi.com/palemoon" target="_blank"><img
- style="border: 0px solid ; width: 197px; height: 50px;"
- src="images/kofi50.png?v=0" alt="Buy Me a Coffee at ko-fi.com"
- align="middle"> </a></li>
       </ul>
       <h2><a name="Donating_development_hardware"></a> Donating
 development hardware </h2>
