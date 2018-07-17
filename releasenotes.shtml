@@ -37,6 +37,42 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>27.9.4 (2018-07-17)</h3>
+This is a security and usability update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Updated the useragent for addons.mozilla.org to work around
+their "Only with Firefox" discrimination preventing users from
+downloading themes, old versions of extensions, and other files with
+Pale Moon.</li>
+        <li>Restricted web access to the <code>moz-icon://</code>
+scheme that could potentially be abused to infringe the user's privacy.</li>
+        <li>Prevented various location-based threats. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential vulnerability with plugins being
+redirected to different origins (CVE-2018-12364).</li>
+        <li>Improved the security check for launching executable files
+(by association) on Windows from the browser. For users who have (most
+likely accidentally) granted a system-wide waiver for opening these
+kinds of files without being prompted, this permission has been reset.</li>
+        <li>Fixed an issue with invalid qcms transforms
+(CVE-2018-12366).</li>
+        <li>Fixed a buffer overflow using the computed size of canvas
+elements (CVE-2018-12359).</li>
+        <li>Fixed a use-after-free when using focus() (CVE-2018-12360).</li>
+        <li>Added some sanity checks on nsMozIconURI. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed an issue in the case the preferences file in the
+profile would not be writable (e.g. temporary permission issues due to
+backup, virus scanning or similar external processes).</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code, e.g. when
+surrounding code changes, exposing the problem, or when new attack
+vectors are discovered.
       <h3>27.9.3 (2018-06-12)</h3>
 This is a security update.<br>
       <br>
@@ -187,12 +223,7 @@ compatibility with their service.</li>
         </li>
         <li>Fixed several memory safety an synchronicity hazards.</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code, e.g. when
-surrounding code changes, exposing the problem, or when new attack
-vectors are discovered.
+      <span style="color: rgb(191, 64, 64);"></span>
       <h3>27.8.1 (2018-03-06)</h3>
 This is a small update to address some breaking issues.<br>
       <br>
