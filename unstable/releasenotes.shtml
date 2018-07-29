@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, v28 beta 3 (major and recent changes
+      <h3>Current trunk progress, v28 beta 4 (major and recent changes
 only):</h3>
       <ul>
       </ul>
@@ -104,16 +104,6 @@ switched over to the new milestone, and these unstable builds are
 building on UXP. This means the browser will be significantly different
 under the hood than our current v27.* release versions.</span>
       <ul>
-        <li>Added about:console as a way to call up the toolkit error
-console in-content.</li>
-        <li>Cleaned up and reorganized the addon manager.</li>
-        <li>Stabilized Intersection Observers, aligned with the latest
-draft, and enabled them by default.</li>
-        <li>Added back the Quickdial "blank this page" control,
-transfixed the thumbnail grid to fixed chosen rows/columns, and
-improved styling some more.</li>
-        <li>Removed SSL Error Reporting Telemetry code.</li>
-        <li>Fixed standalone image display regression.</li>
         <li>Updated the WebP library to 1.0.0 + security fixes.</li>
         <li>Fixed the findbar styling for now being part of tabs.</li>
         <li>Fixed known security vulnerabilities from upstream.</li>
@@ -144,6 +134,16 @@ Default disabled as it can cause aliased results in downscaled images
 with <code>position:fixed</code> or <code>position:absolute</code>.&nbsp;
           <br>
         </li>
+        <li>Made sure to keep lightweight themes enabled in Private
+Browsing mode.</li>
+        <li>Adjusted page info/permissions manager to the back-end
+regarding plugins.</li>
+        <li>Fixed an issue with some media files not playing as a
+result of containing a user data box.</li>
+        <li>Adjusted DOM domain, DOM DataTransfer constructors and CSS
+grid to match the latest spec.</li>
+        <li>Fixed LaunchApplication dialog button ordering to be
+consistent on Windows.</li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a

@@ -102,9 +102,7 @@ The unstable versions have their own update channel, separate from
 official releases. The preferred way of updating is to let the internal
 updater do its task (default setting is to update automatically).<br>
       <h2>Downloads</h2>
-These versions are available in 32-bit and 64-bit for Windows. They are
-not cryptographically signed due to the Release Engineering overhead
-involved in such things.<br>
+These versions are available in 32-bit and 64-bit for Windows.<br>
 If you're looking for Linux unstable binaries, go over yonder: <a
  href="http://linux.palemoon.org/download/unstable/">http://linux.palemoon.org/download/unstable/</a><br>
       <br>
@@ -117,15 +115,15 @@ Requirements:</span> </td>
           <tr>
             <td class="c5" width="50%">
             <ul>
-              <li>Windows Vista/Windows 7/8/10/Server 2008 or later</li>
-              <li>Windows Platform Update for Vista/7 strongly
+              <li>Windows Windows 7/8/10/Server 2008 R2 or later</li>
+              <li>Windows Platform Update for Windows 7 strongly
 recommended<br>
               </li>
               <li>A processor with SSE2 support<span class="c3"><br>
                 </span> </li>
-              <li>512 MB of free RAM recommended<br>
+              <li>1GB of free RAM recommended<br>
               </li>
-              <li>At least 150 MB of free (uncompressed) disk space </li>
+              <li>At least 200 MB of free (uncompressed) disk space </li>
             </ul>
             </td>
           </tr>
