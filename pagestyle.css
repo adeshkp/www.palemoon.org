@@ -114,6 +114,8 @@ td.topnewstext {
   border: 1px solid rgb(51, 82, 155);
   border-radius: 5px;
   overflow: hidden;
+  text-align: left;
+  width: 90%;
   }
 
 blockquote {
