@@ -106,7 +106,14 @@ Our old, Windows XP specific builds of Pale Moon.</li>
         <li><a
  href="ftp://palemoon:get@archive.palemoon.org/third_party/slackware/">Pale
 Moon for Slackware</a> by Ketmar.<br>
-Some Slackware-specific rebuilds of old Pale Moon versions.<br>
+Some Slackware-specific rebuilds of old Pale Moon versions.</li>
+        <li><a
+ href="https://forum.palemoon.org/viewtopic.php?f=40&amp;t=13530">Linux SSE
+build</a> by Walter Dnes.<br>
+A rebuild of Pale Moon from official source catering to particularly
+old processors that don't support SSE2.<br>
+This build has been discontinued with the advent of Pale Moon 28 and
+building on UXP.<br>
         </li>
       </ul>
       <div
