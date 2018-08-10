@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, v28 beta 4 (major and recent changes
+      <h3>Current trunk progress, v28 beta 5 (major and recent changes
 only):</h3>
       <ul>
       </ul>
@@ -104,29 +104,6 @@ switched over to the new milestone, and these unstable builds are
 building on UXP. This means the browser will be significantly different
 under the hood than our current v27.* release versions.</span>
       <ul>
-        <li>Updated the WebP library to 1.0.0 + security fixes.</li>
-        <li>Fixed the findbar styling for now being part of tabs.</li>
-        <li>Fixed known security vulnerabilities from upstream.</li>
-        <li>Fixed an issues with extension button placement.</li>
-        <li>Re-implemented Pale Moon specific prefs for cache back-end
-and tab-modal prompts grabbing focus.</li>
-        <li>Worked around an issue with the thumbnail service in
-combination with overly script-heavy sites.</li>
-        <li>Fixed password manager icon display.</li>
-        <li>Updated reader view components.</li>
-        <li>Fixed an issue with web worker shutdowns.</li>
-        <li>Added mode:navigate to Fetch.</li>
-        <li>Fixed rights display for unbranded.</li>
-        <li>Restored pref control of the DOM page visibility API.</li>
-        <li>Reconfigured the application for intended release config.</li>
-        <li>Fixed an issue with WebGL shadow mapping.</li>
-        <li>Restored OS X 10.7/10.8 compatibility with WebGL.</li>
-        <li>Fixed a performance issue when closing a tab with an
-ungodly amount of images displayed.</li>
-        <li>Fixed an issue where full-screen does not initialize
-properly if a navigation bar control is focused.</li>
-        <li>Fixed a regression where fast downscaling of images would
-use Hamming instead of Lanczos-2.</li>
         <li>Added a pref control (<span
  style="color: rgb(51, 153, 153);">image.layerize.always</span>) to
 allow users to trade off image quality for performance.<br>
@@ -144,6 +121,20 @@ result of containing a user data box.</li>
 grid to match the latest spec.</li>
         <li>Fixed LaunchApplication dialog button ordering to be
 consistent on Windows.</li>
+        <li>Fixed the permissions manager layout.</li>
+        <li>Enabled asynchronous drawing of plugins.</li>
+        <li>Misc bouts of code cleanup.</li>
+        <li>Catered about box content to unofficial branding.</li>
+        <li>Fixed a crash with WebGL2 instancing.</li>
+        <li>Launching a new browser from about:profiles now launches a
+separate instance.</li>
+        <li>Fixed an issue on High Contrast accessibility themes.</li>
+        <li>Updated zlib.</li>
+        <li>Enabled direct3d9 accelerated layers as a fallback for
+DirectX 11 (if it fails).</li>
+        <li>Tuned the networking stack.</li>
+        <li>Disabled the battery API by default.<br>
+        </li>
       </ul>
       <br>
 For a more detailed and complete list of changes, check out the <a
