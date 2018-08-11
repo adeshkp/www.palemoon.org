@@ -106,7 +106,14 @@ a:hover {
 .dltable td {
   border: 1px solid #EEE;
   overflow: hidden;
-  vertical-align: middle;
+}
+
+.dltable th {
+  padding: 5px 0px;
+}
+
+.dltable td a {
+  margin: 0 auto;
 }
 
 .dlth-topleft {
@@ -205,11 +212,14 @@ pre {
 }
 
 .dllink_os_temp {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 3px;
   margin: 3px;
   box-shadow: 1px 1px 3px #555;
-  min-height: 64px;
+  height: 64px;
+  width: 150px;
   opacity: .8;
 }
 

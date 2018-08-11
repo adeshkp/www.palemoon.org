@@ -54,7 +54,7 @@ tr.c8 {
   background-color: #e0ffe0;
 }
 tr.c7 {
-  background-color: #9ed9ff;
+  background-color: rgb(204, 204, 255);
   text-align: center;
   font-size: 14pt;
 }
@@ -117,18 +117,12 @@ recommended alternatives by clicking the appropriate choice below.<br>
       <table class="dltable" border="1" cellpadding="2" cellspacing="0">
         <tbody>
           <tr class="c7">
-            <th colspan="1" rowspan="2" style="width: 250px;" class="dlth-topleft">Provider<br>
+            <th style="width: 250px;" class="dlth-topleft">Provider<br>
             </th>
-            <th colspan="1" rowspan="2">Region<br>
+            <th >Region<br>
             </th>
-            <th colspan="2" rowspan="1" class="dlth-topright">Download links<br>
+            <th colspan="2" class="dlth-topright">Download links<br>
             </th>
-          </tr>
-          <tr>
-            <td style="text-align: center;">32-bit<br>
-            </td>
-            <td style="text-align: center;">64-bit<br>
-            </td>
           </tr>
           <tr>
             <td> <img
@@ -136,45 +130,45 @@ recommended alternatives by clicking the appropriate choice below.<br>
  alt="Pale Moon logo" title="Click to download!"
  src="dl-images/mainsite.png"><br>
             </td>
-            <td style="text-align: center;">Europe<br>
+            <td>Europe<br>
             </td>
             <td class="dltable_text"><a
- class="dllink_win dllink_os_temp" href="download.php?mirror=eu&bits=32&type=installer">Direct
+ class="dllink_win dllink_os_temp" href="download.php?mirror=eu&bits=32&type=installer"><span>Direct
 Download<br>
-32-bit installer</a> </td>
+32-bit installer</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="download.php?mirror=eu&bits=64&type=installer">Direct Download<br>
-64-bit installer</a></td>
+ href="download.php?mirror=eu&bits=64&type=installer"><span>Direct Download<br>
+64-bit installer</span></a></td>
           </tr>
           <tr>
             <td> <img
  style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
  alt="Pale Moon logo" title="Click to download!"
  src="dl-images/mainsite.png"> </td>
-            <td style="text-align: center;">Americas<br>
+            <td>Americas<br>
             </td>
             <td class="c5"> <span class="c3"></span> <a
- class="dllink_win dllink_os_temp" href="download.php?mirror=us&bits=32&type=installer">Direct
+ class="dllink_win dllink_os_temp" href="download.php?mirror=us&bits=32&type=installer"><span>Direct
 Download<br>
-32-bit installer</a></td>
+32-bit installer</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="download.php?mirror=us&bits=64&type=installer">Direct Download<br>
-64-bit installer</a></td>
+ href="download.php?mirror=us&bits=64&type=installer"><span>Direct Download<br>
+64-bit installer</span></a></td>
           </tr>
           <tr>
             <td><img
  style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
  alt="Pale Moon logo" title="Click to download!"
  src="dl-images/mainsite.png"></td>
-            <td style="text-align: center;">Asia<br>
+            <td>Asia<br>
             </td>
-            <td><span class="c3"></span><a
- class="dllink_win dllink_os_temp" href="download.php?mirror=as&bits=32&type=installer">Direct
+            <td><a
+ class="dllink_win dllink_os_temp" href="download.php?mirror=as&bits=32&type=installer"><span>Direct
 Download<br>
-32-bit installer</a></td>
+32-bit installer</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="download.php?mirror=as&bits=64&type=installer">Direct Download<br>
-64-bit installer</a></td>
+ href="download.php?mirror=as&bits=64&type=installer"><span>Direct Download<br>
+64-bit installer</span></a></td>
           </tr>
           <tr>
             <td> <a
@@ -185,11 +179,11 @@ Download<br>
             <td style="text-align: center;">Global<br>
             </td>
             <td class="dltable_text"> <span class="c3"></span><a
- class="dllink_win dllink_os_temp" href="">Visit website<br>
-to download</a> </td>
+ class="dllink_win dllink_os_temp" href=""><span>Visit website<br>
+to download</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="file:///E:/webpages/palemoon.org/download.shtml">Visit website<br>
-to download</a></td>
+ href="file:///E:/webpages/palemoon.org/download.shtml"><span>Visit website<br>
+to download</span></a></td>
           </tr>
           <tr>
             <td><a
@@ -201,11 +195,11 @@ to download</a></td>
             </td>
             <td><span style="font-weight: bold;"></span><a
  class="dllink_win dllink_os_temp"
- href="file:///E:/webpages/palemoon.org/download.shtml">Visit website<br>
-to download</a> </td>
+ href="file:///E:/webpages/palemoon.org/download.shtml"><span>Visit website<br>
+to download</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="file:///E:/webpages/palemoon.org/download.shtml">Visit website<br>
-to download</a></td>
+ href="file:///E:/webpages/palemoon.org/download.shtml"><span>Visit website<br>
+to download</span></a></td>
           </tr>
           <tr>
             <td><a href="http://www.filecroco.com/download-pale-moon-32"><img
@@ -215,11 +209,11 @@ to download</a></td>
             <td style="text-align: center;">Global<br>
             </td>
             <td><a class="dllink_win dllink_os_temp"
- href="file:///E:/webpages/palemoon.org/download.shtml">Visit website<br>
-to download</a></td>
+ href="file:///E:/webpages/palemoon.org/download.shtml"><span>Visit website<br>
+to download</span></a></td>
             <td><a class="dllink_win dllink_os_temp"
- href="file:///E:/webpages/palemoon.org/download.shtml">Visit website<br>
-to download</a></td>
+ href="file:///E:/webpages/palemoon.org/download.shtml"><span>Visit website<br>
+to download</span></a></td>
           </tr>
         </tbody>
       </table>
