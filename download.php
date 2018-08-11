@@ -69,7 +69,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
   if (!in_array($mirror, $validmirrors))
     die ('Invalid mirror.');
   
-  $validbits = [32, 64];
+  $validbits = ['32', '64'];
   
   if (!in_array($bits, $validbits, true))
     die ('Invalid architecture.');
@@ -78,15 +78,15 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
           $version . '.win' . $bits;
   switch ($type) {
     case 'installer':
-      $url += '.installer.exe';
+      $url = $url . '.installer.exe';
       break;
     case 'zip':
-      $url += '.zip';
+      $url = $url . '.zip';
       break;
     default:
       // Unsupported download type; abort.
       die('Incorrect type.');
-  endswitch;
+  }
   
   return $url;
 }
