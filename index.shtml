@@ -316,9 +316,6 @@ corporate sponsor? Please <a style="color: rgb(128, 128, 128);"
 </table>
 <!-- START SOCIAL MEDIA WIDGET -->
 <ul id="socialbar">
-  <li id="facebook"> <a target="_blank"
- href="http://www.facebook.com/PaleMoonBrowser"><img class="icon"
- alt="FB" src="social/facebook.png"></a> </li>
   <li id="twitter"> <a target="_blank"
  href="https://twitter.com/palemoonbrowser"><img class="icon" alt="Tw"
  src="social/twitter.png"></a> </li>
