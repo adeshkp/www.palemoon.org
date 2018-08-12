@@ -28,19 +28,27 @@
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
       <h3>v28.0.0 (2018-08-16)</h3>
-This is a new milestone release. We are now building on the Unified XUL
-Platform which has been forked off from Mozilla's mozilla-central at a
+We are excited to bring you Pale Moon 28.0. This is a new major
+milestone in Pale Moon's release history.<br>
+      <br>
+We are now building on the <a
+ href="https://www.github.com/MoonchildProductions/UXP/" target="_blank">Unified
+XUL
+Platform</a> which has been forked off from Mozilla's mozilla-central
+at a
 point before Rust and Quantum to continue focus on the XUL interface
-langues and traditional browser extensions. Many thousands of things
-have changed since the v27 milestone versions, which can impossibly be
-all listed here. Instead, the most pertinent improvements in this new
+language and traditional browser extensions. Many thousands of things
+have changed since the v27 (AKA "Tycho") versions, which can impossibly
+all be listed here. Instead, the most pertinent improvements in this
+new
 release are highlighted here:<br>
       <ul>
         <li>SpiderMonkey update: The JavaScript engine has received a
 major upgrade and now supports all landmark features from the
 ECMAScript standards as carried by mainstream browsers. This should put
 an end to the increasing JavaScript issues we've seen due to web
-frameworks not being browser-agnostic in that respect.</li>
+frameworks not being browser-agnostic in that respect, or the browser
+not supporting what websites expect.</li>
         <li>Goanna update: The layout and rendering engine (Goanna) has
 been updated to its 4th generation (version 4.*) which brings with it
 improved compatibility with "trendy" CSS styling techniques that build
@@ -62,7 +70,8 @@ also support playback of FLAC-encoded audio.<br>
         <li>New: WebGL2 support! Pale Moon now supports the WebGL2
 standard for enhanced graphical experiences in 2D and 3D.</li>
         <li>Devtools have been given a refresh. Just in case you
-thought they weren't extensive enough, some new categories have been
+thought they weren't extensive enough yet, some new categories have
+been
 added to inspect and manipulate all aspects of web content.</li>
         <li>Updates to the login manager: Login credentials can now be
 stored specifically with or without a user name, and selected
@@ -90,23 +99,31 @@ any DRM in the browser (people needing this can use e.g. the
 Silverlight plugin to play protected content), even though the platform
 we build on supports it.</li>
       </ul>
-Our primary goal has been to lift Pale moon up to the new platform and
+Our primary goal has been to lift Pale Moon up to the new platform and
 as such most changes are "under the hood" and won't be seen in casual
-use. We aim to keep your user experience consistent and logical; but
+use (aside from more things "just working"). We aim to keep your user
+experience consistent and logical; but
 some things will have changed, of course. Browser extensions may need
 updating or may need a different version, for example.<br>
       <br>
-Of course with such a big change and re-forking, there are some things
+Of course with such a big change of platform, there are some things
 that have regressed (worked before but no longer work), and we will
 work on fixing these regressions over time (hopefully with your help).<br>
       <br>
 Reality check: Even though we have extensively tested the browser in
-daily use for a few months (also thanks to the brave sould on our
+daily use for a few months (also thanks to the brave souls on our
 unstable channel) we don't expect that the browser will be flawless or
-bug-free. If you find bugs or issues with the new milestone, please
+bug-free. If you find bugs, regressions or issues with the new release,
+please
 discuss them on the <a href="https://forum.palemoon.org/"
  target="_blank">forum</a>. Let's work together as a community of users
 to make this the best browser yet!<br>
+      <br>
+      <span style="font-weight: bold;">Big thank-yous and kudos go out
+to everyone who has, in one way or another, contributed to this
+milestone release and helped make it possible. This one belongs to all
+of you!</span><br>
+      <br>
       <hr style="width: 100%; height: 2px;"><br>
       <h1> Release notes for previous versions (unsupported) </h1>
 You can find the release notes for previous releases of Pale Moon on
