@@ -11,16 +11,6 @@
  href="menustyle.css">
   <link rel="stylesheet" type="text/css" media="screen,projection"
  href="pagestyle.css">
-  <style type="text/css">
-    td.c9 {vertical-align: top; text-align: center;}
-    td.c8 {vertical-align: top;}
-    span.c7 {color: rgb(102, 102, 0);}
-    span.c6 {color: rgb(0, 64, 128);}
-    span.c5 {text-decoration: underline;}
-    span.c4 {font-weight: bold; color: rgb(153, 0, 0);}
-    span.c3 {color: rgb(51, 102, 102); font-weight: bold;}
-    span.c2 {font-weight: bold;}
-    </style>
 </head>
 <body>
 <table class="maintable" align="center" border="0" cellpadding="0"
@@ -37,7 +27,86 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.0.0 (2018-08-16)</h3>
+This is a new milestone release. We are now building on the Unified XUL
+Platform which has been forked off from Mozilla's mozilla-central at a
+point before Rust and Quantum to continue focus on the XUL interface
+langues and traditional browser extensions. Many thousands of things
+have changed since the v27 milestone versions, which can impossibly be
+all listed here. Instead, the most pertinent improvements in this new
+release are highlighted here:<br>
+      <ul>
+        <li>SpiderMonkey update: The JavaScript engine has received a
+major upgrade and now supports all landmark features from the
+ECMAScript standards as carried by mainstream browsers. This should put
+an end to the increasing JavaScript issues we've seen due to web
+frameworks not being browser-agnostic in that respect.</li>
+        <li>Goanna update: The layout and rendering engine (Goanna) has
+been updated to its 4th generation (version 4.*) which brings with it
+improved compatibility with "trendy" CSS styling techniques that build
+on a few very specific features (e.g. CSS Grid). Goanna continues to
+build on tried-and-tested software fallbacks in case hardware
+acceleration can't be used, and Linux remote desktop users can continue
+to leverage xrender for speedy remote screen updates in Pale Moon.</li>
+        <li>DOM enhancements: Enhancements in the Document Object Model
+provides websites with updated APIs to perform their tasks. (e.g.
+Fetch, WebAnimations, WebCrypto, HTML Input Element Extensions, etc.)</li>
+        <li>Media enhancements: Our media back-end update is, for all
+intents and purposes, complete. MSE media streaming (for MP4) should be
+compatible with all major players on the market now. MSE for WebM is
+still disabled by default due to some compatibility issues that need to
+be examined, but you may enable this in preferences to e.g. allow 4k
+video playback on some sites that only offer UHD in WebM format. We now
+also support playback of FLAC-encoded audio.<br>
+        </li>
+        <li>New: WebGL2 support! Pale Moon now supports the WebGL2
+standard for enhanced graphical experiences in 2D and 3D.</li>
+        <li>Devtools have been given a refresh. Just in case you
+thought they weren't extensive enough, some new categories have been
+added to inspect and manipulate all aspects of web content.</li>
+        <li>Updates to the login manager: Login credentials can now be
+stored specifically with or without a user name, and selected
+individually. This is a behavior change from previous, and clicking a
+password field can now pop-up a selection list of user names for which
+passwords are stored (if multiple credentials are saved). Clicking the
+appropriate login name (or date-stamped version if no name is present)
+will fill in the accompanying password.</li>
+      </ul>
+What might be more important for people worrying about upgrading to
+this milestone is what hasn't changed.<br>
+      <ul>
+        <li>We continue to support NPAPI plugins.</li>
+        <li>We continue to support complete themes as well as
+lightweight themes.</li>
+        <li>We continue to offer a fully customizable interface like
+before. Australis (like seen in Basilisk) is not used.<br>
+        </li>
+        <li>We continue to support XUL overlay, bootstrapped and
+(deprecated) Jetpack extensions (collectively called "legacy
+extensions" by Mozilla).<br>
+        </li>
+        <li>We do <span style="font-weight: bold;">not</span> include
+any DRM in the browser (people needing this can use e.g. the
+Silverlight plugin to play protected content), even though the platform
+we build on supports it.</li>
+      </ul>
+Our primary goal has been to lift Pale moon up to the new platform and
+as such most changes are "under the hood" and won't be seen in casual
+use. We aim to keep your user experience consistent and logical; but
+some things will have changed, of course. Browser extensions may need
+updating or may need a different version, for example.<br>
       <br>
+Of course with such a big change and re-forking, there are some things
+that have regressed (worked before but no longer work), and we will
+work on fixing these regressions over time (hopefully with your help).<br>
+      <br>
+Reality check: Even though we have extensively tested the browser in
+daily use for a few months (also thanks to the brave sould on our
+unstable channel) we don't expect that the browser will be flawless or
+bug-free. If you find bugs or issues with the new milestone, please
+discuss them on the <a href="https://forum.palemoon.org/"
+ target="_blank">forum</a>. Let's work together as a community of users
+to make this the best browser yet!<br>
       <hr style="width: 100%; height: 2px;"><br>
       <h1> Release notes for previous versions (unsupported) </h1>
 You can find the release notes for previous releases of Pale Moon on
