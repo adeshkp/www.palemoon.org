@@ -38,7 +38,7 @@ Platform</a> which has been forked off from Mozilla's mozilla-central
 at a
 point before Rust and Quantum to continue focus on the XUL interface
 language and traditional browser extensions. Many thousands of things
-have changed since the v27 (AKA "Tycho") versions, which can impossibly
+have changed since the v27 (AKA "Tycho") versions, which can't possibly
 all be listed here. Instead, the most pertinent improvements in this
 new
 release are highlighted here:<br>
