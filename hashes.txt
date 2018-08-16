@@ -1,0 +1,25 @@
+Hashes for release 28.0.0 
+palemoon-28.0.0.win32.installer.exe 
+304aea11da1be04d23eae4e3352d8dc6537cb5256bd57e5659f3f90331ef0193
+ 
+palemoon-28.0.0.win64.installer.exe 
+02897b72c61355c8f861807d5ca9508128380eef1078323de214805208028662
+ 
+Palemoon-Portable-28.0.0.win32.exe 
+28bf43e86da884daaea956dbafee23afb16190b68127147a92610d391fb5e849
+ 
+Palemoon-Portable-28.0.0.win64.exe 
+e9a2dfbed643c819a10c7dd34f35f35bd87f3ae68a9c0585792413295a47cc1d
+ 
+palemoon-28.0.0.win32.zip 
+f102d6945e157865fc9246d4a1e4a407b9ff462ed66bb55496f27ab7da223134
+ 
+palemoon-28.0.0.win64.zip 
+a9e04743a9ca52b2097f45d4693347768a03daf5f45e90ee6419076666c5f711
+ 
+palemoon-28.0.0.linux-i686.tar.bz2 
+3eefc973b299fbaf42bc732e80dc15a4474932de6696ed6c3de441f2c9956734
+ 
+palemoon-28.0.0.linux-x86_64.tar.bz2 
+3bd445fb4ade13b369257fe376bd1383bbeac4aae27aef34303edfec1cb08256
+ 
