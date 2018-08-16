@@ -74,14 +74,16 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
   if (!in_array($bits, $validbits, true))
     die ('Invalid architecture.');
   
-  $url = 'http://rm-' . $mirror . '.palemoon.org/release/palemoon-' . 
-          $version . '.win' . $bits;
+  $url = 'http://rm-' . $mirror . '.palemoon.org/release/'; 
   switch ($type) {
     case 'installer':
-      $url = $url . '.installer.exe';
+      $url = $url . 'palemoon-' . $version . '.win' . $bits . '.installer.exe';
       break;
     case 'zip':
-      $url = $url . '.zip';
+      $url = $url . 'palemoon-' . $version . '.win' . $bits . '.zip';
+      break;
+    case 'portable':
+      $url = $url . 'Palemoon-Portable-' . $version . '.win' . $bits . ".exe";
       break;
     default:
       // Unsupported download type; abort.
