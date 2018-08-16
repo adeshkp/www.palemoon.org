@@ -124,22 +124,19 @@ selected features and optimizations to improve the browser's stability
 and user experience, while offering full
 customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
-      <br>
 &nbsp;<br>
 Due to a potential security issue with the web installer, it is
 currently unavailable.
 Please find links to our most popular individual download pages,
 instead:<br>
       <br>
-      <div style="text-align: center;"><a
- class="dllink_win dllink_os_temp" href="palemoon-win32.shtml">Windows
-32-bit</a> <a class="dllink_win dllink_os_temp"
- href="palemoon-win64.shtml">Windows
-64-bit</a> <a class="dllink_linux dllink_os_temp"
- href="http://linux.palemoon.org">Linux desktop</a> <br>
-      </div>
-      <span class="bold"><br>
-      </span> Looking for other download options like a package for a
+      <div style="text-align: center;"> <a
+ class="dllink_win dllink_os_temp" href="download.shtml">Windows</a><a
+ class="dllink_linux dllink_os_temp" href="http://linux.palemoon.org/">Linux
+desktop</a></div>
+      <br>
+      <span class="bold"></span>Looking for other download options like
+a package for a
 different operating system or portable version? Check the
 download menu at the top of this page!<br>
       <br>

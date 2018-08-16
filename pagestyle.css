@@ -212,6 +212,20 @@ pre {
 }
 
 .dllink_os_temp {
+  display: inline-block;
+  border-radius: 3px;
+  margin: 3px;
+  box-shadow: 1px 1px 3px #555;
+  height: 64px;
+  width: 150px;
+  opacity: .8;
+}
+
+.dllink_os_temp:hover {
+  opacity: 1;
+}
+
+.dllink_os {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,7 +237,7 @@ pre {
   opacity: .8;
 }
 
-.dllink_os_temp:hover {
+.dllink_os:hover {
   opacity: 1;
 }
 
