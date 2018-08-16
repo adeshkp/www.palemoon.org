@@ -124,22 +124,19 @@ selected features and optimizations to improve the browser's stability
 and user experience, while offering full
 customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
-      <br>
 &nbsp;<br>
 Due to a potential security issue with the web installer, it is
 currently unavailable.
 Please find links to our most popular individual download pages,
 instead:<br>
       <br>
-      <div style="text-align: center;"><a
- class="dllink_win dllink_os_temp" href="palemoon-win32.shtml">Windows
-32-bit</a> <a class="dllink_win dllink_os_temp"
- href="palemoon-win64.shtml">Windows
-64-bit</a> <a class="dllink_linux dllink_os_temp"
- href="http://linux.palemoon.org">Linux desktop</a> <br>
-      </div>
-      <span class="bold"><br>
-      </span> Looking for other download options like a package for a
+      <div style="text-align: center;"> <a
+ class="dllink_win dllink_os_temp" href="download.shtml">Windows</a><a
+ class="dllink_linux dllink_os_temp" href="http://linux.palemoon.org/">Linux
+desktop</a></div>
+      <br>
+      <span class="bold"></span>Looking for other download options like
+a package for a
 different operating system or portable version? Check the
 download menu at the top of this page!<br>
       <br>
@@ -202,18 +199,12 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"></span><span class="bold"><small><small>17
-Jul 2018</small></small><br>
-Pale Moon 27.9.4 has been released.</span> This is a security/usability
-update.<br>
-            <br>
-            <span class="bold"><small><small>17 Apr 2018</small></small><br>
-Pale Moon 27.9.0 has been released.</span> This is a standard
-development update which adds and improves several features and fixes a
-number of bugs.<br>
-This will be the last major development update on the v27 series of
-Pale Moon, while we focus on moving it to the UXP platform. More
-information in the <a href="releasenotes.shtml">release notes</a>.<br>
+            <span class="bold"></span><span class="bold"><small><small>16
+Aug 2018</small></small><br>
+Pale Moon 28.0.0 has been released.</span> This is a new milestone
+release, building on UXP, the platform that Pale Moon will be using
+from this day forward. More
+information in the <a href="releasenotes.shtml">release notes</a>!<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>

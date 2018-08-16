@@ -11,16 +11,6 @@
  href="menustyle.css">
   <link rel="stylesheet" type="text/css" media="screen,projection"
  href="pagestyle.css">
-  <style type="text/css">
-    td.c9 {vertical-align: top; text-align: center;}
-    td.c8 {vertical-align: top;}
-    span.c7 {color: rgb(102, 102, 0);}
-    span.c6 {color: rgb(0, 64, 128);}
-    span.c5 {text-decoration: underline;}
-    span.c4 {font-weight: bold; color: rgb(153, 0, 0);}
-    span.c3 {color: rgb(51, 102, 102); font-weight: bold;}
-    span.c2 {font-weight: bold;}
-    </style>
 </head>
 <body>
 <table class="maintable" align="center" border="0" cellpadding="0"
@@ -37,892 +27,102 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
-      <h3>27.9.4 (2018-07-17)</h3>
-This is a security and usability update.<br>
+      <h3>v28.0.0 (2018-08-16)</h3>
+We are excited to bring you Pale Moon 28.0. This is a new major
+milestone in Pale Moon's release history.<br>
       <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
+We are now building on the <a
+ href="https://www.github.com/MoonchildProductions/UXP/" target="_blank">Unified
+XUL
+Platform</a> which has been forked off from Mozilla's mozilla-central
+at a
+point before Rust and Quantum to continue focus on the XUL interface
+language and traditional browser extensions. Many thousands of things
+have changed since the v27 (AKA "Tycho") versions, which can't possibly
+all be listed here. Instead, the most pertinent improvements in this
+new
+release are highlighted here:<br>
       <ul>
-        <li>Updated the useragent for addons.mozilla.org to work around
-their "Only with Firefox" discrimination preventing users from
-downloading themes, old versions of extensions, and other files with
-Pale Moon.</li>
-        <li>Restricted web access to the <code>moz-icon://</code>
-scheme that could potentially be abused to infringe the user's privacy.</li>
-        <li>Prevented various location-based threats. <span
- style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed a potential vulnerability with plugins being
-redirected to different origins (CVE-2018-12364).</li>
-        <li>Improved the security check for launching executable files
-(by association) on Windows from the browser. For users who have (most
-likely accidentally) granted a system-wide waiver for opening these
-kinds of files without being prompted, this permission has been reset.</li>
-        <li>Fixed an issue with invalid qcms transforms
-(CVE-2018-12366).</li>
-        <li>Fixed a buffer overflow using the computed size of canvas
-elements (CVE-2018-12359).</li>
-        <li>Fixed a use-after-free when using focus() (CVE-2018-12360).</li>
-        <li>Added some sanity checks on nsMozIconURI. <span
- style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed an issue in the case the preferences file in the
-profile would not be writable (e.g. temporary permission issues due to
-backup, virus scanning or similar external processes).</li>
+        <li>SpiderMonkey update: The JavaScript engine has received a
+major upgrade and now supports all landmark features from the
+ECMAScript standards as carried by mainstream browsers. This should put
+an end to the increasing JavaScript issues we've seen due to web
+frameworks not being browser-agnostic in that respect, or the browser
+not supporting what websites expect.</li>
+        <li>Goanna update: The layout and rendering engine (Goanna) has
+been updated to its 4th generation (version 4.*) which brings with it
+improved compatibility with "trendy" CSS styling techniques that build
+on a few very specific features (e.g. CSS Grid). Goanna continues to
+build on tried-and-tested software fallbacks in case hardware
+acceleration can't be used, and Linux remote desktop users can continue
+to leverage xrender for speedy remote screen updates in Pale Moon.</li>
+        <li>DOM enhancements: Enhancements in the Document Object Model
+provides websites with updated APIs to perform their tasks. (e.g.
+Fetch, WebAnimations, WebCrypto, HTML Input Element Extensions, etc.)</li>
+        <li>Media enhancements: Our media back-end update is, for all
+intents and purposes, complete. MSE media streaming (for MP4) should be
+compatible with all major players on the market now. MSE for WebM is
+still disabled by default due to some compatibility issues that need to
+be examined, but you may enable this in preferences to e.g. allow 4k
+video playback on some sites that only offer UHD in WebM format. We now
+also support playback of FLAC-encoded audio.<br>
+        </li>
+        <li>New: WebGL2 support! Pale Moon now supports the WebGL2
+standard for enhanced graphical experiences in 2D and 3D.</li>
+        <li>Devtools have been given a refresh. Just in case you
+thought they weren't extensive enough yet, some new categories have
+been
+added to inspect and manipulate all aspects of web content.</li>
+        <li>Updates to the login manager: Login credentials can now be
+stored specifically with or without a user name, and selected
+individually. This is a behavior change from previous, and clicking a
+password field can now pop-up a selection list of user names for which
+passwords are stored (if multiple credentials are saved). Clicking the
+appropriate login name (or date-stamped version if no name is present)
+will fill in the accompanying password.</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code, e.g. when
-surrounding code changes, exposing the problem, or when new attack
-vectors are discovered.
-      <h3>27.9.3 (2018-06-12)</h3>
-This is a security update.<br>
+What might be more important for people worrying about upgrading to
+this milestone is what hasn't changed.<br>
+      <ul>
+        <li>We continue to support NPAPI plugins.</li>
+        <li>We continue to support complete themes as well as
+lightweight themes.</li>
+        <li>We continue to offer a fully customizable interface like
+before. Australis (like seen in Basilisk) is not used.<br>
+        </li>
+        <li>We continue to support XUL overlay, bootstrapped and
+(deprecated) Jetpack extensions (collectively called "legacy
+extensions" by Mozilla).<br>
+        </li>
+        <li>We do <span style="font-weight: bold;">not</span> include
+any DRM in the browser (people needing this can use e.g. the
+Silverlight plugin to play protected content), even though the platform
+we build on supports it.</li>
+      </ul>
+Our primary goal has been to lift Pale Moon up to the new platform and
+as such most changes are "under the hood" and won't be seen in casual
+use (aside from more things "just working"). We aim to keep your user
+experience consistent and logical; but
+some things will have changed, of course. Browser extensions may need
+updating or may need a different version, for example.<br>
       <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>(CVE-2017-0381) Ported a patch from libopus upstream. Note,
-contrary to that report, the libopus maintainers state they don't
-believe remote code execution was possible, so this was not a critical
-patch.</li>
-        <li>Fixed an issue with task counting in JS GC.</li>
-        <li>Fixed a use-after-free in
-DOMProxyHandler::EnsureExpandoObject (thanks to Berk Cem Göksel for
-reporting).</li>
-        <li>Portable only: Included the previously omitted registry
-helper. This may in some cases help with file/type associations.<br>
-        </li>
-      </ul>
-      <h3>27.9.2 (2018-05-18)</h3>
-This is a security and stability update.<br>
+Of course with such a big change of platform, there are some things
+that have regressed (worked before but no longer work), and we will
+work on fixing these regressions over time (hopefully with your help).<br>
       <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>We changed the language strings for softblocked items so
-people will cry less when we do our job.</li>
-        <li>(CVE-2018-5174) Prevent potential SmartScreen bypass on
-Windows 10.</li>
-        <li>(CVE-2018-5173) Fixed an issue in the Downloads panel
-improperly rendering some Unicode characters, allowing for the file
-name to be spoofed. This could be used to obscure the file extension of
-potentially executable files from user view in the panel.</li>
-        <li>(CVE-2018-5177) Fixed a vulnerability in the XSLT component
-leading to a buffer overflow and crash if it occurs.</li>
-        <li>(CVE-2018-5159) Fixed an integer overflow vulnerability in
-the Skia library resulting in possible out-of-bounds writes.</li>
-        <li>(CVE-2018-5154) Fixed a use-after-free vulnerability while
-enumerating attributes during SVG animations with clip paths.</li>
-        <li>(CVE-2018-5178) Fixed a buffer overflow during UTF8 to
-Unicode string conversion within JavaScript with extremely large
-amounts of data. This vulnerability requires the use of a malicious or
-vulnerable extension in order to occur. <br>
-        </li>
-        <li>Fixed several stability issues (crashes) and memory safety
-hazards.<br>
-        </li>
-      </ul>
-      <h3>27.9.1 (2018-05-07)</h3>
-This is a maintenance release.<br>
+Reality check: Even though we have extensively tested the browser in
+daily use for a few months (also thanks to the brave souls on our
+unstable channel) we don't expect that the browser will be flawless or
+bug-free. If you find bugs, regressions or issues with the new release,
+please
+discuss them on the <a href="https://forum.palemoon.org/"
+ target="_blank">forum</a>. Let's work together as a community of users
+to make this the best browser yet!<br>
       <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Removed the unused/incomplete places protocol handler.</li>
-        <li>Worked around an issue with MSE media without a Track ID.
-This should help with the playability of some live streams.<br>
-        </li>
-        <li>Ported across jemalloc improvements from UXP.</li>
-        <li>Ported across cairo mutex improvements from UXP.</li>
-        <li>Added support for FFmpeg 4.0/libavcodec 58.</li>
-        <li>Added a fix for Windows 10's "isAlpha()" not being what one
-would expect in v1803.</li>
-      </ul>
-      <h3>27.9.0 (2018-04-17)</h3>
-This is the last major development update for the v27 milestone
-(codenamed "Tycho").<br>
-After this, we will be focusing our efforts for new features entirely
-on UXP and the new v28 milestone building on it. We will continue to
-support v27.9 with security and stability updates for a while, but no
-major new features will be added from this point forward.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Fixed a number of spec compliance issues in our media
-subsystem.</li>
-        <li>Added a trailing slash to referrers when policy is set to
-fix some web compatibility issues.</li>
-        <li>Fixed the property order in
-Object.getOwnPropertyNames(string) and others for web compatibility.</li>
-        <li>Updated RegExp(RegExp object, flags) to the ES6 standard
-specification.</li>
-        <li>Changed the embedded font from the no longer free EmojiOne
-to the open-licensed Twemoji (with additional fixes). This also further
-extends unicode support to Unicode 10 emoji(s). Please note that as a
-result, color emoji(s) will look different than before.<br>
-        </li>
-        <li>Adjusted some things in our memory allocator code to
-provide, among other things, better allocation alignment on Windows.<br>
-        </li>
-        <li>Made the attempt to migrate people from the old sync server
-domain name to the current one more aggressive. We will be retiring the
-old pmsync.palemoon.net Sync server address shortly to remove the need
-for us to maintain a security certificate for it; this preference
-migration should automatically put everyone on the correct server
-address (pmsync.palemoon.org) when upgrading.<br>
-        </li>
-        <li>Made reading of the sessionstore synchronous, to speed up
-startup and prevent the homepage from being loaded when restoring a
-session.<br>
-        </li>
-        <li> Added a fix to switch to the correct window/tab when a web
-notification is clicked.<br>
-        </li>
-        <li>Changed the placeholder text to not include "Search" when
-all search functions from the address bar are disabled.<br>
-        </li>
-        <li>Enabled the use of Skia for canvas on Linux and OSX.<br>
-        </li>
-        <li>Worked around a potential cause for some non-standard
-bitmapped fonts ending up with incorrect line heights (I'm looking at
-you, Noto fonts!).<br>
-        </li>
-        <li>Added a workaround for incorrectly-encoded JPEG-XR images
-with planar alpha. Ultimately, the jxrlib reference implementation
-should be fixed to encode according to spec.<br>
-        </li>
-        <li>Aligned XCTO:nosniff allowed script MIME types with the
-updated spec.<br>
-        </li>
-        <li>Improved the logic for storing vector images in the surface
-cache.<br>
-        </li>
-        <li>Fixed character set handling for XMLHttpRequests.</li>
-      </ul>
-      <h3>27.8.3 (2018-03-28)</h3>
-This is a small update to address a pervasive crashing issue.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Backed out some responsive layout code that caused
-intermittent but not uncommon crashes in the browser depending on
-window sizes and page content.<br>
-        </li>
-      </ul>
-      <h3>27.8.2 (2018-03-22)</h3>
-This is a security update.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Privacy fix: prevented update checks for the default theme.</li>
-        <li>Added a user-agent override for Dropbox to improve
-compatibility with their service.</li>
-        <li>Fixed an issue with mouseover handling related to
-(CVE-2018-5103). <span style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Disabled the Mac OSX Nano allocator. <span
- style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed (CVE-2018-5129) OOB Write.</li>
-        <li>Updated the lz4 library to 1.8.0 to solve potential issues.
-          <span style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed (CVE-2018-5137) Path traversal on chrome:// URLs<br>
-        </li>
-        <li>Fixed several memory safety an synchronicity hazards.</li>
-      </ul>
-      <span style="color: rgb(191, 64, 64);"></span>
-      <h3>27.8.1 (2018-03-06)</h3>
-This is a small update to address some breaking issues.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Backed out the NSPR/NSS update from 27.8.0 for causing
-crashes, general operational instability and handshake issues.</li>
-        <li>Disabled TLS 1.3 draft support by default, because with the
-NSS backout we only support an older draft right now that is no longer
-current and may cause connectivity issues. You can manually re-enable
-it at your own risk in <code>about:config</code> by setting <code>security.tls.version.max</code>
-to <code>4</code>.<br>
-        </li>
-      </ul>
-      <h3>27.8.0 (2018-03-02)</h3>
-This is a development update with new and improved features and
-bugfixes.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Added support for emojis on Windows systems that have
-relatively poor support for them with standard font sets by including
-our own font (EmojiOne based for now).</li>
-        <li>Added a setting in preferences to select the use of tab
-previews with Ctrl+Tab.</li>
-        <li>Added Eyedropper menu entry to the AppMenu.</li>
-        <li>Added a preference to control whether the text cursor
-(caret) should be thicker when dealing with CJK characters or not
-(default = yes).</li>
-        <li>Added URL fix-ups for schemes (mis-typed "ttp://" etc.).</li>
-        <li>Added support for ES6 "Symbol species".</li>
-        <li>Updated our TLS 1.3 support to the latest (probably final)
-draft.</li>
-        <li>Fixed gap inconsistency in the tabstrip.</li>
-        <li>Fixed a number of browser crashes.</li>
-        <li>Fixed a crash with the exponentiation operator "<strong>**</strong>"</li>
-        <li>Set the performance timer granularity to 1 ms.</li>
-        <li>Updated the kiss-fft library to our forked 1.4.0 version.</li>
-        <li>Disabled a potentially problematic optimization on Win 8+
-with high contrast themes in use.</li>
-        <li>Removed the notification bar when in full screen to prevent
-unwanted visible screen elements.</li>
-        <li>Removed unmaintained and insecure WebRTC code - building
-with WebRTC enabled is no longer an option.</li>
-        <li>Removed redundant checks for "Vista or later" since that is
-all we support.</li>
-        <li>Added display of the http status to raw request displays.</li>
-        <li>Added a workaround for cloned videos not retaining their
-muted state.</li>
-        <li>Added a temporary workaround to avoid crashes on trackless
-media.</li>
-        <li>Removed some superfluous ellipses from menu labels.</li>
-        <li>Fixed undesired shrinking of line heights as a result of
-setting minimum font size in preferences.</li>
-        <li>Fixed some issues with setting the new tab preference
-(regression).<br>
-        </li>
-      </ul>
-      <h3>27.7.2 (2018-02-01)</h3>
-This is a security and stability update.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Changed the <code>X-Content-Type-Options: nosniff</code>
-behavior to only check "success" class server responses, for web
-compatibility reasons.</li>
-        <li>Changed the performance timer resolution once more to a
-granularity of 1 ms, after evaluating more potential ways of abusing
-Spectre.<br>
-This takes the most cautious approach possible lacking more information
-(because apparently NDAs have been signed over this between mainstream
-players), follows Safari's lead, and should make it not just infeasible
-but downright impossible to use these timers for nefarious purposes in
-this context.<br>
-        </li>
-        <li>Improved the debug-only startup cache wrapper to prevent a
-rare crash. <br>
-        </li>
-        <li>Fixed a crash in the XML parser.</li>
-        <li>Added a check for integer overflow in <code>AesTask::DoCrypto()</code>
-(CVE-2018-5122) <span style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed a potential race condition in the browser cache.</li>
-        <li>Fixed a crash in HTML media elements (CVE-2018-5102)</li>
-        <li>Fixed a crash in XHR using workers.</li>
-        <li>Fixed a crash with some uncommon FTP operations.</li>
-        <li>Fixed a potential race condition in the JAR library.</li>
-      </ul>
-      <span style="color: rgb(191, 64, 64);"></span>
-      <h3>27.7.1 (2018-01-18)</h3>
-This is a minor emergency update to address website breakage and a
-theme issue.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Added support for Array.prototype[@@unscopables].<br>
-Unfortunately, the addition of Javascript's ES6 Unscopables in 27.7.0
-was incomplete, which caused a number of websites (e.g. Chase on-line
-banking, some Russian government sites) to display blank or not
-complete loading after updating to that version of the browser. This
-update should fix the problem by adding the missing part of the feature.</li>
-        <li>Fixed an issue with the default theme causing tab borders
-to be drawn too thick at higher settings for visual element scaling
-(125%/150%) in Windows.<br>
-        </li>
-      </ul>
-      <h3>27.7.0 (2018-01-15)</h3>
-This is a stability and bugfix release, as well as adding a number of
-new features to further improve web compatibility.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Reorganized access to preferences (moved to the Tools menu
-on Linux, and renamed from "Options" to "Preferences" on Windows).</li>
-        <li>Renamed "Restart with add-ons disabled" to "Restart in Safe
-Mode" to better reflect what it does.</li>
-        <li>Worked around an issue with some improperly-encoded PNG
-files not decoding after our libpng update.</li>
-        <li>Fixed an issue on Mac builds not properly populating the
-application menu.</li>
-        <li>Added "My home page" as an option for new tabs.</li>
-        <li>Added an option to disable the 4th and 5th mouse buttons
-(Windows).<br>
-(<code>mouse.button4.enabled</code> and <code>mouse.button5.enabled</code>,
-respectively)</li>
-        <li>Improved the resetting of non-default profiles.</li>
-        <li>Fixed an issue with details/summary having the incorrect
-height if floated, breaking layouts.</li>
-        <li>Made several more improvements to the details/summary tags
-to align them with the current spec and fix some additional bugs.<br>
-        </li>
-        <li>Implemented support for flex/columnset contents inside
-buttons to align its behavior with other browsers.<br>
-(this should fix layout issues with Twitch's new web interface)</li>
-        <li>Fixed an issue where CSS clone operations would draw a
-border.</li>
-        <li>Changed the way fractional border widths are rounded to
-provide more natural behavior.</li>
-        <li>Fixed an issue where number inputs would incorrectly be
-flagged as read-only.</li>
-        <li>Added assets for tile display in the Windows start panel.</li>
-        <li>Finished sync infra swapover by adding a one-time pref
-migration for server used.</li>
-        <li>Improved WebAudio API: Return the connected audio node from
-          <code>AudioNode.connect()</code></li>
-        <li>Added support for a default playback start position in
-media elements.</li>
-        <li>Fixed an assert in cubeb-alsa code (Linux).</li>
-        <li>Added support for media cue-change events (e.g. subtitles).</li>
-        <li>Updated SQLite to 3.21.0.</li>
-        <li>Fixed a crash when trying to use the platform embedded.</li>
-        <li>Fixed devtools (gcli) screenshots on vertical-text pages.</li>
-        <li>Fixed devtools copy as cURL for POST requests.</li>
-        <li>Improved the HTML editor component (several bugfixes).</li>
-        <li>Added support for ES7's exponentiation <code>a ** b</code>
-operator.</li>
-        <li>Fixed an issue with arrow functions incorrectly creating an
-'arguments' binding.</li>
-        <li>Added Javascript's ES6 "unscopables".</li>
-      </ul>
-      <span style="font-weight: bold;">Security/privacy fixes:</span><br>
-      <ul>
-        <li>Disabled automatic filling in of log-in details by default
-to prevent potential risks of credentials being abused (e.g. for
-tracking) or stolen.<br>
-        </li>
-        <li>Added a preference (in the category security) to easily
-enable or
-disable automatic filling in of log-in data.<br>
-        </li>
-        <li>Removed the sending of referrers when opening a link in a
-new private window.</li>
-        <li>Added an option to disable the page visibility Web API (<code>dom.visibilityAPI.enabled</code>),
-allowing users to prevent pages from knowing whether they are being
-actively displayed to the user or not.<br>
-        </li>
-        <li>Removed the "ask every time" policy for cookies. For
-granular control, please use any of the excellent available extensions
-to regulate cookie use on a per-site or per-url basis.<br>
-        </li>
-        <li>Added support for <code>X-Content-Type-Options: nosniff</code>
-(for scripts).</li>
-        <li>Changed the resolution of performance timers to a level
-where any future potential abuse for hardware-timing attacks becomes
-impractical. <span style="color: rgb(191, 64, 64);">DiD</span></li>
-      </ul>
-      <span style="color: rgb(191, 64, 64);"></span>
-      <h3>27.6.2 (2017-11-28)</h3>
-This is a security and minor bugfix update to the browser.<br>
-This will most likely be the last update for 2017, with the holidays
-not far away.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Implemented the concept of so-called "cookie-averse
-document objects" which is a security&amp;privacy measure that blocks
-certain web content from setting cookies. This mitigates
-cookie-injection, which might help against "hidden" cookie tracking.<br>
-        </li>
-        <li>Mitigated some domain name spoofing through IDN by using
-dotless-i and dotless-j with accents. (CVE-2017-7832)<br>
-Pale Moon will display these kinds of spoofed domains in punycode now
-in the actual address bar.<br>
-Please note that the <a
- href="https://forum.palemoon.org/viewtopic.php?f=26&amp;t=15583"
- target="_blank">identity panel</a> will always be able to help you on
-secure sites when IDNs are in use to notice potential spoofing, as
-opposed to relying on detection algorithms in the URL itself. As such,
-some other issues like CVE-2017-7833 are already mitigated by us.<br>
-        </li>
-        <li>Fixed an issue with mixed-content blocking. (CVE-2017-7835)</li>
-        <li>Added an extra check for the correct signature data type on
-certificates.</li>
-        <li>Added missing sanitization in exporting bookmarks to HTML.
-(CVE-2017-7840)</li>
-        <li>Fixed several crashes and memory safety hazards.</li>
-        <li>Fixed the Linux load throbber image to be properly encoded,
-to prevent flickering.</li>
-        <li>Removed the shortcut key combination for restarting the
-browser to avoid issues with people using certain keyboard layouts
-hitting the combination and unintentionally triggering a browser
-restart.</li>
-      </ul>
-      <h3>27.6.1 (2017-11-15)</h3>
-This is a minor bugfix release to address some pressing issues people
-have reported.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Fixed a regression with new windows (opening two windows
-from the command-line or file association, focus issues on new windows,
-not loading the home page in a new window, etc.)<br>
-        </li>
-        <li>Aligned XHR with the currect spec to allow <code>withCredentials</code>.</li>
-        <li>Fixed an input element focus issue within handlers.</li>
-        <li>Fixed the processing of all-padding HTTP/2 frames to
-prevent rare HTTP/2 hangups.<br>
-        </li>
-        <li>Updated CitiBank override to work around their login issues.</li>
-        <li>Updated Netflix override to a community-supplied one that
-seems to satisfy their arbitrary restrictions better.</li>
-      </ul>
-      <h3>27.6.0 (2017-11-07)</h3>
-This is a major development update.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Dropped support for Direct2D 1.0 to avoid font rendering
-issues. Windows installations not capable of using Direct2D 1.1 will
-now fall back to software rendering. As a result, fonts may look
-different from this version onwards if you are on Windows Vista or
-Windows 7. Users on Windows 7 affected by this should install the <a
- href="https://www.microsoft.com/en-us/download/details.aspx?id=36805"
- target="_blank">Platform Update</a> to re-enable Direct2D.</li>
-        <li>Updated the Brotli decoder library, and enabled support for
-Brotli HTTP content-encoding by default.</li>
-        <li>Added notifications to inform users about WebExtensions not
-being supported if they try to install them (as opposed to "extension
-is corrupt")</li>
-        <li>Added a number of DOM childNode convenience functions. This
-should fix some lazy-loading frameworks.<br>
-(enjoy your LOLcats again!)</li>
-        <li>Changed automatic updates over to the new infrastructure.</li>
-        <li>Added extra proxy settings in Options, covering DNS lookups
-through SOCKS v5 and automatic proxy authentication with known
-credentials.</li>
-        <li>Added a selectable fallback character encoding of UTF-8 and
-fallback to UTF-8 as a last effort. (Issue #1423)</li>
-        <li>Improved timing of <code>canplay</code> and <code>canplaythrough</code>
-firing to work around a potential race condition locking up queued
-video playback.</li>
-        <li>Improved upmixing of mono sound for multi-channel setups.</li>
-        <li>Fixed a parallelization issue with the KISS-FFT library
-causing
-CPU-deadlocked threads (Issue #1425)</li>
-        <li>Fixed "Remove from history" function from the downloads
-panel.</li>
-        <li>Forced focus on the address bar in new windows if the
-content is a blank/empty document.</li>
-        <li>Fixed the dropmarker in the address bar to allow the
-suggestions to be closed with a click.</li>
-        <li>Further cleaned up the status bar code.</li>
-        <li>Disabled window.showModalDialog; it's been removed from the
-spec 2 years ago and has potential abuse issues (modal dialogs block
-the UI)</li>
-        <li>Fixed image decoder calls to make sure the image load event
-doesn't fire prematurely.</li>
-        <li>Updated LibPNG to 1.6.28, and enabled faster SSE2 decoding.</li>
-        <li>Updated WOFF2 code from upstream.</li>
-        <li>Updated the zlib compression library.</li>
-        <li>Made general improvements to internal code structure and
-spec adherence.</li>
-        <li>Fixed an issue with certain command-line parameters being
-used.</li>
-        <li>Updated the default theme to improve consistency and
-contrast of toolbar and download buttons.</li>
-        <li>Increased the default duration of notification pop-ups and
-made them configurable.</li>
-        <li>Improved handling of audio-visual media (ongoing).</li>
-        <li>Fixed an issue in CSS where elements would sometimes reflow
-to the next line even with sufficient visual space.</li>
-        <li>Aligned the implementation of <code>for(let x=y;;)</code>
-loops with the final ES6 specification.</li>
-        <li>Fixed the selection system inside of a nested
-contenteditable element being broken.</li>
-        <li>Fixed Windows 10 detection for blocklisting graphics
-drivers.</li>
-        <li>Enabled pasting of clipboard data in documents without an
-editor element to improve web compatibility.</li>
-        <li>Fixed the uninstallation routine of restartless add-ons.</li>
-        <li>Fixed the handling of unimplemented functions in the
-console API.</li>
-        <li>Updated the Facebook user-agent to enable otherwise
-vendor-restricted functionality.</li>
-        <li>Updated the SVG scaling cache limit to be more lenient for
-larger SVG images at a small performance trade-off, working around some
-sites' design issues.</li>
-      </ul>
-      <span style="font-weight: bold;">Security/privacy fixes:<br>
-      </span>
-      <ul>
-        <li>Added an option to clear Site Connectivity Data (delete
-history).</li>
-        <li>Removed stale entries from the HSTS preload list, and
-improved generation/processing of it.</li>
-        <li>Removed undesired certificate issuer organization to common
-name fallback (if issuer org is empty).</li>
-        <li>Added pretty-printing for ECDSA-SHA224, 256, 384 and 512
-hashed certificate signatures.</li>
-        <li>Worked around some more issues with broken Apple fonts.</li>
-      </ul>
-      <h3>27.5.1 (2017-10-10)</h3>
-This is a security and stability update to the browser, as well as
-fixing some issues users have indicated.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Changed the default Windows 10 styling when no accent color
-is applied to black-on-white.</li>
-        <li>Changed the theme styling on Windows 10 when the system
-window frame is used (menu bar enabled) to use the window manager
-background directly, preventing visual lag updating the window color
-when it changes.</li>
-        <li>Updated user agent overrides for DropBox, YouTube and
-Yahoo to work around user agent sniffing issues.</li>
-        <li>Fixed a crash in the media subsystem.<br>
-        </li>
-        <li>Fixed a regression where video playback hardware
-acceleration was disabled incorrectly on some systems.</li>
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Updated the hyphenation library to the latest upstream code
-to fix a
-security issue.</li>
-        <li>Updated NSPR to 4.16-RTM with a patch to un-bust building
-on win64.</li>
-        <li>Updated NSS to 3.32.1-RTM.</li>
-        <li>Worked around some more issues with Mac fonts
-(CVE-2017-7825).</li>
-        <li>Fixed a potential rooting hazard in NPAPI plugin code. <span
- style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed a potential reference issue in JavaScript arrays. <span
- style="color: rgb(191, 64, 64);">DiD</span></li>
-      </ul>
-      <span style="color: rgb(191, 64, 64);"></span>
-      <h3>27.5.0 (2017-09-26)</h3>
-This is a major update furthering general development of the browser.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>User interface:<br>
-        </li>
-        <ul>
-          <li>Added a menu option to restart the browser.</li>
-          <li>Added Windows-specific CSS parameters and queries for the
-use of the system accent color. Added are parameters <code>-moz-win-accentcolor</code>
-and <code>-moz-win-accentcolortext</code>, and the media query <code>-moz-win-accentcolor-applies</code>
-to know if Windows is actively using an accent color.<br>
-          </li>
-          <li>Changed Windows' browser CSS sheet ot use variables
-instead
-of hard-coding colors, simplifying its style and making it more
-flexible. Further cleaned up the Windows 10 specific browser style.<br>
-          </li>
-          <li>Changed the theme on Windows 10 to use the new accent
-colors and improve O.S. consistency.</li>
-          <li>Fixed some general inconsistencies in the Windows theme
-on all Windows operating systems.</li>
-          <li>Updated Windows widgets to be able to pick up Windows 10
-accent colors dynamically and have the browser 's look and feel respond
-accordingly, even with automatic color changes based on desktop
-wallpaper.</li>
-          <li>Removed the experimental FF4 prerelease
-status-in-addressbar feature because the already-crowded address bar
-needs a break. This should solve some extension interop issues, theme
-issues and domain highlighting issues people have reported.</li>
-          <li>Cleaned up some dead code for the plugin updater that no
-longer exists.</li>
-          <li>Fixed a text direction issue in preferences.</li>
-          <li>Fixed an issue with disabled context menu entries after
-using Customize...</li>
-          <li>Reorganized and cleaned up the status preferences.</li>
-        </ul>
-        <li>Media:<br>
-        </li>
-        <ul>
-          <li>MSE Media updates (ongoing). We are focusing on improving
-MP4 handling.<br>
-          </li>
-          <li>Improved MP3 metadata parsing (e.g. incorrect duration
-with embedded album cover)</li>
-          <li>Fixed a number
-of searching issues in MP3 files</li>
-          <li>Fixed a few crashes.</li>
-        </ul>
-        <li>Fixed an issue with automatically exporting bookmarks to
-HTML on shutdown.</li>
-        <li>Fixed a regression re: domains allowed to/blocked from
-installing add-ons.</li>
-        <li>Fixed several internal errors thrown in the front-end.</li>
-        <li>Fixed several minor issues in the devtools.</li>
-        <li>Added a fix to prevent the home page from being loaded (and
-subsequently overridden) when restoring a session.</li>
-        <li>Added an option to control add-on blocklist behavior
-(Options -&gt; Security)</li>
-        <li>Added DOM function <code>isSameNode()</code>.</li>
-        <li>Added DOM <code>onvisibilitychange</code> event.</li>
-        <li>Added <code>document.scrollingelement</code> (CSSOM).</li>
-        <li>Added a basic implementation of <code>Object.values</code>
-and <code>Object.entries</code>
-enumerator functions
-(ECMA2017 draft).<br>
-        </li>
-        <li>Added "Open in new private window" to bookmarks, feeds and
-history entries.</li>
-        <li>Added HTTP request method OPTIONS.</li>
-        <li>Added an option to exit to a no-content page after
-encountering a network or security error.<br>
-This is controlled with the preference <code>browser.escape_to_blank</code>
--- when set to <code>true</code>, "Get me out of here" buttons will
-load a blank page instead of the browser's home page.<br>
-        </li>
-        <li>Added experimental Brotli accept-encoding (alternative
-to gzip/deflate compressed http data
-transfer). Disabled by default for now because it causes issues.<br>
-        </li>
-        <li>Improved the handling of several CSS selectors.</li>
-        <li>Changed session storage to remember form data for https
-sites by default.</li>
-        <li>Added (yet another) trap prevention method to
-onbeforeunload events.</li>
-        <li>Fixed privacy preferences not correctly resetting all
-options when choosing "Remember History"</li>
-        <li>Fixed not being able to deselect loading bookmarks in the
-sidebar.</li>
-        <li>Limited the display of user names and hosts in the http
-auth dialog to sane lengths, preventing over-sizing issues.</li>
-        <li>Fixed a number of potential crash points.</li>
-        <li>Improved the security of the Windows dll loader module.</li>
-        <li>Reinstated "Open all in tabs" option on folders of live
-bookmarks (feeds).</li>
-        <li>Made URL matching more liberal in selected text to make it
-easier to open stated addresses.</li>
-        <li>Fixed an issue with Graphite font rendering where automatic
-font collision fixing didn't always work.</li>
-        <li>Color Management for images is now disabled by default on
-Linux, due to many distributions not having a streamlined setup with
-sane default ICC profiles, which makes images look worse when color
-management is enabled.</li>
-        <li>Tightened the update security check to prevent acceptance
-of update manifests that have been intercepted/replaced through https
-MitM attacks.<br>
-Please be aware that https-filtering antivirus may interfere with
-future application updates as a result.<br>
-        </li>
-        <li>Updated the ANGLE library to broaden WebGL support and
-reduce the potential of crashes (due to junk being sent to the video
-driver).</li>
-        <li>Added content-sniffing for WebP images (working around
-CloudFront's incorrect content-type headers).</li>
-        <li>Fixed a problem with some H.264 media not playing (SPS NAL).</li>
-        <li>Improved timer efficiency (switch back to lower precision
-when high precision is no longer needed, reducing CPU/power
-consumption).</li>
-        <li>Improved context search on selected text/links.</li>
-        <li>Updated address bar handling with Alt or Shift modifiers,
-so that "switch to tab" with a modifier can open copies of
-already-opened sites.</li>
-        <li>Added a fix on Linux for starting the browser from
-Enlightenment.</li>
-        <li>Privacy fix: Pale Moon will now clear QuotaManager storage
-(asm.js
-cache/IndexedDB data) as part of clearing Offline Website Data.</li>
-      </ul>
-      <h3>27.4.2.1 (2017-08-28)</h3>
-This is an out-of-band update for the portable version of the browser
-only (Windows).<br>
-This fixes a few issues in the portable shell regarding backups and
-settings.<br>
-      <br>
-To update, please follow the recommended update procedure listed on the
-      <a href="palemoon-portable.shtml">Pale Moon Portable page</a>.<br>
-      <h3>27.4.2 (2017-08-22)</h3>
-This is a small update to address some security and stability issues.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Fixed a number of crashes.</li>
-        <li>Enabled the opt-in debugging feature to log SSL keys to a
-file in all builds.</li>
-        <li>Added a fix for TLS 1.3 handshakes causing a browser
-hangup.<br>
-Handshakes should be considerably faster now and no longer
-stall in the wrong circumstances.<br>
-        </li>
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Updated NSPR to 4.15.</li>
-        <li>Updated NSS to 3.31.1.</li>
-        <li>Fixed a DoS issue using overly long Username in URL scheme
-(CVE-2017-7783)</li>
-        <li>Fixed an issue where (cross domain) iframes could break
-scope (CVE-2017-7787) </li>
-        <li>Fixed an issue in WindowsDllDetourPatcher (CVE-2017-7804)</li>
-        <li>Fixed an issue with elliptic curve addition in mixed
-Jacobian-affine coordinates (CVE-2017-7781)</li>
-        <li>Fixed a UAF in nsImageLoadingContent (CVE-2017-7784)</li>
-        <li>Fixed a UAF in WebSockets (CVE-2017-7800)</li>
-        <li>Fixed a heap-UAF in RelocateARIAOwnedIfNeeded
-(CVE-2017-7809) <span style="color: rgb(191, 64, 64);">DiD</span>
-(accessibility is disabled)</li>
-      </ul>
-      <span style="color: rgb(191, 64, 64);"></span>
-      <h3>27.4.1 (2017-08-03)</h3>
-This is a small update to address some media and web compatibility
-issues.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Fixed an issue where media playback would not use hardware
-acceleration properly when using MSE.<br>
-This would cause high CPU usage and/or choppy playback for HD video on
-e.g. YouTube.</li>
-        <li>Fixed ES6 iterator chains to be spec-compliant.</li>
-        <li>Fixed ES6 vector append calls and some related memory leaks.<br>
-        </li>
-        <li>Added a workaround to reduce the likelihood of a potential
-rare (timing-critical) crash.<br>
-        </li>
-      </ul>
-      <h3>27.4.0 (2017-07-12)</h3>
-This is a major update to straighten out most of the media streaming
-issues, as well as adding the necessary enhancements, bugfixes and
-security fixes to the browser.<br>
-      <br>
-      <span style="font-weight: bold;">Changes/fixes:</span><br>
-      <ul>
-        <li>Completely re-worked the Media Source Extensions code to
-make it spec compliant, and asynchronous as per specification for MSE
-with MP4. This should fix playback problems on YouTube, Twitch, Vimeo
-and other sites that previously had some issues. A massive thank you to
-Travis for his tireless work on making this happen!<br>
-Please note that MSE+WebM (disabled by default) is not using this new
-code yet (planned for the next release), and as such there is a
-temporary set of things to keep in mind if you don't use default
-settings:</li>
-        <ul>
-          <li>If you have previously enabled MSE+WebM, this setting
-will be reset when you update to avoid conflicting settings with the
-updated MSE code.</li>
-          <li>We've added an extra setting in Options to disable the
-updated MSE code (asynchronous use) in case you need to use WebM or are
-otherwise having issues with the updated code (please let us know in
-that case).</li>
-          <li>Once again, the MSE+WebM and Asynchronous MSE use are
-currently mutually exclusive. You can have one or the other, not both,
-until we sort out the code for WebM. To enable MSE+WebM you will first
-have to disable Asynchronouse MSE in settings (otherwise the WebM
-setting will be greyed out and disabled).<br>
-          </li>
-        </ul>
-        <li>Added a control in options/preferences for HSTS and HPKP
-usage.</li>
-        <li>Changed HTML bookmark exports to write CRLF line
-endings to the file on Windows.</li>
-        <li>Leveraged multi-core rendering for libVPX (VP8/VP9 WebM
-decoding).</li>
-        <li>Fixed some issues accessing DeviantArt (useragent-sniffing).</li>
-        <li>Aligned CSS <code>text-align</code> with the spec.</li>
-        <li>Added a recovery module for browser initialization issues
-(e.g. when using a wrong language pack).</li>
-        <li>Fixed spurious console errors for XHR requests with certain
-http response codes.</li>
-        <li>Enabled v-sync aligned refresh for a smoother scrolling
-experience.</li>
-        <li>Removed support for CSS XP-theme media queries.</li>
-        <li>Improved console error reporting.</li>
-        <li>Fixed resetting toolbars and controls from the safe mode
-dialog.</li>
-        <li>Fixed bookmark recovery option from the safe mode dialog.</li>
-        <li>Fixed innerText getters for display:none elements.</li>
-        <li>Fixed a GL buffer crash that might occur with certain
-combinations of drivers and hardware.</li>
-        <li>Added some more details to about:support.</li>
-        <li>Fixed a potential crash when the last audio device is
-removed during playback.</li>
-        <li>Fixed a crash on about:support when windowless browsers are
-created.</li>
-        <li>Updated <code>&lt;select&gt;</code> elements to blank if
-the actively set value doesn't match any of the options.</li>
-        <li>Updated the interpretation of 2-digit years in date formats
-to match other browsers:<br>
-0-49 = 2000-2049, 50-99 = 1950-1999.</li>
-        <li>Added "<code>q</code>" units to CSS (quarter of a
-millimeter).</li>
-        <li>Added <code>.origin</code> property to blobs.</li>
-        <li>Fixed several minor layout issues.</li>
-        <li>Fixed disabled HTML elements not producing the proper JS
-events.</li>
-        <li>Implemented web content handler blacklist according to the
-spec, allowing more than feeds to be registered.</li>
-        <li>Fixed a spec compliance issue with execCommand() on HTML
-elements.</li>
-        <li>Fixed a problem with table borders being drawn uneven or
-being omitted when zooming the page.</li>
-        <li>Added devtools "filter URLs" option in the network panel.</li>
-        <li>Added visual sorting options to the Network inspector.</li>
-        <li>Added importing of login data from Chrome profiles on
-Windows (Chrome has to be closed first).</li>
-        <li>Added importing of tags from bookmark export files (HTML
-format).</li>
-        <li>Updated usage of SourceMap headers with the updated spec
-(SourceMap header, keeping X-SourceMap as a fallback).</li>
-        <li>Fixed several cases of wrongly-used negations in JS modules.</li>
-        <li>Added the <code>auxclick</code> mouse event.</li>
-        <li>Added a control to not autoplay video unless it is in view (<span
- class="blob-code-inner"><span class="pl-s"><span class="pl-pds"></span>media.block-play-until-visible).</span></span></li>
-        <li>Updated
-the Graphite font library to 1.3.10.</li>
-        <li>Updated
-how image and media elements respond to window size changes (responsive
-design).</li>
-        <li>Added
-parsing and use of rotation meta data in video.</li>
-        <li>Fixed
-several crashes in a number of modules.</li>
-        <li>Fixed
-performance regression for scaling large vector images (e.g. MSIE
-Chalkboard test) \o/</li>
-        <li>Fixed some
-issues with notification icons.</li>
-        <li>Fixed some
-internal errors with live bookmarks.</li>
-        <li>Updated
-SQLite to 3.19.3.</li>
-        <li>Fixed
-several reported issues with devtools (cli-cookies, cli help, copying
-cURL, inspecting SVGs, element size calculations, etc.)</li>
-        <li>Fixed an
-issue where a server response was allowed to override add-ons'
-specified version ranges even for add-ons that have strict
-compatibility (e.g. themes, language packs).</li>
-      </ul>
-      <span style="font-weight: bold;">Security fixes:</span><br>
-      <ul>
-        <li>Removed preloading of HPKP hosts and enabled HPKP header
-enforcement.<br>
-        </li>
-        <li>Added support for TLS 1.3, the up-next secure connection
-protocol.</li>
-        <li>Fixed an issue with TLS 1.3 not supporting renegotiation by
-design.</li>
-        <li>Relaxed some restrictions for CSP to temporarily work
-around web compatibility issues with the CSP-3 deprecated `child-src`
-directive.</li>
-        <li>Updated NSS to 3.28.5.1-PM to address some security issues.</li>
-        <li>Updated the installer selfextractor module to address
-unsafe loading of libraries.</li>
-        <li>Changed the way certain resources are included to reduce
-effectiveness of some common fingerprinting techniques. (e.g.
-browserleaks.com)<br>
-        </li>
-        <li>Fixed a regression in the display of security information
-in the page info dialog for insecure content.</li>
-        <li>Fixed two potential issues with allocating memory for
-video. <span style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Fixed a potential issue with the network prediction
-algorithm. <span style="color: rgb(191, 64, 64);">DiD</span></li>
-        <li>Restricted the use of Aspirational scripts in IDNs to
-prevent domain spoofing, in anticipation of the UAX#31 update making
-this official.</li>
-        <li>Prevented a Mac font specific issue that could be abused
-for domain spoofing (CVE-2017-7763)</li>
-        <li>Fixed several potentially exploitable crashes.
-(CVE-2017-7751) (CVE-2017-7757) and some that do not have a CVE
-designation.<br>
-        </li>
-      </ul>
+      <span style="font-weight: bold;">Big thank-yous and kudos go out
+to everyone who has, in one way or another, contributed to this
+milestone release and helped make it possible. This one belongs to all
+of you!</span><br>
       <br>
       <hr style="width: 100%; height: 2px;"><br>
       <h1> Release notes for previous versions (unsupported) </h1>

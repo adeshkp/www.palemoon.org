@@ -90,9 +90,42 @@ a:hover {
   background-color: rgb(82, 114, 161);
 }
 
+.dltable {
+  border: 2px solid silver;
+  border-radius: 7px;
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  width: 90%;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.dltable th,
+.dltable td {
+  border: 1px solid #EEE;
+  overflow: hidden;
+}
+
+.dltable th {
+  padding: 5px 0px;
+}
+
+.dltable td a {
+  margin: 0 auto;
+}
+
+.dlth-topleft {
+  border-top-left-radius: 7px;
+}
+
+.dlth-topright {
+  border-top-right-radius: 7px;
+}
+
 .dltable_text {
   font-size: 12pt;
-  vertical-align: top;
 }
 
 .topnews {
@@ -183,11 +216,28 @@ pre {
   border-radius: 3px;
   margin: 3px;
   box-shadow: 1px 1px 3px #555;
-  min-height: 64px;
+  height: 64px;
+  width: 150px;
   opacity: .8;
 }
 
 .dllink_os_temp:hover {
+  opacity: 1;
+}
+
+.dllink_os {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin: 3px;
+  box-shadow: 1px 1px 3px #555;
+  height: 64px;
+  width: 150px;
+  opacity: .8;
+}
+
+.dllink_os:hover {
   opacity: 1;
 }
 
