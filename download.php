@@ -95,7 +95,9 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 
 // ****************** MAIN **********************
 
-funcCheckUserAgent();
+// Disabled fr now to allow scripted downloads of installers, but if
+// abusive or leading to DoS, should be uncommented.
+// funcCheckUserAgent();
 
 $version = '28.0.0';
 
