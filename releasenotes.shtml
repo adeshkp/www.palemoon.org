@@ -80,6 +80,8 @@ password field can now pop-up a selection list of user names for which
 passwords are stored (if multiple credentials are saved). Clicking the
 appropriate login name (or date-stamped version if no name is present)
 will fill in the accompanying password.</li>
+        <li>We no longer support Windows Vista.<br>
+        </li>
       </ul>
 What might be more important for people worrying about upgrading to
 this milestone is what hasn't changed.<br>
