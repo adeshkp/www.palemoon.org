@@ -87,7 +87,7 @@ Also make sure that before you report a bug, that you verify if the bug
 also manifests with default preferences and no installed add-ons
 (preferably create a new profile to check).<br>
       <br>
-      <h3>Current trunk progress, v28 beta 5 (major and recent changes
+      <h3>Current trunk progress (major and recent changes
 only):</h3>
       <ul>
       </ul>
@@ -99,44 +99,26 @@ only):</h3>
       </ul>
       <ul>
       </ul>
-      <span style="font-weight: bold; color: rgb(204, 0, 0);">We have
-switched over to the new milestone, and these unstable builds are
-building on UXP. This means the browser will be significantly different
-under the hood than our current v27.* release versions.</span>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);"></span>
       <ul>
-        <li>Added a pref control (<span
- style="color: rgb(51, 153, 153);">image.layerize.always</span>) to
-allow users to trade off image quality for performance.<br>
-Default disabled as it can cause aliased results in downscaled images
-with <code>position:fixed</code> or <code>position:absolute</code>.&nbsp;
-          <br>
+        <li>Improved GCC 8 compatibility.</li>
+        <li>Simplified HeapSlot memory allocation to work around some
+allocator issues.</li>
+        <li>Updated NSS to 3.38 -- bringing TLS 1.3 up to the latest
+draft spec.</li>
+        <li>Re-enabled the use of RC4 for non-standard environments
+(behind pref); also marked 3DES weak.<br>
         </li>
-        <li>Made sure to keep lightweight themes enabled in Private
-Browsing mode.</li>
-        <li>Adjusted page info/permissions manager to the back-end
-regarding plugins.</li>
-        <li>Fixed an issue with some media files not playing as a
-result of containing a user data box.</li>
-        <li>Adjusted DOM domain, DOM DataTransfer constructors and CSS
-grid to match the latest spec.</li>
-        <li>Fixed LaunchApplication dialog button ordering to be
-consistent on Windows.</li>
-        <li>Fixed the permissions manager layout.</li>
-        <li>Enabled asynchronous drawing of plugins.</li>
-        <li>Misc bouts of code cleanup.</li>
-        <li>Catered about box content to unofficial branding.</li>
-        <li>Fixed a crash with WebGL2 instancing.</li>
-        <li>Launching a new browser from about:profiles now launches a
-separate instance.</li>
-        <li>Fixed an issue on High Contrast accessibility themes.</li>
-        <li>Updated zlib.</li>
-        <li>Enabled direct3d9 accelerated layers as a fallback for
-DirectX 11 (if it fails).</li>
-        <li>Tuned the networking stack.</li>
-        <li>Disabled the battery API by default.<br>
+        <li>Fix view source of selections.</li>
+        <li>Removed TelemetryStopwatch.</li>
+        <li>Fixed standalone image background color regression.</li>
+        <li>Fixed toolbar styling when lightweight themes are in use.</li>
+        <li>Added control mechanism for history entries of QuickDial.</li>
+        <li>Added control mechanism for content scrolling when a
+contextual menu is open.</li>
+        <li>Stopped pointless recording of some telemetry data.<br>
         </li>
       </ul>
-      <br>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
 log</a>.<br>
