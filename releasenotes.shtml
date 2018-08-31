@@ -27,6 +27,31 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.0.1</h3>
+This is a bugfix point release to address serious performance
+bottlenecks and general run-time issues (UI slowness, crashes, hangs)
+with the browser. Once again this impacted 32-bit operating systems
+more severely than 64-bit ones due to its more limited address space
+that would get flooded with bogus data.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:<br>
+      </span>
+      <ul>
+        <li>Backed out a Mozilla upstream patch causing issues with IPC
+and texture allocation for the compositor.</li>
+        <li>Backed out a Mozilla upstream patch causing issues with
+Javascript memory buffer allocation.</li>
+      </ul>
+      <h3>v28.0.0.1 (2018-08-28) - Windows only<br>
+      </h3>
+This is a Windows-only update to address some stability/performance
+issues that have popped up with the new milestone release on especially
+32-bit systems.<br>
+The cause seems to be a compiler bug in Visual Studio 2015 with certain
+optimizations. Although 64-bit does not seem to be directly affected,
+we are still applying more cautious optimizations there too from this
+point forward until we can figure out exactly what the cause is and
+which (more aggressive) optimizations are safe to use.<br>
       <h3>v28.0.0 (2018-08-16)</h3>
 We are excited to bring you Pale Moon 28.0. This is a new major
 milestone in Pale Moon's release history.<br>

@@ -49,13 +49,13 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
-media+MSE combinations don't work.</span><br>
-Our new asynchronous MSE code is not yet implemented for WebM, meaning
-you cannot play WebM through MSE delivery with the new code.<br>
-We are working on completing this media code. In the meantime, if you
-need MSE+WebM video, in Options -&gt; Content, deselect "Use MSE
-asynchronously", and then select "Enable MSE for WebM video".<br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Performance
+issues on 32-bit Windows operating systems.</span><br>
+Pale Moon 28 running on 32-bit Windows operating systems may display
+excessive CPU usage and slow performance.<br>
+We are currently investigating the cause.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(204, 102, 0);">[In Progress]</span></span><br>
           <span class="c4"></span></li>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
