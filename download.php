@@ -99,7 +99,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 // abusive or leading to DoS, should be uncommented.
 // funcCheckUserAgent();
 
-$version = '28.0.0.1';
+$version = '28.0.1';
 
 $mirror = funcHTTPGetValue('mirror');
 $bits = funcHTTPGetValue('bits');

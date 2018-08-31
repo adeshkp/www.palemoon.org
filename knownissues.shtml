@@ -49,14 +49,6 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Performance
-issues on 32-bit Windows operating systems.</span><br>
-Pale Moon 28 running on 32-bit Windows operating systems may display
-excessive CPU usage and slow performance.<br>
-We are currently investigating the cause.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(204, 102, 0);">[In Progress]</span></span><br>
-          <span class="c4"></span></li>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
 forum and our own add-ons site for replacements/alternatives.<br>
@@ -84,6 +76,25 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
+      <span style="font-weight: bold;">28.0.0(.1):<br>
+      </span>
+      <ol>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Performance
+issues on all platforms, but especially 32-bit operating systems.</span><br>
+Pale Moon 28 (especially if running on 32-bit operating systems) may
+display
+excessive CPU usage and slow performance or hangs.<br>
+This is caused by a pair of Mozilla patches that were adopted in our
+browser as a defense-in-depth measure, but are causing some severe
+issues in terms of performance and reliability of the resulting browser.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(204, 102, 0);"></span></span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]
+          <br>
+          </span></span><span style="font-weight: bold;">Timeline:</span>
+Fixed
+in 28.0.1</li>
+      </ol>
       <span style="font-weight: bold;">27.8.0:<br>
       </span>
       <ol>
