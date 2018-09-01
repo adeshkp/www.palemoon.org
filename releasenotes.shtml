@@ -27,7 +27,7 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
-      <h3>v28.0.1</h3>
+      <h3>v28.0.1 (2018-08-31)</h3>
 This is a bugfix point release to address serious performance
 bottlenecks and general run-time issues (UI slowness, crashes, hangs)
 with the browser. Once again this impacted 32-bit operating systems
