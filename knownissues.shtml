@@ -49,6 +49,15 @@ development (if any) and intended time line (if applicable).<br>
       <br>
       <span class="bold">Known issues in the current version:</span><br>
       <ol>
+        <li><span class="c4">Remote X rendering on Linux is slow</span><br>
+We are currently investigating the exact cause, and have received
+offers to assist by the X2Go team to find the cause and solutions for
+slow remote rendering, even with xrender extensions present and in use.
+This may take some time to research and for a fix to be implemented and
+tested.<br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(204, 102, 0);">[In Progress]</span></span><br>
+          <span class="c4"></span></li>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
 forum and our own add-ons site for replacements/alternatives.<br>
