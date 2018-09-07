@@ -44,7 +44,10 @@ Options -&gt; Advanced Options... </li>
       </ul>
       <p> Clicking this menu item will open the preferences window that
 has been added by installing the add-on. </p>
-      <h2> There be dragons here! </h2>
+      <h2> There be dragons here!</h2>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">The
+extension is not current for Pale Moon - it is for the 27 version range
+and needs to be updated for 28 when time permits.</span><br>
       <p> Using Pale Moon Commander to change advanced preferences is
 potentially dangerous and can leave your browser profile in a
 potentially unusable state. <span class="red">If you don't know what a
@@ -62,7 +65,7 @@ will have a similar result.<br>
 give warranty or guarantees, and it is provided "as-is" although I've
 done my best to make sure it works as-intended. </p>
       <h2> Download and install </h2>
-The current version is <span class="bold">2.0.1</span> - this is an
+The current version is <span class="bold">2.0.2</span> - this is an
 update re-licensing the extension under the MPL 2.0. Enjoy your FOSS
 freedom!<br>
       <br>
@@ -76,11 +79,6 @@ You can go to the Pale Moon Add-ons site where the add-on is listed:<br>
  href="https://addons.palemoon.org/extensions/pm-commander/"
  target="_blank"> https://addons.palemoon.org/extensions/pm-commander/</a>
       </div>
-      <br>
-Or you can download and install the add-on right from this page:<br>
-Version intended for Pale Moon 27.0 - 27.*: <a
- href="http://rm-eu.palemoon.org/tools/pmcommander-2.0.0.xpi">Add to
-Pale Moon</a><br>
       <br>
 Alternatives:<br>
       <br>
