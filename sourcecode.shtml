@@ -74,7 +74,7 @@ git repository linked
 to below where you can find additional archives.<br>
       <br>
       <span class="c2">If you want to contribute:</span>
-These source code archives are snapshots of the actual releases of Pale
+The source code archives are snapshots of the actual releases of Pale
 Moon, and since it is being actively developed, any patches you may
 want to contribute should usually <span style="font-weight: bold;">not</span>
 be made against these source code
@@ -82,10 +82,10 @@ archives, but against the working development branch instead. This can
 be found in the live repository on GitHub at the following URL, which
 also has archives available for all tagged releases:<br>
       <div class="c3"> <a
- href="https://github.com/MoonchildProductions/Pale-Moon">https://github.com/MoonchildProductions/Pale-Moon</a><br>
+ href="https://github.com/MoonchildProductions/UXP">https://github.com/MoonchildProductions/UXP</a><br>
       </div>
       <br>
-      <h2> Hints for building Pale Moon 27 yourself </h2>
+      <h2> Hints for building Pale Moon 28 yourself </h2>
 Please use binaries supplied by us where possible, since we cannot
 provide much (if any) support for builds in unknown environments.<br>
       <br>
@@ -102,22 +102,20 @@ or specific release-tagged commits.<br>
         </li>
         <li>For <span style="font-weight: bold;">Windows</span>, you
 will need exactly <span style="font-weight: bold;">Visual
-Studio 2013</span> (either the free Community Edition or the full
+Studio 2015</span> (either the free Community Edition or the full
 commercial package). It will <span style="font-style: italic;">not</span>
-properly build on versions of Visual Studio other than VS2013.<br>
+properly build on versions of Visual Studio other than VS2015.<br>
 In its current state, Pale Moon will <span style="font-style: italic;">not</span>
-build on VS 2015 Community or
+build on VS 2017 Community or
 Full due to breaking changes in the MSVC compiler. </li>
         <li>For <span style="font-weight: bold;">Linux</span>, you
 will need to use <span style="font-weight: bold;">GCC</span>
-(clang is not currently producing stable builds on Linux), 4.9.*
-strongly recommended but later versions might work too. We do not
+(clang is not currently supported as a stable compiler), 7.*
+strongly recommended but other versions might work too. We do not
 support
-particularly old versions of GCC (&lt; 4.6). GCC v5.* should work for a
-basic (non-optimized!) build but may produce unstable builds with
-certain optimizations, v6.* is experimental and not recommended (YMMV).
-GCC 7 will not work without patching. See also requirements on the <a
- href="http://linux.palemoon.org/">Pale
+particularly old versions of GCC (&lt; 4.9). v6.* is not recommended
+due to its too-aggressive optimizations (YMMV). See also requirements
+on the <a href="http://linux.palemoon.org/">Pale
 Moon for Linux site</a>!<br>
         </li>
         <li>You
