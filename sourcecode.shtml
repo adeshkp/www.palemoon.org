@@ -48,7 +48,7 @@ versions,
 check the source code release on GitHub:<br>
       <br>
       <div style="text-align: center;"><big><a
- href="https://github.com/MoonchildProductions/Pale-Moon/releases">https://github.com/MoonchildProductions/Pale-Moon/releases</a></big><br>
+ href="https://github.com/MoonchildProductions/UXP/releases">https://github.com/MoonchildProductions/UXP/releases</a></big><br>
       </div>
       <br>
 To download previous (archived) versions of the source code for older
@@ -57,13 +57,13 @@ versions of Pale Moon, these are provided <span
 archival FTP site:<br>
       <br>
       <div style="text-align: center;"><big><a
- href="ftp://source:get@archive.palemoon.org/">ftp://source:get@archive.palemoon.org/</a></big><br>
+ href="ftp://archive.palemoon.org/source/">ftp://archive.palemoon.org/source/</a></big><br>
       </div>
       <br>
       <span style="font-weight: bold;">Debug symbols:</span> If you
 want to debug Windows release builds and need the debug symbols for it,
 you can find the symbols for individual releases matching the release
-binaries at <a href="ftp://symbols:get@archive.palemoon.org/">ftp://symbols:get@archive.palemoon.org/</a><br>
+binaries at <a href="ftp://archive.palemoon.org/symbols/">ftp://archive.palemoon.org/symbols/</a><br>
       <br>
       <a href="ftp://source:get@archive.palemoon.org/"></a><span
  style="font-weight: bold;">Note:</span> The source code

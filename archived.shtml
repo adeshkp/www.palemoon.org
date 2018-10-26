@@ -35,26 +35,21 @@ provide support for too old versions.</span><br>
       <br>
       <div class="center"> <span class="red">Please only grab the
 version you personally need and do not hotlink.<br>
-      <br>
-Please understand that "anonymous" FTP access is not enabled; you must
-use the links with credentials as posted on this page. Trying to use
-the FTP server name by itself will <span style="font-weight: bold;">not</span>
-give you access to these downloads (this is required to deter scraper
-bots
-eating up our bandwidth for no real use).</span><br>
+If you want to point people to archived versions of Pale Moon, always
+link to this page, not to the links below directly.</span><br>
       </div>
       <h3> Download (all old versions) </h3>
 You can download archived versions of the browser from the Pale Moon
 archival FTP<br>
       <div class="center">
       <h2> <a style="text-decoration: none;" target="_blank"
- href="ftp://palemoon:get@archive.palemoon.org/">ftp://palemoon:get@archive.palemoon.org/<br>
+ href="ftp://archive.palemoon.org/palemoon/">ftp://archive.palemoon.org/palemoon/<br>
       </a> </h2>
       </div>
 If you need <span class="bold">language packs</span> for older
 versions, please use the following ftp link:<br>
       <a target="_blank"
- href="ftp://pmlocales:get@archive.palemoon.org/">ftp://pmlocales:get@archive.palemoon.org/</a><br>
+ href="ftp://archive.palemoon.org/palemoon/langpacks/">ftp://archive.palemoon.org/palemoon/langpacks/</a><br>
       <br>
       <h3>Download older versions from alternate locations<br>
       </h3>
