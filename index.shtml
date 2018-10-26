@@ -199,17 +199,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>28
-Aug 2018</small></small><br>
-Pale Moon 28.0.1 has been released.</span> This is a point
-release to address stability and performance issues on all platforms
-with the new milestone.<br>
-            <br>
-            <span class="bold"></span><span class="bold"><small><small>16
-Aug 2018</small></small><br>
-Pale Moon 28.0.0 has been released.</span> This is a new milestone
-release, building on UXP, the platform that Pale Moon will be using
-from this day forward. More
+            <span class="bold"><small><small>20 Sep 2018</small></small><br>
+Pale Moon 28.1.0 has been released.</span> This is a development
+release focusing on performance, bugfixes and security. More
 information in the <a href="releasenotes.shtml">release notes</a>!<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more

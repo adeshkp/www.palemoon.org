@@ -27,6 +27,73 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.1.0 (2018-09-20)</h3>
+This major update is focused on performance, security and some
+regression and bug fixes.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Updated NSS to 3.38, removed TLS 1.3 draft version check
+since it's considered final.</li>
+        <li>Reinstated RC4 as an optional encryption cypher for
+non-standard environments (e.g. old routing/peripheral networked
+hardware on LAN). RC4 and 3DES are marked weak and disabled, and will
+never be used in the first handshake with a site, only as last-ditch
+fallback when specifically enabled (meaning they won't show up on
+ssllabs' test, for example).</li>
+        <li>Removed Telemetry accumulation calls, automatic timers and
+stopwatches. This removes a very noticeable performance sink for all
+operations on all platforms.</li>
+        <li>Fixed many occurrences of discouraged types of memory
+access for primarily GCC 8 compatibility. This improves overall code
+security as a defense-in-depth measure.</li>
+        <li>Re-implemented the pref-controlled custom background color
+for standalone images.</li>
+        <li>Updated session history handling for internal pages.
+about:logopage is no longer stored in history, and you can choose to
+store the QuickDial page in history by setting the pref <span
+ style="color: rgb(0, 128, 128);">browser.newtabpage.add_to_session_history</span>
+to <span style="color: rgb(0, 128, 128);">true</span>. This is
+disabled by default (meaning you can't use the "Back" button to go back
+to the QuickDial page) as a defense-in-depth security measure.</li>
+        <li>Added <span style="color: rgb(0, 128, 128);">ui.menu.allow_content_scroll</span>
+to control whether content can be scrolled if a context menu is open.</li>
+        <li>Fixed incorrect code removal in ipc.</li>
+        <li>Removed support for TLS session caches in TLSServerSocket.</li>
+        <li>Added support for local-ref as SVG xlink:href values.</li>
+        <li>Changed the find bar to be a browser-global toolbar again
+(like in Pale Moon 27) instead of per-tab. For people who prefer search
+terms to be saved on a per-tab basis (like with the per-tab findbar
+previously), this is possible by setting <span
+ style="color: rgb(0, 128, 128);">findbar.termPerTab</span> to <span
+ style="color: rgb(0, 128, 128);">true</span>. This resolves a number
+of issues, including styling with lightweight themes not applying to
+the find bar, and status pop-ups overlapping the find bar.</li>
+        <li>Ported all relevant security fixes from Mozilla's Gecko/62
+release, including CVE-2018-12377 and CVE-2018-12379.</li>
+        <li>Restored part of the searchplugin API that was removed by
+Mozilla, so extensions can provide and save edits to installed search
+engines.</li>
+        <li>Improved the speed of restoring browsing sessions upon
+startup.</li>
+        <li>Fixed the "Restore previous session" button sometimes being
+missing from about:home, while a restorable session would be present.<br>
+        </li>
+        <li>Fixed tab previews in the Windows taskbar (if enabled).</li>
+        <li>Fixed the setting of the new tab page being "My Home Page"
+so it'll pick up subsequent changes to the home page URL automatically.</li>
+        <li>Removed the Firefox Accounts migrator from Sync.</li>
+        <li>Fixed an issue with the enabled state of number controls if
+appearances changed.</li>
+        <li>Stopped building ffvpx on 32-bit platforms (except windows)
+to use the (faster) system-installed lib instead.</li>
+        <li>Re-added a horizontal scroll action option for mouse wheel.
+(regression)</li>
+        <li>Fixed handling of content language if the locale is changed.</li>
+        <li>Fixed document navigation with the F6 key.</li>
+        <li>Fixed toolbar styling in toolkit themes.</li>
+        <li>Fixed viewing the source of a selection.</li>
+      </ul>
       <h3>v28.0.1 (2018-08-31)</h3>
 This is a bugfix point release to address serious performance
 bottlenecks and general run-time issues (UI slowness, crashes, hangs)
