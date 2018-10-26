@@ -101,39 +101,63 @@ only):</h3>
       </ul>
       <span style="font-weight: bold; color: rgb(204, 0, 0);"></span>
       <ul>
-        <li>Improved GCC 8 compatibility.</li>
-        <li>Simplified HeapSlot memory allocation to work around some
-allocator issues.</li>
-        <li>Updated NSS to 3.38 -- bringing TLS 1.3 up to the latest
-draft spec.</li>
-        <li>Re-enabled the use of RC4 as a fallback cypher negotiation
-for non-standard environments
-(behind pref); also marked 3DES weak.<br>
-        </li>
-        <li>Fix view source of selections.</li>
-        <li>Removed TelemetryStopwatch.</li>
-        <li>Fixed standalone image background color regression.</li>
-        <li>Fixed toolbar styling when lightweight themes are in use.</li>
-        <li>Added control mechanism for history entries of QuickDial.</li>
-        <li>Added control mechanism for content scrolling when a
-contextual menu is open.</li>
-        <li>Stopped pointless recording of some telemetry data.</li>
-        <li>Fixed document navigation F6 shortcut.</li>
-        <li>Added <code>ui.menu.allow_content_scroll</code>. When
-true, overrides the OS convention to prevent scrolling of content when
-contextual menus are open.</li>
-        <li>Re-implemented horizontal mousewheel scrolling as an action.</li>
-        <li>Made sure to refresh the string bundle service when the
-browser locale changes to better initialize UI language with language
-packs.</li>
-        <li>Fixed installer strings for trying to install on
-unsupported operating systems.</li>
-        <li>Made sure to sync disabled state of number control elements
-regardless of appearance.</li>
-        <li>Reinstated some incorrectly removed IPC code.</li>
-        <li>Fixed performance issues by backing out 2 DiD Mozilla
-upstream patches.<br>
-        </li>
+      </ul>
+      <ul>
+        <li>Fixed worker throttling to be more performant.</li>
+        <li>Improved sessionrestore at startup by skipping expensive
+notification code.</li>
+        <li>Fixed intermittent missing of "restore session" button on
+about:home.</li>
+        <li>Fixed a crash with http basic auth.</li>
+        <li>Fixed high CPU load on idle.</li>
+        <li>Improved GCC 8 cfompatibility.</li>
+        <li>Fixed an issue with launching executables from the download
+window.</li>
+        <li>Fixed an issue preventing binary components in extensions.</li>
+        <li>Fixed an issue with common dialogs having their contents
+overflow the visible window.</li>
+        <li>Added an experimental preference to enable asynchronous
+panning and zooming (APZ) on desktop.</li>
+        <li>Fixed a regression with color management not processing ICC
+v4 profiles.</li>
+        <li>Fixed a crash when using SOCKS proxies.</li>
+        <li>Fixed a potential privacy issue in some situations
+(CVE-2017-7797).</li>
+        <li>Fixed a potential leak when SHA256 hashing.</li>
+        <li>Updated privacy prefs and permissions manager to properly
+reflect cookie/data storage settings.</li>
+        <li>Updated libnestegg from upstream to improve media playback
+compatibility.</li>
+        <li>Fixed incorrect removal of insecure fallback hosts when
+visiting sites.</li>
+        <li>Removed a bunch of telemetry code and unused variables.</li>
+        <li>Updated ffvpx to 4.0.2 from upstream for media playback
+compatibility.</li>
+        <li>Fixed an issue with status popups in HTML5 full-screen
+(regression).</li>
+        <li>Fixed a memory safety hazard in ffmpeg.</li>
+        <li>Changed the way DOM Init events are handled, making all but
+the first argument optional.</li>
+        <li>Changed in-tab close button behavior to try and prevent
+non-responsiveness when rapidly clicking.</li>
+        <li>Changed the content-scrolling default to allow scrolling
+when a sub/context menu is open.</li>
+        <li>Added Mozilla::Span (similar to Microsoft's GSL) for
+internal use.</li>
+        <li>Cleaned up installer strings.</li>
+        <li>Fixed a regression with caret width configurability after
+CJK characters.</li>
+        <li>Fixed a regression with table border widths using the wrong
+units.</li>
+        <li>Fixed several issues with WebM/VPx (verification needed).</li>
+        <li>Added experimental AV1 codec support (behind <code>media.av1.enabled</code>).</li>
+        <li>Removed unfinished in-browser translation code.</li>
+        <li>Updated reader view components.</li>
+        <li>Updated the CSS Grid code for web compatibility.</li>
+        <li>Linked notification settings to <code>about:permissions</code>.</li>
+        <li>Improved the DiD resolution for CVE-2018-12386.</li>
+        <li>Added the left border to the search button on the QuickDial
+page.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
