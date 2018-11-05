@@ -129,14 +129,32 @@ long time if used incorrectly, at which point disabling it in the
 browser is the only workaround.<br>
         </li>
       </ul>
-      <h2>XSS Filter</h2>
-      <p style="color: rgb(204, 0, 0);">Pale Moon version 26.* only.</p>
-      <p>This checkbox enables the active XSS (Cross-site scripting)
-filter present in Pale Moon v26. Please see the forum for more
-information about this filter.<br>
-Due to technical limitations and stability concerns (browser crashes),
-this filter is not implemented in v27 any longer.<br>
-      </p>
+      <h2>Opportunistic Encryption</h2>
+These settings allow you to control whether connections will be
+encrypted in the background or not.<br>
+These options are transitional technology and aren't particularly
+secure in themselves, and as such are not recommended to be used. They
+interfere with e.g. in-transit caching of web content and may give you
+an incorrectlt presented state of the connection. Enabling these
+options may expose you to more ways of being tracked, so this is a
+privacy concern as well.<br>
+      <ul>
+        <li><span style="font-weight: bold;">Enable Upgrade Insecure
+Requests</span>: This makes the browser send an indicator to all
+websites visited that, if available and supported, the website should
+send back a content security policy to rewrite all http connections to
+https and request resources in pages only over https connections and
+potentially redirect the browser to an https version of the page
+automatically without using HSTS.</li>
+        <li><span style="font-weight: bold;">Enable HTTP Alternative
+Services for OE</span>: This makes the browser respond to hidden
+encryption offers by the servers visited by establishing connections to
+alternative addresses instead of those visible to the user, to retrieve
+resources over encrypted connections instead. Because all of this is
+hidden from the user, there is no way to verify that the "secure"
+resources are also actually authentic.<br>
+        </li>
+      </ul>
       </td>
     </tr>
     <tr>
