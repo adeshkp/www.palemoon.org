@@ -95,11 +95,11 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 
 // ****************** MAIN **********************
 
-// Disabled fr now to allow scripted downloads of installers, but if
+// Disabled for now to allow scripted downloads of installers, but if
 // abusive or leading to DoS, should be uncommented.
 // funcCheckUserAgent();
 
-$version = '28.1.0';
+$version = '28.2.0';
 
 $mirror = funcHTTPGetValue('mirror');
 $bits = funcHTTPGetValue('bits');

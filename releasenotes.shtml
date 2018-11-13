@@ -27,6 +27,78 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.2.0 (2018-11-13)</h3>
+This is a major development and bugfix release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a major performance issue with web workers.</li>
+        <li>Fixed a rare crash on local networks with HTTP basic auth
+and unsupported cipher suites.</li>
+        <li>Fixed a performance/timer issue when leaving the browser
+idle.</li>
+        <li>Fixed an issue causing an empty dialog when launching
+executable files from the browser.</li>
+        <li>Fixed an issue preventing making entries to disallow sites
+to store data for off-line use.</li>
+        <li>Removed code to prevent extensions with binary components.</li>
+        <li>Fixed an issue with common dialogs being sized incorrectly
+for their content.</li>
+        <li>Fixed an issue with event handling on the tab bar that
+would cause frustrating behavior when trying to open/close tabs in
+rapid succession.</li>
+        <li>Switched default behavior for scrolling when a context or
+pop-up menu is open to allow scrolling, like in v27. This also affects
+scrolling in very long menus, e.g. bookmarks.<br>
+        </li>
+        <li>Added experimental Asynchronous Panning and Zooming (APZ)
+for desktop use.</li>
+        <li>Re-enabled the use and parsing of ICC v4 color profiles.</li>
+        <li>Removed telemetry code from the caching subsystem.</li>
+        <li>Improved full-screen detection for suppressing status
+messages.</li>
+        <li>Made all arguments passed to Init*Event() optional except
+the first for parity with other browsers.</li>
+        <li>Cleaned up some internal installer code.</li>
+        <li>Fixed making caret width configurable when dealing with CJK
+characters (regression).</li>
+        <li>Fixed drawing of table borders consistently when zooming a
+page (regression).</li>
+        <li>Exposed the "Save download location per site" pref in
+about:config.</li>
+        <li>Improved media handling (ongoing).</li>
+        <li>Added experimental support for AV1 in WebM videos (disabled
+by default).<br>
+Note: this is for WebM only for now, so MP4 and MSE AV1 streams (e.g.
+YouTube) will not (yet) play.</li>
+        <li>Removed the (defunct and incomplete) in-browser translation
+code.</li>
+        <li>Fixed an issue with CSS Grid layouts unnecessarily
+shrinking element blocks.</li>
+        <li>Fixed notification settings menu entry (opes
+about:permissions with relevant data now).</li>
+        <li>Fixed the launching of an undesirable background content
+process for capturing page thumbnails.</li>
+        <li>Fixed a focus issue in the bookmark properties dialog.<br>
+        </li>
+        <li>Changed the setting for reporting CSS errors to the console
+to false by default, to prevent unnecessary performance loss for
+recording this data.</li>
+        <li>Added control mechanisms for Opportunistic Encryption (both
+for alternative services and upgrade-insecure-requests) in preferences,
+and disabled this by default due to potential security and privacy
+issues with this transitional technology.</li>
+        <li>Updated the default reported Firefox version in Firefox
+Compatibility Mode to prevent "too old Firefox" complaints on websites.<br>
+        </li>
+        <li>Updated libnestegg, ffvpx, reader view components and
+several other modules from upstream.</li>
+        <li>Implemented security fixes for CVE-2018-12381,
+CVE-2017-7797, a better fix for CVE-2018-12386 (DiD), CVE-2018-12401
+(DiD), CVE-2018-12398, CVE-2018-12392, several Skia bugs, and several
+crashes and memory safety hazards that do not have a CVE number.<br>
+        </li>
+      </ul>
       <h3>v28.1.0 (2018-09-20)</h3>
 This major update is focused on performance, security and some
 regression and bug fixes.<br>
