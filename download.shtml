@@ -237,8 +237,8 @@ to download</span></a></td>
       </table>
       <br>
 GPG/PGP Signatures: <a
- href="pgp/palemoon-28.2.1.win32.installer.exe.sig">[32-bit]</a> <a
- href="pgp/palemoon-28.2.1.win64.installer.exe.sig">[64-bit]</a>
+ href="pgp/palemoon-28.2.2.win32.installer.exe.sig">[32-bit]</a> <a
+ href="pgp/palemoon-28.2.2.win64.installer.exe.sig">[64-bit]</a>
       <h3> ZIP
 packed versions </h3>
 These are simply zipped versions of the Pale Moon browser. Perfect for
@@ -262,8 +262,8 @@ or <a href="download.php?mirror=as&amp;bits=64&amp;type=zip"><span class="c3"></
           <br>
         </li>
       </ul>
-GPG/PGP Signature: <a href="pgp/palemoon-28.2.1.win32.zip.sig">[32-bit]</a>
-      <a href="pgp/palemoon-28.2.1.win64.zip.sig">[64-bit]</a> <br>
+GPG/PGP Signature: <a href="pgp/palemoon-28.2.2.win32.zip.sig">[32-bit]</a>
+      <a href="pgp/palemoon-28.2.2.win64.zip.sig">[64-bit]</a> <br>
       <h3><a name="Portable_versions"></a>Portable versions</h3>
 You've enjoyed Pale Moon at home, or at the office. You've wondered if
 you could use it elsewhere: in a library, on a public computer, in a
@@ -309,8 +309,8 @@ or <a href="download.php?mirror=us&amp;bits=64&amp;type=portable"><span
 or <a href="download.php?mirror=as&amp;bits=64&amp;type=portable"><span
  class="c3"></span>64-bit</a> </li>
       </ul>
-GPG/PGP Signature: <a href="pgp/Palemoon-Portable-28.2.1.win32.exe.sig">[32-bit]</a>
-      <a href="pgp/Palemoon-Portable-28.2.1.win64.exe.sig">[64-bit]</a><br>
+GPG/PGP Signature: <a href="pgp/Palemoon-Portable-28.2.2.win32.exe.sig">[32-bit]</a>
+      <a href="pgp/Palemoon-Portable-28.2.2.win64.exe.sig">[64-bit]</a><br>
       <br>
       <h4> How do I use this? </h4>
 Three simple steps:<br>

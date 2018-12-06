@@ -27,6 +27,26 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.2.2 (2018-12-06)</h3>
+This is a minor update to address a few pertinent issues.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Changed the about:feeds icon for external applications to a
+generic icon, since that kind of access to executables is no longer
+allowed for security reasons.</li>
+        <li>Fixed issues with copying/pasting bookmarks in the Library
+View.</li>
+        <li>Fixed a crash occurring when using HTTP pipelining over
+some (broken) proxies.</li>
+        <li>Fixed several issues with animated WebP display (animations
+stopping, corrupted frames on lossy images, etc.)</li>
+        <li>Fixed an issue with the display of truncated GIF images.</li>
+        <li>Fixed an issue with deleting recent history not working
+properly.</li>
+        <li>Fixed incorrect duplicate compatibility mode preferences in
+about:config.</li>
+      </ul>
       <h3>v28.2.1 (2018-11-16)</h3>
 This is a bugfix release to address critical usability issues with the
 bookmarks/history window.<br>
