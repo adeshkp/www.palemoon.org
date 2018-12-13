@@ -51,6 +51,36 @@ versions, please use the following ftp link:<br>
       <a target="_blank"
  href="ftp://archive.palemoon.org/palemoon/langpacks/">ftp://archive.palemoon.org/palemoon/langpacks/</a><br>
       <br>
+      <div
+ style="border: 2px dashed rgb(204, 0, 0); padding: 4px; background-color: rgb(255, 255, 221); display: block;"><span
+ style="font-weight: bold; font-size: 1.5em;">Important note about
+using profiles with older versions</span><br>
+      <br>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">Please
+beware:</span>
+Profile migration across milestones (v26.*, v27.*, v28.*, etc.) is <span
+ style="font-weight: bold;">one-way</span>. This means that <span
+ style="font-weight: bold;">once you have upgraded your profile to a
+later milestone, you can no longer safely use it in an earlier milestone</span>.
+If you download an earlier milestone from this archived page you should
+always start with a fresh profile or a matching backup of the profile
+from the milestone you are downloading.<br>
+      <br>
+Profile corruption due to later milestone incompatibility of data may
+not immediately be apparent, but can (and likely will) cause issues
+down the line. Also, if you have upgraded a profile to a later version,
+then used it with an earlier version, it should be considered corrupt
+and unusable, <span style="font-weight: bold;">even in the later
+version</span> (so upgrading back to a later milestone is not a fix for
+this situation!).<br>
+      <br>
+      <span style="font-weight: bold;">Any</span> mixed use of the same
+profile with different milestone generations of the browser is <span
+ style="font-weight: bold;">unsupported</span>. In case of doubt: start
+with a new profile.
+      </div>
+      <br>
+      <br>
       <h3>Download older versions from alternate locations<br>
       </h3>
 Older versions can be found in the web archive at archive.org:<br>
