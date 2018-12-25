@@ -33,14 +33,14 @@ function ShowContent(d) {
   document.getElementById(d).style.display = "block";
 }
 
-function abdismiss() {
-  createCookie('abdismiss','OK',14);
+function dismissab() {
+  createCookie('dismissab','OK',14);
   HideContent('OKjbdp99tsfsf');
 }
 
 // init
-var abd = readCookie('abdismiss');
-if (abd == undefined) {
+var dab = readCookie('dismissab');
+if (dab == undefined) {
   if(!document.getElementById('uhYVeDaWErr')){
     ShowContent('OKjbdp99tsfsf');
   }

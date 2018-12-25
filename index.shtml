@@ -86,7 +86,7 @@ float:left;
 </head>
 <body>
 <div id="OKjbdp99tsfsf">
-<a id="abclosebutton" href="#" onclick="abdismiss();">X</a> We love ad
+<a id="abclosebutton" href="#" onclick="dismissab();">X</a> We love ad
 blockers as much as you, but we depend on ad revenue to fund various
 sites and services.<br>
 We use responsible ad services to keep your visit to our websites a
