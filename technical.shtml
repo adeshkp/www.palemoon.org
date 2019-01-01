@@ -65,7 +65,8 @@ products</a> </li>
       <br>
       <h3> <a name="features" id="features"></a>Features/disabled
 features </h3>
-This browser aims to strike a balance between features and speed. As
+This browser aims to strike a balance between features and
+speed/resource use. As
 such, a choice has been made to consciously disable a few features
 found in other browsers that are not commonly used by the largest group
 of users. If you require any of the disabled features, then the
@@ -80,8 +81,8 @@ will not run on particularly old systems. </li>
         <li>Increased stability: experience fewer crashes.<br>
         </li>
         <li>Support for Scalable Vector Graphics (SVG) and Canvas. </li>
-        <li>Support for many Firefox Extensions (add-ons) as a
-compatibility feature. </li>
+        <li>Compatibility with many Firefox Extensions (add-ons)
+although we do not provide support for this. </li>
         <li>Support for a growing number of Pale Moon specific
 Extensions.</li>
         <li>Offering low-level API access to extension developers to
@@ -91,7 +92,9 @@ truly extend browser features.<br>
         <li>Support for Complete Themes.<br>
         </li>
         <li>CSS Downloadable Font support (including WOFF and WOFF2). </li>
-        <li>Extended HTML5, CSS3 and advanced DOM support.<br>
+        <li>Extended HTML5, CSS3 and advanced DOM support.</li>
+        <li>Full and ongoing support for NPAPI plugins (Java,
+Silverlight, etc.)<br>
         </li>
         <li>Speedy scripting and page rendering. </li>
         <li>Optimized, secure networking.<br>
@@ -141,7 +144,12 @@ people using it. In addition, the feature is generally slow to use, not
 intuitive, and puts a rather hefty load on the browser when included.
 For people who still prefer to use this feature even though it has been
 completely removed from the browser, an <a href="tabgroups.shtml">add-on
-is available</a> to replace the removed code.<br>
+is available</a> to replace the removed code.</li>
+        <li><span style="font-weight: bold;">In-browser DRM.</span>
+Digital Rights Management using "black box" content-decryption modules
+to serve a self-imposed DRM-encumbered media market that punishes the
+wrong parties has no place in Pale Moon. If you wish to use such media,
+you can use plugins with DRM features like Microsoft Silverlight.<br>
         </li>
         <li>A few miscellaneous things like the crashreporter and
 telemetry data gathering have been completely removed since they
@@ -152,110 +160,37 @@ as well as the latter severely impacting user privacy.<br>
       <br>
       <h3> <a name="CPUsupport" id="CPUsupport"></a>Supported
 processors </h3>
-The Pale Moon browser is specifically optimized for current-day
+The Pale Moon browser is specifically optimized for relatively-recent
 processors and uses instructions exclusively available in more modern
 (or rather: <span style="font-weight: bold;">not museum-grade</span>)
 processors. This means it will not run on PCs that are particularly old
 by today's standards, and is likely to display errors or refuse to
-start on systems with unsupported or poorly supported CPUs.<br>
+start on systems with unsupported or poorly supported CPUs. Even if you
+meet the minimum CPU requirements for the browser, you should not
+expect wonders from your hardware if it is dated. Modern web browsers
+are very much alike full-fledged 3D games in the resources and
+processing power/graphics power they require.<br>
 Requirements for the regular Pale Moon browser are, in short: <span
- class="c2">a CPU with SSE2 support</span>.<br>
-Since many people will not know off-hand what their CPU is capable of
-or what generation it is, here is a run-down of a number of popular
-CPUs around the time of inclusion of this instruction set, and if they
-are supported. In case of doubt if your CPU is supported or not, please
-find a CPU information tool like CPU-z or Crystal CPU-ID to check your
-CPU's capacities.<br>
+ class="c2">a CPU with SSE2 support</span>. This support has been
+present in all mainstream CPUs since the Intel Pentium 4, and the AMD
+Athlon64 processors. All muti-core processors on the market should
+support this instruction set.<br>
       <br>
 This table is incomplete, but outlines a few popular classes of
 processor around the era where this may be a question:<br>
       <br>
-      <table class="c10" border="1" cellpadding="2" cellspacing="0">
-        <tbody>
-          <tr class="c5">
-            <th colspan="1" rowspan="1" class="c3"> Processor<br>
-            </th>
-            <th colspan="1" rowspan="1" class="c4"> Supported?<br>
-            </th>
-          </tr>
-          <tr>
-            <td class="c6"> 386 / 486 / Pentium / Pentium II<br>
-            </td>
-            <td class="c8"> <span class="c7">NO</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> Pentium III<br>
-            </td>
-            <td class="c8"> <span class="c7">NO</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> Pentium IV<br>
-            </td>
-            <td class="c8"> <span class="c9">YES</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> Pentium-M / Celeron-M<br>
-            </td>
-            <td class="c8"> <span class="c9">YES</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> Pentium-D / Celeron-D<br>
-            </td>
-            <td class="c8"> <span class="c9">YES</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> Older generation single-core Celeron<br>
-            </td>
-            <td class="c8"> Maybe:<br>
-&lt; 1.7 GHz not likely,<br>
-&gt;= 1.7 GHz likely.<br>
-Use a CPU info tool! </td>
-          </tr>
-          <tr>
-            <td class="c6"> AMD Athlon (1st generation) / Thunderbird<br>
-            </td>
-            <td class="c8"> <span class="c7">NO</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> AMD Athlon XP/MP<br>
-            </td>
-            <td class="c8"> <span class="c7">NO</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> AMD Opteron / Athlon64 / Turion64<br>
-            </td>
-            <td class="c8"> <span class="c9">YES</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> AMD Sempron<br>
-            </td>
-            <td class="c8"> Maybe:<br>
-Socket 462: <span class="c7">NO</span><br>
-Socket 754/939: <span class="c9">YES</span> </td>
-          </tr>
-          <tr>
-            <td class="c6"> <span class="c2">All</span> multi-core
-processors:<br>
-Intel Core/C2D/C2Q/i3/i5/i7/etc.<br>
-AMD Athlon II X2/X3/X4/etc.<br>
-AMD Phenom/II/FX/etc.<br>
-            </td>
-            <td class="c8"> <span class="c9">YES</span> </td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
       <h3> <a name="Firefox_Differences" id="Firefox_Differences"></a>How
 different is this browser from Mozilla products? </h3>
       <span class="c11">The differences are increasingly significant as
-time passes. Pale Moon will remain close to Firefox in certain parts of
-the code to offer a degree of compatibility with add-ons, but should be
+time passes. Pale Moon should be
 considered a "true fork" and a totally independent product.</span><span
  class="c12"></span><br>
       <ol>
         <li>Pale
-Moon is based on a derivative of the Gecko rendering engine (Goanna).
+Moon is based on a derivative of the Gecko rendering engine (Goanna)
+and builds on a hard fork of the Mozilla code (mozilla-central) called
+UXP, a XUL-focused platform that provides the underpinnings of several
+XUL applications including Pale Moon.
 This means that the core rendering functions for Pale Moon and Firefox
 (and rebuilds) will be a relatively close match and that functionality
 in the Gecko core code, will, as a ballpark estimate, also exist in
@@ -304,19 +239,10 @@ to be fair).<br>
       <h3> <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale
 Moon has been tested </h3>
 Pale Moon builds are tested for stability before being released by
-having it used for day-to-day browsing by a group of beta testers. This
-includes but is not limited to:<br>
-      <ul>
-        <li>Graphics heavy art sites</li>
-        <li>Various "web applications"<br>
-        </li>
-        <li>Static HTML sites with many elements </li>
-        <li>DHTML/CSS sites </li>
-        <li>SSL/heavy authentication sites </li>
-        <li>Flash-heavy sites </li>
-        <li>Social media sites </li>
-      </ul>
-      <br>
+having it used for day-to-day browsing by a group of beta testers as
+well as having an <a href="unstable/">unstable channel</a> available
+for people who like to "live on the edge" and want to help Pale Moon
+development by reporting bugs in these pre-release versions.<br>
       <br>
       </td>
     </tr>
