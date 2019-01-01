@@ -1,38 +1,34 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html><head>
-
-
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Pale Moon feedback</title>
-  
-
-  
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Pale Moon feedback</title>
   <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../menustyle.css">
-
-  
-  <link rel="stylesheet" type="text/css" media="screen,projection" href="../pagestyle.css">
-
-  
-  <meta content="Moonchild" name="author"></head><body>
-<table class="maintable" align="center" bgcolor="#f9f9f9" border="0" cellpadding="0" cellspacing="0">
-
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="../pagestyle.css">
+  <meta content="Moonchild" name="author">
+</head>
+<body>
+<table class="maintable" align="center" bgcolor="#f9f9f9" border="0"
+ cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
-      <th class="subpageheader">
+      <th class="subpageheader"> <br>
       </th>
     </tr>
     <tr align="left">
-      <td style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
+      <td
+ style="padding: 0pt; vertical-align: top; background-color: rgb(82, 114, 161);"><!--#include virtual="/nav/menuroot.html" -->
       <br>
       </td>
     </tr>
     <tr>
       <td style="vertical-align: top;">
-      <h1>Pale Moon Feedback</h1>
-The Pale Moon Feedback form is off-line until further notice, due to
+      <h1>Pale Moon Contact</h1>
+We no longer offer direct contact with our developers due to
 required focus being drawn away from development to handle support
 requests despite the clear indicators of self-help resources and
 requests to use the normal channels to get technical support for Pale
@@ -41,22 +37,38 @@ feedback forms would require a disproportionate amount of data
 verification going forward, which would benefit neither the developer
 nor you.<br>
       <br>
-You are kindly requested to direct all your feedback (including testimonials) to the community-supported Pale Moon forum:<br>
+You are kindly requested to direct all your feedback to the
+community-supported Pale Moon forum:<br>
       <br>
-      <div style="text-align: center;"><a href="http://forum.palemoon.org/"><big><big>http://forum.palemoon.org/</big></big></a><br>
+      <div style="text-align: center;"><a
+ href="https://forum.palemoon.org/"><big><big>https://forum.palemoon.org/</big></big></a><br>
       </div>
       <br>
-Please post in the <span style="font-weight: bold;">public</span> boards for any <span style="font-weight: bold;">technical support questions or general feedback</span>, taking care to use the board that best matches your type of question or feedback.<br>
+Please post in the <span style="font-weight: bold;">public</span>
+boards for any <span style="font-weight: bold;">technical support
+questions or general feedback</span>, taking care to use the board that
+best matches your type of question or feedback.<br>
+If you are an IRC user, you can also get in touch with some members of
+our community in chat by going to #palemoon on the Freenode network.<br>
       <br>
       <span style="font-weight: bold;">Companies</span> interested in
 contacting the Pale Moon developer directly are requested to register
 on the forum and initiate contact via Private Messages. If this is
-problematic, you may contact the developer via e-mail at
-      <a href="mailto:business-inquiries@palemoon.org"><span style="white-space: nowrap;">business-inquiries@palemoon.org</span></a>. Please understand that any
+problematic, you may contact the developer via e-mail at <a
+ href="mailto:business-inquiries@palemoon.org"><span
+ style="white-space: nowrap;">business-inquiries@palemoon.org</span></a>.
+Please understand that any
 non-business inquiries at that address will be discarded.<br>
       <br>
-If you are a member of the <span style="font-weight: bold;">press</span>, please feel free to use <a href="mailto:press@palemoon.org">press@palemoon.org</a> as a point of contact.<br>
-<br>
+If you are a member of the <span style="font-weight: bold;">press</span>,
+please feel free to use <a href="mailto:press@palemoon.org">press@palemoon.org</a>
+as a point of contact.<br>
+If you want to get in touch for <span style="font-weight: bold;">licensing</span>
+our trademarks or <span style="font-weight: bold;">legal</span>
+matters, please use <a href="mailto:legal@palemoon.org">legal@palemoon.org</a>
+as a point of contact.<br>
+      <br>
+      <br>
       </td>
     </tr>
     <tr>
@@ -66,9 +78,7 @@ If you are a member of the <span style="font-weight: bold;">press</span>, please
     </tr>
   </tbody>
 </table>
-
 <br>
-
 <br>
-
-</body></html>
+</body>
+</html>
