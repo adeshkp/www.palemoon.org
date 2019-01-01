@@ -166,9 +166,9 @@ being available (yet).</li>
         <li>Fixed a crash in IntersectionObservers.</li>
         <li>Fixed initialization of the Search service from browser
 code to avoid synchronous init.</li>
-        <li>Added logging of performance warnings to devtools consoles.<br>
-        </li>
-        <br>
+        <li>Added logging of performance warnings to devtools consoles.</li>
+        <li>Changed the API used for video playback with FFmpeg 58+.
+This should solve performance issues with VPx.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
