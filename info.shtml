@@ -1,61 +1,66 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-  
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon - General Information</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <meta content="General Information and Project History for the Pale Moon Project" name="description"></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          <br>
-</th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h1>
-              Information about the project<br>
-            </h1>
-            <h3>
-              General Information<br>
-            </h3>The Pale Moon project is a community-driven project owned and led by Mr. M.C. Straver BASc, using
-            contributed Open Source code to create a full-featured, optimized browser derived from the code behind the
-            popular Firefox browser (Mozilla).<br>
-            <br>
-            Notable other development/maintainance contributors to the project are:<br>
-            <ul>
-              <li>G. Brown (access2godzilla), C. Ravenscroft and T. Wine for kicking off and maintaining the Linux
-              builds &amp; installer<br>
-              </li>
-              <li>M. Turnbull (Sparky Bluefang) for supplying the base code for the V4+ status bar
-              </li>
-              <li>K. Engert for supplying the base code for the padlock feature</li>
-        <li>Kailapis for supplying the base code for ruby annotations (v26)<br>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon - General Information</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta
+ content="General Information and Project History for the Pale Moon Project"
+ name="description">
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h1> Information about the project<br>
+      </h1>
+      <h3> General Information<br>
+      </h3>
+The Pale Moon project is a community-driven project owned and led by
+Mr. M.C. Straver BASc, using contributed Open Source code to create a
+full-featured, optimized browser forked from the code behind the
+popular Firefox browser (Mozilla).<br>
+      <br>
+Notable other development/maintainance contributors to the project are:<br>
+      <ul>
+        <li>G. Brown (access2godzilla), C. Ravenscroft and T. Wine for
+kicking off and maintaining the Linux builds &amp; installer<br>
         </li>
-
-              <li>M. Tobin for additional research into the Mozilla code and general support in a number of different
-              areas of development, as well as being instrumental in the 2016 platform update.
-              </li><li>R. Crellin for adapting and maintaining many of the complete themes for Pale Moon</li>
-        <li>R. Pelizzi for laying the groundwork and working with us to get the active XSS filter implemented (v26)<br>
-</li>
+        <li>M. Turnbull (Sparky Bluefang) for supplying the base code
+for the V4+ status bar </li>
+        <li>K. Engert for supplying the base code for the padlock
+feature</li>
+        <li>Kailapis for supplying the base code for ruby annotations
+(v26)<br>
+        </li>
+        <li>M. Tobin for additional research into the Mozilla code and
+general support in a number of different areas of development, as well
+as being instrumental in the 2016 and 2018 platform updates. </li>
+        <li>R. Crellin for adapting and maintaining many of the
+complete themes for Pale Moon</li>
+        <li>R. Pelizzi for laying the groundwork and working with us to
+get the active XSS filter implemented (v26)<br>
+        </li>
         <li>T. Wine for his extensive work on improving media playback<br>
         </li>
-
-
-            </ul>Pale
+      </ul>
+Pale
 Moon aims to provide a browser with a large degree of freedom in how
 people want to browse the web, which tools or extensions
 they wish to use, and which feedback users want to see ("Your browser,
@@ -63,7 +68,7 @@ Your way"™); efficiency, after all, should not stop at the engine of a
 browser, but extend to all parts of it, including the user interface by
 sticking to standard user interface conventions and ergonomics,
 as well as proper visual integration with the operating system.<br>
-            <br>
+      <br>
 Users will find a tried-and-tested user interface in the Pale Moon
 browser, which, although very close to older versions of Firefox in the
 way it looks and operates at first glance, is a different and modern,
@@ -80,28 +85,37 @@ compatibility mode. This is also why extensions can be written for Pale
 Moon
 exclusively and/or adapted to Pale Moon as an individual product
 (unlike "re-branded Firefox rebuilds").<br>
-            <br>
-            <span class="bold">Pale Moon is a middle road</span>, cutting away support for particularly old hardware and
-            operating systems to achieve a significant speed and efficiency increase, but not trying to squeeze the
-            last few percent more out of it by limiting the range of systems it will run on even
-            more.&nbsp;<span class="bold">Pale Moon aims to deliver above all a stable and smooth browsing
-            experience</span>, and does not intend to or aim for high scoring in synthetic tests, as those are
-            invariably not a good representation of typical use of a web browser in the real world.<br>
-            <br>
-            <span class="bold">Pale Moon will be released independently</span>,
+      <br>
+      <span class="bold">Pale Moon is a middle road</span>, cutting
+away support for particularly old hardware and operating systems to
+achieve a significant speed and efficiency increase, but not trying to
+squeeze the last few percent more out of it by limiting the range of
+systems it will run on even more.&nbsp;<span class="bold">Pale Moon
+aims to deliver above all a stable and smooth browsing experience</span>,
+and does not intend to or aim for high scoring in synthetic tests, as
+those are invariably not a good representation of typical use of a web
+browser in the real world.<br>
+      <br>
+      <span class="bold">Pale Moon will be released independently</span>,
 as it uses a different source code and release plan, different
 versioning scheme, and is not affiliated with or subject to either code
-releases or publication plans of Mozilla. Pale Moon is an <span class="bold">independently</span> developed product <span class="italic">derived from</span> Mozilla/Firefox code, but will most certainly not be in any way bound to developments seen in the Mozilla corner.<br><span class="bold red"></span><br>
-            <h3>
-              Support
-            </h3>Please look at the <a href="donations.shtml">Donations and Support page</a> to learn about ways to
-            support Pale Moon, and to see who have contributed to the project to make it what it is.<br>
-            <br>
-      <!--#include virtual="nav/footerad.html" --> <br>
-      <!--#include virtual="nav/footer.html" --> <br>
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+releases or publication plans of Mozilla. Pale Moon is an <span
+ class="bold">independently</span> developed product <span
+ class="italic">derived from</span> Mozilla/Firefox code, but will most
+certainly not be in any way bound to developments seen in the Mozilla
+corner.<br>
+      <span class="bold red"></span><br>
+      <h3> Support </h3>
+Please look at the <a href="donations.shtml">Donations and Support page</a>
+to learn about ways to support Pale Moon.<br>
+      <br>
+<!--#include virtual="nav/footerad.html" --> <br>
+<!--#include virtual="nav/footer.html" --> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
