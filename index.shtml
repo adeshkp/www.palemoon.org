@@ -313,6 +313,9 @@ technologies:<br>
   <li id="twitter"> <a target="_blank"
  href="https://twitter.com/palemoonbrowser"><img class="icon" alt="Tw"
  src="social/twitter.png"></a> </li>
+  <li id="patreon"> <a target="_blank"
+ href="https://www.patreon.com/bePatron?u=10185297"><img class="icon" alt="Pat"
+ src="social/patreon48.png"></a> </li>
   <li id="feed"> <a target="_blank"
  href="http://forum.palemoon.org/feed.php?f=1"><img class="icon"
  alt="RSS" src="social/feed.png"></a> </li>
