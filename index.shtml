@@ -199,13 +199,9 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>06 Dec 2018</small></small><br>
-Pale Moon 28.2.2 has been released.</span> This is a minor update to
-address a number of issues in the browser.<br>
-            <br>
-            <span class="bold"><small><small>13 Nov 2018</small></small><br>
-Pale Moon 28.2.0 has been released.</span> This is a development
-release focusing on performance, bugfixes and security. More
+            <span class="bold"><small><small>15 Jan 2019</small></small><br>
+Pale Moon 28.3.0 has been released.</span> This is a development
+release focusing on standards compliance, bugfixes and security. More
 information in the <a href="releasenotes.shtml">release notes</a>!<br>
             <br>
             <a href="http://forum.palemoon.org/viewforum.php?f=1">more
@@ -314,8 +310,8 @@ technologies:<br>
  href="https://twitter.com/palemoonbrowser"><img class="icon" alt="Tw"
  src="social/twitter.png"></a> </li>
   <li id="patreon"> <a target="_blank"
- href="https://www.patreon.com/bePatron?u=10185297"><img class="icon" alt="Pat"
- src="social/patreon48.png"></a> </li>
+ href="https://www.patreon.com/bePatron?u=10185297"><img class="icon"
+ alt="Pat" src="social/patreon48.png"></a> </li>
   <li id="feed"> <a target="_blank"
  href="http://forum.palemoon.org/feed.php?f=1"><img class="icon"
  alt="RSS" src="social/feed.png"></a> </li>

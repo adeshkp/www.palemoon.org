@@ -65,15 +65,6 @@ at <a href="https://www.patreon.com/MoonchildProductions"
  style="border: 0px solid ; width: 217px; height: 51px;"
  src="images/become_a_patron_button.png" alt="Become a Patron!"
  align="middle"></a></li>
-        <li><span style="color: rgb(204, 0, 0);">IMPORTANT: Due to
-payment
-processor issues, liberapay is currently not recommended and should not
-be used until their trouble has been sorted out!!</span><br>
-Liberapay: For continuous, recurring support to our project at <a
- href="https://liberapay.com/Moonchild/donate">https://liberapay.com/Moonchild/donate</a><br>
-          <a href="https://liberapay.com/Moonchild/donate"><img
- style="border: 0px solid ; height: 50px;" alt="Donate using Liberapay"
- src="images/liberapay-donate.svg"></a> </li>
       </ul>
       <h2><a name="Donating_development_hardware"></a> Donating
 development hardware </h2>
@@ -94,7 +85,14 @@ Potential service areas:<br>
 your friends, hand out flyers, etc.<br>
         </li>
         <li>Any other service you think may be of benefit to Pale Moon
-development</li>
+development or publication.</li>
+        <li>Wikieditors and translators to update and maintain the
+various pages on Wikipedia.</li>
+        <li>Translation of the browser by joining our localization
+team. See <a
+ href="https://forum.palemoon.org/viewtopic.php?f=30&amp;t=19474">this
+forum post</a> for details.<br>
+        </li>
       </ul>
       <br>
       <h2><a name="Corporate_sponsorship"></a>Corporate sponsorship</h2>
@@ -109,6 +107,14 @@ commitment period lapses.<br>
 If you are an established company and wish to support the Pale Moon
 project, then from this point forward you can provide this support
 through our Patreon page (see above) just like individual patrons.<br>
+      <br>
+We do not accept "sponsored content" on any of our websites. We do not
+accept "sponsored posts", "sponsored articles", nor do we have a blog
+or other article feed where such posts have a place. Please do not
+e-mail us asking for such sponsored articles to be placed anywhere on
+our websites; the answer will invariably be "no" and your e-mail will
+be considered unsolicited commercial e-mail (and treated as such when
+persisted).<br>
       <br>
       <h1><a name="Thank_you"></a> Thank you </h1>
 I would like to express my thanks to all the people who, over the
