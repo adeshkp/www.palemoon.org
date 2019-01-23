@@ -27,10 +27,36 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
+      <h3>v28.3.1 (2019-01-23)</h3>
+This is a minor bugfix and stability release.<br>
+If you are using a language pack, please make sure you have the
+matching version for this browser version installed. Some strings were
+added for Captive Portal detection (see below) and outdated language
+packs will cause blank preference pages.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:<br>
+      </span>
+      <ul>
+        <li>Improved toolbar icon display for all DPIs on Windows.</li>
+        <li>Disabled the IntersectionObserver API by default while we
+work on resolving crashes caused by it.</li>
+        <li>Added <code>isIntersecting</code> to the
+IntersectionObserver API per specification.</li>
+        <li>Added an option to the preferences window to enable Captive
+Portal detection (Advanced -&gt; General). If your network connection
+regularly encounters Captive Portals (e.g. using a laptop on the road
+or other WiFi connections that require ligon or agreement to terms)
+then enabling this detection may make your use of such networks more
+convenient.<br>
+For those worried about privacy: the detection service makes use of our
+own infrastructure and does not contact third parties like Apple or
+Google.<br>
+        </li>
+      </ul>
       <h3><a name="v28.3.0"></a>v28.3.0 (2019-01-15)</h3>
 This is a major development and bugfix release.<br>
       <br>
-Changes/fixes:<br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Added AV1 support for MP4/MSE videos. Please note that this
 is a reference library implementation and the upstream decoding lib

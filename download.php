@@ -53,7 +53,7 @@ function endsWith($haystack, $needle) {
 }
 
 // 404's if user agent starts with wget and curl
-// Stop scraping our sites damn it!
+// Prevent site scraping
 function funcCheckUserAgent() {
     if (startsWith(strtolower($_SERVER['HTTP_USER_AGENT']), 'wget/') ||
         startsWith(strtolower($_SERVER['HTTP_USER_AGENT']), 'curl/')) {
@@ -64,7 +64,7 @@ function funcCheckUserAgent() {
 
 function constructDownloadURL($version, $mirror, $bits, $type) {
 
-  $validmirrors = ['eu', 'us', 'as'];
+  $validmirrors = ['eu', 'us', 'as', 'sig'];
   
   if (!in_array($mirror, $validmirrors))
     die ('Invalid mirror.');
@@ -74,7 +74,14 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
   if (!in_array($bits, $validbits, true))
     die ('Invalid architecture.');
   
-  $url = 'http://rm-' . $mirror . '.palemoon.org/release/'; 
+  switch ($mirror) {
+    case 'sig':
+      $url = 'http://www.palemoon.org/pgp/';
+      break;
+    default:
+      $url = 'http://rm-' . $mirror . '.palemoon.org/release/';
+  }
+  
   switch ($type) {
     case 'installer':
       $url = $url . 'palemoon-' . $version . '.win' . $bits . '.installer.exe';
@@ -90,6 +97,10 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
       die('Incorrect type.');
   }
   
+  if ($mirror == 'sig') {
+    $url = $url . '.sig';
+  }
+  
   return $url;
 }
 
@@ -99,7 +110,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 // abusive or leading to DoS, should be uncommented.
 // funcCheckUserAgent();
 
-$version = '28.3.0';
+$version = '28.3.1';
 
 $mirror = funcHTTPGetValue('mirror');
 $bits = funcHTTPGetValue('bits');

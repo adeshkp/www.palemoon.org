@@ -159,7 +159,7 @@ design </li>
         <li>Smooth and speedy page drawing and script processing </li>
         <li>Increased stability: experience fewer browser crashes<br>
         </li>
-        <li>Support for many Firefox extensions<br>
+        <li>Support for many "legacy" Firefox extensions<br>
         </li>
         <li>Support for a growing number of Pale Moon exclusive
 extensions<br>
@@ -198,6 +198,10 @@ to name a few things.<br>
         <tbody>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
+            <br>
+            <span class="bold"><small><small>23 Jan 2019</small></small><br>
+Pale Moon 28.3.1 has been released.</span> This is a minor bugfix and
+stability release.<br>
             <br>
             <span class="bold"><small><small>15 Jan 2019</small></small><br>
 Pale Moon 28.3.0 has been released.</span> This is a development
