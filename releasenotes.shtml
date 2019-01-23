@@ -45,7 +45,7 @@ IntersectionObserver API per specification.</li>
         <li>Added an option to the preferences window to enable Captive
 Portal detection (Advanced -&gt; General). If your network connection
 regularly encounters Captive Portals (e.g. using a laptop on the road
-or other WiFi connections that require ligon or agreement to terms)
+or other WiFi connections that require login or agreement to terms)
 then enabling this detection may make your use of such networks more
 convenient.<br>
 For those worried about privacy: the detection service makes use of our
