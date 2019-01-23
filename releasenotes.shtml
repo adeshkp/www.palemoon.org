@@ -27,7 +27,7 @@
     <tr>
       <td class="c8">
       <h1> Pale Moon: Release notes </h1>
-      <h3>v28.3.1 (2019-01-23)</h3>
+      <h3><a name="v28.3.1"></a>v28.3.1 (2019-01-23)</h3>
 This is a minor bugfix and stability release.<br>
 If you are using a language pack, please make sure you have the
 matching version for this browser version installed. Some strings were
