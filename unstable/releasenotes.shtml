@@ -103,72 +103,12 @@ only):</h3>
       <ul>
       </ul>
       <ul>
-        <li>Fixed the sync notification (infobar) icon.</li>
-        <li>Fixed a potential cycle collector resource leak.</li>
-        <li>Added AV1 support for MP4/MSE videos. Please note that this
-is a reference library implementation and the upstream decoding lib
-currently has poor performance for higher resolutions (720p+).</li>
-        <li>Redesigned the main toolbar icons as SVG images to make
-them HiDPI compliant.</li>
-        <li>Added icons and controls to tabs to indicate if sound is
-playing the tab and if so, allowing the user to mute it with a click.<br>
-This is a native implementation of the API in use in Basilisk and
-performs the same function as the "expose noisy tabs" extension,
-although the extension may still be preferred by some for e.g. skinning
-capabilities. The feature may be disabled with <code>browser.tabs.showAudioPlayingIcon</code>.</li>
-        <li>Removed support for VR hardware.</li>
-        <li>Reorganized the tree layout for the Pale Moon application
-code.</li>
-        <li>Fixed out-of-bounds sizes for CSS calculation strings.</li>
-        <li>Removed the DirectShow component since it is no longer
-necessary.</li>
-        <li>Removed Firefox Accounts integration, phase 1:</li>
-        <li>Changed the Sync client to the one from Tycho.</li>
-        <li>Made Sync optional at build time.</li>
-        <li>Stopped trying to cater to addons.mozilla.org since they no
-longer offer anything useful to Pale Moon after the Great XUL Extension
-Purge™.</li>
-        <li>Added an option to process favicons for optimal sized
-display and removing animations. Enable this with <code>browser.chrome.favicons.process</code></li>
-        <li>Fixed an incorrect preference reference in feed reader.</li>
-        <li>Fixed an issue with lazy frame construction on
-display:contents elements.</li>
-        <li>Media code improvements and cleanup (ongoing).</li>
-        <li>Updated the DropBox useragent override to solve login
-issues.</li>
-        <li>Fixed potential crashes due to shutdown observers in VTT
-and font lists. DiD<br>
-        </li>
-        <li>Enabled some mistakingly-disabled optimizations in the JS
-JIT compiler.</li>
-        <li>Fixed potential crashes in JS. DiD</li>
-        <li>Fixed potential crashes in WebCrypto. DiD</li>
-        <li>Fixed a potential crash in JS Range Analysis. DiD</li>
-        <li>Fixed a potential crash in the layout engine due to combo
-boxes. DiD</li>
-        <li>Fixed a potential shutdown crash in non-standard
-environments related to 2D Canvas. DiD</li>
-        <li>Fixed a potential overflow in the PNG writer. DiD</li>
-        <li>Fixed a potential double-free in the MAR signing utility.
-DiD</li>
-        <li>Fixed an issue where URLs could be extracted cross-origin (<span
- id="summary_alias_container"><span id="alias_nonedit_display">CVE-2018-18494</span></span>).</li>
-        <li>Updated NSPR to v4.20.</li>
-        <li>Updated NSS to 3.41, providing (among other things) full
-compatibility with the final version of TLS 1.3 on websites.</li>
-        <li>Updated <code>location.protocol</code> to the latest spec.</li>
-        <li>Updated Intersection Observers to the latest spec and
-enabled them by default.</li>
-        <li>Updated the SQLite lib to 3.26.0.</li>
-        <li>Fixed errors about the login manager's recipeManager not
-being available (yet).</li>
-        <li>Switched status bar download arrow to SVG.</li>
-        <li>Fixed a crash in IntersectionObservers.</li>
-        <li>Fixed initialization of the Search service from browser
-code to avoid synchronous init.</li>
-        <li>Added logging of performance warnings to devtools consoles.</li>
-        <li>Changed the API used for video playback with FFmpeg 58+.
-This should solve performance issues with VPx.</li>
+        <li>Removed more telemetry code (ongoing)</li>
+        <li>Added captive portal preference to the UI.</li>
+        <li>Improved toolbar icon display for all DPI screens.</li>
+        <li>Updated IntersectionObserver with isIntersecting property
+according to spec.</li>
+        <li>Fixed 2 major crashes with the IntersectionObserver API.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
