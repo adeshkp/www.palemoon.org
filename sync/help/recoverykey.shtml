@@ -43,12 +43,10 @@ my Recovery Key</strong> below. </p>
       <ol>
         <li> <span class="for" data-for="win7,win8">At the top of the
 Pale Moon window, click on the Pale Moon<span class="button"></span>
-button and then select <span class="menu">Options.<br>
-In the classic menu, select Tools and then Options.<br>
-          </span></span>
-        </li>
-        <li> Select the <span class="menu">Sync</span> panel.
-        </li>
+button and then select <span class="menu">Preferences.<br>
+In the classic menu, select Tools and then Preferences.<br>
+          </span></span> </li>
+        <li> Select the <span class="menu">Sync</span> panel. </li>
         <li> Click <span class="button">Manage Account</span> and then
 select <strong>My Recovery Key</strong>.<br>
           <div style="text-align: center;"><img
@@ -76,18 +74,13 @@ update them with the new Recovery Key.</div>
         <li><span class="for" data-for="win">At the top of the Pale
 Moon window, click on the P<span class="button">ale Moon</span> button (<span
  class="menu">or the Tools</span> menu in the classic menu) and then
-click <span class="menu">Options</span></span>
-        </li>
-        <li> Click on the <span class="menu">Sync</span> panel.
-        </li>
+select Preferences</span> </li>
+        <li> Click on the <span class="menu">Sync</span> panel. </li>
         <li> Click <span style="font-style: italic;" class="button">Set
-up Pale Moon Sync</span> and a new window will open.
-        </li>
+up Pale Moon Sync</span> and a new window will open. </li>
         <li>Click <em>I already have a Pale Moon Sync account</em>.<span
- class="button"></span>
-        </li>
-        <li> Click <strong>I don't have the device with me</strong>.
-        </li>
+ class="button"></span> </li>
+        <li> Click <strong>I don't have the device with me</strong>. </li>
         <li> Enter your account email address and password, but <span
  style="font-weight: bold;">do not</span> click Next<br>
         </li>
@@ -95,14 +88,11 @@ up Pale Moon Sync</span> and a new window will open.
 and a new Recovery Key will be made for you.<br>
           <strong>Tip:</strong> It's a good idea to print or save your
 Recovery Key so that you can access your information even when you are
-away from this computer.
-        </li>
+away from this computer. </li>
         <li> Then click <span class="button">Change Recovery Key</span>.
-You will see the Setup Complete screen.
-        </li>
+You will see the Setup Complete screen. </li>
         <li> Click <span class="for" data-for="win,linux"><span
- class="button">Finish</span></span> to close the setup window.
-        </li>
+ class="button">Finish</span></span> to close the setup window. </li>
       </ol>
       <br>
       </td>
