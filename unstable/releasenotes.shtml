@@ -109,6 +109,22 @@ only):</h3>
         <li>Updated IntersectionObserver with isIntersecting property
 according to spec.</li>
         <li>Fixed 2 major crashes with the IntersectionObserver API.</li>
+        <li>Updated libwebp to 1.0.2, fixing various crashes,
+instabilities, and performance issues with WebP images.</li>
+        <li>Fixed crashes due to buffering issues for large WebP images.</li>
+        <li>Fixed an issue with the downloads panel not responding to
+drag&amp;drop actions.</li>
+        <li>Fixed incorrect use of white icons for tab audio with dark
+window accent colors.</li>
+        <li>Improved the Cycle Collector to prevent long-term
+degradation of performance on some systems.</li>
+        <li>Fixed incremental GC slice time duration (regression).</li>
+        <li>Completed implementation of the CSS mask <br>
+        </li>
+        <li>Removed more dead telemetry code.</li>
+        <li>Fixed media playback issues for some videos due to poor
+encoding practices.<br>
+        </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
