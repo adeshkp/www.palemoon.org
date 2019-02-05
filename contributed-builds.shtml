@@ -41,12 +41,18 @@ A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
         <li><a
  href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
 Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
+        <li><a href="http://www.kovacsoltvideo.hu/moonchildproductions">Pale
+Moon repacks for Debian and Ubuntu</a> by László Kovács.</li>
+        <li><a
+ href="https://copr.fedorainfracloud.org/coprs/bgstack15/palemoon/">Pale
+Moon COPR repositories for Fedora and CentOS</a> by bgstack15.<br>
+        </li>
         <li>Pale Moon for Debian MEPIS by Steve Pusser and Debian MX-15
 by Mike Purtell.<br>
 Specific build for the <a href="http://main.mepis-deb.org/">MEPIS/MX</a>
 Linux distro.</li>
         <li><a
- href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/staging/extra-web/palemoon">Pale
+ href="https://github.com/AOSC-Dev/aosc-os-abbs/tree/testing/extra-web/palemoon">Pale
 Moon for AOSC OS</a> by AOSC Development Hub.<br>
 A hardened Pale Moon build configured for <a href="https://aosc.io/"
  target="_blank">AOSC OS</a>
