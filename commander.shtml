@@ -45,9 +45,7 @@ Options -&gt; Advanced Options... </li>
       <p> Clicking this menu item will open the preferences window that
 has been added by installing the add-on. </p>
       <h2> There be dragons here!</h2>
-      <span style="font-weight: bold; color: rgb(204, 0, 0);">The
-extension is not current for Pale Moon - it is for the 27 version range
-and needs to be updated for 28 when time permits.</span><br>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);"></span>
       <p> Using Pale Moon Commander to change advanced preferences is
 potentially dangerous and can leave your browser profile in a
 potentially unusable state. <span class="red">If you don't know what a
@@ -65,19 +63,17 @@ will have a similar result.<br>
 give warranty or guarantees, and it is provided "as-is" although I've
 done my best to make sure it works as-intended. </p>
       <h2> Download and install </h2>
-The current version is <span class="bold">2.0.2</span> - this is an
-update re-licensing the extension under the MPL 2.0. Enjoy your FOSS
-freedom!<br>
+The current version is <span class="bold">3.0.0</span> - this is an
+update for UXP! It requires at least Pale Moon v28.4.0.<br>
       <br>
-You can <a href="http://forum.palemoon.org/viewtopic.php?f=25&amp;t=2181"
+You can <a href="https://forum.palemoon.org/viewtopic.php?f=46&amp;t=16081"
  target="_blank">go to the forum thread</a> for this add-on to provide
 feedback.<br>
       <br>
 You can go to the Pale Moon Add-ons site where the add-on is listed:<br>
       <br>
       <div class="center bold"> <a
- href="https://addons.palemoon.org/extensions/pm-commander/"
- target="_blank"> https://addons.palemoon.org/extensions/pm-commander/</a>
+ href="https://addons.palemoon.org/addon/pm-commander/" target="_blank">https://addons.palemoon.org/addon/pm-commander/</a>
       </div>
       <br>
 Alternatives:<br>
@@ -94,7 +90,8 @@ This add-on is supplied as FOSS under the Mozilla Public License v2.0.<br>
       <h2> Documentation </h2>
 The add-on currently has a basic manual in PDF format, applicable to
 the previous version 1.7.<br>
-A manual update for 2.0 will be made available as time permits.<br>
+A manual update for the current version will be made available as time
+permits.<br>
 You can get the manual by <a
  href="http://rm-eu.palemoon.org/tools/Pale%20Moon%20Commander_v1.7.0.pdf">clicking
 here</a>.<br>
