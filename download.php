@@ -76,7 +76,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
   
   switch ($mirror) {
     case 'sig':
-      $url = 'http://www.palemoon.org/pgp/';
+      $url = '//www.palemoon.org/pgp/';
       break;
     default:
       $url = 'http://rm-' . $mirror . '.palemoon.org/release/';
@@ -110,7 +110,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 // abusive or leading to DoS, should be uncommented.
 // funcCheckUserAgent();
 
-$version = '28.3.1';
+$version = '28.4.0';
 
 $mirror = funcHTTPGetValue('mirror');
 $bits = funcHTTPGetValue('bits');

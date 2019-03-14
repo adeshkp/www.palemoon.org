@@ -26,7 +26,54 @@
     </tr>
     <tr>
       <td class="c8">
-      <h1> Pale Moon: Release notes </h1>
+      <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.4.0"></a>v28.4.0 (2019-02-19)</h3>
+This is a major development, stability and security release.<br>
+      <p><strong>Changes/fixes:</strong></p>
+      <ul>
+        <li>Removed more telemetry code from the platform.</li>
+        <li>Fixed implementation of the <code>IntersectionObserver</code>
+API to avoid crashes, and enabled it by default.</li>
+        <li>Switched to the new ffmpeg decode API to avoid dropping of
+frames.</li>
+        <li>Fixed a buffering issue in the WebP decoder that caused
+intermittent browser crashes.</li>
+        <li>Improved resource-efficiency for internal stopwatch timers.</li>
+        <li>Improved handling of incorrectly-encoded CTTS in media
+files, resolving some playback issues of videos.</li>
+        <li>Improved the Cycle Collector and Garbage Collector.</li>
+        <li>Improved fullscreen navigation bar handling in the
+situation it has focus when switching to full screen.</li>
+        <li>Aligned <code>instanceof</code> with the final ES6 spec.</li>
+        <li>Improved Windows DIB (bitmap) clipboard data handling.</li>
+        <li>Exposed TLS 1.3 cipher suite prefs in about:config in case
+people want to disable them individually.</li>
+        <li>Allowed empty string on the <code>location.search</code>
+setter to clear URL query parameters from JS.</li>
+        <li>Added a potential fix for external links not opening in the
+current window/tab (untested).</li>
+        <li>Enabled C++11 thread-safe statics in the entire application.</li>
+        <li>Updated several preferences for integration with the new
+add-ons site.</li>
+      </ul>
+      <p><strong>Security fixes:</strong></p>
+      <ul>
+        <li>Fixed a potential use-after-free in IndexedDB code. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Improved proxy handling to avoid localhost getting proxied.
+(CVE-2018-18506)</li>
+        <li>Ported upstream Skia fixes. (CVE-2018-18356, CVE-2018-18335)</li>
+        <li>Fixed an additional Skia issue. (CVE-2019-5785)</li>
+        <li>Fixed several potentially-exploitable memory safety hazards
+and crashes. (<span style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Fixed a possible data race when performing compacting GC.</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code, e.g. when
+surrounding code changes, exposing the problem, or when new attack
+vectors are discovered.
       <h3><a name="v28.3.1"></a>v28.3.1 (2019-01-23)</h3>
 This is a minor bugfix and stability release.<br>
 If you are using a language pack, please make sure you have the
@@ -154,12 +201,7 @@ privacy).</li>
 specification. This improves, among other things, compatibility with
 the React framework.</li>
       </ul>
-      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
-the fix is "Defense-in-Depth": It is a fix that does not apply to a
-(potentially) actively exploitable vulnerability in Pale Moon, but
-prevents future vulnerabilities caused by the same code, e.g. when
-surrounding code changes, exposing the problem, or when new attack
-vectors are discovered.
+      <span style="color: rgb(191, 64, 64);"></span>
       <h3><a name="v28.2.2"></a>v28.2.2 (2018-12-06)</h3>
 This is a minor update to address a few pertinent issues.<br>
       <br>

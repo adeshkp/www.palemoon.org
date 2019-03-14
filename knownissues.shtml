@@ -61,6 +61,8 @@ tested.<br>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
 forum and our own add-ons site for replacements/alternatives.<br>
+          <span class="bold">Status:</span> <span class="bydesign bold">[By
+Design]</span><br>
           <br>
         </li>
       </ol>
@@ -85,291 +87,23 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
-      <span style="font-weight: bold;">28.0.0(.1):<br>
+      <span style="font-weight: bold;">28.3.*:<br>
       </span>
       <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Performance
-issues on all platforms, but especially 32-bit operating systems.</span><br>
-Pale Moon 28 (especially if running on 32-bit operating systems) may
-display
-excessive CPU usage and slow performance or hangs.<br>
-This is caused by a pair of Mozilla patches that were adopted in our
-browser as a defense-in-depth measure, but are causing some severe
-issues in terms of performance and reliability of the resulting browser.<br>
+        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
+WebP images may crash the browser.</span><br>
+Pale Moon may
+intermittently crash when decoding WebP images that are particularly
+large or whose loading is interrupted.<br>
           <span style="font-weight: bold;">Status: <span
  style="color: rgb(204, 102, 0);"></span></span><span
  style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]
           <br>
           </span></span><span style="font-weight: bold;">Timeline:</span>
 Fixed
-in 28.0.1</li>
+in 28.4.0</li>
       </ol>
-      <span style="font-weight: bold;">27.8.0:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">In
-some configurations, the browser may crash on shutdown.</span><br>
-It seems to be especially the case if the Firefox version of
-GreaseMonkey (1.15) is installed instead of our Pale Moon fork of it.<br>
-The crash has been pinpointed to our latest NSS library update.<br>
-We are currently investigating the exact cause of this, and will be
-backing out the NSS update (as well as disabling TLS 1.3 draft support
-since the draft supported by the older NSS version is going to be
-obsolete very soon) to resolve the crashes in the next point release.<br>
-          <span style="font-weight: bold;">Status: </span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]
-          </span></span>(long term solution is <span
- style="font-weight: bold; color: rgb(204, 102, 0);">[In
-progress]</span>)<br>
-          <span style="font-weight: bold;">Workaround:</span> If you
-are a greasemonkey 1.15 user, please update to our <a
- href="https://github.com/janekptacijarabaci/greasemonkey/releases/">Pale
-Moon fork</a> of it.<br>
-          <span style="font-weight: bold;">Timeline:</span> Crash fixed
-in 27.8.1</li>
-      </ol>
-      <span style="font-weight: bold;">27.7.0:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Tab
-borders are drawn too thick when visual elements in Windows are scaled
-up</span><br>
-At 125% or 150% scaling of visual elements in Display Options in
-Windows, the borders of tabs may be drawn thicker than intended in the
-default theme.<br>
-This is a side-effect of the natural border size rounding introduced in
-Pale Moon 27.7.0 combined with non-standard styling of tabs in our UI.
-This needs some tweaking of our default theme.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
- style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Can be
-adjusted with userChrome.css; please see our forum for details.<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-27.7.1<br>
-        </li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Some
-websites have operational issues since 27.7.0</span><br>
-This is caused by an incomplete implementation of the new "Unscopables"
-ES6 feature in JavaScript. Fixing this is our current priority.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
- style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-          <span style="font-weight: bold;">Workaround:</span> None. You
-may want to revert to 27.6.2 for the time being or switch to the
-"Unstable" versions where any fixes will land the moment they are done.<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-27.7.1</li>
-      </ol>
-      <br>
-      <span style="font-weight: bold;">27.6.0:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
-Moon launches twice when opening a URL from the
-command-line/other program.</span><br>
-This is a regression introduced in 27.6.0 due to an incorrect
-workaround for new window focus.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;"></span><span
- style="font-weight: bold;">Workaround: </span>None, but you can use
-the <a href="http://www.palemoon.org/unstable/">unstable version</a>
-in the meantime if this is a breaking issue.<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-v27.6.1<br>
-          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Logging
-in to CitiBank's on-line banking fails.</span><br>
-The server gives cryptic error message that the website it temporarily
-unavailable -- as it turns out this seems to be a user-agent sniffing
-issue which can easily be worked around (it's not a browser bug).<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(140, 121, 98);">[Workaround]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> in
-about:config, change the existing preference <code>general.useragent.override.citi.com</code>
-to "<code>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101
-Firefox/57.0 (Pale Moon)</code>". When the default override for this
-site will be updated, you can reset the pref to use Pale Moon's default
-again (in case another change is needed in the future, and to
-accurately reflect dynamic parts of the override).<br>
-          <span style="font-weight: bold;">Timeline:</span> The
-override for this site will be updated in 27.6.1.</li>
-      </ol>
-      <br>
-      <span style="font-weight: bold;">27.2, 27.3:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Video
-playback on some sites is problematic</span><br>
-On some sites, video playback is problematic. This is generally caused
-by Media Source Extensions being in use. While we are working on
-aligning this to the spec and behavior of other browsers, some sites
-may still cause issues, like refusal to play, video/audio de-sync, or
-other issues that prevent proper playback of video in the web browser.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(255, 102, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> in
-Options -&gt; Content, try disabling Media Source Extensions<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed for
-MP4 (default settings) in v27.4</li>
-      </ol>
-      <span style="font-weight: bold;">27.1:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Hangs
-may occur on media-heavy sites like Facebook and YouTube</span><br>
-On some machine/operating system combinations, the browser may hang
-when using media-heavy sites like Facebook and YouTube. This is
-especially likely on those systems if you switch away from the site for
-a time, then return to the tab of the site. Forcefully closing the Pale
-Moon process may be the only way to recover.<br>
-This is a rather complex bug in the media back-end (mostly because
-media playback is asynchronous and uses multiple threads).<br>
-          <span style="font-weight: bold;">Potential workarounds</span>:
-using a tab unloader extension like BarTab, disabling autoplay of
-videos, closing the tab when you're done with the site and reloading
-the site when you want to check it next.<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><span
- style="font-weight: bold; color: rgb(204, 102, 0);"></span><br>
-          <span style="font-weight: bold;">Timeline</span>:
-v27.2.0 has all but eliminated the offending code, and these deadlocks
-should no longer occur.<br>
-          <span style="font-weight: bold; color: rgb(51, 51, 153);"></span></li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
-Moon may crash on pages with multiple auto-playing videos<br>
-          </span>This is caused by an issue in the new media code we
-introduced currently not handling rapid starting/stopping and
-concurrent playing of multiple videos well. This may in some cases also
-cause a hard hang or lock-up of the browser.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(153, 153, 0);"></span></span><span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br
- style="font-weight: bold;">
-          <span style="font-weight: bold;">Workaround:</span> Set <span
- style="font-style: italic;">media.autoplay.enabled</span> and <span
- style="font-style: italic;">media.autoplay.allowscripted</span> to <span
- style="font-style: italic;">false</span> in <span
- style="color: rgb(51, 51, 255);">about:config</span> and restart the
-browser. This will stop the crashes, but obviously also prevent
-auto-play of videos on pages.<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-27.1.1.</li>
-      </ol>
-      <span style="font-weight: bold;">27.0:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Twitch.tv
-doesn't work</span><br>
-Pale Moon 27.0.0 is unable to play twitch.tv videos. This is a problem
-with the added MSE routines and continued work on media playback
-changes.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Go to
-Options -&gt; Content, and uncheck "Enable Media Source Extensions
-(MSE)"<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-27.0.1<br>
-        </li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
-upgrading some tabs' content doesn't want to load</span><br>
-On some systems, the contents of a portion of automatically restored
-session tabs doesn't want to load when clicked and needs a manual
-reconfirmation of the URL. This is caused by a combination of things
-happening with the one-time profile migration with the upgrade to 27.<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span>
-Please see <a
- href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
-for a workaround to solve the session store problem.<br>
-          <span style="font-weight: bold;">Timeline:</span> Fixed in
-27.0.3</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">Pale
-Moon x64 refuses to install on Windows Vista</span><br>
-This is due to an incorrect check that came across from the Mozilla
-platform when we updated it for v27.<br>
-Confusingly, it will tell the user that it requires Windows Vista x64
-(while the check requires at least Windows 7)<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(0, 153, 0);">[Fixed]</span></span><br>
-          <span style="font-weight: bold;">Workaround:</span> Install
-the 32-bit version<br>
-          <span style="font-weight: bold;">Workaround (alternative):</span>
-Install from the ZIP archive<br>
-          <span style="font-weight: bold;"></span><span
- style="font-weight: bold;">Timeline:</span> Fixed in 27.1.0</li>
-      </ol>
-      <span style="font-weight: bold;">27.*:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
-upgrading from v26 and earlier to v27, stored passwords are missing</span><br>
-If you have previously copied a (newer) Firefox profile to Pale Moon
-that already uses the new password storage format, and this was
-previously converted from the older format, then it's possible that
-Pale Moon 27 will not convert your stored passwords properly (because a
-new storage file already exists).<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
-          <br>
-Please see <a
- href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
-for steps to recover from this situation.</li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">After
-upgrading to v27 from a localized browser setup, it will not start</span><br>
-If you get a small window with an XML parsing error instead of the
-normal browser interface, your language pack was not properly disabled
-as it should. V26 language packs are not compatible with v27 and will
-prevent the browser from starting.<br>
-          <span style="font-weight: bold;">Status</span>: <span
- style="font-weight: bold; color: rgb(140, 121, 98);">[Workaround]</span>
-          <br>
-Please see <a
- href="https://forum.palemoon.org/viewtopic.php?f=24&amp;t=13804">this FAQ</a>
-for steps to recover from this situation.</li>
-      </ol>
-      <span style="font-weight: bold;">26.*:<br>
-      </span>
-      <ol>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">HTTPS
-proxies are not supported</span><br>
-We currently do not have support for encrypted connections to proxy
-servers.<br>
-          <span style="font-weight: bold;">Workaround:</span> If you
-need local-net encryption (untrusted local network) then you should use
-an encrypted VPN connection instead of a proxy server.<br>
-          <span style="font-weight: bold;">Status:</span> <span
- style="color: rgb(0, 102, 0);">Solved in v27</span>.<br>
-        </li>
-        <li><span style="font-weight: bold; color: rgb(51, 51, 153);">JavaScript
-"promises" are not supported</span><br>
-We currently do not support a spec-compliant version of so-called
-"promises" in JavaScript (part of ES6). As such, some sites that
-explicitly rely on this and that do not properly check for this feature
-or don't provide one of the many polyfills for it that are available on
-the server side, will fail to function properly (and in some cases even
-completely fail to display).<br>
-          <span style="font-weight: bold;">Fix:</span> Ask the website
-owners to include proper feature detection and a promises polyfill.<br>
-          <span style="font-weight: bold;">Workaround:</span> For some
-sites, our <a
- href="https://addons.palemoon.org/extensions/other/pm-promises/"
- target="_blank">promises injector extension</a>
-may work. Please note that fixing some sites with this may break other
-sites in turn (because the extension isn't implementing the entire
-spec, and
-properly-detecting sites will assume promises are fully available)<br>
-          <span style="font-weight: bold;">Status:</span> <span
- style="color: rgb(0, 102, 0);">Solved in v27</span>.</li>
-      </ol>
-      <br>
+      <span style="font-weight: bold;"></span><br>
 <!--#include virtual="nav/footerad.html" --> <br>
 <!--#include virtual="nav/footer.html" --> <br>
       </td>
