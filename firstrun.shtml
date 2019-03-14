@@ -65,7 +65,7 @@ to the news feed</a> of the announcements board.<br>
       </td>
     </tr>
     <tr>
-      <td class="center"><!--#include virtual="nav/footerad.html" --> <br>
+      <td class="center">
 <!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
