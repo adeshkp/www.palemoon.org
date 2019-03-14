@@ -157,10 +157,8 @@ and get a "second opinion" if you don't trust what you downloaded.<br>
 Pale Moon is forked from Firefox, and there are some significant
 differences between the two browsers. As such, Pale Moon has its own
 (exclusive) extensions that were specifically written for it, which
-should always work. In addition, Pale Moon also allows Firefox
-extensions to be installed, as long as these extensions are compatible
-with version 24 of Firefox (since that is the closest matching version
-from an add-on perspective). These Firefox extensions are not
+should always work. In addition, Pale Moon also allows "legacy" Firefox
+extensions to be installed. These Firefox extensions are not
 guaranteed to work, but in most cases can be made compatible with a few
 small alterations. This incompatibility can be caused by several
 different things, the most important:<br>
@@ -182,12 +180,13 @@ program to be called "firefox.exe" - a simple problem with a simple
 solution for the add-on programmers to implement. </li>
         <li>Use of components not present in Pale Moon: If an add-on
 tries to use components that are specifically excluded from Pale Moon
-(like accessibility features, ActiveX, parental controls) it will fail.</li>
+(like accessibility features, WebRTC, parental controls) it will fail.</li>
         <li>The extension was never written for our extension API level
 (e.g. Australis-only extensions).<br>
         </li>
       </ul>
-That being said, most add-ons do function without a hitch. Even so, you
+That being said, quite a few add-ons do function without a hitch. Even
+so, you
 are encouraged to check the <a href="https://addons.palemoon.org/">Pale
 Moon add-ons site</a> for Pale Moon specific add-ons or alternatives to
 what you are using if you suspect there may be a compatibility issue.<br>
@@ -210,18 +209,17 @@ Pale Moon is released as a US-English browser. If you prefer a
 different language for the User Interface, you can install a Pale Moon
 language pack and set your browser to use it.<br>
 More information here: <a
- href="http://www.palemoon.org/langpacks.shtml">http://www.palemoon.org/langpacks.shtml</a><br>
+ href="https://addons.palemoon.org/language-packs/">https://addons.palemoon.org/language-packs/</a><br>
       <br>
       <a href="#top">[^ Top ^]</a><br>
       <br>
       <h3> <a name="How_do_I_update_Pale_Moon"
  id="How_do_I_update_Pale_Moon"></a>How do I update Pale Moon? </h3>
 Pale Moon has a built-in update checker. If you let Pale Moon
-automatically check for updates (which occurs every other day by
-default), you will be notified and given the option to download and
+automatically check for updates, you will be notified and given the
+option to download and
 install the later version from within the browser. You can also
-manually check and start the update from Pale Moon's Help -&gt; About
-dialog box.<br>
+manually check and start the update from Pale Moon's Help menu.<br>
       <br>
 To be informed more quickly of new releases, and stay updated with some
 other miscellaneous news related to Pale Moon and the Pale Moon web
@@ -239,9 +237,6 @@ Pale Moon): <a href="http://forum.palemoon.org/feed.php?f=1">http://forum.palemo
         </li>
         <li>You can also follow the <a
  href="https://twitter.com/palemoonbrowser">Twitter feed</a> </li>
-        <li>You can also like/follow the <a
- href="http://www.facebook.com/PaleMoonBrowser">Facebook page</a><br>
-        </li>
       </ol>
       <a href="https://twitter.com/palemoonbrowser"></a>To update Pale
 Moon manually, simply download the installer of the new version and run
@@ -265,22 +260,16 @@ Pale Moon has diverted significantly from its sibling, and has its own
 code, development path and future, independent of what the Mozilla
 Corporation does with Firefox.<br>
       <br>
-Firefox is created with one-size-fits-all in mind; Pale Moon is created
-with
-efficiency and user choice in mind. <span class="c3">These two
-approaches are mutually exclusive</span>, and result in some functions
-being present/absent in one browser but not the other, as well as
-different system requirements for either browser. Pale Moon also has a
-different set of goals as to what should be included in the browser and
-intended audience.<br>
-      <br>
-Pale Moon has a number of differences in the user interface and feature
-set to provide an as intuitive, predictable, logical and usable user
-interface as possible for the best user experience. Additional and
-removed features are, of course, specific to Pale Moon, meaning you may
-find some different way of working Pale Moon than what you are used to
-from other browsers, and some features or options not found in other
-browsers at all.<br>
+Starting with v28 of Pale Moon, it is also using an
+independently-maintained platform to build on, called UXP. This
+platform focuses heavily on the XUL interface language and its unique
+features, and continues and expands on the
+platform-for-many-applications premise behind what has always been
+Mozilla's strength. Mozilla, on the other hand, has moved to a singular
+product in Firefox and is working on removing XUL-technologies from it.
+This makes for a rapidly-increasing gap in how similar both browsers
+are and it's been long since past the point already where they should
+be directly compared.<br>
       <br>
 Note that Pale Moon will <span class="c4">never</span> adopt the
 Australis (Firefox 29 and later) interface and aims to remain a fully
@@ -290,8 +279,9 @@ Also please note that Pale Moon has not run rampant with its releases
 and even though there is a big gap in version number between the two,
 you should never assume Pale Moon is somehow an "outdated Firefox".
 Pale Moon is a completely separate product with its own roadmap,
-direction, versioning and release schedule, unlike all other
-"Firefox-based" browsers out there.<br>
+direction, versioning and release schedule, unlike other
+"Firefox-based" browsers out there that are primarily re-builds of a
+stock Mozilla Firefox.<br>
       <br>
       <a href="#top">[^ Top ^]</a><br>
       <br>
@@ -305,7 +295,9 @@ best for you. In general, Pale Moon aims to be full-featured, but
 without compromise to efficient resource/hardware use. <span class="c5">It
 doesn't necessarily aim to be a lightweight browser</span>,
 but seems to achieve that goal in some circumstances as a side effect.
-Overall, comparison between browsers would put Pale Moon in a similar
+Pale Moon also targets modern hardware, and may not run particularly
+well if your computer is beyond its normal usage life. Overall,
+comparison between browsers would put Pale Moon in a similar
 position to Firefox since it it has its roots in the same rendering and
 scripting
 engines. Goanna is a fork of Gecko, and they both use *Monkey-based

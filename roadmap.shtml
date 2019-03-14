@@ -366,28 +366,6 @@ experience on the Pale Moon Start page with customizability of
 shortcuts and localized content. This went live in the first quarter of
 2015 and will remain the offered start page solution of choice for the
 foreseeable future.<br>
-      <h4> Pale Moon add-on site services </h4>
-      <p> The <strong>second generation</strong> add-on site will be
-one that has been created from the ground up to serve the Pale Moon
-project and community. This incarnation will take a protracted period
-of time to materialize and planning is still in the most preliminary of
-stages. </p>
-      <p> However, broad goals for the second generation site is to try
-and replicate core functionality from Mozilla's Add-on Site including: </p>
-      <ul>
-        <li>Accounting system </li>
-        <li>Self-publishing and management of add-ons by add-on
-developers </li>
-        <li>Proper integration of all add-on site services including
-those for the add-on manager </li>
-        <li>All features from first generation add-on site </li>
-      </ul>
-      <p> The add-ons site is in a state of constant refinement and
-development as such we have set up a <a
- href="http://forum.palemoon.org/viewtopic.php?f=44&amp;t=6144"
- target="_blank">forum thread</a> and <a
- href="https://addons.palemoon.org/announcements/" target="_blank">page</a>
-for announcements and updates pertaining to the add-ons site. </p>
       <br>
 <!--#include virtual="nav/footerad.html" --> <br>
 <!--#include virtual="nav/footer.html" --> <br>
