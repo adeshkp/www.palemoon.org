@@ -18,7 +18,7 @@
   <meta content="http://www.palemoon.org/images/pale_moon_logo_256.png"
  name="og:image">
   <style type="text/css">
-    #socialbar img {border:0px;}
+    #socialbar img {z-index: 600; border:0px;}
     #socialbar li img {width:48px; height:48px;}
     #socialbar li a:hover {position:relative;right:5px;}
     #socialbar {list-style: none outside none; padding: 0px; margin:0px; position: fixed; top: 2px; right: 3px;}
@@ -64,25 +64,6 @@ img.c1 {
 }
 
   </style>
-  <style>
-#OKjbdp99tsfsf {
-display: none;
-margin-bottom: 15px;
-margin-left: 50px;
-margin-right: 50px;
-padding: 10px 5px;
-background: #800000;
-text-align: center;
-color: #ffffff;
-border-radius: 5px;
-}
-#OKjbdp99tsfsf > a {
-color: #ffffd0;
-}
-#abclosebutton {
-float:left;
-}
-  </style>
 </head>
 <body class="index">
 <script src="pagefunctions.js" type="text/javascript"></script>
@@ -99,7 +80,14 @@ float:left;
       </td>
     </tr>
     <tr>
-      <td style="padding-top: 1em;" valign="top"> Pale Moon is an Open
+      <td style="padding-top: 1em;" valign="top">
+      <div style="text-align: center;"><img
+ style="width: 400px; height: 96px;" alt="Pale Moon"
+ src="images/PaleMoon-text.png"><img
+ style="margin: 10px 0px; width: 342px; height: 43px;"
+ alt="Your browser, Your way" src="images/PaleMoon-ybyw-text.png"><br>
+      </div>
+Pale Moon is an Open
 Source,
 Goanna-based web
 browser available for Microsoft Windows and

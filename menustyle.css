@@ -8,19 +8,17 @@
 	width: 100%;
 	padding: 0;
 	position: relative;
-	z-index: 100;
+	z-index: 500;
+	border: none;
 }
 
 .mainmenu ul {
-	float: left;
 	width: 100%;
 	list-style: none;
 	line-height: 1;
 	color:#FFFFFF;
 	background: #5272A1;
 	padding: 0;
-	border: solid #A0A0A4;
-	border-width: 1px 0;
 	margin: 0 0 0 0;
 
    filter:alpha(opacity=97);
@@ -123,7 +121,7 @@
 .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
 {
 	background: #004B97;
-	z-index:9999;
+	z-index: 501;
 }
 .mainmenu li li:hover a,.mainmenu li li li:hover a, 
 .mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
