@@ -18,7 +18,7 @@ body {
 }
 
 body.index {
-  /* background: linear-gradient(to bottom, #d4d9f7 0%, #abafea 31%, #999ee8 100%); */
+  background-color: #BCCADA;
   background-image: url(images/PaleMoon-fade.jpg);
   background-position: top center;
 }
