@@ -33,15 +33,4 @@ function ShowContent(d) {
   document.getElementById(d).style.display = "block";
 }
 
-function dismissab() {
-  createCookie('dismissab','OK',14);
-  HideContent('OKjbdp99tsfsf');
-}
-
 // init
-var dab = readCookie('dismissab');
-if (dab == undefined) {
-  if(!document.getElementById('uhYVeDaWErr')){
-    ShowContent('OKjbdp99tsfsf');
-  }
-}
