@@ -29,25 +29,23 @@
       <td style="vertical-align: top;">
       <h1>Pale Moon Sync service</h1>
       <h2 id="w_how-do-i-add-a-device">How do I manage my recovery key?</h2>
-      <p>The <span class="for" data-for="fx9">Recovery Key</span> is
+      <p>The Recovery Key is
 used to encrypt your data before it's sent to the Pale Moon Sync
 server. Think of it as a key that locks your information in a vault
 that only you can open. This means that neither we nor anyone else can
-read your information without having your <span class="for"
- data-for="fx9">Recovery Key</span> to unlock it. </p>
+read your information without having your Recovery Key to unlock it. </p>
       <h2>Where can I find the recovery key?</h2>
       <p>To find your Recovery Key, complete the following steps in
 Pale Moon on a computer that already has your Sync account set up. If
 you don't have any synced devices close to you, see <strong>I've lost
 my Recovery Key</strong> below. </p>
       <ol>
-        <li> <span class="for" data-for="win7,win8">At the top of the
-Pale Moon window, click on the Pale Moon<span class="button"></span>
-button and then select <span class="menu">Preferences.<br>
-In the classic menu, select Tools and then Preferences.<br>
-          </span></span> </li>
-        <li> Select the <span class="menu">Sync</span> panel. </li>
-        <li> Click <span class="button">Manage Account</span> and then
+        <li> At the top of the
+Pale Moon window, click on the Pale Moon
+button and then select Preferences.<br>
+In the classic menu, select Tools and then Preferences.</li>
+        <li> Select the Sync panel. </li>
+        <li> Click Manage Account and then
 select <strong>My Recovery Key</strong>.<br>
           <div style="text-align: center;"><img
  style="width: 536px; height: 553px;" alt="Screenshot"
@@ -71,15 +69,13 @@ all of your data stored on the server. New data will be secured by this
 key and then uploaded. Your other devices will stop syncing, unless you
 update them with the new Recovery Key.</div>
       <ol>
-        <li><span class="for" data-for="win">At the top of the Pale
-Moon window, click on the P<span class="button">ale Moon</span> button (<span
- class="menu">or the Tools</span> menu in the classic menu) and then
-select Preferences</span> </li>
-        <li> Click on the <span class="menu">Sync</span> panel. </li>
-        <li> Click <span style="font-style: italic;" class="button">Set
+        <li>At the top of the Pale
+Moon window, click on the Pale Moon button (or the Tools menu in the
+classic menu) and then select Preferences.</li>
+        <li> Click on the Sync panel. </li>
+        <li> Click <span style="font-style: italic;">Set
 up Pale Moon Sync</span> and a new window will open. </li>
-        <li>Click <em>I already have a Pale Moon Sync account</em>.<span
- class="button"></span> </li>
+        <li>Click <em>I already have a Pale Moon Sync account</em>.</li>
         <li> Click <strong>I don't have the device with me</strong>. </li>
         <li> Enter your account email address and password, but <span
  style="font-weight: bold;">do not</span> click Next<br>
@@ -89,10 +85,9 @@ and a new Recovery Key will be made for you.<br>
           <strong>Tip:</strong> It's a good idea to print or save your
 Recovery Key so that you can access your information even when you are
 away from this computer. </li>
-        <li> Then click <span class="button">Change Recovery Key</span>.
+        <li> Then click Change Recovery Key.
 You will see the Setup Complete screen. </li>
-        <li> Click <span class="for" data-for="win,linux"><span
- class="button">Finish</span></span> to close the setup window. </li>
+        <li> Click Finish to close the setup window. </li>
       </ol>
       <br>
       </td>

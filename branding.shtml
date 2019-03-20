@@ -1,154 +1,167 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-
-
-
-
-
-  
-    <meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Pale Moon branding information</title><!-- Keep the http-equiv meta tag for IE8 -->
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="menustyle.css">
-    <link rel="stylesheet" type="text/css" media="screen,projection" href="pagestyle.css">
-    <meta content="Moonchild" name="author">
-    <meta content="Branding information and promotional material" name="description">
-    <style type="text/css">
-    img.c8 {width: 300px; height: 256px;}
-    img.c7 {width: 673px; height: 128px;}
-    img.c6 {width: 128px; height: 128px;}
-    </style></head><body>
-    <table class="maintable" align="center" border="0" cellpadding="0" cellspacing="0">
-      <tbody>
-        <tr>
-          <th class="subpageheader">
-          </th>
-        </tr>
-        <tr align="left">
-          <td class="pagemenu">
-            <!--#include virtual="nav/menu.html" --><br>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h1>
-              Pale Moon branding and promotional material<br>
-            </h1>
-            <h3>
-              About the brand and copyright<br>
-            </h3>The
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Pale Moon branding information</title>
+<!-- Keep the http-equiv meta tag for IE8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="menustyle.css">
+  <link rel="stylesheet" type="text/css" media="screen,projection"
+ href="pagestyle.css">
+  <meta content="Moonchild" name="author">
+  <meta
+ content="Pale Moon branding information and promotional material"
+ name="description">
+</head>
+<body>
+<table class="maintable" align="center" border="0" cellpadding="0"
+ cellspacing="0">
+  <tbody>
+    <tr>
+      <th class="subpageheader"> <br>
+      </th>
+    </tr>
+    <tr align="left">
+      <td class="pagemenu"><!--#include virtual="nav/menu.html" --> <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h1> Pale Moon branding and promotional material<br>
+      </h1>
+      <h3> About the brand and copyright<br>
+      </h3>
+The
 Pale Moon branding, logo, and project/product names are the
 Intellectual Property of M.C. Straver, the owner and lead developer of
 the project. Pale Moon and the phrase "Your browser, Your way" are
 Trademarks ™ for the web browser and the usage rights of the name and
 logo are reserved by the owner.<br>
-            All graphics related to it are author-rights protected, meaning as a general rule you are not allowed to
-            use it without permission. However, to allow people to promote the browser and brand, these ownership
-            rights are usually not enforced when used to refer to the Pale Moon browser on other sites and locations.<br>
-            <br>
-            This means that for clarity, this page attempts to explain where the line is drawn, insofar as common sense
-            would not already dictate.<br>
-            <br>
-            <h3>
-              DOs and DON'Ts
-            </h3>Perhaps the simplest way to set the general usage guidelines for the branding and logo is by listing a
-            few things you can do and a few things you cannot do. These are examples and by no means definitive or
-            all-inclusive. If you have any doubts about the use of the logo or branding/name in a certain context,
-            please do get in touch to discuss potential usage <span class="italic">before</span> it is published,
-            thanks.<br>
-            <br>
-            <span class="bold">DOs: You <span class="darkgreen">are allowed</span> to:</span><br>
-            <ul>
-              <li>Use the Pale Moon name and logo on your own website if it refers directly to the browser. This
-              includes use on software portals, etc.
-              </li>
-              <li>Use the Pale Moon name and logo to promote the browser on your own web properties, as long as
-              you:<br>
-                - Make clear you are not an official agent of Pale Moon, <span class="bold">or</span><br>
-                - Only promote Pale Moon when following the guidelines below, <span class="bold">or</span><br>
-                - Discuss the promotion with me and are given permission to promote in a different way.
-              </li>
-              <li>Redistribute the officially-branded browser as long as you adhere to the <a href="/redist.shtml">redistribution license.</a>
-              </li>
-              <li>Redistribute your own build of the browser that does not carry the official name and logo (unofficial
-              branding is included in the source for you to use freely).
-              </li>
-            </ul><span class="bold">DON'Ts: You <span class="darkred">are not allowed</span> to:</span><br>
-            <ul>
-              <li>Use the Pale Moon name or logo on your own website when it does not directly refer to the browser or
-              the project.
-              </li>
-              <li>Claim the Pale Moon name, house style or logo for your own project(s) or use it for your own
-              purposes.</li>
+All graphics related to it are author-rights protected, meaning as a
+general rule you are not allowed to use it without permission. However,
+to allow people to promote the browser and brand, these ownership
+rights are usually not enforced when used to refer to the Pale Moon
+browser on other sites and locations.<br>
+      <br>
+This means that for clarity, this page attempts to explain where the
+line is drawn, insofar as common sense would not already dictate.<br>
+      <br>
+      <h3> DOs and DON'Ts </h3>
+Perhaps the simplest way to set the general usage guidelines for the
+branding and logo is by listing a few things you can do and a few
+things you cannot do. These are examples and by no means definitive or
+all-inclusive. If you have any doubts about the use of the logo or
+branding/name in a certain context, please do get in touch to discuss
+potential usage <span class="italic">before</span> it is published,
+thanks.<br>
+      <br>
+      <span class="bold">DOs: You <span class="darkgreen">are allowed</span>
+to:</span><br>
+      <ul>
+        <li>Use the Pale Moon name and logo on your own website if it
+refers directly to the browser. This includes use on software portals,
+etc. </li>
+        <li>Use the Pale Moon name and logo to promote the browser on
+your own web properties, as long as you:<br>
+- Make clear you are not an official agent of Pale Moon, <span
+ class="bold">or</span><br>
+- Only promote Pale Moon when following the guidelines below, <span
+ class="bold">or</span><br>
+- Discuss the promotion with me and are given permission to promote in
+a different way. </li>
+        <li>Redistribute the officially-branded browser as long as you
+adhere to the <a href="/redist.shtml">redistribution license.</a> </li>
+        <li>Redistribute your own build of the browser that does not
+carry the official name and logo (unofficial branding is included in
+the source for you to use freely). </li>
+      </ul>
+      <span class="bold">DON'Ts: You <span class="darkred">are not
+allowed</span> to:</span><br>
+      <ul>
+        <li>Use the Pale Moon name or logo on your own website when it
+does not directly refer to the browser or the project. </li>
+        <li>Claim the Pale Moon name, house style or logo for your own
+project(s) or use it for your own purposes.</li>
         <li>Use the trademarked slogan/catch-phrase "Your browser, Your
 way" for competitive products. It is a defining statement for our
 browser and as long as it is actively used in accordance with common
 trademark practice, you should not use it for your own project or
-product, even if such a product would be derived from Pale Moon source code.<br>
+product, even if such a product would be derived from Pale Moon source
+code.<br>
         </li>
-
-              <li>Change the style or colors of the logo or wordmark, or make derivative works.
-              </li>
-              <li>Overlay the logo with other words, icons or logos, including but not limited to site names or URLs,
-              watermarks, copyright statements or third-party logos.
-              </li>
-              <li>Use the Pale Moon name, logo, or web presence for direct commercial purposes (e.g. don't try to sell
-              Pale Moon branded merchandise).
-              </li>
-              <li>Build and distribute an officially-branded version of Pale Moon that has not been approved as such as
-              a third-party build or specifically exempt from approval.
-              </li>
-            </ul><br>
-            <h3>
-              Promotional use of the Pale Moon name and/or logo
-            </h3>As outlined above, you are allowed to use the Pale Moon™ brand name and/or logo for promotional
-            purposes for the browser.<br>
-            <br>
-            Guidelines for use:<br>
-            <ul>
-              <li>Preferred use of the logo is as a whole (round) logo, with optionally the wordmark ("Pale Moon") to
-              the right of it (as on the website) or in smaller font, width-matched, immediately below it (as in
-              about:logo).
-              </li>
-              <li>The logo should be displayed in its full color depth and original colors.<br>
-              </li>
-              <li>Alternative use is the top 1/3 to 1/2 of the logo as design permits or desires.
-              </li>
-              <li>The wordmark should be displayed in the chosen font (Museo, preferably Museo 500) and with one of the
-              two preferred colors (#17109E or #244C8A) although small variations are permitted to cater to your page
-              design. Museo 500 is a freely available web font (no-cost license).
-              </li>
-              <li>The name is "Pale Moon", not "Palemoon", "PaleMoon", "Pale-moon", "pale moon" or "palemoon". Please
-              use the proper, 2-word, capitalized form.
-              </li>
-              <li>Using
+        <li>Change the style or colors of the logo or wordmark, or make
+derivative works. </li>
+        <li>Overlay the logo with other words, icons or logos,
+including but not limited to site names or URLs, watermarks, copyright
+statements or third-party logos. </li>
+        <li>Use the Pale Moon name, logo, or web presence for direct
+commercial purposes (e.g. don't try to sell Pale Moon branded
+merchandise). </li>
+        <li>Build and distribute an officially-branded version of Pale
+Moon that has not been approved as such as a third-party build or
+specifically exempt from approval. </li>
+      </ul>
+      <br>
+      <h3> Promotional use of the Pale Moon name and/or logo </h3>
+As outlined above, you are allowed to use the Pale Moon™ brand name
+and/or logo for promotional purposes for the browser.<br>
+      <br>
+Guidelines for use:<br>
+      <ul>
+        <li>Preferred use of the logo is as a whole (round) logo, with
+optionally the wordmark ("Pale Moon") to the right of it (as on the
+website) or in smaller font, width-matched, immediately below it (as in
+about:logo). </li>
+        <li>The logo should be displayed in its full color depth and
+original colors.<br>
+        </li>
+        <li>Alternative use is the top 1/3 to 1/2 of the logo as design
+permits or desires. </li>
+        <li>The wordmark should be displayed in the chosen font (Museo,
+preferably Museo 500) and with one of the two preferred colors (#17109E
+or #244C8A) although small variations are permitted to cater to your
+page design. Museo 500 is a freely available web font (no-cost
+license). </li>
+        <li>The name is "Pale Moon", not "Palemoon", "PaleMoon",
+"Pale-moon", "pale moon" or "palemoon". Please use the proper, 2-word,
+capitalized form. </li>
+        <li>Using
 custom promotional slogans or catch phrases in relation to the browser
 without clearing those with the owner first is strongly discouraged, to
 prevent potentially undesired impressions to the public or conflicts
 with other products. If you wish to use a custom slogan/catch phrase in
 relation to the browser, that has not been officially published before,
 then please get in touch with the owner before publication to discuss.</li>
-              <li>In general, it is not customary or required to include the Trademark ™ symbol when mentioning Pale
-              Moon. For official documents it is, however, encouraged.<br>
-              </li>
-            </ul><span class="bold">Promotional media and examples:</span><br>
-            <br>
-            Logo<br>
-            <img class="c6" alt="" src="images/branding/logo128.png"><br>
-            ZIP with various sizes: <a href="images/branding/official-logo.zip">[Download]</a><br>
-            <br>
-            Logo + wordmark (to the right in #17109E)<br>
-            <img class="c7" alt="" src="images/branding/pale_moon_logo_wordmark_128.png"><br>
-      <br>1/2 Logo + wordmark + slogan (to the right in #17109E)<br>
-      <img style="width: 728px; height: 152px;" alt="" src="images/branding/header-half-ybyw.png"><br>
-            <br>
-            Logo + wordmark (below in #244C8A)<br>
-            <img class="c8" alt="" src="images/branding/about-logo.png"><br>
-            <br>
-            <!--#include virtual="nav/footer.html" -->
-          </td>
-        </tr>
-      </tbody>
-    </table><br>
-    <br>
-  </body></html>
+        <li>In general, it is not customary or required to include the
+Trademark ™ symbol when mentioning Pale Moon. For official documents it
+is, however, encouraged.<br>
+        </li>
+      </ul>
+      <span class="bold">Promotional media and examples:</span><br>
+      <br>
+Logo<br>
+      <img style="width: 128px; height: 128px;" alt=""
+ src="images/branding/logo128.png"><br>
+ZIP with various sizes: <a href="images/branding/official-logo.zip">[Download]</a><br>
+      <br>
+Logo + wordmark (to the right in #17109E)<br>
+      <img style="width: 673px; height: 128px;" alt=""
+ src="images/branding/pale_moon_logo_wordmark_128.png"><br>
+      <br>
+1/2 Logo + wordmark + slogan (to the right in #17109E)<br>
+      <img style="width: 728px; height: 152px;" alt=""
+ src="images/branding/header-half-ybyw.png"><br>
+      <br>
+Logo + wordmark (below in #244C8A)<br>
+      <img style="width: 300px; height: 256px;" alt=""
+ src="images/branding/about-logo.png"><br>
+      <br>
+<!--#include virtual="nav/footer.html" --> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>

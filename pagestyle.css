@@ -27,6 +27,7 @@ h1 {
   font-family: "Museo300Regular","Times New Roman",Times,serif;
   font-size: 20.5pt;
   color: #000066;
+  margin: 0.5em auto;
 }
 
 h2.faq {
@@ -54,7 +55,7 @@ a:hover {
   box-shadow: 2px 2px 8px #333;
   border-radius: 9px;
   padding: 3px;
-  background-color: rgba(249, 249, 249, 1);
+  background-color: rgb(249, 249, 249);
   color: black;
 }
 
@@ -191,7 +192,7 @@ pre {
   background-image: url("images/windows_flag.png"),
                     linear-gradient(to bottom, #4040F0, #8080F0);
   background-repeat: no-repeat;
-  background-position: top 4px left 2px, top left;
+  background-position: top 4px left 8px, top left;
 }
 
 .dllink_linux,
