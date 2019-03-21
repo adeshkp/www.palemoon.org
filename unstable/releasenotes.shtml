@@ -122,6 +122,20 @@ compliance).<br>
         <li>Redesigned the about box.</li>
         <li>Fixed arrow images on some controls.</li>
         <li>Fixed an issue on big-endian machines (e.g. PPC64/linux).</li>
+        <li>Removed e10s code from widgets.</li>
+        <li>Preffed the various http "Accept" headers and aligned with
+the Fetch spec (except for image requests).</li>
+        <li>Changed subresource loading to prevent FTP as a protocol.</li>
+        <li>Disabled Microsoft Family Safety support (Win 8.1) by
+default (promotes MitM of secure connections, making them insecure).</li>
+        <li>Aligned <code>URLSearchParams</code> with the spec.</li>
+        <li>Updated several site-specific UA overrides.</li>
+        <li>Fixed "Yet Another special case of a flex frame being the
+absolute containing block"™</li>
+        <li>Fixed border drawing when the tab bar is hidden.</li>
+        <li>Pref-controlled and disabled the use of unboxed plain
+objects in JavaScript's JIT compiler.<br>
+        </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
