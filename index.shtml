@@ -41,7 +41,7 @@ td.sidebar {
   vertical-align: top;
   padding-top: 1em;
 }
-</style>
+  </style>
 </head>
 <body class="index">
 <script src="pagefunctions.js" type="text/javascript"></script>
@@ -50,7 +50,8 @@ td.sidebar {
   <tbody>
     <tr>
       <th style="text-align: center;" class="maintableheader"
- colspan="2"></th>
+ colspan="2"><br>
+      </th>
     </tr>
     <tr align="left">
       <td colspan="2" class="pagemenu"><!--#include virtual="nav/menu.html" -->
@@ -58,8 +59,10 @@ td.sidebar {
       </td>
     </tr>
     <tr>
-      <td valign="top"><h1>Welcome to Pale Moon <span style="font-size: 12pt !important;">&ndash; Your browser, Your way</span></h1>
- Pale Moon is an Open
+      <td valign="top">
+      <h1>Welcome to Pale Moon <span
+ style="font-size: 12pt ! important;">– Your browser, Your way</span></h1>
+Pale Moon is an Open
 Source,
 Goanna-based web
 browser available for Microsoft Windows and
@@ -95,13 +98,16 @@ download menu at the top of this page!<br>
         <li>Optimized for modern processors</li>
         <li>Based on our own optimized layout engine (Goanna)<br>
         </li>
-        <li>Safe: forked from mature Mozilla code and regularly updated</li>
+        <li>Safe: forked from mature Mozilla code and regularly updated
+with the latest security patches<br>
+        </li>
         <li>Secure: Additional security features and security-aware
 development<br>
         </li>
         <li>Supported by our user community, and fully non-profit<br>
         </li>
-        <li>Familiar, efficient, fully customizable interface </li>
+        <li>Familiar, efficient, fully customizable interface<br>
+        </li>
         <li>Support for full themes: total freedom over any element's
 design </li>
         <li>Support for easily-created lightweight themes (skins)<br>
@@ -115,8 +121,6 @@ design </li>
 extensions<br>
         </li>
         <li>Extensive and growing support for existing web standards<br>
-        </li>
-        <li>Many customization and configuration options<br>
         </li>
       </ul>
       <br>
@@ -149,8 +153,8 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>19 Feb 2019</small></small><br>
-Pale Moon 28.4.0 has been released.</span> This is a major development,
+            <span class="bold"><small><small>27 Mar 2019</small></small><br>
+Pale Moon 28.4.1 has been released.</span> This is a development,
 stability and security release. More
 information in the <a href="releasenotes.shtml">release notes</a>!<br>
             <br>
@@ -224,19 +228,18 @@ technologies:<br>
       </span></small> <a
  href="http://moonchildproductions.info/goanna.shtml"><img
  title="Powered by Goanna!"
- style="border: 0px solid; margin: 0px 2px; width: 200px; height: 66px;"
- src="images/goanna200x66.png" alt="Goanna" align="top"></a>
-      <a href="https://www.vpsserver.com/" target="_blank"><img
+ style="border: 0px solid ; margin: 0px 2px; width: 200px; height: 66px;"
+ src="images/goanna200x66.png" alt="Goanna" align="top"></a> <a
+ href="https://www.vpsserver.com/" target="_blank"><img
  title="VPS Servers"
- style="border: 0px solid; margin: 0px 2px; width: 250px; height: 61px;"
- src="images/vpsserver.png" 
- alt="VPSserver.com - VPS servers"></a>
-      <a href="https://engineforex.com/" target="_blank"><img
- style="border: 0px solid; margin: 0px 2px; width: 250px; height: 60px;"
+ style="border: 0px solid ; margin: 0px 2px; width: 250px; height: 61px;"
+ src="images/vpsserver.png" alt="VPSserver.com - VPS servers"></a> <a
+ href="https://engineforex.com/" target="_blank"><img
+ style="border: 0px solid ; margin: 0px 2px; width: 250px; height: 60px;"
  title="engineforex.com" src="images/Engine-Forex-Logo-250x60.png"
- alt="engineforex.com"></a><a
- href="https://www.promocodewatch.com/" target="_blank"><img
- style="border: 0px solid; margin: 0px 2px; width: 257px; height: 60px;"
+ alt="engineforex.com"></a><a href="https://www.promocodewatch.com/"
+ target="_blank"><img
+ style="border: 0px solid ; margin: 0px 2px; width: 257px; height: 60px;"
  title="PromoCodeWatch" src="images/PCW-logo-257x60.png"
  alt="PromoCodeWatch"></a> </div>
       </td>
