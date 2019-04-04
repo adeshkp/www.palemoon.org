@@ -134,7 +134,11 @@ default (promotes MitM of secure connections, making them insecure).</li>
 absolute containing block"™</li>
         <li>Fixed border drawing when the tab bar is hidden.</li>
         <li>Pref-controlled and disabled the use of unboxed plain
-objects in JavaScript's JIT compiler.<br>
+objects in JavaScript's JIT compiler.</li>
+        <li>Cleaned up the code dealing with helper
+applications/associations.</li>
+        <li>Improved handling of interrupted connections through
+proxies and pseudo-VPN extensions.<br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
