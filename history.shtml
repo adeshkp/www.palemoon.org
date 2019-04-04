@@ -156,27 +156,124 @@ code to be compatible with a much more JavaScript-heavy web. Many
 individual developments took place on v27, including an almost complete
 rewrite of the media back-end and many changes and improvements of the
 JavaScript engine to implement the many points of the (massive)
-specification called ECMAScript v6. Despite the efforts in that field,
-Tycho took a transitional position in the end due to the fact that
+specification called ECMAScript v6.<br>
+      <br>
+When we created Tycho (Pale Moon 27) from a hybrid of our own
+independent development being ported to a platform base of ESR38 plus
+the Pale Moon 24-26 application code, completely bypassing and removing
+the "native" Firefox application code that came with the esr38 tree, we
+expected that would be the last time we would do such a thing. We had a
+good foundation and retained 1:0.975 of Pale Moon as an application.<br>
+      <br>
+The reason we expected Tycho to be the last time was because by the
+next ESR Mozilla had planned to destroy enough of itself that the
+foundational technologies such as XUL, XBL, XPCOM would be a shadow of
+their former selves if not changed to a degree that was simply
+unuseable to anyone outside of MozCo, or simply gone and tossed into
+the void.<br>
+      <br>
+Obviously, this wasn't the case when we (or they!) thought it would be.
+ESR45 was largely okay but it wasn't enough to justify a jump in our
+eyes since so much more development on Tycho had happened since,
+especially in the media subsystem. Why throw that away?<br>
+      <br>
+Well, Mozilla has been known to take forever to do things, and the
+rapid release schedule they've been on since Firefox 4.0 never changed
+that; it just increased the pace of immature code changed being shipped
+out to end users, and not much else. Surely, the next ESR would be too
+damaged to use right? So Tycho continued the way it was developing.<br>
+Enter Firefox ESR52: more destruction happened and more co-op of
+fundamental technologies happened, but also some good CSS and JS
+support of a significant nature was present. Still, we didn't want to
+throw Tycho away so we continued on, back porting and continuing
+forward with our own independent development.<br>
+      <br>
+Despite the efforts and investments in Tycho,
+it ultimately took on a transitional position due to the fact that
 certain landmark features could not be ported from Mozilla, making the
 browser lose some of its functional backbone required for a web
 landscape more and more built on limited, JS-heavy frameworks.<br>
       <br>
+      <h3>Interstitial: UXP and Basilisk</h3>
+Firefox Quantum happened, along with the end to Mozilla-style
+extensions (XUL/toolkit/overlay, bootstrap, and jetpack). This raised
+an issue... Mozilla had finally begun the final destruction of their
+technology. All of it was now fair game. On one hand we were glad they
+were finally doing it without any further pretense, but on the other
+hand we were saddened by the tragic destruction without even the
+thinnest of hopes left that they may change course and avert it.<br>
+      <br>
+Moonchild decided that the Quantum and general extension refugees
+deserved a browser that, unlike Pale Moon, would stay much closer to
+what they had then and there. An Australis Firefox drop-in replacement.
+Many of this second major wave of Mozilla refugees were less likely to
+fit into the Pale Moon box and just wanted a then-current-day Firefox.
+Of course, the surface garbage like pocket and other Mozilla Service
+tie-ins would be scraped off. This became <a
+ href="http://www.basilisk-browser.org/" target="_blank">Basilisk</a>.<br>
+      <br>
+With Basilisk came a platform, of course.<br>
+We knew we couldn't maintain two platform codebases in the long run, so
+the Möbius project started at the end of 2017, creating an independent
+application platform to be used as the basis for future
+Pale Moon versions and other XUL-based applications, called the Unified
+XUL Platform (UXP), with the intent to port Pale Moon to it as well
+just like we did with Tycho. However, in the meantime Basilisk and the
+Möbius platform needed to reach a polish level beyond Mozilla before
+that could happen.<br>
+      <br>
+Initially, we proceeded from a code standpoint of gecko/53 as a base,
+and backporting from 54 and 55 heavily. This is why Basilisk carried a
+Mozilla version number of 55 during that time. After some months,
+Basilisk was released but development continued.<br>
+      <br>
+With the dawn of 2018 came Tobin's resurgance in participation in the
+Pale Moon project, who previously conducted the primary vNext research
+that lead to inital porting up the line that helped make Tycho possible.<br>
+It was time to pull the same trick twice to bring Pale Moon to the new
+platform... but there was a problem! Unbeknownst to us, Mozilla had
+landed a refactoring storm of changes immediately after 52 that largely
+made the platform difficult to use, if not flat-out unuseable, for
+anything but Firefox (there were workarounds for SeaMonkey and
+Thunderbird in dev but even those had not been fully worked out yet).<br>
+      <br>
+This was game ending for Pale Moon that would either spell delays and
+potental busting of Pale Moon on some fundamental levels or just take
+much too long to reverse in the platform. We were stuck.<br>
+      <br>
+Taking a step back, Tobin checked Firefox ESR-52 and it <span
+ style="font-style: italic;">was</span> suitable, so the Take 2 plan
+for the Unified XUL Platform was drafted. UXP based on the Mozilla
+platform code at the Firefox ESR-52 level had several pros and cons.
+The cons were obvious: lose all the work we had already done with
+Basilisk and Möbius as well as more backporting work required to reach
+proper code maturity levels. The pros, however, were abundant and could
+not be ignored: If we <span style="font-style: italic;">were</span> to
+use the platform <span style="font-style: italic;">as a platform </span>we
+should use the most historically complete version of it that also
+matched current day platform code of other projects that would reach
+dead ends at Mozilla with Quantum. An additional pro was that Pale Moon
+as an application would work with standard porting strategies developed
+during vNext, without any major expected problems.<br>
+      <br>
+Take 2 was agreed on, and that is where we are today with Pale Moon,
+Basilisk, and the other allied and non-aligned UXP based projects.<br>
       <h3>v28+ era<br>
       </h3>
-At the close of 2017, the decision was made to start developing an
-independent application platform to be used as the basis for future
-Pale Moon versions and other XUL-based applications, called the Unified
-XUL Platform (UXP). Pale Moon's front-end (application code) was once
+Going from UXP Take 2, Pale Moon's front-end (application code) was
+once
 again adapted to a different platform to retain its customizability and
 ergonomics while supporting its core browsing features with Goanna 4.*
-and UXP. After a long and busy 9 months, including a re-forking on a
-different code point after 1.5 months when it became clear that the
-intended direction could not be followed using the partially
-rearchitectured Mozilla code (in preparation for their transition to
-Quantum and Rust components), August 2018 saw the first release of the
+and UXP. After a long and busy 9 months, August 2018 saw the first
+release of the
 new milestone of Pale Moon on UXP.<br>
       <br>
+Make no mistake though: this is it. There can never be another
+vNext/Tycho/Möbius type of forking situation of the Mozilla code. There
+isn't enough of the Mozilla technology left in the now fully
+Firefox-centric codebase. It isn't even a platform codebase for many
+apllications anymore. Not even a Firefox-first platform. There is just
+Firefox and nothing else, there.<br>
       <h2> Future directions </h2>
 With
 our independence in Pale Moon, the future of it is
@@ -185,6 +282,7 @@ extensions), a focus on
 desktop use, improving standards compliance and maintaining (and
 possibly extending) the flexibility of the XUL framework used to build
 the browser on.<br>
+      <br>
       <br>
 Pale Moon will also continue to support:<br>
       <ul>
