@@ -138,7 +138,48 @@ objects in JavaScript's JIT compiler.</li>
         <li>Cleaned up the code dealing with helper
 applications/associations.</li>
         <li>Improved handling of interrupted connections through
-proxies and pseudo-VPN extensions.<br>
+proxies and pseudo-VPN extensions.</li>
+        <li>Removed contextual identity.</li>
+        <li>Updated 7zip installer to a much more recent code version.</li>
+        <li>Fixed an issue with applying percentages to 0 in layout
+sizes.</li>
+        <li>Fixed an issue with calculating linear sums in JS JITed
+code.</li>
+        <li>Added default value feature to <code>get*Pref()</code>
+preference functions.</li>
+        <li>Fixed an issue that would occasionally overwrite the new
+tab custom URL.</li>
+        <li>Updated the SQLite library to 3.27.2</li>
+        <li>Killed the crashreporter toolkit files and exception
+handler hooks.</li>
+        <li>Fixed an issue with a missing border on the tab bar when on
+the bottom.</li>
+        <li>Fixed a crash with badly-formatted SVG files.</li>
+        <li>Showed the robots to the exit after squatting in the
+browser for decades.</li>
+        <li>Implemented TC39 toString() revision proposal.</li>
+        <li>Rearchitectured the JavaScript front-end parser to provide
+better and more logical parsing of JS code.</li>
+        <li>Removed support code and leftovers for unsupported SunOS,
+AIX, BEOS, HPUX and OS/2 operating systems.</li>
+        <li>Fixed a scrollbar arrow issue on OS X.</li>
+        <li>Removed all Firefox Accounts code.</li>
+        <li>Made the CSS parser more robust and aligned <code>url()</code>
+behavior with the CSS3 spec in case of bad input.</li>
+        <li>Fixed an issue with blocklist updates not actually
+dynamically applying due to a wrong URL.</li>
+        <li>Updated the embedded emoji font to the TweMoji v11.4.0
+equivalent.</li>
+        <li>Fixed an issue with async/deferred scripts preventing page
+loads from completing.</li>
+      </ul>
+      <ul>
+        <li>Removed SecurityUI telemetry.</li>
+        <li>Removed geo-specific selection of default search engines.</li>
+        <li>Rearchitectured the application/extension update code.</li>
+        <li>Fixed failure to print if a page contains a 0-sized <code>&lt;canvas&gt;</code>
+element.<br>
+          <br>
         </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
