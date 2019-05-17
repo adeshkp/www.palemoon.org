@@ -41,8 +41,6 @@ A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
         <li><a
  href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
 Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
-        <li><a href="http://www.kovacsoltvideo.hu/moonchildproductions">Pale
-Moon repacks for Debian and Ubuntu</a> by László Kovács.</li>
         <li><a
  href="https://copr.fedorainfracloud.org/coprs/bgstack15/palemoon/">Pale
 Moon COPR repositories for Fedora and CentOS</a> by bgstack15.<br>
@@ -119,7 +117,10 @@ build</a> by Walter Dnes.<br>
 A rebuild of Pale Moon from official source catering to particularly
 old processors that don't support SSE2.<br>
 This build has been discontinued with the advent of Pale Moon 28 and
-building on UXP.<br>
+building on UXP.</li>
+        <li><a href="http://www.kovacsoltvideo.hu/moonchildproductions">Pale
+Moon repacks for Debian and Ubuntu</a> by László Kovács.<br>
+No longer maintained - maintainer unresponsive to attempted contact.<br>
         </li>
       </ul>
       <div
