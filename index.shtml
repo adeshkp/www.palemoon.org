@@ -83,9 +83,9 @@ currently unavailable.
 Please find links to our most popular individual download pages,
 instead:<br>
       <br>
-      <div style="display: flex; justify-content: center;"> <a
- class="dllink_win dllink_os" href="download.shtml">Windows</a><a
- class="dllink_linux dllink_os" href="http://linux.palemoon.org/">Linux
+      <div class="frontpagelinks"> <a class="dllink_win dllink_os"
+ href="download.shtml">Windows</a><a class="dllink_linux dllink_os"
+ href="http://linux.palemoon.org/">Linux
 desktop</a></div>
       <br>
       <span class="bold"></span>Looking for other download options like
