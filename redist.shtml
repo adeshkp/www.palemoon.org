@@ -76,7 +76,7 @@ Moon or including it in a distribution framework.<br>
       <br>
       <hr class="c3">
       <h3> Redistribution license </h3>
-      <span class="c2">Last updated:</span> 12 April 2018<br>
+      <span class="c2">Last updated:</span> 30 May 2019<br>
       <br>
 If you wish to redistribute the binaries (executable form of the code)
 of Pale Moon, you are free to do so, with the following limitations:<br>
@@ -123,7 +123,10 @@ without limitation:
             <li>You have re-packed the browser in a different archive
 format (either common or proprietary)<br>
 (an exception to this is re-packaging required for specific target
-operating systems, e.g. rpm, deb, pet)<br>
+operating systems, e.g. rpm, deb, pet)</li>
+            <li>The binaries are packaged in "bundle" archive formats
+like AppImage, flatpak, SNAP or similar formats that include any other
+libraries or files not in the original package.<br>
             </li>
             <li>You have added language packs/add-ons/plugins/etc. </li>
             <li>You have added third-party
@@ -140,8 +143,7 @@ include a virus, trojan, or other malware<br>
             </li>
             <li>The binaries and program structure have been in any way
 obscured (e.g. by using application virtualization) making it difficult
-or impossible to check for the previously listed alterations<br>
-            </li>
+or impossible to check for the previously listed alterations</li>
           </ol>
         </li>
         <li>The binaries can be obtained without the use of third-party
