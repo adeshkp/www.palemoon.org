@@ -90,21 +90,6 @@ also manifests with default preferences and no installed add-ons
       <h3>Current trunk progress (major and recent changes
 only):</h3>
       <ul>
-        <li>Restored a global <code>getBoolPref()</code> function
-shortcut for extension compatibility with old extensions.<br>
-If you are currently using this global function, please change it to <code>Services.prefs.getBoolPref()</code></li>
-        <li>Fixed an issue with the UI when the address bar was removed
-from the navigation bar.</li>
-        <li>Fixed an issue with scripting of the Help menu.</li>
-        <li>Fixed a crash resulting from non-standard manipulation of
-XML stylesheets by extensions.</li>
-        <li>Fix browser.link.open_newwindow functionality.</li>
-        <li>Removed the default handler for webcal since the site
-doesn't seem to be properly maintained.</li>
-        <li>Fixed several crashes.</li>
-        <li>Prevented some ways smart places queries could be abused
-for social engineering attacks.<br>
-        </li>
       </ul>
       <ul>
         <li>Removed SecurityUI telemetry.</li>
@@ -153,9 +138,6 @@ default.</li>
 parser.</li>
         <li>Removed the unused code for "enhanced tiles" in the new tab
 page.</li>
-        <li>Ported an upstream Skia fix.</li>
-        <li>Improved the origin-clean algorithm for canvases.<br>
-        </li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit

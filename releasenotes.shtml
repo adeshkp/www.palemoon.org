@@ -25,6 +25,43 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.5.1"></a>v28.5.1 (2019-06-04)</h3>
+This is a security and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Restored a global <code>getBoolPref()</code> function
+shortcut for extension compatibility with old extensions.<br>
+If you are currently using this global function, please change it to <code>Services.prefs.getBoolPref()</code></li>
+        <li>Fixed an issue with the UI when the address bar was removed
+from the navigation toolbar.</li>
+        <li>Fixed an issue with scripting of the Help menu.</li>
+        <li>Fixed a crash resulting from non-standard manipulation of
+XML stylesheets by extensions.</li>
+        <li>Fixed <code>browser.link.open_newwindow</code>
+functionality.</li>
+        <li>Removed the default handler for webcal since the site
+doesn't seem to be properly maintained.</li>
+        <li>Prevented some ways smart places queries could be abused
+for social engineering attacks.</li>
+        <li>Ported an upstream Skia fix.</li>
+        <li>Improved the <code>origin-clean</code> algorithm for
+canvases.</li>
+        <li>Improved the efficiency of certain types of memory
+allocations in the JavaScript compiler.</li>
+        <li>Changed the way the application update checker code is
+hooked up so it will not require a user to go idle before being
+activated.<br>
+This solves the primary issue with application updates not notifying
+users as promptly as they should; more improvements are slated for the
+next major release.</li>
+        <li>Applicable security issues fixed: CVE-2019-7317,
+CVE-2019-11701, CVE-2019-11698, CVE-2019-9817 (DiD), CVE-2019-11700,
+CVE-2019-11696, CVE-2019-11693, and several potentially exploitable
+crashes and memory safety hazards that do not have a CVE number
+assigned to them.<br>
+        </li>
+      </ul>
       <h3><a name="v28.5.0"></a>v28.5.0 (2019-04-30)</h3>
 This is a major development and bugfix update.<br>
       <br>
