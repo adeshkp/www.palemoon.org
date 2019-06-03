@@ -108,7 +108,7 @@ development<br>
         </li>
         <li>Familiar, efficient, fully customizable interface<br>
         </li>
-        <li>Support for full themes: total freedom over any element's
+        <li>Support for full themes: total freedom for any element's
 design </li>
         <li>Support for easily-created lightweight themes (skins)<br>
         </li>
@@ -190,10 +190,14 @@ designed by the user as it is by our development team. It is released
 we cannot provide any warranty of any kind, nor guarantee fitness for
 any particular purpose or workflow.<br>
       </p>
-      <p>But, if you feel so inclined and if you enjoy the browser
+      <p>This project is community-supported to benefit the development
+of not only a web browser but any other application that builds on the
+freely available <a href="http://thereisonlyxul.org/">XUL platform</a>
+we are using. That means the if you enjoy the browser
 enough to help pay for bills for hosting, related on-line and off-line
 services,
-and especially further development and maintenance of the browser, you
+and especially further development and maintenance of the browser and
+underlying platform, you
 can support
 us through the following services:<br>
       </p>
