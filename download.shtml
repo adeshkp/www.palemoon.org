@@ -134,8 +134,7 @@ recommended alternatives by clicking the appropriate choice below.<br>
           <tr>
             <td> <img
  style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
- alt="Pale Moon logo" title="Click to download!"
- src="dl-images/mainsite.png"><br>
+ alt="Pale Moon logo" src="dl-images/mainsite.png"><br>
             </td>
             <td>Europe<br>
             </td>
@@ -151,12 +150,10 @@ installer</span></a></td>
           <tr>
             <td> <img
  style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
- alt="Pale Moon logo" title="Click to download!"
- src="dl-images/mainsite.png"> </td>
+ alt="Pale Moon logo" src="dl-images/mainsite.png"> </td>
             <td>Americas<br>
             </td>
-            <td class="c5"> <span class="c3"></span> <a
- class="dllink_win dllink_os"
+            <td class="c5"> <a class="dllink_win dllink_os"
  href="download.php?mirror=us&amp;bits=32&amp;type=installer"><span>Direct
 Download<br>
 installer</span></a></td>
@@ -168,8 +165,7 @@ installer</span></a></td>
           <tr>
             <td><img
  style="border: 0px solid ; width: 227px; height: 44px;" class="c11"
- alt="Pale Moon logo" title="Click to download!"
- src="dl-images/mainsite.png"></td>
+ alt="Pale Moon logo" src="dl-images/mainsite.png"></td>
             <td>Asia<br>
             </td>
             <td><a class="dllink_win dllink_os"
@@ -182,10 +178,8 @@ Download<br>
 installer</span></a></td>
           </tr>
           <tr>
-            <td> <a
- href="http://www.downloadcrew.com/article/21323-pale_moon"><img
- class="c12" alt="Download Crew logo"
- src="dl-images/downloadcrew-partner-logo.png"></a><br>
+            <td> <img style="width: 150px; height: 46px;" class="c12"
+ alt="Download Crew logo" src="dl-images/downloadcrew-partner-logo.png"><br>
             </td>
             <td style="text-align: center;">Global<br>
             </td>
@@ -200,11 +194,9 @@ website<br>
 to download</span></a></td>
           </tr>
           <tr>
-            <td><a
- href="http://www.filehorse.com/download-pale-moon-32/"><img
+            <td><img
  style="border: 0px solid ; width: 200px; height: 65px;" class="c11"
- alt="FileHorse logo" title="Click to download!"
- src="dl-images/filehorse.png"></a></td>
+ alt="FileHorse logo" src="dl-images/filehorse.png"></td>
             <td style="text-align: center;">Global<br>
             </td>
             <td><span style="font-weight: bold;"></span><a
@@ -220,8 +212,7 @@ to download</span></a></td>
           <tr>
             <td><a href="http://www.filecroco.com/download-pale-moon-32"><img
  style="border: 0px solid ; width: 185px; height: 40px;" class="c11"
- alt="FileCroco logo" title="Click to download!"
- src="dl-images/filecroco.png"></a></td>
+ alt="FileCroco logo" src="dl-images/filecroco.png"></a></td>
             <td style="text-align: center;">Global<br>
             </td>
             <td><a class="dllink_win dllink_os"
