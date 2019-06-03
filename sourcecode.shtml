@@ -57,13 +57,13 @@ versions of Pale Moon, these are provided <span
 archival FTP site:<br>
       <br>
       <div style="text-align: center;"><big><a
- href="ftp://archive.palemoon.org/source/">ftp://archive.palemoon.org/source/</a></big><br>
+ href="http://archive.palemoon.org/">http://archive.palemoon.org/</a></big><br>
       </div>
       <br>
       <span style="font-weight: bold;">Debug symbols:</span> If you
 want to debug Windows release builds and need the debug symbols for it,
 you can find the symbols for individual releases matching the release
-binaries at <a href="ftp://archive.palemoon.org/symbols/">ftp://archive.palemoon.org/symbols/</a><br>
+binaries at the archival site as well.<br>
       <br>
       <a href="ftp://source:get@archive.palemoon.org/"></a><span
  style="font-weight: bold;">Note:</span> The source code
@@ -114,7 +114,9 @@ will need to use <span style="font-weight: bold;">GCC</span>
 strongly recommended but other versions might work too. We do not
 support
 particularly old versions of GCC (&lt; 4.9). v6.* is not recommended
-due to its too-aggressive optimizations (YMMV). See also requirements
+due to its too-aggressive optimizations (YMMV), and GCC 9 has breaking
+changes which may not allow you to successfully build. See also
+requirements
 on the <a href="http://linux.palemoon.org/">Pale
 Moon for Linux site</a>!<br>
         </li>
