@@ -25,7 +25,17 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.5.2"></a>v28.5.2 (2019-06-05)</h3>
+This is a minor update to fix a breaking problem in 28.5.1.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed issues with image/texture allocation incorrectly
+being marked as insecure.<br>
+        </li>
+      </ul>
       <h3><a name="v28.5.1"></a>v28.5.1 (2019-06-04)</h3>
+      <h3></h3>
 This is a security and bugfix update.<br>
       <br>
       <span style="font-weight: bold;">Changes/fixes:</span><br>
@@ -38,8 +48,14 @@ from the navigation toolbar.</li>
         <li>Fixed an issue with scripting of the Help menu.</li>
         <li>Fixed a crash resulting from non-standard manipulation of
 XML stylesheets by extensions.</li>
-        <li>Fixed <code>browser.link.open_newwindow</code>
-functionality.</li>
+        <li>Fixed Aero Peek (taskbar previews) on Windows.<br>
+        </li>
+        <li><span style="text-decoration: line-through;">Fixed </span><code
+ style="text-decoration: line-through;">browser.link.open_newwindow</code><span
+ style="text-decoration: line-through;">
+functionality.</span><br>
+Sorry, not yet! This will be in the next major update.<br>
+        </li>
         <li>Removed the default handler for webcal since the site
 doesn't seem to be properly maintained.</li>
         <li>Prevented some ways smart places queries could be abused
