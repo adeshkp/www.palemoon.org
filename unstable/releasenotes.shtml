@@ -117,11 +117,12 @@ with synced data.</li>
 using a remote session.</li>
         <li>Fixed an issue with IntersectionObserver viewport accuracy.</li>
         <li>Fixed Scroll bar orientation on Mac OS X.</li>
-        <li>Implemented String.prototype.trimStart and
-String.prototype.trimEnd (ES2019)</li>
-        <li>Implemented Array.prototype.flat and
-Array.prototype.flatMap (ES2019)</li>
-        <li>Implemented Symbol.prototype.description (ES2019)</li>
+        <li>Implemented <code>String.prototype.trimStart</code> and
+          <code>String.prototype.trimEnd</code> (ES2019)</li>
+        <li>Implemented <code>Array.prototype.flat</code> and
+          <code>Array.prototype.flatMap</code> (ES2019)</li>
+        <li>Implemented <code>Symbol.prototype.description</code>
+(ES2019)</li>
         <li>Fixed graphical artifacts/flickering when using XRender on
 Intel or Intel-hybrid GPU setups.</li>
         <li>Added support for gzip-compressed SVG-in-Opentype fonts.</li>
@@ -138,6 +139,9 @@ default.</li>
 parser.</li>
         <li>Removed the unused code for "enhanced tiles" in the new tab
 page.</li>
+        <li>Fixed <code>browser.link.open_newwindow</code>
+functionality.</li>
+        <li>Fixed an <code>origin-clean</code> bypass issue.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
