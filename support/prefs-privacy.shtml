@@ -148,7 +148,7 @@ keep their cookies. (default)<br>
             </ul>
             <ul>
               <li><strong>I close Pale Moon</strong>: If selected, your
-cookies will be deleted when you close Pale Moon.<br>
+session cookies will be deleted when you close Pale Moon.<br>
 Click <span style="font-style: italic;" class="button">Show Cookies…</span>
 to display the Cookies window for easy removal of one or more stored
 cookies. </li>
