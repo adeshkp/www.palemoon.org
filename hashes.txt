@@ -1,19 +1,19 @@
-Hashes for release 28.5.2 
-palemoon-28.5.2.win32.installer.exe 
-8022ca6de796e394467e8d9b374370a2d2619da4814e601f9d0f8fd74c239400
+Hashes for release 28.6.0.1 
+palemoon-28.6.0.1.win32.installer.exe 
+d2af3b33f5f5c89792afa07d261a284b6dff2ae4d9f9f85f3cf55bfd74d7206c
  
-palemoon-28.5.2.win64.installer.exe 
-cbfea82db33b0bbb107e7b119388147f66fb1b31b310302053c6ef8a9d3ffaaf
+palemoon-28.6.0.1.win64.installer.exe 
+9526941ff1d437ac94a5fc89ff8d0924a249de44c9413004d9a283b45f5debc2
  
-Palemoon-Portable-28.5.2.win32.exe 
-8dd94ab52efe594a0da7bd1b741470709c2d0beab109d529c898c1b7a7280ceb
+Palemoon-Portable-28.6.0.1.win32.exe 
+761c50f2e46f593a6fa174c9594c346642f92d6715308c253079a51bce1f749d
  
-Palemoon-Portable-28.5.2.win64.exe 
-7391d98ad42dae1e9b570e54a7e8723e80675d4c249d9cfd743e03f6f5b2063c
+Palemoon-Portable-28.6.0.1.win64.exe 
+dad267dc2d6e4e6e851d04c81b7209ec4ab5320ead7aa6e2b37ef117ce221909
  
-palemoon-28.5.2.win32.zip 
-684b31caae1788271b58d1f5b46d1ac6bfa082f8b4c5460b5ef50cabca591290
+palemoon-28.6.0.1.win32.zip 
+359a4b93d6c5d41e73299ff7473fc094302981a8212642d1946389dd48a0d1c5
  
-palemoon-28.5.2.win64.zip 
-d7810f0fcee765f6e67bdac5a8756e14273eb307e59ccecffb4ee4a61cf5ff0e
+palemoon-28.6.0.1.win64.zip 
+6bbf25643526bdb0307ac38aa500e52c8eaffca13d10e6933d1500d5e367db31
  

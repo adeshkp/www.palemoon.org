@@ -25,6 +25,109 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.6.0.1"></a>v28.6.0.1 (2019-07-04)</h3>
+This is an out-of-band update to fix some pressing issues with the
+latest release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Updated the application icon to provide better visuals on
+Windows classic and other grey backgrounds.</li>
+        <li>Reduced the Master Password hashing rounds to prevent
+issues with stored password retrieval while still sufficiently
+strengthening the encryption.<br>
+If you have previously re-keyed the database after the update to
+28.6.0, you should do so again by going through the change master
+password process to reduce access times.</li>
+        <li>Updated the WhatsApp Web site-specific user-agent override
+to respond to Google refusing access based on the old string.</li>
+        <li>Updated the branding for the portable launcher.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.6.0"></a>v28.6.0 (2019-07-02)</h3>
+This is a major development update, focusing on under-the-hood
+improvements and bugfixes, code cleanup, and performance.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Implemented <code>String.prototype.trimStart</code> and <code>String.prototype.trimEnd</code>
+(ES2019)</li>
+        <li>Implemented <code>Array.prototype.flat</code> and <code>Array.prototype.flatMap</code>
+(ES2019)</li>
+        <li>Implemented <code>Symbol.prototype.description</code>
+(ES2019)</li>
+        <li>Added support for gzip-compressed SVG-in-Opentype fonts.</li>
+        <li>Updated official branding.</li>
+        <li>Updated reader view components.</li>
+        <li>Added a preference to control the setting of cookies
+through meta header information (non-standard feature) and disabled by
+default.</li>
+        <li>Updated ES6 Atomics and re-enabled them.</li>
+        <li>Updated internationalization code to support updated time
+zones and the Japanese Reiwa era.</li>
+        <li>Updated NSS to a custom version to have better encryption
+strength for master
+passwords.<br>
+IMPORTANT: To use this strong encryption and re-key the password
+database with it, change your master password (can be changed to the
+same one
+you already had if desired, but you have to go through the change
+password
+process). Depending on your computer and the number of stored
+passwords, this encryption update may take some time, so please be
+patient. Please be aware that once re-keyed, the password store will
+be locked to the new encryption and will no longer be accessible with
+the master password in older versions of Pale Moon.</li>
+        <li>Restored "Release notes" in the help menu.</li>
+        <li>Rearchitectured the application/extension update code.</li>
+        <li>Added several performance improvements to DOM and the
+parser.</li>
+        <li>Improved JavaScript garbage collection of dead compartments.</li>
+        <li>Fixed a performance issue with painting on some pages.</li>
+        <li>Improved performance of some websites with complex event
+regions.</li>
+        <li>Fixed a potential performance issue in display lists on
+some pages.</li>
+        <li>Fixed a rendering bottleneck for the use of XRender when
+using a remote session.</li>
+        <li>Fixed graphical artifacts/flickering when using XRender on
+Intel or Intel-hybrid GPU setups.</li>
+        <li>Added a DiD fix for potential future issues with inlining
+array natives.</li>
+        <li>Fixed a potential UAF situation in the HTML5 parser (DiD)</li>
+        <li>Fixed an <code>origin-clean</code> bypass issue.</li>
+        <li>Changed the way permissions for predefined sites are loaded.</li>
+        <li>Reverted the 28.5.1 change to treat *.jnlp files as
+executables (<span class="edit-hide">CVE-2019-11696</span>) after input
+from an Oracle representative. Java Web Start files are not executable
+and should not be treated any different than regular documents handled
+by external applications.</li>
+        <li>Removed SecurityUI telemetry.</li>
+        <li>Removed some other dead telemetry code.</li>
+        <li>Removed geo-specific selection of default search engines.</li>
+        <li>Deprecated the use of FUEL.</li>
+        <li>Removed the unused code for "enhanced tiles" in the new tab
+page.</li>
+        <li>Removed preference to brute-force e10s to on.</li>
+        <li>Removed Unboxed Array code.</li>
+        <li>Removed Unboxed Object code.</li>
+        <li>Fixed failure to print if a page contains a 0-sized <code>&lt;canvas&gt;</code>
+element.</li>
+        <li>Fixed an issue with tab-modal dialogs being presented in
+the wrong order.</li>
+        <li>Fixed an issue with the tab bar remaining collapsed in
+customize mode if normally hidden.</li>
+        <li>Fixed an issue with Sync when choosing to overwrite data
+with synced data.</li>
+        <li>Fixed an issue with tab previews on the taskbar.</li>
+        <li>Fixed an issue with IntersectionObserver viewport accuracy.</li>
+        <li>Fixed Scroll bar orientation on Mac OS X.</li>
+        <li>Fixed an issue with anchor/link targets not re-using a
+named target.</li>
+        <li>Fixed a build issue with Gnu-CC on PPC64.</li>
+        <li>Fixed <code>browser.link.open_newwindow</code>
+functionality.</li>
+      </ul>
       <h3><a name="v28.5.2"></a>v28.5.2 (2019-06-05)</h3>
 This is a minor update to fix a breaking problem in 28.5.1.<br>
       <br>
