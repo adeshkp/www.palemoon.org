@@ -90,58 +90,12 @@ also manifests with default preferences and no installed add-ons
       <h3>Current trunk progress (major and recent changes
 only):</h3>
       <ul>
+        <li>Improved performance dealing with frame properties.</li>
+        <li>Removed the Financial Times' polyfill user-agent override
+since they updated their detection to work with Pale Moon.<br>
+        </li>
       </ul>
       <ul>
-        <li>Removed SecurityUI telemetry.</li>
-        <li>Removed geo-specific selection of default search engines.</li>
-        <li>Rearchitectured the application/extension update code.</li>
-        <li>Fixed failure to print if a page contains a 0-sized <code>&lt;canvas&gt;</code>
-element.</li>
-        <li>Fixed an issue with tab-modal dialogs being presented in
-the wrong order.</li>
-        <li>Improved JavaScript garbage collection of dead compartments.</li>
-        <li>Fixed a performance issue with painting on some pages.</li>
-        <li>Fixed a potential performance issue in display lists on
-some pages.</li>
-        <li>Fixed an issue with the tab bar remaining collapsed in
-customize mode if normally hidden.</li>
-        <li>Fixed a potential UAF situation in the HTML5 parser (DiD)</li>
-        <li>Updated reader view components.</li>
-        <li>Deprecated the use of FUEL.</li>
-        <li>Restored "Release notes" in the help menu.</li>
-        <li>Changed the way permissions for predefined sites are loaded.</li>
-        <li>Fixed an issue with Sync when choosing to overwrite data
-with synced data.</li>
-        <li>Fixed an issue with tab previews on the taskbar.</li>
-        <li>Fixed a rendering bottleneck for the use of XRender when
-using a remote session.</li>
-        <li>Fixed an issue with IntersectionObserver viewport accuracy.</li>
-        <li>Fixed Scroll bar orientation on Mac OS X.</li>
-        <li>Implemented <code>String.prototype.trimStart</code> and
-          <code>String.prototype.trimEnd</code> (ES2019)</li>
-        <li>Implemented <code>Array.prototype.flat</code> and
-          <code>Array.prototype.flatMap</code> (ES2019)</li>
-        <li>Implemented <code>Symbol.prototype.description</code>
-(ES2019)</li>
-        <li>Fixed graphical artifacts/flickering when using XRender on
-Intel or Intel-hybrid GPU setups.</li>
-        <li>Added support for gzip-compressed SVG-in-Opentype fonts.</li>
-        <li>Fixed an issue with anchor/link targets not re-using a
-named target.</li>
-        <li>Removed some dead telemetry code.</li>
-        <li>Improved performance of some websites with complex event
-regions.</li>
-        <li>Fixed a build issue with Gnu-CC on PPC64.</li>
-        <li>Added a preference to control the setting of cookies
-through meta header information (non-standard feature) and disabled by
-default.</li>
-        <li>Added several performance improvements to DOM and the
-parser.</li>
-        <li>Removed the unused code for "enhanced tiles" in the new tab
-page.</li>
-        <li>Fixed <code>browser.link.open_newwindow</code>
-functionality.</li>
-        <li>Fixed an <code>origin-clean</code> bypass issue.</li>
       </ul>
 For a more detailed and complete list of changes, check out the <a
  href="https://github.com/MoonchildProductions/UXP/commits/master">commit
