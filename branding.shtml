@@ -110,17 +110,14 @@ and/or logo for promotional purposes for the browser.<br>
 Guidelines for use:<br>
       <ul>
         <li>Preferred use of the logo is as a whole (round) logo, with
-optionally the wordmark ("Pale Moon") to the right of it (as on the
-website) or in smaller font, width-matched, immediately below it (as in
-about:logo). </li>
+optionally the wordmark ("Pale Moon"), width-matched, immediately below
+it. </li>
         <li>The logo should be displayed in its full color depth and
 original colors.<br>
         </li>
-        <li>Alternative use is the top 1/3 to 1/2 of the logo as design
-permits or desires. </li>
-        <li>The wordmark should be displayed in the chosen font (Museo,
-preferably Museo 500) and with one of the two preferred colors (#17109E
-or #244C8A) although small variations are permitted to cater to your
+        <li>The wordmark should be displayed in the chosen font (Museo
+500) and in the preferred color (#0B3775) although small variations are
+permitted to cater to your
 page design. Museo 500 is a freely available web font (no-cost
 license). </li>
         <li>The name is "Pale Moon", not "Palemoon", "PaleMoon",
@@ -135,14 +132,29 @@ relation to the browser, that has not been officially published before,
 then please get in touch with the owner before publication to discuss.</li>
         <li>In general, it is not customary or required to include the
 Trademark ™ symbol when mentioning Pale Moon. For official documents it
-is, however, encouraged.<br>
+is, however, strongly encouraged.<br>
         </li>
       </ul>
-      <span class="bold">Promotional media and examples:</span><br>
+      <span class="bold">Promotional media and examples:<br>
+      </span> <br>
+Pale Moon logo:<br>
       <br>
-      <span style="font-weight: bold; color: rgb(204, 0, 0);">We are
-currently updating our logo and branding. Please check back later for
-updated information.</span><br>
+      <img style="width: 128px; height: 128px;" alt="Logo"
+ src="images/branding/logo128.png"><br>
+      <br>
+Pale Moon logo with wordmark:<br>
+      <br>
+      <img style="width: 300px; height: 256px;" alt="Logo with wordmark"
+ src="images/branding/about.png"><br>
+Pale Moon wordmark only:<br>
+      <br>
+      <img style="width: 242px; height: 34px;" alt="Wordmark"
+ src="images/branding/about-wordmark.png"><br>
+      <br>
+ZIP archive with various logo image formats, wordmark SVG and Pale Moon
+document image:<br>
+      <br>
+Please download by clicking <a href="images/branding/official-logo.zip">here</a>.<br>
       <br>
       <br>
 <!--#include virtual="nav/footer.html" --> </td>
