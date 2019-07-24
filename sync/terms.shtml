@@ -57,35 +57,39 @@ Moon and Moonchild Productions will accept absolutely
 no liability of any kind for your use of this service</span>.</li>
       </ul>
       <h3>Terms of Service</h3>
-      <div style="text-align: right;">Last Updated: July 13<sup>th</sup>,
-2018.<br>
+      <div style="text-align: right;">Last Updated: July 14<sup>th</sup>,
+2019.<br>
       </div>
       <h4>Acceptance</h4>
-      <p>These Terms of Service ("TOS") govern your use of the Pale
+      <p>These Terms of Service (the "ToS") govern your use of the Pale
 Moon Sync Service (the "Service"). By registering for and/or using the
 Service you are agreeing to abide by the terms and conditions described
 below. This is an agreement between you, the end user ("you"), and
 Moonchild Productions/Moonchild (Mr. M.C. Straver BASc)/Pale Moon
-administrators/operators ("we", "us", etc.).<br>
+administrators/server operators ("we", "us", etc.).<br>
       </p>
       <h4>Use of the Services</h4>
       <p>To
 use the Service you must first register. During
 registration you will need to provide your email address, which will be
 your username, and create a password (collectively "Account Data").
-These will be sent
-to Pale Moon servers using Transport Layer Security (TLS) technology to
-encrypt them during transit. Both your e-mail and password will be
+This Account Data will be sent
+to Pale Moon servers, using Transport Layer Security (TLS) technology
+to
+encrypt them during transit, when you register. Both your e-mail and
+password will be
 stored on our server
-in an encrypted form. The form of encryption used prevents anyone from
+in an encrypted form. The form of encryption used prevents anyone
+(including us) from
 stealing your actual password or discovering your e-mail address, but
-still allows us to authenticate you
-when you sign into the Service. A secret key is also created during
-sign-up on your computer.
+still allows us to check your authentication you
+when you sign in to the Service. During sign-up, a secret key used to
+encrypt your data is also created on your computer.
 The secret key is stored only on your computer and is not sent to us in
 any form.</p>
       <p>You may use the Service only for purposes that are permitted
-by (i) the TOS and (ii) the laws and regulations in your state and
+by (i) the ToS and (ii) the laws and regulations in your
+state/province/region and
 country and any other laws and regulations that apply to your use of
 the Service (including any laws regarding the export of data or
 software to and from the United States or other relevant countries).
@@ -98,13 +102,15 @@ prohibited.<br>
 of Pale Moon and potentially other Sync 1.1 compliant clients. This
 data comprises bookmarks, browsing history, form history, passwords, a
 selection of browser preferences, open tabs, and any other collections
-of data (e.g. from extensions) sent by the client (collectively "User
+of data sent by the client (collectively "User
 Data"). You acknowledge and agree that your User Data will be stored on
 the Pale Moon Sync server (in encrypted form) to facilitate this
-synchronization process. Although User Data is stored as part of this
+synchronization process. Although User Data is stored on our server as
+part of this
 process, the primary function of the Sync server is and remains
 synchronization, not storage for e.g. back-up. Using the Service as a
-remote storage medium is not intended and unrecoverable data loss may
+remote storage or backup medium is not intended use, and unrecoverable
+data loss may
 occur at any time if used in such a fashion.<br>
       </p>
       <p>You agree not to:</p>
@@ -118,8 +124,8 @@ specifically allowed to do so in writing by the server operator and/or
 Pale Moon project owner.</li>
         <li>An exception to the previous point is the personal use of
 Sync on mobile devices, but only when using official builds of software
-that is fully Sync 1.1 compatible and cause no other disruptions or
-issues for us.</li>
+that is fully Sync 1.1 compatible and cause no other disruptions of, or
+issues with, the Service and connected servers and networks.</li>
       </ul>
 Limits on your use (fair use limits):<br>
       <ul>
@@ -186,7 +192,8 @@ account or block access to the service from any account or IP we find
 in excess of reasonable storage limits for this courtesy Sync service.<br>
 As
 a guideline, users should try to keep their data usage preferably
-at less than 15MB, and reduce their data storage if higher by cleaning
+at less than 20MB, and should reduce their data storage if higher by
+cleaning
 up history or other synced data, or deselecting categories to
 synchronize. Sync
 client software will be able to query the server for volume quota in
@@ -196,57 +203,75 @@ should reduce your storage to prevent disproportional individual load
 on the service.<br>
       <h4>Proprietary Rights</h4>
       <p>We do not grant to you any intellectual property rights in the
-Service. For example, this TOS does not provide the right to use any of
+Service. For example, this ToS does not provide the right to use any of
 our copyrights, trade names, trademarks, service marks, logos, domain
 names, or other distinctive brand features.</p>
-      <p>The Pale Moon browser is distributed under and subject to the
+      <p>The Pale Moon browser referred to in this agreement is
+distributed under and subject to the
 Mozilla Public License, and in binary form to the Pale Moon
 redistribution license, located at http://www.palemoon.org/redist.shtml.</p>
-      <p>"User Data" is the digital content stored on, manipulated, and
+      <p>"User Data" is the digital content stored on, manipulated by,
+and
 transmitted to and from Pale Moon Sync servers by means of your use of
 the Service. Examples of User Data include your browsing history, form
 history, bookmarks, saved passwords, preferences, and open tabs. You
 own your User Data but you give us a license to store, transmit,
-reproduce, encrypt, and otherwise manipulate it as necessary to provide
+reproduce, and otherwise manipulate it as necessary to provide
 the Service.</p>
       <h4>Transmission of User Data</h4>
       <p>You understand and agree that we, in performing the required
 technical steps to provide the Service, may (i) transmit or distribute
 your User Data over various public networks and in various media; and
 (ii) make such changes to User Data as are necessary to conform and
-adapt that User Data to the technical requirements of connecting
+adapt that User Data to the technical requirements of storage,
+connecting
 networks, devices, services or media. Provided you are using the Pale
 Moon browser, during any such transmission, your User Data and Account
 Data will be sent via TLS-protected connections.</p>
       <h4>Canceling the Service</h4>
       <p>You can discontinue use of the Service at any time. In the
-Pale Moon browser go to the "Options", category "Sync", and click
-"Unlink this device" on all synced computers. Note that as a result of
+Pale Moon browser go to "Preferences", category "Sync", and click
+"Unlink this device". Do this on all synced computers. Note that as a
+result of
 our limited time storage policy, unlinking all devices and not actively
 using your Sync account will have your data purged from our systems
 automatically after a period of inactivity. This means you do not have
 to take specific steps to have your data removed as it will naturally
 expire. There is currently no
 automated request procedure to have your encrypted data removed from
-the Sync server, so if you want to have your data removed immediately,
-you should make sure to follow instructions as
-stated on the Pale Moon website or on the forum to remove your data
-prior to unlinking your last device. </p>
+the Sync server.<br>
+      </p>
+      <p>We do not grant any manual removal requests of User Data from
+the Pale Moon Sync server due to the fully-encrypted nature of both
+your Account Data and User Data which prevents us from fully verifying
+your credentials outside of your Sync Client login or disclosing your
+password to us in cleartext, which is considered an unacceptable
+requirement. In addition, manual removal from the database would
+require manual steps to verify the request is legitimate and initiated
+by you. Because storage of User Data and Account Data is time-limited
+(see above), your data will be automatically purged after the various
+inactivity periods have lapsed, without any further required action
+from either you or us, further making manual removal unnecessary. By
+using the service, you agree that your data may remain stored on our
+servers for a limited time even after you cancel the service.<br>
+      </p>
       <h4>Third Party Client Developers</h4>
       <p>Use of third party clients to access the Pale Moon Sync
 Service is not permitted, with the exception of official, fully Sync
 1.1 compliant, non-abusive mobile Sync clients.<br>
 To systematically use the Pale Moon Sync service with other Sync
-clients, you need to contact the Sync server
+clients (e.g. other desktop web browsers), you need to contact the Sync
+server
 administrator (Moonchild) prior to use, so capacity considerations and
 potential compensation can be discussed. Systematic use of these other
-sync clients (other desktop browsers, etc.) requires prior express
+sync clients requires prior express
 written permission from the server administrator.<br>
       </p>
       <h4>Updates to the Terms</h4>
-      <p>We may update this TOS from time to time, for example to
-address a new feature of the Service or to clarify a provision. The
-updated TOS will be posted on the Pale Moon website. If the changes are
+      <p>We may update this ToS from time to time, for example to
+address a new feature of the Service or to clarify or change a
+provision. The
+updated ToS will be posted on the Pale Moon website. If the changes are
 substantive, we will announce the update through the usual channels for
 such announcements such as the forum. Your continued use of the Service
 after the effective date of such changes constitutes your acceptance of
@@ -276,7 +301,7 @@ risk, regardless of legal precedent.<br>
 Productions, its distributors, contributors, and
 licensors, will not be liable for any indirect, special, incidental,
 consequential or exemplary damages arising out of or in any way
-relating to this TOS or the use of or inability to use the Service,
+relating to this ToS or the use of or inability to use the Service,
 including without limitation damages for loss of goodwill, work
 stoppage, lost profits, loss of data, and computer failure or
 malfunction, even if advised of the possibility of such damages and
@@ -285,7 +310,7 @@ claim is based. Some jurisdictions do not allow the exclusion or
 limitation of incidental, consequential or special damages, in which
 case your use of the Service is not authorized.</p>
       <h4>Miscellaneous</h4>
-      <p>This TOS constitutes the entire agreement between you and us
+      <p>This ToS constitutes the entire agreement between you and us
 concerning the Service. These terms are governed by the laws of Sweden.
 If any portion of these terms is held to be invalid or unenforceable,
 the remaining portions will remain in full force and effect. In the
