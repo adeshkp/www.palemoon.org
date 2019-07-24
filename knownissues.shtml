@@ -47,31 +47,22 @@ For each issue, check the status for intended action to be taken in
 development (if any) and intended time line (if applicable).<br>
       <br>
       <br>
-      <span class="bold">Known issues in the current version:</span><br>
+      <span class="bold">Known important usability issues in the
+current version:</span><br>
+      <br>
+      <div style="margin-left: 40px;"><span style="font-style: italic;">None
+at this time</span><span style="font-weight: bold;"></span><br>
+      </div>
+&nbsp;<span class="bold"><br>
+Known issues in all supported versions:</span><br>
       <ol>
-        <li><span class="c4">Remote X rendering on Linux is slow</span><br>
-We are currently investigating the exact cause, and have received
-offers to assist by the X2Go team to find the cause and solutions for
-slow remote rendering, even with xrender extensions present and in use.
-This may take some time to research and for a fix to be implemented and
-tested.<br>
-          <span style="font-weight: bold;">Status: <span
- style="color: rgb(204, 102, 0);">[In Progress]</span></span><br>
-          <span class="c4"></span></li>
         <li><span class="c4">A number of Firefox extensions do not work</span><br>
 This is caused by Pale Moon's divergence from Firefox. Please see the
 forum and our own add-ons site for replacements/alternatives.<br>
           <span class="bold">Status:</span> <span class="bydesign bold">[By
 Design]</span><br>
-          <br>
-        </li>
-      </ol>
-<!-- <div style="margin-left: 40px;"><span style="font-style: italic;">None
-at this time</span><span style="font-weight: bold;"></span><br> -->
-      <span class="bold"><br>
-Known issues in all versions:</span><br>
-      <ol>
-        <li> <span class="c4">The browser creates directories under
+          <span class="c4"></span></li>
+        <li><span class="c4">The browser creates directories under
 %APPDATA%\Mozilla, specifically Mozilla\Extensions</span><br>
 These directories are related to the underlying Mozilla extension code (<span
  class="bold">Pale Moon is a Mozilla-derived browser</span>) and stores
@@ -87,6 +78,21 @@ Because issues in previous versions may still apply to what people are
 running, here is a recap of previous, still recent versions that <span
  class="bold">have been fixed</span>, and potential <span class="bold">workarounds</span>:<br>
       <br>
+      <span style="font-weight: bold;">28.*:<br>
+      </span>
+      <ol>
+        <li><span class="c4">Remote X rendering on Linux is slow</span><br>
+We are currently investigating the exact cause, and have received
+offers to assist by the X2Go team to find the cause and solutions for
+slow remote rendering, even with xrender extensions present and in use.
+This may take some time to research and for a fix to be implemented and
+tested.<br>
+          <span style="font-weight: bold;">Status: </span><span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);">[Fixed]<br>
+          </span>Timeline:</span> Fixed in 28.6.0<span
+ style="font-weight: bold;"><span style="color: rgb(0, 153, 0);"><br>
+          </span></span></li>
+      </ol>
       <span style="font-weight: bold;">28.3.*:<br>
       </span>
       <ol>
@@ -95,9 +101,8 @@ WebP images may crash the browser.</span><br>
 Pale Moon may
 intermittently crash when decoding WebP images that are particularly
 large or whose loading is interrupted.<br>
-          <span style="font-weight: bold;">Status: 
-          <span style="color: rgb(0, 153, 0);">[Fixed]
-          <br>
+          <span style="font-weight: bold;">Status: <span
+ style="color: rgb(0, 153, 0);">[Fixed] <br>
           </span></span><span style="font-weight: bold;">Timeline:</span>
 Fixed
 in 28.4.0</li>
