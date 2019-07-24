@@ -37,7 +37,7 @@
     <tr>
       <td class="c6">
       <h1> Pale Moon future roadmap</h1>
-      <small>Last update: 2018-08-14</small><br>
+      <small>Last update: 2019-07-24</small><br>
       <h3> General Information </h3>
 The Pale Moon project is a community-driven project, and as such the
 future roadmap of the browser is determined not only by what is decided
@@ -175,15 +175,16 @@ development is one of the ongoing focuses of the core work
 performed on Pale Moon, and the resulting
 implementation in v28 is mostly feature-complete in terms of the
 ECMAScript (JavaScript) standards ES6, ES2016 and ES2017, with annexes.
-Client-side ES6 modules are still a work in progress but expected to be
-implemented later in the year.<br>
+We are aiming to implement all <span style="font-style: italic;">important</span>
+ES2018 and ES2019 features as well, over time, when the various
+proposals reach sufficient maturity.<br>
       <br>
 Please
 understand that implementing these changes is slow and meticulous work
 that requires extensive coding and testing to do properly. There is
 very little margin for error, because JavaScript not only runs in
 webpages in Pale Moon, but drives everything in the browser, including
-many parts of the program itself.<br>
+many parts of the various UXP programs themselves.<br>
       <h4>Media support </h4>
 Media
 support is a regularly-discussed topic for Pale Moon users, since part
@@ -210,12 +211,9 @@ addition to Windows:<br>
         <li>Mac OS X -- Currently in development. We hope to have
 official releases on Mac later this year.<br>
         </li>
-        <li>Android ARM -- Currently discontinued<br>
-We <span style="font-style: italic;">may</span> plan to lift Android
-development up to the new milestone after
-desktop versions are released and have stabilized, <span
- style="text-decoration: underline;">if time and capacity
-permits</span>.</li>
+        <li>Android ARM -- <span style="font-style: italic;">Discontinued</span>.
+There are no plans to make a UXP-based Android browser available.<br>
+        </li>
         <li>*BSD: Due to resistance from the BSD community to adhere to
 normal free software development practices, we currently have no plans
 to have official Pale Moon releases of any kind on the range of BSD
@@ -227,7 +225,7 @@ Pale Moon's front-end features are well-established, tried-and-tested
 features that work well in terms of flexibility and customizability for
 users. The front-end is and will remain XUL-based and fully extensible
 by the user and browser extensions, regardless of what platform is in
-use.<br>
+use. <br>
       <h4> User Interface </h4>
 The
 User Interface in Pale Moon is stable, based on the Firefox 4-28
@@ -248,7 +246,10 @@ set of tools for web developers and extension developers alike. Due to
 the complexity of these tools and verbatim adoption of them from
 Mozilla without much of our own development on them, our support for
 these tools will be (very) limited and we are unlikely to implement
-requests for new features in the devtools as a result.<br>
+requests for new features in the devtools as a result. At our
+discretion, we may also remove some of these tools that are considered
+unnecessary or have outlived their usefulness as regards development
+aids.<br>
       <br>
       <h3>Plug-ins</h3>
 Pale
@@ -274,18 +275,20 @@ written for Mozilla Firefox (by accepting installations for Firefox
 application IDs) even though Pale Moon is a
 different application altogether from an extension point of view.
 Extension developers are encouraged to make what few changes are
-necessary for native Pale Moon compatibility and leverage our (to be
-published) new version of the add-ons website to publish and update
+necessary for native Pale Moon compatibility and leverage our add-ons
+website panel ("Phoebus") to publish and update
 extensions.<br>
       <br>
 The future of Pale Moon is to maintain this general level of
 compatibility with
-traditional (XUL) Firefox-targeted extensions, although the
+traditional (XUL) Firefox-targeted extensions (called "Legacy" by
+Mozilla), although the
 (transitional)
 dual-ID setup will eventually be removed, at which point only Pale Moon
 targeted extensions will be accepted. This will still allow developers
-to target both Pale Moon and Firefox with specific code for them in a
-single package, but Firefox-only (legacy) extensions will not longer be
+to target both Pale Moon and (legacy) Firefox with specific code for
+them in a
+single package, but Firefox-only extensions will no longer be
 accepted
 by the browser when this lands.<br>
       <br>
@@ -339,14 +342,7 @@ and above all API access for any extension to do anything it has to,
 including the limited subset that is offered by WebExtensions.<br>
       <br>
       <h3> Additional tools and services </h3>
-      <h4> Pale Moon authored utilities </h4>
-Some of the tools used in conjunction with Pale Moon are due for an
-update. No solid date has been set for these improvements:<br>
-      <ul>
-        <li>Improvement of the web installer to offer automatic
-selection/configuration based on a few different user templates. </li>
-      </ul>
-      <h4> Pale Moon Sync </h4>
+      <h4>Pale Moon Sync </h4>
 Pale Moon Sync is still lacking two features on the server side, which
 should be addressed. The following improvements are planned, although
 no date has been set for completion. Potentially, it requires hiring a

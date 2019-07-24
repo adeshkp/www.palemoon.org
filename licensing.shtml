@@ -55,7 +55,7 @@ the marks to commit fraud. Our trademarks include, among others, the
 names Pale Moon™ and "Your browser, Your way"™, as well as the Pale
 Moon™ logo, Goanna™
 logo and project names. This means that, while you have considerable
-freedom to redistribute and modify our software, there are tight
+freedom to redistribute and modify the software, there are tight
 restrictions on your ability to use the Pale Moon names and logos in
 ways which fall in the domain of trademark law, even when included in
 the source tree and built into
@@ -75,17 +75,21 @@ please contact <a href="mailto:legal@palemoon.org">legal@palemoon.org</a>.
       <h2>Website Content</h2>
       <p>Pale Moon website content (i.e. text and pictures, not look
 and feel) is generally licensed under Creative Commons Attribution
-Share-Alike (CC-BY-SA) licenses. User-generated content, such as
+Share-Alike (CC-BY-SA) licenses. Specifically excluded from this are
+the commissioned full-detail artwork used in headers and any derivative
+thereof which are copyright-protected. User-generated content, such as
 comments on our blog posts or forum, are also generally made available
 under CC-BY-SA. </p>
       <h2>Website Code</h2>
       <p> You may use the HTML and CSS files on www.palemoon.org or
 other Moonchild Productions websites for your web site - as long as you
 don't use the visual design or style (the colors, gradients, fonts,
-etc.). In other words, you can use the HTML and/or CSS code, but your
+artwork, etc.). In other words, you can use the HTML and/or CSS code,
+but your
 page should not look like you took Pale Moon's page and dropped in your
 logo. This does not grant you any right to use the trademarks, trade
-names, service marks, or house style of Moonchild Productions. </p>
+names, service marks, or house style of Moonchild Productions, Pale
+Moon or other products. </p>
       <h2>Executable Software</h2>
       <p> Executable software binaries of core products released by
 Moonchild Productions, such as Pale Moon, are made available under the
@@ -93,13 +97,20 @@ terms of the <a href="redist.shtml">binary redistribution license</a>.
 This license also outlines the situation where binaries are built from
 source with official branding.<br>
       </p>
+      <p>It should be noted that Basilisk does not come with the
+freedoms associated with the binary distribution license (as for
+allowance to distribute officially-branded binaries not built by us),
+and any redistribution of built-from-source binaries may not carry
+official branding, regardless of operating system.<br>
+      </p>
       <p>Helper applications and tools may be made available under
 different licenses like the <a href="freeware-license.shtml">Pale Moon
 Freeware License</a> or MIT licenses -- please see the applicable page
 of the tools or
 utilities in question to see which license(s) apply.<br>
 On some proprietary, non-free platforms, necessary binary components
-subject to other licenses may be included in the installer or packaged
+(such as runtime libraries) subject to other licenses may be included
+in the installer or packaged
 with the application. </p>
       <h2>Informative, Not Authoritative</h2>
       <p> This page is designed to inform, not to be the final,
