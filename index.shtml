@@ -96,7 +96,8 @@ download menu at the top of this page!<br>
       <span class="bold">Main features</span>:<br>
       <ul>
         <li>Optimized for modern processors</li>
-        <li>Based on our own optimized layout engine (Goanna)<br>
+        <li>Based on our own optimized layout and rendering engine
+(Goanna)<br>
         </li>
         <li>Safe: forked from mature Mozilla code and regularly updated
 with the latest security patches<br>
@@ -153,16 +154,11 @@ to name a few things.<br>
           <tr>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
-            <span class="bold"><small><small>04 Jul 2019</small></small><br>
-Pale Moon 28.6.0.1 has been released.</span> This is a small update to address
-some pressing issues in 28.6.0. More
+            <span class="bold"><small><small>25 Jul 2019</small></small><br>
+Pale Moon 28.6.1 has been released.</span> This is a bugfix and
+security update to the browser. More
 information in the <a href="releasenotes.shtml">release notes</a>!<br>
-            <br>
-            <span class="bold"><small><small>02 Jul 2019</small></small><br>
-Pale Moon 28.6.0 has been released.</span> This is a major development
-update, focusing on bugfixes, performance and code cleanup. More
-information in the <a href="releasenotes.shtml">release notes</a>!<br>
-            <br>
+            <span class="bold"><small><small></small></small></span><br>
             <span class="bold"><small><small></small></small></span><a
  href="http://forum.palemoon.org/viewforum.php?f=1">more
 news...</a> </td>
@@ -185,13 +181,15 @@ news...</a> </td>
     </tr>
     <tr>
       <td colspan="2">
-      <p> Pale Moon is, and will always be, completely FREE to download
-and use! (Open Source and Freeware)</p>
+      <p> Pale Moon is, and will always be, Open Source and completely
+FREE to download
+and use!</p>
       <p>This browser is released as a <span style="font-weight: bold;">community
 project</span> to aim for <span style="font-weight: bold;">open,
 collaborative development of a full-featured web browser</span>, as
 much
-designed by the user as it is by our development team. It is released
+designed by the user as it is by our development team. Everyone is
+welcome to become involved in its development! It is released
 "as-is" and in the hope that it will be useful to its users. As such,
 we cannot provide any warranty of any kind, nor guarantee fitness for
 any particular purpose or workflow.<br>
@@ -199,7 +197,7 @@ any particular purpose or workflow.<br>
       <p>This project is community-supported to benefit the development
 of not only a web browser but any other application that builds on the
 freely available <a href="http://thereisonlyxul.org/">XUL platform</a>
-we are using. That means the if you enjoy the browser
+we are using. That means that if you enjoy the browser
 enough to help pay for bills for hosting, related on-line and off-line
 services,
 and especially further development and maintenance of the browser and
@@ -218,7 +216,9 @@ us through the following services:<br>
  align="middle"> </a></div>
       <div class="center"><a href="donations.shtml">Other options</a>
 for supporting Pale
-Moon are available too! </div>
+Moon are available too!<br>
+We do not accept any form of cryptocurrency.<br>
+      </div>
       <br>
 If you are interested in keeping updated of new releases of the
 optimized Pale Moon web browser, please <a
@@ -244,11 +244,7 @@ technologies:<br>
  title="VPS Servers"
  style="border: 0px solid ; margin: 0px 2px; width: 250px; height: 61px;"
  src="images/vpsserver.png" alt="VPSserver.com - VPS servers"></a> <a
- href="https://engineforex.com/" target="_blank"><img
- style="border: 0px solid ; margin: 0px 2px; width: 250px; height: 60px;"
- title="engineforex.com" src="images/Engine-Forex-Logo-250x60.png"
- alt="engineforex.com"></a><a href="https://www.promocodewatch.com/"
- target="_blank"><img
+ href="https://www.promocodewatch.com/" target="_blank"><img
  style="border: 0px solid ; margin: 0px 2px; width: 257px; height: 60px;"
  title="PromoCodeWatch" src="images/PCW-logo-257x60.png"
  alt="PromoCodeWatch"></a> </div>
@@ -278,7 +274,6 @@ technologies:<br>
 <!-- END SOCIAL MEDIA WIDGET -->
 <!-- SS data: 
 
-EFX 19-07-24 (m!)
 PCW 19-10-25
 
 -->

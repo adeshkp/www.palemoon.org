@@ -25,6 +25,58 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.6.1"></a>v28.6.1 (2019-07-25)</h3>
+This is security and bugfix update.<br>
+Changes/fixes:<br>
+      <ul>
+        <li>Improved handling of FTP resource loading (allow save-as
+and cater to some FTP-based browsing).</li>
+        <li>Added a preference (<code>security.block_ftp_subresources</code>)
+to
+allow users to completely bypass the blocking of FTP subresources if
+required for their environment, if the improvements made in this
+release do not suffice.</li>
+        <li>Added blocking of authentication-locked cross-origin image
+subresources by default to prevent spurious auth prompts.<br>
+A preference (<code>network.auth.subresource-http-img-XO-auth</code>)
+was added to
+allow users to bypass this blocking if required for their environment.</li>
+        <li>Changed the behavior of file: URIs to treat each URI as a
+unique origin. This prevents cross-file access from scripting.<br>
+A preference (<code>security.fileuri.unique_origin</code>) was added to
+allow users to relax this restriction if required for their environment.</li>
+        <li>Implemented a revised version of <code>http2PushedStream</code>
+to
+address some thread safety issues.</li>
+        <li>Aligned browser behavior with mainstream regarding inner
+window behavior when domain is manipulated.</li>
+        <li>Backed out a 28.5.* patch for causing multiple issues in
+the UI and web content.</li>
+        <li>Updated NSS to 3.41.2 (custom) to pick up several upstream
+fixes.<br>
+        </li>
+        <li>Fixed a type confusion issue in JavaScript Arrays. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Added a fix for cross-thread access of Necko. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Added a port safety check for Alternative Services.</li>
+        <li>Implemented fixes for applicable security issues:
+CVE-2019-11719, CVE-2019-11711, CVE-2019-11715, CVE-2019-11717,
+CVE-2019-11714 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11729 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11727 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11730 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11713 (<span style="color: rgb(191, 64, 64);">DiD</span>) and
+several networking and memory-safety hazards that do not have CVE
+numbers.<br>
+        </li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+the fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code, e.g. when
+surrounding code changes, exposing the problem, or when new attack
+vectors are discovered.
       <h3><a name="v28.6.0.1"></a>v28.6.0.1 (2019-07-04)</h3>
 This is an out-of-band update to fix some pressing issues with the
 latest release.<br>
