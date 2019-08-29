@@ -25,9 +25,77 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <h3><a name="v28.7.0"></a>v28.7.0 (2019-08-29)</h3>
+This is a major development update involving a partial JavaScript
+engine overhaul and improvement, implementing several website-impacting
+changes. It should be noted that these changes follow some revisions of
+specifications (also adopted by mainstream browsers) that are not
+necessarily backwards compatible for web content as some scripting
+behavior has changed. If you are targeting Pale Moon specifically (e.g.
+through ua sniffing) please check and verify the behavior is still as
+expected.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Landed a large JavaScript parser tune-up, which as a
+targeted goal brings our ES6 stringification fully in line with the
+ES2018 revision for classes, and implements rest/spread parameters for
+object literals. (Cheers to Luke!)</li>
+        <li>Fixed a crash with the tuned-up parser code when certain
+error messages were triggered.</li>
+        <li>Aligned browser behavior with mainstream regarding inner
+window behavior when domain is manipulated.</li>
+        <li>Improved performance dealing with frame properties.</li>
+        <li>Improved performance for handling html5 strings.</li>
+        <li>Improved performance of image content loading.</li>
+        <li>Fixed potential type confusion in array joins.</li>
+        <li>Fixed an issue on some pages causing high CPU usage when
+wrongly specifying plugin content.</li>
+        <li>Fixed an issue with the add-ons manager "discover" pane if
+no network connection is present.<br>
+        </li>
+        <li>Fixed an issue with bookmark/history search results
+offering context menu options that would be invalid without a selection.</li>
+        <li>Fixed the devtools JSON viewer and enabled it by default.<br>
+        </li>
+        <li>Fixed searching from <code>about:home</code> not working
+for search plugins using the <code>POST</code> method.</li>
+        <li>Fixed an issue with the checkboxes for location bar
+preferences.</li>
+        <li>Fixed SVG alignment issues if SVG-containing elements fall
+on odd pixel sizes, causing blurry display of especially small SVGs
+like icons/glyphs.<br>
+SVGs will now always be pixel-snapped to provide expected crisp display.</li>
+        <li>Fixed precompilation of Sync client modules when packaging.
+This also removes the redundant <code>services.sync.enabled</code>
+pref.</li>
+        <li>Added support for matroska containers and h264-based webm
+video formats.</li>
+        <li>Added support for AAC audio in matroska and webm video
+formats.</li>
+        <li>Added support for spaces in the Mac package and application
+name.</li>
+        <li>Added an exception to the unique file origin policy for
+font types.</li>
+        <li>Added native file picker support for xdg on Linux.</li>
+        <li>Updated the default bookmark icons.</li>
+        <li>Updated the SQLite lib to 3.29.0.</li>
+        <li>Removed e10s information from about:troubleshooting.</li>
+        <li>Removed hotfix leftovers.</li>
+        <li>Removed the WebIDE developer tool.<br>
+        </li>
+        <li>Removed conditional build-time disabling of the Pale Moon
+status bar code.</li>
+        <li>Removed "Delete this page" and "Forget about this site"
+links from live bookmarks (since they make no sense on feeds).</li>
+        <li>Removed the Financial Times' polyfill user-agent override
+since they updated their detection to work with Pale Moon.<br>
+        </li>
+      </ul>
       <h3><a name="v28.6.1"></a>v28.6.1 (2019-07-25)</h3>
 This is security and bugfix update.<br>
-Changes/fixes:<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
       <ul>
         <li>Improved handling of FTP resource loading (allow save-as
 and cater to some FTP-based browsing).</li>

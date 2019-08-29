@@ -78,7 +78,7 @@ and user experience, while offering full
 customization and a growing collection of
 extensions and themes to make the browser truly your own.<br>
 &nbsp;<br>
-Due to a potential security issue with the web installer, it is
+Due to a potential security issue with the web (stub) installer, it is
 currently unavailable.
 Please find links to our most popular individual download pages,
 instead:<br>
@@ -155,8 +155,8 @@ to name a few things.<br>
             <td class="topnewstext"> <span class="bold">Top news:</span><br>
             <br>
             <span class="bold"><small><small>25 Jul 2019</small></small><br>
-Pale Moon 28.6.1 has been released.</span> This is a bugfix and
-security update to the browser. More
+Pale Moon 28.7.0 has been released.</span> This is a major development
+release with many additions, removals, updates and fixes. More
 information in the <a href="releasenotes.shtml">release notes</a>!<br>
             <span class="bold"><small><small></small></small></span><br>
             <span class="bold"><small><small></small></small></span><a

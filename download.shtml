@@ -137,6 +137,7 @@ recommended alternatives by clicking the appropriate choice below.<br>
  alt="Pale Moon logo" src="dl-images/mainsite.png"><br>
             </td>
             <td>Europe<br>
+            (secure<sup>*</sup>)
             </td>
             <td class="dltable_text"><a class="dllink_win dllink_os"
  href="download.php?mirror=eu&amp;bits=32&amp;type=installer"><span>Direct
@@ -242,6 +243,9 @@ to download</span></a></td>
           </tr>
         </tbody>
       </table>
+<sup>*</sup> Secure servers are https-enabled for downloads. If you
+are visiting the https version of this download page it will download
+the binaries over https also.<br>
       <br>
 GPG/PGP Signatures: <a
  href="download.php?mirror=sig&bits=32&type=installer">[32-bit]</a> <a
