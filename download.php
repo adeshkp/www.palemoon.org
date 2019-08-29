@@ -78,6 +78,9 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
     case 'sig':
       $url = '//www.palemoon.org/pgp/';
       break;
+    case 'eu':
+      $url = '//rm-eu.palemoon.org/release/';
+      break;
     default:
       $url = 'http://rm-' . $mirror . '.palemoon.org/release/';
   }
