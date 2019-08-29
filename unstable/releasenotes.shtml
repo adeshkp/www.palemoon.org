@@ -90,28 +90,6 @@ also manifests with default preferences and no installed add-ons
       <h3>Current trunk progress (major and recent changes
 only):</h3>
       <ul>
-        <li>Improved handling of FTP resource loading (allow save-as
-and cater to some FTP browsing).<br>
-        </li>
-        <li>Added a preference (<code>security.block_ftp_subresources</code>)
-to
-allow users to bypass this blocking if required for their environment.</li>
-        <li>Added blocking of authentication-locked cross-origin image
-subresources by default to prevent spurious auth prompts.<br>
-A preference (<code>network.auth.subresource-http-img-XO-auth</code>)
-was added to
-allow users to bypass this blocking if required for their environment.</li>
-        <li>Changed the behavior of file: URIs to treat each URI as a
-unique origin. This prevents cross-file access from scripting.<br>
-A preference (<code>security.fileuri.unique_origin</code>) was added to
-allow users to relax this restriction if required for their environment.<br>
-        </li>
-        <li>Added a DiD fix for cross-thread access of Necko.</li>
-        <li>Updated NSS to 3.41.2 to pick up some upstream fixes.</li>
-        <li>Implemented a revised version of http2PushedStream to
-address some issues.</li>
-        <li>Implemented several DiD and security patches ported from
-Mozilla.</li>
       </ul>
       <ul>
         <li>Improved performance dealing with frame properties.</li>
@@ -134,8 +112,6 @@ video formats.</li>
 formats.</li>
         <li>Aligned browser behavior with mainstream regarding inner
 window behavior when domain is manipulated.</li>
-        <li>Backed out a 28.5.* patch for causing multiple issues in
-the UI and web content.</li>
         <li>Landed a large JavaScript parser tune-up, which as a
 targeted goal brings our ES6 stringification fully in line with the
 ES2018 revision for classes, and implements rest/spread parameters for
@@ -144,7 +120,33 @@ object literals. (Cheers to Luke!)</li>
 error messages were triggered.</li>
         <li>Added support for spaces in the Mac package name.</li>
         <li>Removed conditional build-time disabling of the Pale Moon
-status bar code.<br>
+status bar code.</li>
+        <li>Added support for a space in the application name on Mac.</li>
+        <li>Updated the default bookmark icons.</li>
+        <li>Fixed an issue with the checkboxes for location bar
+preferences.</li>
+        <li>Updated the SQLite lib to 3.29.0.</li>
+        <li>Fixed an issue with bookmark/history search results
+offering context menu options that would be invalid without a selection.</li>
+        <li>Fixed the devtools JSON viewer and enabled it by default.<br>
+        </li>
+        <li>Improved performance of image content loading.</li>
+        <li>Fixed searching from <code>about:home</code> not working
+for search plugins using the <code>POST</code> method.</li>
+        <li>Removed "Delete this page" and "Forget about this site"
+links from live bookmarks (since they make no sense on feeds).</li>
+        <li>Added an exception to the unique file origin policy for
+font types.</li>
+        <li>Fixed SVG alignment issues if SVG-containing elements fall
+on odd pixel sizes, causing blurry display of especially small SVGs
+like icons/glyphs.<br>
+SVGs will now always be pixel-snapped to provide expected crisp display.</li>
+        <li>Fixed precompilation of Sync client modules when packaging.
+This also removes the redundant <code>services.sync.enabled</code>
+pref.</li>
+        <li>Added native file picker support for xdg on Linux.</li>
+        <li>Updated the AUS request URL to include toolkit version for
+future separate builds on different widget toolkits.<br>
         </li>
       </ul>
       <ul>
