@@ -33,21 +33,21 @@
       <h1> Pale Moon Donations and Support </h1>
 If you enjoy this free browser enough to want to give something in
 return, there are several ways you can support development of Pale
-Moon. <span class="red bold">If you want your donation to remain
-anonymous, please make sure to let me know</span><span
- style="font-weight: bold;"><br>
+Moon. <span class="red bold"></span><span style="font-weight: bold;"><br>
       </span>
       <ol>
         <li><a href="#Monetary_donations">Monetary donations</a></li>
         <li><a href="#Donating_development_hardware">Donating hardware</a></li>
         <li><a href="#Donating_services">Donating services</a></li>
         <li><a href="#Corporate_sponsorship">Corporate sponsorship</a></li>
+        <li><a href="#Sponsored_content">Sponsored content</a><br>
+        </li>
         <li><a href="#Thank_you">Thank you!</a></li>
       </ol>
       <br>
       <hr style="width: 100%; height: 2px;"><span
  style="font-weight: bold;"></span>
-      <h2><a name="Monetary_donations"></a> Monetary donations </h2>
+      <h2><a name="Monetary_donations"></a>Monetary donations </h2>
 You can donate money by using one of the following methods:<br>
       <ul>
         <li>Ko-Fi: For irregular donations, one-time support, or just
@@ -56,7 +56,13 @@ to toss us some change to get a coffee :) at <a
           <a href="https://ko-fi.com/palemoon" target="_blank"><img
  style="border: 0px solid ; width: 197px; height: 50px;"
  src="images/kofi50.png?v=0" alt="Buy Me a Coffee at ko-fi.com"
- align="middle"></a></li>
+ align="middle"><br>
+          </a><span class="red bold">If you want your donation to
+remain
+anonymous, please use the appropriate feature in Ko-Fi to prevent
+public display of your name.</span><a href="https://ko-fi.com/palemoon"
+ target="_blank"><br>
+          </a></li>
         <li>Patreon: For continuous, recurring support to our project,
 at <a href="https://www.patreon.com/MoonchildProductions"
  target="_blank">https://www.patreon.com/MoonchildProductions<br>
@@ -66,7 +72,7 @@ at <a href="https://www.patreon.com/MoonchildProductions"
  src="images/become_a_patron_button.png" alt="Become a Patron!"
  align="middle"></a></li>
       </ul>
-      <h2><a name="Donating_development_hardware"></a> Donating
+      <h2><a name="Donating_development_hardware"></a>Donating
 development hardware </h2>
 If you wish to donate (surplus) hardware to help development of Pale
 Moon, you should contact me by e-mail at moonchild [at] palemoon.org to
@@ -74,7 +80,7 @@ discuss if what you wish to donate will be useful for me (saves
 unnecessary shipping expenses and saves stuff taking up my floor space
 ;) ).<br>
       <br>
-      <h2><a name="Donating_services"></a> Donating services </h2>
+      <h2><a name="Donating_services"></a>Donating services </h2>
 If you want to supply services to help Pale Moon development, there are
 a few possible areas you may be able to help. Please contact me to
 discuss this.<br>
@@ -108,15 +114,23 @@ If you are an established company and wish to support the Pale Moon
 project, then from this point forward you can provide this support
 through our Patreon page (see above) just like individual patrons.<br>
       <br>
-We do not accept "sponsored content" on any of our websites. We do not
-accept "sponsored posts", "sponsored articles", nor do we have a blog
-or other article feed where such posts have a place. Please do not
+      <h2><a name="Sponsored_content"></a>Sponsored content</h2>
+We do not accept "sponsored content" on any of our websites, and never
+have. It does not matter how "relevant" the sponsored content might be
+to our corner of the software market.<br>
+We also do not
+accept "sponsored posts" or "sponsored articles" on our forum, nor do
+we have a public blog or article feed authored by us where such 3rd
+party posts have a place among legitimate content.<br>
+      <span style="font-weight: bold; color: rgb(204, 0, 0);">Please do
+not
 e-mail us asking for such sponsored articles to be placed anywhere on
-our websites; the answer will invariably be "no" and your e-mail will
+our websites</span>; you will be wasting everyone's time, the answer
+will invariably be "no", and your e-mail will
 be considered unsolicited commercial e-mail (and treated as such when
-persisted).<br>
+persisted, including reporting to various blacklisting sites).<br>
       <br>
-      <h1><a name="Thank_you"></a> Thank you </h1>
+      <h1><a name="Thank_you"></a>Thank you </h1>
 I would like to express my thanks to all the people who, over the
 years, have supported our project in one way or another. <br>
       <br>
