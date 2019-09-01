@@ -92,62 +92,8 @@ only):</h3>
       <ul>
       </ul>
       <ul>
-        <li>Improved performance dealing with frame properties.</li>
-        <li>Removed the Financial Times' polyfill user-agent override
-since they updated their detection to work with Pale Moon.</li>
-        <li>Improved performance for handling html5 strings.</li>
-        <li>Fixed potential type confusion in array joins.</li>
-        <li>Fixed an issue on some pages causing high CPU usage when
-wrongly specifying plugin content.</li>
-        <li>Fixed an issue with the add-ons manager "discover" pane if
-no network connection is present.<br>
-        </li>
-        <li>Removed e10s information from about:troubleshooting.</li>
-        <li>Removed hotfix leftovers.</li>
-        <li>Removed the WebIDE developer tool.<br>
-        </li>
-        <li>Added support for matroska containers and h264-based webm
-video formats.</li>
-        <li>Added support for AAC audio in matroska and webm video
-formats.</li>
-        <li>Aligned browser behavior with mainstream regarding inner
-window behavior when domain is manipulated.</li>
-        <li>Landed a large JavaScript parser tune-up, which as a
-targeted goal brings our ES6 stringification fully in line with the
-ES2018 revision for classes, and implements rest/spread parameters for
-object literals. (Cheers to Luke!)</li>
-        <li>Fixed a crash with the tuned-up parser code when certain
-error messages were triggered.</li>
-        <li>Added support for spaces in the Mac package name.</li>
-        <li>Removed conditional build-time disabling of the Pale Moon
-status bar code.</li>
-        <li>Added support for a space in the application name on Mac.</li>
-        <li>Updated the default bookmark icons.</li>
-        <li>Fixed an issue with the checkboxes for location bar
-preferences.</li>
-        <li>Updated the SQLite lib to 3.29.0.</li>
-        <li>Fixed an issue with bookmark/history search results
-offering context menu options that would be invalid without a selection.</li>
-        <li>Fixed the devtools JSON viewer and enabled it by default.<br>
-        </li>
-        <li>Improved performance of image content loading.</li>
-        <li>Fixed searching from <code>about:home</code> not working
-for search plugins using the <code>POST</code> method.</li>
-        <li>Removed "Delete this page" and "Forget about this site"
-links from live bookmarks (since they make no sense on feeds).</li>
-        <li>Added an exception to the unique file origin policy for
-font types.</li>
-        <li>Fixed SVG alignment issues if SVG-containing elements fall
-on odd pixel sizes, causing blurry display of especially small SVGs
-like icons/glyphs.<br>
-SVGs will now always be pixel-snapped to provide expected crisp display.</li>
-        <li>Fixed precompilation of Sync client modules when packaging.
-This also removes the redundant <code>services.sync.enabled</code>
-pref.</li>
-        <li>Added native file picker support for xdg on Linux.</li>
-        <li>Updated the AUS request URL to include toolkit version for
-future separate builds on different widget toolkits.<br>
-        </li>
+        <li>Fixed an issue with tags being sometimes dropped when
+saving (XML-based) content to disk.</li>
       </ul>
       <ul>
       </ul>
