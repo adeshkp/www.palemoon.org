@@ -211,8 +211,8 @@ back-end and "a higher number" or "bigger buffer" isn't always better. <span
  class="c12">You are strongly advised to always use defaults as
 supplied in Pale Moon.</span> </li>
         <li>Changes were made to the user interface and feature set, to
-incorporate functionality and visual elements in <a
- href="layout-differences.shtml">different locations</a> than what was
+incorporate functionality and visual elements in different locations
+than what was
 chosen by the Mozilla team, as well as <span class="c2">retaining or
 re-introducing useful elements that were removed in Firefox</span>, and
 either removing or disabling (by default) components that would not be
