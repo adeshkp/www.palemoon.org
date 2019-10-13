@@ -25,6 +25,34 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
+      <span style="color: rgb(204, 0, 0);">Kind request: please help
+support us by whitelisting (e.g. "disable on this site") the <span
+ style="text-decoration: underline;">duckduckgo.com</span> domain in
+your adblocker, if you use one.</span> <br>
+This will allow the search engine to display sponsored, clearly-marked,
+related results which helps our project through a search partnership
+with them.<br>
+      <br>
+      <h3><a name="v28.7.1"></a>v28.7.1 (2019-09-12)</h3>
+This is a security and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed an issue where saving a webpage to disk would
+sometimes drop tags from the document.</li>
+        <li>Fixed an issue with click-to-play plugin content throwing
+up a blank notification.</li>
+        <li>Fixed an issue in the renderer where region intersections
+would sometimes return the wrong result.<br>
+This fixes a regression caused by the fix for CVE-2016-5252.<br>
+        </li>
+        <li>Fixed security issues: CVE-2019-11744, CVE-2019-11752,
+CVE-2019-11737, CVE-2019-11746, CVE-2019-11750, CVE-2019-11747 and
+CVE-2019-11738.</li>
+        <li>Unified XUL Platform Mozilla Security Patch Summary: 7
+fixed, 1 DiD, 1 already covered, 22 not applicable.<br>
+        </li>
+      </ul>
       <h3><a name="v28.7.0"></a>v28.7.0 (2019-08-29)</h3>
 This is a major development update involving a partial JavaScript
 engine overhaul and improvement, implementing several website-impacting
