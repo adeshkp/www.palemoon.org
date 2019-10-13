@@ -92,8 +92,12 @@ only):</h3>
       <ul>
       </ul>
       <ul>
-        <li>Fixed an issue with tags being sometimes dropped when
-saving (XML-based) content to disk.</li>
+        <li>Fixed compiler optimization issues for non-Intel hardware.</li>
+        <li>Fixed a crash caused by Qihoo 360 Safeguard/360 Total
+Security.</li>
+        <li>Disabled the use of ICC color profiles on Linux by default.</li>
+        <li>Improved CSS grid rendering.<br>
+        </li>
       </ul>
       <ul>
       </ul>
