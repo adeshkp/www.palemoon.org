@@ -137,8 +137,7 @@ recommended alternatives by clicking the appropriate choice below.<br>
  alt="Pale Moon logo" src="dl-images/mainsite.png"><br>
             </td>
             <td>Europe<br>
-            (secure<sup>*</sup>)
-            </td>
+(secure<sup>*</sup>) </td>
             <td class="dltable_text"><a class="dllink_win dllink_os"
  href="download.php?mirror=eu&amp;bits=32&amp;type=installer"><span>Direct
 Download<br>
@@ -243,13 +242,15 @@ to download</span></a></td>
           </tr>
         </tbody>
       </table>
-<sup>*</sup> Secure servers are https-enabled for downloads. If you
+      <sup>*</sup> Secure servers are https-enabled for downloads. If
+you
 are visiting the https version of this download page it will download
 the binaries over https also.<br>
       <br>
 GPG/PGP Signatures: <a
- href="download.php?mirror=sig&bits=32&type=installer">[32-bit]</a> <a
- href="download.php?mirror=sig&bits=64&type=installer">[64-bit]</a>
+ href="download.php?mirror=sig&amp;bits=32&amp;type=installer">[32-bit]</a> <a
+ href="download.php?mirror=sig&amp;bits=64&amp;type=installer">[64-bit]</a><br>
+GPG/PGP Public Key: <a href="https://www.palemoon.org/0x8FCF9CEC.asc">[asc]</a><br>
       <h3> ZIP
 packed versions </h3>
 These are simply zipped versions of the Pale Moon browser. Perfect for
@@ -273,8 +274,9 @@ or <a href="download.php?mirror=as&amp;bits=64&amp;type=zip"><span class="c3"></
           <br>
         </li>
       </ul>
-GPG/PGP Signature: <a href="download.php?mirror=sig&bits=32&type=zip">[32-bit]</a>
-      <a href="download.php?mirror=sig&bits=64&type=zip">[64-bit]</a> <br>
+GPG/PGP Signature: <a href="download.php?mirror=sig&amp;bits=32&amp;type=zip">[32-bit]</a>
+      <a href="download.php?mirror=sig&amp;bits=64&amp;type=zip">[64-bit]</a> <br>
+GPG/PGP Public Key: <a href="https://www.palemoon.org/0x8FCF9CEC.asc">[asc]</a>
       <h3><a name="Portable_versions"></a>Portable versions</h3>
 You've enjoyed Pale Moon at home, or at the office. You've wondered if
 you could use it elsewhere: in a library, on a public computer, in a
@@ -320,9 +322,10 @@ or <a href="download.php?mirror=us&amp;bits=64&amp;type=portable"><span
 or <a href="download.php?mirror=as&amp;bits=64&amp;type=portable"><span
  class="c3"></span>64-bit</a> </li>
       </ul>
-GPG/PGP Signature: <a href="download.php?mirror=sig&bits=32&type=portable">[32-bit]</a>
-      <a href="download.php?mirror=sig&bits=64&type=portable">[64-bit]</a><br>
-      <br>
+GPG/PGP Signature: <a
+ href="download.php?mirror=sig&amp;bits=32&amp;type=portable">[32-bit]</a> <a
+ href="download.php?mirror=sig&amp;bits=64&amp;type=portable">[64-bit]</a><br>
+GPG/PGP Public Key: <a href="https://www.palemoon.org/0x8FCF9CEC.asc">[asc]</a><br>
       <h4> How do I use this? </h4>
 Three simple steps:<br>
       <ol>
