@@ -17,12 +17,6 @@ body {
   background-attachment: fixed;
 }
 
-body.index {
-  background-color: #BCCADA;
-  background-image: url(images/PaleMoon-fade.jpg);
-  background-position: top center;
-}
-
 h1 {
   font-family: "Museo300Regular","Times New Roman",Times,serif;
   font-size: 20.5pt;
