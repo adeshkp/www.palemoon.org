@@ -76,12 +76,12 @@ builds</a> page instead.<br>
       <br>
 The Pale Moon browser has, among other things, the following features:<br>
       <ul>
-        <li>Specifically optimized for current processors.This browser
+        <li>Optimized for current processors.This browser
 will not run on particularly old systems. </li>
         <li>Increased stability: experience fewer crashes.<br>
         </li>
         <li>Support for Scalable Vector Graphics (SVG) and Canvas. </li>
-        <li>Compatibility with many Firefox Extensions (add-ons)
+        <li>Compatibility with many Legacy Firefox Extensions (add-ons)
 although we do not provide support for this. </li>
         <li>Support for a growing number of Pale Moon specific
 Extensions.</li>
@@ -103,8 +103,10 @@ Silverlight, etc.)<br>
         </li>
         <li>More customization options for navigation controls and the
 tab strip than other modern browsers. </li>
-        <li>Enhanced security indicators (padlock/styling). </li>
-        <li>More options for recovery (safe mode dialog).<br>
+        <li>Enhanced security indicators (padlock/styling/IDN display).
+        </li>
+        <li>More options for recovery (safe mode dialog with various
+options).<br>
         </li>
       </ul>
 The following features have been <span class="c2">disabled or removed</span>
@@ -143,18 +145,14 @@ Panorama) feature has never properly matured and has not seen many
 people using it. In addition, the feature is generally slow to use, not
 intuitive, and puts a rather hefty load on the browser when included.
 For people who still prefer to use this feature even though it has been
-completely removed from the browser, an <a href="tabgroups.shtml">add-on
+completely removed from the browser, an <a target="_blank"
+ href="https://addons.palemoon.org/addon/tabgroups/">add-on
 is available</a> to replace the removed code.</li>
         <li><span style="font-weight: bold;">In-browser DRM.</span>
 Digital Rights Management using "black box" content-decryption modules
 to serve a self-imposed DRM-encumbered media market that punishes the
 wrong parties has no place in Pale Moon. If you wish to use such media,
 you can use plugins with DRM features like Microsoft Silverlight.<br>
-        </li>
-        <li>A few miscellaneous things like the crashreporter and
-telemetry data gathering have been completely removed since they
-require server-side components that are not in place at palemoon.org,
-as well as the latter severely impacting user privacy.<br>
         </li>
       </ul>
       <br>
@@ -175,9 +173,6 @@ Requirements for the regular Pale Moon browser are, in short: <span
 present in all mainstream CPUs since the Intel Pentium 4, and the AMD
 Athlon64 processors. All muti-core processors on the market should
 support this instruction set.<br>
-      <br>
-This table is incomplete, but outlines a few popular classes of
-processor around the era where this may be a question:<br>
       <br>
       <h3> <a name="Firefox_Differences" id="Firefox_Differences"></a>How
 different is this browser from Mozilla products? </h3>
@@ -219,18 +214,21 @@ either removing or disabling (by default) components that would not be
 used by the average user. In addition, some other user interface
 changes were made to provide an as consistent and intuitive interface
 as possible while still staying close to what Firefox's goals have
-always been. <span class="c2">This means the "Australis" interface
+always been. <span class="c2">This means the "Australis" or "Photon"
+interfaces
 will never be used in Pale Moon.</span><br>
         </li>
         <li>Pale Moon offers more configurability for features, like
 additional tab preferences, preferences for image loading or tab
-positions, and full control over smooth scrolling, to name a few. </li>
+positions, additional security preferences, and full control over
+smooth scrolling, to name a few. </li>
         <li>Pale Moon uses a different "Sync" client and its own server
 to synchronize data between different instances of the browser. This is
 not compatible with Firefox Sync as used in Firefox 29 or later.
 Mozilla's change to "Firefox Accounts" is a different and less secure
 approach to synchronizing data and focuses more on future commercial
-endeavours of the Mozilla Corporation and, after careful consideration,
+endeavours and services of the Mozilla Corporation and, after careful
+consideration,
 has been rejected for use in Pale Moon (for quite the list of reasons,
 to be fair).<br>
         </li>
@@ -239,10 +237,12 @@ to be fair).<br>
       <h3> <a name="Palemoon_tested" id="Palemoon_tested"></a>How Pale
 Moon has been tested </h3>
 Pale Moon builds are tested for stability before being released by
-having it used for day-to-day browsing by a group of beta testers as
-well as having an <a href="unstable/">unstable channel</a> available
+having it used for day-to-day browsing by having an <a href="unstable/">unstable
+channel</a> available
 for people who like to "live on the edge" and want to help Pale Moon
-development by reporting bugs in these pre-release versions.<br>
+development by reporting bugs in these pre-release versions. Of course,
+specific functional changes are always tested when they are implemented
+during development.<br>
       <br>
       </td>
     </tr>
