@@ -92,11 +92,10 @@ only):</h3>
       <ul>
       </ul>
       <ul>
-        <li>Fixed compiler optimization issues for non-Intel hardware.</li>
-        <li>Fixed a crash caused by Qihoo 360 Safeguard/360 Total
-Security.</li>
-        <li>Disabled the use of ICC color profiles on Linux by default.</li>
-        <li>Improved CSS grid rendering.<br>
+        <li>Improved CSS grid rendering.</li>
+        <li>Removed the silent fallback to insecure install locations.</li>
+        <li>Removed the non-standard <code>object.prototype.watch()/unwatch()</code>
+functions.<br>
         </li>
       </ul>
       <ul>
