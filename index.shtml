@@ -237,21 +237,27 @@ page.<br>
       <small><span class="grey"><br>
       <br>
       </span></small>
-      <div class="center"><small><span class="grey">Sponsors and
-technologies:<br>
-      </span></small> <a
- href="http://moonchildproductions.info/goanna.shtml"><img
+      <div class="center"><small><span class="grey"><br>
+      </span></small>
+      <table
+ style="border-style: none; text-align: center; width: 100%;">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; width: 50%;">Powered by:<br>
+            <a href="http://moonchildproductions.info/goanna.shtml"><img
  title="Powered by Goanna!"
  style="border: 0px solid ; margin: 0px 2px; width: 200px; height: 66px;"
- src="images/goanna200x66.png" alt="Goanna" align="top"></a> <a
- href="https://www.vpsserver.com/" target="_blank"><img
+ src="images/goanna200x66.png" alt="Goanna" align="top"></a></td>
+            <td style="vertical-align: top; width: 50%;">US download
+mirror provided by:<br>
+            <a href="https://www.vpsserver.com/" target="_blank"><img
  title="VPS Servers"
  style="border: 0px solid ; margin: 0px 2px; width: 250px; height: 61px;"
- src="images/vpsserver.png" alt="VPSserver.com - VPS servers"></a> <a
- href="https://www.promocodewatch.com/" target="_blank"><img
- style="border: 0px solid ; margin: 0px 2px; width: 257px; height: 60px;"
- title="PromoCodeWatch" src="images/PCW-logo-257x60.png"
- alt="PromoCodeWatch"></a> </div>
+ src="images/vpsserver.png" alt="VPSserver.com - VPS servers"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <small><span class="grey">&nbsp;&nbsp;</span></small>&nbsp; </div>
       </td>
     </tr>
     <tr>
