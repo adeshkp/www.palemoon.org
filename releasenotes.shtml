@@ -25,14 +25,39 @@
     <tr>
       <td>
       <h1> Pale Moon: Release notes</h1>
-      <span style="color: rgb(204, 0, 0);">Kind request: please help
-support us by whitelisting (e.g. "disable on this site") the <span
- style="text-decoration: underline;">duckduckgo.com</span> domain in
-your adblocker, if you use one.</span> <br>
-This will allow the search engine to display sponsored, clearly-marked,
-related results which helps our project through a search partnership
-with them.<br>
+      <span style="color: rgb(204, 0, 0);"></span>
+      <h3><a name="v28.7.2"></a>v28.7.2 (2019-10-29)</h3>
+This is a security and bugfix update.<br>
       <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Disabled the use of ICC color profiles for images on Linux
+by default.</li>
+        <li>Updated timezone data for internationalization functions.</li>
+        <li>Fixed the option to use hardware acceleration over RDP for
+Windows 8.1 and 10.</li>
+        <li>Fixed an issue with inner window navigation potentially
+leaking.</li>
+        <li>Fixed a startup crash caused by Qihoo 360 Safeguard/360
+Total
+Security.</li>
+        <li>Ported some expat parser fixes from upstream.</li>
+        <li>Ported several NSS upstream fixes to our build.<br>
+        </li>
+        <li>Aligned handling of U+0000 in the html5 parser with
+expectations.</li>
+        <li>Added size checks to WebGL data buffering.</li>
+        <li>Fixed build issues with newer glibc versions.</li>
+        <li>Fixed build issues for ARM targets.</li>
+        <li>Worked around a gcc9 compiler issue that would prevent
+building with it.</li>
+        <li>Sec bug fixes: CVE-2019-15903, CVE-2019-11757,
+CVE-2019-11763 and several potentially exploitable crashes and memory
+safety hazards that don't have a CVE number.</li>
+        <li>Unified XUL Platform Mozilla Security Patch Summary: 6
+fixed, 6 DiD, 1 rejected, 24 not applicable.<br>
+        </li>
+      </ul>
       <h3><a name="v28.7.1"></a>v28.7.1 (2019-09-12)</h3>
 This is a security and bugfix update.<br>
       <br>
