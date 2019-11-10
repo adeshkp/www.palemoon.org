@@ -95,7 +95,21 @@ only):</h3>
         <li>Improved CSS grid rendering.</li>
         <li>Removed the silent fallback to insecure install locations.</li>
         <li>Removed the non-standard <code>object.prototype.watch()/unwatch()</code>
-functions.<br>
+functions.</li>
+        <li>Fixed the status bar module to work around an issue with
+relying on watch()/unwatch().<br>
+        </li>
+        <li>Add support for modern Solaris operating systems.</li>
+        <li>Fixed a build failure in libcubeb sndio module.</li>
+        <li>Changed the way tables are rendered to fix a number of spec
+compliance issues and allow sticky positioning of table parts.</li>
+        <li>Now building against the Windows 10 SDK 10.0.17763.132.</li>
+        <li>Added a preference for and disabled the confirmation prompt
+for URL authentication (prevents evil traps).</li>
+        <li>Removed the unused DiskSpaceWatcher component.</li>
+        <li>Fixed the certificate retrieval logic in the certificate
+exception dialog.</li>
+        <li>Updated cairo code.<br>
         </li>
       </ul>
       <ul>
