@@ -109,7 +109,24 @@ for URL authentication (prevents evil traps).</li>
         <li>Removed the unused DiskSpaceWatcher component.</li>
         <li>Fixed the certificate retrieval logic in the certificate
 exception dialog.</li>
-        <li>Updated cairo code.<br>
+        <li>Updated cairo code.</li>
+        <li>Enabled basic implementation od module type scripting.</li>
+        <li>Removed Adobe PrimeTime DRM support. (platform change, N/A
+for Pale Moon)<br>
+        </li>
+        <li>Updated SQLite to 3.30.1.</li>
+        <li>Implemented Promise.prototype.finally() (ES2018).</li>
+        <li>Implemented Regular Expression lookbehind (ES2018).</li>
+        <li>Updated the brotli library to 1.0.7.</li>
+        <li>Updated the woff2 library to 1.0.2.</li>
+        <li>Updated the OpenType Sanitizer to 8.0.0.</li>
+        <li>Disabled the use of HPKP by default due to the inherent
+risks involved with this feature. A preference was added to completely
+disable header processing, and using preloaded pins is effectively
+disabled. Please note that this is automatically disabled by default
+for everyone, regardless of your previous setting for this feature, and
+it is strongly recommended you keep this feature disabled. HPKP will
+eventually be removed (overall Internet concensus).<br>
         </li>
       </ul>
       <ul>
