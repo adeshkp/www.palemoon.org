@@ -117,6 +117,10 @@ for Pale Moon)<br>
         <li>Updated SQLite to 3.30.1.</li>
         <li>Implemented Promise.prototype.finally() (ES2018).</li>
         <li>Implemented Regular Expression lookbehind (ES2018).</li>
+        <li>Implemented Regular Expression /s flag (dotAll support)
+(ES2018).</li>
+        <li>Implemented String.prototype.matchAll (regex) (ES2020).<br>
+        </li>
         <li>Updated the brotli library to 1.0.7.</li>
         <li>Updated the woff2 library to 1.0.2.</li>
         <li>Updated the OpenType Sanitizer to 8.0.0.</li>
@@ -126,8 +130,21 @@ disable header processing, and using preloaded pins is effectively
 disabled. Please note that this is automatically disabled by default
 for everyone, regardless of your previous setting for this feature, and
 it is strongly recommended you keep this feature disabled. HPKP will
-eventually be removed (overall Internet concensus).<br>
-        </li>
+eventually be removed (overall Internet concensus).</li>
+        <li>Added Ekoru to the list of default search engines. This is
+a Bing-backed search engine that donates the majority of its revenue to
+various charities that support the planet and animals. An
+environment-supporting alternative to Ecosia if you don't want to
+support Google in the process.</li>
+        <li>Updated the Javascript math library for precision and
+performance fixes.</li>
+        <li>Reinstated the mentioning of the number of
+sccelerated/total windows in Troubleshooting Information, for
+completeness.</li>
+        <li>Updated the embedded Emoji font to Mozilla's COLR-mapped
+twemoji 0.5.0 (Twemoji 12.1.3), to support Emoji 12.</li>
+        <li>Fixed an issue with add-ons potentially getting confused
+during add-on updates due to cached scripts.</li>
       </ul>
       <ul>
       </ul>
