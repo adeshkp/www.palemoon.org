@@ -352,7 +352,14 @@ drive, even an MP3 player if it allows you to access it as a drive in
 Windows.<br>
 Do note however that Pale Moon Portable <span class="bold">doesn't run
 from read-only media</span> like CD-ROM or DVD-ROM; it needs write
-access to the location it is run from.
+access to the location it is run from.<br>
+      <h4>Updating the portable version</h4>
+Although it is possible to use the built-in updater of the portable
+browser, this will only update the embedded version of pale Moon and
+you will miss any changes or enhancements to the portable launcher or
+environment which will occasionally change. The recommended way of
+upgrading is downloading a new portable version, then copying the user
+folder from the old version to the new one.<br>
       <h3>Checksums (hashes)</h3>
 To verify the integrity of your downloads, here are the checksums for
 your convenience (SHA256):<br>
