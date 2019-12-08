@@ -44,7 +44,7 @@ get an alternative, a compatible different version, or a Pale Moon
 specific extension instead. Please note that this includes some very
 popular extensions whose authors refused to support Pale Moon directly
 (for example: Adblock Plus users need to get <a
- href="https://addons.palemoon.org/extensions/privacy-and-security/adblock-latitude/">Adblock
+ href="https://addons.palemoon.org/addon/adblock-latitude/">Adblock
 Latitude</a> instead).<br>
 More information: <a href="https://addons.palemoon.org/">https://addons.palemoon.org/</a><br>
       <h2> Customize your browser! </h2>
@@ -65,8 +65,7 @@ to the news feed</a> of the announcements board.<br>
       </td>
     </tr>
     <tr>
-      <td class="center">
-<!--#include virtual="nav/footer.html" --> <br>
+      <td class="center"><!--#include virtual="nav/footer.html" --> <br>
       </td>
     </tr>
   </tbody>

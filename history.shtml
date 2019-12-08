@@ -31,37 +31,44 @@
       </h1>
       <h3>1.5/2.0 era</h3>
 This project started off as merely fiddling with the build process on
-Windows, seeing first off if I could manage to make my own Windows
-build of the Firefox browser and then seeing how my own builds compared
+Windows, seeing first off if (at the time just one person) it could be
+managed to make own Windows
+builds of the Firefox browser and then seeing how these builds compared
 to official ones. Finding the difference significant, the resulting
-browsers (simply "my own Firefox builds") were given to a number of
+browsers (simply "own Firefox builds") were given to a number of
 friends to use, with very positive results.<br>
 This was back in the time when Firefox was still in its 1.5.x stage.<br>
       <br>
       <h3>3.x era</h3>
-I have since built Firefox, Thunderbird and Seamonkey specifically for
-different systems, gaining experience, learning the quirks and
-following code development. Eventually, with Firefox 3.5.2, I settled
-on what I found was an optimal compromise between speed, features and
-useability of the browser. At that point in time, the Pale Moon project
+Since then, Firefox, Thunderbird and Seamonkey versions specifically
+for
+different systems were built, gaining experience, learning the quirks
+and
+following code development. Eventually, with Firefox 3.5.2, it was
+settled
+on what was an optimal compromise between speed, features and
+useability of the browser for general use. At that point in time, the
+Pale Moon project
 was given shape, releasing the highly optimized browser to the public
-from Oct 4th, 2009.<br>
+from Oct 4th, 2009 onwards.<br>
       <br>
 Since its release, it has become rather popular, with no less than
 15,000 visits to the home page just in the first month of release. With
 many downloads from a wide range of locations, not all of them
-monitored or counted, it is anyone's guess how many people are actually
-using it, but it has surpassed anything that was initially expected.<br>
+monitored or counted, it is anyone's guess how many people were
+actually
+using it, but it surpassed anything that was initially expected.<br>
       <br>
 Feedback had been positive, and as a result of several requests from
 people, a second build version was created of Pale Moon, to cater
 specifically to the capabilities of Athlon XP and Athlon MP processors,
-still extremely popular processors for systems used at the time. Later
+still extremely popular processors for systems used at the time that
+could not meet the minimum processor requirements otherwise. Later
 on, a portable version was also created to allow people to take Pale
 Moon with them on USB stick or removable drives.<br>
       <br>
 As the source code developed, so did Pale Moon, and a few major changes
-have been made with the transition from 3.5 to 3.6 versions and later
+had been made with the transition from 3.5 to 3.6 versions and later
 on to separate Pale Moon installations from Firefox ones. Always
 attempting to strike a balance, some minor features were removed, and
 later added again; feedback from the users has always been taken into
@@ -74,7 +81,7 @@ Pale Moon deviated further from its sibling by also making changes to
 the standard UI (User Interface) layout. UI design choices made to
 "innovate" the user interface, removing quite essential user feedback
 and changing the layout of navigation controls were considered to be
-poor choices, and have been altered to provide a more familiar, and
+poor choices, and were altered to provide a more familiar, and
 also more intuitive, interface to the browser.<br>
 At this point it was also decided to keep developing the 3.6.x branch
 separately, while version 4 and later became the "next generation"
@@ -163,7 +170,8 @@ independent development being ported to a platform base of ESR38 plus
 the Pale Moon 24-26 application code, completely bypassing and removing
 the "native" Firefox application code that came with the esr38 tree, we
 expected that would be the last time we would do such a thing. We had a
-good foundation and retained 1:0.975 of Pale Moon as an application.<br>
+good foundation and retained practically all of Pale Moon as an
+application.<br>
       <br>
 The reason we expected Tycho to be the last time was because by the
 next ESR Mozilla had planned to destroy enough of itself that the
@@ -179,7 +187,7 @@ especially in the media subsystem. Why throw that away?<br>
       <br>
 Well, Mozilla has been known to take forever to do things, and the
 rapid release schedule they've been on since Firefox 4.0 never changed
-that; it just increased the pace of immature code changed being shipped
+that; it just increased the pace of immature code changes being shipped
 out to end users, and not much else. Surely, the next ESR would be too
 damaged to use right? So Tycho continued the way it was developing.<br>
 Enter Firefox ESR52: more destruction happened and more co-op of
@@ -190,7 +198,8 @@ forward with our own independent development.<br>
       <br>
 Despite the efforts and investments in Tycho,
 it ultimately took on a transitional position due to the fact that
-certain landmark features could not be ported from Mozilla, making the
+certain landmark features could not be ported from Mozilla because of
+lack of community involvement, making the
 browser lose some of its functional backbone required for a web
 landscape more and more built on limited, JS-heavy frameworks.<br>
       <br>
@@ -227,7 +236,7 @@ and backporting from 54 and 55 heavily. This is why Basilisk carried a
 Mozilla version number of 55 during that time. After some months,
 Basilisk was released but development continued.<br>
       <br>
-With the dawn of 2018 came Tobin's resurgance in participation in the
+With the dawn of 2018 came Tobin's resurgence in participation in the
 Pale Moon project, who previously conducted the primary vNext research
 that lead to inital porting up the line that helped make Tycho possible.<br>
 It was time to pull the same trick twice to bring Pale Moon to the new
@@ -283,31 +292,8 @@ desktop use, improving standards compliance and maintaining (and
 possibly extending) the flexibility of the XUL framework used to build
 the browser on.<br>
       <br>
-      <br>
-Pale Moon will also continue to support:<br>
-      <ul>
-        <li>Binary components in extensions</li>
-        <li>XUL (overlay) extensions, including XPCOM/XBL</li>
-        <li>NPAPI plugins (e.g. Silverlight, Flash, Java, Unity web
-player)<br>
-        </li>
-        <li>Complete themes</li>
-        <li>Lightweight themes</li>
-      </ul>
-      <h3> Australis </h3>
-Pale Moon will continue to use the well-known, fully customizable user
-interface based mostly on Firefox 4-28, and will not be following
-Mozilla's (and alternative rebuilds') move to the "Australis" or
-"Photon" user interfaces. Even so, the style and some features of those
-interfaces can be achieved by the flexibility of complete themes.<br>
-      <br>
 More information can be found on our <a href="roadmap.shtml">future
 roadmap</a>.<br>
-      <h3> Bottom line </h3>
-      <span class="bold">Pale Moon aims to remain what it is at its
-heart: a fully customizable web browser.</span><br>
-"Added tools" are nice, but may not be adopted in Pale Moon if they go
-beyond what should normally be part of a web browser for general use.<br>
       <br>
 <!--#include virtual="nav/footerad.html" --> <br>
 <!--#include virtual="nav/footer.html" --> <br>

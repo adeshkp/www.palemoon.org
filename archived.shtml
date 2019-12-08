@@ -65,9 +65,12 @@ Profile migration across milestones (v26.*, v27.*, v28.*, etc.) is <span
 later milestone, you can no longer safely use it in an earlier milestone</span>.
 If you download an earlier milestone from this archived page you should
 always start with a fresh profile or a matching backup of the profile
-from the milestone you are downloading.<br>
+from the milestone you are downloading. On occasion, the same applies
+to development versions within milestones, so using a newer profile in
+an older version of the browser is strongly discouraged.<br>
       <br>
-Profile corruption due to later milestone incompatibility of data may
+Profile corruption due to later milestone or version incompatibility of
+data may
 not immediately be apparent, but can (and likely will) cause issues
 down the line. Also, if you have upgraded a profile to a later version,
 then used it with an earlier version, it should be considered corrupt
