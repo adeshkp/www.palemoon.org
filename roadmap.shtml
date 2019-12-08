@@ -37,7 +37,7 @@
     <tr>
       <td class="c6">
       <h1> Pale Moon future roadmap</h1>
-      <small>Last update: 2019-07-24</small><br>
+      <small>Last update: 2019-12-08</small><br>
       <h3> General Information </h3>
 The Pale Moon project is a community-driven project, and as such the
 future roadmap of the browser is determined not only by what is decided
@@ -54,7 +54,7 @@ remain Pale Moon's future. To quote: "Pale Moon is not Firefox, and
 will never be again."<br>
 Of course there are a number of challenges on this kind of divergent
 (some might even say rebellious) path, like adoption of the browser as
-a truly independent force by the Internet community, and a number of
+a truly independent force by the Internet community and a number of
 technical advances as the Web develops.<br>
       <br>
 Having a
@@ -130,6 +130,8 @@ plugins like Silverlight as an alternative.<br>
         <li>WebRTC (Web Real-Time Chat) and media capture.</li>
         <li>Integration of "features as a service" like Mozilla has
 been doing.</li>
+        <li>WebVR and similar "gadgeteering" APIs.<br>
+        </li>
         <li>Extension signing.<br>
         </li>
       </ul>
@@ -176,7 +178,7 @@ performed on Pale Moon, and the resulting
 implementation in v28 is mostly feature-complete in terms of the
 ECMAScript (JavaScript) standards ES6, ES2016 and ES2017, with annexes.
 We are aiming to implement all <span style="font-style: italic;">important</span>
-ES2018 and ES2019 features as well, over time, when the various
+ES2018 and ES2019+ features as well, over time, when the various
 proposals reach sufficient maturity.<br>
       <br>
 Please
@@ -197,7 +199,8 @@ to some extent take on the media player role.<br>
       <br>
 It will never be our goal to equal or surpass dedicated media software,
 since Pale Moon is and remains above all a web browser. Full-HD
-streaming will be possible, but may not be as smooth or as feature-rich
+streaming will be possible with the right hardware, but may not be as
+smooth or as feature-rich
 as what you may find in home cinema software. Also, see above, we do
 not intend to have DRM in Pale Moon's core program, unlike other
 applications that build on UXP, and the browser will as such remain
@@ -208,16 +211,22 @@ On the roadmap are the following specific platforms to support in
 addition to Windows:<br>
       <ul>
         <li>Linux (x86 and x64) -- Completed and actively maintained. </li>
-        <li>Mac OS X -- Currently in development. We hope to have
-official releases on Mac later this year.<br>
+        <li>Mac OS X -- Unofficial support only at this time due to
+unreliability of community developers for Mac. We depend entirely on
+someone to step up and lead this effort long-term if it is ever going
+to reach official status.<br>
         </li>
         <li>Android ARM -- <span style="font-style: italic;">Discontinued</span>.
-There are no plans to make a UXP-based Android browser available.<br>
+There are no plans to make a UXP-based Android browser available; in
+fact, all Android support will eventualy be removed from the platform.</li>
+        <li>Linux ARM -- Depends on independent developers. Currently
+experimental.<br>
         </li>
         <li>*BSD: Due to resistance from the BSD community to adhere to
 normal free software development practices, we currently have no plans
 to have official Pale Moon releases of any kind on the range of BSD
-operating systems.<br>
+operating systems.</li>
+        <li>Modern Solaris derivatives like Illumos -- In development.<br>
         </li>
       </ul>
       <h3> Front-end </h3>
@@ -340,7 +349,11 @@ WebExtensions of any kind in Pale Moon.</span> Our
 current extension technologies provide all the features, functionality
 and above all API access for any extension to do anything it has to,
 including the limited subset that is offered by WebExtensions.<br>
-      <br>
+      <h3> Bottom line </h3>
+      <span class="bold">Pale Moon aims to remain what it is at its
+heart: a fully customizable web browser.</span><br>
+"Added tools" are nice, but may not be adopted in Pale Moon if they go
+beyond what should normally be part of a web browser for general use.<br>
       <h3> Additional tools and services </h3>
       <h4>Pale Moon Sync </h4>
 Pale Moon Sync is still lacking two features on the server side, which
