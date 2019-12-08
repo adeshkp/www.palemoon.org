@@ -179,7 +179,25 @@ zip/bz2.</li>
 optional for (Chrome) web compatibility.</li>
         <li>Cleaned up the jemalloc code: Removed dead/unused code,
 removed conditionals around "always on" code, and made the allocator
-VLA-free.<br>
+VLA-free.</li>
+        <li>Fixed a potential issue when interacting with plugins. (DiD)</li>
+        <li>Fixed a potential crash scenario when reading PAC
+configuration. (DiD)</li>
+        <li>Fixed a potential issue with text selection painting. (DiD)</li>
+        <li>Fixed an issue with element references not being properly
+updated. (DiD)<br>
+        </li>
+        <li>Fixed an issue with incorrect saving of web pages as text.
+(DiD)<br>
+        </li>
+        <li>Fixed a potential issue with clipboard handling. (DiD)</li>
+        <li>Fixed a potential issue with WebRTC peer connections. (DiD)
+(N/A for Pale Moon)<br>
+        </li>
+        <li>Fixed a potential issue with attaching the debugger to web
+workers. (DiD)</li>
+        <li>Updated NSS to 3.41.4 to address CVE-2019-11756 and
+CVE-2019-11745.<br>
         </li>
       </ul>
       <ul>
