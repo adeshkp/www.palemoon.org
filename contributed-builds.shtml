@@ -34,10 +34,6 @@ third-party builds may lag behind the main-line releases of Pale Moon.</span><br
       <span style="font-weight: bold;"> Alternate operating
 systems/configurations:</span><br>
       <ul>
-        <li> <a
- href="http://repo.openpandora.org/?page=detail&amp;app=palemoon_ptitseb"
- target="_blank">Pale Moon for Pandora</a> by ptitSeb.<br>
-A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
         <li><a
  href="https://software.opensuse.org/download.html?project=home%3Astevenpusser&amp;package=palemoon">Pale
 Moon repositories for Debian and Ubuntu</a> by Steve Pusser.</li>
@@ -70,6 +66,10 @@ These are maintained for permissions for past contributions. <span
  style="font-weight: bold;">You should not use these builds</span>
 because the maintainers have stopped providing updates.<br>
       <ul>
+        <li> <a
+ href="http://repo.openpandora.org/?page=detail&amp;app=palemoon_ptitseb"
+ target="_blank">Pale Moon for Pandora</a> by ptitSeb.<br>
+A special build of Pale Moon for the OpenPandora OS on Pandora boxes. </li>
         <li><a
  href="ftp://palemoon:get@archive.palemoon.org/third_party/AVX/">AVX
 build (x86/x64)</a> by Accel.<span class="grey"></span><br>
@@ -143,9 +143,7 @@ modified binary version of Pale Moon with the <span class="underline">official
 name and logo</span> in any way, shape or form.</span> Binaries are
 subject to the proprietary Pale Moon <a href="redist.shtml">redistribution
 license</a>. Please read this license thoroughly if you want to
-redistribute Pale Moon in any way.<br>
-You will have to supply me with a copy of the browser as-intended for
-distribution for me to check.<br>
+redistribute Pale Moon binaries with official branding in any way.<br>
       <br>
 Contributed builds must:<br>
       <ul>
