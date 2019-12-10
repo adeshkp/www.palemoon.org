@@ -1,6 +1,5 @@
 <?php
 
-
 // Sanitizing getter
 function funcHTTPGetValue($_value) {
   if (!isset($_GET[$_value]) || $_GET[$_value] === '' || $_GET[$_value] === null || empty($_GET[$_value])) {
@@ -89,8 +88,8 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
     case 'installer':
       $url = $url . 'palemoon-' . $version . '.win' . $bits . '.installer.exe';
       break;
-    case 'zip':
-      $url = $url . 'palemoon-' . $version . '.win' . $bits . '.zip';
+    case '7z':
+      $url = $url . 'palemoon-' . $version . '.win' . $bits . '.7z';
       break;
     case 'portable':
       $url = $url . 'Palemoon-Portable-' . $version . '.win' . $bits . ".exe";
@@ -113,7 +112,7 @@ function constructDownloadURL($version, $mirror, $bits, $type) {
 // abusive or leading to DoS, should be uncommented.
 // funcCheckUserAgent();
 
-$version = '28.7.2';
+$version = '28.8.0';
 
 $mirror = funcHTTPGetValue('mirror');
 $bits = funcHTTPGetValue('bits');

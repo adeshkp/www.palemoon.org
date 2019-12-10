@@ -60,7 +60,771 @@ These release notes are kept for <span style="font-weight: bold;">historical
 reference only</span>. Versions on this page have been superseded by
 newer versions of Pale Moon and we do not provide support for them.<br>
       <br>
+      <span style="color: rgb(191, 64, 64);">DiD</span> This means that
+a fix is "Defense-in-Depth": It is a fix that does not apply to a
+(potentially) actively exploitable vulnerability in Pale Moon, but
+prevents future vulnerabilities caused by the same code, e.g. when
+surrounding code changes, exposing the problem, or when new attack
+vectors are discovered.<br>
+      <br>
       <hr style="width: 100%; height: 2px;">
+      <h1>Release notes for version 28 releases</h1>
+      <br>
+      <h3><a name="v28.6.1"></a>v28.6.1 (2019-07-25)</h3>
+This is security and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Improved handling of FTP resource loading (allow save-as
+and cater to some FTP-based browsing).</li>
+        <li>Added a preference (<code>security.block_ftp_subresources</code>)
+to
+allow users to completely bypass the blocking of FTP subresources if
+required for their environment, if the improvements made in this
+release do not suffice.</li>
+        <li>Added blocking of authentication-locked cross-origin image
+subresources by default to prevent spurious auth prompts.<br>
+A preference (<code>network.auth.subresource-http-img-XO-auth</code>)
+was added to
+allow users to bypass this blocking if required for their environment.</li>
+        <li>Changed the behavior of file: URIs to treat each URI as a
+unique origin. This prevents cross-file access from scripting.<br>
+A preference (<code>security.fileuri.unique_origin</code>) was added to
+allow users to relax this restriction if required for their environment.</li>
+        <li>Implemented a revised version of <code>http2PushedStream</code>
+to
+address some thread safety issues.</li>
+        <li>Aligned browser behavior with mainstream regarding inner
+window behavior when domain is manipulated.</li>
+        <li>Backed out a 28.5.* patch for causing multiple issues in
+the UI and web content.</li>
+        <li>Updated NSS to 3.41.2 (custom) to pick up several upstream
+fixes.<br>
+        </li>
+        <li>Fixed a type confusion issue in JavaScript Arrays. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Added a fix for cross-thread access of Necko. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Added a port safety check for Alternative Services.</li>
+        <li>Implemented fixes for applicable security issues:
+CVE-2019-11719, CVE-2019-11711, CVE-2019-11715, CVE-2019-11717,
+CVE-2019-11714 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11729 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11727 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11730 (<span style="color: rgb(191, 64, 64);">DiD</span>),
+CVE-2019-11713 (<span style="color: rgb(191, 64, 64);">DiD</span>) and
+several networking and memory-safety hazards that do not have CVE
+numbers.<br>
+        </li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);"></span>
+      <h3><a name="v28.6.0.1"></a>v28.6.0.1 (2019-07-04)</h3>
+This is an out-of-band update to fix some pressing issues with the
+latest release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Updated the application icon to provide better visuals on
+Windows classic and other grey backgrounds.</li>
+        <li>Reduced the Master Password hashing rounds to prevent
+issues with stored password retrieval while still sufficiently
+strengthening the encryption.<br>
+If you have previously re-keyed the database after the update to
+28.6.0, you should do so again by going through the change master
+password process to reduce access times.</li>
+        <li>Updated the WhatsApp Web site-specific user-agent override
+to respond to Google refusing access based on the old string.</li>
+        <li>Updated the branding for the portable launcher.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.6.0"></a>v28.6.0 (2019-07-02)</h3>
+This is a major development update, focusing on under-the-hood
+improvements and bugfixes, code cleanup, and performance.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Implemented <code>String.prototype.trimStart</code> and <code>String.prototype.trimEnd</code>
+(ES2019)</li>
+        <li>Implemented <code>Array.prototype.flat</code> and <code>Array.prototype.flatMap</code>
+(ES2019)</li>
+        <li>Implemented <code>Symbol.prototype.description</code>
+(ES2019)</li>
+        <li>Added support for gzip-compressed SVG-in-Opentype fonts.</li>
+        <li>Updated official branding.</li>
+        <li>Updated reader view components.</li>
+        <li>Added a preference to control the setting of cookies
+through meta header information (non-standard feature) and disabled by
+default.</li>
+        <li>Updated ES6 Atomics and re-enabled them.</li>
+        <li>Updated internationalization code to support updated time
+zones and the Japanese Reiwa era.</li>
+        <li>Updated NSS to a custom version to have better encryption
+strength for master
+passwords.<br>
+IMPORTANT: To use this strong encryption and re-key the password
+database with it, change your master password (can be changed to the
+same one
+you already had if desired, but you have to go through the change
+password
+process). Depending on your computer and the number of stored
+passwords, this encryption update may take some time, so please be
+patient. Please be aware that once re-keyed, the password store will
+be locked to the new encryption and will no longer be accessible with
+the master password in older versions of Pale Moon.</li>
+        <li>Restored "Release notes" in the help menu.</li>
+        <li>Rearchitectured the application/extension update code.</li>
+        <li>Added several performance improvements to DOM and the
+parser.</li>
+        <li>Improved JavaScript garbage collection of dead compartments.</li>
+        <li>Fixed a performance issue with painting on some pages.</li>
+        <li>Improved performance of some websites with complex event
+regions.</li>
+        <li>Fixed a potential performance issue in display lists on
+some pages.</li>
+        <li>Fixed a rendering bottleneck for the use of XRender when
+using a remote session.</li>
+        <li>Fixed graphical artifacts/flickering when using XRender on
+Intel or Intel-hybrid GPU setups.</li>
+        <li>Added a DiD fix for potential future issues with inlining
+array natives.</li>
+        <li>Fixed a potential UAF situation in the HTML5 parser (DiD)</li>
+        <li>Fixed an <code>origin-clean</code> bypass issue.</li>
+        <li>Changed the way permissions for predefined sites are loaded.</li>
+        <li>Reverted the 28.5.1 change to treat *.jnlp files as
+executables (<span class="edit-hide">CVE-2019-11696</span>) after input
+from an Oracle representative. Java Web Start files are not executable
+and should not be treated any different than regular documents handled
+by external applications.</li>
+        <li>Removed SecurityUI telemetry.</li>
+        <li>Removed some other dead telemetry code.</li>
+        <li>Removed geo-specific selection of default search engines.</li>
+        <li>Deprecated the use of FUEL.</li>
+        <li>Removed the unused code for "enhanced tiles" in the new tab
+page.</li>
+        <li>Removed preference to brute-force e10s to on.</li>
+        <li>Removed Unboxed Array code.</li>
+        <li>Removed Unboxed Object code.</li>
+        <li>Fixed failure to print if a page contains a 0-sized <code>&lt;canvas&gt;</code>
+element.</li>
+        <li>Fixed an issue with tab-modal dialogs being presented in
+the wrong order.</li>
+        <li>Fixed an issue with the tab bar remaining collapsed in
+customize mode if normally hidden.</li>
+        <li>Fixed an issue with Sync when choosing to overwrite data
+with synced data.</li>
+        <li>Fixed an issue with tab previews on the taskbar.</li>
+        <li>Fixed an issue with IntersectionObserver viewport accuracy.</li>
+        <li>Fixed Scroll bar orientation on Mac OS X.</li>
+        <li>Fixed an issue with anchor/link targets not re-using a
+named target.</li>
+        <li>Fixed a build issue with Gnu-CC on PPC64.</li>
+        <li>Fixed <code>browser.link.open_newwindow</code>
+functionality.</li>
+      </ul>
+      <h3><a name="v28.5.2"></a>v28.5.2 (2019-06-05)</h3>
+This is a minor update to fix a breaking problem in 28.5.1.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed issues with image/texture allocation incorrectly
+being marked as insecure.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.5.1"></a>v28.5.1 (2019-06-04)</h3>
+This is a security and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Restored a global <code>getBoolPref()</code> function
+shortcut for extension compatibility with old extensions.<br>
+If you are currently using this global function, please change it to <code>Services.prefs.getBoolPref()</code></li>
+        <li>Fixed an issue with the UI when the address bar was removed
+from the navigation toolbar.</li>
+        <li>Fixed an issue with scripting of the Help menu.</li>
+        <li>Fixed a crash resulting from non-standard manipulation of
+XML stylesheets by extensions.</li>
+        <li>Fixed Aero Peek (taskbar previews) on Windows.<br>
+        </li>
+        <li><span style="text-decoration: line-through;">Fixed </span><code
+ style="text-decoration: line-through;">browser.link.open_newwindow</code><span
+ style="text-decoration: line-through;">
+functionality.</span><br>
+Sorry, not yet! This will be in the next major update.<br>
+        </li>
+        <li>Removed the default handler for webcal since the site
+doesn't seem to be properly maintained.</li>
+        <li>Prevented some ways smart places queries could be abused
+for social engineering attacks.</li>
+        <li>Ported an upstream Skia fix.</li>
+        <li>Improved the <code>origin-clean</code> algorithm for
+canvases.</li>
+        <li>Improved the efficiency of certain types of memory
+allocations in the JavaScript compiler.</li>
+        <li>Changed the way the application update checker code is
+hooked up so it will not require a user to go idle before being
+activated.<br>
+This solves the primary issue with application updates not notifying
+users as promptly as they should; more improvements are slated for the
+next major release.</li>
+        <li>Applicable security issues fixed: CVE-2019-7317,
+CVE-2019-11701, CVE-2019-11698, CVE-2019-9817 (DiD), CVE-2019-11700,
+CVE-2019-11696, CVE-2019-11693, and several potentially exploitable
+crashes and memory safety hazards that do not have a CVE number
+assigned to them.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.5.0"></a>v28.5.0 (2019-04-30)</h3>
+This is a major development and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Redesigned the about box.</li>
+        <li>Added "Check for updates" menu entries to the AppMenu and
+classic menu (since the About box redesign no longer has application
+update in it).</li>
+        <li>Restored the <code>app.update.url.override</code> pref for
+AUS
+testing/override.</li>
+        <li>Added "Loop" control to html5 video.</li>
+        <li>Fixed a crash with frames (e.g. when using Tile Tabs).</li>
+        <li>Fixed an issue with textarea placeholders (spec compliance).</li>
+        <li>Removed the Windows Maintenance Service one last time.</li>
+        <li>Improved http basic auth DoS heuristics.</li>
+        <li>Fixed an issue on big-endian machines (e.g. PPC64/linux).</li>
+        <li>Removed e10s code from widgets.</li>
+        <li>Preffed the various http "Accept" headers and aligned with
+the Fetch spec (except for image requests).</li>
+        <li>Aligned <code>URLSearchParams</code> with the spec.</li>
+        <li>Updated several site-specific UA overrides.</li>
+        <li>Fixed "Yet Another special case of a flex frame being the
+absolute containing block"™</li>
+        <li>Fixed border drawing when the tab bar is hidden.</li>
+        <li>Pref-controlled and disabled the use of unboxed plain
+objects in JavaScript's JIT compiler.</li>
+        <li>Improved handling of interrupted connections through
+proxies and pseudo-VPN extensions.</li>
+        <li>Removed contextual identity.</li>
+        <li>Updated the 7zip installer stub to a much more recent code
+version.</li>
+        <li>Fixed an issue with applying percentages to 0 in layout
+sizes.</li>
+        <li>Fixed an issue with calculating linear sums in JS JITed
+code.</li>
+        <li>Added default value feature to <code>get*Pref()</code>
+preference functions.</li>
+        <li>Fixed an issue that would occasionally overwrite the new
+tab custom URL.</li>
+        <li>Updated the SQLite library to 3.27.2</li>
+        <li>Killed the crashreporter toolkit files and exception
+handler hooks.</li>
+        <li>Fixed an issue with a missing border on the tab bar when on
+the bottom.</li>
+        <li>Fixed a crash with badly-formatted SVG files.</li>
+        <li>Showed the robots to the exit after squatting in the
+browser for decades.</li>
+        <li>JavaScript: Implemented TC39 <code>toString()</code>
+revision proposal.</li>
+        <li>Rearchitectured the JavaScript front-end parser to provide
+better and more logical parsing of JS code.</li>
+        <li>Removed support code and leftovers for unsupported SunOS,
+AIX, BEOS, HPUX and OS/2 operating systems.</li>
+        <li>Fixed a scrollbar arrow issue on OS X.</li>
+        <li>Removed all Firefox Accounts code.</li>
+        <li>Made the CSS parser more robust and aligned <code>url()</code>
+behavior with the CSS3 spec in case of bad input.</li>
+        <li>Fixed an issue with blocklist updates not actually
+dynamically applying due to a wrong URL.</li>
+        <li>Updated the embedded emoji font to the TweMoji v11.4.0
+equivalent.</li>
+        <li>Fixed an issue with async/deferred scripts preventing page
+loads from completing.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.4.1"></a>v28.4.1 (2019-03-27)</h3>
+This is a security and bugfix update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed hover state arrows on some controls.</li>
+        <li>Fixed potential denial-of-service issues involving FTP
+(loading of subresources and spamming errors).</li>
+        <li>Disabled Microsoft Family Safety (Win 8.1) by default. This
+prevents security issues as a result of a local MitM setup.</li>
+        <li>Added several site-specific overrides (Firefox Send and
+polyfill.io) to work around website UA-sniffing isues.</li>
+        <li>Implemented the <span style="font-style: italic;">origin-clean</span>
+algorithm for controlling
+access to image resources.</li>
+        <li>Cleaned up the helper application service code.</li>
+        <li>Ported applicable security fixes from Mozilla
+(CVE-2019-9791,
+CVE-2019-9792, CVE-2019-9796, CVE-2019-9801, CVE-2019-9793,
+CVE-2019-9794, CVE-2019-9808 and ZDI-CAN-8368).<br>
+        </li>
+        <li>Implemented several defense-in-depth measures (for
+CVE-2019-9790, CVE-2019-9797, CVE-2019-9804, and a JavaScript issue).</li>
+        <li>Fixed several memory safety hazards and crashes.</li>
+        <li>Binaries are now code-signed again (including the setup
+program for the installer).<br>
+        </li>
+      </ul>
+      <h3><a name="v28.4.0"></a>v28.4.0 (2019-02-19)</h3>
+This is a major development, stability and security release.<br>
+      <p><strong>Changes/fixes:</strong></p>
+      <ul>
+        <li>Removed more telemetry code from the platform.</li>
+        <li>Fixed implementation of the <code>IntersectionObserver</code>
+API to avoid crashes, and enabled it by default.</li>
+        <li>Switched to the new ffmpeg decode API to avoid dropping of
+frames.</li>
+        <li>Fixed a buffering issue in the WebP decoder that caused
+intermittent browser crashes.</li>
+        <li>Improved resource-efficiency for internal stopwatch timers.</li>
+        <li>Improved handling of incorrectly-encoded CTTS in media
+files, resolving some playback issues of videos.</li>
+        <li>Improved the Cycle Collector and Garbage Collector.</li>
+        <li>Improved fullscreen navigation bar handling in the
+situation it has focus when switching to full screen.</li>
+        <li>Aligned <code>instanceof</code> with the final ES6 spec.</li>
+        <li>Improved Windows DIB (bitmap) clipboard data handling.</li>
+        <li>Exposed TLS 1.3 cipher suite prefs in about:config in case
+people want to disable them individually.</li>
+        <li>Allowed empty string on the <code>location.search</code>
+setter to clear URL query parameters from JS.</li>
+        <li>Added a potential fix for external links not opening in the
+current window/tab (untested).</li>
+        <li>Enabled C++11 thread-safe statics in the entire application.</li>
+        <li>Updated several preferences for integration with the new
+add-ons site.</li>
+      </ul>
+      <p><strong>Security fixes:</strong></p>
+      <ul>
+        <li>Fixed a potential use-after-free in IndexedDB code. (<span
+ style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Improved proxy handling to avoid localhost getting proxied.
+(CVE-2018-18506)</li>
+        <li>Ported upstream Skia fixes. (CVE-2018-18356, CVE-2018-18335)</li>
+        <li>Fixed an additional Skia issue. (CVE-2019-5785)</li>
+        <li>Fixed several potentially-exploitable memory safety hazards
+and crashes. (<span style="color: rgb(191, 64, 64);">DiD</span>)</li>
+        <li>Fixed a possible data race when performing compacting GC.</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);"></span>
+      <h3><a name="v28.3.1"></a>v28.3.1 (2019-01-23)</h3>
+This is a minor bugfix and stability release.<br>
+If you are using a language pack, please make sure you have the
+matching version for this browser version installed. Some strings were
+added for Captive Portal detection (see below) and outdated language
+packs will cause blank preference pages.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:<br>
+      </span>
+      <ul>
+        <li>Improved toolbar icon display for all DPIs on Windows.</li>
+        <li>Disabled the IntersectionObserver API by default while we
+work on resolving crashes caused by it.</li>
+        <li>Added <code>isIntersecting</code> to the
+IntersectionObserver API per specification.</li>
+        <li>Added an option to the preferences window to enable Captive
+Portal detection (Advanced -&gt; General). If your network connection
+regularly encounters Captive Portals (e.g. using a laptop on the road
+or other WiFi connections that require login or agreement to terms)
+then enabling this detection may make your use of such networks more
+convenient.<br>
+For those worried about privacy: the detection service makes use of our
+own infrastructure and does not contact third parties like Apple or
+Google.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.3.0"></a>v28.3.0 (2019-01-15)</h3>
+This is a major development and bugfix release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Added AV1 support for MP4/MSE videos. Please note that this
+is a reference library implementation and the upstream decoding lib
+currently has poor performance for higher resolutions (720p+). This is
+disabled by default; use the about:config preference <span
+ style="color: teal;">media.av1.enabled</span>
+to enable this codec.<br>
+        </li>
+        <li>Changed the API used for video playback with FFmpeg 58+.
+This should solve performance issues with VPx.</li>
+        <li>Redesigned the main toolbar icons as SVG images to make
+them HiDPI compliant.</li>
+        <li>Fixed the sync notification (infobar) icon.</li>
+        <li>Fixed a potential cycle collector resource leak.</li>
+        <li>Added icons and controls to tabs to indicate if sound is
+playing the tab and if so, allowing the user to mute it with a click.<br>
+This is a native implementation of the API in use in Basilisk and
+performs the same function as the "expose noisy tabs" extension,
+although the extension may still be preferred by some for e.g. skinning
+capabilities. The feature may be disabled with <span
+ style="color: teal;">browser.tabs.showAudioPlayingIcon</span>.</li>
+        <li>Removed support for VR hardware.</li>
+        <li>Fixed out-of-bounds sizes for CSS calculation strings.</li>
+        <li>Removed the DirectShow component since it is no longer
+necessary.</li>
+        <li>Removed Firefox Accounts integration, phase 1:<br>
+        </li>
+        <ul>
+          <li>Changed the Sync client to the one from Tycho.</li>
+        </ul>
+        <ul>
+          <li>Made Sync optional at build time.</li>
+        </ul>
+        <li>Stopped trying to cater to addons.mozilla.org since they no
+longer offer anything useful to Pale Moon after the Great XUL Extension
+Purge™.</li>
+        <li>Added an option to process favicons for optimal sized
+display and removing animations. Enable this with <span
+ style="color: teal;">browser.chrome.favicons.process</span></li>
+        <li>Fixed an incorrect preference reference in feed reader.</li>
+        <li>Fixed an issue with lazy frame construction on <code>display:contents</code>
+elements. This should solve
+e.g. the use of mathjax in comments on stackoverflow.<br>
+        </li>
+        <li>Media code improvements and cleanup (ongoing).</li>
+        <li>Updated the DropBox useragent override to solve login
+issues.</li>
+        <li>Fixed potential crashes due to shutdown observers in VTT
+and font lists. <span style="color: rgb(191, 64, 64);">DiD</span> </li>
+        <li>Enabled some mistakingly-disabled optimizations in the JS
+JIT compiler.</li>
+        <li>Fixed several potential crashes in JS. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed several potential crashes in WebCrypto. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential crash in JS Range Analysis. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential crash in the layout engine due to combo
+boxes. <span style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential shutdown crash in non-standard
+environments related to 2D Canvas. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential overflow in the PNG writer. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed a potential double-free in the MAR signing utility. <span
+ style="color: rgb(191, 64, 64);">DiD</span></li>
+        <li>Fixed an issue where URLs could be extracted cross-origin (<span
+ id="summary_alias_container"><span id="alias_nonedit_display">CVE-2018-18494</span></span>).</li>
+        <li>Updated NSPR to v4.20.</li>
+        <li>Updated NSS to 3.41, providing (among other things) full
+compatibility with the final version of TLS 1.3 on websites.</li>
+        <li>Updated <code>location.protocol</code> to the latest spec.</li>
+        <li>Updated Intersection Observers to the latest spec and
+enabled them by default.</li>
+        <li>Updated the SQLite lib to 3.26.0.</li>
+        <li>Fixed errors about the login manager's recipeManager not
+being available (yet).</li>
+        <li>Switched status bar download arrow to SVG.</li>
+        <li>Fixed a crash in IntersectionObservers.</li>
+        <li>Fixed initialization of the Search service from browser
+code to avoid synchronous init.</li>
+        <li>Added logging of performance warnings to devtools consoles.</li>
+        <li>Fixed favicons in taskbar tab preview listings.</li>
+        <li>Blocked Comodo IS dll &lt; version 6.3 to prevent startup
+crashes.</li>
+        <li>Fixed issues in the HTML form submit observer module.</li>
+        <li>Limited resolving depth of CSS variables to a sane maximum
+(fixes cras.sh issue).</li>
+        <li>Removed Mozilla's proprietary constructor on WebAudio's <code>AudioContext</code>,
+aligning it with the standard specification.</li>
+        <li>Exposed the previously hidden preference in about:config
+for page thumbnail generation (some people prefer this for local
+privacy).</li>
+        <li>Aligned <code>Element.ScrollIntoView</code> with the DOM
+specification. This improves, among other things, compatibility with
+the React framework.</li>
+      </ul>
+      <span style="color: rgb(191, 64, 64);"></span>
+      <h3><a name="v28.2.2"></a>v28.2.2 (2018-12-06)</h3>
+This is a minor update to address a few pertinent issues.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Changed the about:feeds icon for external applications to a
+generic icon, since that kind of access to executables is no longer
+allowed for security reasons.</li>
+        <li>Fixed issues with copying/pasting bookmarks in the Library
+View.</li>
+        <li>Fixed a crash occurring when using HTTP pipelining over
+some (broken) proxies.</li>
+        <li>Fixed several issues with animated WebP display (animations
+stopping, corrupted frames on lossy images, etc.)</li>
+        <li>Fixed an issue with the display of truncated GIF images.</li>
+        <li>Fixed an issue with deleting recent history not working
+properly.</li>
+        <li>Fixed incorrect duplicate compatibility mode preferences in
+about:config.</li>
+      </ul>
+      <h3><a name="v28.2.1"></a>v28.2.1 (2018-11-16)</h3>
+This is a bugfix release to address critical usability issues with the
+bookmarks/history window.<br>
+      <h3><a name="v28.2.0"></a>v28.2.0 (2018-11-13)</h3>
+This is a major development and bugfix release.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a major performance issue with web workers.</li>
+        <li>Fixed a rare crash on local networks with HTTP basic auth
+and unsupported cipher suites.</li>
+        <li>Fixed a performance/timer issue when leaving the browser
+idle.</li>
+        <li>Fixed an issue causing an empty dialog when launching
+executable files from the browser.</li>
+        <li>Fixed an issue preventing making entries to disallow sites
+to store data for off-line use.</li>
+        <li>Removed code to prevent extensions with binary components.</li>
+        <li>Fixed an issue with common dialogs being sized incorrectly
+for their content.</li>
+        <li>Fixed an issue with event handling on the tab bar that
+would cause frustrating behavior when trying to open/close tabs in
+rapid succession.</li>
+        <li>Switched default behavior for scrolling when a context or
+pop-up menu is open to allow scrolling, like in v27. This also affects
+scrolling in very long menus, e.g. bookmarks.<br>
+        </li>
+        <li>Added experimental Asynchronous Panning and Zooming (APZ)
+for desktop use.</li>
+        <li>Re-enabled the use and parsing of ICC v4 color profiles.</li>
+        <li>Removed telemetry code from the caching subsystem.</li>
+        <li>Improved full-screen detection for suppressing status
+messages.</li>
+        <li>Made all arguments passed to Init*Event() optional except
+the first for parity with other browsers.</li>
+        <li>Cleaned up some internal installer code.</li>
+        <li>Fixed making caret width configurable when dealing with CJK
+characters (regression).</li>
+        <li>Fixed drawing of table borders consistently when zooming a
+page (regression).</li>
+        <li>Exposed the "Save download location per site" pref in
+about:config.</li>
+        <li>Improved media handling (ongoing).</li>
+        <li>Added experimental support for AV1 in WebM videos (disabled
+by default).<br>
+Note: this is for WebM only for now, so MP4 and MSE AV1 streams (e.g.
+YouTube) will not (yet) play.</li>
+        <li>Removed the (defunct and incomplete) in-browser translation
+code.</li>
+        <li>Fixed an issue with CSS Grid layouts unnecessarily
+shrinking element blocks.</li>
+        <li>Fixed notification settings menu entry (opes
+about:permissions with relevant data now).</li>
+        <li>Fixed the launching of an undesirable background content
+process for capturing page thumbnails.</li>
+        <li>Fixed a focus issue in the bookmark properties dialog.<br>
+        </li>
+        <li>Changed the setting for reporting CSS errors to the console
+to false by default, to prevent unnecessary performance loss for
+recording this data.</li>
+        <li>Added control mechanisms for Opportunistic Encryption (both
+for alternative services and upgrade-insecure-requests) in preferences,
+and disabled this by default due to potential security and privacy
+issues with this transitional technology.</li>
+        <li>Updated the default reported Firefox version in Firefox
+Compatibility Mode to prevent "too old Firefox" complaints on websites.<br>
+        </li>
+        <li>Updated libnestegg, ffvpx, reader view components and
+several other modules from upstream.</li>
+        <li>Implemented security fixes for CVE-2018-12381,
+CVE-2017-7797, a better fix for CVE-2018-12386 (DiD), CVE-2018-12401
+(DiD), CVE-2018-12398, CVE-2018-12392, several Skia bugs, and several
+crashes and memory safety hazards that do not have a CVE number.<br>
+        </li>
+      </ul>
+      <h3><a name="v28.1.0"></a>v28.1.0 (2018-09-20)</h3>
+This major update is focused on performance, security and some
+regression and bug fixes.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Updated NSS to 3.38, removed TLS 1.3 draft version check
+since it's considered final.</li>
+        <li>Reinstated RC4 as an optional encryption cypher for
+non-standard environments (e.g. old routing/peripheral networked
+hardware on LAN). RC4 and 3DES are marked weak and disabled, and will
+never be used in the first handshake with a site, only as last-ditch
+fallback when specifically enabled (meaning they won't show up on
+ssllabs' test, for example).</li>
+        <li>Removed Telemetry accumulation calls, automatic timers and
+stopwatches. This removes a very noticeable performance sink for all
+operations on all platforms.</li>
+        <li>Fixed many occurrences of discouraged types of memory
+access for primarily GCC 8 compatibility. This improves overall code
+security as a defense-in-depth measure.</li>
+        <li>Re-implemented the pref-controlled custom background color
+for standalone images.</li>
+        <li>Updated session history handling for internal pages.
+about:logopage is no longer stored in history, and you can choose to
+store the QuickDial page in history by setting the pref <span
+ style="color: rgb(0, 128, 128);">browser.newtabpage.add_to_session_history</span>
+to <span style="color: rgb(0, 128, 128);">true</span>. This is
+disabled by default (meaning you can't use the "Back" button to go back
+to the QuickDial page) as a defense-in-depth security measure.</li>
+        <li>Added <span style="color: rgb(0, 128, 128);">ui.menu.allow_content_scroll</span>
+to control whether content can be scrolled if a context menu is open.</li>
+        <li>Fixed incorrect code removal in ipc.</li>
+        <li>Removed support for TLS session caches in TLSServerSocket.</li>
+        <li>Added support for local-ref as SVG xlink:href values.</li>
+        <li>Changed the find bar to be a browser-global toolbar again
+(like in Pale Moon 27) instead of per-tab. For people who prefer search
+terms to be saved on a per-tab basis (like with the per-tab findbar
+previously), this is possible by setting <span
+ style="color: rgb(0, 128, 128);">findbar.termPerTab</span> to <span
+ style="color: rgb(0, 128, 128);">true</span>. This resolves a number
+of issues, including styling with lightweight themes not applying to
+the find bar, and status pop-ups overlapping the find bar.</li>
+        <li>Ported all relevant security fixes from Mozilla's Gecko/62
+release, including CVE-2018-12377 and CVE-2018-12379.</li>
+        <li>Restored part of the searchplugin API that was removed by
+Mozilla, so extensions can provide and save edits to installed search
+engines.</li>
+        <li>Improved the speed of restoring browsing sessions upon
+startup.</li>
+        <li>Fixed the "Restore previous session" button sometimes being
+missing from about:home, while a restorable session would be present.<br>
+        </li>
+        <li>Fixed tab previews in the Windows taskbar (if enabled).</li>
+        <li>Fixed the setting of the new tab page being "My Home Page"
+so it'll pick up subsequent changes to the home page URL automatically.</li>
+        <li>Removed the Firefox Accounts migrator from Sync.</li>
+        <li>Fixed an issue with the enabled state of number controls if
+appearances changed.</li>
+        <li>Stopped building ffvpx on 32-bit platforms (except windows)
+to use the (faster) system-installed lib instead.</li>
+        <li>Re-added a horizontal scroll action option for mouse wheel.
+(regression)</li>
+        <li>Fixed handling of content language if the locale is changed.</li>
+        <li>Fixed document navigation with the F6 key.</li>
+        <li>Fixed toolbar styling in toolkit themes.</li>
+        <li>Fixed viewing the source of a selection.</li>
+      </ul>
+      <h3><a name="v28.0.1"></a>v28.0.1 (2018-08-31)</h3>
+This is a bugfix point release to address serious performance
+bottlenecks and general run-time issues (UI slowness, crashes, hangs)
+with the browser. Once again this impacted 32-bit operating systems
+more severely than 64-bit ones due to its more limited address space
+that would get flooded with bogus data.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:<br>
+      </span>
+      <ul>
+        <li>Backed out a Mozilla upstream patch causing issues with IPC
+and texture allocation for the compositor.</li>
+        <li>Backed out a Mozilla upstream patch causing issues with
+Javascript memory buffer allocation.</li>
+      </ul>
+      <h3><a name="v28.0.0.1"></a>v28.0.0.1 (2018-08-28) - Windows only<br>
+      </h3>
+This is a Windows-only update to address some stability/performance
+issues that have popped up with the new milestone release on especially
+32-bit systems.<br>
+The cause seems to be a compiler bug in Visual Studio 2015 with certain
+optimizations. Although 64-bit does not seem to be directly affected,
+we are still applying more cautious optimizations there too from this
+point forward until we can figure out exactly what the cause is and
+which (more aggressive) optimizations are safe to use.<br>
+      <h3><a name="v28.0.0"></a>v28.0.0 (2018-08-16)</h3>
+We are excited to bring you Pale Moon 28.0. This is a new major
+milestone in Pale Moon's release history.<br>
+      <br>
+We are now building on the <a
+ href="https://www.github.com/MoonchildProductions/UXP/" target="_blank">Unified
+XUL
+Platform</a> which has been forked off from Mozilla's mozilla-central
+at a
+point before Rust and Quantum to continue focus on the XUL interface
+language and traditional browser extensions. Many thousands of things
+have changed since the v27 (AKA "Tycho") versions, which can't possibly
+all be listed here. Instead, the most pertinent improvements in this
+new
+release are highlighted here:<br>
+      <ul>
+        <li>SpiderMonkey update: The JavaScript engine has received a
+major upgrade and now supports all landmark features from the
+ECMAScript standards as carried by mainstream browsers. This should put
+an end to the increasing JavaScript issues we've seen due to web
+frameworks not being browser-agnostic in that respect, or the browser
+not supporting what websites expect.</li>
+        <li>Goanna update: The layout and rendering engine (Goanna) has
+been updated to its 4th generation (version 4.*) which brings with it
+improved compatibility with "trendy" CSS styling techniques that build
+on a few very specific features (e.g. CSS Grid). Goanna continues to
+build on tried-and-tested software fallbacks in case hardware
+acceleration can't be used, and Linux remote desktop users can continue
+to leverage xrender for speedy remote screen updates in Pale Moon.</li>
+        <li>DOM enhancements: Enhancements in the Document Object Model
+provides websites with updated APIs to perform their tasks. (e.g.
+Fetch, WebAnimations, WebCrypto, HTML Input Element Extensions, etc.)</li>
+        <li>Media enhancements: Our media back-end update is, for all
+intents and purposes, complete. MSE media streaming (for MP4) should be
+compatible with all major players on the market now. MSE for WebM is
+still disabled by default due to some compatibility issues that need to
+be examined, but you may enable this in preferences to e.g. allow 4k
+video playback on some sites that only offer UHD in WebM format. We now
+also support playback of FLAC-encoded audio.<br>
+        </li>
+        <li>New: WebGL2 support! Pale Moon now supports the WebGL2
+standard for enhanced graphical experiences in 2D and 3D.</li>
+        <li>Devtools have been given a refresh. Just in case you
+thought they weren't extensive enough yet, some new categories have
+been
+added to inspect and manipulate all aspects of web content.</li>
+        <li>Updates to the login manager: Login credentials can now be
+stored specifically with or without a user name, and selected
+individually. This is a behavior change from previous, and clicking a
+password field can now pop-up a selection list of user names for which
+passwords are stored (if multiple credentials are saved). Clicking the
+appropriate login name (or date-stamped version if no name is present)
+will fill in the accompanying password.</li>
+        <li>We no longer support Windows Vista.<br>
+        </li>
+      </ul>
+What might be more important for people worrying about upgrading to
+this milestone is what hasn't changed.<br>
+      <ul>
+        <li>We continue to support NPAPI plugins.</li>
+        <li>We continue to support complete themes as well as
+lightweight themes.</li>
+        <li>We continue to offer a fully customizable interface like
+before. Australis (like seen in Basilisk) is not used.<br>
+        </li>
+        <li>We continue to support XUL overlay, bootstrapped and
+(deprecated) Jetpack extensions (collectively called "legacy
+extensions" by Mozilla).<br>
+        </li>
+        <li>We do <span style="font-weight: bold;">not</span> include
+any DRM in the browser (people needing this can use e.g. the
+Silverlight plugin to play protected content), even though the platform
+we build on supports it.</li>
+      </ul>
+Our primary goal has been to lift Pale Moon up to the new platform and
+as such most changes are "under the hood" and won't be seen in casual
+use (aside from more things "just working"). We aim to keep your user
+experience consistent and logical; but
+some things will have changed, of course. Browser extensions may need
+updating or may need a different version, for example.<br>
+      <br>
+Of course with such a big change of platform, there are some things
+that have regressed (worked before but no longer work), and we will
+work on fixing these regressions over time (hopefully with your help).<br>
+      <br>
+Reality check: Even though we have extensively tested the browser in
+daily use for a few months (also thanks to the brave souls on our
+unstable channel) we don't expect that the browser will be flawless or
+bug-free. If you find bugs, regressions or issues with the new release,
+please
+discuss them on the <a href="https://forum.palemoon.org/"
+ target="_blank">forum</a>. Let's work together as a community of users
+to make this the best browser yet!<br>
+      <br>
+      <span style="font-weight: bold;">Big thank-yous and kudos go out
+to everyone who has, in one way or another, contributed to this
+milestone release and helped make it possible. This one belongs to all
+of you!<br>
+      <br>
+      </span>
       <h1>Release notes for version 27 releases</h1>
       <h3>27.9.4 (2018-07-17)</h3>
 This is a security and usability update.<br>
