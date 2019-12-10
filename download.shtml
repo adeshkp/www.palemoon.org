@@ -356,7 +356,7 @@ from read-only media</span> like CD-ROM or DVD-ROM; it needs write
 access to the location it is run from.<br>
       <h4>Updating the portable version</h4>
 Although it is possible to use the built-in updater of the portable
-browser, this will only update the embedded version of pale Moon and
+browser, this will only update the embedded version of Pale Moon and
 you will miss any changes or enhancements to the portable launcher or
 environment which will occasionally change. The recommended way of
 upgrading is downloading a new portable version, then copying the user
