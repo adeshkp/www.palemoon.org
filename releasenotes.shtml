@@ -117,6 +117,9 @@ Tobin!).<br>
         <li>Cleaned up the jemalloc code: Removed dead/unused code,
 removed conditionals around "always on" code, and made the allocator
 VLA-free.</li>
+        <li>Fixed an oversight in the release branch still marking
+"jnlp" (Java Web Start) as executable.<br>
+        </li>
       </ul>
       <span style="font-weight: bold;">Security-related fixes:</span><br>
       <ul>
