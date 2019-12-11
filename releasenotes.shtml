@@ -99,7 +99,7 @@ relying on <code>watch()/unwatch()</code>.<br>
         </li>
         <li>Fixed a build failure in the libcubeb sndio module.</li>
         <li>Fixed a small oversight in the release branch that would
-potentially still mark jnlp files as executable.<br>
+potentially still mark "jnlp" (Java Web Start) files as executable.<br>
         </li>
         <li>Fixed the certificate retrieval logic in the certificate
 exception dialog.</li>
@@ -117,9 +117,6 @@ Tobin!).<br>
         <li>Cleaned up the jemalloc code: Removed dead/unused code,
 removed conditionals around "always on" code, and made the allocator
 VLA-free.</li>
-        <li>Fixed an oversight in the release branch still marking
-"jnlp" (Java Web Start) as executable.<br>
-        </li>
       </ul>
       <span style="font-weight: bold;">Security-related fixes:</span><br>
       <ul>
