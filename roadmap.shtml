@@ -37,7 +37,7 @@
     <tr>
       <td class="c6">
       <h1> Pale Moon future roadmap</h1>
-      <small>Last update: 2019-12-08</small><br>
+      <small>Last update: 2020-01-01</small><br>
       <h3> General Information </h3>
 The Pale Moon project is a community-driven project, and as such the
 future roadmap of the browser is determined not only by what is decided
@@ -174,8 +174,9 @@ improvements will be made over time, as required.<br>
       <h4>JavaScript </h4>
 JavaScript
 development is one of the ongoing focuses of the core work
-performed on Pale Moon, and the resulting
-implementation in v28 is mostly feature-complete in terms of the
+performed on UXP, and the resulting
+implementation in v28 of Pale Moon is mostly feature-complete in terms
+of the
 ECMAScript (JavaScript) standards ES6, ES2016 and ES2017, with annexes.
 We are aiming to implement all <span style="font-style: italic;">important</span>
 ES2018 and ES2019+ features as well, over time, when the various
@@ -226,7 +227,13 @@ experimental.<br>
 normal free software development practices, we currently have no plans
 to have official Pale Moon releases of any kind on the range of BSD
 operating systems.</li>
-        <li>Modern Solaris derivatives like Illumos -- In development.<br>
+        <li>Modern Solaris derivatives like Illumos -- Although we have
+full and proper support for this in the UXP platform at the moment
+thanks to a developer who stepped up, there is current resistance to
+adoption in OpenIndiana's platform as a result of an influencer
+blocking adoption in the various OI operating systems. We will continue
+to try and make Pale Moon available on these platforms but it's
+currently in the hands of their management.<br>
         </li>
       </ul>
       <h3> Front-end </h3>

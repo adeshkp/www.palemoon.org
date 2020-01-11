@@ -92,7 +92,33 @@ only):</h3>
       <ul>
       </ul>
       <ul>
-        <li>[...]<br>
+        <li>New milestone modular setup: Pale Moon has been split off
+from the UXP platform repository and will be maintained as its own
+application with UXP as a platform module.</li>
+        <li>Implemented asynchronous iterators (<code>await
+iterator.next()</code> and <code>for await</code> loops) (ES2018)</li>
+        <li>Aligned <code>document.open()</code> with the overhauled
+specification.</li>
+        <li>Implemented promise-based media playback.</li>
+        <li>Fixed a potential pointer issue issue in cubeb. (DiD)</li>
+        <li>Enabled layers acceleration by default on GTK-based
+platforms.</li>
+        <li>Aligned the way DOM styles are computed with mainstream
+browser behavior.</li>
+        <li>Removed the (unused) DOM promise implementation.</li>
+        <li>Changed the default monospace font for main languages from <span
+ style="font-family: Courier New;">Courier New</span> to <span
+ style="font-family: Consolas;">Consolas</span>.<br>
+This provides a more balanced font for fixed-width text that is
+slightly more condensed and more in line with the naturally compacter
+variable-width fonts used everywhere else.</li>
+        <li>Increased the maximum XML nesting depth to 2048 levels for
+extreme corner cases and to conservatively align with other browsers.</li>
+        <li>Updated NSPR to 4.24 and NSS to 3.48-RTM, removing the
+previous custom patch level with NSS being able to support custom
+rounds for DBM now.<br>
+For extensive release notes with all NSS changes, see <a
+ href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/NSS_Releases">NSS_Releases</a><br>
         </li>
       </ul>
       <ul>
