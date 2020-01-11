@@ -33,6 +33,28 @@ prevents future vulnerabilities caused by the same code, e.g. when
 surrounding code changes, exposing the problem, or when new attack
 vectors are discovered.<br>
       <br>
+      <h3><a name="v28.8.1"></a>v28.8.1 (2020-01-11)</h3>
+This is an important security and stability release. Please update your
+browser to this version as soon as possible.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed a sampling issue in libsoundtouch (DiD)</li>
+        <li>Fixed an issue with a new upcoming Windows 10 feature not
+honoring Private Browsing mode by default (DiD)</li>
+        <li>Fixed several stability and memory safety hazards. (DiD)<br>
+        </li>
+        <li>Fixed an issue where files could inadvertently be executed
+with the designated file type handler instead of opened.
+(CVE-2019-17019)</li>
+        <li>Fixed an issue with the JavaScript JIT compiler that could
+lead to exploitable crashes. (<span id="field-value-status_summary"><span
+ id="field-value-bug_id"><span class="edit-hide">CVE-2019-17026</span></span></span>)
+          <span style="color: rgb(153, 0, 0);">actively exploited</span></li>
+        <li>Unified XUL Platform Mozilla Security Patch Summary: 2
+fixed, 7 DiD, 12 not applicable.<br>
+        </li>
+      </ul>
       <span style="color: rgb(204, 0, 0);"></span>
       <h3><a name="v28.8.0"></a>v28.8.0 (2019-12-10)</h3>
 This is a major development release. Many things have been improved,
@@ -55,7 +77,7 @@ While not fully spec compliant (yet), this will fix the few web
 compatibility issues with sites that rely on this feature without
 fallback (e.g. the Chromium bugtracker).<br>
         </li>
-        <li>Implemented Promise.<code>prototype.finally()</code>
+        <li>Implemented <code>Promise.prototype.finally()</code>
 (ES2018).</li>
         <li>Implemented Regular Expression lookbehind (ES2018).</li>
         <li>Implemented Regular Expression /s flag (dotAll support)
