@@ -33,6 +33,21 @@ prevents future vulnerabilities caused by the same code, e.g. when
 surrounding code changes, exposing the problem, or when new attack
 vectors are discovered.<br>
       <br>
+      <h3><a name="v28.8.2"></a>v28.8.2 (2020-01-28)</h3>
+This is a small bugfix and compatibility update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Reverted the addition of JavaScript regular expression
+lookarounds since the implementation caused crashes. We'll have to
+revisit this later.</li>
+        <li>Fixed an issue where FTP servers would hang the browser if
+they were not sending answers according to the protocol specification.</li>
+        <li>Added a workaround for GitHub trying to enforce more
+Google-isms (which we don't support at this time) to browsers that
+identify as "Firefox-alike".<br>
+        </li>
+      </ul>
       <h3><a name="v28.8.1"></a>v28.8.1 (2020-01-11)</h3>
 This is an important security and stability release. Please update your
 browser to this version as soon as possible.<br>
