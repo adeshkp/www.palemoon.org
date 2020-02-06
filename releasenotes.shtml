@@ -33,6 +33,9 @@ prevents future vulnerabilities caused by the same code, e.g. when
 surrounding code changes, exposing the problem, or when new attack
 vectors are discovered.<br>
       <br>
+      <h3><a name="v28.8.2.1"></a>v28.8.2.1 (2020-02-04)</h3>
+This is a minor release in response to YouTube deprecating their old
+web UI. This change will enable the new YouTube UI by default.<br>
       <h3><a name="v28.8.2"></a>v28.8.2 (2020-01-28)</h3>
 This is a small bugfix and compatibility update.<br>
       <br>
