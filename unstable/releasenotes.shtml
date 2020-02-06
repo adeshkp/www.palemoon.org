@@ -131,8 +131,17 @@ for security reasons. If you need this functionality for your
 non-standard environment, you can enable it with the preference <code>network.jar.block-remote-files</code>,
 but please consider moving away from this method of providing web-based
 applications.</li>
-        <li>Enabled seeking to next frame in media files.<br>
+        <li>Enabled seeking to next frame in media files.</li>
+        <li>Implemented CustomElements v1. (preffed, not functional yet
+due to reliance on shadowDOM).<br>
         </li>
+        <li>Changed the way hardware acceleration is controlled from
+applications.</li>
+        <li>Removed support for system libevent.</li>
+        <li>Fixed some potential crashing scenarios with WebGL on Linux.</li>
+        <li>Completely removed <code>showModalDialog</code>.</li>
+        <li>Backed out regex lookbehind implementation for causing
+crashes.</li>
       </ul>
       <ul>
       </ul>
