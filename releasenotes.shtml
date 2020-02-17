@@ -32,7 +32,30 @@ a fix is "Defense-in-Depth": It is a fix that does not apply to a
 prevents future vulnerabilities caused by the same code, e.g. when
 surrounding code changes, exposing the problem, or when new attack
 vectors are discovered.<br>
+      <h3><a name="v28.8.3"></a>v28.8.3 (2020-02-18)</h3>
+This is a regular maintenance bugfix and security release.<br>
       <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Fixed an issue in CSP blocking requests without a port for
+custom schemes.</li>
+        <li>Fixed a potentially hazardous crash in layers.</li>
+        <li>Fixed random crashes on some sites using IndexedDB.</li>
+        <li>Changed the way the application can be invoked from the
+command-line to prevent a whole class of potential exploits involving
+modified omnijars.<br>
+          <em class="text-italics">If your special-needs environment
+requires that you launch the browser with custom browser/gre omnijars
+from the command-line, you <span style="text-decoration: underline;">must</span>
+set the <span style="font-family: monospace;">UXP_CUSTOM_OMNI</span>
+environment variable before launch from this point forward.</em></li>
+        <li>Fixed an issue in the html parser after using HTML5
+template tags, allowing JavaScript parsing and execution when it should
+not be allowed, risking XSS vulnerabilities on sites relying on correct
+operation of the browser. (CVE-2020-6798)</li>
+        <li>Unified XUL Platform Mozilla Security Patch Summary: 2
+fixed, 2 DiD, 10 not applicable.</li>
+      </ul>
       <h3><a name="v28.8.2.1"></a>v28.8.2.1 (2020-02-04)</h3>
 This is a minor release in response to YouTube deprecating their old
 web UI. This change will enable the new YouTube UI by default.<br>
@@ -323,7 +346,8 @@ since they updated their detection to work with Pale Moon.<br>
       </ul>
       <span style="font-weight: bold;"></span> <br>
       <hr style="width: 100%; height: 2px;"><br>
-      <h1> Release notes for previous versions (unsupported) </h1>
+      <h1> Release notes for older versions than those listed here<br>
+      </h1>
 You can find the release notes for previous releases of Pale Moon on
 the <a href="releasenotes-archived.shtml">Archived Versions Release
 Notes</a> page.<br>
