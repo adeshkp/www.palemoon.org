@@ -101,8 +101,6 @@ iterator.next()</code> and <code>for await</code> loops) (ES2018)</li>
 specification.</li>
         <li>Implemented promise-based media playback.</li>
         <li>Fixed a potential pointer issue issue in cubeb. (DiD)</li>
-        <li>Enabled layers acceleration by default on GTK-based
-platforms.</li>
         <li>Aligned the way DOM styles are computed with mainstream
 browser behavior.</li>
         <li>Removed the (unused) DOM promise implementation.</li>
@@ -113,8 +111,9 @@ This provides a more balanced font for fixed-width text that is
 slightly more condensed and more in line with the naturally compacter
 variable-width fonts used everywhere else.</li>
         <li>Increased the maximum XML nesting depth to 2048 levels for
-extreme corner cases and to conservatively align with other browsers.</li>
-        <li>Updated NSPR to 4.24 and NSS to 3.48-RTM, removing the
+          <span style="font-style: italic;">extreme</span> corner cases
+and to conservatively align with other browsers.</li>
+        <li>Updated NSPR to 4.24 and NSS to ~3.48.1-RTM, removing the
 previous custom patch level with NSS being able to support custom
 rounds for DBM now.<br>
 For extensive release notes with all NSS changes, see <a
@@ -124,7 +123,8 @@ Password use with limited effect.</li>
         <li>Implemented non-standard legacy CSSStyleSheet rules
 functions.</li>
         <li>Implemented the html5 <code>&lt;dialog&gt;</code> element.
-To switch this on, flip <code>dom.dialog_element.enabled</code> to <code>true</code>.</li>
+To switch this on, flip <code>dom.dialog_element.enabled</code> to <code>true</code>.<br>
+        </li>
         <li>Disabled some logging in production builds.</li>
         <li>Disabled allowing remote <code>jar:</code> URIs by default
 for security reasons. If you need this functionality for your
@@ -137,11 +137,33 @@ due to reliance on shadowDOM).<br>
         </li>
         <li>Changed the way hardware acceleration is controlled from
 applications.</li>
-        <li>Removed support for system libevent.</li>
         <li>Fixed some potential crashing scenarios with WebGL on Linux.</li>
         <li>Completely removed <code>showModalDialog</code>.</li>
-        <li>Backed out regex lookbehind implementation for causing
-crashes.</li>
+        <li>Fixed an issue with form elements sometimes being
+incorrectly disabled.</li>
+        <li>Removed support for a number of critical libraries being
+system-supplied.</li>
+        <li>Improved table drawing performance again after the rewrite
+for sticky positioning making it slow.<br>
+        </li>
+        <li>Performed various tree-wide code cleanups.</li>
+        <li>Updated the 7-zip installer self-extractor so it no longer
+hangs on old Windows versions and can provide a proper message about
+support.</li>
+        <li>Removed various gadgeteering/redundant/dead DOM APIs
+(casting/presentation, FlyWeb)</li>
+        <li>Updated CSP processing to allow custom scheme wildcards to
+be specified without a port.</li>
+        <li>Implemented rule processing stub for
+font-variation-settings.</li>
+        <li>Fixed several crashes.</li>
+        <li>Fixed a parsing issue with <code>&lt;template&gt;</code>
+tags.</li>
+        <li>Implemented the optional hiding of pinned tabs in
+CtrlTab/AllTab panes.</li>
+        <li>Added a hidden pref (<code>browser.places.smartBookmarks.max</code>)
+to control the sizes of default smart bookmarks categories.<br>
+        </li>
       </ul>
       <ul>
       </ul>
