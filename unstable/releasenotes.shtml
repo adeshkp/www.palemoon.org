@@ -110,8 +110,8 @@ browser behavior.</li>
 This provides a more balanced font for fixed-width text that is
 slightly more condensed and more in line with the naturally compacter
 variable-width fonts used everywhere else.</li>
-        <li>Increased the maximum XML nesting depth to 2048 levels for
-          <span style="font-style: italic;">extreme</span> corner cases
+        <li>Increased the maximum XML nesting depth to 2048 levels for <span
+ style="font-style: italic;">extreme</span> corner cases
 and to conservatively align with other browsers.</li>
         <li>Updated NSPR to 4.24 and NSS to ~3.48.1-RTM, removing the
 previous custom patch level with NSS being able to support custom
@@ -162,7 +162,19 @@ tags.</li>
         <li>Implemented the optional hiding of pinned tabs in
 CtrlTab/AllTab panes.</li>
         <li>Added a hidden pref (<code>browser.places.smartBookmarks.max</code>)
-to control the sizes of default smart bookmarks categories.<br>
+to control the sizes of default smart bookmarks categories.</li>
+        <li>Changed the way Firefox extensions are displayed in the
+add-on manager (provide a clear warning).</li>
+        <li>Denied other types of add-ons that aren't explicitly
+targeting Pale Moon's ID.</li>
+        <li>Removed "Copy raw data" button from the troubleshooting
+information page, since it's never used by us in that format, and users
+mistakenly keep using it instead of copying text.</li>
+        <li>Removed a bunch of Android support code.</li>
+        <li>Backed out a large code cleanup patch for causing subtle
+issues in website operation (e.g. WordPress). This will have to be
+revisited later; the reintroduced code is not in use in practice.</li>
+        <li>Fixed a crash due to ES6 modules.<br>
         </li>
       </ul>
       <ul>
