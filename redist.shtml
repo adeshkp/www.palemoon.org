@@ -64,7 +64,7 @@ exception</span> and under specific
 circumstances. <span style="font-weight: bold;">Even though the assets
 are included in our source tree,
 you have no rights to use them or include them in any resulting
-binaries, regardless of how they are produced</span>, unless explicitly
+software, regardless of how it is produced</span>, unless explicitly
 granted by agreement or stated exceptions below.<br>
       <br>
 This license covers redistribution of officially supplied binaries and
@@ -76,10 +76,10 @@ Moon or including it in a distribution framework.<br>
       <br>
       <hr class="c3">
       <h3> Redistribution license </h3>
-      <span class="c2">Last updated:</span> 30 May 2019<br>
+      <span class="c2">Last updated:</span> 01 March 2020<br>
       <br>
-If you wish to redistribute the binaries (executable form of the code)
-of Pale Moon, you are free to do so, with the following limitations:<br>
+If you wish to redistribute Pale Moon, you are free to do so, with the
+following limitations and restrictions:<br>
       <ol>
         <li>There is NO CHARGE for the download or distribution of the
 browser package.<br>
@@ -121,38 +121,54 @@ Redistribution is therefore <span class="c2">not permitted</span> if,
 without limitation:
           <ol type="a">
             <li>You have re-packed the browser in a different archive
-format (either common or proprietary)<br>
-(an exception to this is re-packaging required for specific target
-operating systems, e.g. rpm, deb, pet)</li>
+format (either common or proprietary).</li>
+            <ol style="list-style-type: lower-roman;">
+              <li>An exception to this is re-packaging required for
+specific target
+operating systems' package management, e.g. rpm, deb, pet.</li>
+              <li>This exception is only permitted if repackaging does
+not materially alter the browser or its configuration.<br>
+              </li>
+            </ol>
             <li>The binaries are packaged in "bundle" archive formats
 like AppImage, flatpak, SNAP or similar formats that include any other
 libraries or files not in the original package.<br>
             </li>
-            <li>You have added language packs/add-ons/plugins/etc. </li>
-            <li>You have added third-party
-tools/toolbars/utilities/etc. </li>
-            <li>You have changed supplied default preferences of the
-browser </li>
-            <li>You include a pre-set profile </li>
-            <li>You have removed any component from the browser package
+            <li>You have added language packs/add-ons/plugins/etc. to
+the downloadable/installable unit<br>
             </li>
+            <li>You have added third-party
+tools/toolbars/utilities/etc. to the downloadable/installable unit.<br>
+            </li>
+            <li>You have changed supplied default preferences of the
+browser, including but not limited to search engines, home page,
+network settings and rendering settings.<br>
+            </li>
+            <li>You include a pre-set user profile or template.<br>
+            </li>
+            <li>You have removed any component from the browser
+package. </li>
             <li>You have edited or removed text or script files
-(including license files, readmes, JavaScript modules, etc.) </li>
+(including license files, readmes, JavaScript modules, etc.). </li>
             <li>The binaries have been in any way infected with or
-include a virus, trojan, or other malware<br>
+include a virus, trojan, or other malware.<br>
             </li>
             <li>The binaries and program structure have been in any way
 obscured (e.g. by using application virtualization) making it difficult
-or impossible to check for the previously listed alterations</li>
+or impossible to check for the previously listed alterations.</li>
           </ol>
         </li>
-        <li>The binaries can be obtained without the use of third-party
+        <li>The browser can be obtained without the use of third-party
 software not officially endorsed, including but not limited to:
 download managers, stub installers, wrappers, proprietary clients or
 proprietary protocols. This includes any offering of such unendorsed
 downloading software or methods, regardless of offering "direct"
-downloads or allowed methods alongside the unendorsed ones.<br>
-        </li>
+downloads or allowed methods alongside the unendorsed ones.</li>
+        <ol style="list-style-type: lower-alpha;">
+          <li>An exception to this is system-supplied package managers
+for various Linux distributions.<br>
+          </li>
+        </ol>
         <li>The binaries are not supplied or built as an integral part
 of a
 commercial/non-commercial software package/larger works ("package"). If
@@ -181,7 +197,8 @@ target operating system from source that have not been materially
 changed (including build configuration not necessary for the resulting
 binary's proper operation and brand-specific configurations like e.g.
 home page,
-default search engine). If any of the essential settings of the browser
+default search engine). If any of the essential settings or build
+configuration of the browser
 are altered beyond what is strictly needed for providing a working and
 stable
 build on the target operating system, the exception in this point does
@@ -200,7 +217,8 @@ in principle allowed if an actual variant build is required for the
 target distribution's compatibility (e.g. kernel or library
 requirements) or operation, and otherwise not
 impacting the material content of the browser package as a whole. QA of
-and support for the resulting variant binaries will in that case fall
+and user support for the resulting variant binaries will in that case
+fall
 on the maintainer who will have to take full responsibility for the
 variant binary.</li>
             <li>When redistributing the browser in source form through
@@ -252,7 +270,7 @@ binaries on the target system.<br>
         </li>
         <li>If a distribution is authorized as per point 10, the
 contributed build may be redistributed <span class="c2">in unaltered
-form</span> by third parties as set out in the points above and under
+form</span> by third parties as set out in the points above, and under
 the same conditions. </li>
         <li>If you wish to distribute binaries for other platforms,
 building from Pale Moon source code, you may <span
@@ -273,8 +291,31 @@ license and may be freely distributed in altered or unaltered form,
 subject to the Mozilla Public License as regards source code changes
 and availability. This permission does, however, not include any rights
 or license to the Pale Moon name and logo that may still be present in
-the resulting unofficially branded binaries.<br>
-        </li>
+the resulting unofficially branded binaries.</li>
+        <li>We reserve the right to withdraw permission for the use of
+official branding and/or redistribution of officially-branded binaries
+either as a whole or for specific target environments at any time, with
+or without stated reason. If this permission is withdrawn, you must
+remove any and all copies of the officially-branded browser or imposed
+build configuration with official branding from your distribution
+channel(s)/system(s) and cease distributing the officially-branded
+software
+immediately.</li>
+        <ol style="list-style-type: lower-alpha;">
+          <li>Withdrawal of permission is done via notice from the
+trademark owner(s), either publicly or privately.<br>
+          </li>
+          <li>Withdrawal of permission overrules any exception or
+exemption that may exist (e.g. those listed under points 7 and 8).</li>
+          <li>Withdrawal of permission terminates any individual
+agreements that may exist with third parties if they are in conflict
+with a withdrawal notice, and the withdrawal is explicitly including
+the third party (e.g. by name or product name).<br>
+          </li>
+        </ol>
+        <li>At all times, the latest version of this redistribution
+license will prevail in case of a conflict of terms of the latest
+version with any previously existing versions of this license.</li>
       </ol>
       <hr class="c3"> <br>
 This license may be updated without notice, so please make sure to
