@@ -32,6 +32,15 @@ a fix is "Defense-in-Depth": It is a fix that does not apply to a
 prevents future vulnerabilities caused by the same code, e.g. when
 surrounding code changes, exposing the problem, or when new attack
 vectors are discovered.<br>
+      <h3><a name="v28.8.4"></a>v28.8.4 (2020-03-01)</h3>
+This is a small security and compatibility update.<br>
+      <br>
+      <span style="font-weight: bold;">Changes/fixes:</span><br>
+      <ul>
+        <li>Implemented optional catch binding (ES2019).</li>
+        <li>Fixed a hazardous crash related to module scripting.<br>
+        </li>
+      </ul>
       <h3><a name="v28.8.3"></a>v28.8.3 (2020-02-18)</h3>
 This is a regular maintenance bugfix and security release.<br>
       <br>
