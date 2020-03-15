@@ -135,7 +135,7 @@ encrypted in the background or not.<br>
 These options are transitional technology and aren't particularly
 secure in themselves, and as such are not recommended to be used. They
 interfere with e.g. in-transit caching of web content and may give you
-an incorrectlt presented state of the connection. Enabling these
+an incorrectly presented state of the connection. Enabling these
 options may expose you to more ways of being tracked, so this is a
 privacy concern as well.<br>
       <ul>
